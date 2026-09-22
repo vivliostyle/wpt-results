@@ -94,10 +94,10 @@
   reference: css/css-will-change/will-change-transform-add-content-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004591729638958858, diffPixels=385
+  canary page 1: diffRatio=0.00046036562094496603, diffPixels=386
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004591729638958858, diffPixels=385
+  stable page 1: diffRatio=0.00046036562094496603, diffPixels=386
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

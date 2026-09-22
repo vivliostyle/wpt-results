@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 430
-- Entries with differences: 132 (improvement: 1, pending: 131, triaged: 0)
-- Entries with errors: 8 (pending: 8, triaged: 0)
-- Timeout entries: 8
+- Entries with differences: 131 (pending: 131, triaged: 0)
+- Entries with errors: 9 (pending: 9, triaged: 0)
+- Timeout entries: 9
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":290,"known-fail":131,"improvement":1,"error":8}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":290,"known-fail":130,"error":9,"changed-fail":1}
 
 ## Differences
 
@@ -120,11 +120,11 @@
   reference: css/css-contain/reference/contain-body-w-m-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-body-w-m-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  canary page 1: diffRatio=0.025987997099458055, diffPixels=21790
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-body-w-m-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  stable page 1: diffRatio=0.025987997099458055, diffPixels=21790
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0019] [WPT reftest] css/css-contain/contain-body-w-m-002.html
@@ -133,11 +133,11 @@
   reference: css/css-contain/reference/contain-body-w-m-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-body-w-m-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02542267765819403, diffPixels=21316
+  canary page 1: diffRatio=0.02543102625753759, diffPixels=21323
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-body-w-m-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02542267765819403, diffPixels=21316
+  stable page 1: diffRatio=0.02543102625753759, diffPixels=21323
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0020] [WPT reftest] css/css-contain/contain-body-w-m-003.html
@@ -146,11 +146,11 @@
   reference: css/css-contain/reference/contain-body-w-m-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-body-w-m-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  canary page 1: diffRatio=0.025987997099458055, diffPixels=21790
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-body-w-m-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  stable page 1: diffRatio=0.025987997099458055, diffPixels=21790
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT reftest] css/css-contain/contain-body-w-m-004.html
@@ -159,11 +159,11 @@
   reference: css/css-contain/reference/contain-body-w-m-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-body-w-m-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  canary page 1: diffRatio=0.025987997099458055, diffPixels=21790
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-body-w-m-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  stable page 1: diffRatio=0.025987997099458055, diffPixels=21790
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT reftest] css/css-contain/contain-content-004.html
@@ -185,11 +185,11 @@
   reference: css/css-contain/reference/contain-content-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-content-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004412831081596825, diffPixels=370
+  canary page 1: diffRatio=0.00044009045111060224, diffPixels=369
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-content-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-content-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004412831081596825, diffPixels=370
+  stable page 1: diffRatio=0.00044009045111060224, diffPixels=369
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-content-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0027] [WPT reftest] css/css-contain/contain-html-bg-001.html
@@ -302,11 +302,11 @@
   reference: css/css-contain/reference/contain-body-w-m-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-html-w-m-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  canary page 1: diffRatio=0.025987997099458055, diffPixels=21790
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-html-w-m-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  stable page 1: diffRatio=0.025987997099458055, diffPixels=21790
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0044] [WPT reftest] css/css-contain/contain-html-w-m-002.html
@@ -315,11 +315,11 @@
   reference: css/css-contain/reference/contain-body-w-m-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-html-w-m-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02542267765819403, diffPixels=21316
+  canary page 1: diffRatio=0.02543102625753759, diffPixels=21323
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-html-w-m-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02542267765819403, diffPixels=21316
+  stable page 1: diffRatio=0.02543102625753759, diffPixels=21323
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0045] [WPT reftest] css/css-contain/contain-html-w-m-003.html
@@ -328,11 +328,11 @@
   reference: css/css-contain/reference/contain-body-w-m-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-html-w-m-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  canary page 1: diffRatio=0.025987997099458055, diffPixels=21790
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-html-w-m-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  stable page 1: diffRatio=0.025987997099458055, diffPixels=21790
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/css-contain/contain-html-w-m-004.html
@@ -341,11 +341,11 @@
   reference: css/css-contain/reference/contain-body-w-m-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-html-w-m-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  canary page 1: diffRatio=0.025987997099458055, diffPixels=21790
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-html-w-m-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025983226471261736, diffPixels=21786
+  stable page 1: diffRatio=0.025987997099458055, diffPixels=21790
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-body-w-m-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/css-contain/contain-inline-size-bfc-floats-001.html
@@ -406,11 +406,11 @@
   reference: css/css-contain/contain-layout-baseline-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-layout-baseline-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00001669719868712312, diffPixels=14
+  canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-layout-baseline-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-baseline-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00001669719868712312, diffPixels=14
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-baseline-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0091] [WPT reftest] css/css-contain/contain-layout-cell-001.html
@@ -419,11 +419,11 @@
   reference: css/css-contain/reference/contain-layout-cell-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-layout-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011807304785894208, diffPixels=990
+  canary page 1: diffRatio=0.0011843084497366613, diffPixels=993
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-layout-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011807304785894208, diffPixels=990
+  stable page 1: diffRatio=0.0011843084497366613, diffPixels=993
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-layout-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0092] [WPT reftest] css/css-contain/contain-layout-cell-002.html
@@ -575,11 +575,11 @@
   reference: css/css-contain/reference/contain-size-051-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-052.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00029458629112281504, diffPixels=247
+  canary page 1: diffRatio=0.00029339363407373484, diffPixels=246
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-size-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-052.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00029458629112281504, diffPixels=247
+  stable page 1: diffRatio=0.00029339363407373484, diffPixels=246
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-size-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0239] [WPT reftest] css/css-contain/contain-size-flexbox-002.html
@@ -595,23 +595,17 @@
   stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-size-flexbox-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0260] [WPT reftest] css/css-contain/contain-size-replaced-003b.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0281] [WPT reftest] css/css-contain/contain-strict-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-strict-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-strict-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002000085871307534, diffPixels=1677
+  canary page 1: diffRatio=0.0019977005572093735, diffPixels=1675
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-strict-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-strict-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002000085871307534, diffPixels=1677
+  stable page 1: diffRatio=0.0019977005572093735, diffPixels=1675
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-strict-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0288] [WPT reftest] css/css-contain/contain-style-counters-001.html
@@ -646,11 +640,11 @@
   reference: css/css-contain/reference/contain-style-counters-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-style-counters-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000240916723914205, diffPixels=202
+  canary page 1: diffRatio=0.00024210938096328523, diffPixels=203
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-style-counters-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000240916723914205, diffPixels=202
+  stable page 1: diffRatio=0.00024210938096328523, diffPixels=203
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0292] [WPT reftest] css/css-contain/contain-style-counters-005.html
@@ -659,11 +653,11 @@
   reference: css/css-contain/reference/contain-style-counters-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-style-counters-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00022541218227616213, diffPixels=189
+  canary page 1: diffRatio=0.0002289901534234028, diffPixels=192
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-style-counters-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00022541218227616213, diffPixels=189
+  stable page 1: diffRatio=0.0002289901534234028, diffPixels=192
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0295] [WPT reftest] css/css-contain/contain-style-ol-ordinal-pseudo-reversed.html
@@ -672,11 +666,11 @@
   reference: css/css-contain/reference/contain-style-ol-ordinal-pseudo-reversed-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-pseudo-reversed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000925501870086253, diffPixels=776
+  canary page 1: diffRatio=0.0009338504694298145, diffPixels=783
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-pseudo-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-pseudo-reversed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000925501870086253, diffPixels=776
+  stable page 1: diffRatio=0.0009338504694298145, diffPixels=783
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-pseudo-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0296] [WPT reftest] css/css-contain/contain-style-ol-ordinal-pseudo.html
@@ -685,11 +679,11 @@
   reference: css/css-contain/reference/contain-style-ol-ordinal-pseudo-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-pseudo.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004651362491412869, diffPixels=390
+  canary page 1: diffRatio=0.0004734848484848485, diffPixels=397
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-pseudo-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-pseudo.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004651362491412869, diffPixels=390
+  stable page 1: diffRatio=0.0004734848484848485, diffPixels=397
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-pseudo-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0297] [WPT reftest] css/css-contain/contain-style-ol-ordinal-reversed.html
@@ -698,11 +692,11 @@
   reference: css/css-contain/reference/contain-style-ol-ordinal-reversed-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-reversed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002134856117853599, diffPixels=179
+  canary page 1: diffRatio=0.00021587092588352033, diffPixels=181
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-reversed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002134856117853599, diffPixels=179
+  stable page 1: diffRatio=0.00021587092588352033, diffPixels=181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0298] [WPT reftest] css/css-contain/contain-style-ol-ordinal-start-reversed.html
@@ -711,11 +705,11 @@
   reference: css/css-contain/reference/contain-style-ol-ordinal-start-reversed-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-start-reversed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00021229295473627967, diffPixels=178
+  canary page 1: diffRatio=0.0002134856117853599, diffPixels=179
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-start-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-start-reversed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00021229295473627967, diffPixels=178
+  stable page 1: diffRatio=0.0002134856117853599, diffPixels=179
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-start-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0299] [WPT reftest] css/css-contain/contain-style-ol-ordinal-start.html
@@ -724,11 +718,11 @@
   reference: css/css-contain/reference/contain-style-ol-ordinal-start-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-start.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001252289901534234, diffPixels=105
+  canary page 1: diffRatio=0.00012642164720250363, diffPixels=106
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-start-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal-start.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001252289901534234, diffPixels=105
+  stable page 1: diffRatio=0.00012642164720250363, diffPixels=106
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-start-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0300] [WPT reftest] css/css-contain/contain-style-ol-ordinal.html
@@ -737,11 +731,11 @@
   reference: css/css-contain/reference/contain-style-ol-ordinal-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00013119227539882451, diffPixels=110
+  canary page 1: diffRatio=0.00013357758949698496, diffPixels=112
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-style-ol-ordinal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00013119227539882451, diffPixels=110
+  stable page 1: diffRatio=0.00013357758949698496, diffPixels=112
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0304] [WPT reftest] css/css-contain/content-visibility/content-visibility-002.html
@@ -750,11 +744,11 @@
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  canary page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0307] [WPT reftest] css/css-contain/content-visibility/content-visibility-005.html
@@ -828,11 +822,11 @@
   reference: css/css-contain/content-visibility/container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003354944279062667, diffPixels=2813
+  canary page 1: diffRatio=0.0033537516220135868, diffPixels=2812
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003354944279062667, diffPixels=2813
+  stable page 1: diffRatio=0.0033537516220135868, diffPixels=2812
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0313] [WPT reftest] css/css-contain/content-visibility/content-visibility-011.html
@@ -841,11 +835,11 @@
   reference: css/css-contain/content-visibility/positioned-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0034420082436455233, diffPixels=2886
+  canary page 1: diffRatio=0.003440815586596443, diffPixels=2885
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/positioned-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0034420082436455233, diffPixels=2886
+  stable page 1: diffRatio=0.003440815586596443, diffPixels=2885
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/positioned-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0314] [WPT reftest] css/css-contain/content-visibility/content-visibility-012.html
@@ -854,11 +848,11 @@
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  canary page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0315] [WPT reftest] css/css-contain/content-visibility/content-visibility-013.html
@@ -867,11 +861,11 @@
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  canary page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0316] [WPT reftest] css/css-contain/content-visibility/content-visibility-014.html
@@ -880,11 +874,11 @@
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  canary page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0317] [WPT reftest] css/css-contain/content-visibility/content-visibility-019.sub.https.html
@@ -893,11 +887,11 @@
   reference: css/css-contain/content-visibility/content-visibility-019-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-019.sub.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001192657049080223, diffPixels=1000
+  canary page 1: diffRatio=0.001187886420883902, diffPixels=996
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-019.sub.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
+  stable page 1: diffRatio=0.001187886420883902, diffPixels=996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0318] [WPT reftest] css/css-contain/content-visibility/content-visibility-020.html
@@ -945,11 +939,11 @@
   reference: css/css-contain/content-visibility/content-visibility-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008034930539653462, diffPixels=6737
+  canary page 1: diffRatio=0.008037315853751621, diffPixels=6739
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008034930539653462, diffPixels=6737
+  stable page 1: diffRatio=0.008037315853751621, diffPixels=6739
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0322] [WPT reftest] css/css-contain/content-visibility/content-visibility-024.html
@@ -984,11 +978,11 @@
   reference: css/css-contain/content-visibility/container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004901820471719717, diffPixels=411
+  canary page 1: diffRatio=0.00048779673307381116, diffPixels=409
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004901820471719717, diffPixels=411
+  stable page 1: diffRatio=0.00048779673307381116, diffPixels=409
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0330] [WPT reftest] css/css-contain/content-visibility/content-visibility-040.html
@@ -1023,11 +1017,11 @@
   reference: css/css-contain/content-visibility/content-visibility-042-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-042.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00096366689565682, diffPixels=808
+  canary page 1: diffRatio=0.0009672448668040607, diffPixels=811
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-042-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-042.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00096366689565682, diffPixels=808
+  stable page 1: diffRatio=0.0009672448668040607, diffPixels=811
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-042-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0334] [WPT reftest] css/css-contain/content-visibility/content-visibility-045.html
@@ -1036,11 +1030,11 @@
   reference: css/css-contain/content-visibility/container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-045.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003606594916418594, diffPixels=3024
+  canary page 1: diffRatio=0.0036030169452713535, diffPixels=3021
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-045.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003606594916418594, diffPixels=3024
+  stable page 1: diffRatio=0.0036030169452713535, diffPixels=3021
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0337] [WPT reftest] css/css-contain/content-visibility/content-visibility-051.html
@@ -1049,11 +1043,11 @@
   reference: css/css-contain/content-visibility/container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-051.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025439374856881154, diffPixels=21330
+  canary page 1: diffRatio=0.025435796885733913, diffPixels=21327
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-051.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025439374856881154, diffPixels=21330
+  stable page 1: diffRatio=0.025435796885733913, diffPixels=21327
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0338] [WPT reftest] css/css-contain/content-visibility/content-visibility-052.html
@@ -1062,11 +1056,11 @@
   reference: css/css-contain/content-visibility/container-with-pos-children-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-052.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005058058545149225, diffPixels=4241
+  canary page 1: diffRatio=0.005059251202198306, diffPixels=4242
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-with-pos-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-052.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005058058545149225, diffPixels=4241
+  stable page 1: diffRatio=0.005059251202198306, diffPixels=4242
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-pos-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0340] [WPT reftest] css/css-contain/content-visibility/content-visibility-056.html
@@ -1088,11 +1082,11 @@
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-057.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  canary page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-057.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038498969544309594, diffPixels=3228
+  stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0343] [WPT reftest] css/css-contain/content-visibility/content-visibility-060.html
@@ -1192,11 +1186,11 @@
   reference: css/css-contain/content-visibility/inline-container-with-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-073.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.026141849858789406, diffPixels=21919
+  canary page 1: diffRatio=0.026139464544691245, diffPixels=21917
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/inline-container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-073.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.026141849858789406, diffPixels=21919
+  stable page 1: diffRatio=0.026139464544691245, diffPixels=21917
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/inline-container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0353] [WPT reftest] css/css-contain/content-visibility/content-visibility-075.html
@@ -1244,11 +1238,11 @@
   reference: css/css-contain/content-visibility/content-visibility-094-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-094.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014626746049919854, diffPixels=12264
+  canary page 1: diffRatio=0.014620782764674453, diffPixels=12259
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-094-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-094.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014626746049919854, diffPixels=12264
+  stable page 1: diffRatio=0.014620782764674453, diffPixels=12259
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-094-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0362] [WPT reftest] css/css-contain/content-visibility/content-visibility-095.html
@@ -1257,11 +1251,11 @@
   reference: css/css-contain/content-visibility/content-visibility-095-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-095.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008312819632089153, diffPixels=697
+  canary page 1: diffRatio=0.0008288966491107549, diffPixels=695
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-095-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-095.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008312819632089153, diffPixels=697
+  stable page 1: diffRatio=0.0008288966491107549, diffPixels=695
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-095-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0367] [WPT reftest] css/css-contain/content-visibility/content-visibility-animation-and-scroll.html
@@ -1335,11 +1329,11 @@
   reference: css/css-contain/content-visibility/content-visibility-hidden-and-innertext-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-hidden-and-innertext.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009398137546752156, diffPixels=788
+  canary page 1: diffRatio=0.0009243092130371728, diffPixels=775
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-hidden-and-innertext-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-hidden-and-innertext.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009398137546752156, diffPixels=788
+  stable page 1: diffRatio=0.0009243092130371728, diffPixels=775
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-hidden-and-innertext-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0381] [WPT reftest] css/css-contain/content-visibility/content-visibility-intrinsic-size-001.html
@@ -1361,11 +1355,11 @@
   reference: css/css-contain/content-visibility/content-visibility-on-g-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-on-g.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016924996183497444, diffPixels=14191
+  canary page 1: diffRatio=0.016919032898252043, diffPixels=14186
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-on-g-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-on-g.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.016924996183497444, diffPixels=14191
+  stable page 1: diffRatio=0.016919032898252043, diffPixels=14186
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-on-g-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0387] [WPT reftest] css/css-contain/content-visibility/content-visibility-paint-containment-002.html
@@ -1396,15 +1390,15 @@
 
 - [0391] [WPT reftest] css/css-contain/content-visibility/content-visibility-video.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-video-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04050501870086253, diffPixels=33962
+  canary page 1: diffRatio=0.039883644378291734, diffPixels=33441
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04106079688573391, diffPixels=34428
+  stable page 1: diffRatio=0.041250429356537666, diffPixels=34587
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0395] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-001.html
@@ -1467,11 +1461,11 @@
   reference: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 2: diffRatio=0.0020632966949087855, diffPixels=1730
+  canary page 2: diffRatio=0.002059718723761545, diffPixels=1727
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 2: diffRatio=0.0020632966949087855, diffPixels=1730
+  stable page 2: diffRatio=0.002059718723761545, diffPixels=1727
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0401] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-hide-after-addition.html
@@ -1493,11 +1487,11 @@
   reference: css/css-contain/content-visibility/container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009433917258224563, diffPixels=791
+  canary page 1: diffRatio=0.0009445843828715365, diffPixels=792
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009433917258224563, diffPixels=791
+  stable page 1: diffRatio=0.0009445843828715365, diffPixels=792
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0404] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-002.html
@@ -1506,11 +1500,11 @@
   reference: css/css-contain/content-visibility/container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001166418594000458, diffPixels=978
+  canary page 1: diffRatio=0.0011676112510495382, diffPixels=979
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001166418594000458, diffPixels=978
+  stable page 1: diffRatio=0.0011676112510495382, diffPixels=979
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0405] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-003.html
@@ -1519,11 +1513,11 @@
   reference: css/css-contain/content-visibility/content-with-top-layer-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0019953152431112127, diffPixels=1673
+  canary page 1: diffRatio=0.0019941225860621325, diffPixels=1672
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-with-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0019953152431112127, diffPixels=1673
+  stable page 1: diffRatio=0.0019941225860621325, diffPixels=1672
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-with-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0409] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-hide-after-addition.html
@@ -1532,11 +1526,11 @@
   reference: css/css-contain/content-visibility/container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-hide-after-addition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001011373177620029, diffPixels=848
+  canary page 1: diffRatio=0.0010101805205709488, diffPixels=847
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-hide-after-addition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001011373177620029, diffPixels=848
+  stable page 1: diffRatio=0.0010101805205709488, diffPixels=847
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0410] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-in-auto-subtree-removal.html
@@ -1545,11 +1539,11 @@
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-in-auto-subtree-removal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00326310968628349, diffPixels=2736
+  canary page 1: diffRatio=0.0032619170292344096, diffPixels=2735
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-in-auto-subtree-removal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00326310968628349, diffPixels=2736
+  stable page 1: diffRatio=0.0032619170292344096, diffPixels=2735
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0411] [WPT reftest] css/css-contain/content-visibility/dynamic-change-paint-fully-obscuring-child-001.html
@@ -1571,11 +1565,11 @@
   reference: css/css-contain/content-visibility/dynamic-change-with-slotted-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/dynamic-change-with-slotted-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006309155789634379, diffPixels=529
+  canary page 1: diffRatio=0.0006333008930615984, diffPixels=531
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/dynamic-change-with-slotted-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/dynamic-change-with-slotted-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006309155789634379, diffPixels=529
+  stable page 1: diffRatio=0.0006333008930615984, diffPixels=531
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/dynamic-change-with-slotted-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0415] [WPT reftest] css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden.html
@@ -1610,11 +1604,11 @@
   reference: css/css-contain/reference/counter-scoping-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/counter-scoping-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  canary page 1: diffRatio=0.00004889893901228914, diffPixels=41
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/reference/counter-scoping-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/counter-scoping-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  stable page 1: diffRatio=0.00004889893901228914, diffPixels=41
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/counter-scoping-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0418] [WPT reftest] css/css-contain/counter-scoping-002.html
@@ -1723,11 +1717,19 @@
 
 ## Errors
 
+- [0259] [WPT reftest] css/css-contain/contain-size-replaced-003a.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0336] [WPT reftest] css/css-contain/content-visibility/content-visibility-049.html
   triage: pending
   side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary timeout: false
+  canary error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1737,7 +1739,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1749,7 +1751,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

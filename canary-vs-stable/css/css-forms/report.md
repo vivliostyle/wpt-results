@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":13,"pass":3}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":12,"pass":3,"changed-fail":1}
 
 ## Differences
 
@@ -81,11 +81,11 @@
   reference: css/css-forms/input-number-base-appearance-rendering-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003628062743302038, diffPixels=3042
+  canary page 1: diffRatio=0.003626870086252958, diffPixels=3041
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003628062743302038, diffPixels=3042
+  stable page 1: diffRatio=0.003626870086252958, diffPixels=3041
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/input-number-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0009] [WPT reftest] css/css-forms/input-search-base-appearance-rendering.tentative.html
@@ -142,7 +142,7 @@
 
 - [0013] [WPT reftest] css/css-forms/progress-base-appearance-rendering.tentative.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-forms/progress-base-appearance-rendering-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/progress-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -172,10 +172,10 @@
   reference: css/css-forms/textarea-base-appearance-rendering-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00791327952064728, diffPixels=6635
+  canary page 1: diffRatio=0.007912086863598199, diffPixels=6634
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00791327952064728, diffPixels=6635
+  stable page 1: diffRatio=0.007912086863598199, diffPixels=6634
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-forms/textarea-base-appearance-rendering-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

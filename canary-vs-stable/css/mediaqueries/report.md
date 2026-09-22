@@ -549,11 +549,11 @@
   reference: css/mediaqueries/scripting-print-script-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/scripting-print-script.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003029348904663766, diffPixels=254
+  canary page 1: diffRatio=0.00030174223341729637, diffPixels=253
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/scripting-print-script-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/scripting-print-script.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003029348904663766, diffPixels=254
+  stable page 1: diffRatio=0.00030174223341729637, diffPixels=253
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/scripting-print-script-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0058] [WPT reftest] css/mediaqueries/viewport-script-dynamic.html
@@ -562,10 +562,10 @@
   reference: css/mediaqueries/viewport-script-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002588065796504084, diffPixels=217
+  canary page 1: diffRatio=0.00026119189374856883, diffPixels=219
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002588065796504084, diffPixels=217
+  stable page 1: diffRatio=0.00026119189374856883, diffPixels=219
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

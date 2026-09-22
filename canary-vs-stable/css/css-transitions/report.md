@@ -29,11 +29,11 @@
   reference: css/css-transitions/inherit-background-color-transition-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6395146362873063, diffPixels=536210
+  canary page 1: diffRatio=0.6395122509732082, diffPixels=536208
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6395146362873063, diffPixels=536210
+  stable page 1: diffRatio=0.6395122509732082, diffPixels=536208
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transitions/inherit-background-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0003] [WPT reftest] css/css-transitions/pseudo-element-transform.html
@@ -55,10 +55,10 @@
   reference: css/css-transitions/root-color-transition-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transitions/root-color-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015242157087245248, diffPixels=1278
+  canary page 1: diffRatio=0.0015218303946263644, diffPixels=1276
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transitions/root-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transitions/root-color-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015242157087245248, diffPixels=1278
+  stable page 1: diffRatio=0.0015218303946263644, diffPixels=1276
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transitions/root-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

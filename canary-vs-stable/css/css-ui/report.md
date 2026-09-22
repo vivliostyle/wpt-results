@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1194
-- Entries with differences: 590 (pending: 590, triaged: 0)
+- Entries with differences: 605 (improvement: 1, pending: 604, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"pass":374,"known-fail":589,"unchanged":230,"changed":1}
+- Outcome summary: {"pass":358,"known-fail":604,"improvement":1,"unchanged":231}
 
 ## Differences
 
@@ -49,17 +49,221 @@
   stable page 1: diffRatio=0.0006034844668345927, diffPixels=506
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-invalidate-author-styling-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0032] [WPT reftest] css/css-ui/box-sizing-010.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0033] [WPT reftest] css/css-ui/box-sizing-011.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0034] [WPT reftest] css/css-ui/box-sizing-012.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-012-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008261535378978705, diffPixels=6927
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008261535378978705, diffPixels=6927
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0035] [WPT reftest] css/css-ui/box-sizing-013.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-013-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008261535378978705, diffPixels=6927
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008261535378978705, diffPixels=6927
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0036] [WPT reftest] css/css-ui/box-sizing-014.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0037] [WPT reftest] css/css-ui/box-sizing-015.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0038] [WPT reftest] css/css-ui/box-sizing-016.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0039] [WPT reftest] css/css-ui/box-sizing-017.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0040] [WPT reftest] css/css-ui/box-sizing-018.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0041] [WPT reftest] css/css-ui/box-sizing-019.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-010-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0057569555759102355, diffPixels=4827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0042] [WPT reftest] css/css-ui/box-sizing-020.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-020-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02006884016487291, diffPixels=16827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02006884016487291, diffPixels=16827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0043] [WPT reftest] css/css-ui/box-sizing-021.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-020-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02006884016487291, diffPixels=16827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02006884016487291, diffPixels=16827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0044] [WPT reftest] css/css-ui/box-sizing-022.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-022-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02316974849248149, diffPixels=19427
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02316974849248149, diffPixels=19427
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0045] [WPT reftest] css/css-ui/box-sizing-023.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-023-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.046426560949545836, diffPixels=38927
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.046426560949545836, diffPixels=38927
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0046] [WPT reftest] css/css-ui/box-sizing-024.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-020-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02006884016487291, diffPixels=16827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02006884016487291, diffPixels=16827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0047] [WPT reftest] css/css-ui/box-sizing-025.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ui/reference/box-sizing-020-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/box-sizing-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02006884016487291, diffPixels=16827
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/box-sizing-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02006884016487291, diffPixels=16827
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/reference/box-sizing-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0050] [WPT reftest] css/css-ui/caret-color-block-shape-text-color-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ui/caret-color-block-shape-text-color-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003681732310510648, diffPixels=3087
+  canary page 1: diffRatio=0.0036793469964124877, diffPixels=3085
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003681732310510648, diffPixels=3087
+  stable page 1: diffRatio=0.0036793469964124877, diffPixels=3085
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0051] [WPT reftest] css/css-ui/caret-color-block-shape-text-color-002.html
@@ -68,11 +272,11 @@
   reference: css/css-ui/caret-color-block-shape-text-color-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  canary page 1: diffRatio=0.00310448629875582, diffPixels=2603
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  stable page 1: diffRatio=0.00310448629875582, diffPixels=2603
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0052] [WPT reftest] css/css-ui/caret-color-block-shape-text-color-003.html
@@ -81,11 +285,11 @@
   reference: css/css-ui/caret-color-block-shape-text-color-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0041051255629341275, diffPixels=3442
+  canary page 1: diffRatio=0.004103932905885047, diffPixels=3441
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0041051255629341275, diffPixels=3442
+  stable page 1: diffRatio=0.004103932905885047, diffPixels=3441
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0053] [WPT reftest] css/css-ui/caret-color-block-shape-text-color-004.html
@@ -94,11 +298,11 @@
   reference: css/css-ui/caret-color-block-shape-text-color-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003681732310510648, diffPixels=3087
+  canary page 1: diffRatio=0.0036793469964124877, diffPixels=3085
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003681732310510648, diffPixels=3087
+  stable page 1: diffRatio=0.0036793469964124877, diffPixels=3085
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/css-ui/caret-color-block-shape-text-color-005.html
@@ -107,11 +311,11 @@
   reference: css/css-ui/caret-color-block-shape-text-color-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0041051255629341275, diffPixels=3442
+  canary page 1: diffRatio=0.004103932905885047, diffPixels=3441
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0041051255629341275, diffPixels=3442
+  stable page 1: diffRatio=0.004103932905885047, diffPixels=3441
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-block-shape-text-color-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-ui/caret-eol-001.html
@@ -159,11 +363,11 @@
   reference: css/css-ui/caret-shape-block-color-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  canary page 1: diffRatio=0.00310448629875582, diffPixels=2603
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-color-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  stable page 1: diffRatio=0.00310448629875582, diffPixels=2603
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-color-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0072] [WPT reftest] css/css-ui/caret-shape-block-color-002.tentative.html
@@ -172,11 +376,11 @@
   reference: css/css-ui/caret-shape-block-color-002-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-color-002.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  canary page 1: diffRatio=0.00310448629875582, diffPixels=2603
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-color-002-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-color-002.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  stable page 1: diffRatio=0.00310448629875582, diffPixels=2603
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-color-002-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0073] [WPT reftest] css/css-ui/caret-shape-block-color-003.tentative.html
@@ -185,11 +389,11 @@
   reference: css/css-ui/caret-shape-block-color-003-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-color-003.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  canary page 1: diffRatio=0.00310448629875582, diffPixels=2603
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-color-003-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-color-003.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  stable page 1: diffRatio=0.00310448629875582, diffPixels=2603
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-color-003-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0074] [WPT reftest] css/css-ui/caret-shape-block-color-004.tentative.html
@@ -198,11 +402,11 @@
   reference: css/css-ui/caret-shape-block-color-004-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-color-004.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  canary page 1: diffRatio=0.00310448629875582, diffPixels=2603
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-color-004-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-color-004.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0031068716128539804, diffPixels=2605
+  stable page 1: diffRatio=0.00310448629875582, diffPixels=2603
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-color-004-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0075] [WPT reftest] css/css-ui/caret-shape-block-empty-001.html
@@ -250,11 +454,11 @@
   reference: css/css-ui/caret-shape-block-zoom-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-zoom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0044867758186397984, diffPixels=3762
+  canary page 1: diffRatio=0.004485583161590719, diffPixels=3761
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-zoom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-zoom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0044867758186397984, diffPixels=3762
+  stable page 1: diffRatio=0.004485583161590719, diffPixels=3761
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-zoom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0079] [WPT reftest] css/css-ui/caret-shape-underscore-001.html
@@ -286,11 +490,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-all-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-background-attachment-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  canary page 1: diffRatio=0.022573419967941377, diffPixels=18927
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-background-attachment-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  stable page 1: diffRatio=0.022573419967941377, diffPixels=18927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0083] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-background-color-001.html
@@ -312,11 +516,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-all-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  canary page 1: diffRatio=0.022573419967941377, diffPixels=18927
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  stable page 1: diffRatio=0.022573419967941377, diffPixels=18927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0085] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-block-start-style-001.html
@@ -325,11 +529,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-all-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  canary page 1: diffRatio=0.022573419967941377, diffPixels=18927
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  stable page 1: diffRatio=0.022573419967941377, diffPixels=18927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0086] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-block-start-width-001.html
@@ -351,11 +555,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-all-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  canary page 1: diffRatio=0.022573419967941377, diffPixels=18927
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  stable page 1: diffRatio=0.022573419967941377, diffPixels=18927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0088] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-color-001.html
@@ -364,11 +568,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-all-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  canary page 1: diffRatio=0.022573419967941377, diffPixels=18927
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  stable page 1: diffRatio=0.022573419967941377, diffPixels=18927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0089] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-left-radius-001.html
@@ -377,11 +581,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-all-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  canary page 1: diffRatio=0.022573419967941377, diffPixels=18927
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  stable page 1: diffRatio=0.022573419967941377, diffPixels=18927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0090] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-style-001.html
@@ -390,11 +594,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-all-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  canary page 1: diffRatio=0.022573419967941377, diffPixels=18927
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022592502480726664, diffPixels=18943
+  stable page 1: diffRatio=0.022573419967941377, diffPixels=18927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0091] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-width-001.html
@@ -416,11 +620,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0099] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-end-color-001.html
@@ -429,11 +633,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0100] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-end-style-001.html
@@ -442,11 +646,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0101] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-end-width-001.html
@@ -455,11 +659,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00048302610487749027, diffPixels=405
+  canary page 1: diffRatio=0.00048183344782841, diffPixels=404
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00048302610487749027, diffPixels=405
+  stable page 1: diffRatio=0.00048183344782841, diffPixels=404
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0102] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-start-color-001.html
@@ -468,11 +672,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0103] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-start-style-001.html
@@ -481,11 +685,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0104] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-start-width-001.html
@@ -494,11 +698,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00033752194488970307, diffPixels=283
+  canary page 1: diffRatio=0.0003363292878406229, diffPixels=282
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00033752194488970307, diffPixels=283
+  stable page 1: diffRatio=0.0003363292878406229, diffPixels=282
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0105] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-color-001.html
@@ -507,11 +711,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0106] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-left-radius-001.html
@@ -520,11 +724,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0107] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-right-radius-001.html
@@ -533,11 +737,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0108] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-style-001.html
@@ -546,11 +750,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0109] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-width-001.html
@@ -559,11 +763,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00048302610487749027, diffPixels=405
+  canary page 1: diffRatio=0.00048183344782841, diffPixels=404
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00048302610487749027, diffPixels=405
+  stable page 1: diffRatio=0.00048183344782841, diffPixels=404
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0110] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-end-end-radius-001.html
@@ -572,11 +776,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0111] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-end-start-radius-001.html
@@ -585,11 +789,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0112] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-outset-001.html
@@ -598,11 +802,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0113] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-repeat-001.html
@@ -611,11 +815,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0114] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-slice-001.html
@@ -624,11 +828,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0115] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-source-001.html
@@ -637,11 +841,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0116] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-width-001.html
@@ -650,11 +854,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0117] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-end-color-001.html
@@ -663,11 +867,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0118] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-end-style-001.html
@@ -676,11 +880,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0119] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-end-width-001.html
@@ -689,11 +893,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005223837874971377, diffPixels=438
+  canary page 1: diffRatio=0.0005211911304480574, diffPixels=437
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005223837874971377, diffPixels=438
+  stable page 1: diffRatio=0.0005211911304480574, diffPixels=437
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0120] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-start-color-001.html
@@ -702,11 +906,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0121] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-start-style-001.html
@@ -715,11 +919,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0122] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-inline-start-width-001.html
@@ -741,11 +945,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0124] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-left-style-001.html
@@ -754,11 +958,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0125] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-left-width-001.html
@@ -780,11 +984,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0127] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-right-style-001.html
@@ -793,11 +997,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0128] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-right-width-001.html
@@ -806,11 +1010,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005223837874971377, diffPixels=438
+  canary page 1: diffRatio=0.0005211911304480574, diffPixels=437
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005223837874971377, diffPixels=438
+  stable page 1: diffRatio=0.0005211911304480574, diffPixels=437
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0129] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-start-end-radius-001.html
@@ -819,11 +1023,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0130] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-start-start-radius-001.html
@@ -832,11 +1036,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0131] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-color-001.html
@@ -845,11 +1049,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0132] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-left-radius-001.html
@@ -858,11 +1062,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0133] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-right-radius-001.html
@@ -871,11 +1075,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0134] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-style-001.html
@@ -884,11 +1088,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  canary page 1: diffRatio=0.0005474295855278223, diffPixels=459
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
+  stable page 1: diffRatio=0.0005474295855278223, diffPixels=459
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0135] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html
@@ -897,11 +1101,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00033752194488970307, diffPixels=283
+  canary page 1: diffRatio=0.0003363292878406229, diffPixels=282
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00033752194488970307, diffPixels=283
+  stable page 1: diffRatio=0.0003363292878406229, diffPixels=282
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0181] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-color-input-background-clip-001.html
@@ -1404,11 +1608,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0231] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-end-color-001.html
@@ -1417,11 +1621,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0232] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-end-style-001.html
@@ -1430,11 +1634,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0233] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-end-width-001.html
@@ -1443,11 +1647,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007847683382947866, diffPixels=658
+  canary page 1: diffRatio=0.0007835756812457064, diffPixels=657
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007847683382947866, diffPixels=658
+  stable page 1: diffRatio=0.0007835756812457064, diffPixels=657
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0234] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-start-color-001.html
@@ -1456,11 +1660,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0235] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-start-style-001.html
@@ -1469,11 +1673,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0236] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-start-width-001.html
@@ -1482,11 +1686,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005223837874971377, diffPixels=438
+  canary page 1: diffRatio=0.000518805816349897, diffPixels=435
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005223837874971377, diffPixels=438
+  stable page 1: diffRatio=0.000518805816349897, diffPixels=435
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0237] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-color-001.html
@@ -1495,11 +1699,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0238] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-left-radius-001.html
@@ -1508,11 +1712,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0239] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-right-radius-001.html
@@ -1521,11 +1725,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0240] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-style-001.html
@@ -1534,11 +1738,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0241] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-width-001.html
@@ -1547,11 +1751,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007847683382947866, diffPixels=658
+  canary page 1: diffRatio=0.0007835756812457064, diffPixels=657
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007847683382947866, diffPixels=658
+  stable page 1: diffRatio=0.0007835756812457064, diffPixels=657
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0242] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-end-end-radius-001.html
@@ -1560,11 +1764,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0243] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-end-start-radius-001.html
@@ -1573,11 +1777,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0244] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-outset-001.html
@@ -1586,11 +1790,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0245] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-repeat-001.html
@@ -1599,11 +1803,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0246] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-slice-001.html
@@ -1612,11 +1816,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0247] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-source-001.html
@@ -1625,11 +1829,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0248] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-width-001.html
@@ -1638,11 +1842,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0249] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-end-color-001.html
@@ -1651,11 +1855,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0250] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-end-style-001.html
@@ -1664,11 +1868,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0251] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-end-width-001.html
@@ -1677,11 +1881,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008634837035340813, diffPixels=724
+  canary page 1: diffRatio=0.0008622910464850011, diffPixels=723
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008634837035340813, diffPixels=724
+  stable page 1: diffRatio=0.0008622910464850011, diffPixels=723
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0252] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-start-color-001.html
@@ -1690,11 +1894,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0253] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-start-style-001.html
@@ -1703,11 +1907,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0254] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-start-width-001.html
@@ -1716,11 +1920,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000583209297000229, diffPixels=489
+  canary page 1: diffRatio=0.0005844019540493092, diffPixels=490
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000583209297000229, diffPixels=489
+  stable page 1: diffRatio=0.0005844019540493092, diffPixels=490
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0255] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-left-color-001.html
@@ -1729,11 +1933,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0256] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-left-style-001.html
@@ -1742,11 +1946,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0257] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-left-width-001.html
@@ -1755,11 +1959,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000583209297000229, diffPixels=489
+  canary page 1: diffRatio=0.0005844019540493092, diffPixels=490
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000583209297000229, diffPixels=489
+  stable page 1: diffRatio=0.0005844019540493092, diffPixels=490
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0258] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-right-color-001.html
@@ -1768,11 +1972,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0259] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-right-style-001.html
@@ -1781,11 +1985,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0260] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-right-width-001.html
@@ -1794,11 +1998,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008634837035340813, diffPixels=724
+  canary page 1: diffRatio=0.0008622910464850011, diffPixels=723
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008634837035340813, diffPixels=724
+  stable page 1: diffRatio=0.0008622910464850011, diffPixels=723
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0261] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-start-end-radius-001.html
@@ -1807,11 +2011,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0262] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-start-start-radius-001.html
@@ -1820,11 +2024,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0263] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-color-001.html
@@ -1833,11 +2037,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0264] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-left-radius-001.html
@@ -1846,11 +2050,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0265] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-right-radius-001.html
@@ -1859,11 +2063,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0266] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-style-001.html
@@ -1872,11 +2076,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008885295015647661, diffPixels=745
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008885295015647661, diffPixels=745
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0267] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-width-001.html
@@ -1885,11 +2089,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005223837874971377, diffPixels=438
+  canary page 1: diffRatio=0.000518805816349897, diffPixels=435
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005223837874971377, diffPixels=438
+  stable page 1: diffRatio=0.000518805816349897, diffPixels=435
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0269] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-background-clip-001.html
@@ -1898,11 +2102,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0275] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-end-color-001.html
@@ -1911,11 +2115,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0276] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-end-style-001.html
@@ -1924,11 +2128,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0277] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-end-width-001.html
@@ -1937,11 +2141,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007155942294481337, diffPixels=600
+  canary page 1: diffRatio=0.0007144015723990535, diffPixels=599
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007155942294481337, diffPixels=600
+  stable page 1: diffRatio=0.0007144015723990535, diffPixels=599
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0278] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-start-color-001.html
@@ -1950,11 +2154,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0279] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-start-style-001.html
@@ -1963,11 +2167,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0280] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-block-start-width-001.html
@@ -1989,11 +2193,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0282] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-left-radius-001.html
@@ -2002,11 +2206,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0283] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-right-radius-001.html
@@ -2015,11 +2219,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0284] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-style-001.html
@@ -2028,11 +2232,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0285] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-width-001.html
@@ -2041,11 +2245,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007155942294481337, diffPixels=600
+  canary page 1: diffRatio=0.0007144015723990535, diffPixels=599
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007155942294481337, diffPixels=600
+  stable page 1: diffRatio=0.0007144015723990535, diffPixels=599
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0286] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-end-end-radius-001.html
@@ -2054,11 +2258,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0287] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-end-start-radius-001.html
@@ -2067,11 +2271,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0288] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-outset-001.html
@@ -2080,11 +2284,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0289] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-repeat-001.html
@@ -2093,11 +2297,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0290] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-slice-001.html
@@ -2106,11 +2310,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0291] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-source-001.html
@@ -2119,11 +2323,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0292] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-width-001.html
@@ -2132,11 +2336,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0293] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-end-color-001.html
@@ -2145,11 +2349,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0294] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-end-style-001.html
@@ -2158,11 +2362,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0295] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-end-width-001.html
@@ -2171,11 +2375,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007859609953438668, diffPixels=659
+  canary page 1: diffRatio=0.0007847683382947866, diffPixels=658
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007859609953438668, diffPixels=659
+  stable page 1: diffRatio=0.0007847683382947866, diffPixels=658
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0296] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-start-color-001.html
@@ -2184,11 +2388,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0297] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-start-style-001.html
@@ -2197,11 +2401,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0298] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-start-width-001.html
@@ -2210,11 +2414,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005963285245401115, diffPixels=500
+  canary page 1: diffRatio=0.0005951358674910313, diffPixels=499
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005963285245401115, diffPixels=500
+  stable page 1: diffRatio=0.0005951358674910313, diffPixels=499
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0299] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-left-color-001.html
@@ -2223,11 +2427,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0300] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-left-style-001.html
@@ -2236,11 +2440,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0301] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-left-width-001.html
@@ -2249,11 +2453,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005963285245401115, diffPixels=500
+  canary page 1: diffRatio=0.0005951358674910313, diffPixels=499
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005963285245401115, diffPixels=500
+  stable page 1: diffRatio=0.0005951358674910313, diffPixels=499
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0302] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-right-color-001.html
@@ -2262,11 +2466,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0303] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-right-style-001.html
@@ -2275,11 +2479,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0304] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-right-width-001.html
@@ -2288,11 +2492,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007859609953438668, diffPixels=659
+  canary page 1: diffRatio=0.0007847683382947866, diffPixels=658
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007859609953438668, diffPixels=659
+  stable page 1: diffRatio=0.0007847683382947866, diffPixels=658
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0305] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-start-end-radius-001.html
@@ -2301,11 +2505,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0306] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-start-start-radius-001.html
@@ -2314,11 +2518,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0307] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-color-001.html
@@ -2327,11 +2531,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0308] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-left-radius-001.html
@@ -2340,11 +2544,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0309] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-right-radius-001.html
@@ -2353,11 +2557,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0310] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-style-001.html
@@ -2366,11 +2570,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-reset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  canary page 1: diffRatio=0.0008110067933745516, diffPixels=680
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008121994504236318, diffPixels=681
+  stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-reset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0311] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-reset-border-top-width-001.html
@@ -2392,11 +2596,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0319] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-end-color-001.html
@@ -2405,11 +2609,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0320] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-end-style-001.html
@@ -2418,11 +2622,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0321] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-end-width-001.html
@@ -2431,11 +2635,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010495382031905961, diffPixels=880
+  canary page 1: diffRatio=0.001048345546141516, diffPixels=879
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010495382031905961, diffPixels=880
+  stable page 1: diffRatio=0.001048345546141516, diffPixels=879
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0322] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-start-color-001.html
@@ -2444,11 +2648,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0323] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-start-style-001.html
@@ -2457,11 +2661,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0324] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-block-start-width-001.html
@@ -2483,11 +2687,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0326] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-left-radius-001.html
@@ -2496,11 +2700,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0327] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-right-radius-001.html
@@ -2509,11 +2713,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0328] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-style-001.html
@@ -2522,11 +2726,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0329] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-width-001.html
@@ -2535,11 +2739,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010495382031905961, diffPixels=880
+  canary page 1: diffRatio=0.001048345546141516, diffPixels=879
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010495382031905961, diffPixels=880
+  stable page 1: diffRatio=0.001048345546141516, diffPixels=879
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0330] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-end-end-radius-001.html
@@ -2548,11 +2752,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0331] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-end-start-radius-001.html
@@ -2561,11 +2765,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0332] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-outset-001.html
@@ -2574,11 +2778,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0333] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-repeat-001.html
@@ -2587,11 +2791,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0334] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-slice-001.html
@@ -2600,11 +2804,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0335] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-source-001.html
@@ -2613,11 +2817,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0336] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-width-001.html
@@ -2626,11 +2830,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0337] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-end-color-001.html
@@ -2639,11 +2843,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0338] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-end-style-001.html
@@ -2652,11 +2856,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0339] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-end-width-001.html
@@ -2665,11 +2869,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012081615907182659, diffPixels=1013
+  canary page 1: diffRatio=0.0012069689336691855, diffPixels=1012
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012081615907182659, diffPixels=1013
+  stable page 1: diffRatio=0.0012069689336691855, diffPixels=1012
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0340] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-start-color-001.html
@@ -2678,11 +2882,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0341] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-start-style-001.html
@@ -2691,11 +2895,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0342] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-start-width-001.html
@@ -2704,11 +2908,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009708228379513014, diffPixels=814
+  canary page 1: diffRatio=0.0009720154950003816, diffPixels=815
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009708228379513014, diffPixels=814
+  stable page 1: diffRatio=0.0009720154950003816, diffPixels=815
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0343] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-left-color-001.html
@@ -2717,11 +2921,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0344] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-left-style-001.html
@@ -2730,11 +2934,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0345] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-left-width-001.html
@@ -2743,11 +2947,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009708228379513014, diffPixels=814
+  canary page 1: diffRatio=0.0009720154950003816, diffPixels=815
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009708228379513014, diffPixels=814
+  stable page 1: diffRatio=0.0009720154950003816, diffPixels=815
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0346] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-right-color-001.html
@@ -2756,11 +2960,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0347] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-right-style-001.html
@@ -2769,11 +2973,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0348] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-right-width-001.html
@@ -2782,11 +2986,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012081615907182659, diffPixels=1013
+  canary page 1: diffRatio=0.0012069689336691855, diffPixels=1012
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012081615907182659, diffPixels=1013
+  stable page 1: diffRatio=0.0012069689336691855, diffPixels=1012
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0349] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-start-end-radius-001.html
@@ -2795,11 +2999,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0350] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-start-start-radius-001.html
@@ -2808,11 +3012,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0351] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-color-001.html
@@ -2821,11 +3025,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0352] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-left-radius-001.html
@@ -2834,11 +3038,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0353] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-right-radius-001.html
@@ -2847,11 +3051,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0354] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-style-001.html
@@ -2860,11 +3064,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0355] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-border-top-width-001.html
@@ -2886,11 +3090,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0363] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-end-color-001.html
@@ -2899,11 +3103,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0364] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-end-style-001.html
@@ -2912,11 +3116,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0365] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-end-width-001.html
@@ -2925,11 +3129,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011747671933440196, diffPixels=985
+  canary page 1: diffRatio=0.0011723818792458592, diffPixels=983
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011747671933440196, diffPixels=985
+  stable page 1: diffRatio=0.0011723818792458592, diffPixels=983
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0366] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-start-color-001.html
@@ -2938,11 +3142,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0367] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-start-style-001.html
@@ -2951,11 +3155,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0368] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-start-width-001.html
@@ -2964,11 +3168,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007024750019082513, diffPixels=589
+  canary page 1: diffRatio=0.0007012823448591711, diffPixels=588
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007024750019082513, diffPixels=589
+  stable page 1: diffRatio=0.0007012823448591711, diffPixels=588
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0369] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-color-001.html
@@ -2977,11 +3181,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0370] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-left-radius-001.html
@@ -2990,11 +3194,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0371] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-right-radius-001.html
@@ -3003,11 +3207,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0372] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-style-001.html
@@ -3016,11 +3220,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0373] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-width-001.html
@@ -3029,11 +3233,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011747671933440196, diffPixels=985
+  canary page 1: diffRatio=0.0011723818792458592, diffPixels=983
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011747671933440196, diffPixels=985
+  stable page 1: diffRatio=0.0011723818792458592, diffPixels=983
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0374] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-end-end-radius-001.html
@@ -3042,11 +3246,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0375] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-end-start-radius-001.html
@@ -3055,11 +3259,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0376] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-outset-001.html
@@ -3068,11 +3272,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0377] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-repeat-001.html
@@ -3081,11 +3285,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0378] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-slice-001.html
@@ -3094,11 +3298,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0379] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-source-001.html
@@ -3107,11 +3311,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0380] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-width-001.html
@@ -3120,11 +3324,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0381] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-end-color-001.html
@@ -3133,11 +3337,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0382] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-end-style-001.html
@@ -3146,11 +3350,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0383] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-end-width-001.html
@@ -3159,11 +3363,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013333905808716891, diffPixels=1118
+  canary page 1: diffRatio=0.0013310052667735287, diffPixels=1116
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013333905808716891, diffPixels=1118
+  stable page 1: diffRatio=0.0013310052667735287, diffPixels=1116
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0384] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-start-color-001.html
@@ -3172,11 +3376,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0385] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-start-style-001.html
@@ -3185,11 +3389,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0386] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-start-width-001.html
@@ -3198,11 +3402,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001080547286466682, diffPixels=906
+  canary page 1: diffRatio=0.0010817399435157622, diffPixels=907
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001080547286466682, diffPixels=906
+  stable page 1: diffRatio=0.0010817399435157622, diffPixels=907
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0387] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-left-color-001.html
@@ -3211,11 +3415,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0388] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-left-style-001.html
@@ -3224,11 +3428,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0389] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-left-width-001.html
@@ -3237,11 +3441,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001080547286466682, diffPixels=906
+  canary page 1: diffRatio=0.0010817399435157622, diffPixels=907
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001080547286466682, diffPixels=906
+  stable page 1: diffRatio=0.0010817399435157622, diffPixels=907
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0390] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-right-color-001.html
@@ -3250,11 +3454,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0391] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-right-style-001.html
@@ -3263,11 +3467,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0392] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-right-width-001.html
@@ -3276,11 +3480,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013333905808716891, diffPixels=1118
+  canary page 1: diffRatio=0.0013310052667735287, diffPixels=1116
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013333905808716891, diffPixels=1118
+  stable page 1: diffRatio=0.0013310052667735287, diffPixels=1116
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0393] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-end-radius-001.html
@@ -3289,11 +3493,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0394] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-start-radius-001.html
@@ -3302,11 +3506,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0395] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-color-001.html
@@ -3315,11 +3519,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0396] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-left-radius-001.html
@@ -3328,11 +3532,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0397] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-right-radius-001.html
@@ -3341,11 +3545,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0398] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-style-001.html
@@ -3354,11 +3558,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013608216930005343, diffPixels=1141
+  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0399] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-width-001.html
@@ -3367,11 +3571,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007024750019082513, diffPixels=589
+  canary page 1: diffRatio=0.0007012823448591711, diffPixels=588
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007024750019082513, diffPixels=589
+  stable page 1: diffRatio=0.0007012823448591711, diffPixels=588
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0401] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-background-clip-001.html
@@ -3380,11 +3584,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0407] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-end-color-001.html
@@ -3393,11 +3597,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0408] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-end-style-001.html
@@ -3406,11 +3610,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0409] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-end-width-001.html
@@ -3419,11 +3623,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008265113350125944, diffPixels=693
+  canary page 1: diffRatio=0.0008277039920616747, diffPixels=694
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008265113350125944, diffPixels=693
+  stable page 1: diffRatio=0.0008277039920616747, diffPixels=694
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0410] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-start-color-001.html
@@ -3432,11 +3636,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0411] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-start-style-001.html
@@ -3445,11 +3649,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0412] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-start-width-001.html
@@ -3458,11 +3662,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000561741470116785, diffPixels=471
+  canary page 1: diffRatio=0.0005629341271658653, diffPixels=472
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000561741470116785, diffPixels=471
+  stable page 1: diffRatio=0.0005629341271658653, diffPixels=472
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0413] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-color-001.html
@@ -3471,11 +3675,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0414] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-left-radius-001.html
@@ -3484,11 +3688,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0415] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-right-radius-001.html
@@ -3497,11 +3701,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0416] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-style-001.html
@@ -3510,11 +3714,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0417] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-width-001.html
@@ -3523,11 +3727,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008265113350125944, diffPixels=693
+  canary page 1: diffRatio=0.0008277039920616747, diffPixels=694
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008265113350125944, diffPixels=693
+  stable page 1: diffRatio=0.0008277039920616747, diffPixels=694
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0418] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-end-end-radius-001.html
@@ -3536,11 +3740,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0419] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-end-start-radius-001.html
@@ -3549,11 +3753,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0420] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-outset-001.html
@@ -3562,11 +3766,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0421] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-repeat-001.html
@@ -3575,11 +3779,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0422] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-slice-001.html
@@ -3588,11 +3792,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0423] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-source-001.html
@@ -3601,11 +3805,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0424] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-width-001.html
@@ -3614,11 +3818,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0425] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-end-color-001.html
@@ -3627,11 +3831,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0426] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-end-style-001.html
@@ -3640,11 +3844,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0427] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-end-width-001.html
@@ -3653,11 +3857,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009088046713991298, diffPixels=762
+  canary page 1: diffRatio=0.0009099973284482101, diffPixels=763
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009088046713991298, diffPixels=762
+  stable page 1: diffRatio=0.0009099973284482101, diffPixels=763
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0428] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-start-color-001.html
@@ -3666,11 +3870,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0429] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-start-style-001.html
@@ -3679,11 +3883,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0430] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-start-width-001.html
@@ -3692,11 +3896,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006189890084726357, diffPixels=519
+  canary page 1: diffRatio=0.0006201816655217159, diffPixels=520
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006189890084726357, diffPixels=519
+  stable page 1: diffRatio=0.0006201816655217159, diffPixels=520
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0431] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-left-color-001.html
@@ -3705,11 +3909,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0432] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-left-style-001.html
@@ -3718,11 +3922,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0433] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-left-width-001.html
@@ -3731,11 +3935,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006189890084726357, diffPixels=519
+  canary page 1: diffRatio=0.0006201816655217159, diffPixels=520
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006189890084726357, diffPixels=519
+  stable page 1: diffRatio=0.0006201816655217159, diffPixels=520
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0434] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-right-color-001.html
@@ -3744,11 +3948,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0435] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-right-style-001.html
@@ -3757,11 +3961,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0436] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-right-width-001.html
@@ -3770,11 +3974,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009088046713991298, diffPixels=762
+  canary page 1: diffRatio=0.0009099973284482101, diffPixels=763
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009088046713991298, diffPixels=762
+  stable page 1: diffRatio=0.0009099973284482101, diffPixels=763
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0437] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-start-end-radius-001.html
@@ -3783,11 +3987,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0438] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-start-start-radius-001.html
@@ -3796,11 +4000,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0439] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-color-001.html
@@ -3809,11 +4013,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0440] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-left-radius-001.html
@@ -3822,11 +4026,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0441] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-right-radius-001.html
@@ -3835,11 +4039,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0442] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-style-001.html
@@ -3848,11 +4052,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  canary page 1: diffRatio=0.0009362357835279749, diffPixels=785
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable page 1: diffRatio=0.0009362357835279749, diffPixels=785
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0443] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-width-001.html
@@ -3861,11 +4065,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-submit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000561741470116785, diffPixels=471
+  canary page 1: diffRatio=0.0005629341271658653, diffPixels=472
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-submit-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000561741470116785, diffPixels=471
+  stable page 1: diffRatio=0.0005629341271658653, diffPixels=472
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-submit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0445] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-text-background-clip-001.html
@@ -4186,11 +4390,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-text-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009111899854972903, diffPixels=764
+  canary page 1: diffRatio=0.0009123826425463705, diffPixels=765
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-text-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009111899854972903, diffPixels=764
+  stable page 1: diffRatio=0.0009123826425463705, diffPixels=765
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0475] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-text-border-left-color-001.html
@@ -4225,11 +4429,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-input-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-text-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009111899854972903, diffPixels=764
+  canary page 1: diffRatio=0.0009123826425463705, diffPixels=765
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-text-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009111899854972903, diffPixels=764
+  stable page 1: diffRatio=0.0009123826425463705, diffPixels=765
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0478] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-text-border-right-color-001.html
@@ -5512,11 +5716,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0715] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-end-color-001.html
@@ -5525,11 +5729,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0716] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-end-style-001.html
@@ -5538,11 +5742,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0717] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-end-width-001.html
@@ -5551,11 +5755,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001680453782154034, diffPixels=1409
+  canary page 1: diffRatio=0.0016792611251049538, diffPixels=1408
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001680453782154034, diffPixels=1409
+  stable page 1: diffRatio=0.0016792611251049538, diffPixels=1408
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0718] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-start-color-001.html
@@ -5564,11 +5768,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0719] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-start-style-001.html
@@ -5577,11 +5781,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0720] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-start-width-001.html
@@ -5590,11 +5794,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001295225555301122, diffPixels=1086
+  canary page 1: diffRatio=0.0012940328982520418, diffPixels=1085
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001295225555301122, diffPixels=1086
+  stable page 1: diffRatio=0.0012940328982520418, diffPixels=1085
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0721] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-color-001.html
@@ -5603,11 +5807,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0722] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-left-radius-001.html
@@ -5616,11 +5820,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0723] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-right-radius-001.html
@@ -5629,11 +5833,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0724] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-style-001.html
@@ -5642,11 +5846,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0725] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-width-001.html
@@ -5655,11 +5859,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001680453782154034, diffPixels=1409
+  canary page 1: diffRatio=0.0016792611251049538, diffPixels=1408
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001680453782154034, diffPixels=1409
+  stable page 1: diffRatio=0.0016792611251049538, diffPixels=1408
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0726] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-end-end-radius-001.html
@@ -5668,11 +5872,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0727] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-end-start-radius-001.html
@@ -5681,11 +5885,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0728] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-outset-001.html
@@ -5694,11 +5898,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0729] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-repeat-001.html
@@ -5707,11 +5911,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0730] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html
@@ -5720,11 +5924,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0731] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-source-001.html
@@ -5733,11 +5937,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0732] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-width-001.html
@@ -5746,11 +5950,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0733] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-end-color-001.html
@@ -5759,11 +5963,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0734] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-end-style-001.html
@@ -5772,11 +5976,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0735] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-end-width-001.html
@@ -5785,11 +5989,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00197861804442409, diffPixels=1659
+  canary page 1: diffRatio=0.0019774253873750093, diffPixels=1658
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00197861804442409, diffPixels=1659
+  stable page 1: diffRatio=0.0019774253873750093, diffPixels=1658
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0736] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-start-color-001.html
@@ -5798,11 +6002,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0737] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-start-style-001.html
@@ -5811,11 +6015,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0738] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-inline-start-width-001.html
@@ -5837,11 +6041,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0740] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-left-style-001.html
@@ -5850,11 +6054,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0741] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-left-width-001.html
@@ -5876,11 +6080,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0743] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-right-style-001.html
@@ -5889,11 +6093,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0744] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-right-width-001.html
@@ -5902,11 +6106,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00197861804442409, diffPixels=1659
+  canary page 1: diffRatio=0.0019774253873750093, diffPixels=1658
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00197861804442409, diffPixels=1659
+  stable page 1: diffRatio=0.0019774253873750093, diffPixels=1658
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0745] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-start-end-radius-001.html
@@ -5915,11 +6119,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0746] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-start-start-radius-001.html
@@ -5928,11 +6132,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0747] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-color-001.html
@@ -5941,11 +6145,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0748] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-left-radius-001.html
@@ -5954,11 +6158,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0749] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-right-radius-001.html
@@ -5967,11 +6171,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0750] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-style-001.html
@@ -5980,11 +6184,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  canary page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020334802686817802, diffPixels=1705
+  stable page 1: diffRatio=0.0020322876116326996, diffPixels=1704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0751] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-width-001.html
@@ -5993,11 +6197,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001295225555301122, diffPixels=1086
+  canary page 1: diffRatio=0.0012940328982520418, diffPixels=1085
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-dropdown-box-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001295225555301122, diffPixels=1086
+  stable page 1: diffRatio=0.0012940328982520418, diffPixels=1085
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-dropdown-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0753] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-background-clip-001.html
@@ -6084,11 +6288,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011962350202274635, diffPixels=1003
+  canary page 1: diffRatio=0.0011938497061293031, diffPixels=1001
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011962350202274635, diffPixels=1003
+  stable page 1: diffRatio=0.0011938497061293031, diffPixels=1001
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0765] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-bottom-color-001.html
@@ -6318,11 +6522,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011628406228532174, diffPixels=975
+  canary page 1: diffRatio=0.0011604553087550568, diffPixels=973
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011628406228532174, diffPixels=975
+  stable page 1: diffRatio=0.0011604553087550568, diffPixels=973
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0783] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-left-color-001.html
@@ -6357,11 +6561,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011628406228532174, diffPixels=975
+  canary page 1: diffRatio=0.0011604553087550568, diffPixels=973
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011628406228532174, diffPixels=975
+  stable page 1: diffRatio=0.0011604553087550568, diffPixels=973
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0786] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-right-color-001.html
@@ -6487,11 +6691,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011962350202274635, diffPixels=1003
+  canary page 1: diffRatio=0.0011938497061293031, diffPixels=1001
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-listbox-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011962350202274635, diffPixels=1003
+  stable page 1: diffRatio=0.0011938497061293031, diffPixels=1001
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-listbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0797] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-background-clip-001.html
@@ -6500,11 +6704,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0803] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-end-color-001.html
@@ -6513,11 +6717,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0804] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-end-style-001.html
@@ -6526,11 +6730,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0805] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-end-width-001.html
@@ -6539,11 +6743,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017639397755896495, diffPixels=1479
+  canary page 1: diffRatio=0.0017627471185405693, diffPixels=1478
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017639397755896495, diffPixels=1479
+  stable page 1: diffRatio=0.0017627471185405693, diffPixels=1478
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0806] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-start-color-001.html
@@ -6552,11 +6756,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0807] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-start-style-001.html
@@ -6565,11 +6769,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0808] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-start-width-001.html
@@ -6578,11 +6782,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014109132890619037, diffPixels=1183
+  canary page 1: diffRatio=0.0014085279749637433, diffPixels=1181
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014109132890619037, diffPixels=1183
+  stable page 1: diffRatio=0.0014085279749637433, diffPixels=1181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0809] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-color-001.html
@@ -6591,11 +6795,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0810] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-left-radius-001.html
@@ -6604,11 +6808,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0811] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-right-radius-001.html
@@ -6617,11 +6821,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0812] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-style-001.html
@@ -6630,11 +6834,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0813] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-width-001.html
@@ -6643,11 +6847,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017639397755896495, diffPixels=1479
+  canary page 1: diffRatio=0.0017627471185405693, diffPixels=1478
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017639397755896495, diffPixels=1479
+  stable page 1: diffRatio=0.0017627471185405693, diffPixels=1478
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0814] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-end-end-radius-001.html
@@ -6656,11 +6860,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0815] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-end-start-radius-001.html
@@ -6669,11 +6873,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0816] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-outset-001.html
@@ -6682,11 +6886,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0817] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-repeat-001.html
@@ -6695,11 +6899,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0818] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-slice-001.html
@@ -6708,11 +6912,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0819] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-source-001.html
@@ -6721,11 +6925,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0820] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-width-001.html
@@ -6734,11 +6938,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0821] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-end-color-001.html
@@ -6747,11 +6951,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0822] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-end-style-001.html
@@ -6760,11 +6964,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0823] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-end-width-001.html
@@ -6773,11 +6977,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020788012365468285, diffPixels=1743
+  canary page 1: diffRatio=0.0020776085794977483, diffPixels=1742
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020788012365468285, diffPixels=1743
+  stable page 1: diffRatio=0.0020776085794977483, diffPixels=1742
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0824] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-start-color-001.html
@@ -6786,11 +6990,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0825] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-start-style-001.html
@@ -6799,11 +7003,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0826] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-start-width-001.html
@@ -6812,11 +7016,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015826559041294559, diffPixels=1327
+  canary page 1: diffRatio=0.0015802705900312952, diffPixels=1325
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-inline-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015826559041294559, diffPixels=1327
+  stable page 1: diffRatio=0.0015802705900312952, diffPixels=1325
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0827] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-left-color-001.html
@@ -6825,11 +7029,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0828] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-left-style-001.html
@@ -6838,11 +7042,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0829] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-left-width-001.html
@@ -6851,11 +7055,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015826559041294559, diffPixels=1327
+  canary page 1: diffRatio=0.0015802705900312952, diffPixels=1325
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-left-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015826559041294559, diffPixels=1327
+  stable page 1: diffRatio=0.0015802705900312952, diffPixels=1325
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0830] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-right-color-001.html
@@ -6864,11 +7068,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0831] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-right-style-001.html
@@ -6877,11 +7081,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0832] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-right-width-001.html
@@ -6890,11 +7094,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020788012365468285, diffPixels=1743
+  canary page 1: diffRatio=0.0020776085794977483, diffPixels=1742
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020788012365468285, diffPixels=1743
+  stable page 1: diffRatio=0.0020776085794977483, diffPixels=1742
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0833] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-start-end-radius-001.html
@@ -6903,11 +7107,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0834] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-start-start-radius-001.html
@@ -6916,11 +7120,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0835] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-color-001.html
@@ -6929,11 +7133,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0836] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-left-radius-001.html
@@ -6942,11 +7146,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0837] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-right-radius-001.html
@@ -6955,11 +7159,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0838] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-style-001.html
@@ -6968,11 +7172,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  canary page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021336634608045187, diffPixels=1789
+  stable page 1: diffRatio=0.0021324708037554385, diffPixels=1788
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0839] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html
@@ -6981,11 +7185,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014109132890619037, diffPixels=1183
+  canary page 1: diffRatio=0.0014085279749637433, diffPixels=1181
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-select-menulist-button-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014109132890619037, diffPixels=1183
+  stable page 1: diffRatio=0.0014085279749637433, diffPixels=1181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-select-menulist-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0841] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-background-clip-001.html
@@ -6994,11 +7198,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-background-clip-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0847] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-color-001.html
@@ -7007,11 +7211,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0848] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-style-001.html
@@ -7020,11 +7224,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0849] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html
@@ -7033,11 +7237,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014359590870925885, diffPixels=1204
+  canary page 1: diffRatio=0.001439537058239829, diffPixels=1207
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014359590870925885, diffPixels=1204
+  stable page 1: diffRatio=0.001439537058239829, diffPixels=1207
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0850] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-color-001.html
@@ -7046,11 +7250,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0851] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-style-001.html
@@ -7059,11 +7263,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0852] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-width-001.html
@@ -7072,11 +7276,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009648595527059003, diffPixels=809
+  canary page 1: diffRatio=0.00096366689565682, diffPixels=808
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009648595527059003, diffPixels=809
+  stable page 1: diffRatio=0.00096366689565682, diffPixels=808
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0853] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-color-001.html
@@ -7085,11 +7289,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0854] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-left-radius-001.html
@@ -7098,11 +7302,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0855] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-right-radius-001.html
@@ -7111,11 +7315,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0856] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-style-001.html
@@ -7124,11 +7328,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0857] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-width-001.html
@@ -7137,11 +7341,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014359590870925885, diffPixels=1204
+  canary page 1: diffRatio=0.001439537058239829, diffPixels=1207
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-bottom-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014359590870925885, diffPixels=1204
+  stable page 1: diffRatio=0.001439537058239829, diffPixels=1207
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0858] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-end-end-radius-001.html
@@ -7150,11 +7354,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-end-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0859] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-end-start-radius-001.html
@@ -7163,11 +7367,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-end-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0860] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-outset-001.html
@@ -7176,11 +7380,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-outset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0861] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-repeat-001.html
@@ -7189,11 +7393,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-repeat-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0862] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-slice-001.html
@@ -7202,11 +7406,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-slice-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0863] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-source-001.html
@@ -7215,11 +7419,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0864] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-width-001.html
@@ -7228,11 +7432,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-image-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0865] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-end-color-001.html
@@ -7241,11 +7445,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0866] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-end-style-001.html
@@ -7254,11 +7458,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-end-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0867] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-end-width-001.html
@@ -7267,11 +7471,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017818296313258529, diffPixels=1494
+  canary page 1: diffRatio=0.0017854076024730937, diffPixels=1497
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-end-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017818296313258529, diffPixels=1494
+  stable page 1: diffRatio=0.0017854076024730937, diffPixels=1497
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0868] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-start-color-001.html
@@ -7280,11 +7484,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-start-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0869] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-start-style-001.html
@@ -7293,11 +7497,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-start-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0870] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-inline-start-width-001.html
@@ -7319,11 +7523,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-left-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0872] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-left-style-001.html
@@ -7332,11 +7536,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-left-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0873] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-left-width-001.html
@@ -7358,11 +7562,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-right-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0875] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-right-style-001.html
@@ -7371,11 +7575,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-right-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0876] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-right-width-001.html
@@ -7384,11 +7588,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017818296313258529, diffPixels=1494
+  canary page 1: diffRatio=0.0017854076024730937, diffPixels=1497
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-right-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017818296313258529, diffPixels=1494
+  stable page 1: diffRatio=0.0017854076024730937, diffPixels=1497
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0877] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-start-end-radius-001.html
@@ -7397,11 +7601,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0878] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-start-start-radius-001.html
@@ -7410,11 +7614,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0879] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-color-001.html
@@ -7423,11 +7627,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0880] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-left-radius-001.html
@@ -7436,11 +7640,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-left-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0881] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-right-radius-001.html
@@ -7449,11 +7653,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-right-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0882] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-style-001.html
@@ -7462,11 +7666,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  canary page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018772421952522708, diffPixels=1574
+  stable page 1: diffRatio=0.0018808201663995114, diffPixels=1577
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0883] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-width-001.html
@@ -7475,11 +7679,11 @@
   reference: css/css-ui/compute-kind-widget-fallback-textarea-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009648595527059003, diffPixels=809
+  canary page 1: diffRatio=0.00096366689565682, diffPixels=808
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-textarea-border-top-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009648595527059003, diffPixels=809
+  stable page 1: diffRatio=0.00096366689565682, diffPixels=808
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-textarea-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0884] [WPT reftest] css/css-ui/compute-kind-widget-no-fallback-props-001.html
@@ -7488,11 +7692,11 @@
   reference: css/css-ui/compute-kind-widget-no-fallback-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-props-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009274101213647813, diffPixels=7776
+  canary page 1: diffRatio=0.009264559957255171, diffPixels=7768
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-props-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009274101213647813, diffPixels=7776
+  stable page 1: diffRatio=0.009264559957255171, diffPixels=7768
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-no-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0887] [WPT reftest] css/css-ui/input-security-none-sensitive-text-input.html
@@ -7514,11 +7718,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/outline-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014881974658423022, diffPixels=12478
+  canary page 1: diffRatio=0.01487958934432486, diffPixels=12476
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/outline-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014881974658423022, diffPixels=12478
+  stable page 1: diffRatio=0.01487958934432486, diffPixels=12476
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0908] [WPT reftest] css/css-ui/outline-022.html
@@ -7676,11 +7880,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-generated-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000021467826883444013, diffPixels=18
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1186] [WPT manual] css/css-ui/resize-014.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00615172505915579, diffPixels=5158
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

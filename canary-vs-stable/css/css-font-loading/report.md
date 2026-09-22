@@ -16,11 +16,11 @@
   reference: css/css-font-loading/font-face-width-descriptor-aliasing-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-font-loading/font-face-width-descriptor-aliasing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005516038851996031, diffPixels=4625
+  canary page 1: diffRatio=0.005519616823143271, diffPixels=4628
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-font-loading/font-face-width-descriptor-aliasing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-font-loading/font-face-width-descriptor-aliasing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005516038851996031, diffPixels=4625
+  stable page 1: diffRatio=0.005519616823143271, diffPixels=4628
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-font-loading/font-face-width-descriptor-aliasing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0002] [WPT reftest] css/css-font-loading/fontface-descriptor-updates.html
@@ -29,11 +29,11 @@
   reference: css/css-font-loading/fontface-descriptor-updates-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006324660331272422, diffPixels=5303
+  canary page 1: diffRatio=0.006322275017174262, diffPixels=5301
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006324660331272422, diffPixels=5303
+  stable page 1: diffRatio=0.006322275017174262, diffPixels=5301
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-font-loading/fontface-descriptor-updates-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-font-loading/fontface-override-descriptors.html

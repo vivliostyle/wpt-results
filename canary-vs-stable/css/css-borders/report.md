@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 97
-- Entries with differences: 17 (pending: 17, triaged: 0)
+- Compared entries: 99
+- Entries with differences: 19 (pending: 19, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":17,"pass":80}
+- Outcome summary: {"known-fail":19,"pass":80}
 
 ## Differences
 
@@ -166,7 +166,33 @@
   stable page 1: diffRatio=0.023812590641935732, diffPixels=19966
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0072] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html
+- [0072] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0066037420807571945, diffPixels=5537
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0066037420807571945, diffPixels=5537
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0073] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011617672315090451, diffPixels=9741
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011617672315090451, diffPixels=9741
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0074] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-offset-bevel-ref.html (==)
@@ -179,7 +205,7 @@
   stable page 1: diffRatio=0.02761239600030532, diffPixels=23152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-bevel-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0073] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html
+- [0075] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-offset-elliptical-ref.html (==)
@@ -192,7 +218,7 @@
   stable page 1: diffRatio=0.027420378215403406, diffPixels=22991
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0091] [WPT reftest] css/css-borders/corner-shape/corner-shorthand-rendering.html
+- [0093] [WPT reftest] css/css-borders/corner-shape/corner-shorthand-rendering.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shorthand-rendering-ref.html (==)
@@ -205,7 +231,7 @@
   stable page 1: diffRatio=0.0025272402870009925, diffPixels=2119
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0096] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
+- [0098] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)
@@ -218,7 +244,7 @@
   stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0097] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
+- [0099] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)

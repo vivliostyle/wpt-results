@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 433
-- Entries with differences: 148 (pending: 148, triaged: 0)
+- Compared entries: 455
+- Entries with differences: 166 (pending: 166, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":284,"known-fail":148,"error":1}
+- Outcome summary: {"pass":288,"known-fail":166,"error":1}
 
 ## Differences
 
@@ -1056,11 +1056,11 @@
   reference: css/css-gaps/grid-lanes/column-gap-decorations-033-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003971547973437142, diffPixels=333
+  canary page 1: diffRatio=0.0003899988550492329, diffPixels=327
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-033-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003971547973437142, diffPixels=333
+  stable page 1: diffRatio=0.0003899988550492329, diffPixels=327
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-033-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0327] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-036.html
@@ -1245,7 +1245,7 @@
   stable page 1: diffRatio=0.0031867796351423556, diffPixels=2672
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-join-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0341] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-overlapping-gutters-percentage.html
+- [0343] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-overlapping-gutters-percentage.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-inset-overlapping-gutters-percentage-ref.html (==)
@@ -1258,7 +1258,7 @@
   stable page 1: diffRatio=0.001144950767117014, diffPixels=960
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlapping-gutters-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0342] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-percentage.html
+- [0344] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-percentage.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-inset-percentage-ref.html (==)
@@ -1271,7 +1271,7 @@
   stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0343] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none.html
+- [0345] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none-ref.html (==)
@@ -1284,7 +1284,7 @@
   stable page 1: diffRatio=0.0014407297152889092, diffPixels=1208
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0344] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-dense-order.html
+- [0346] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-dense-order.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-list-dense-order-ref.html (==)
@@ -1297,7 +1297,7 @@
   stable page 1: diffRatio=0.0011366021677734525, diffPixels=953
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-list-dense-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0345] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-fill-reverse.html
+- [0347] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-fill-reverse.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-list-fill-reverse-ref.html (==)
@@ -1310,7 +1310,7 @@
   stable page 1: diffRatio=0.0008539424471414395, diffPixels=716
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-list-fill-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0346] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-fill-track-reverse.html
+- [0348] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-fill-track-reverse.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-list-fill-track-reverse-ref.html (==)
@@ -1323,7 +1323,7 @@
   stable page 1: diffRatio=0.002766964353866117, diffPixels=2320
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-list-fill-track-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0347] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-grid-axis.html
+- [0349] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-grid-axis.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-list-grid-axis-ref.html (==)
@@ -1336,7 +1336,7 @@
   stable page 1: diffRatio=0.000572475383558507, diffPixels=480
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-list-grid-axis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0348] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-repeat-auto-stacking.html
+- [0350] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-repeat-auto-stacking.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-list-repeat-auto-stacking-ref.html (==)
@@ -1349,7 +1349,7 @@
   stable page 1: diffRatio=0.003124761468590184, diffPixels=2620
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-list-repeat-auto-stacking-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0349] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-repeat-integer-stacking.html
+- [0351] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-repeat-integer-stacking.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-list-repeat-integer-stacking-ref.html (==)
@@ -1362,7 +1362,7 @@
   stable page 1: diffRatio=0.0034348523013510417, diffPixels=2880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-list-repeat-integer-stacking-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0350] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-spanner-independent.html
+- [0352] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-spanner-independent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-list-spanner-independent-ref.html (==)
@@ -1375,7 +1375,7 @@
   stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-list-spanner-independent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0351] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-stacking-types.html
+- [0353] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-stacking-types.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-list-stacking-types-ref.html (==)
@@ -1388,7 +1388,7 @@
   stable page 1: diffRatio=0.0019988932142584537, diffPixels=1676
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-list-stacking-types-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0352] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-track-reverse.html
+- [0354] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-track-reverse.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-list-track-reverse-ref.html (==)
@@ -1401,7 +1401,7 @@
   stable page 1: diffRatio=0.000572475383558507, diffPixels=480
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-list-track-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0353] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-overlap-column-over-row.html
+- [0355] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-overlap-column-over-row.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-overlap-column-over-row-ref.html (==)
@@ -1414,7 +1414,111 @@
   stable page 1: diffRatio=0.0016792611251049538, diffPixels=1408
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-overlap-column-over-row-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0354] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-001.html
+- [0356] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001144950767117014, diffPixels=960
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001144950767117014, diffPixels=960
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0357] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-all-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0358] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0026715517899396995, diffPixels=2240
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0026715517899396995, diffPixels=2240
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0359] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0008587130753377604, diffPixels=720
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-around-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0361] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0013357758949698497, diffPixels=1120
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0013357758949698497, diffPixels=1120
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0362] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-003-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000572475383558507, diffPixels=480
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000572475383558507, diffPixels=480
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0363] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-004-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0002862376917792535, diffPixels=240
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0002862376917792535, diffPixels=240
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-rule-visibility-items-between-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0364] [WPT reftest] css/css-gaps/grid-lanes/gap-decorations-rule-visibility-items-normal-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/gap-decorations-rule-visibility-items-normal-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/gap-decorations-rule-visibility-items-normal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002690634302724983, diffPixels=2256
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/gap-decorations-rule-visibility-items-normal-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/gap-decorations-rule-visibility-items-normal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002690634302724983, diffPixels=2256
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/gap-decorations-rule-visibility-items-normal-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0365] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-001-ref.html (==)
@@ -1427,7 +1531,7 @@
   stable page 1: diffRatio=0.002542744828639035, diffPixels=2132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0355] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-002.html
+- [0366] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-002-ref.html (==)
@@ -1440,7 +1544,7 @@
   stable page 1: diffRatio=0.003697236852148691, diffPixels=3100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0356] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-003.html
+- [0367] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-003-ref.html (==)
@@ -1453,7 +1557,7 @@
   stable page 1: diffRatio=0.004409253110449584, diffPixels=3697
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0357] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-004.html
+- [0368] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-004-ref.html (==)
@@ -1466,7 +1570,7 @@
   stable page 1: diffRatio=0.0027097168155102666, diffPixels=2272
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0358] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-005.html
+- [0369] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-005-ref.html (==)
@@ -1479,7 +1583,7 @@
   stable page 1: diffRatio=0.0023411857873444773, diffPixels=1963
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0359] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-006.html
+- [0370] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-006-ref.html (==)
@@ -1492,7 +1596,7 @@
   stable page 1: diffRatio=0.004071731165559881, diffPixels=3414
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0360] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-007.html
+- [0371] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-007-ref.html (==)
@@ -1505,7 +1609,7 @@
   stable page 1: diffRatio=0.003114027555148462, diffPixels=2611
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0361] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-008.html
+- [0372] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-008-ref.html (==)
@@ -1518,7 +1622,7 @@
   stable page 1: diffRatio=0.001364399664147775, diffPixels=1144
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0362] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-009.html
+- [0373] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-009-ref.html (==)
@@ -1531,7 +1635,7 @@
   stable page 1: diffRatio=0.0026715517899396995, diffPixels=2240
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0363] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-010.html
+- [0374] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-010-ref.html (==)
@@ -1544,7 +1648,7 @@
   stable page 1: diffRatio=0.0038928326081978477, diffPixels=3264
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0364] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-011.html
+- [0375] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-011-ref.html (==)
@@ -1557,7 +1661,7 @@
   stable page 1: diffRatio=0.0024258644378291733, diffPixels=2034
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0365] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-012.html
+- [0376] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-012-ref.html (==)
@@ -1570,7 +1674,7 @@
   stable page 1: diffRatio=0.003091367071215938, diffPixels=2592
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0366] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-013.html
+- [0377] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-013-ref.html (==)
@@ -1583,7 +1687,7 @@
   stable page 1: diffRatio=0.0017174261506755209, diffPixels=1440
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0367] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-014.html
+- [0378] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-014-ref.html (==)
@@ -1596,7 +1700,7 @@
   stable page 1: diffRatio=0.0018128387146019388, diffPixels=1520
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0368] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-015.html
+- [0379] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-015-ref.html (==)
@@ -1609,7 +1713,7 @@
   stable page 1: diffRatio=0.004157602473093657, diffPixels=3486
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0369] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-016.html
+- [0380] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-016-ref.html (==)
@@ -1622,7 +1726,7 @@
   stable page 1: diffRatio=0.004100354934737806, diffPixels=3438
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0370] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-017.html
+- [0381] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-017-ref.html (==)
@@ -1635,7 +1739,7 @@
   stable page 1: diffRatio=0.0017973341729638959, diffPixels=1507
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0371] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-018.html
+- [0382] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-018-ref.html (==)
@@ -1648,7 +1752,7 @@
   stable page 1: diffRatio=0.0018128387146019388, diffPixels=1520
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0372] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-019.html
+- [0383] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-019.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-019-ref.html (==)
@@ -1661,7 +1765,7 @@
   stable page 1: diffRatio=0.000572475383558507, diffPixels=480
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0373] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-020.html
+- [0384] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-020-ref.html (==)
@@ -1674,7 +1778,7 @@
   stable page 1: diffRatio=0.0017174261506755209, diffPixels=1440
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0374] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-021.html
+- [0385] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-021-ref.html (==)
@@ -1687,7 +1791,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0375] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-022.html
+- [0386] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-022.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-022-ref.html (==)
@@ -1700,7 +1804,7 @@
   stable page 1: diffRatio=0.0019082512785283565, diffPixels=1600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0376] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-023.html
+- [0387] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-023.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-023-ref.html (==)
@@ -1713,7 +1817,7 @@
   stable page 1: diffRatio=0.009064193573009693, diffPixels=7600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0377] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-024.html
+- [0388] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-024.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-024-ref.html (==)
@@ -1726,7 +1830,7 @@
   stable page 1: diffRatio=0.00925501870086253, diffPixels=7760
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0378] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-break-normal.html
+- [0389] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-break-normal.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-break-normal-ref.html (==)
@@ -1739,7 +1843,7 @@
   stable page 1: diffRatio=0.00219448897030761, diffPixels=1840
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-break-normal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0379] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-inset-cap-vs-junction.html
+- [0390] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-inset-cap-vs-junction.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-inset-cap-vs-junction-ref.html (==)
@@ -1752,7 +1856,7 @@
   stable page 1: diffRatio=0.0022994427906266697, diffPixels=1928
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-inset-cap-vs-junction-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0380] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-join.html
+- [0391] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-join.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-join-ref.html (==)
@@ -1765,7 +1869,20 @@
   stable page 1: diffRatio=0.0031867796351423556, diffPixels=2672
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-join-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0381] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-inset-overlapping-gutters-percentage.html
+- [0392] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-negative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-negative-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-negative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00031009083276085795, diffPixels=260
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-negative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-negative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00031009083276085795, diffPixels=260
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-inset-overlap-negative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0393] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-inset-overlapping-gutters-percentage.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-inset-overlapping-gutters-percentage-ref.html (==)
@@ -1778,7 +1895,7 @@
   stable page 1: diffRatio=0.001144950767117014, diffPixels=960
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-inset-overlapping-gutters-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0382] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-inset-percentage.html
+- [0394] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-inset-percentage.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-inset-percentage-ref.html (==)
@@ -1791,7 +1908,7 @@
   stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-inset-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0383] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-fill-reverse.html
+- [0395] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-fill-reverse.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-list-fill-reverse-ref.html (==)
@@ -1804,7 +1921,7 @@
   stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-list-fill-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0384] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-fill-track-reverse.html
+- [0396] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-fill-track-reverse.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-list-fill-track-reverse-ref.html (==)
@@ -1817,7 +1934,7 @@
   stable page 1: diffRatio=0.002766964353866117, diffPixels=2320
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-list-fill-track-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0385] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-repeat-integer-stacking.html
+- [0397] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-repeat-integer-stacking.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-list-repeat-integer-stacking-ref.html (==)
@@ -1830,7 +1947,7 @@
   stable page 1: diffRatio=0.0034348523013510417, diffPixels=2880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-list-repeat-integer-stacking-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0386] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-stacking-axis.html
+- [0398] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-stacking-axis.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-list-stacking-axis-ref.html (==)
@@ -1843,7 +1960,7 @@
   stable page 1: diffRatio=0.0007633005114113426, diffPixels=640
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-list-stacking-axis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0387] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-track-reverse.html
+- [0399] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-list-track-reverse.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-list-track-reverse-ref.html (==)
@@ -1856,7 +1973,7 @@
   stable page 1: diffRatio=0.000572475383558507, diffPixels=480
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-list-track-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0388] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-overlap-column-over-row.html
+- [0400] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-overlap-column-over-row.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/grid-lanes/row-gap-decorations-overlap-column-over-row-ref.html (==)
@@ -1869,7 +1986,111 @@
   stable page 1: diffRatio=0.0016792611251049538, diffPixels=1408
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-overlap-column-over-row-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0395] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-007.html
+- [0401] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-all-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-all-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-all-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-all-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-all-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-all-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0402] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0008587130753377604, diffPixels=720
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0403] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0008587130753377604, diffPixels=720
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0404] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000572475383558507, diffPixels=480
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000572475383558507, diffPixels=480
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0405] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0002862376917792535, diffPixels=240
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0002862376917792535, diffPixels=240
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0406] [WPT reftest] css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001192657049080223, diffPixels=1000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0407] [WPT reftest] css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0408] [WPT reftest] css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-003-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.004770628196320892, diffPixels=4000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/fragmentation/multicol-gap-decorations-fragmentation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0416] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/multicol/multicol-gap-decorations-007-ref.html (==)
@@ -1882,7 +2103,7 @@
   stable page 1: diffRatio=0.06856585375162201, diffPixels=57490
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0406] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-018.html
+- [0427] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/multicol/multicol-gap-decorations-018-ref.html (==)
@@ -1895,7 +2116,7 @@
   stable page 1: diffRatio=0.005247691015952981, diffPixels=4400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0409] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-021.html
+- [0430] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1908,7 +2129,7 @@
   stable page 1: diffRatio=0.0035779711472406685, diffPixels=3000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0414] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-026.html
+- [0435] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-026.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/multicol/multicol-gap-decorations-026-ref.html (==)
@@ -1921,7 +2142,7 @@
   stable page 1: diffRatio=0.000706052973055492, diffPixels=592
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0428] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-040.html
+- [0449] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-040.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-gaps/multicol/multicol-gap-decorations-040-ref.html (==)
@@ -1934,15 +2155,28 @@
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0454] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 ## Errors
 
 - [0108] [WPT reftest] css/css-gaps/flex/fragmentation/flex-gap-decorations-fragmentation-027.html
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/fragmentation/flex-gap-decorations-fragmentation-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/fragmentation/flex-gap-decorations-fragmentation-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

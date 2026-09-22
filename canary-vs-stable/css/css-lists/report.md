@@ -16,11 +16,11 @@
   reference: css/css-lists/change-list-style-position-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/change-list-style-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002552286085031677, diffPixels=214
+  canary page 1: diffRatio=0.00025642126555224795, diffPixels=215
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/change-list-style-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/change-list-style-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002552286085031677, diffPixels=214
+  stable page 1: diffRatio=0.00025642126555224795, diffPixels=215
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/change-list-style-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-lists/change-list-style-position-002.html
@@ -55,11 +55,11 @@
   reference: css/css-lists/counter-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016697198687123122, diffPixels=140
+  canary page 1: diffRatio=0.00016339401572399052, diffPixels=137
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
+  stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0022] [WPT reftest] css/css-lists/counter-002.html
@@ -68,11 +68,11 @@
   reference: css/css-lists/counter-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011568773376078162, diffPixels=970
+  canary page 1: diffRatio=0.001155684680558736, diffPixels=969
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011568773376078162, diffPixels=970
+  stable page 1: diffRatio=0.001155684680558736, diffPixels=969
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0023] [WPT reftest] css/css-lists/counter-003.html
@@ -81,11 +81,11 @@
   reference: css/css-lists/counter-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0040669605373635604, diffPixels=3410
+  canary page 1: diffRatio=0.004050263338676437, diffPixels=3396
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0040669605373635604, diffPixels=3410
+  stable page 1: diffRatio=0.004050263338676437, diffPixels=3396
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0026] [WPT reftest] css/css-lists/counter-invalid.htm
@@ -94,11 +94,11 @@
   reference: css/css-lists/counter-7-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-invalid.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011330241966262118, diffPixels=95
+  canary page 1: diffRatio=0.00011210976261354095, diffPixels=94
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-7-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-invalid.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011330241966262118, diffPixels=95
+  stable page 1: diffRatio=0.00011210976261354095, diffPixels=94
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-7-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0029] [WPT reftest] css/css-lists/counter-list-item-slot-order.html
@@ -107,11 +107,11 @@
   reference: css/css-lists/counter-list-item-slot-order-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-list-item-slot-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005378883291351805, diffPixels=451
+  canary page 1: diffRatio=0.0005307323868406991, diffPixels=445
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-list-item-slot-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-list-item-slot-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005378883291351805, diffPixels=451
+  stable page 1: diffRatio=0.0005307323868406991, diffPixels=445
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-list-item-slot-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-lists/counter-list-item.html
@@ -120,11 +120,11 @@
   reference: css/css-lists/counter-list-item-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-list-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013131154110373254, diffPixels=1101
+  canary page 1: diffRatio=0.0013035741546446836, diffPixels=1093
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-list-item-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-list-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013131154110373254, diffPixels=1101
+  stable page 1: diffRatio=0.0013035741546446836, diffPixels=1093
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-list-item-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0031] [WPT reftest] css/css-lists/counter-order-display-contents.html
@@ -146,11 +146,11 @@
   reference: css/css-lists/counter-reset-increment-overflow-underflow-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-increment-overflow-underflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009302724982825738, diffPixels=78
+  canary page 1: diffRatio=0.00010018319212273872, diffPixels=84
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-increment-overflow-underflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-increment-overflow-underflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009302724982825738, diffPixels=78
+  stable page 1: diffRatio=0.00010018319212273872, diffPixels=84
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-increment-overflow-underflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0033] [WPT reftest] css/css-lists/counter-reset-increment-set-display-contents.html
@@ -159,11 +159,11 @@
   reference: css/css-lists/counter-7-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-increment-set-display-contents.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00008467865048469583, diffPixels=71
+  canary page 1: diffRatio=0.0000942199068773376, diffPixels=79
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-7-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-increment-set-display-contents.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00008467865048469583, diffPixels=71
+  stable page 1: diffRatio=0.0000942199068773376, diffPixels=79
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-7-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0036] [WPT reftest] css/css-lists/counter-reset-reversed-display-none.html
@@ -172,11 +172,11 @@
   reference: css/css-lists/counter-reset-reversed-display-none-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-display-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006082550950309137, diffPixels=51
+  canary page 1: diffRatio=0.00005963285245401114, diffPixels=50
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-display-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-display-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006082550950309137, diffPixels=51
+  stable page 1: diffRatio=0.00005963285245401114, diffPixels=50
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-display-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0037] [WPT reftest] css/css-lists/counter-reset-reversed-list-item-start.html
@@ -185,11 +185,11 @@
   reference: css/css-lists/counter-7-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-list-item-start.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006201816655217159, diffPixels=52
+  canary page 1: diffRatio=0.00006082550950309137, diffPixels=51
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-7-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-list-item-start.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006201816655217159, diffPixels=52
+  stable page 1: diffRatio=0.00006082550950309137, diffPixels=51
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-7-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0038] [WPT reftest] css/css-lists/counter-reset-reversed-list-item.html
@@ -224,11 +224,11 @@
   reference: css/css-lists/counter-reset-reversed-nested-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009171532707426914, diffPixels=769
+  canary page 1: diffRatio=0.0009207312418899321, diffPixels=772
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009171532707426914, diffPixels=769
+  stable page 1: diffRatio=0.0009207312418899321, diffPixels=772
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0041] [WPT reftest] css/css-lists/counter-reset-reversed-not-list-item-start.html
@@ -263,11 +263,11 @@
   reference: css/css-lists/counter-reset-reversed-pseudo-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-pseudo-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002468800091596061, diffPixels=207
+  canary page 1: diffRatio=0.0002444946950614457, diffPixels=205
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-pseudo-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-pseudo-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002468800091596061, diffPixels=207
+  stable page 1: diffRatio=0.0002444946950614457, diffPixels=205
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-pseudo-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0044] [WPT reftest] css/css-lists/counter-reset-reversed-pseudo-002.html
@@ -289,11 +289,11 @@
   reference: css/css-lists/counter-reset-reversed-pseudo-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-pseudo-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016577932982215097, diffPixels=139
+  canary page 1: diffRatio=0.00016339401572399052, diffPixels=137
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-pseudo-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-pseudo-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
+  stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-pseudo-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/css-lists/counter-reset-reversed-siblings-001a.html
@@ -328,11 +328,11 @@
   reference: css/css-lists/counter-reset-reversed-siblings-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-siblings-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006201816655217159, diffPixels=52
+  canary page 1: diffRatio=0.00006082550950309137, diffPixels=51
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-siblings-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-siblings-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006201816655217159, diffPixels=52
+  stable page 1: diffRatio=0.00006082550950309137, diffPixels=51
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-siblings-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0049] [WPT reftest] css/css-lists/counter-reset-reversed-siblings-003.html
@@ -341,11 +341,11 @@
   reference: css/css-lists/counter-reset-reversed-siblings-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-siblings-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006559613769941226, diffPixels=55
+  canary page 1: diffRatio=0.00006678879474849248, diffPixels=56
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-reset-reversed-siblings-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-siblings-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006559613769941226, diffPixels=55
+  stable page 1: diffRatio=0.00006678879474849248, diffPixels=56
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-reset-reversed-siblings-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0050] [WPT reftest] css/css-lists/counter-reset-reversed-with-regular.html
@@ -367,11 +367,11 @@
   reference: css/css-lists/counter-set-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-set-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00044366842225784293, diffPixels=372
+  canary page 1: diffRatio=0.0004412831081596825, diffPixels=370
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-set-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-set-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00044366842225784293, diffPixels=372
+  stable page 1: diffRatio=0.0004412831081596825, diffPixels=370
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-set-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0052] [WPT reftest] css/css-lists/counter-set-002.html
@@ -380,11 +380,11 @@
   reference: css/css-lists/counter-set-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-set-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018366918555835432, diffPixels=154
+  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-set-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-set-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018366918555835432, diffPixels=154
+  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-set-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0053] [WPT reftest] css/css-lists/counter-slot-order-scoping.html
@@ -419,11 +419,11 @@
   reference: css/css-lists/counters-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001348895122509732, diffPixels=1131
+  canary page 1: diffRatio=0.001359629035951454, diffPixels=1140
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001348895122509732, diffPixels=1131
+  stable page 1: diffRatio=0.001359629035951454, diffPixels=1140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-lists/counters-002.html
@@ -432,11 +432,11 @@
   reference: css/css-lists/counters-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004456959392412793, diffPixels=3737
+  canary page 1: diffRatio=0.00444145485077475, diffPixels=3724
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004456959392412793, diffPixels=3737
+  stable page 1: diffRatio=0.00444145485077475, diffPixels=3724
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0057] [WPT reftest] css/css-lists/counters-003.html
@@ -445,11 +445,11 @@
   reference: css/css-lists/counters-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0030854037859705365, diffPixels=2587
+  canary page 1: diffRatio=0.0030961376994122587, diffPixels=2596
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0030854037859705365, diffPixels=2587
+  stable page 1: diffRatio=0.0030961376994122587, diffPixels=2596
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0058] [WPT reftest] css/css-lists/counters-004.html
@@ -458,11 +458,11 @@
   reference: css/css-lists/counters-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00530016792611251, diffPixels=4444
+  canary page 1: diffRatio=0.00529778261201435, diffPixels=4442
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00530016792611251, diffPixels=4444
+  stable page 1: diffRatio=0.00529778261201435, diffPixels=4442
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0061] [WPT reftest] css/css-lists/counters-scope-001.html
@@ -471,11 +471,11 @@
   reference: css/css-lists/counters-scope-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-scope-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007394473704297382, diffPixels=62
+  canary page 1: diffRatio=0.00007155942294481338, diffPixels=60
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-scope-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-scope-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00007394473704297382, diffPixels=62
+  stable page 1: diffRatio=0.00007155942294481338, diffPixels=60
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-scope-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0062] [WPT reftest] css/css-lists/counters-scope-002.html
@@ -497,11 +497,11 @@
   reference: css/css-lists/counters-scope-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-scope-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003804575986565911, diffPixels=319
+  canary page 1: diffRatio=0.0003840355698038318, diffPixels=322
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counters-scope-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-scope-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003804575986565911, diffPixels=319
+  stable page 1: diffRatio=0.0003840355698038318, diffPixels=322
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counters-scope-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0064] [WPT reftest] css/css-lists/counters-scope-004.html
@@ -523,11 +523,11 @@
   reference: css/css-lists/deep-pseudo-element-remove-update-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/deep-pseudo-element-remove-update.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007871536523929471, diffPixels=66
+  canary page 1: diffRatio=0.00007752270819021449, diffPixels=65
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/deep-pseudo-element-remove-update-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/deep-pseudo-element-remove-update.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00007871536523929471, diffPixels=66
+  stable page 1: diffRatio=0.00007752270819021449, diffPixels=65
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/deep-pseudo-element-remove-update-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0066] [WPT reftest] css/css-lists/details-open.html
@@ -549,11 +549,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  canary page 1: diffRatio=0.0007215575146935348, diffPixels=605
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  stable page 1: diffRatio=0.0007215575146935348, diffPixels=605
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0068] [WPT reftest] css/css-lists/foo-counter-reversed-006b.html
@@ -562,11 +562,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  canary page 1: diffRatio=0.0007215575146935348, diffPixels=605
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  stable page 1: diffRatio=0.0007215575146935348, diffPixels=605
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0069] [WPT reftest] css/css-lists/foo-counter-reversed-006c.html
@@ -575,11 +575,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  canary page 1: diffRatio=0.0007215575146935348, diffPixels=605
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  stable page 1: diffRatio=0.0007215575146935348, diffPixels=605
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0070] [WPT reftest] css/css-lists/foo-counter-reversed-006d.html
@@ -588,11 +588,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  canary page 1: diffRatio=0.0007215575146935348, diffPixels=605
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  stable page 1: diffRatio=0.0007215575146935348, diffPixels=605
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0071] [WPT reftest] css/css-lists/foo-counter-reversed-006e.html
@@ -601,11 +601,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  canary page 1: diffRatio=0.0007215575146935348, diffPixels=605
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-006e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  stable page 1: diffRatio=0.0007215575146935348, diffPixels=605
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0072] [WPT reftest] css/css-lists/foo-counter-reversed-007a.html
@@ -614,11 +614,11 @@
   reference: css/css-lists/li-value-reversed-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00246164414930158, diffPixels=2064
+  canary page 1: diffRatio=0.0024413689794672163, diffPixels=2047
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00246164414930158, diffPixels=2064
+  stable page 1: diffRatio=0.0024413689794672163, diffPixels=2047
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0073] [WPT reftest] css/css-lists/foo-counter-reversed-007b.html
@@ -627,11 +627,11 @@
   reference: css/css-lists/li-value-reversed-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-007b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00246164414930158, diffPixels=2064
+  canary page 1: diffRatio=0.0024413689794672163, diffPixels=2047
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-007b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00246164414930158, diffPixels=2064
+  stable page 1: diffRatio=0.0024413689794672163, diffPixels=2047
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0074] [WPT reftest] css/css-lists/foo-counter-reversed-008a.html
@@ -640,11 +640,11 @@
   reference: css/css-lists/li-value-reversed-008-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-008a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003566044576749866, diffPixels=299
+  canary page 1: diffRatio=0.0003554118006259064, diffPixels=298
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-008a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003566044576749866, diffPixels=299
+  stable page 1: diffRatio=0.0003554118006259064, diffPixels=298
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0075] [WPT reftest] css/css-lists/foo-counter-reversed-008b.html
@@ -653,11 +653,11 @@
   reference: css/css-lists/li-value-reversed-008-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-008b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003566044576749866, diffPixels=299
+  canary page 1: diffRatio=0.0003554118006259064, diffPixels=298
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-008b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003566044576749866, diffPixels=299
+  stable page 1: diffRatio=0.0003554118006259064, diffPixels=298
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0076] [WPT reftest] css/css-lists/foo-counter-reversed-009a.html
@@ -666,11 +666,11 @@
   reference: css/css-lists/li-value-reversed-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-009a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001401372032669262, diffPixels=1175
+  canary page 1: diffRatio=0.0013942160903747806, diffPixels=1169
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-009a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001401372032669262, diffPixels=1175
+  stable page 1: diffRatio=0.0013942160903747806, diffPixels=1169
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0077] [WPT reftest] css/css-lists/foo-counter-reversed-009b.html
@@ -679,11 +679,11 @@
   reference: css/css-lists/li-value-reversed-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/foo-counter-reversed-009b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001401372032669262, diffPixels=1175
+  canary page 1: diffRatio=0.0013942160903747806, diffPixels=1169
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/foo-counter-reversed-009b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001401372032669262, diffPixels=1175
+  stable page 1: diffRatio=0.0013942160903747806, diffPixels=1169
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0081] [WPT reftest] css/css-lists/inline-list-marker.html
@@ -705,11 +705,11 @@
   reference: css/css-lists/li-insert-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-insert-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  canary page 1: diffRatio=0.00123082207465079, diffPixels=1032
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-insert-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-insert-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001235592702847111, diffPixels=1036
+  stable page 1: diffRatio=0.00123082207465079, diffPixels=1032
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-insert-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0090] [WPT reftest] css/css-lists/li-value-counter-reset-001.html
@@ -718,11 +718,11 @@
   reference: css/css-lists/li-value-counter-reset-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-counter-reset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00021229295473627967, diffPixels=178
+  canary page 1: diffRatio=0.0002134856117853599, diffPixels=179
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-counter-reset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-counter-reset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00021229295473627967, diffPixels=178
+  stable page 1: diffRatio=0.0002134856117853599, diffPixels=179
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-counter-reset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0092] [WPT reftest] css/css-lists/li-value-reversed-001.html
@@ -744,11 +744,11 @@
   reference: css/css-lists/li-value-reversed-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018128387146019388, diffPixels=152
+  canary page 1: diffRatio=0.0001824765285092741, diffPixels=153
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018128387146019388, diffPixels=152
+  stable page 1: diffRatio=0.0001824765285092741, diffPixels=153
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0094] [WPT reftest] css/css-lists/li-value-reversed-003.html
@@ -770,11 +770,11 @@
   reference: css/css-lists/li-value-reversed-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  canary page 1: diffRatio=0.000026238455079764903, diffPixels=22
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  stable page 1: diffRatio=0.000026238455079764903, diffPixels=22
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0096] [WPT reftest] css/css-lists/li-value-reversed-005.html
@@ -796,11 +796,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008408232196015571, diffPixels=705
+  canary page 1: diffRatio=0.0008336672773070758, diffPixels=699
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008408232196015571, diffPixels=705
+  stable page 1: diffRatio=0.0008336672773070758, diffPixels=699
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0098] [WPT reftest] css/css-lists/li-value-reversed-006b.html
@@ -809,11 +809,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008408232196015571, diffPixels=705
+  canary page 1: diffRatio=0.0008336672773070758, diffPixels=699
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008408232196015571, diffPixels=705
+  stable page 1: diffRatio=0.0008336672773070758, diffPixels=699
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0099] [WPT reftest] css/css-lists/li-value-reversed-006c.html
@@ -822,11 +822,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008408232196015571, diffPixels=705
+  canary page 1: diffRatio=0.0008336672773070758, diffPixels=699
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008408232196015571, diffPixels=705
+  stable page 1: diffRatio=0.0008336672773070758, diffPixels=699
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0100] [WPT reftest] css/css-lists/li-value-reversed-006d.html
@@ -835,11 +835,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007287134569880162, diffPixels=611
+  canary page 1: diffRatio=0.0007203648576444546, diffPixels=604
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007287134569880162, diffPixels=611
+  stable page 1: diffRatio=0.0007203648576444546, diffPixels=604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0101] [WPT reftest] css/css-lists/li-value-reversed-006e.html
@@ -848,11 +848,11 @@
   reference: css/css-lists/li-value-reversed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007287134569880162, diffPixels=611
+  canary page 1: diffRatio=0.0007203648576444546, diffPixels=604
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007287134569880162, diffPixels=611
+  stable page 1: diffRatio=0.0007203648576444546, diffPixels=604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0102] [WPT reftest] css/css-lists/li-value-reversed-007a.html
@@ -861,11 +861,11 @@
   reference: css/css-lists/li-value-reversed-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0028122853217311655, diffPixels=2358
+  canary page 1: diffRatio=0.0027836615525532404, diffPixels=2334
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0028122853217311655, diffPixels=2358
+  stable page 1: diffRatio=0.0027836615525532404, diffPixels=2334
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0103] [WPT reftest] css/css-lists/li-value-reversed-007b.html
@@ -874,11 +874,11 @@
   reference: css/css-lists/li-value-reversed-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-007b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0028122853217311655, diffPixels=2358
+  canary page 1: diffRatio=0.0027836615525532404, diffPixels=2334
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-007b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0028122853217311655, diffPixels=2358
+  stable page 1: diffRatio=0.0027836615525532404, diffPixels=2334
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0104] [WPT reftest] css/css-lists/li-value-reversed-008a.html
@@ -913,11 +913,11 @@
   reference: css/css-lists/li-value-reversed-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-009a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001305959468742844, diffPixels=1095
+  canary page 1: diffRatio=0.001299996183497443, diffPixels=1090
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-009a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001305959468742844, diffPixels=1095
+  stable page 1: diffRatio=0.001299996183497443, diffPixels=1090
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0107] [WPT reftest] css/css-lists/li-value-reversed-009b.html
@@ -926,11 +926,11 @@
   reference: css/css-lists/li-value-reversed-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-009b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001418069231356385, diffPixels=1189
+  canary page 1: diffRatio=0.001412105946110984, diffPixels=1184
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-009b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001418069231356385, diffPixels=1189
+  stable page 1: diffRatio=0.001412105946110984, diffPixels=1184
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0108] [WPT reftest] css/css-lists/li-value-reversed-010.html
@@ -1030,11 +1030,11 @@
   reference: css/css-lists/li-value-reversed-018-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  canary page 1: diffRatio=0.000026238455079764903, diffPixels=22
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  stable page 1: diffRatio=0.000026238455079764903, diffPixels=22
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0117] [WPT reftest] css/css-lists/li-value-reversed-019.html
@@ -1043,11 +1043,11 @@
   reference: css/css-lists/li-value-reversed-019-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00010376116326997939, diffPixels=87
+  canary page 1: diffRatio=0.00010256850622089917, diffPixels=86
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00010376116326997939, diffPixels=87
+  stable page 1: diffRatio=0.00010256850622089917, diffPixels=86
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0118] [WPT reftest] css/css-lists/li-value-reversed-020.html
@@ -1069,11 +1069,11 @@
   reference: css/css-lists/li-value-reversed-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000054862224257690255, diffPixels=46
+  canary page 1: diffRatio=0.000052476910159529805, diffPixels=44
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000054862224257690255, diffPixels=46
+  stable page 1: diffRatio=0.000052476910159529805, diffPixels=44
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0120] [WPT reftest] css/css-lists/li-value-reversed-022.html
@@ -1082,11 +1082,11 @@
   reference: css/css-lists/li-value-reversed-022-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011568773376078162, diffPixels=97
+  canary page 1: diffRatio=0.0001204583619571025, diffPixels=101
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011568773376078162, diffPixels=97
+  stable page 1: diffRatio=0.0001204583619571025, diffPixels=101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0121] [WPT reftest] css/css-lists/li-value-reversed-023.html
@@ -1095,11 +1095,11 @@
   reference: css/css-lists/li-value-reversed-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000054862224257690255, diffPixels=46
+  canary page 1: diffRatio=0.000052476910159529805, diffPixels=44
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000054862224257690255, diffPixels=46
+  stable page 1: diffRatio=0.000052476910159529805, diffPixels=44
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0123] [WPT reftest] css/css-lists/li-value-reversed-025.html
@@ -1108,11 +1108,11 @@
   reference: css/css-lists/li-value-reversed-025-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011330241966262118, diffPixels=95
+  canary page 1: diffRatio=0.00011568773376078162, diffPixels=97
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011330241966262118, diffPixels=95
+  stable page 1: diffRatio=0.00011568773376078162, diffPixels=97
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0124] [WPT reftest] css/css-lists/li-value-reversed-026.html
@@ -1121,11 +1121,11 @@
   reference: css/css-lists/li-value-reversed-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00008348599343561561, diffPixels=70
+  canary page 1: diffRatio=0.0000882566216319365, diffPixels=74
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
+  stable page 1: diffRatio=0.0000882566216319365, diffPixels=74
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0125] [WPT reftest] css/css-lists/li-value-reversed-027.html
@@ -1147,11 +1147,11 @@
   reference: css/css-lists/li-value-reversed-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000054862224257690255, diffPixels=46
+  canary page 1: diffRatio=0.000052476910159529805, diffPixels=44
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/li-value-reversed-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000054862224257690255, diffPixels=46
+  stable page 1: diffRatio=0.000052476910159529805, diffPixels=44
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/li-value-reversed-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0134] [WPT reftest] css/css-lists/list-item-definition.html
@@ -1186,11 +1186,11 @@
   reference: css/css-lists/list-marker-symbol-bidi-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-marker-symbol-bidi.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002671551789939699, diffPixels=224
+  canary page 1: diffRatio=0.0002719258071902908, diffPixels=228
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-marker-symbol-bidi-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-symbol-bidi.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002671551789939699, diffPixels=224
+  stable page 1: diffRatio=0.0002719258071902908, diffPixels=228
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-symbol-bidi-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0142] [WPT reftest] css/css-lists/list-style-image-gradients-dynamic.html
@@ -1225,11 +1225,11 @@
   reference: css/css-lists/list-style-image-zoom-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.25023853140981606, diffPixels=209816
+  canary page 1: diffRatio=0.25023614609571787, diffPixels=209814
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.25023853140981606, diffPixels=209816
+  stable page 1: diffRatio=0.25023614609571787, diffPixels=209814
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0153] [WPT reftest] css/css-lists/list-style-type-string-004.html
@@ -1238,11 +1238,11 @@
   reference: css/css-lists/list-style-type-string-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007728417678039845, diffPixels=648
+  canary page 1: diffRatio=0.000791924280589268, diffPixels=664
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007728417678039845, diffPixels=648
+  stable page 1: diffRatio=0.000791924280589268, diffPixels=664
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0157] [WPT reftest] css/css-lists/list-style-type-string-007.html
@@ -1264,11 +1264,11 @@
   reference: css/css-lists/marker-dynamic-content-change-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/marker-dynamic-content-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019321044195099612, diffPixels=162
+  canary page 1: diffRatio=0.00020632966949087856, diffPixels=173
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/marker-dynamic-content-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-dynamic-content-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00019321044195099612, diffPixels=162
+  stable page 1: diffRatio=0.00020632966949087856, diffPixels=173
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-dynamic-content-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0162] [WPT reftest] css/css-lists/marker-quotes.html
@@ -1303,11 +1303,11 @@
   reference: css/css-lists/nested-marker-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/nested-marker-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000673851232730326, diffPixels=565
+  canary page 1: diffRatio=0.0006762365468284863, diffPixels=567
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/nested-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/nested-marker-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000673851232730326, diffPixels=565
+  stable page 1: diffRatio=0.0006762365468284863, diffPixels=567
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/nested-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0165] [WPT reftest] css/css-lists/nested-marker-styling.html
@@ -1329,11 +1329,11 @@
   reference: css/css-lists/nested-marker-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/nested-marker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00008587130753377605, diffPixels=72
+  canary page 1: diffRatio=0.00008706396458285627, diffPixels=73
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/nested-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/nested-marker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00008587130753377605, diffPixels=72
+  stable page 1: diffRatio=0.00008706396458285627, diffPixels=73
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/nested-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0167] [WPT reftest] css/css-lists/ol-change-display-type.html

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 460
-- Entries with differences: 141 (pending: 141, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Compared entries: 461
+- Entries with differences: 138 (pending: 138, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":319,"known-fail":140,"regression":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":322,"known-fail":138,"error":1}
 
 ## Differences
 
@@ -107,11 +107,11 @@
   reference: css/css-images/cross-fade-natural-size-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/cross-fade-natural-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.31137651705976643, diffPixels=261078
+  canary page 1: diffRatio=0.31138128768796275, diffPixels=261082
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/cross-fade-natural-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/cross-fade-natural-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.31137651705976643, diffPixels=261078
+  stable page 1: diffRatio=0.31138128768796275, diffPixels=261082
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/cross-fade-natural-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0019] [WPT reftest] css/css-images/cross-fade-premultiplied-alpha.html
@@ -198,11 +198,11 @@
   reference: css/css-images/css-image-fallbacks-and-annotations-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04858288489428288, diffPixels=40735
+  canary page 1: diffRatio=0.04858407755133196, diffPixels=40736
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04858288489428288, diffPixels=40735
+  stable page 1: diffRatio=0.04858407755133196, diffPixels=40736
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/css-image-fallbacks-and-annotations-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0026] [WPT reftest] css/css-images/gradient/color-scheme-dependent-color-stops.html
@@ -250,12 +250,18 @@
   reference: css/css-images/gradient/gradient-infinity-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.018972788336768187, diffPixels=15908
+  canary page 1: diffRatio=0.018975173650866345, diffPixels=15910
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.018972788336768187, diffPixels=15908
+  stable page 1: diffRatio=0.018975173650866345, diffPixels=15910
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/gradient/gradient-infinity-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0066] [WPT reftest] css/css-images/gradient/gradient-longer-hue-lch-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0109] [WPT reftest] css/css-images/image-color-background-combined.html
   triage: pending
@@ -380,11 +386,11 @@
   reference: css/css-images/image-orientation/reference/image-orientation-from-image-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06849787229982444, diffPixels=57433
+  canary page 1: diffRatio=0.06850145027097168, diffPixels=57436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-from-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06849787229982444, diffPixels=57433
+  stable page 1: diffRatio=0.06850145027097168, diffPixels=57436
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-from-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0127] [WPT reftest] css/css-images/image-orientation/image-orientation-from-image-composited-dynamic2.html
@@ -406,11 +412,11 @@
   reference: css/css-images/image-orientation/reference/image-orientation-from-image-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-dynamic1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06849787229982444, diffPixels=57433
+  canary page 1: diffRatio=0.06850145027097168, diffPixels=57436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-from-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-from-image-dynamic1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06849787229982444, diffPixels=57433
+  stable page 1: diffRatio=0.06850145027097168, diffPixels=57436
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-from-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0131] [WPT reftest] css/css-images/image-orientation/image-orientation-from-image-dynamic2.html
@@ -458,21 +464,12 @@
   reference: css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02232773261583085, diffPixels=18721
+  canary page 1: diffRatio=0.022325347301732693, diffPixels=18719
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02232773261583085, diffPixels=18721
+  stable page 1: diffRatio=0.022325347301732693, diffPixels=18719
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0147] [WPT reftest] css/css-images/image-orientation/svg-image-orientation-none.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005953743989008472, diffPixels=4992
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0152] [WPT reftest] css/css-images/image-set/image-set-calc-x-rendering-2.html
   triage: pending
@@ -604,7 +601,7 @@
   stable page 1: diffRatio=0.005493378368063507, diffPixels=4606
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/linear-gradient-body-sibling-index-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0212] [WPT reftest] css/css-images/object-fit-contain-png-001c.html
+- [0213] [WPT reftest] css/css-images/object-fit-contain-png-001c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-png-001-ref.html (==)
@@ -617,7 +614,7 @@
   stable page 1: diffRatio=0.014054270666361347, diffPixels=11784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0217] [WPT reftest] css/css-images/object-fit-contain-png-002c.html
+- [0218] [WPT reftest] css/css-images/object-fit-contain-png-002c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-png-002-ref.html (==)
@@ -630,7 +627,7 @@
   stable page 1: diffRatio=0.013944546217845966, diffPixels=11692
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0222] [WPT reftest] css/css-images/object-fit-contain-svg-001e.html
+- [0223] [WPT reftest] css/css-images/object-fit-contain-svg-001e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-001-ref.html (==)
@@ -643,7 +640,7 @@
   stable page 1: diffRatio=0.014569498511564003, diffPixels=12216
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0224] [WPT reftest] css/css-images/object-fit-contain-svg-001o.html
+- [0225] [WPT reftest] css/css-images/object-fit-contain-svg-001o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-001-ref.html (==)
@@ -656,7 +653,7 @@
   stable page 1: diffRatio=0.014569498511564003, diffPixels=12216
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0226] [WPT reftest] css/css-images/object-fit-contain-svg-002e.html
+- [0227] [WPT reftest] css/css-images/object-fit-contain-svg-002e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-002-ref.html (==)
@@ -669,7 +666,7 @@
   stable page 1: diffRatio=0.014803259293183726, diffPixels=12412
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0228] [WPT reftest] css/css-images/object-fit-contain-svg-002o.html
+- [0229] [WPT reftest] css/css-images/object-fit-contain-svg-002o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-002-ref.html (==)
@@ -682,7 +679,7 @@
   stable page 1: diffRatio=0.014803259293183726, diffPixels=12412
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0230] [WPT reftest] css/css-images/object-fit-contain-svg-003e.html
+- [0231] [WPT reftest] css/css-images/object-fit-contain-svg-003e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-003-ref.html (==)
@@ -695,7 +692,7 @@
   stable page 1: diffRatio=0.008303278375696511, diffPixels=6962
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0232] [WPT reftest] css/css-images/object-fit-contain-svg-003o.html
+- [0233] [WPT reftest] css/css-images/object-fit-contain-svg-003o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-003-ref.html (==)
@@ -708,7 +705,7 @@
   stable page 1: diffRatio=0.008303278375696511, diffPixels=6962
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0234] [WPT reftest] css/css-images/object-fit-contain-svg-004e.html
+- [0235] [WPT reftest] css/css-images/object-fit-contain-svg-004e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-004-ref.html (==)
@@ -721,7 +718,7 @@
   stable page 1: diffRatio=0.00834859934356156, diffPixels=7000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0236] [WPT reftest] css/css-images/object-fit-contain-svg-004o.html
+- [0237] [WPT reftest] css/css-images/object-fit-contain-svg-004o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-004-ref.html (==)
@@ -734,7 +731,7 @@
   stable page 1: diffRatio=0.00834859934356156, diffPixels=7000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0238] [WPT reftest] css/css-images/object-fit-contain-svg-005e.html
+- [0239] [WPT reftest] css/css-images/object-fit-contain-svg-005e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-005-ref.html (==)
@@ -747,7 +744,7 @@
   stable page 1: diffRatio=0.008303278375696511, diffPixels=6962
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0240] [WPT reftest] css/css-images/object-fit-contain-svg-005o.html
+- [0241] [WPT reftest] css/css-images/object-fit-contain-svg-005o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-005-ref.html (==)
@@ -760,7 +757,7 @@
   stable page 1: diffRatio=0.008303278375696511, diffPixels=6962
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0242] [WPT reftest] css/css-images/object-fit-contain-svg-006e.html
+- [0243] [WPT reftest] css/css-images/object-fit-contain-svg-006e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-contain-svg-006-ref.html (==)
@@ -773,20 +770,7 @@
   stable page 1: diffRatio=0.00834859934356156, diffPixels=7000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0244] [WPT reftest] css/css-images/object-fit-contain-svg-006o.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-images/object-fit-contain-svg-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00834859934356156, diffPixels=7000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00834859934356156, diffPixels=7000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0246] [WPT reftest] css/css-images/object-fit-containcontainintrinsicsize-png-001c.tentative.html
+- [0247] [WPT reftest] css/css-images/object-fit-containcontainintrinsicsize-png-001c.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-containsize-png-001-ref.tentative.html (==)
@@ -799,7 +783,7 @@
   stable page 1: diffRatio=0.004885123273032593, diffPixels=4096
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0250] [WPT reftest] css/css-images/object-fit-containsize-png-001c.tentative.html
+- [0251] [WPT reftest] css/css-images/object-fit-containsize-png-001c.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-containsize-png-001-ref.tentative.html (==)
@@ -812,7 +796,7 @@
   stable page 1: diffRatio=0.004885123273032593, diffPixels=4096
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-containsize-png-001-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0254] [WPT reftest] css/css-images/object-fit-cover-png-001c.html
+- [0255] [WPT reftest] css/css-images/object-fit-cover-png-001c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-png-001-ref.html (==)
@@ -825,7 +809,7 @@
   stable page 1: diffRatio=0.025549099305396533, diffPixels=21422
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0259] [WPT reftest] css/css-images/object-fit-cover-png-002c.html
+- [0260] [WPT reftest] css/css-images/object-fit-cover-png-002c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-png-002-ref.html (==)
@@ -838,7 +822,7 @@
   stable page 1: diffRatio=0.025558640561789175, diffPixels=21430
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0264] [WPT reftest] css/css-images/object-fit-cover-svg-001e.html
+- [0265] [WPT reftest] css/css-images/object-fit-cover-svg-001e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-001-ref.html (==)
@@ -851,7 +835,7 @@
   stable page 1: diffRatio=0.006993740935806427, diffPixels=5864
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0266] [WPT reftest] css/css-images/object-fit-cover-svg-001o.html
+- [0267] [WPT reftest] css/css-images/object-fit-cover-svg-001o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-001-ref.html (==)
@@ -864,7 +848,7 @@
   stable page 1: diffRatio=0.006993740935806427, diffPixels=5864
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0268] [WPT reftest] css/css-images/object-fit-cover-svg-002e.html
+- [0269] [WPT reftest] css/css-images/object-fit-cover-svg-002e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-002-ref.html (==)
@@ -877,7 +861,7 @@
   stable page 1: diffRatio=0.006965117166628502, diffPixels=5840
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0270] [WPT reftest] css/css-images/object-fit-cover-svg-002o.html
+- [0271] [WPT reftest] css/css-images/object-fit-cover-svg-002o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-002-ref.html (==)
@@ -890,7 +874,7 @@
   stable page 1: diffRatio=0.006965117166628502, diffPixels=5840
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0272] [WPT reftest] css/css-images/object-fit-cover-svg-003e.html
+- [0273] [WPT reftest] css/css-images/object-fit-cover-svg-003e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-003-ref.html (==)
@@ -903,7 +887,7 @@
   stable page 1: diffRatio=0.014562342569269521, diffPixels=12210
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0274] [WPT reftest] css/css-images/object-fit-cover-svg-003o.html
+- [0275] [WPT reftest] css/css-images/object-fit-cover-svg-003o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-003-ref.html (==)
@@ -916,7 +900,7 @@
   stable page 1: diffRatio=0.014562342569269521, diffPixels=12210
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0276] [WPT reftest] css/css-images/object-fit-cover-svg-004e.html
+- [0277] [WPT reftest] css/css-images/object-fit-cover-svg-004e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-004-ref.html (==)
@@ -929,7 +913,7 @@
   stable page 1: diffRatio=0.014710232043355469, diffPixels=12334
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0278] [WPT reftest] css/css-images/object-fit-cover-svg-004o.html
+- [0279] [WPT reftest] css/css-images/object-fit-cover-svg-004o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-004-ref.html (==)
@@ -942,7 +926,7 @@
   stable page 1: diffRatio=0.014710232043355469, diffPixels=12334
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0280] [WPT reftest] css/css-images/object-fit-cover-svg-005e.html
+- [0281] [WPT reftest] css/css-images/object-fit-cover-svg-005e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-005-ref.html (==)
@@ -955,7 +939,7 @@
   stable page 1: diffRatio=0.014562342569269521, diffPixels=12210
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0282] [WPT reftest] css/css-images/object-fit-cover-svg-005o.html
+- [0283] [WPT reftest] css/css-images/object-fit-cover-svg-005o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-005-ref.html (==)
@@ -968,7 +952,7 @@
   stable page 1: diffRatio=0.014562342569269521, diffPixels=12210
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0284] [WPT reftest] css/css-images/object-fit-cover-svg-006e.html
+- [0285] [WPT reftest] css/css-images/object-fit-cover-svg-006e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-006-ref.html (==)
@@ -981,7 +965,7 @@
   stable page 1: diffRatio=0.014710232043355469, diffPixels=12334
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0286] [WPT reftest] css/css-images/object-fit-cover-svg-006o.html
+- [0287] [WPT reftest] css/css-images/object-fit-cover-svg-006o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-006-ref.html (==)
@@ -994,7 +978,7 @@
   stable page 1: diffRatio=0.014710232043355469, diffPixels=12334
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0288] [WPT reftest] css/css-images/object-fit-dyn-aspect-ratio-001.html
+- [0289] [WPT reftest] css/css-images/object-fit-dyn-aspect-ratio-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-dyn-aspect-ratio-001-ref.html (==)
@@ -1007,7 +991,7 @@
   stable page 1: diffRatio=0.008281810548813068, diffPixels=6944
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-dyn-aspect-ratio-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0289] [WPT reftest] css/css-images/object-fit-dyn-aspect-ratio-002.html
+- [0290] [WPT reftest] css/css-images/object-fit-dyn-aspect-ratio-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-dyn-aspect-ratio-002-ref.html (==)
@@ -1020,7 +1004,7 @@
   stable page 1: diffRatio=0.009064193573009693, diffPixels=7600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-dyn-aspect-ratio-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0290] [WPT reftest] css/css-images/object-fit-fill-png-001c.html
+- [0291] [WPT reftest] css/css-images/object-fit-fill-png-001c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-png-001-ref.html (==)
@@ -1033,7 +1017,7 @@
   stable page 1: diffRatio=0.025549099305396533, diffPixels=21422
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0295] [WPT reftest] css/css-images/object-fit-fill-png-002c.html
+- [0296] [WPT reftest] css/css-images/object-fit-fill-png-002c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-png-002-ref.html (==)
@@ -1046,7 +1030,7 @@
   stable page 1: diffRatio=0.025549099305396533, diffPixels=21422
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0300] [WPT reftest] css/css-images/object-fit-fill-svg-001e.html
+- [0301] [WPT reftest] css/css-images/object-fit-fill-svg-001e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-001-ref.html (==)
@@ -1059,7 +1043,7 @@
   stable page 1: diffRatio=0.00123082207465079, diffPixels=1032
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0302] [WPT reftest] css/css-images/object-fit-fill-svg-001o.html
+- [0303] [WPT reftest] css/css-images/object-fit-fill-svg-001o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-001-ref.html (==)
@@ -1072,7 +1056,7 @@
   stable page 1: diffRatio=0.00123082207465079, diffPixels=1032
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0304] [WPT reftest] css/css-images/object-fit-fill-svg-002e.html
+- [0305] [WPT reftest] css/css-images/object-fit-fill-svg-002e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-002-ref.html (==)
@@ -1085,7 +1069,7 @@
   stable page 1: diffRatio=0.00123082207465079, diffPixels=1032
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0306] [WPT reftest] css/css-images/object-fit-fill-svg-002o.html
+- [0307] [WPT reftest] css/css-images/object-fit-fill-svg-002o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-002-ref.html (==)
@@ -1098,7 +1082,7 @@
   stable page 1: diffRatio=0.00123082207465079, diffPixels=1032
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0308] [WPT reftest] css/css-images/object-fit-fill-svg-003e.html
+- [0309] [WPT reftest] css/css-images/object-fit-fill-svg-003e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-003-ref.html (==)
@@ -1111,7 +1095,7 @@
   stable page 1: diffRatio=0.0013954087474238608, diffPixels=1170
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0310] [WPT reftest] css/css-images/object-fit-fill-svg-003o.html
+- [0311] [WPT reftest] css/css-images/object-fit-fill-svg-003o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-003-ref.html (==)
@@ -1124,7 +1108,7 @@
   stable page 1: diffRatio=0.0013954087474238608, diffPixels=1170
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0312] [WPT reftest] css/css-images/object-fit-fill-svg-004e.html
+- [0313] [WPT reftest] css/css-images/object-fit-fill-svg-004e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-004-ref.html (==)
@@ -1137,7 +1121,7 @@
   stable page 1: diffRatio=0.0010137584917181894, diffPixels=850
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0314] [WPT reftest] css/css-images/object-fit-fill-svg-004o.html
+- [0315] [WPT reftest] css/css-images/object-fit-fill-svg-004o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-004-ref.html (==)
@@ -1150,7 +1134,7 @@
   stable page 1: diffRatio=0.0010137584917181894, diffPixels=850
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0316] [WPT reftest] css/css-images/object-fit-fill-svg-005e.html
+- [0317] [WPT reftest] css/css-images/object-fit-fill-svg-005e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-005-ref.html (==)
@@ -1163,7 +1147,7 @@
   stable page 1: diffRatio=0.0013954087474238608, diffPixels=1170
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0318] [WPT reftest] css/css-images/object-fit-fill-svg-005o.html
+- [0319] [WPT reftest] css/css-images/object-fit-fill-svg-005o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-005-ref.html (==)
@@ -1176,7 +1160,7 @@
   stable page 1: diffRatio=0.0013954087474238608, diffPixels=1170
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0320] [WPT reftest] css/css-images/object-fit-fill-svg-006e.html
+- [0321] [WPT reftest] css/css-images/object-fit-fill-svg-006e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-006-ref.html (==)
@@ -1189,7 +1173,7 @@
   stable page 1: diffRatio=0.0010137584917181894, diffPixels=850
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0322] [WPT reftest] css/css-images/object-fit-fill-svg-006o.html
+- [0323] [WPT reftest] css/css-images/object-fit-fill-svg-006o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-fill-svg-006-ref.html (==)
@@ -1202,7 +1186,7 @@
   stable page 1: diffRatio=0.0010137584917181894, diffPixels=850
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-fill-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0324] [WPT reftest] css/css-images/object-fit-none-png-001c.html
+- [0325] [WPT reftest] css/css-images/object-fit-none-png-001c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-png-001-ref.html (==)
@@ -1215,7 +1199,7 @@
   stable page 1: diffRatio=0.0026071483092893672, diffPixels=2186
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0329] [WPT reftest] css/css-images/object-fit-none-png-002c.html
+- [0330] [WPT reftest] css/css-images/object-fit-none-png-002c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-png-002-ref.html (==)
@@ -1228,7 +1212,7 @@
   stable page 1: diffRatio=0.002616689565682009, diffPixels=2194
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0334] [WPT reftest] css/css-images/object-fit-none-svg-001e.html
+- [0335] [WPT reftest] css/css-images/object-fit-none-svg-001e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-001-ref.html (==)
@@ -1241,7 +1225,7 @@
   stable page 1: diffRatio=0.024897908556598732, diffPixels=20876
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0336] [WPT reftest] css/css-images/object-fit-none-svg-001o.html
+- [0337] [WPT reftest] css/css-images/object-fit-none-svg-001o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-001-ref.html (==)
@@ -1254,7 +1238,7 @@
   stable page 1: diffRatio=0.024897908556598732, diffPixels=20876
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0338] [WPT reftest] css/css-images/object-fit-none-svg-002e.html
+- [0339] [WPT reftest] css/css-images/object-fit-none-svg-002e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-002-ref.html (==)
@@ -1267,7 +1251,7 @@
   stable page 1: diffRatio=0.024902679184795055, diffPixels=20880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0340] [WPT reftest] css/css-images/object-fit-none-svg-002o.html
+- [0341] [WPT reftest] css/css-images/object-fit-none-svg-002o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-002-ref.html (==)
@@ -1280,7 +1264,7 @@
   stable page 1: diffRatio=0.024902679184795055, diffPixels=20880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0342] [WPT reftest] css/css-images/object-fit-none-svg-003e.html
+- [0343] [WPT reftest] css/css-images/object-fit-none-svg-003e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-003-ref.html (==)
@@ -1293,7 +1277,7 @@
   stable page 1: diffRatio=0.008303278375696511, diffPixels=6962
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0344] [WPT reftest] css/css-images/object-fit-none-svg-003o.html
+- [0345] [WPT reftest] css/css-images/object-fit-none-svg-003o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-003-ref.html (==)
@@ -1306,7 +1290,7 @@
   stable page 1: diffRatio=0.008303278375696511, diffPixels=6962
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0346] [WPT reftest] css/css-images/object-fit-none-svg-004e.html
+- [0347] [WPT reftest] css/css-images/object-fit-none-svg-004e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-004-ref.html (==)
@@ -1319,7 +1303,7 @@
   stable page 1: diffRatio=0.00834859934356156, diffPixels=7000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0348] [WPT reftest] css/css-images/object-fit-none-svg-004o.html
+- [0349] [WPT reftest] css/css-images/object-fit-none-svg-004o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-004-ref.html (==)
@@ -1332,7 +1316,7 @@
   stable page 1: diffRatio=0.00834859934356156, diffPixels=7000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0350] [WPT reftest] css/css-images/object-fit-none-svg-005e.html
+- [0351] [WPT reftest] css/css-images/object-fit-none-svg-005e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-005-ref.html (==)
@@ -1345,7 +1329,7 @@
   stable page 1: diffRatio=0.014583810396152965, diffPixels=12228
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0352] [WPT reftest] css/css-images/object-fit-none-svg-005o.html
+- [0353] [WPT reftest] css/css-images/object-fit-none-svg-005o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-005-ref.html (==)
@@ -1358,7 +1342,7 @@
   stable page 1: diffRatio=0.014583810396152965, diffPixels=12228
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0354] [WPT reftest] css/css-images/object-fit-none-svg-006e.html
+- [0355] [WPT reftest] css/css-images/object-fit-none-svg-006e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-006-ref.html (==)
@@ -1371,7 +1355,7 @@
   stable page 1: diffRatio=0.014493168460422869, diffPixels=12152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0356] [WPT reftest] css/css-images/object-fit-none-svg-006o.html
+- [0357] [WPT reftest] css/css-images/object-fit-none-svg-006o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-none-svg-006-ref.html (==)
@@ -1384,7 +1368,7 @@
   stable page 1: diffRatio=0.014493168460422869, diffPixels=12152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-none-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0358] [WPT reftest] css/css-images/object-fit-scale-down-png-001c.html
+- [0359] [WPT reftest] css/css-images/object-fit-scale-down-png-001c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-png-001-ref.html (==)
@@ -1397,7 +1381,7 @@
   stable page 1: diffRatio=0.0023948553545530874, diffPixels=2008
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0363] [WPT reftest] css/css-images/object-fit-scale-down-png-002c.html
+- [0364] [WPT reftest] css/css-images/object-fit-scale-down-png-002c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-png-002-ref.html (==)
@@ -1410,7 +1394,7 @@
   stable page 1: diffRatio=0.002380543469964125, diffPixels=1996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0368] [WPT reftest] css/css-images/object-fit-scale-down-svg-001e.html
+- [0369] [WPT reftest] css/css-images/object-fit-scale-down-svg-001e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-001-ref.html (==)
@@ -1423,7 +1407,7 @@
   stable page 1: diffRatio=0.025012403633310434, diffPixels=20972
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0370] [WPT reftest] css/css-images/object-fit-scale-down-svg-001o.html
+- [0371] [WPT reftest] css/css-images/object-fit-scale-down-svg-001o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-001-ref.html (==)
@@ -1436,7 +1420,7 @@
   stable page 1: diffRatio=0.025012403633310434, diffPixels=20972
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0372] [WPT reftest] css/css-images/object-fit-scale-down-svg-002e.html
+- [0373] [WPT reftest] css/css-images/object-fit-scale-down-svg-002e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-002-ref.html (==)
@@ -1449,7 +1433,7 @@
   stable page 1: diffRatio=0.02504102740248836, diffPixels=20996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0374] [WPT reftest] css/css-images/object-fit-scale-down-svg-002o.html
+- [0375] [WPT reftest] css/css-images/object-fit-scale-down-svg-002o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-002-ref.html (==)
@@ -1462,7 +1446,7 @@
   stable page 1: diffRatio=0.02504102740248836, diffPixels=20996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0376] [WPT reftest] css/css-images/object-fit-scale-down-svg-003e.html
+- [0377] [WPT reftest] css/css-images/object-fit-scale-down-svg-003e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-003-ref.html (==)
@@ -1475,7 +1459,7 @@
   stable page 1: diffRatio=0.008303278375696511, diffPixels=6962
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0378] [WPT reftest] css/css-images/object-fit-scale-down-svg-003o.html
+- [0379] [WPT reftest] css/css-images/object-fit-scale-down-svg-003o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-003-ref.html (==)
@@ -1488,7 +1472,7 @@
   stable page 1: diffRatio=0.008303278375696511, diffPixels=6962
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0380] [WPT reftest] css/css-images/object-fit-scale-down-svg-004e.html
+- [0381] [WPT reftest] css/css-images/object-fit-scale-down-svg-004e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-004-ref.html (==)
@@ -1501,7 +1485,7 @@
   stable page 1: diffRatio=0.00834859934356156, diffPixels=7000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0382] [WPT reftest] css/css-images/object-fit-scale-down-svg-004o.html
+- [0383] [WPT reftest] css/css-images/object-fit-scale-down-svg-004o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-004-ref.html (==)
@@ -1514,7 +1498,7 @@
   stable page 1: diffRatio=0.00834859934356156, diffPixels=7000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0384] [WPT reftest] css/css-images/object-fit-scale-down-svg-005e.html
+- [0385] [WPT reftest] css/css-images/object-fit-scale-down-svg-005e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-005-ref.html (==)
@@ -1527,7 +1511,7 @@
   stable page 1: diffRatio=0.014452618120754141, diffPixels=12118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0386] [WPT reftest] css/css-images/object-fit-scale-down-svg-005o.html
+- [0387] [WPT reftest] css/css-images/object-fit-scale-down-svg-005o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-005-ref.html (==)
@@ -1540,7 +1524,7 @@
   stable page 1: diffRatio=0.014452618120754141, diffPixels=12118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0388] [WPT reftest] css/css-images/object-fit-scale-down-svg-006e.html
+- [0389] [WPT reftest] css/css-images/object-fit-scale-down-svg-006e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-006-ref.html (==)
@@ -1553,7 +1537,7 @@
   stable page 1: diffRatio=0.014359590870925884, diffPixels=12040
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0390] [WPT reftest] css/css-images/object-fit-scale-down-svg-006o.html
+- [0391] [WPT reftest] css/css-images/object-fit-scale-down-svg-006o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-fit-scale-down-svg-006-ref.html (==)
@@ -1566,7 +1550,7 @@
   stable page 1: diffRatio=0.014359590870925884, diffPixels=12040
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-scale-down-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0393] [WPT reftest] css/css-images/object-position-png-001c.html
+- [0394] [WPT reftest] css/css-images/object-position-png-001c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-position-png-001-ref.html (==)
@@ -1579,7 +1563,7 @@
   stable page 1: diffRatio=0.0016220135867491031, diffPixels=1360
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-png-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0398] [WPT reftest] css/css-images/object-position-png-002c.html
+- [0399] [WPT reftest] css/css-images/object-position-png-002c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-position-png-002-ref.html (==)
@@ -1592,7 +1576,7 @@
   stable page 1: diffRatio=0.0016220135867491031, diffPixels=1360
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-png-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0403] [WPT reftest] css/css-images/object-position-svg-001e.html
+- [0404] [WPT reftest] css/css-images/object-position-svg-001e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-position-svg-001-ref.html (==)
@@ -1605,7 +1589,7 @@
   stable page 1: diffRatio=0.0022386172811235784, diffPixels=1877
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0405] [WPT reftest] css/css-images/object-position-svg-001o.html
+- [0406] [WPT reftest] css/css-images/object-position-svg-001o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-position-svg-001-ref.html (==)
@@ -1618,7 +1602,7 @@
   stable page 1: diffRatio=0.0022386172811235784, diffPixels=1877
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0407] [WPT reftest] css/css-images/object-position-svg-002e.html
+- [0408] [WPT reftest] css/css-images/object-position-svg-002e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-position-svg-002-ref.html (==)
@@ -1631,20 +1615,7 @@
   stable page 1: diffRatio=0.0022278833676818563, diffPixels=1868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0408] [WPT reftest] css/css-images/object-position-svg-002i.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-images/object-position-svg-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-position-svg-002i.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000009541256392641783, diffPixels=8
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002i.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0409] [WPT reftest] css/css-images/object-position-svg-002o.html
+- [0410] [WPT reftest] css/css-images/object-position-svg-002o.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-position-svg-002-ref.html (==)
@@ -1657,20 +1628,7 @@
   stable page 1: diffRatio=0.0022278833676818563, diffPixels=1868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0410] [WPT reftest] css/css-images/object-position-svg-002p.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-images/object-position-svg-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-position-svg-002p.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000009541256392641783, diffPixels=8
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002p.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-position-svg-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0415] [WPT reftest] css/css-images/object-view-box-fit-contain-img.html
+- [0416] [WPT reftest] css/css-images/object-view-box-fit-contain-img.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-contain-img-ref.html (==)
@@ -1683,7 +1641,7 @@
   stable page 1: diffRatio=0.0003232100603007404, diffPixels=271
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-contain-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0416] [WPT reftest] css/css-images/object-view-box-fit-contain-svg.html
+- [0417] [WPT reftest] css/css-images/object-view-box-fit-contain-svg.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-contain-svg-ref.html (==)
@@ -1696,7 +1654,7 @@
   stable page 1: diffRatio=0.0003232100603007404, diffPixels=271
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-contain-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0419] [WPT reftest] css/css-images/object-view-box-fit-cover-img.html
+- [0420] [WPT reftest] css/css-images/object-view-box-fit-cover-img.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-cover-img-ref.html (==)
@@ -1709,7 +1667,7 @@
   stable page 1: diffRatio=0.0004997233035646134, diffPixels=419
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-cover-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0420] [WPT reftest] css/css-images/object-view-box-fit-cover-svg.html
+- [0421] [WPT reftest] css/css-images/object-view-box-fit-cover-svg.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-cover-svg-ref.html (==)
@@ -1722,7 +1680,7 @@
   stable page 1: diffRatio=0.0004997233035646134, diffPixels=419
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-cover-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0422] [WPT reftest] css/css-images/object-view-box-fit-fill-canvas.html
+- [0423] [WPT reftest] css/css-images/object-view-box-fit-fill-canvas.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-fill-canvas-ref.html (==)
@@ -1735,7 +1693,7 @@
   stable page 1: diffRatio=0.24312313945500344, diffPixels=203850
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0423] [WPT reftest] css/css-images/object-view-box-fit-fill-img.html
+- [0424] [WPT reftest] css/css-images/object-view-box-fit-fill-img.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-fill-img-ref.html (==)
@@ -1748,7 +1706,7 @@
   stable page 1: diffRatio=0.03725145027097168, diffPixels=31234
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0424] [WPT reftest] css/css-images/object-view-box-fit-fill-svg.html
+- [0425] [WPT reftest] css/css-images/object-view-box-fit-fill-svg.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-fill-svg-ref.html (==)
@@ -1761,7 +1719,7 @@
   stable page 1: diffRatio=0.03725145027097168, diffPixels=31234
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0425] [WPT reftest] css/css-images/object-view-box-fit-fill-video.html
+- [0426] [WPT reftest] css/css-images/object-view-box-fit-fill-video.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-fill-video-ref.html (==)
@@ -1774,7 +1732,7 @@
   stable page 1: diffRatio=0.26843728532173117, diffPixels=225075
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-fill-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0427] [WPT reftest] css/css-images/object-view-box-fit-none-img.html
+- [0428] [WPT reftest] css/css-images/object-view-box-fit-none-img.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-none-img-ref.html (==)
@@ -1787,7 +1745,7 @@
   stable page 1: diffRatio=0.000019082512785283566, diffPixels=16
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-none-img-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0428] [WPT reftest] css/css-images/object-view-box-fit-none-svg.html
+- [0429] [WPT reftest] css/css-images/object-view-box-fit-none-svg.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-fit-none-svg-ref.html (==)
@@ -1800,7 +1758,7 @@
   stable page 1: diffRatio=0.000019082512785283566, diffPixels=16
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-fit-none-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0432] [WPT reftest] css/css-images/object-view-box-property-changed.html
+- [0433] [WPT reftest] css/css-images/object-view-box-property-changed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-property-changed-ref.html (==)
@@ -1813,7 +1771,7 @@
   stable page 1: diffRatio=0.00594301007556675, diffPixels=4983
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-property-changed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0439] [WPT reftest] css/css-images/object-view-box-writing-mode-canvas.html
+- [0440] [WPT reftest] css/css-images/object-view-box-writing-mode-canvas.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-writing-mode-canvas-ref.html (==)
@@ -1826,7 +1784,7 @@
   stable page 1: diffRatio=0.04472463934050836, diffPixels=37500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0442] [WPT reftest] css/css-images/object-view-box-writing-mode-video.html
+- [0443] [WPT reftest] css/css-images/object-view-box-writing-mode-video.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/object-view-box-writing-mode-video-ref.html (==)
@@ -1838,4 +1796,28 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.053669567208610026, diffPixels=45000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0066] [WPT reftest] css/css-images/gradient/gradient-longer-hue-lch-002.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-images/gradient/gradient-longer-hue-lch-002-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-images/gradient/gradient-longer-hue-lch-002-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/gradient/gradient-longer-hue-lch-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0245] [WPT reftest] css/css-images/object-fit-contain-svg-006o.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

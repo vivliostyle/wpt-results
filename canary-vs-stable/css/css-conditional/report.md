@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 172
-- Entries with differences: 61 (improvement: 7, pending: 54, triaged: 0)
+- Compared entries: 173
+- Entries with differences: 55 (pending: 55, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 7
-- Outcome summary: {"pass":111,"known-fail":54,"improvement":7}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":118,"known-fail":55}
 
 ## Differences
 
@@ -16,11 +16,11 @@
   reference: css/css-conditional/at-supports-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-media-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6380405121746432, diffPixels=534974
+  canary page 1: diffRatio=0.6380321635752996, diffPixels=534967
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-media-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6380405121746432, diffPixels=534974
+  stable page 1: diffRatio=0.6380321635752996, diffPixels=534967
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-conditional/at-media-content-001.html
@@ -29,11 +29,11 @@
   reference: css/css-conditional/at-supports-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-media-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6380405121746432, diffPixels=534974
+  canary page 1: diffRatio=0.6380321635752996, diffPixels=534967
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-media-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6380405121746432, diffPixels=534974
+  stable page 1: diffRatio=0.6380321635752996, diffPixels=534967
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0006] [WPT reftest] css/css-conditional/at-media-content-003.html
@@ -146,11 +146,11 @@
   reference: css/css-conditional/at-supports-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-045.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6380405121746432, diffPixels=534974
+  canary page 1: diffRatio=0.6380321635752996, diffPixels=534967
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-045.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6380405121746432, diffPixels=534974
+  stable page 1: diffRatio=0.6380321635752996, diffPixels=534967
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0055] [WPT reftest] css/css-conditional/at-supports-at-rule-001.html
@@ -211,11 +211,11 @@
   reference: css/css-conditional/at-supports-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6380405121746432, diffPixels=534974
+  canary page 1: diffRatio=0.6380321635752996, diffPixels=534967
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6380405121746432, diffPixels=534974
+  stable page 1: diffRatio=0.6380321635752996, diffPixels=534967
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0063] [WPT reftest] css/css-conditional/at-supports-content-003.html
@@ -296,69 +296,6 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0073] [WPT reftest] css/css-conditional/at-supports-selector-details-content-before.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-conditional/at-supports-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-selector-details-content-before.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0074] [WPT reftest] css/css-conditional/at-supports-selector-details-content.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-conditional/at-supports-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-selector-details-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0076] [WPT reftest] css/css-conditional/at-supports-selector-file-selector-button.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-conditional/at-supports-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-selector-file-selector-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0077] [WPT reftest] css/css-conditional/at-supports-selector-picker-icon.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-conditional/at-supports-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-selector-picker-icon.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0078] [WPT reftest] css/css-conditional/at-supports-selector-picker.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-conditional/at-supports-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-selector-picker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0079] [WPT reftest] css/css-conditional/at-supports-selector-placeholder.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-conditional/at-supports-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-selector-placeholder.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0080] [WPT reftest] css/css-conditional/at-supports-selector-webkit-slider-thumb.tentative.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-conditional/at-supports-001-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-selector-webkit-slider-thumb.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0081] [WPT reftest] css/css-conditional/container-queries/canvas-as-container-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -417,11 +354,11 @@
   reference: css/css-conditional/container-queries/change-display-in-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/change-display-in-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016697198687123122, diffPixels=140
+  canary page 1: diffRatio=0.00016577932982215097, diffPixels=139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/change-display-in-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/change-display-in-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
+  stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/change-display-in-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0088] [WPT reftest] css/css-conditional/container-queries/container-units-gradient-invalidation.html
@@ -495,11 +432,11 @@
   reference: css/css-conditional/container-queries/display-in-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/display-in-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003393109304633234, diffPixels=2845
+  canary page 1: diffRatio=0.0033847607052896727, diffPixels=2838
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/display-in-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/display-in-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003393109304633234, diffPixels=2845
+  stable page 1: diffRatio=0.0033847607052896727, diffPixels=2838
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/display-in-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0099] [WPT reftest] css/css-conditional/container-queries/fieldset-legend-change.html
@@ -508,11 +445,11 @@
   reference: css/css-conditional/container-queries/fieldset-legend-change-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/fieldset-legend-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012904549271048013, diffPixels=1082
+  canary page 1: diffRatio=0.0012880696130066407, diffPixels=1080
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/fieldset-legend-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/fieldset-legend-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012904549271048013, diffPixels=1082
+  stable page 1: diffRatio=0.0012880696130066407, diffPixels=1080
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/fieldset-legend-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0100] [WPT reftest] css/css-conditional/container-queries/first-letter-outside-size-container.html
@@ -521,11 +458,11 @@
   reference: css/reference/pass_if_letter_uppercase.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/first-letter-outside-size-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019559575604915656, diffPixels=164
+  canary page 1: diffRatio=0.000197981070147317, diffPixels=166
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/pass_if_letter_uppercase.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/first-letter-outside-size-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00019559575604915656, diffPixels=164
+  stable page 1: diffRatio=0.000197981070147317, diffPixels=166
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_letter_uppercase.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0102] [WPT reftest] css/css-conditional/container-queries/inline-size-bfc-floats.html
@@ -547,11 +484,11 @@
   reference: css/css-conditional/container-queries/inner-first-line-non-matching-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/inner-first-line-non-matching.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00038284291275475155, diffPixels=321
+  canary page 1: diffRatio=0.0003816502557056713, diffPixels=320
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/inner-first-line-non-matching-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/inner-first-line-non-matching.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00038284291275475155, diffPixels=321
+  stable page 1: diffRatio=0.0003816502557056713, diffPixels=320
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/inner-first-line-non-matching-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0104] [WPT reftest] css/css-conditional/container-queries/multicol-inside-container.html
@@ -612,11 +549,11 @@
   reference: css/css-conditional/container-queries/pseudo-elements-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  canary page 1: diffRatio=0.0003387146019387833, diffPixels=284
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  stable page 1: diffRatio=0.0003387146019387833, diffPixels=284
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0112] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-002b.html
@@ -625,11 +562,11 @@
   reference: css/css-conditional/container-queries/pseudo-elements-002b-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001798526830012976, diffPixels=1508
+  canary page 1: diffRatio=0.0017734810319822915, diffPixels=1487
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001798526830012976, diffPixels=1508
+  stable page 1: diffRatio=0.0017734810319822915, diffPixels=1487
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-002b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0113] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-009.html
@@ -638,11 +575,11 @@
   reference: css/css-conditional/container-queries/pseudo-elements-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00033394397374246243, diffPixels=280
+  canary page 1: diffRatio=0.0003327513166933822, diffPixels=279
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00033394397374246243, diffPixels=280
+  stable page 1: diffRatio=0.0003327513166933822, diffPixels=279
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/pseudo-elements-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0114] [WPT reftest] css/css-conditional/container-queries/pseudo-elements-010.html
@@ -690,11 +627,11 @@
   reference: css/css-conditional/container-queries/query-style-color-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/query-style-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.4623502022746355, diffPixels=387664
+  canary page 1: diffRatio=0.4623704774444699, diffPixels=387681
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/query-style-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/query-style-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.4623502022746355, diffPixels=387664
+  stable page 1: diffRatio=0.4623704774444699, diffPixels=387681
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/query-style-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0118] [WPT reftest] css/css-conditional/container-queries/resize-while-content-visibility-hidden.html
@@ -716,27 +653,40 @@
   reference: css/css-conditional/container-queries/style-negation-with-container-name-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/style-negation-with-container-name.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013949316846042286, diffPixels=11696
+  canary page 1: diffRatio=0.013948124188993207, diffPixels=11695
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/style-negation-with-container-name-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/style-negation-with-container-name.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013949316846042286, diffPixels=11696
+  stable page 1: diffRatio=0.013948124188993207, diffPixels=11695
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/style-negation-with-container-name-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0124] [WPT reftest] css/css-conditional/container-queries/svg-foreignobject-no-size-container.html
+- [0124] [WPT reftest] css/css-conditional/container-queries/style-query-attr-tainted.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/style-query-attr-tainted.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/style-query-attr-tainted.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0125] [WPT reftest] css/css-conditional/container-queries/svg-foreignobject-no-size-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/svg-foreignobject-no-size-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/svg-foreignobject-no-size-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00008706396458285627, diffPixels=73
+  canary page 1: diffRatio=0.00008467865048469583, diffPixels=71
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/svg-foreignobject-no-size-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/svg-foreignobject-no-size-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00008706396458285627, diffPixels=73
+  stable page 1: diffRatio=0.00008467865048469583, diffPixels=71
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/svg-foreignobject-no-size-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0127] [WPT reftest] css/css-conditional/container-queries/top-layer-dialog-backdrop.html
+- [0128] [WPT reftest] css/css-conditional/container-queries/top-layer-dialog-backdrop.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/top-layer-dialog-backdrop-ref.html (==)
@@ -749,7 +699,7 @@
   stable page 1: diffRatio=0.0017221967788718419, diffPixels=1444
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/top-layer-dialog-backdrop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0163] [WPT reftest] css/css-conditional/css-supports-037.xht
+- [0164] [WPT reftest] css/css-conditional/css-supports-037.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/support/pass.xht (==)
@@ -762,7 +712,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/support/pass.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0168] [WPT reftest] css/css-conditional/css-supports-042.xht
+- [0169] [WPT reftest] css/css-conditional/css-supports-042.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/support/pass.xht (==)

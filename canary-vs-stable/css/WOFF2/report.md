@@ -29,11 +29,11 @@
   reference: css/WOFF2/header-totalsfntsize-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/WOFF2/header-totalsfntsize-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03559365697275017, diffPixels=29844
+  canary page 1: diffRatio=0.035600812915044654, diffPixels=29850
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/WOFF2/header-totalsfntsize-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/WOFF2/header-totalsfntsize-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03559365697275017, diffPixels=29844
+  stable page 1: diffRatio=0.035600812915044654, diffPixels=29850
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/WOFF2/header-totalsfntsize-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0277] [WPT reftest] css/WOFF2/tabledata-glyf-bbox-001.xht

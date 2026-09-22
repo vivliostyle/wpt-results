@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 242
-- Entries with differences: 58 (pending: 58, triaged: 0)
+- Compared entries: 249
+- Entries with differences: 65 (pending: 65, triaged: 0)
 - Entries with errors: 2 (pending: 2, triaged: 0)
 - Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":183,"known-fail":58,"unchanged":1}
+- Outcome summary: {"pass":183,"known-fail":65,"unchanged":1}
 
 ## Differences
 
@@ -16,11 +16,11 @@
   reference: css/css-counter-styles/counter-style-at-rule/access-from-shadow-dom-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/access-from-shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  canary page 1: diffRatio=0.00014073353179146631, diffPixels=118
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/access-from-shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/access-from-shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/access-from-shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0026] [WPT reftest] css/css-counter-styles/counter-style-at-rule/broken-symbols.html
@@ -42,11 +42,11 @@
   reference: css/css-counter-styles/counter-style-at-rule/descriptor-calc-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-calc.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025165063735592703, diffPixels=2110
+  canary page 1: diffRatio=0.0025105430883138693, diffPixels=2105
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-calc-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-calc.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0025165063735592703, diffPixels=2110
+  stable page 1: diffRatio=0.0025105430883138693, diffPixels=2105
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/descriptor-calc-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0043] [WPT reftest] css/css-counter-styles/counter-style-at-rule/disclosure-closed-extends-direction-001.html
@@ -107,11 +107,11 @@
   reference: css/css-counter-styles/counter-style-at-rule/fallbacks-in-shadow-dom-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/fallbacks-in-shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  canary page 1: diffRatio=0.00014073353179146631, diffPixels=118
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/fallbacks-in-shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/fallbacks-in-shadow-dom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/fallbacks-in-shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0051] [WPT reftest] css/css-counter-styles/counter-style-at-rule/name-case-sensitivity.html
@@ -133,11 +133,11 @@
   reference: css/css-counter-styles/counter-style-at-rule/shadow-dom-part-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/shadow-dom-part.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  canary page 1: diffRatio=0.00014073353179146631, diffPixels=118
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/shadow-dom-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/shadow-dom-part.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/shadow-dom-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-additive-invalid.html
@@ -249,11 +249,11 @@
   reference: css/css-counter-styles/cssom/cssom-additive-symbols-setter-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-additive-symbols-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011330241966262118, diffPixels=95
+  canary page 1: diffRatio=0.00011210976261354095, diffPixels=94
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-additive-symbols-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-additive-symbols-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011330241966262118, diffPixels=95
+  stable page 1: diffRatio=0.00011210976261354095, diffPixels=94
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-additive-symbols-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0075] [WPT reftest] css/css-counter-styles/cssom/cssom-fallback-setter.html
@@ -262,11 +262,11 @@
   reference: css/css-counter-styles/cssom/cssom-fallback-setter-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-fallback-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
+  canary page 1: diffRatio=0.00005605488130677048, diffPixels=47
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-fallback-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-fallback-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
+  stable page 1: diffRatio=0.00005605488130677048, diffPixels=47
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-fallback-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0077] [WPT reftest] css/css-counter-styles/cssom/cssom-name-setter.html
@@ -275,11 +275,11 @@
   reference: css/css-counter-styles/cssom/cssom-name-setter-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-name-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002552286085031677, diffPixels=214
+  canary page 1: diffRatio=0.0002599992366994886, diffPixels=218
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-name-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-name-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002552286085031677, diffPixels=214
+  stable page 1: diffRatio=0.0002599992366994886, diffPixels=218
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-name-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0079] [WPT reftest] css/css-counter-styles/cssom/cssom-negative-setter.html
@@ -288,11 +288,11 @@
   reference: css/css-counter-styles/cssom/cssom-negative-setter-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-negative-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006082550950309137, diffPixels=51
+  canary page 1: diffRatio=0.00006440348065033204, diffPixels=54
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-negative-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-negative-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006082550950309137, diffPixels=51
+  stable page 1: diffRatio=0.00006440348065033204, diffPixels=54
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-negative-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0081] [WPT reftest] css/css-counter-styles/cssom/cssom-pad-setter.html
@@ -301,11 +301,11 @@
   reference: css/css-counter-styles/cssom/cssom-pad-setter-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-pad-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00022183421112892147, diffPixels=186
+  canary page 1: diffRatio=0.00021944889703076102, diffPixels=184
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-pad-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-pad-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00022183421112892147, diffPixels=186
+  stable page 1: diffRatio=0.00021944889703076102, diffPixels=184
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-pad-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0083] [WPT reftest] css/css-counter-styles/cssom/cssom-prefix-suffix-setter.html
@@ -314,11 +314,11 @@
   reference: css/css-counter-styles/cssom/cssom-prefix-suffix-setter-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-prefix-suffix-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020036638424547745, diffPixels=168
+  canary page 1: diffRatio=0.00020394435539271811, diffPixels=171
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-prefix-suffix-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-prefix-suffix-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00020036638424547745, diffPixels=168
+  stable page 1: diffRatio=0.00020394435539271811, diffPixels=171
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-prefix-suffix-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0085] [WPT reftest] css/css-counter-styles/cssom/cssom-range-setter.html
@@ -327,11 +327,11 @@
   reference: css/css-counter-styles/cssom/cssom-range-setter-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-range-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004889893901228914, diffPixels=41
+  canary page 1: diffRatio=0.00004770628196320891, diffPixels=40
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-range-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-range-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00004889893901228914, diffPixels=41
+  stable page 1: diffRatio=0.00004770628196320891, diffPixels=40
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-range-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0087] [WPT reftest] css/css-counter-styles/cssom/cssom-symbols-setter.html
@@ -340,11 +340,11 @@
   reference: css/css-counter-styles/cssom/cssom-symbols-setter-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-symbols-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014073353179146631, diffPixels=118
+  canary page 1: diffRatio=0.00014311884588962676, diffPixels=120
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-symbols-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-symbols-setter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
+  stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-symbols-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0088] [WPT reftest] css/css-counter-styles/cssom/cssom-system-setter-1.html
@@ -366,11 +366,11 @@
   reference: css/css-counter-styles/cssom/cssom-system-setter-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-system-setter-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  canary page 1: diffRatio=0.00014073353179146631, diffPixels=118
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-system-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-system-setter-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-system-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0105] [WPT reftest] css/css-counter-styles/hebrew/counter-hebrew-nested.html
@@ -379,11 +379,11 @@
   reference: css/css-counter-styles/hebrew/counter-hebrew-nested-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/hebrew/counter-hebrew-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0024354056942218153, diffPixels=2042
+  canary page 1: diffRatio=0.0024318277230745743, diffPixels=2039
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/hebrew/counter-hebrew-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/hebrew/counter-hebrew-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0024354056942218153, diffPixels=2042
+  stable page 1: diffRatio=0.0024318277230745743, diffPixels=2039
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/hebrew/counter-hebrew-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0116] [WPT reftest] css/css-counter-styles/japanese-formal/counter-japanese-formal-extended.html
@@ -392,13 +392,13 @@
   reference: css/css-counter-styles/japanese-formal/counter-japanese-formal-extended-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-formal/counter-japanese-formal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.026579554995801846, diffPixels=22286
-  canary page 2: diffRatio=0.007209611861689947, diffPixels=6045
+  canary page 1: diffRatio=0.02660698610793069, diffPixels=22309
+  canary page 2: diffRatio=0.007207226547591787, diffPixels=6043
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-formal/counter-japanese-formal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-formal/counter-japanese-formal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.026579554995801846, diffPixels=22286
-  stable page 2: diffRatio=0.007209611861689947, diffPixels=6045
+  stable page 1: diffRatio=0.02660698610793069, diffPixels=22309
+  stable page 2: diffRatio=0.007207226547591787, diffPixels=6043
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-formal/counter-japanese-formal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0119] [WPT reftest] css/css-counter-styles/japanese-formal/css3-counter-styles-048.html
@@ -407,11 +407,11 @@
   reference: css/css-counter-styles/japanese-formal/css3-counter-styles-048-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-048.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023018281047248302, diffPixels=193
+  canary page 1: diffRatio=0.00023256812457064346, diffPixels=195
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-048-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-048.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023018281047248302, diffPixels=193
+  stable page 1: diffRatio=0.00023256812457064346, diffPixels=195
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-048-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0120] [WPT reftest] css/css-counter-styles/japanese-formal/css3-counter-styles-049.html
@@ -423,13 +423,13 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1 (css/css-counter-styles/japanese-formal/css3-counter-styles-049-ref.html): diffRatio=0.000042935653766888026, diffPixels=36
   canary reference render (css/css-counter-styles/japanese-formal/css3-counter-styles-049-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-049-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/japanese-formal/css3-counter-styles-049-alt-ref.html): diffRatio=0.0017031142660865583, diffPixels=1428
+  canary page 1 (css/css-counter-styles/japanese-formal/css3-counter-styles-049-alt-ref.html): diffRatio=0.0017424719487062056, diffPixels=1461
   canary reference render (css/css-counter-styles/japanese-formal/css3-counter-styles-049-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-049-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-counter-styles/japanese-formal/css3-counter-styles-049-ref.html): diffRatio=0.000042935653766888026, diffPixels=36
   stable reference render (css/css-counter-styles/japanese-formal/css3-counter-styles-049-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-049-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/japanese-formal/css3-counter-styles-049-alt-ref.html): diffRatio=0.0017031142660865583, diffPixels=1428
+  stable page 1 (css/css-counter-styles/japanese-formal/css3-counter-styles-049-alt-ref.html): diffRatio=0.0017424719487062056, diffPixels=1461
   stable reference render (css/css-counter-styles/japanese-formal/css3-counter-styles-049-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-formal/css3-counter-styles-049-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0121] [WPT reftest] css/css-counter-styles/japanese-formal/css3-counter-styles-050.html
@@ -451,13 +451,13 @@
   reference: css/css-counter-styles/japanese-informal/counter-japanese-informal-extended-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-informal/counter-japanese-informal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016940500725135487, diffPixels=14204
-  canary page 2: diffRatio=0.005558974505762919, diffPixels=4661
+  canary page 1: diffRatio=0.016939308068086405, diffPixels=14203
+  canary page 2: diffRatio=0.005549433249370277, diffPixels=4653
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-informal/counter-japanese-informal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/counter-japanese-informal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.016940500725135487, diffPixels=14204
-  stable page 2: diffRatio=0.005558974505762919, diffPixels=4661
+  stable page 1: diffRatio=0.016939308068086405, diffPixels=14203
+  stable page 2: diffRatio=0.005549433249370277, diffPixels=4653
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/counter-japanese-informal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0126] [WPT reftest] css/css-counter-styles/japanese-informal/css3-counter-styles-043.html
@@ -466,11 +466,11 @@
   reference: css/css-counter-styles/japanese-informal/css3-counter-styles-043-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-043.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000051284253110449584, diffPixels=43
+  canary page 1: diffRatio=0.00004770628196320891, diffPixels=40
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-043-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-043.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000051284253110449584, diffPixels=43
+  stable page 1: diffRatio=0.00004770628196320891, diffPixels=40
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-043-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0127] [WPT reftest] css/css-counter-styles/japanese-informal/css3-counter-styles-044.html
@@ -482,13 +482,13 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-044.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1 (css/css-counter-styles/japanese-informal/css3-counter-styles-044-ref.html): diffRatio=0.00001669719868712312, diffPixels=14
   canary reference render (css/css-counter-styles/japanese-informal/css3-counter-styles-044-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-044-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html): diffRatio=0.0009624742386077398, diffPixels=807
+  canary page 1 (css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html): diffRatio=0.0009755934661476223, diffPixels=818
   canary reference render (css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-044.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-counter-styles/japanese-informal/css3-counter-styles-044-ref.html): diffRatio=0.00001669719868712312, diffPixels=14
   stable reference render (css/css-counter-styles/japanese-informal/css3-counter-styles-044-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-044-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html): diffRatio=0.0009624742386077398, diffPixels=807
+  stable page 1 (css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html): diffRatio=0.0009755934661476223, diffPixels=818
   stable reference render (css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0142] [WPT reftest] css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended.html
@@ -497,13 +497,13 @@
   reference: css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02167296389588581, diffPixels=18172
-  canary page 2: diffRatio=0.005928698190977788, diffPixels=4971
+  canary page 1: diffRatio=0.02168011983818029, diffPixels=18178
+  canary page 2: diffRatio=0.005906037707045264, diffPixels=4952
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02167296389588581, diffPixels=18172
-  stable page 2: diffRatio=0.005928698190977788, diffPixels=4971
+  stable page 1: diffRatio=0.02168011983818029, diffPixels=18178
+  stable page 2: diffRatio=0.005906037707045264, diffPixels=4952
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0146] [WPT reftest] css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054.html
@@ -513,15 +513,15 @@
   reference: css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html): diffRatio=0.001760361804442409, diffPixels=1476
+  canary page 1 (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html): diffRatio=0.0017639397755896495, diffPixels=1479
   canary reference render (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html): diffRatio=0.0017830222883749333, diffPixels=1495
+  canary page 1 (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html): diffRatio=0.001787792916571254, diffPixels=1499
   canary reference render (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html): diffRatio=0.001760361804442409, diffPixels=1476
+  stable page 1 (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html): diffRatio=0.0017639397755896495, diffPixels=1479
   stable reference render (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html): diffRatio=0.0017830222883749333, diffPixels=1495
+  stable page 1 (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html): diffRatio=0.001787792916571254, diffPixels=1499
   stable reference render (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0149] [WPT reftest] css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended.html
@@ -530,13 +530,13 @@
   reference: css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.029412115487367378, diffPixels=24661
-  canary page 2: diffRatio=0.007344382108236012, diffPixels=6158
+  canary page 1: diffRatio=0.02948606022441035, diffPixels=24723
+  canary page 2: diffRatio=0.0073467674223341725, diffPixels=6160
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.029412115487367378, diffPixels=24661
-  stable page 2: diffRatio=0.007344382108236012, diffPixels=6158
+  stable page 1: diffRatio=0.02948606022441035, diffPixels=24723
+  stable page 2: diffRatio=0.0073467674223341725, diffPixels=6160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0153] [WPT reftest] css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064.html
@@ -546,15 +546,15 @@
   reference: css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-ref.html): diffRatio=0.001760361804442409, diffPixels=1476
+  canary page 1 (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-ref.html): diffRatio=0.0017639397755896495, diffPixels=1479
   canary reference render (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html): diffRatio=0.002611918937485688, diffPixels=2190
+  canary page 1 (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html): diffRatio=0.002638157392565453, diffPixels=2212
   canary reference render (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-ref.html): diffRatio=0.001760361804442409, diffPixels=1476
+  stable page 1 (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-ref.html): diffRatio=0.0017639397755896495, diffPixels=1479
   stable reference render (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html): diffRatio=0.002611918937485688, diffPixels=2190
+  stable page 1 (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html): diffRatio=0.002638157392565453, diffPixels=2212
   stable reference render (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0156] [WPT reftest] css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended.html
@@ -563,13 +563,13 @@
   reference: css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.020310949545836197, diffPixels=17030
-  canary page 2: diffRatio=0.006075395008014656, diffPixels=5094
+  canary page 1: diffRatio=0.020339573315014122, diffPixels=17054
+  canary page 2: diffRatio=0.006069431722769254, diffPixels=5089
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.020310949545836197, diffPixels=17030
-  stable page 2: diffRatio=0.006075395008014656, diffPixels=5094
+  stable page 1: diffRatio=0.020339573315014122, diffPixels=17054
+  stable page 2: diffRatio=0.006069431722769254, diffPixels=5089
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0160] [WPT reftest] css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059.html
@@ -579,15 +579,15 @@
   reference: css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html): diffRatio=0.001760361804442409, diffPixels=1476
+  canary page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html): diffRatio=0.0017639397755896495, diffPixels=1479
   canary reference render (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): diffRatio=0.001932104419509961, diffPixels=1620
+  canary page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): diffRatio=0.0019571502175406456, diffPixels=1641
   canary reference render (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html): diffRatio=0.001760361804442409, diffPixels=1476
+  stable page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html): diffRatio=0.0017639397755896495, diffPixels=1479
   stable reference render (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): diffRatio=0.001932104419509961, diffPixels=1620
+  stable page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): diffRatio=0.0019571502175406456, diffPixels=1641
   stable reference render (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0192] [WPT reftest] css/css-counter-styles/persian/css3-counter-styles-105.html
@@ -609,13 +609,13 @@
   reference: css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01401729829783986, diffPixels=11753
-  canary page 2: diffRatio=0.026510380886955193, diffPixels=22228
+  canary page 1: diffRatio=0.014010142355545378, diffPixels=11747
+  canary page 2: diffRatio=0.02644836272040302, diffPixels=22176
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01401729829783986, diffPixels=11753
-  stable page 2: diffRatio=0.026510380886955193, diffPixels=22228
+  stable page 1: diffRatio=0.014010142355545378, diffPixels=11747
+  stable page 2: diffRatio=0.02644836272040302, diffPixels=22176
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0196] [WPT reftest] css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html
@@ -624,11 +624,11 @@
   reference: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00024807266620868637, diffPixels=208
+  canary page 1: diffRatio=0.00024926532325776656, diffPixels=209
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00024807266620868637, diffPixels=208
+  stable page 1: diffRatio=0.00024926532325776656, diffPixels=209
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0197] [WPT reftest] css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078.html
@@ -638,15 +638,15 @@
   reference: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-alt-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-ref.html): diffRatio=0.00006082550950309137, diffPixels=51
+  canary page 1 (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-ref.html): diffRatio=0.00005963285245401114, diffPixels=50
   canary reference render (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-alt-ref.html): diffRatio=0.0019189851919700787, diffPixels=1609
+  canary page 1 (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-alt-ref.html): diffRatio=0.0019297191054118007, diffPixels=1618
   canary reference render (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-ref.html): diffRatio=0.00006082550950309137, diffPixels=51
+  stable page 1 (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-ref.html): diffRatio=0.00005963285245401114, diffPixels=50
   stable reference render (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-alt-ref.html): diffRatio=0.0019189851919700787, diffPixels=1609
+  stable page 1 (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-alt-ref.html): diffRatio=0.0019297191054118007, diffPixels=1618
   stable reference render (css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-078-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0200] [WPT reftest] css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal.html
@@ -655,13 +655,13 @@
   reference: css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007322914281352569, diffPixels=6140
-  canary page 2: diffRatio=0.016459859934356155, diffPixels=13801
+  canary page 1: diffRatio=0.007295483169223724, diffPixels=6117
+  canary page 2: diffRatio=0.016363254713380657, diffPixels=13720
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007322914281352569, diffPixels=6140
-  stable page 2: diffRatio=0.016459859934356155, diffPixels=13801
+  stable page 1: diffRatio=0.007295483169223724, diffPixels=6117
+  stable page 2: diffRatio=0.016363254713380657, diffPixels=13720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0202] [WPT reftest] css/css-counter-styles/simp-chinese-informal/css3-counter-styles-072.html
@@ -670,11 +670,11 @@
   reference: css/css-counter-styles/simp-chinese-informal/css3-counter-styles-072-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-072.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000679814517975727, diffPixels=57
+  canary page 1: diffRatio=0.00006321082360125181, diffPixels=53
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-072-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-072.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000679814517975727, diffPixels=57
+  stable page 1: diffRatio=0.00006321082360125181, diffPixels=53
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-072-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0203] [WPT reftest] css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073.html
@@ -686,116 +686,207 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1 (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html): diffRatio=0.00001669719868712312, diffPixels=14
   canary reference render (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html): diffRatio=0.0011676112510495382, diffPixels=979
+  canary page 1 (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html): diffRatio=0.0011795378215403403, diffPixels=989
   canary reference render (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html): diffRatio=0.00001669719868712312, diffPixels=14
   stable reference render (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html): diffRatio=0.0011676112510495382, diffPixels=979
+  stable page 1 (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html): diffRatio=0.0011795378215403403, diffPixels=989
   stable reference render (css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/css3-counter-styles-073-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0206] [WPT reftest] css/css-counter-styles/symbols-function-dynamic.html
+- [0206] [WPT reftest] css/css-counter-styles/symbols-function/dynamic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-counter-styles/symbols-function-dynamic-ref.html (==)
+  reference: css/css-counter-styles/symbols-function/dynamic-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004329345088161209, diffPixels=363
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00043174185176704066, diffPixels=362
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004329345088161209, diffPixels=363
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00043174185176704066, diffPixels=362
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0208] [WPT reftest] css/css-counter-styles/symbols-function.html
+- [0208] [WPT reftest] css/css-counter-styles/symbols-function/system-alphabetic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-counter-styles/symbols-function-ref.html (==)
+  reference: css/css-counter-styles/symbols-function/system-alphabetic-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1, 2, 3]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-alphabetic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00310448629875582, diffPixels=2603
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-alphabetic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable selected pages: test=[1, 2], reference=[1, 2, 3]
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-alphabetic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00310448629875582, diffPixels=2603
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-alphabetic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0221] [WPT reftest] css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal.html
+- [0209] [WPT reftest] css/css-counter-styles/symbols-function/system-cyclic.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-counter-styles/symbols-function/system-cyclic-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-cyclic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0003816502557056713, diffPixels=320
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-cyclic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-cyclic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0003816502557056713, diffPixels=320
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-cyclic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0210] [WPT reftest] css/css-counter-styles/symbols-function/system-default.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-counter-styles/symbols-function/system-default-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-default.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00030174223341729637, diffPixels=253
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-default-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-default.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00030174223341729637, diffPixels=253
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-default-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0211] [WPT reftest] css/css-counter-styles/symbols-function/system-fixed.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-counter-styles/symbols-function/system-fixed-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00024330203801236548, diffPixels=204
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00024330203801236548, diffPixels=204
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0212] [WPT reftest] css/css-counter-styles/symbols-function/system-numeric.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-counter-styles/symbols-function/system-numeric-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-numeric.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00025761392260132814, diffPixels=216
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-numeric-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-numeric.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00025761392260132814, diffPixels=216
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-numeric-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0213] [WPT reftest] css/css-counter-styles/symbols-function/system-symbolic.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-counter-styles/symbols-function/system-symbolic-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-symbolic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00030174223341729637, diffPixels=253
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-symbolic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-symbolic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00030174223341729637, diffPixels=253
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/system-symbolic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0214] [WPT reftest] css/css-counter-styles/symbols-function/used-in-counter.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-counter-styles/symbols-function/used-in-counter-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00023256812457064346, diffPixels=195
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00023256812457064346, diffPixels=195
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0215] [WPT reftest] css/css-counter-styles/symbols-function/used-in-counters.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-counter-styles/symbols-function/used-in-counters-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counters.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00045082436455232426, diffPixels=378
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counters-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counters.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00045082436455232426, diffPixels=378
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counters-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0228] [WPT reftest] css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01649444698877948, diffPixels=13830
-  canary page 2: diffRatio=0.028864685901839555, diffPixels=24202
+  canary page 1: diffRatio=0.016514722158613847, diffPixels=13847
+  canary page 2: diffRatio=0.02889450232806656, diffPixels=24227
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01649444698877948, diffPixels=13830
-  stable page 2: diffRatio=0.028864685901839555, diffPixels=24202
+  stable page 1: diffRatio=0.016514722158613847, diffPixels=13847
+  stable page 2: diffRatio=0.02889450232806656, diffPixels=24227
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0223] [WPT reftest] css/css-counter-styles/trad-chinese-formal/css3-counter-styles-087.html
+- [0230] [WPT reftest] css/css-counter-styles/trad-chinese-formal/css3-counter-styles-087.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-formal/css3-counter-styles-087-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-087.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00024807266620868637, diffPixels=208
+  canary page 1: diffRatio=0.00024926532325776656, diffPixels=209
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-087-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-087.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00024807266620868637, diffPixels=208
+  stable page 1: diffRatio=0.00024926532325776656, diffPixels=209
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-087-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0224] [WPT reftest] css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088.html
+- [0231] [WPT reftest] css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-ref.html (==)
   reference: css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-alt-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-ref.html): diffRatio=0.00006082550950309137, diffPixels=51
+  canary page 1 (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-ref.html): diffRatio=0.00005963285245401114, diffPixels=50
   canary reference render (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-alt-ref.html): diffRatio=0.002274396992595985, diffPixels=1907
+  canary page 1 (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-alt-ref.html): diffRatio=0.0023042134188229904, diffPixels=1932
   canary reference render (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-ref.html): diffRatio=0.00006082550950309137, diffPixels=51
+  stable page 1 (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-ref.html): diffRatio=0.00005963285245401114, diffPixels=50
   stable reference render (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-alt-ref.html): diffRatio=0.002274396992595985, diffPixels=1907
+  stable page 1 (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-alt-ref.html): diffRatio=0.0023042134188229904, diffPixels=1932
   stable reference render (css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/css3-counter-styles-088-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0227] [WPT reftest] css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal.html
+- [0234] [WPT reftest] css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009619971757881077, diffPixels=8066
-  canary page 2: diffRatio=0.018789119151209833, diffPixels=15754
+  canary page 1: diffRatio=0.00962951301427372, diffPixels=8074
+  canary page 2: diffRatio=0.01879508243645523, diffPixels=15759
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009619971757881077, diffPixels=8066
-  stable page 2: diffRatio=0.018789119151209833, diffPixels=15754
+  stable page 1: diffRatio=0.00962951301427372, diffPixels=8074
+  stable page 2: diffRatio=0.01879508243645523, diffPixels=15759
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0229] [WPT reftest] css/css-counter-styles/trad-chinese-informal/css3-counter-styles-082.html
+- [0236] [WPT reftest] css/css-counter-styles/trad-chinese-informal/css3-counter-styles-082.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-informal/css3-counter-styles-082-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-082.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000679814517975727, diffPixels=57
+  canary page 1: diffRatio=0.00006321082360125181, diffPixels=53
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-082-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-082.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000679814517975727, diffPixels=57
+  stable page 1: diffRatio=0.00006321082360125181, diffPixels=53
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-082-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0230] [WPT reftest] css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083.html
+- [0237] [WPT reftest] css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-ref.html (==)
@@ -804,13 +895,13 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1 (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-ref.html): diffRatio=0.00001669719868712312, diffPixels=14
   canary reference render (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html): diffRatio=0.0015230230516754446, diffPixels=1277
+  canary page 1 (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html): diffRatio=0.0015540321349515303, diffPixels=1303
   canary reference render (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-ref.html): diffRatio=0.00001669719868712312, diffPixels=14
   stable reference render (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html): diffRatio=0.0015230230516754446, diffPixels=1277
+  stable page 1 (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html): diffRatio=0.0015540321349515303, diffPixels=1303
   stable reference render (css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/css3-counter-styles-083-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors

@@ -16,11 +16,11 @@
   reference: css/css-variables/support/color-green-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-variables/variable-declaration-29.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00037807228455843066, diffPixels=317
+  canary page 1: diffRatio=0.0003768796275093504, diffPixels=316
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-variables/variable-declaration-29.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00037807228455843066, diffPixels=317
+  stable page 1: diffRatio=0.0003768796275093504, diffPixels=316
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0068] [WPT reftest] css/css-variables/variable-generated-content-dynamic-001.html
@@ -42,11 +42,11 @@
   reference: css/css-variables/support/color-green-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-variables/variable-supports-30.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00037807228455843066, diffPixels=317
+  canary page 1: diffRatio=0.0003768796275093504, diffPixels=316
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-variables/variable-supports-30.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00037807228455843066, diffPixels=317
+  stable page 1: diffRatio=0.0003768796275093504, diffPixels=316
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0175] [WPT reftest] css/css-variables/variable-supports-64.html
@@ -55,10 +55,10 @@
   reference: css/css-variables/support/color-green-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-variables/variable-supports-64.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00037807228455843066, diffPixels=317
+  canary page 1: diffRatio=0.0003768796275093504, diffPixels=316
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-variables/variable-supports-64.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00037807228455843066, diffPixels=317
+  stable page 1: diffRatio=0.0003768796275093504, diffPixels=316
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-variables/support/color-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

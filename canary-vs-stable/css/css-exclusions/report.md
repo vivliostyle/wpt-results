@@ -42,11 +42,11 @@
   reference: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.09352220250362568, diffPixels=78415
+  canary page 1: diffRatio=0.09351981718952752, diffPixels=78413
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-03.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.09352220250362568, diffPixels=78415
+  stable page 1: diffRatio=0.09351981718952752, diffPixels=78413
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht
@@ -55,10 +55,10 @@
   reference: css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08912368330661781, diffPixels=74727
+  canary page 1: diffRatio=0.08912964659186322, diffPixels=74732
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-04.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08912368330661781, diffPixels=74727
+  stable page 1: diffRatio=0.08912964659186322, diffPixels=74732
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-exclusions/css3-exclusions/exclusions-wrap-flow-01-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

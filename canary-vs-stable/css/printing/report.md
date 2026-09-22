@@ -16,11 +16,11 @@
   reference: css/printing/animations-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/animations-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006810071750248072, diffPixels=571
+  canary page 1: diffRatio=0.0006833924891229677, diffPixels=573
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/animations-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006810071750248072, diffPixels=571
+  stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT print-reftest] css/printing/animations-shadow-print.html
@@ -29,11 +29,11 @@
   reference: css/printing/animations-shadow-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/animations-shadow-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006810071750248072, diffPixels=571
+  canary page 1: diffRatio=0.0006833924891229677, diffPixels=573
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/animations-shadow-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/animations-shadow-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006810071750248072, diffPixels=571
+  stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/animations-shadow-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0009] [WPT print-reftest] css/printing/existing-transition-in-media-print.tentative.html
@@ -42,11 +42,11 @@
   reference: css/printing/transition-in-media-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/existing-transition-in-media-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002671551789939699, diffPixels=224
+  canary page 1: diffRatio=0.00026834783604305016, diffPixels=225
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/transition-in-media-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/existing-transition-in-media-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002671551789939699, diffPixels=224
+  stable page 1: diffRatio=0.00026834783604305016, diffPixels=225
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/transition-in-media-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT print-reftest] css/printing/paused-animations-print.html
@@ -55,11 +55,11 @@
   reference: css/printing/paused-animations-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/paused-animations-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006810071750248072, diffPixels=571
+  canary page 1: diffRatio=0.0006833924891229677, diffPixels=573
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/paused-animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/paused-animations-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006810071750248072, diffPixels=571
+  stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/paused-animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0022] [WPT print-reftest] css/printing/pseudo-animations-print.html
@@ -68,11 +68,11 @@
   reference: css/printing/pseudo-animations-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/pseudo-animations-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001006602549423708, diffPixels=844
+  canary page 1: diffRatio=0.0010101805205709488, diffPixels=847
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/pseudo-animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/pseudo-animations-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001006602549423708, diffPixels=844
+  stable page 1: diffRatio=0.0010101805205709488, diffPixels=847
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/pseudo-animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0026] [WPT print-reftest] css/printing/table-overflow-quirks-frameset-crash-print.html
@@ -92,11 +92,9 @@
 
 - [0010] [WPT print-reftest] css/printing/fixed-pos-object-pdf-crash-print.html
   triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

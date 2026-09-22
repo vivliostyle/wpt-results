@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 374
+- Compared entries: 378
 - Entries with differences: 99 (pending: 99, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 2
-- Outcome summary: {"known-fail":97,"pass":275,"changed-fail":1,"regression":1}
+- Outcome summary: {"known-fail":97,"pass":279,"changed-fail":1,"regression":1}
 
 ## Differences
 
@@ -16,11 +16,11 @@
   reference: css/css-fonts/alternates-order-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/alternates-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.026933774139378672, diffPixels=22583
+  canary page 1: diffRatio=0.026958819937409357, diffPixels=22604
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/alternates-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/alternates-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.026933774139378672, diffPixels=22583
+  stable page 1: diffRatio=0.026958819937409357, diffPixels=22604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/alternates-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0003] [WPT reftest] css/css-fonts/downloadable-font-scoped-to-document.html
@@ -29,11 +29,11 @@
   reference: css/css-fonts/downloadable-font-scoped-to-document-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018438477978780245, diffPixels=1546
+  canary page 1: diffRatio=0.0044402621937256696, diffPixels=3723
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018331138844363026, diffPixels=1537
+  stable page 1: diffRatio=0.0040443000534310354, diffPixels=3391
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0017] [WPT reftest] css/css-fonts/font-display/font-display-feature-policy-02.tentative.html
@@ -55,11 +55,11 @@
   reference: css/css-fonts/font-display/font-display-preload-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-display/font-display-preload.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006344935501106786, diffPixels=532
+  canary page 1: diffRatio=0.0006392641783069994, diffPixels=536
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-display/font-display-preload-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-display/font-display-preload.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006344935501106786, diffPixels=532
+  stable page 1: diffRatio=0.0006392641783069994, diffPixels=536
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-display/font-display-preload-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0019] [WPT reftest] css/css-fonts/font-display/font-display.html
@@ -68,11 +68,11 @@
   reference: css/css-fonts/font-display/font-display-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-display/font-display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0055875982749408444, diffPixels=4685
+  canary page 1: diffRatio=0.005573286390351881, diffPixels=4673
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-display/font-display-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-display/font-display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0055875982749408444, diffPixels=4685
+  stable page 1: diffRatio=0.005573286390351881, diffPixels=4673
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-display/font-display-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0028] [WPT reftest] css/css-fonts/font-face-unicode-range-2.html
@@ -81,11 +81,11 @@
   reference: css/css-fonts/font-face-unicode-range-2-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-face-unicode-range-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010280703763071521, diffPixels=8620
+  canary page 1: diffRatio=0.010283089077169683, diffPixels=8622
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-face-unicode-range-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-face-unicode-range-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010280703763071521, diffPixels=8620
+  stable page 1: diffRatio=0.010283089077169683, diffPixels=8622
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-face-unicode-range-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0033] [WPT reftest] css/css-fonts/font-family-name-000.xht
@@ -94,11 +94,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012964182123502022, diffPixels=1087
+  canary page 1: diffRatio=0.001295225555301122, diffPixels=1086
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012964182123502022, diffPixels=1087
+  stable page 1: diffRatio=0.001295225555301122, diffPixels=1086
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0034] [WPT reftest] css/css-fonts/font-family-name-001.xht
@@ -107,11 +107,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0035] [WPT reftest] css/css-fonts/font-family-name-002.xht
@@ -120,11 +120,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0036] [WPT reftest] css/css-fonts/font-family-name-003.xht
@@ -133,11 +133,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0037] [WPT reftest] css/css-fonts/font-family-name-004.xht
@@ -146,11 +146,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0038] [WPT reftest] css/css-fonts/font-family-name-005.xht
@@ -159,11 +159,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0039] [WPT reftest] css/css-fonts/font-family-name-006.xht
@@ -172,11 +172,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0040] [WPT reftest] css/css-fonts/font-family-name-007.xht
@@ -185,11 +185,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  canary page 1: diffRatio=0.0010459602320433555, diffPixels=877
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  stable page 1: diffRatio=0.0010459602320433555, diffPixels=877
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0041] [WPT reftest] css/css-fonts/font-family-name-008.xht
@@ -198,11 +198,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  canary page 1: diffRatio=0.0010459602320433555, diffPixels=877
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  stable page 1: diffRatio=0.0010459602320433555, diffPixels=877
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0042] [WPT reftest] css/css-fonts/font-family-name-009.xht
@@ -211,11 +211,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0043] [WPT reftest] css/css-fonts/font-family-name-010.xht
@@ -224,11 +224,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0044] [WPT reftest] css/css-fonts/font-family-name-011.xht
@@ -237,11 +237,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-011.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0045] [WPT reftest] css/css-fonts/font-family-name-012.xht
@@ -250,11 +250,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/css-fonts/font-family-name-013.xht
@@ -263,11 +263,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  canary page 1: diffRatio=0.0010459602320433555, diffPixels=877
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  stable page 1: diffRatio=0.0010459602320433555, diffPixels=877
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/css-fonts/font-family-name-014.xht
@@ -276,11 +276,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  canary page 1: diffRatio=0.0010459602320433555, diffPixels=877
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  stable page 1: diffRatio=0.0010459602320433555, diffPixels=877
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0048] [WPT reftest] css/css-fonts/font-family-name-015.xht
@@ -289,11 +289,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  canary page 1: diffRatio=0.0010459602320433555, diffPixels=877
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010447675749942753, diffPixels=876
+  stable page 1: diffRatio=0.0010459602320433555, diffPixels=877
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/css-fonts/font-family-name-021.xht
@@ -302,11 +302,11 @@
   reference: css/css-fonts/font-family-name-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  canary page 1: diffRatio=0.0010352263186016336, diffPixels=868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010340336615525531, diffPixels=867
+  stable page 1: diffRatio=0.0010352263186016336, diffPixels=868
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0057] [WPT reftest] css/css-fonts/font-family-name-024.xht
@@ -315,11 +315,11 @@
   reference: css/css-fonts/font-family-name-024-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0031987062056331576, diffPixels=2682
+  canary page 1: diffRatio=0.0031915502633386764, diffPixels=2676
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0031987062056331576, diffPixels=2682
+  stable page 1: diffRatio=0.0031915502633386764, diffPixels=2676
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0058] [WPT reftest] css/css-fonts/font-family-name-025.html
@@ -328,11 +328,11 @@
   reference: css/css-fonts/font-family-name-025-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.09090670559499275, diffPixels=76222
+  canary page 1: diffRatio=0.09091028356613999, diffPixels=76225
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-family-name-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.09090670559499275, diffPixels=76222
+  stable page 1: diffRatio=0.09091028356613999, diffPixels=76225
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-family-name-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0059] [WPT reftest] css/css-fonts/font-feature-resolution-001.html
@@ -354,11 +354,11 @@
   reference: css/css-fonts/font-feature-resolution-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001054308831386917, diffPixels=884
+  canary page 1: diffRatio=0.0010447675749942753, diffPixels=876
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001054308831386917, diffPixels=884
+  stable page 1: diffRatio=0.0010447675749942753, diffPixels=876
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0070] [WPT reftest] css/css-fonts/font-kerning-03.html
@@ -367,11 +367,11 @@
   reference: css/css-fonts/font-kerning-03-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-kerning-03.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020155904129455767, diffPixels=169
+  canary page 1: diffRatio=0.00020036638424547745, diffPixels=168
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-kerning-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-kerning-03.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00020155904129455767, diffPixels=169
+  stable page 1: diffRatio=0.00020036638424547745, diffPixels=168
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-kerning-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0077] [WPT reftest] css/css-fonts/font-palette-11.html
@@ -562,11 +562,11 @@
   reference: css/css-fonts/font-size-adjust-ic-height-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-size-adjust-ic-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03330852606671247, diffPixels=27928
+  canary page 1: diffRatio=0.033310911380810625, diffPixels=27930
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-size-adjust-ic-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-size-adjust-ic-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03330852606671247, diffPixels=27928
+  stable page 1: diffRatio=0.033310911380810625, diffPixels=27930
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-size-adjust-ic-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0137] [WPT reftest] css/css-fonts/font-size-adjust-reload.html
@@ -575,11 +575,11 @@
   reference: css/css-fonts/font-size-adjust-reload-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-size-adjust-reload.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017472425769025266, diffPixels=1465
+  canary page 1: diffRatio=0.0017424719487062056, diffPixels=1461
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-size-adjust-reload-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-size-adjust-reload.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017472425769025266, diffPixels=1465
+  stable page 1: diffRatio=0.0017424719487062056, diffPixels=1461
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-size-adjust-reload-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0174] [WPT reftest] css/css-fonts/font-synthesis-position-001.html
@@ -588,11 +588,11 @@
   reference: css/css-fonts/font-synthesis-position-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02039443553927181, diffPixels=17100
+  canary page 1: diffRatio=0.0203407659720632, diffPixels=17055
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02039443553927181, diffPixels=17100
+  stable page 1: diffRatio=0.0203407659720632, diffPixels=17055
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-position-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0176] [WPT reftest] css/css-fonts/font-synthesis-small-caps-first-line.html
@@ -601,11 +601,11 @@
   reference: css/css-fonts/font-synthesis-small-caps-first-line-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-small-caps-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004792096023204335, diffPixels=4018
+  canary page 1: diffRatio=0.004784940080909854, diffPixels=4012
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-small-caps-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-small-caps-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004792096023204335, diffPixels=4018
+  stable page 1: diffRatio=0.004784940080909854, diffPixels=4012
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-small-caps-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0181] [WPT reftest] css/css-fonts/font-synthesis-style-first-line.html
@@ -614,11 +614,11 @@
   reference: css/css-fonts/font-synthesis-style-first-line-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-style-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004792096023204335, diffPixels=4018
+  canary page 1: diffRatio=0.004784940080909854, diffPixels=4012
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-style-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-style-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004792096023204335, diffPixels=4018
+  stable page 1: diffRatio=0.004784940080909854, diffPixels=4012
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-style-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0182] [WPT reftest] css/css-fonts/font-synthesis-style-oblique-only.html
@@ -627,11 +627,11 @@
   reference: css/css-fonts/font-synthesis-style-oblique-only-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-style-oblique-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015266010228226852, diffPixels=1280
+  canary page 1: diffRatio=0.0015277936798717656, diffPixels=1281
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-style-oblique-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-style-oblique-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015266010228226852, diffPixels=1280
+  stable page 1: diffRatio=0.0015277936798717656, diffPixels=1281
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-style-oblique-only-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0186] [WPT reftest] css/css-fonts/font-synthesis-weight-first-line.html
@@ -640,11 +640,11 @@
   reference: css/css-fonts/font-synthesis-weight-first-line-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-weight-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004792096023204335, diffPixels=4018
+  canary page 1: diffRatio=0.004784940080909854, diffPixels=4012
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-synthesis-weight-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-weight-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004792096023204335, diffPixels=4018
+  stable page 1: diffRatio=0.004784940080909854, diffPixels=4012
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-synthesis-weight-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0195] [WPT reftest] css/css-fonts/font-variant-alternates-03.html
@@ -653,11 +653,11 @@
   reference: css/css-fonts/font-variant-alternates-03-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-03.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-03.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-03-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0196] [WPT reftest] css/css-fonts/font-variant-alternates-04.html
@@ -666,11 +666,11 @@
   reference: css/css-fonts/font-variant-alternates-04-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-04-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-04.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-04-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0197] [WPT reftest] css/css-fonts/font-variant-alternates-05.html
@@ -679,11 +679,11 @@
   reference: css/css-fonts/font-variant-alternates-05-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-05.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-05-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-05.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-05-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0198] [WPT reftest] css/css-fonts/font-variant-alternates-06.html
@@ -692,11 +692,11 @@
   reference: css/css-fonts/font-variant-alternates-06-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-06.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-06-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-06.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-06-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0199] [WPT reftest] css/css-fonts/font-variant-alternates-07.html
@@ -705,11 +705,11 @@
   reference: css/css-fonts/font-variant-alternates-07-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-07.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-07-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-07.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-07-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0200] [WPT reftest] css/css-fonts/font-variant-alternates-08.html
@@ -718,11 +718,11 @@
   reference: css/css-fonts/font-variant-alternates-08-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-08.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-08-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-08.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-08-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0201] [WPT reftest] css/css-fonts/font-variant-alternates-09.html
@@ -731,11 +731,11 @@
   reference: css/css-fonts/font-variant-alternates-09-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-09.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-09-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-09.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-09-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0202] [WPT reftest] css/css-fonts/font-variant-alternates-10.html
@@ -744,11 +744,11 @@
   reference: css/css-fonts/font-variant-alternates-10-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-10.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-10-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-10.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-10-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0203] [WPT reftest] css/css-fonts/font-variant-alternates-11.html
@@ -757,11 +757,11 @@
   reference: css/css-fonts/font-variant-alternates-11-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-11.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-11-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-11.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-11-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0204] [WPT reftest] css/css-fonts/font-variant-alternates-12.html
@@ -770,11 +770,11 @@
   reference: css/css-fonts/font-variant-alternates-12-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-12.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  canary page 1: diffRatio=0.00034587054423326465, diffPixels=290
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-12-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-12.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  stable page 1: diffRatio=0.00034587054423326465, diffPixels=290
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-12-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0205] [WPT reftest] css/css-fonts/font-variant-alternates-13.html
@@ -783,11 +783,11 @@
   reference: css/css-fonts/font-variant-alternates-13-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-13.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  canary page 1: diffRatio=0.00034587054423326465, diffPixels=290
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-13-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-13.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  stable page 1: diffRatio=0.00034587054423326465, diffPixels=290
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-13-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0206] [WPT reftest] css/css-fonts/font-variant-alternates-14.html
@@ -796,11 +796,11 @@
   reference: css/css-fonts/font-variant-alternates-14-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-14.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  canary page 1: diffRatio=0.00034587054423326465, diffPixels=290
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-14-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-14.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  stable page 1: diffRatio=0.00034587054423326465, diffPixels=290
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-14-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0207] [WPT reftest] css/css-fonts/font-variant-alternates-15.html
@@ -809,11 +809,11 @@
   reference: css/css-fonts/font-variant-alternates-15-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-15.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-15-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-15.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-15-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0208] [WPT reftest] css/css-fonts/font-variant-alternates-16.html
@@ -822,11 +822,11 @@
   reference: css/css-fonts/font-variant-alternates-16-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-16-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-16.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-16-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0209] [WPT reftest] css/css-fonts/font-variant-alternates-17.html
@@ -835,11 +835,11 @@
   reference: css/css-fonts/font-variant-alternates-17-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-17.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-17-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-17.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-17-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0210] [WPT reftest] css/css-fonts/font-variant-alternates-18.html
@@ -848,11 +848,11 @@
   reference: css/css-fonts/font-variant-alternates-18-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-18.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-18-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-18.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-18-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0211] [WPT reftest] css/css-fonts/font-variant-alternates-19.html
@@ -861,11 +861,11 @@
   reference: css/css-fonts/font-variant-alternates-19-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-19.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006965117166628502, diffPixels=584
+  canary page 1: diffRatio=0.0006917410884665293, diffPixels=580
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-19-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-19.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006965117166628502, diffPixels=584
+  stable page 1: diffRatio=0.0006917410884665293, diffPixels=580
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-19-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0212] [WPT reftest] css/css-fonts/font-variant-alternates-layers.html
@@ -874,11 +874,11 @@
   reference: css/css-fonts/font-variant-alternates-layers-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-layers.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  canary page 1: diffRatio=0.00034587054423326465, diffPixels=290
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-alternates-layers-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-layers.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003482558583314251, diffPixels=292
+  stable page 1: diffRatio=0.00034587054423326465, diffPixels=290
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-layers-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0263] [WPT reftest] css/css-fonts/font-variant-position-04.html
@@ -913,11 +913,11 @@
   reference: css/css-fonts/font-weight-bolder-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-weight-bolder-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0026190748797801696, diffPixels=2196
+  canary page 1: diffRatio=0.0026357720784672928, diffPixels=2210
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-weight-bolder-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-weight-bolder-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0026190748797801696, diffPixels=2196
+  stable page 1: diffRatio=0.0026357720784672928, diffPixels=2210
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-weight-bolder-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0271] [WPT reftest] css/css-fonts/font-weight-lighter-001.xht
@@ -926,11 +926,11 @@
   reference: css/css-fonts/font-weight-lighter-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-weight-lighter-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027681570109151974, diffPixels=2321
+  canary page 1: diffRatio=0.0027991660941912833, diffPixels=2347
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-weight-lighter-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-weight-lighter-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0027681570109151974, diffPixels=2321
+  stable page 1: diffRatio=0.0027991660941912833, diffPixels=2347
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-weight-lighter-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0272] [WPT reftest] css/css-fonts/font-weight-normal-001.xht
@@ -939,11 +939,11 @@
   reference: css/css-fonts/font-weight-normal-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-weight-normal-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027323772994427907, diffPixels=2291
+  canary page 1: diffRatio=0.002757423097473475, diffPixels=2312
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-weight-normal-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-weight-normal-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0027323772994427907, diffPixels=2291
+  stable page 1: diffRatio=0.002757423097473475, diffPixels=2312
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-weight-normal-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0275] [WPT reftest] css/css-fonts/italic-oblique-fallback.html
@@ -991,11 +991,11 @@
   reference: css/css-fonts/rcap-in-monospace-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/rcap-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023376078161972368, diffPixels=196
+  canary page 1: diffRatio=0.00023137546752156324, diffPixels=194
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/rcap-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/rcap-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023376078161972368, diffPixels=196
+  stable page 1: diffRatio=0.00023137546752156324, diffPixels=194
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/rcap-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0305] [WPT reftest] css/css-fonts/remove-loaded-font-face-rule.html
@@ -1004,11 +1004,11 @@
   reference: css/css-fonts/remove-loaded-font-face-rule-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/remove-loaded-font-face-rule.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008603827952064727, diffPixels=7214
+  canary page 1: diffRatio=0.008605020609113808, diffPixels=7215
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/remove-loaded-font-face-rule-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/remove-loaded-font-face-rule.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008603827952064727, diffPixels=7214
+  stable page 1: diffRatio=0.008605020609113808, diffPixels=7215
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/remove-loaded-font-face-rule-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0306] [WPT reftest] css/css-fonts/rex-in-monospace.html
@@ -1030,27 +1030,27 @@
   reference: css/css-fonts/ric-in-monospace-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/ric-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00024330203801236548, diffPixels=204
+  canary page 1: diffRatio=0.000240916723914205, diffPixels=202
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/ric-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/ric-in-monospace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00024330203801236548, diffPixels=204
+  stable page 1: diffRatio=0.000240916723914205, diffPixels=202
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/ric-in-monospace-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0313] [WPT reftest] css/css-fonts/size-adjust-text-decoration.tentative.html
+- [0314] [WPT reftest] css/css-fonts/size-adjust-text-decoration.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/size-adjust-text-decoration-tentative-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/size-adjust-text-decoration.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00937070643462331, diffPixels=7857
+  canary page 1: diffRatio=0.00936355049232883, diffPixels=7851
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/size-adjust-text-decoration-tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/size-adjust-text-decoration.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00937070643462331, diffPixels=7857
+  stable page 1: diffRatio=0.00936355049232883, diffPixels=7851
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/size-adjust-text-decoration-tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0314] [WPT reftest] css/css-fonts/size-adjust-unicode-range-system-fallback.html
+- [0315] [WPT reftest] css/css-fonts/size-adjust-unicode-range-system-fallback.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/size-adjust-unicode-range-system-fallback-ref.html (==)
@@ -1063,20 +1063,20 @@
   stable page 1: diffRatio=0.00013357758949698496, diffPixels=112
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/size-adjust-unicode-range-system-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0315] [WPT reftest] css/css-fonts/size-adjust.tentative.html
+- [0316] [WPT reftest] css/css-fonts/size-adjust.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/size-adjust-tentative-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/size-adjust.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.021700395008014656, diffPixels=18195
+  canary page 1: diffRatio=0.021659844668345928, diffPixels=18161
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/size-adjust-tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/size-adjust.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021700395008014656, diffPixels=18195
+  stable page 1: diffRatio=0.021659844668345928, diffPixels=18161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/size-adjust-tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0316] [WPT reftest] css/css-fonts/small-caps-letter-spacing-001.html
+- [0317] [WPT reftest] css/css-fonts/small-caps-letter-spacing-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/small-caps-letter-spacing-001-ref.html (==)
@@ -1089,7 +1089,7 @@
   stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0317] [WPT reftest] css/css-fonts/small-caps-letter-spacing-002.html
+- [0318] [WPT reftest] css/css-fonts/small-caps-letter-spacing-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/small-caps-letter-spacing-002-ref.html (==)
@@ -1102,33 +1102,33 @@
   stable page 1: diffRatio=0.00043054919471796047, diffPixels=361
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/small-caps-letter-spacing-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0333] [WPT reftest] css/css-fonts/standard-font-family-6.html
+- [0334] [WPT reftest] css/css-fonts/standard-font-family-6.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/standard-font-family-6-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/standard-font-family-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008552543698954279, diffPixels=7171
+  canary page 1: diffRatio=0.008544195099610716, diffPixels=7164
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/standard-font-family-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/standard-font-family-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008552543698954279, diffPixels=7171
+  stable page 1: diffRatio=0.008544195099610716, diffPixels=7164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/standard-font-family-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0337] [WPT reftest] css/css-fonts/standard-font-family.html
+- [0338] [WPT reftest] css/css-fonts/standard-font-family.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/standard-font-family-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/standard-font-family.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008552543698954279, diffPixels=7171
+  canary page 1: diffRatio=0.008544195099610716, diffPixels=7164
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/standard-font-family-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/standard-font-family.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008552543698954279, diffPixels=7171
+  stable page 1: diffRatio=0.008544195099610716, diffPixels=7164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/standard-font-family-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0341] [WPT reftest] css/css-fonts/system-ui-ar.html
+- [0344] [WPT reftest] css/css-fonts/system-ui-ar.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/system-ui-ar-notref.html (!=)
@@ -1141,7 +1141,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/system-ui-ar-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0342] [WPT reftest] css/css-fonts/system-ui-ja-vs-zh.html
+- [0345] [WPT reftest] css/css-fonts/system-ui-ja-vs-zh.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/system-ui-zh.html (!=)
@@ -1154,7 +1154,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/system-ui-zh.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0343] [WPT reftest] css/css-fonts/system-ui-ja.html
+- [0346] [WPT reftest] css/css-fonts/system-ui-ja.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/system-ui-ja-notref.html (!=)
@@ -1167,20 +1167,20 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/system-ui-ja-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0344] [WPT reftest] css/css-fonts/system-ui-mixed.html
+- [0347] [WPT reftest] css/css-fonts/system-ui-mixed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/system-ui-mixed-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/system-ui-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0016255915578963437, diffPixels=1363
+  canary page 1: diffRatio=0.0016243989008472635, diffPixels=1362
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/system-ui-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/system-ui-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0016255915578963437, diffPixels=1363
+  stable page 1: diffRatio=0.0016243989008472635, diffPixels=1362
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/system-ui-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0345] [WPT reftest] css/css-fonts/system-ui-ur-vs-ar.html
+- [0348] [WPT reftest] css/css-fonts/system-ui-ur-vs-ar.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/system-ui-ar.html (!=)
@@ -1193,7 +1193,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/system-ui-ar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0346] [WPT reftest] css/css-fonts/system-ui-ur.html
+- [0349] [WPT reftest] css/css-fonts/system-ui-ur.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/system-ui-ur-notref.html (!=)
@@ -1206,7 +1206,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/system-ui-ur-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0347] [WPT reftest] css/css-fonts/system-ui-zh.html
+- [0350] [WPT reftest] css/css-fonts/system-ui-zh.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/system-ui-zh-notref.html (!=)
@@ -1219,7 +1219,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/system-ui-zh-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0350] [WPT reftest] css/css-fonts/test-synthetic-italic-2.html
+- [0353] [WPT reftest] css/css-fonts/test-synthetic-italic-2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/test-synthetic-italic-2-ref.html (==)
@@ -1232,7 +1232,7 @@
   stable page 1: diffRatio=0.0007000896878100909, diffPixels=587
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0351] [WPT reftest] css/css-fonts/test-synthetic-italic-3.html
+- [0354] [WPT reftest] css/css-fonts/test-synthetic-italic-3.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/test-synthetic-italic-3-ref.html (==)
@@ -1245,7 +1245,7 @@
   stable page 1: diffRatio=0.0010495382031905961, diffPixels=880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0364] [WPT reftest] css/css-fonts/variations/variable-avar2-rvrn.html
+- [0368] [WPT reftest] css/css-fonts/variations/variable-avar2-rvrn.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/variations/variable-avar2-rvrn-mismatch.html (!=)
@@ -1258,7 +1258,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-rvrn-mismatch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0365] [WPT reftest] css/css-fonts/variations/variable-avar2-warp.html
+- [0369] [WPT reftest] css/css-fonts/variations/variable-avar2-warp.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/variations/variable-avar2-warp-mismatch.html (!=)
@@ -1271,7 +1271,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-warp-mismatch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0372] [WPT reftest] css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed.html
+- [0376] [WPT reftest] css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html (==)
@@ -1284,7 +1284,7 @@
   stable page 1: diffRatio=0.0009457770399206167, diffPixels=793
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0373] [WPT print-reftest] css/css-fonts/downloadable-font-in-iframe-print.html
+- [0377] [WPT print-reftest] css/css-fonts/downloadable-font-in-iframe-print.html
   triage: pending
   outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-fonts/downloadable-font-in-iframe-print-ref.html (==)

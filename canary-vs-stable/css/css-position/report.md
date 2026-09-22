@@ -146,11 +146,11 @@
   reference: css/css-position/multicol/static-position/vlr-in-multicol-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-rtl-rtl-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05882184566063659, diffPixels=49320
+  canary page 1: diffRatio=0.05882303831768567, diffPixels=49321
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-rtl-rtl-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05882184566063659, diffPixels=49320
+  stable page 1: diffRatio=0.05882303831768567, diffPixels=49321
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0018] [WPT reftest] css/css-position/multicol/static-position/vrl-ltr-ltr-in-multicol.html
@@ -1199,11 +1199,11 @@
   reference: css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0022493511945653, diffPixels=1886
+  canary page 1: diffRatio=0.00224815853751622, diffPixels=1885
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0022493511945653, diffPixels=1886
+  stable page 1: diffRatio=0.00224815853751622, diffPixels=1885
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0227] [WPT reftest] css/css-position/sticky/position-sticky-table-pixel-rounding.html
@@ -1212,11 +1212,11 @@
   reference: css/css-position/sticky/position-sticky-table-pixel-rounding-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-table-pixel-rounding.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00002504579803068468, diffPixels=21
+  canary page 1: diffRatio=0.000023853140981604456, diffPixels=20
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-table-pixel-rounding-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-table-pixel-rounding.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00002504579803068468, diffPixels=21
+  stable page 1: diffRatio=0.000023853140981604456, diffPixels=20
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-table-pixel-rounding-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0241] [WPT reftest] css/css-position/sticky/position-sticky-top-002.html
@@ -1302,7 +1302,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -42,11 +42,11 @@
   reference: css/css-content/attr-chained-pseudo-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-chained-pseudo-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009779787802457828, diffPixels=82
+  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-chained-pseudo-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-chained-pseudo-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009779787802457828, diffPixels=82
+  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-chained-pseudo-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0007] [WPT reftest] css/css-content/element-replacement-alt.html
@@ -224,11 +224,11 @@
   reference: css/css-content/reference/quotes-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012618311579268757, diffPixels=1058
+  canary page 1: diffRatio=0.0012701797572704373, diffPixels=1065
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012618311579268757, diffPixels=1058
+  stable page 1: diffRatio=0.0012701797572704373, diffPixels=1065
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT reftest] css/css-content/quotes-005.html
@@ -237,11 +237,11 @@
   reference: css/css-content/reference/quotes-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007239428287916953, diffPixels=607
+  canary page 1: diffRatio=0.0007406400274788184, diffPixels=621
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007239428287916953, diffPixels=607
+  stable page 1: diffRatio=0.0007406400274788184, diffPixels=621
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0028] [WPT reftest] css/css-content/quotes-008.html
@@ -250,11 +250,11 @@
   reference: css/css-content/reference/quotes-008-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001316693382184566, diffPixels=1104
+  canary page 1: diffRatio=0.0013202713533318068, diffPixels=1107
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001316693382184566, diffPixels=1104
+  stable page 1: diffRatio=0.0013202713533318068, diffPixels=1107
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0029] [WPT reftest] css/css-content/quotes-009.html
@@ -263,11 +263,11 @@
   reference: css/css-content/reference/quotes-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00047229219143576825, diffPixels=396
+  canary page 1: diffRatio=0.0004734848484848485, diffPixels=397
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00047229219143576825, diffPixels=396
+  stable page 1: diffRatio=0.0004734848484848485, diffPixels=397
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-content/quotes-010.html
@@ -276,11 +276,11 @@
   reference: css/css-content/reference/quotes-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010793546294176016, diffPixels=905
+  canary page 1: diffRatio=0.0010745840012212808, diffPixels=901
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010793546294176016, diffPixels=905
+  stable page 1: diffRatio=0.0010745840012212808, diffPixels=901
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0031] [WPT reftest] css/css-content/quotes-011.html
@@ -289,11 +289,11 @@
   reference: css/css-content/reference/quotes-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010984371422028852, diffPixels=921
+  canary page 1: diffRatio=0.001102015113350126, diffPixels=924
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010984371422028852, diffPixels=921
+  stable page 1: diffRatio=0.001102015113350126, diffPixels=924
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0033] [WPT reftest] css/css-content/quotes-013.html
@@ -302,11 +302,11 @@
   reference: css/css-content/reference/quotes-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008766029310739638, diffPixels=735
+  canary page 1: diffRatio=0.0008849515304175254, diffPixels=742
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008766029310739638, diffPixels=735
+  stable page 1: diffRatio=0.0008849515304175254, diffPixels=742
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0035] [WPT reftest] css/css-content/quotes-015.html
@@ -315,11 +315,11 @@
   reference: css/css-content/reference/quotes-015-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014896286543011983, diffPixels=1249
+  canary page 1: diffRatio=0.001492013968399359, diffPixels=1251
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014896286543011983, diffPixels=1249
+  stable page 1: diffRatio=0.001492013968399359, diffPixels=1251
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0036] [WPT reftest] css/css-content/quotes-016.html
@@ -341,11 +341,11 @@
   reference: css/css-content/reference/quotes-021-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001310730096939165, diffPixels=1099
+  canary page 1: diffRatio=0.0013274272956262882, diffPixels=1113
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001310730096939165, diffPixels=1099
+  stable page 1: diffRatio=0.0013274272956262882, diffPixels=1113
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/css-content/quotes-026.html
@@ -367,11 +367,11 @@
   reference: css/css-content/reference/quotes-030-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005432552858560415, diffPixels=4555
+  canary page 1: diffRatio=0.005419433631020533, diffPixels=4544
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005432552858560415, diffPixels=4555
+  stable page 1: diffRatio=0.005419433631020533, diffPixels=4544
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0053] [WPT reftest] css/css-content/quotes-033.html
@@ -380,11 +380,11 @@
   reference: css/css-content/reference/quotes-033-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  canary page 1: diffRatio=0.0000023853140981604458, diffPixels=2
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-033-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  stable page 1: diffRatio=0.0000023853140981604458, diffPixels=2
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-033-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/css-content/quotes-034.html
@@ -393,11 +393,11 @@
   reference: css/css-content/reference/quotes-034-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017889855736203343, diffPixels=1500
+  canary page 1: diffRatio=0.0017866002595221739, diffPixels=1498
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017889855736203343, diffPixels=1500
+  stable page 1: diffRatio=0.0017866002595221739, diffPixels=1498
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-content/quotes-first-letter-001.html
@@ -406,11 +406,11 @@
   reference: css/css-content/reference/quotes-first-letter-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-first-letter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005450442714296619, diffPixels=457
+  canary page 1: diffRatio=0.000551007556675063, diffPixels=462
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-first-letter-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-first-letter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005450442714296619, diffPixels=457
+  stable page 1: diffRatio=0.000551007556675063, diffPixels=462
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-first-letter-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0057] [WPT reftest] css/css-content/quotes-first-letter-002.html
@@ -471,11 +471,11 @@
   reference: css/css-content/reference/quotes-lang-dynamic-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-lang-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003041275475154568, diffPixels=255
+  canary page 1: diffRatio=0.00030651286161361725, diffPixels=257
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-lang-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-lang-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003041275475154568, diffPixels=255
+  stable page 1: diffRatio=0.00030651286161361725, diffPixels=257
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-lang-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0063] [WPT reftest] css/css-content/quotes-slot-scoping.html

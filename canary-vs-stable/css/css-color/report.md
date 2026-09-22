@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 307
+- Compared entries: 308
 - Entries with differences: 21 (pending: 21, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":286,"known-fail":21}
+- Outcome summary: {"pass":287,"known-fail":21}
 
 ## Differences
 
@@ -68,11 +68,11 @@
   reference: css/css-color/greensquare-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/body-opacity-0-to-1-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04480335470574765, diffPixels=37566
+  canary page 1: diffRatio=0.044805740019845816, diffPixels=37568
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/greensquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/body-opacity-0-to-1-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04480335470574765, diffPixels=37566
+  stable page 1: diffRatio=0.044805740019845816, diffPixels=37568
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/greensquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0018] [WPT reftest] css/css-color/border-color-currentcolor.html
@@ -107,14 +107,14 @@
   reference: css/css-color/color-mix-currentcolor-visited-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/color-mix-currentcolor-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  canary page 1: diffRatio=0.005109342798259675, diffPixels=4284
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/color-mix-currentcolor-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/color-mix-currentcolor-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  stable page 1: diffRatio=0.005109342798259675, diffPixels=4284
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/color-mix-currentcolor-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0039] [WPT reftest] css/css-color/contrast-color-style-query.html
+- [0040] [WPT reftest] css/css-color/contrast-color-style-query.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/green.html (==)
@@ -127,7 +127,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0042] [WPT reftest] css/css-color/currentcolor-003.html
+- [0043] [WPT reftest] css/css-color/currentcolor-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/currentcolor-003-ref.html (==)
@@ -140,7 +140,7 @@
   stable page 1: diffRatio=0.05364332875353026, diffPixels=44978
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/currentcolor-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0043] [WPT reftest] css/css-color/currentcolor-004.html
+- [0044] [WPT reftest] css/css-color/currentcolor-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/currentcolor-004-ref.html (==)
@@ -153,7 +153,7 @@
   stable page 1: diffRatio=0.000850364475994199, diffPixels=713
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/currentcolor-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0081] [WPT reftest] css/css-color/filters-under-will-change-opacity.html
+- [0082] [WPT reftest] css/css-color/filters-under-will-change-opacity.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/composited-filters-under-opacity-ref.html (==)
@@ -166,7 +166,7 @@
   stable page 1: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/composited-filters-under-opacity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0109] [WPT reftest] css/css-color/inline-opacity-float-child.html
+- [0110] [WPT reftest] css/css-color/inline-opacity-float-child.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -179,7 +179,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0128] [WPT reftest] css/css-color/lch-009.html
+- [0129] [WPT reftest] css/css-color/lch-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/whitesquare-ref.html (==)
@@ -192,7 +192,7 @@
   stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/whitesquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0129] [WPT reftest] css/css-color/lch-010.html
+- [0130] [WPT reftest] css/css-color/lch-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/blacksquare-ref.html (==)
@@ -205,7 +205,7 @@
   stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/blacksquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0133] [WPT reftest] css/css-color/light-dark-image-none-interpolation.html
+- [0134] [WPT reftest] css/css-color/light-dark-image-none-interpolation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/light-dark-image-none-ref.html (==)
@@ -218,7 +218,7 @@
   stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/light-dark-image-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0134] [WPT reftest] css/css-color/light-dark-image-none.html
+- [0135] [WPT reftest] css/css-color/light-dark-image-none.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/light-dark-image-none-ref.html (==)
@@ -231,7 +231,7 @@
   stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/light-dark-image-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0158] [WPT reftest] css/css-color/oklch-009.html
+- [0159] [WPT reftest] css/css-color/oklch-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/whitesquare-ref.html (==)
@@ -244,7 +244,7 @@
   stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/whitesquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/css-color/oklch-010.html
+- [0160] [WPT reftest] css/css-color/oklch-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/blacksquare-ref.html (==)
@@ -257,7 +257,7 @@
   stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/blacksquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0224] [WPT reftest] css/css-color/system-color-hightlights-vs-getSelection-001.html
+- [0225] [WPT reftest] css/css-color/system-color-hightlights-vs-getSelection-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/reference/system-color-hightlights-vs-getSelection-001-ref.html (==)
@@ -270,7 +270,7 @@
   stable page 1: diffRatio=0.010448868406991833, diffPixels=8761
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/reference/system-color-hightlights-vs-getSelection-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0225] [WPT reftest] css/css-color/system-color-hightlights-vs-getSelection-002.html
+- [0226] [WPT reftest] css/css-color/system-color-hightlights-vs-getSelection-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/reference/system-color-hightlights-vs-getSelection-002-ref.html (==)

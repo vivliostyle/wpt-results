@@ -393,11 +393,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-1-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004582188382566217, diffPixels=3842
+  canary page 1: diffRatio=0.004579803068468056, diffPixels=3840
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004582188382566217, diffPixels=3842
+  stable page 1: diffRatio=0.004579803068468056, diffPixels=3840
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0051] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-2.html
@@ -406,11 +406,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-1-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004582188382566217, diffPixels=3842
+  canary page 1: diffRatio=0.004579803068468056, diffPixels=3840
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004582188382566217, diffPixels=3842
+  stable page 1: diffRatio=0.004579803068468056, diffPixels=3840
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0052] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-3.html
@@ -419,11 +419,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004582188382566217, diffPixels=3842
+  canary page 1: diffRatio=0.004579803068468056, diffPixels=3840
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004582188382566217, diffPixels=3842
+  stable page 1: diffRatio=0.004579803068468056, diffPixels=3840
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0053] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-4.html
@@ -432,11 +432,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-4-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00326549500038165, diffPixels=2738
+  canary page 1: diffRatio=0.00326310968628349, diffPixels=2736
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00326549500038165, diffPixels=2738
+  stable page 1: diffRatio=0.00326310968628349, diffPixels=2736
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-5.html
@@ -445,11 +445,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-4-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00326549500038165, diffPixels=2738
+  canary page 1: diffRatio=0.00326310968628349, diffPixels=2736
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00326549500038165, diffPixels=2738
+  stable page 1: diffRatio=0.00326310968628349, diffPixels=2736
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0055] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-6.html
@@ -458,11 +458,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-6-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.015718027249828258, diffPixels=13179
+  canary page 1: diffRatio=0.015715641935730097, diffPixels=13177
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.015718027249828258, diffPixels=13179
+  stable page 1: diffRatio=0.015715641935730097, diffPixels=13177
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-color-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-1.html
@@ -497,11 +497,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05600478971070911, diffPixels=46958
+  canary page 1: diffRatio=0.056002404396610944, diffPixels=46956
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05600478971070911, diffPixels=46958
+  stable page 1: diffRatio=0.056002404396610944, diffPixels=46956
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0059] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-4.html
@@ -536,11 +536,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-6-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04735564079077933, diffPixels=39706
+  canary page 1: diffRatio=0.04735325547668117, diffPixels=39704
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04735564079077933, diffPixels=39706
+  stable page 1: diffRatio=0.04735325547668117, diffPixels=39704
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-clipping-image-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0062] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-positioning-2.html
@@ -562,11 +562,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-positioning-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015075185100374016, diffPixels=1264
+  canary page 1: diffRatio=0.0015003625677429205, diffPixels=1258
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015075185100374016, diffPixels=1264
+  stable page 1: diffRatio=0.0015003625677429205, diffPixels=1258
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0064] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-positioning-4.html
@@ -575,11 +575,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-positioning-4-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014204545454545455, diffPixels=1191
+  canary page 1: diffRatio=0.0014132986031600641, diffPixels=1185
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014204545454545455, diffPixels=1191
+  stable page 1: diffRatio=0.0014132986031600641, diffPixels=1185
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0065] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-local-positioning-5.html
@@ -588,11 +588,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-local-positioning-5-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0016339401572399053, diffPixels=1370
+  canary page 1: diffRatio=0.001631554843141745, diffPixels=1368
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-5-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0016339401572399053, diffPixels=1370
+  stable page 1: diffRatio=0.001631554843141745, diffPixels=1368
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-local-positioning-5-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0066] [WPT reftest] css/css-backgrounds/background-attachment-local/attachment-scroll-positioning-1.html
@@ -601,11 +601,11 @@
   reference: css/css-backgrounds/background-attachment-local/attachment-scroll-positioning-1-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-scroll-positioning-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015266010228226853, diffPixels=128
+  canary page 1: diffRatio=0.0001502747881841081, diffPixels=126
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-scroll-positioning-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-scroll-positioning-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
+  stable page 1: diffRatio=0.0001502747881841081, diffPixels=126
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-attachment-local/attachment-scroll-positioning-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0067] [WPT reftest] css/css-backgrounds/background-attachment-local-block-002.html
@@ -824,11 +824,11 @@
   reference: css/css-backgrounds/background-clip/clip-border-area-on-body-not-propagated-to-root-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-on-body-not-propagated-to-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.566945032821922, diffPixels=475363
+  canary page 1: diffRatio=0.5669521887642165, diffPixels=475369
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-on-body-not-propagated-to-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-on-body-not-propagated-to-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.566945032821922, diffPixels=475363
+  stable page 1: diffRatio=0.5669521887642165, diffPixels=475369
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-border-area-on-body-not-propagated-to-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0088] [WPT reftest] css/css-backgrounds/background-clip/clip-border-area-rounded.html
@@ -876,11 +876,11 @@
   reference: css/css-backgrounds/background-clip/clip-text-background-table-cell-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020155904129455767, diffPixels=169
+  canary page 1: diffRatio=0.00020394435539271811, diffPixels=171
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00020155904129455767, diffPixels=169
+  stable page 1: diffRatio=0.00020394435539271811, diffPixels=171
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-background-table-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0098] [WPT reftest] css/css-backgrounds/background-clip/clip-text-descendants.html
@@ -889,11 +889,11 @@
   reference: css/css-backgrounds/background-clip/clip-text-descendants-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-descendants.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004674022975345394, diffPixels=3919
+  canary page 1: diffRatio=0.004663289061903672, diffPixels=3910
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-descendants-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-descendants.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004674022975345394, diffPixels=3919
+  stable page 1: diffRatio=0.004663289061903672, diffPixels=3910
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip/clip-text-descendants-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0111] [WPT reftest] css/css-backgrounds/background-clip/clip-text-on-body-scroll.html
@@ -967,11 +967,11 @@
   reference: css/css-backgrounds/reference/background-clip-border-area-and-blend-mode-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip-border-area-and-blend-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.12100817685672849, diffPixels=101461
+  canary page 1: diffRatio=0.12100936951377757, diffPixels=101462
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-clip-border-area-and-blend-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip-border-area-and-blend-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.12100817685672849, diffPixels=101461
+  stable page 1: diffRatio=0.12100936951377757, diffPixels=101462
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-clip-border-area-and-blend-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0142] [WPT reftest] css/css-backgrounds/background-clip-text-and-blend-mode.html
@@ -980,11 +980,11 @@
   reference: css/css-backgrounds/reference/background-clip-text-and-blend-mode-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-clip-text-and-blend-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008150618273414243, diffPixels=6834
+  canary page 1: diffRatio=0.008143462331119762, diffPixels=6828
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/background-clip-text-and-blend-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-clip-text-and-blend-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008150618273414243, diffPixels=6834
+  stable page 1: diffRatio=0.008143462331119762, diffPixels=6828
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-clip-text-and-blend-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0146] [WPT reftest] css/css-backgrounds/background-color-body-propagation-003.html
@@ -993,11 +993,11 @@
   reference: css/css-backgrounds/background-color-body-propagation-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6384937218532937, diffPixels=535354
+  canary page 1: diffRatio=0.6384925291962446, diffPixels=535353
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6384937218532937, diffPixels=535354
+  stable page 1: diffRatio=0.6384925291962446, diffPixels=535353
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0147] [WPT reftest] css/css-backgrounds/background-color-body-propagation-004.html
@@ -1084,11 +1084,11 @@
   reference: css/css-backgrounds/background-color-no-body-propagation-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01246565147698649, diffPixels=10452
+  canary page 1: diffRatio=0.01247042210518281, diffPixels=10456
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-no-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01246565147698649, diffPixels=10452
+  stable page 1: diffRatio=0.01247042210518281, diffPixels=10456
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-no-body-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0177] [WPT reftest] css/css-backgrounds/background-image-gradient-currentcolor-visited.html
@@ -2540,11 +2540,11 @@
   reference: css/css-backgrounds/background-size-percentage-root-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  canary page 1: diffRatio=0.23510848408518434, diffPixels=197130
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  stable page 1: diffRatio=0.23510848408518434, diffPixels=197130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size-percentage-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0547] [WPT reftest] css/css-backgrounds/border-image-repeat-round-003.html
@@ -2852,11 +2852,11 @@
   reference: css/css-backgrounds/reference/first-letter-space-not-selected-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/first-letter-space-not-selected.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01396482138768033, diffPixels=11709
+  canary page 1: diffRatio=0.013968399358827571, diffPixels=11712
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/first-letter-space-not-selected-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/first-letter-space-not-selected.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01396482138768033, diffPixels=11709
+  stable page 1: diffRatio=0.013968399358827571, diffPixels=11712
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/first-letter-space-not-selected-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0702] [WPT reftest] css/css-backgrounds/local-attachment-content-box-scroll.html
@@ -2984,7 +2984,25 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): navigating to page 1
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): navigating to page 1
+  stable error: TimeoutError: locator.fill: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#vivliostyle-page-number')
+    - locator resolved to <input type="text" autocomplete="off" inputmode="numeric" aria-keyshortcuts="G" title="Go to Page… (G)" aria-label="Page number" id="vivliostyle-page-number" data-bind="value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}"/>
+    - fill("1")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    20 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2994,7 +3012,25 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): navigating to page 1
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): navigating to page 1
+  stable error: TimeoutError: locator.fill: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#vivliostyle-page-number')
+    - locator resolved to <input type="text" autocomplete="off" inputmode="numeric" aria-keyshortcuts="G" title="Go to Page… (G)" aria-label="Page number" id="vivliostyle-page-number" data-bind="value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}"/>
+    - fill("1")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    17 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

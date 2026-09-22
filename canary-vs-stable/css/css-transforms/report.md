@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 794
-- Entries with differences: 257 (pending: 257, triaged: 0)
+- Entries with differences: 258 (pending: 258, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":536,"known-fail":257,"unchanged":1}
+- Outcome summary: {"pass":535,"known-fail":258,"unchanged":1}
 
 ## Differences
 
@@ -224,11 +224,11 @@
   reference: css/css-transforms/backface-visibility-hidden-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02347983932524235, diffPixels=19687
+  canary page 1: diffRatio=0.023478646668193267, diffPixels=19686
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02347983932524235, diffPixels=19687
+  stable page 1: diffRatio=0.023478646668193267, diffPixels=19686
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/css-transforms/backface-visibility-hidden-005.html
@@ -250,11 +250,11 @@
   reference: css/css-transforms/backface-visibility-hidden-animated-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-animated-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.042567122738722235, diffPixels=35691
+  canary page 1: diffRatio=0.042568315395771314, diffPixels=35692
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-animated-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-animated-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.042567122738722235, diffPixels=35691
+  stable page 1: diffRatio=0.042568315395771314, diffPixels=35692
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-animated-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0050] [WPT reftest] css/css-transforms/backface-visibility-hidden-animated-002.html
@@ -263,11 +263,11 @@
   reference: css/css-transforms/backface-visibility-hidden-animated-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-animated-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.042567122738722235, diffPixels=35691
+  canary page 1: diffRatio=0.042568315395771314, diffPixels=35692
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-animated-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-animated-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.042567122738722235, diffPixels=35691
+  stable page 1: diffRatio=0.042568315395771314, diffPixels=35692
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/backface-visibility-hidden-animated-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/css-transforms/change-perspective-property.html
@@ -1895,6 +1895,19 @@
   stable page 1: diffRatio=0.016399034424853066, diffPixels=13750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/cssbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0413] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0414] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -3149,11 +3162,11 @@
   reference: css/css-transforms/transform-origin-ref-2.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-origin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012809136707121595, diffPixels=1074
+  canary page 1: diffRatio=0.0012701797572704373, diffPixels=1065
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-origin-ref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012809136707121595, diffPixels=1074
+  stable page 1: diffRatio=0.0012701797572704373, diffPixels=1065
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin-ref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0618] [WPT reftest] css/css-transforms/transform-percent-010.html
@@ -3188,11 +3201,11 @@
   reference: css/css-transforms/transform-table-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-table-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001622013586749103, diffPixels=136
+  canary page 1: diffRatio=0.00016339401572399052, diffPixels=137
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-table-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-table-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001622013586749103, diffPixels=136
+  stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-table-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0654] [WPT reftest] css/css-transforms/transform-table-010.html
@@ -3201,11 +3214,11 @@
   reference: css/css-transforms/transform-table-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-table-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001622013586749103, diffPixels=136
+  canary page 1: diffRatio=0.00016339401572399052, diffPixels=137
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-table-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-table-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001622013586749103, diffPixels=136
+  stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-table-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0655] [WPT reftest] css/css-transforms/transform-table-011.html
@@ -3214,11 +3227,11 @@
   reference: css/css-transforms/transform-table-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-table-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001622013586749103, diffPixels=136
+  canary page 1: diffRatio=0.00016339401572399052, diffPixels=137
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-table-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-table-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001622013586749103, diffPixels=136
+  stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-table-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0666] [WPT reftest] css/css-transforms/transform-transformed-caption-contains-fixed-position.html
@@ -3227,11 +3240,11 @@
   reference: css/css-transforms/transform-transformed-caption-contains-fixed-position-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-caption-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  canary page 1: diffRatio=0.0006726585756812458, diffPixels=564
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-caption-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-caption-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-caption-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0667] [WPT reftest] css/css-transforms/transform-transformed-tbody-contains-fixed-position.html
@@ -3240,11 +3253,11 @@
   reference: css/css-transforms/transform-transformed-tbody-contains-fixed-position-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-tbody-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  canary page 1: diffRatio=0.0006726585756812458, diffPixels=564
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-tbody-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-tbody-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-tbody-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0668] [WPT reftest] css/css-transforms/transform-transformed-td-contains-fixed-position.html
@@ -3253,11 +3266,11 @@
   reference: css/css-transforms/transform-transformed-td-contains-fixed-position-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-td-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  canary page 1: diffRatio=0.0006726585756812458, diffPixels=564
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-td-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-td-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-td-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0669] [WPT reftest] css/css-transforms/transform-transformed-tfoot-contains-fixed-position.html
@@ -3266,11 +3279,11 @@
   reference: css/css-transforms/transform-transformed-tfoot-contains-fixed-position-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-tfoot-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  canary page 1: diffRatio=0.0006726585756812458, diffPixels=564
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-tfoot-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-tfoot-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-tfoot-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0670] [WPT reftest] css/css-transforms/transform-transformed-th-contains-fixed-position.html
@@ -3279,11 +3292,11 @@
   reference: css/css-transforms/transform-transformed-th-contains-fixed-position-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-th-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006965117166628502, diffPixels=584
+  canary page 1: diffRatio=0.0006977043737119304, diffPixels=585
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-th-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-th-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006965117166628502, diffPixels=584
+  stable page 1: diffRatio=0.0006977043737119304, diffPixels=585
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-th-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0671] [WPT reftest] css/css-transforms/transform-transformed-thead-contains-fixed-position.html
@@ -3292,11 +3305,11 @@
   reference: css/css-transforms/transform-transformed-thead-contains-fixed-position-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-thead-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  canary page 1: diffRatio=0.0006726585756812458, diffPixels=564
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-thead-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-thead-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-thead-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0672] [WPT reftest] css/css-transforms/transform-transformed-tr-contains-fixed-position.html
@@ -3305,11 +3318,11 @@
   reference: css/css-transforms/transform-transformed-tr-contains-fixed-position-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-tr-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  canary page 1: diffRatio=0.0006726585756812458, diffPixels=564
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-transformed-tr-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-tr-contains-fixed-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
+  stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-tr-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0679] [WPT reftest] css/css-transforms/transform-translate-background-001.html

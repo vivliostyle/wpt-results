@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 310
-- Entries with differences: 248 (pending: 248, triaged: 0)
+- Compared entries: 314
+- Entries with differences: 235 (pending: 235, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 20
-- Outcome summary: {"pass":60,"known-fail":228,"error":1,"expected-change":16,"changed-fail":3,"regression":1,"unchanged":1}
+- Screenshot mismatches: 3
+- Outcome summary: {"pass":77,"known-fail":232,"error":1,"changed-fail":3,"unchanged":1}
 
 ## Differences
 
@@ -42,11 +42,11 @@
   reference: css/css-view-transitions/animating-new-content-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/animating-new-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008461901763224181, diffPixels=7095
+  canary page 1: diffRatio=0.008463094420273262, diffPixels=7096
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/animating-new-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/animating-new-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008461901763224181, diffPixels=7095
+  stable page 1: diffRatio=0.008463094420273262, diffPixels=7096
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/animating-new-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0009] [WPT reftest] css/css-view-transitions/auto-name-from-id-shadow.html
@@ -733,11 +733,11 @@
   reference: css/css-view-transitions/massive-element-below-viewport-offscreen-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-below-viewport-offscreen-new.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.12414605755285855, diffPixels=104092
+  canary page 1: diffRatio=0.12414247958171132, diffPixels=104089
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-below-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-below-viewport-offscreen-new.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.12414605755285855, diffPixels=104092
+  stable page 1: diffRatio=0.12414247958171132, diffPixels=104089
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-below-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0080] [WPT reftest] css/css-view-transitions/massive-element-below-viewport-offscreen-old.html
@@ -746,11 +746,11 @@
   reference: css/css-view-transitions/massive-element-below-viewport-offscreen-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-below-viewport-offscreen-old.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.12414605755285855, diffPixels=104092
+  canary page 1: diffRatio=0.12414247958171132, diffPixels=104089
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-below-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-below-viewport-offscreen-old.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.12414605755285855, diffPixels=104092
+  stable page 1: diffRatio=0.12414247958171132, diffPixels=104089
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-below-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0081] [WPT reftest] css/css-view-transitions/massive-element-below-viewport-partially-onscreen-new.html
@@ -841,11 +841,11 @@
   reference: css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-new.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.12499165140065643, diffPixels=104801
+  canary page 1: diffRatio=0.12499045874360735, diffPixels=104800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-new.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.12499165140065643, diffPixels=104801
+  stable page 1: diffRatio=0.12499045874360735, diffPixels=104800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0088] [WPT reftest] css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-old.html
@@ -854,11 +854,11 @@
   reference: css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-old.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.12499165140065643, diffPixels=104801
+  canary page 1: diffRatio=0.12499045874360735, diffPixels=104800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-old.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.12499165140065643, diffPixels=104801
+  stable page 1: diffRatio=0.12499045874360735, diffPixels=104800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-on-top-of-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0089] [WPT reftest] css/css-view-transitions/massive-element-on-top-of-viewport-partially-onscreen-new.html
@@ -919,11 +919,11 @@
   reference: css/css-view-transitions/massive-element-right-of-viewport-offscreen-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-right-of-viewport-offscreen-new.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011039233646286542, diffPixels=9256
+  canary page 1: diffRatio=0.011038040989237463, diffPixels=9255
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-right-of-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-right-of-viewport-offscreen-new.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011039233646286542, diffPixels=9256
+  stable page 1: diffRatio=0.011038040989237463, diffPixels=9255
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-right-of-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0094] [WPT reftest] css/css-view-transitions/massive-element-right-of-viewport-offscreen-old.html
@@ -932,11 +932,11 @@
   reference: css/css-view-transitions/massive-element-right-of-viewport-offscreen-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-right-of-viewport-offscreen-old.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011039233646286542, diffPixels=9256
+  canary page 1: diffRatio=0.011038040989237463, diffPixels=9255
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/massive-element-right-of-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-right-of-viewport-offscreen-old.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011039233646286542, diffPixels=9256
+  stable page 1: diffRatio=0.011038040989237463, diffPixels=9255
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/massive-element-right-of-viewport-offscreen-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0095] [WPT reftest] css/css-view-transitions/massive-element-right-of-viewport-partially-onscreen-new.html
@@ -1057,7 +1057,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/navigation/root-element-transition-iframe-with-startVT-on-main-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/navigation/root-element-transition-iframe-with-startVT-on-main.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6127442561636516, diffPixels=513764
+  stable page 1: diffRatio=0.6127657239905351, diffPixels=513782
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/navigation/root-element-transition-iframe-with-startVT-on-main-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0106] [WPT reftest] css/css-view-transitions/navigation/root-element-transition-iframe.html
@@ -1072,76 +1072,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/navigation/root-element-transition-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.026954049309213038, diffPixels=22600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/navigation/root-element-transition-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0109] [WPT reftest] css/css-view-transitions/nested/compute-explicit-name-direct.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-direct.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-direct.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0110] [WPT reftest] css/css-view-transitions/nested/compute-explicit-name-nested-vt-names.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-nested-vt-names.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-nested-vt-names.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0111] [WPT reftest] css/css-view-transitions/nested/compute-explicit-name-nested.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-nested.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-nested.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0112] [WPT reftest] css/css-view-transitions/nested/compute-explicit-name-non-ancestor.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-non-ancestor.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-non-ancestor.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0113] [WPT reftest] css/css-view-transitions/nested/compute-explicit-name-non-existent.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-non-existent.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-non-existent.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0114] [WPT reftest] css/css-view-transitions/nested/compute-explicit-name-self.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-self.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/compute-explicit-name-self.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0115] [WPT reftest] css/css-view-transitions/nested/contain-direct.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/contain-direct.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/contain-direct.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0116] [WPT reftest] css/css-view-transitions/nested/contain-nested.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/contain-nested.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/contain-nested.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0117] [WPT reftest] css/css-view-transitions/nested/contain-on-self.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/contain-on-self.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/contain-on-self.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0118] [WPT reftest] css/css-view-transitions/nested/custom-ident-implies-contain.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/custom-ident-implies-contain.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/custom-ident-implies-contain.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0119] [WPT reftest] css/css-view-transitions/nested/group-children-sizing-with-border-props.html
   triage: pending
@@ -1182,41 +1112,6 @@
   stable page 1: diffRatio=0.028165788871078543, diffPixels=23616
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/group-children-sizing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0122] [WPT reftest] css/css-view-transitions/nested/nearest-direct.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/nearest-direct.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/nearest-direct.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0123] [WPT reftest] css/css-view-transitions/nested/nearest-ignores-nearest-name.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/nearest-ignores-nearest-name.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/nearest-ignores-nearest-name.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0124] [WPT reftest] css/css-view-transitions/nested/nearest-implies-contain.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/nearest-implies-contain.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/nearest-implies-contain.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0125] [WPT reftest] css/css-view-transitions/nested/nearest-nested.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/nearest-nested.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/nearest-nested.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0128] [WPT reftest] css/css-view-transitions/nested/nested-group-in-pseudo-basic.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6397078467292573, diffPixels=536372
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/nested-group-in-pseudo-basic.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/nested-group-in-pseudo-basic.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0131] [WPT reftest] css/css-view-transitions/nested/nested-position-with-border.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1242,13 +1137,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/nested-root-capture-with-clip.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.6276321941073201, diffPixels=526247
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/nested-root-capture-with-clip-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0133] [WPT reftest] css/css-view-transitions/nested/normal-goes-up.tentative.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.6399499561102205, diffPixels=536575
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/nested/normal-goes-up.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/nested/normal-goes-up.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0135] [WPT reftest] css/css-view-transitions/nested/rotated-container.html
   triage: pending
@@ -1295,7 +1183,7 @@
   reference: css/css-view-transitions/new-content-ancestor-clipped-2-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-ancestor-clipped-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.5921267937562018, diffPixels=496477
+  canary page 1: diffRatio=0.5924929394702695, diffPixels=496784
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-ancestor-clipped-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-ancestor-clipped-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1425,11 +1313,11 @@
   reference: css/css-view-transitions/new-content-element-writing-modes-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-element-writing-modes.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6280257709335165, diffPixels=526577
+  canary page 1: diffRatio=0.6280305415617129, diffPixels=526581
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-element-writing-modes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-element-writing-modes.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6280257709335165, diffPixels=526577
+  stable page 1: diffRatio=0.6280305415617129, diffPixels=526581
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-element-writing-modes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0151] [WPT reftest] css/css-view-transitions/new-content-escapes-clip-with-abspos-child.html
@@ -1438,11 +1326,11 @@
   reference: css/css-view-transitions/content-escapes-clip-with-abspos-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-escapes-clip-with-abspos-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.627422286466682, diffPixels=526071
+  canary page 1: diffRatio=0.6286471452560873, diffPixels=527098
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/content-escapes-clip-with-abspos-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-escapes-clip-with-abspos-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6283919166475842, diffPixels=526884
+  stable page 1: diffRatio=0.6286471452560873, diffPixels=527098
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/content-escapes-clip-with-abspos-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0152] [WPT reftest] css/css-view-transitions/new-content-flat-transform-ancestor.html
@@ -1525,15 +1413,15 @@
 
 - [0158] [WPT reftest] css/css-view-transitions/new-content-is-inline.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/new-content-is-inline-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-is-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.9346912926494161, diffPixels=783705
+  canary page 1: diffRatio=0.9346841367071216, diffPixels=783699
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-is-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-is-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.93476404472941, diffPixels=783766
+  stable page 1: diffRatio=0.9346984485917106, diffPixels=783711
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-is-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0159] [WPT reftest] css/css-view-transitions/new-content-object-fit-fill.html
@@ -1555,11 +1443,11 @@
   reference: css/css-view-transitions/content-object-fit-none-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-content-object-fit-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6305553965346157, diffPixels=528698
+  canary page 1: diffRatio=0.6305530112205175, diffPixels=528696
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/content-object-fit-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-content-object-fit-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6305553965346157, diffPixels=528698
+  stable page 1: diffRatio=0.6305530112205175, diffPixels=528696
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/content-object-fit-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0161] [WPT reftest] css/css-view-transitions/new-content-object-view-box-clip-path-reference.html
@@ -1737,11 +1625,11 @@
   reference: css/css-view-transitions/new-root-vertical-writing-mode-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-root-vertical-writing-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.061904864132508966, diffPixels=51905
+  canary page 1: diffRatio=0.06190724944660713, diffPixels=51907
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-root-vertical-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-root-vertical-writing-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.061904864132508966, diffPixels=51905
+  stable page 1: diffRatio=0.06190724944660713, diffPixels=51907
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-root-vertical-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0176] [WPT reftest] css/css-view-transitions/no-named-elements.html
@@ -1776,11 +1664,11 @@
   reference: css/css-view-transitions/object-view-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/object-view-box-new-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0681865888100145, diffPixels=57172
+  canary page 1: diffRatio=0.06817704755362186, diffPixels=57164
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/object-view-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/object-view-box-new-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0681865888100145, diffPixels=57172
+  stable page 1: diffRatio=0.06817704755362186, diffPixels=57164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/object-view-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0182] [WPT reftest] css/css-view-transitions/object-view-box-old-image.html
@@ -1789,11 +1677,11 @@
   reference: css/css-view-transitions/object-view-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/object-view-box-old-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0681865888100145, diffPixels=57172
+  canary page 1: diffRatio=0.06817704755362186, diffPixels=57164
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/object-view-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/object-view-box-old-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0681865888100145, diffPixels=57172
+  stable page 1: diffRatio=0.06817704755362186, diffPixels=57164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/object-view-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0183] [WPT reftest] css/css-view-transitions/offscreen-element-modified-before-coming-onscreen.html
@@ -1889,11 +1777,11 @@
 
 - [0190] [WPT reftest] css/css-view-transitions/old-content-escapes-clip-with-abspos-child.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/content-escapes-clip-with-abspos-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/old-content-escapes-clip-with-abspos-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6286471452560873, diffPixels=527098
+  canary page 1: diffRatio=0.6283919166475842, diffPixels=526884
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/content-escapes-clip-with-abspos-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/old-content-escapes-clip-with-abspos-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1958,11 +1846,11 @@
   reference: css/css-view-transitions/old-content-is-inline-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/old-content-is-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.9342774406533852, diffPixels=783358
+  canary page 1: diffRatio=0.9343692752461644, diffPixels=783435
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/old-content-is-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/old-content-is-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.934363311960919, diffPixels=783430
+  stable page 1: diffRatio=0.9342845965956798, diffPixels=783364
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/old-content-is-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0196] [WPT reftest] css/css-view-transitions/old-content-object-fit-fill.html
@@ -1984,11 +1872,11 @@
   reference: css/css-view-transitions/content-object-fit-none-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/old-content-object-fit-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6305553965346157, diffPixels=528698
+  canary page 1: diffRatio=0.6305530112205175, diffPixels=528696
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/content-object-fit-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/old-content-object-fit-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6305553965346157, diffPixels=528698
+  stable page 1: diffRatio=0.6305530112205175, diffPixels=528696
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/content-object-fit-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0198] [WPT reftest] css/css-view-transitions/old-content-object-view-box-clip-path-reference.html
@@ -2088,11 +1976,11 @@
   reference: css/css-view-transitions/new-root-vertical-writing-mode-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/old-root-vertical-writing-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006001450270971682, diffPixels=5032
+  canary page 1: diffRatio=0.006000257613922601, diffPixels=5031
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/new-root-vertical-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/old-root-vertical-writing-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006001450270971682, diffPixels=5032
+  stable page 1: diffRatio=0.006000257613922601, diffPixels=5031
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/new-root-vertical-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0206] [WPT reftest] css/css-view-transitions/outer-padding-inner-background.html
@@ -2114,11 +2002,11 @@
   reference: css/css-view-transitions/paint-holding-in-iframe-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/paint-holding-in-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05848670902984505, diffPixels=49039
+  canary page 1: diffRatio=0.05848909434394321, diffPixels=49041
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/paint-holding-in-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/paint-holding-in-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05848670902984505, diffPixels=49039
+  stable page 1: diffRatio=0.05848909434394321, diffPixels=49041
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/paint-holding-in-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0208] [WPT reftest] css/css-view-transitions/pseudo-element-overflow-clip-with-border-radius.html
@@ -2160,7 +2048,59 @@
   stable page 1: diffRatio=0.5927314708800855, diffPixels=496984
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-element-preserve-3d-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0211] [WPT reftest] css/css-view-transitions/pseudo-rendering-invalidation.html
+- [0211] [WPT reftest] css/css-view-transitions/pseudo-escaped-star-specificity.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/pseudo-escaped-star-specificity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-escaped-star-specificity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0212] [WPT reftest] css/css-view-transitions/pseudo-escaped-star-view-transition-group.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/pseudo-escaped-star-view-transition-group.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-escaped-star-view-transition-group.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0213] [WPT reftest] css/css-view-transitions/pseudo-match-escaped-star.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/pseudo-match-escaped-star.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-match-escaped-star.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0214] [WPT reftest] css/css-view-transitions/pseudo-mismatch-escaped-star.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/pseudo-mismatch-escaped-star.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-mismatch-escaped-star.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0215] [WPT reftest] css/css-view-transitions/pseudo-rendering-invalidation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-rendering-invalidation-ref.html (==)
@@ -2173,7 +2113,7 @@
   stable page 1: diffRatio=0.5924929394702695, diffPixels=496784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-rendering-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0212] [WPT reftest] css/css-view-transitions/pseudo-with-classes-entry.html
+- [0216] [WPT reftest] css/css-view-transitions/pseudo-with-classes-entry.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2186,7 +2126,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0213] [WPT reftest] css/css-view-transitions/pseudo-with-classes-exit.html
+- [0217] [WPT reftest] css/css-view-transitions/pseudo-with-classes-exit.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2199,7 +2139,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0214] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-ident.html
+- [0218] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-ident.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2212,7 +2152,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0215] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-multiple-wildcard.html
+- [0219] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-multiple-wildcard.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2225,7 +2165,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0216] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-multiple.html
+- [0220] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-multiple.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2238,7 +2178,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0217] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-wildcard-no-star.html
+- [0221] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-wildcard-no-star.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2251,7 +2191,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0218] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-wildcard.html
+- [0222] [WPT reftest] css/css-view-transitions/pseudo-with-classes-match-wildcard.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2264,7 +2204,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0219] [WPT reftest] css/css-view-transitions/pseudo-with-classes-mismatch-ident.html
+- [0223] [WPT reftest] css/css-view-transitions/pseudo-with-classes-mismatch-ident.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2277,7 +2217,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0220] [WPT reftest] css/css-view-transitions/pseudo-with-classes-mismatch-partial.html
+- [0224] [WPT reftest] css/css-view-transitions/pseudo-with-classes-mismatch-partial.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2290,7 +2230,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0221] [WPT reftest] css/css-view-transitions/pseudo-with-classes-mismatch-wildcard.html
+- [0225] [WPT reftest] css/css-view-transitions/pseudo-with-classes-mismatch-wildcard.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2303,7 +2243,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0222] [WPT reftest] css/css-view-transitions/pseudo-with-classes-multiple-vt-classes.html
+- [0226] [WPT reftest] css/css-view-transitions/pseudo-with-classes-multiple-vt-classes.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2316,7 +2256,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0223] [WPT reftest] css/css-view-transitions/pseudo-with-classes-new-with-class-old-without.html
+- [0227] [WPT reftest] css/css-view-transitions/pseudo-with-classes-new-with-class-old-without.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2329,7 +2269,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0224] [WPT reftest] css/css-view-transitions/pseudo-with-classes-old-with-class-new-without.html
+- [0228] [WPT reftest] css/css-view-transitions/pseudo-with-classes-old-with-class-new-without.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2342,7 +2282,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0225] [WPT reftest] css/css-view-transitions/pseudo-with-classes-view-transition-group.html
+- [0229] [WPT reftest] css/css-view-transitions/pseudo-with-classes-view-transition-group.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2355,7 +2295,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0226] [WPT reftest] css/css-view-transitions/pseudo-with-classes-view-transition-image-pair.html
+- [0230] [WPT reftest] css/css-view-transitions/pseudo-with-classes-view-transition-image-pair.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/pseudo-with-classes-ref.html (==)
@@ -2368,7 +2308,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/pseudo-with-classes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0228] [WPT reftest] css/css-view-transitions/root-captured-as-different-tag.html
+- [0232] [WPT reftest] css/css-view-transitions/root-captured-as-different-tag.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/old-content-captures-root-ref.html (==)
@@ -2381,7 +2321,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/old-content-captures-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0229] [WPT reftest] css/css-view-transitions/root-style-change-during-animation.html
+- [0233] [WPT reftest] css/css-view-transitions/root-style-change-during-animation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/root-style-change-during-animation-ref.html (==)
@@ -2394,7 +2334,7 @@
   stable page 1: diffRatio=0.6403184871383863, diffPixels=536884
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/root-style-change-during-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0230] [WPT reftest] css/css-view-transitions/root-to-shared-animation-end.html
+- [0234] [WPT reftest] css/css-view-transitions/root-to-shared-animation-end.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/root-to-shared-animation-end-ref.html (==)
@@ -2407,7 +2347,7 @@
   stable page 1: diffRatio=0.5929700022899015, diffPixels=497184
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/root-to-shared-animation-end-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0231] [WPT reftest] css/css-view-transitions/root-to-shared-animation-incoming.html
+- [0235] [WPT reftest] css/css-view-transitions/root-to-shared-animation-incoming.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/root-to-shared-animation-incoming-ref.html (==)
@@ -2420,7 +2360,7 @@
   stable page 1: diffRatio=0.6261258682543317, diffPixels=524984
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/root-to-shared-animation-incoming-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0235] [WPT reftest] css/css-view-transitions/scoped/active-pseudo.html
+- [0239] [WPT reftest] css/css-view-transitions/scoped/active-pseudo.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/content-ref.html (==)
@@ -2433,7 +2373,7 @@
   stable page 1: diffRatio=0.01610087016258301, diffPixels=13500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0236] [WPT reftest] css/css-view-transitions/scoped/ancestor-display-change.html
+- [0240] [WPT reftest] css/css-view-transitions/scoped/ancestor-display-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/ancestor-display-change-ref.html (==)
@@ -2446,16 +2386,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/ancestor-display-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0237] [WPT reftest] css/css-view-transitions/scoped/auto-nesting.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-view-transitions/scoped/auto-nesting-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/auto-nesting.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000834859934356156, diffPixels=700
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/auto-nesting-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0240] [WPT reftest] css/css-view-transitions/scoped/clip-on-target-in-callback-2.html
+- [0244] [WPT reftest] css/css-view-transitions/scoped/clip-on-target-in-callback-2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/clip-on-target-in-callback-2-ref.html (==)
@@ -2468,7 +2399,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/clip-on-target-in-callback-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0243] [WPT reftest] css/css-view-transitions/scoped/display-change-during-transition.html
+- [0247] [WPT reftest] css/css-view-transitions/scoped/display-change-during-transition.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/display-change-during-transition-ref.html (==)
@@ -2481,7 +2412,7 @@
   stable page 1: diffRatio=0.03733016563621098, diffPixels=31300
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/display-change-during-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0244] [WPT reftest] css/css-view-transitions/scoped/display-change.html
+- [0248] [WPT reftest] css/css-view-transitions/scoped/display-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/content-ref.html (==)
@@ -2494,7 +2425,7 @@
   stable page 1: diffRatio=0.01610087016258301, diffPixels=13500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0246] [WPT reftest] css/css-view-transitions/scoped/from-scale-zero.html
+- [0250] [WPT reftest] css/css-view-transitions/scoped/from-scale-zero.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/from-scale-zero-ref.html (==)
@@ -2507,7 +2438,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/from-scale-zero-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0247] [WPT reftest] css/css-view-transitions/scoped/implicit-contain.html
+- [0251] [WPT reftest] css/css-view-transitions/scoped/implicit-contain.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/implicit-contain-ref.html (==)
@@ -2520,7 +2451,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/implicit-contain-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0250] [WPT reftest] css/css-view-transitions/scoped/new-content.html
+- [0254] [WPT reftest] css/css-view-transitions/scoped/new-content.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/content-ref.html (==)
@@ -2533,7 +2464,7 @@
   stable page 1: diffRatio=0.01610087016258301, diffPixels=13500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0251] [WPT reftest] css/css-view-transitions/scoped/old-content.html
+- [0255] [WPT reftest] css/css-view-transitions/scoped/old-content.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/content-ref.html (==)
@@ -2546,7 +2477,7 @@
   stable page 1: diffRatio=0.01610087016258301, diffPixels=13500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0252] [WPT reftest] css/css-view-transitions/scoped/overflow-excludes-pseudo.html
+- [0256] [WPT reftest] css/css-view-transitions/scoped/overflow-excludes-pseudo.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/overflow-excludes-pseudo-ref.html (==)
@@ -2559,7 +2490,7 @@
   stable page 1: diffRatio=0.00003458705442332646, diffPixels=29
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/overflow-excludes-pseudo-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0253] [WPT reftest] css/css-view-transitions/scoped/paint-order.html
+- [0257] [WPT reftest] css/css-view-transitions/scoped/paint-order.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/paint-order-ref.html (==)
@@ -2572,20 +2503,20 @@
   stable page 1: diffRatio=0.004532096786504847, diffPixels=3800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/paint-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0255] [WPT reftest] css/css-view-transitions/scoped/pause-rendering.html
+- [0259] [WPT reftest] css/css-view-transitions/scoped/pause-rendering.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/pause-rendering-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/pause-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014788947408594763, diffPixels=1240
+  canary page 1: diffRatio=0.0014777020838103961, diffPixels=1239
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/pause-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/pause-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014788947408594763, diffPixels=1240
+  stable page 1: diffRatio=0.0014777020838103961, diffPixels=1239
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/pause-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0257] [WPT reftest] css/css-view-transitions/scoped/scope-containment-pseudo-border.html
+- [0261] [WPT reftest] css/css-view-transitions/scoped/scope-containment-pseudo-border.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/scope-containment-pseudo-border-ref.html (==)
@@ -2598,7 +2529,7 @@
   stable page 1: diffRatio=0.0007191722005953744, diffPixels=603
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/scope-containment-pseudo-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0258] [WPT reftest] css/css-view-transitions/scoped/scope-during-transition-2.html
+- [0262] [WPT reftest] css/css-view-transitions/scoped/scope-during-transition-2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/scope-during-transition-2-ref.html (==)
@@ -2611,7 +2542,7 @@
   stable page 1: diffRatio=0.09803640943439432, diffPixels=82200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/scope-during-transition-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0259] [WPT reftest] css/css-view-transitions/scoped/scrolled-target-position-rtl.html
+- [0263] [WPT reftest] css/css-view-transitions/scoped/scrolled-target-position-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/scrolled-target-position-rtl-ref.html (==)
@@ -2624,7 +2555,7 @@
   stable page 1: diffRatio=0.0014908213113502787, diffPixels=1250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/scrolled-target-position-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0260] [WPT reftest] css/css-view-transitions/scoped/scrolled-target-position.html
+- [0264] [WPT reftest] css/css-view-transitions/scoped/scrolled-target-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/scrolled-target-position-ref.html (==)
@@ -2637,20 +2568,20 @@
   stable page 1: diffRatio=0.0014908213113502787, diffPixels=1250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/scrolled-target-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0261] [WPT reftest] css/css-view-transitions/scoped/scroller-with-child.html
+- [0265] [WPT reftest] css/css-view-transitions/scoped/scroller-with-child.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/scroller-with-child-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/scroller-with-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.043580881230440426, diffPixels=36541
+  canary page 1: diffRatio=0.04357968857339135, diffPixels=36540
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/scoped/scroller-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/scroller-with-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.043580881230440426, diffPixels=36541
+  stable page 1: diffRatio=0.04357968857339135, diffPixels=36540
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/scroller-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0262] [WPT reftest] css/css-view-transitions/scoped/shadow-dom.html
+- [0266] [WPT reftest] css/css-view-transitions/scoped/shadow-dom.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/shadow-dom-ref.html (==)
@@ -2663,7 +2594,7 @@
   stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/shadow-dom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0263] [WPT reftest] css/css-view-transitions/scoped/target-in-scrolled-container.html
+- [0267] [WPT reftest] css/css-view-transitions/scoped/target-in-scrolled-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/target-in-scrolled-container-ref.html (==)
@@ -2676,7 +2607,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/target-in-scrolled-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0264] [WPT reftest] css/css-view-transitions/scoped/to-scale-zero.html
+- [0268] [WPT reftest] css/css-view-transitions/scoped/to-scale-zero.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/empty-ref.html (==)
@@ -2689,7 +2620,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/empty-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0265] [WPT reftest] css/css-view-transitions/scoped/transform-clip.html
+- [0269] [WPT reftest] css/css-view-transitions/scoped/transform-clip.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/scoped/transform-clip-ref.html (==)
@@ -2702,7 +2633,7 @@
   stable page 1: diffRatio=0.006309155789634379, diffPixels=5290
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/scoped/transform-clip-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0269] [WPT reftest] css/css-view-transitions/set-current-time-transform.html
+- [0273] [WPT reftest] css/css-view-transitions/set-current-time-transform.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/set-current-time-transform-ref.html (==)
@@ -2715,7 +2646,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/set-current-time-transform-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0270] [WPT reftest] css/css-view-transitions/set-current-time.html
+- [0274] [WPT reftest] css/css-view-transitions/set-current-time.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/set-current-time-ref.html (==)
@@ -2728,7 +2659,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/set-current-time-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0271] [WPT reftest] css/css-view-transitions/set-universal-specificity.html
+- [0275] [WPT reftest] css/css-view-transitions/set-universal-specificity.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/set-universal-specificity-ref.html (==)
@@ -2741,7 +2672,7 @@
   stable page 1: diffRatio=0.6306818181818182, diffPixels=528804
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/set-universal-specificity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0272] [WPT reftest] css/css-view-transitions/shadow-part-with-class-inside-shadow-important.html
+- [0276] [WPT reftest] css/css-view-transitions/shadow-part-with-class-inside-shadow-important.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/names-are-tree-scoped-ref.html (==)
@@ -2754,7 +2685,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/names-are-tree-scoped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0273] [WPT reftest] css/css-view-transitions/shadow-part-with-class-inside-shadow.html
+- [0277] [WPT reftest] css/css-view-transitions/shadow-part-with-class-inside-shadow.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/names-are-tree-scoped-ref.html (==)
@@ -2767,7 +2698,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/names-are-tree-scoped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0274] [WPT reftest] css/css-view-transitions/shadow-part-with-class.html
+- [0278] [WPT reftest] css/css-view-transitions/shadow-part-with-class.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/names-are-tree-scoped-ref.html (==)
@@ -2780,7 +2711,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/names-are-tree-scoped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0275] [WPT reftest] css/css-view-transitions/shadow-part-with-name-nested.html
+- [0279] [WPT reftest] css/css-view-transitions/shadow-part-with-name-nested.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/names-are-tree-scoped-ref.html (==)
@@ -2793,7 +2724,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/names-are-tree-scoped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0277] [WPT reftest] css/css-view-transitions/shadow-part-with-name.html
+- [0281] [WPT reftest] css/css-view-transitions/shadow-part-with-name.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/names-are-tree-scoped-ref.html (==)
@@ -2806,7 +2737,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/names-are-tree-scoped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0278] [WPT reftest] css/css-view-transitions/sibling-frames-transition.html
+- [0282] [WPT reftest] css/css-view-transitions/sibling-frames-transition.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/sibling-frames-transition-ref.html (==)
@@ -2819,7 +2750,7 @@
   stable page 1: diffRatio=0.42515361422792153, diffPixels=356476
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/sibling-frames-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0279] [WPT reftest] css/css-view-transitions/small-scale.html
+- [0283] [WPT reftest] css/css-view-transitions/small-scale.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/small-scale-ref.html (==)
@@ -2832,20 +2763,20 @@
   stable page 1: diffRatio=0.6281533852377681, diffPixels=526684
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/small-scale-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0280] [WPT reftest] css/css-view-transitions/snapshot-containing-block-absolute.html
+- [0284] [WPT reftest] css/css-view-transitions/snapshot-containing-block-absolute.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/snapshot-containing-block-absolute-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/snapshot-containing-block-absolute.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.26366665712541026, diffPixels=221075
+  canary page 1: diffRatio=0.2636654644683612, diffPixels=221074
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/snapshot-containing-block-absolute-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/snapshot-containing-block-absolute.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.26366665712541026, diffPixels=221075
+  stable page 1: diffRatio=0.2636654644683612, diffPixels=221074
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/snapshot-containing-block-absolute-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0281] [WPT reftest] css/css-view-transitions/snapshot-containing-block-includes-scrollbar-gutter.html
+- [0285] [WPT reftest] css/css-view-transitions/snapshot-containing-block-includes-scrollbar-gutter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/snapshot-containing-block-includes-scrollbar-gutter-ref.html (==)
@@ -2858,7 +2789,7 @@
   stable page 1: diffRatio=0.9862904072208228, diffPixels=826969
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/snapshot-containing-block-includes-scrollbar-gutter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0282] [WPT reftest] css/css-view-transitions/snapshot-containing-block-static-iframe.html
+- [0286] [WPT reftest] css/css-view-transitions/snapshot-containing-block-static-iframe.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/snapshot-containing-block-static-iframe-ref.html (==)
@@ -2871,7 +2802,7 @@
   stable page 1: diffRatio=0.09541256392641784, diffPixels=80000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/snapshot-containing-block-static-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0283] [WPT reftest] css/css-view-transitions/snapshot-containing-block-static.html
+- [0287] [WPT reftest] css/css-view-transitions/snapshot-containing-block-static.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/snapshot-containing-block-static-ref.html (==)
@@ -2884,7 +2815,7 @@
   stable page 1: diffRatio=0.03001917792534921, diffPixels=25170
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/snapshot-containing-block-static-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0284] [WPT reftest] css/css-view-transitions/span-with-overflowing-text-and-box-decorations.html
+- [0288] [WPT reftest] css/css-view-transitions/span-with-overflowing-text-and-box-decorations.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/span-with-overflowing-text-and-box-decorations-ref.html (==)
@@ -2897,7 +2828,7 @@
   stable page 1: diffRatio=0.6224930348828334, diffPixels=521938
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/span-with-overflowing-text-and-box-decorations-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0285] [WPT reftest] css/css-view-transitions/span-with-overflowing-text-hidden.html
+- [0289] [WPT reftest] css/css-view-transitions/span-with-overflowing-text-hidden.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/span-with-overflowing-text-hidden-ref.html (==)
@@ -2910,7 +2841,7 @@
   stable page 1: diffRatio=0.625788346309442, diffPixels=524701
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/span-with-overflowing-text-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0286] [WPT reftest] css/css-view-transitions/span-with-overflowing-text.html
+- [0290] [WPT reftest] css/css-view-transitions/span-with-overflowing-text.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/span-with-overflowing-text-ref.html (==)
@@ -2923,20 +2854,20 @@
   stable page 1: diffRatio=0.6264777020838104, diffPixels=525279
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/span-with-overflowing-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0287] [WPT reftest] css/css-view-transitions/table-caption.html
+- [0291] [WPT reftest] css/css-view-transitions/table-caption.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/table-caption-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/table-caption.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6394239943515763, diffPixels=536134
+  canary page 1: diffRatio=0.639421609037478, diffPixels=536132
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-view-transitions/table-caption-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/table-caption.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6394239943515763, diffPixels=536134
+  stable page 1: diffRatio=0.639421609037478, diffPixels=536132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/table-caption-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0288] [WPT reftest] css/css-view-transitions/transform-origin-view-transition-group.html
+- [0292] [WPT reftest] css/css-view-transitions/transform-origin-view-transition-group.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/transform-origin-view-transition-group-ref.html (==)
@@ -2949,7 +2880,7 @@
   stable page 1: diffRatio=0.035099896954430956, diffPixels=29430
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/transform-origin-view-transition-group-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0290] [WPT reftest] css/css-view-transitions/transition-in-empty-iframe.html
+- [0294] [WPT reftest] css/css-view-transitions/transition-in-empty-iframe.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/transition-in-empty-iframe-ref.html (==)
@@ -2962,7 +2893,7 @@
   stable page 1: diffRatio=0.04089978818410808, diffPixels=34293
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/transition-in-empty-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0295] [WPT reftest] css/css-view-transitions/view-transition-name-removed-mid-transition.html
+- [0299] [WPT reftest] css/css-view-transitions/view-transition-name-removed-mid-transition.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-name-removed-mid-transition-ref.html (==)
@@ -2975,7 +2906,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-name-removed-mid-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0296] [WPT reftest] css/css-view-transitions/view-transition-name-stacking-context-dynamic.html
+- [0300] [WPT reftest] css/css-view-transitions/view-transition-name-stacking-context-dynamic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -2988,7 +2919,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0297] [WPT reftest] css/css-view-transitions/view-transition-types-match-early-mutation.html
+- [0301] [WPT reftest] css/css-view-transitions/view-transition-types-match-early-mutation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-types-one-green-square-ref.html (==)
@@ -3001,7 +2932,7 @@
   stable page 1: diffRatio=0.6403184871383863, diffPixels=536884
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-types-one-green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0298] [WPT reftest] css/css-view-transitions/view-transition-types-match-early.html
+- [0302] [WPT reftest] css/css-view-transitions/view-transition-types-match-early.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-types-one-green-square-ref.html (==)
@@ -3014,7 +2945,7 @@
   stable page 1: diffRatio=0.6403184871383863, diffPixels=536884
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-types-one-green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0299] [WPT reftest] css/css-view-transitions/view-transition-types-match-late-mutation.html
+- [0303] [WPT reftest] css/css-view-transitions/view-transition-types-match-late-mutation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-types-one-green-square-ref.html (==)
@@ -3027,7 +2958,7 @@
   stable page 1: diffRatio=0.6283919166475842, diffPixels=526884
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-types-one-green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0300] [WPT reftest] css/css-view-transitions/view-transition-types-matches-case-sensitive.html
+- [0304] [WPT reftest] css/css-view-transitions/view-transition-types-matches-case-sensitive.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-types-matches-case-sensitive-ref.html (==)
@@ -3040,7 +2971,7 @@
   stable page 1: diffRatio=0.6404377528432944, diffPixels=536984
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-types-matches-case-sensitive-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0301] [WPT reftest] css/css-view-transitions/view-transition-types-matches.html
+- [0305] [WPT reftest] css/css-view-transitions/view-transition-types-matches.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-types-matches-ref.html (==)
@@ -3053,7 +2984,7 @@
   stable page 1: diffRatio=0.5451444546217846, diffPixels=457084
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-types-matches-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0303] [WPT reftest] css/css-view-transitions/view-transition-types-reserved-mutation.html
+- [0307] [WPT reftest] css/css-view-transitions/view-transition-types-reserved-mutation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-types-reserved-ref.html (==)
@@ -3066,7 +2997,7 @@
   stable page 1: diffRatio=0.616703877566598, diffPixels=517084
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-types-reserved-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0304] [WPT reftest] css/css-view-transitions/view-transition-types-reserved.html
+- [0308] [WPT reftest] css/css-view-transitions/view-transition-types-reserved.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-types-reserved-ref.html (==)
@@ -3079,7 +3010,7 @@
   stable page 1: diffRatio=0.616703877566598, diffPixels=517084
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-types-reserved-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0305] [WPT reftest] css/css-view-transitions/view-transition-types-stay.html
+- [0309] [WPT reftest] css/css-view-transitions/view-transition-types-stay.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-types-one-green-square-ref.html (==)
@@ -3092,7 +3023,7 @@
   stable page 1: diffRatio=0.6403184871383863, diffPixels=536884
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-types-one-green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0306] [WPT reftest] css/css-view-transitions/view-transition-waituntil-animation-manipulation.html
+- [0310] [WPT reftest] css/css-view-transitions/view-transition-waituntil-animation-manipulation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/view-transition-waituntil-animation-manipulation-ref.html (==)
@@ -3105,7 +3036,7 @@
   stable page 1: diffRatio=0.6283919166475842, diffPixels=526884
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/view-transition-waituntil-animation-manipulation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0307] [WPT reftest] css/css-view-transitions/web-animations-api-parse-pseudo-argument.html
+- [0311] [WPT reftest] css/css-view-transitions/web-animations-api-parse-pseudo-argument.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/web-animations-api-ref.html?first-pseudo=::view-transition-group(      first ) (==)
@@ -3118,7 +3049,7 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/web-animations-api-ref.html?first-pseudo=::view-transition-group(%20%20%20%20%20%20first%20)&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0308] [WPT reftest] css/css-view-transitions/web-animations-api.html
+- [0312] [WPT reftest] css/css-view-transitions/web-animations-api.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/web-animations-api-ref.html (==)
@@ -3131,7 +3062,7 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-view-transitions/web-animations-api-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0309] [WPT reftest] css/css-view-transitions/writing-mode-container-resize.html
+- [0313] [WPT reftest] css/css-view-transitions/writing-mode-container-resize.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-view-transitions/writing-mode-container-resize-ref.html (==)
