@@ -1184,13 +1184,13 @@
   side: canary, stable
   canary timeout: false
   canary error: Error: page.evaluate: Error: Could not detect total pages (no spread container found).
-    at eval (eval at evaluate (:303:30), <anonymous>:10:11)
-    at UtilityScript.evaluate (<anonymous>:305:16)
+    at eval (eval at evaluate (:311:30), <anonymous>:10:11)
+    at UtilityScript.evaluate (<anonymous>:313:16)
     at UtilityScript.<anonymous> (<anonymous>:1:44)
   stable timeout: false
   stable error: Error: page.evaluate: Error: Could not detect total pages (no spread container found).
-    at eval (eval at evaluate (:303:30), <anonymous>:10:11)
-    at UtilityScript.evaluate (<anonymous>:305:16)
+    at eval (eval at evaluate (:311:30), <anonymous>:10:11)
+    at UtilityScript.evaluate (<anonymous>:313:16)
     at UtilityScript.<anonymous> (<anonymous>:1:44)
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-staticrange-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-staticrange-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

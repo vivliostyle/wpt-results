@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 251
-- Entries with differences: 98 (pending: 98, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 97 (pending: 97, triaged: 0)
+- Entries with errors: 6 (pending: 6, triaged: 0)
+- Timeout entries: 6
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":98,"pass":150,"error":3}
+- Outcome summary: {"known-fail":97,"pass":148,"error":6}
 
 ## Differences
 
@@ -1050,19 +1050,6 @@
   stable page 1: diffRatio=0.16229438592473858, diffPixels=136078
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0190] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-position/sticky/position-sticky-fixed-ancestor-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.662374293947027, diffPixels=555377
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.662374293947027, diffPixels=555377
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0191] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1315,4 +1302,34 @@
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0190] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0196] [WPT reftest] css/css-position/sticky/position-sticky-fractional-offset.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fractional-offset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fractional-offset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0197] [WPT reftest] css/css-position/sticky/position-sticky-grid.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -55,11 +55,11 @@
   reference: css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04231666475841539, diffPixels=35481
+  canary page 1: diffRatio=0.04648261583085261, diffPixels=38974
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04231666475841539, diffPixels=35481
+  stable page 1: diffRatio=0.04648261583085261, diffPixels=38974
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-align/blocks/align-content-block-001.html
@@ -146,11 +146,11 @@
   reference: css/css-align/blocks/justify-self-widgets-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03871006984199679, diffPixels=32457
+  canary page 1: diffRatio=0.03872438172658576, diffPixels=32469
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03871006984199679, diffPixels=32457
+  stable page 1: diffRatio=0.03872438172658576, diffPixels=32469
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/css-align/self-alignment/block-justify-self.html

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 378
-- Entries with differences: 99 (pending: 99, triaged: 0)
+- Compared entries: 379
+- Entries with differences: 100 (pending: 100, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 2
-- Outcome summary: {"known-fail":97,"pass":279,"changed-fail":1,"regression":1}
+- Outcome summary: {"known-fail":98,"pass":279,"changed-fail":1,"regression":1}
 
 ## Differences
 
@@ -29,11 +29,11 @@
   reference: css/css-fonts/downloadable-font-scoped-to-document-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0044402621937256696, diffPixels=3723
+  canary page 1: diffRatio=0.0034205404167620794, diffPixels=2868
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0040443000534310354, diffPixels=3391
+  stable page 1: diffRatio=0.0018366918555835431, diffPixels=1540
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0017] [WPT reftest] css/css-fonts/font-display/font-display-feature-policy-02.tentative.html
@@ -1245,7 +1245,20 @@
   stable page 1: diffRatio=0.0010495382031905961, diffPixels=880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/test-synthetic-italic-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0368] [WPT reftest] css/css-fonts/variations/variable-avar2-rvrn.html
+- [0366] [WPT reftest] css/css-fonts/variations/ital-variable.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-fonts/variations/ital-variable-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/variations/ital-variable.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002145590031295321, diffPixels=1799
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/variations/ital-variable-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/variations/ital-variable.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002145590031295321, diffPixels=1799
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/variations/ital-variable-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0369] [WPT reftest] css/css-fonts/variations/variable-avar2-rvrn.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/variations/variable-avar2-rvrn-mismatch.html (!=)
@@ -1258,7 +1271,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-rvrn-mismatch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0369] [WPT reftest] css/css-fonts/variations/variable-avar2-warp.html
+- [0370] [WPT reftest] css/css-fonts/variations/variable-avar2-warp.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/variations/variable-avar2-warp-mismatch.html (!=)
@@ -1271,7 +1284,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/variations/variable-avar2-warp-mismatch.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0376] [WPT reftest] css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed.html
+- [0377] [WPT reftest] css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html (==)
@@ -1284,7 +1297,7 @@
   stable page 1: diffRatio=0.0009457770399206167, diffPixels=793
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/web-font-no-longer-accessible-when-stylesheet-removed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0377] [WPT print-reftest] css/css-fonts/downloadable-font-in-iframe-print.html
+- [0378] [WPT print-reftest] css/css-fonts/downloadable-font-in-iframe-print.html
   triage: pending
   outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-fonts/downloadable-font-in-iframe-print-ref.html (==)

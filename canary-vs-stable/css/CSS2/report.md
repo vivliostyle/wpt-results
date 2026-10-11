@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 6824
-- Entries with differences: 1018 (pending: 1018, triaged: 0)
-- Entries with errors: 5 (pending: 5, triaged: 0)
-- Timeout entries: 5
-- Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"known-fail":1016,"pass":5246,"error":3,"regression":1,"unchanged":557,"changed":1}
+- Compared entries: 6825
+- Entries with differences: 1028 (pending: 1028, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
+- Page count changed: 1
+- Screenshot mismatches: 13
+- Outcome summary: {"known-fail":1015,"pass":5247,"error":3,"changed-fail":1,"expected-change":1,"unchanged":547,"changed":11}
 
 ## Differences
 
@@ -6276,7 +6276,7 @@
   stable page 1: diffRatio=0.0184170101518968, diffPixels=15442
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/blocks-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3277] [WPT reftest] css/CSS2/normal-flow/float-percentage-resolution-quirks-mode.html
+- [3278] [WPT reftest] css/CSS2/normal-flow/float-percentage-resolution-quirks-mode.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -6289,7 +6289,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3354] [WPT reftest] css/CSS2/normal-flow/height-applies-to-013.xht
+- [3355] [WPT reftest] css/CSS2/normal-flow/height-applies-to-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-black-96px-square.xht (==)
@@ -6302,7 +6302,7 @@
   stable page 1: diffRatio=0.005495763682161667, diffPixels=4608
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3355] [WPT reftest] css/CSS2/normal-flow/height-applies-to-014.xht
+- [3356] [WPT reftest] css/CSS2/normal-flow/height-applies-to-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-black-96px-square.xht (==)
@@ -6315,7 +6315,7 @@
   stable page 1: diffRatio=0.005495763682161667, diffPixels=4608
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3361] [WPT reftest] css/CSS2/normal-flow/height-percentage-003.xht
+- [3362] [WPT reftest] css/CSS2/normal-flow/height-percentage-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/height-percentage-003-ref.xht (==)
@@ -6328,7 +6328,7 @@
   stable page 1: diffRatio=0.0045440233569956495, diffPixels=3810
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/height-percentage-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3387] [WPT reftest] css/CSS2/normal-flow/inline-block-valign-001.xht
+- [3388] [WPT reftest] css/CSS2/normal-flow/inline-block-valign-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/inline-block-valign-001-ref.xht (==)
@@ -6341,20 +6341,20 @@
   stable page 1: diffRatio=0.000208714983589039, diffPixels=175
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/inline-block-valign-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3432] [WPT reftest] css/CSS2/normal-flow/inline-table-valign-001.xht
+- [3433] [WPT reftest] css/CSS2/normal-flow/inline-table-valign-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/inline-table-valign-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/inline-table-valign-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005712827265094267, diffPixels=479
+  canary page 1: diffRatio=0.0006988970307610106, diffPixels=586
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/inline-table-valign-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/inline-table-valign-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005712827265094267, diffPixels=479
+  stable page 1: diffRatio=0.0006988970307610106, diffPixels=586
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/inline-table-valign-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3442] [WPT reftest] css/CSS2/normal-flow/inlines-002.xht
+- [3443] [WPT reftest] css/CSS2/normal-flow/inlines-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/inlines-002-ref.xht (==)
@@ -6367,7 +6367,7 @@
   stable page 1: diffRatio=0.0009195385848408519, diffPixels=771
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/inlines-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3446] [WPT reftest] css/CSS2/normal-flow/inlines-020.xht
+- [3447] [WPT reftest] css/CSS2/normal-flow/inlines-020.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/inlines-020-ref.xht (==)
@@ -6380,7 +6380,7 @@
   stable page 1: diffRatio=0.00004770628196320891, diffPixels=40
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/inlines-020-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3454] [WPT reftest] css/CSS2/normal-flow/margin-collapse-through-percentage-padding.html
+- [3455] [WPT reftest] css/CSS2/normal-flow/margin-collapse-through-percentage-padding.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -6393,7 +6393,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3612] [WPT reftest] css/CSS2/normal-flow/max-width-106.xht
+- [3613] [WPT reftest] css/CSS2/normal-flow/max-width-106.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/max-width-105-ref.xht (==)
@@ -6406,7 +6406,7 @@
   stable page 1: diffRatio=0.007514932066254485, diffPixels=6301
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/max-width-105-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3619] [WPT reftest] css/CSS2/normal-flow/max-width-applies-to-005.xht
+- [3620] [WPT reftest] css/CSS2/normal-flow/max-width-applies-to-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_square_96px_black.html (==)
@@ -6419,7 +6419,7 @@
   stable page 1: diffRatio=0.02198305472864667, diffPixels=18432
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_square_96px_black.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3620] [WPT reftest] css/CSS2/normal-flow/max-width-applies-to-006.xht
+- [3621] [WPT reftest] css/CSS2/normal-flow/max-width-applies-to-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_square_96px_black.html (==)
@@ -6432,7 +6432,7 @@
   stable page 1: diffRatio=0.02198305472864667, diffPixels=18432
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_square_96px_black.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3626] [WPT reftest] css/CSS2/normal-flow/max-width-applies-to-014.xht
+- [3627] [WPT reftest] css/CSS2/normal-flow/max-width-applies-to-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_square_96px_black.html (==)
@@ -6445,7 +6445,7 @@
   stable page 1: diffRatio=0.0034348523013510417, diffPixels=2880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_square_96px_black.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3708] [WPT reftest] css/CSS2/normal-flow/min-height-applies-to-013.xht
+- [3709] [WPT reftest] css/CSS2/normal-flow/min-height-applies-to-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_square_96px_black.html (==)
@@ -6458,7 +6458,7 @@
   stable page 1: diffRatio=0.005495763682161667, diffPixels=4608
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_square_96px_black.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3709] [WPT reftest] css/CSS2/normal-flow/min-height-applies-to-014.xht
+- [3710] [WPT reftest] css/CSS2/normal-flow/min-height-applies-to-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_square_96px_black.html (==)
@@ -6471,7 +6471,7 @@
   stable page 1: diffRatio=0.008930615983512708, diffPixels=7488
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_square_96px_black.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3713] [WPT reftest] css/CSS2/normal-flow/min-height-percentage-003.xht
+- [3714] [WPT reftest] css/CSS2/normal-flow/min-height-percentage-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/min-height-percentage-003-ref.xht (==)
@@ -6484,7 +6484,7 @@
   stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/min-height-percentage-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3793] [WPT reftest] css/CSS2/normal-flow/min-width-applies-to-014.xht
+- [3794] [WPT reftest] css/CSS2/normal-flow/min-width-applies-to-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_square_96px_black.html (==)
@@ -6497,7 +6497,7 @@
   stable page 1: diffRatio=0.0034348523013510417, diffPixels=2880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_square_96px_black.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3802] [WPT reftest] css/CSS2/normal-flow/replaced-intrinsic-001.xht
+- [3803] [WPT reftest] css/CSS2/normal-flow/replaced-intrinsic-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/replaced-intrinsic-001-ref.xht (==)
@@ -6510,7 +6510,7 @@
   stable page 1: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3803] [WPT reftest] css/CSS2/normal-flow/replaced-intrinsic-002.xht
+- [3804] [WPT reftest] css/CSS2/normal-flow/replaced-intrinsic-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/replaced-intrinsic-002-ref.xht (==)
@@ -6523,7 +6523,7 @@
   stable page 1: diffRatio=0.03407659720632013, diffPixels=28572
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/replaced-intrinsic-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3810] [WPT reftest] css/CSS2/normal-flow/video-controls-paint-order.html
+- [3811] [WPT reftest] css/CSS2/normal-flow/video-controls-paint-order.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/normal-flow/video-paint-order-ref.html (==)
@@ -6536,7 +6536,7 @@
   stable page 1: diffRatio=0.009480430883138692, diffPixels=7949
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/video-paint-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3891] [WPT reftest] css/CSS2/normal-flow/width-applies-to-014.xht
+- [3892] [WPT reftest] css/CSS2/normal-flow/width-applies-to-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-black-96px-square.xht (==)
@@ -6549,7 +6549,7 @@
   stable page 1: diffRatio=0.0034348523013510417, diffPixels=2880
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-black-96px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3940] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-017.xht
+- [3941] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-017.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/absolute-non-replaced-width-017-ref.xht (==)
@@ -6562,7 +6562,7 @@
   stable page 1: diffRatio=0.008360525914052362, diffPixels=7010
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3941] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-018.xht
+- [3942] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-018.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/absolute-non-replaced-width-017-ref.xht (==)
@@ -6575,7 +6575,7 @@
   stable page 1: diffRatio=0.008360525914052362, diffPixels=7010
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3942] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-019.xht
+- [3943] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-019.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/absolute-non-replaced-width-017-ref.xht (==)
@@ -6588,7 +6588,7 @@
   stable page 1: diffRatio=0.008360525914052362, diffPixels=7010
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3943] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-020.xht
+- [3944] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-020.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/absolute-non-replaced-width-017-ref.xht (==)
@@ -6601,7 +6601,7 @@
   stable page 1: diffRatio=0.008360525914052362, diffPixels=7010
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3944] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-021.xht
+- [3945] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-021.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht (==)
@@ -6614,7 +6614,7 @@
   stable page 1: diffRatio=0.008636029692389894, diffPixels=7241
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3945] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-022.xht
+- [3946] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-022.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht (==)
@@ -6627,7 +6627,7 @@
   stable page 1: diffRatio=0.008636029692389894, diffPixels=7241
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3946] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-023.xht
+- [3947] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-023.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht (==)
@@ -6640,7 +6640,7 @@
   stable page 1: diffRatio=0.008636029692389894, diffPixels=7241
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [3947] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-024.xht
+- [3948] [WPT reftest] css/CSS2/positioning/absolute-non-replaced-width-024.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht (==)
@@ -6653,7 +6653,7 @@
   stable page 1: diffRatio=0.008636029692389894, diffPixels=7241
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/absolute-non-replaced-width-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4039] [WPT reftest] css/CSS2/positioning/abspos-013.xht
+- [4040] [WPT reftest] css/CSS2/positioning/abspos-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-013-ref.xht (==)
@@ -6666,7 +6666,7 @@
   stable page 1: diffRatio=0.024263415006488053, diffPixels=20344
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4041] [WPT reftest] css/CSS2/positioning/abspos-015.xht
+- [4042] [WPT reftest] css/CSS2/positioning/abspos-015.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-013-ref.xht (==)
@@ -6679,7 +6679,7 @@
   stable page 1: diffRatio=0.024263415006488053, diffPixels=20344
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4043] [WPT reftest] css/CSS2/positioning/abspos-017.xht
+- [4044] [WPT reftest] css/CSS2/positioning/abspos-017.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-013-ref.xht (==)
@@ -6692,7 +6692,7 @@
   stable page 1: diffRatio=0.024263415006488053, diffPixels=20344
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4045] [WPT reftest] css/CSS2/positioning/abspos-019.xht
+- [4046] [WPT reftest] css/CSS2/positioning/abspos-019.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-013-ref.xht (==)
@@ -6705,7 +6705,7 @@
   stable page 1: diffRatio=0.024263415006488053, diffPixels=20344
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4048] [WPT reftest] css/CSS2/positioning/abspos-024.xht
+- [4049] [WPT reftest] css/CSS2/positioning/abspos-024.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-024-ref.xht (==)
@@ -6718,7 +6718,7 @@
   stable page 1: diffRatio=0.000020275169834363788, diffPixels=17
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4052] [WPT reftest] css/CSS2/positioning/abspos-028.xht
+- [4053] [WPT reftest] css/CSS2/positioning/abspos-028.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-028-ref.xht (==)
@@ -6731,7 +6731,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-028-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4055] [WPT reftest] css/CSS2/positioning/abspos-containing-block-001.xht
+- [4056] [WPT reftest] css/CSS2/positioning/abspos-containing-block-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-001-ref.xht (==)
@@ -6744,7 +6744,7 @@
   stable page 1: diffRatio=0.0010996297992519656, diffPixels=922
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4056] [WPT reftest] css/CSS2/positioning/abspos-containing-block-002.xht
+- [4057] [WPT reftest] css/CSS2/positioning/abspos-containing-block-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-001-ref.xht (==)
@@ -6757,7 +6757,7 @@
   stable page 1: diffRatio=0.001006602549423708, diffPixels=844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4057] [WPT reftest] css/CSS2/positioning/abspos-containing-block-003.xht
+- [4058] [WPT reftest] css/CSS2/positioning/abspos-containing-block-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-001-ref.xht (==)
@@ -6770,7 +6770,7 @@
   stable page 1: diffRatio=0.0010996297992519656, diffPixels=922
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4058] [WPT reftest] css/CSS2/positioning/abspos-containing-block-004.xht
+- [4059] [WPT reftest] css/CSS2/positioning/abspos-containing-block-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-001-ref.xht (==)
@@ -6783,7 +6783,7 @@
   stable page 1: diffRatio=0.001006602549423708, diffPixels=844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4059] [WPT reftest] css/CSS2/positioning/abspos-containing-block-005.xht
+- [4060] [WPT reftest] css/CSS2/positioning/abspos-containing-block-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-001-ref.xht (==)
@@ -6796,7 +6796,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4060] [WPT reftest] css/CSS2/positioning/abspos-containing-block-006.xht
+- [4061] [WPT reftest] css/CSS2/positioning/abspos-containing-block-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-001-ref.xht (==)
@@ -6809,7 +6809,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4061] [WPT reftest] css/CSS2/positioning/abspos-containing-block-007.xht
+- [4062] [WPT reftest] css/CSS2/positioning/abspos-containing-block-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-001-ref.xht (==)
@@ -6822,7 +6822,7 @@
   stable page 1: diffRatio=0.001006602549423708, diffPixels=844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4062] [WPT reftest] css/CSS2/positioning/abspos-containing-block-008.xht
+- [4063] [WPT reftest] css/CSS2/positioning/abspos-containing-block-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-001-ref.xht (==)
@@ -6835,7 +6835,7 @@
   stable page 1: diffRatio=0.001006602549423708, diffPixels=844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4063] [WPT reftest] css/CSS2/positioning/abspos-containing-block-009.xht
+- [4064] [WPT reftest] css/CSS2/positioning/abspos-containing-block-009.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-001-ref.xht (==)
@@ -6848,7 +6848,7 @@
   stable page 1: diffRatio=0.001006602549423708, diffPixels=844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4064] [WPT reftest] css/CSS2/positioning/abspos-containing-block-010.xht
+- [4065] [WPT reftest] css/CSS2/positioning/abspos-containing-block-010.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-containing-block-010-ref.xht (==)
@@ -6861,7 +6861,7 @@
   stable page 1: diffRatio=0.0017639397755896495, diffPixels=1479
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-containing-block-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4065] [WPT reftest] css/CSS2/positioning/abspos-float-with-inline-container.html
+- [4066] [WPT reftest] css/CSS2/positioning/abspos-float-with-inline-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-float-with-inline-container-ref.html (==)
@@ -6874,7 +6874,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-float-with-inline-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4066] [WPT reftest] css/CSS2/positioning/abspos-inline-007.xht
+- [4067] [WPT reftest] css/CSS2/positioning/abspos-inline-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-inline-007-ref.xht (==)
@@ -6887,7 +6887,7 @@
   stable page 1: diffRatio=0.012032716968170369, diffPixels=10089
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-inline-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4068] [WPT reftest] css/CSS2/positioning/abspos-negative-margin-001.html
+- [4069] [WPT reftest] css/CSS2/positioning/abspos-negative-margin-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/abspos-negative-margin-001-ref.html (==)
@@ -6900,7 +6900,7 @@
   stable page 1: diffRatio=0.00021944889703076102, diffPixels=184
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/abspos-negative-margin-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4127] [WPT reftest] css/CSS2/positioning/bottom-091.xht
+- [4128] [WPT reftest] css/CSS2/positioning/bottom-091.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/bottom-019-ref.xht (==)
@@ -6913,7 +6913,7 @@
   stable page 1: diffRatio=0.001514674452331883, diffPixels=1270
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/bottom-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4128] [WPT reftest] css/CSS2/positioning/bottom-092.xht
+- [4129] [WPT reftest] css/CSS2/positioning/bottom-092.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/bottom-019-ref.xht (==)
@@ -6926,7 +6926,7 @@
   stable page 1: diffRatio=0.001514674452331883, diffPixels=1270
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/bottom-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4232] [WPT reftest] css/CSS2/positioning/position-absolute-007.xht
+- [4233] [WPT reftest] css/CSS2/positioning/position-absolute-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/position-absolute-007-ref.xht (==)
@@ -6939,7 +6939,7 @@
   stable page 1: diffRatio=0.004652555148461949, diffPixels=3901
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-absolute-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4247] [WPT reftest] css/CSS2/positioning/position-fixed-007.xht
+- [4248] [WPT reftest] css/CSS2/positioning/position-fixed-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/position-fixed-007-ref.xht (==)
@@ -6952,7 +6952,7 @@
   stable page 1: diffRatio=0.02412387413174567, diffPixels=20227
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-fixed-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4267] [WPT reftest] css/CSS2/positioning/position-relative-031.xht
+- [4268] [WPT reftest] css/CSS2/positioning/position-relative-031.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/position-relative-031-ref.xht (==)
@@ -6965,7 +6965,7 @@
   stable page 1: diffRatio=0.000026238455079764903, diffPixels=22
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-relative-031-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4270] [WPT reftest] css/CSS2/positioning/position-relative-035.xht
+- [4271] [WPT reftest] css/CSS2/positioning/position-relative-035.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/positioning/position-relative-035-ref.xht (==)
@@ -6978,7 +6978,7 @@
   stable page 1: diffRatio=0.0017555911762460882, diffPixels=1472
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/positioning/position-relative-035-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4437] [WPT reftest] css/CSS2/sec5/first-line-000.xht
+- [4438] [WPT reftest] css/CSS2/sec5/first-line-000.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/sec5/first-line-000-ref.html (==)
@@ -6991,7 +6991,7 @@
   stable page 1: diffRatio=0.0012630238149759561, diffPixels=1059
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/sec5/first-line-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4451] [WPT reftest] css/CSS2/selectors/attribute-value-selector-007.html
+- [4452] [WPT reftest] css/CSS2/selectors/attribute-value-selector-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/attribute-value-selector-007-ref.html (==)
@@ -7004,7 +7004,7 @@
   stable page 1: diffRatio=0.01444784749255782, diffPixels=12114
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/attribute-value-selector-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4454] [WPT reftest] css/CSS2/selectors/attribute-value-selector-010.html
+- [4455] [WPT reftest] css/CSS2/selectors/attribute-value-selector-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/attribute-value-selector-010-ref.html (==)
@@ -7017,7 +7017,7 @@
   stable page 1: diffRatio=0.01444784749255782, diffPixels=12114
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/attribute-value-selector-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4491] [WPT reftest] css/CSS2/selectors/dynamic-sibling-combinator-001.xht
+- [4492] [WPT reftest] css/CSS2/selectors/dynamic-sibling-combinator-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/dynamic-sibling-combinator-001-ref.xht (==)
@@ -7030,7 +7030,7 @@
   stable page 1: diffRatio=0.0034706320128234484, diffPixels=2910
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/dynamic-sibling-combinator-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4496] [WPT reftest] css/CSS2/selectors/first-letter-abspos.html
+- [4497] [WPT reftest] css/CSS2/selectors/first-letter-abspos.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-abspos-ref.html (==)
@@ -7043,7 +7043,7 @@
   stable page 1: diffRatio=0.000022660483932524234, diffPixels=19
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-abspos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4497] [WPT reftest] css/CSS2/selectors/first-letter-dynamic-001.xht
+- [4498] [WPT reftest] css/CSS2/selectors/first-letter-dynamic-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-dynamic-001-ref.xht (==)
@@ -7056,7 +7056,7 @@
   stable page 1: diffRatio=0.00045082436455232426, diffPixels=378
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-dynamic-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4498] [WPT reftest] css/CSS2/selectors/first-letter-dynamic-002.xht
+- [4499] [WPT reftest] css/CSS2/selectors/first-letter-dynamic-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-dynamic-002-ref.xht (==)
@@ -7069,7 +7069,7 @@
   stable page 1: diffRatio=0.00013238493244790474, diffPixels=111
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-dynamic-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4499] [WPT reftest] css/CSS2/selectors/first-letter-dynamic-003a.xht
+- [4500] [WPT reftest] css/CSS2/selectors/first-letter-dynamic-003a.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-dynamic-003-ref.xht (==)
@@ -7082,7 +7082,7 @@
   stable page 1: diffRatio=0.0005593561560186246, diffPixels=469
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-dynamic-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4500] [WPT reftest] css/CSS2/selectors/first-letter-dynamic-003b.xht
+- [4501] [WPT reftest] css/CSS2/selectors/first-letter-dynamic-003b.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-dynamic-003-ref.xht (==)
@@ -7095,7 +7095,7 @@
   stable page 1: diffRatio=0.00008229333638653537, diffPixels=69
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-dynamic-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4503] [WPT reftest] css/CSS2/selectors/first-letter-nested-002.xht
+- [4504] [WPT reftest] css/CSS2/selectors/first-letter-nested-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-nested-001-ref.xht (==)
@@ -7108,7 +7108,7 @@
   stable page 1: diffRatio=0.003196320891534997, diffPixels=2680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-nested-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4504] [WPT reftest] css/CSS2/selectors/first-letter-nested-003.xht
+- [4505] [WPT reftest] css/CSS2/selectors/first-letter-nested-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-nested-001-ref.xht (==)
@@ -7121,7 +7121,7 @@
   stable page 1: diffRatio=0.0017794443172276925, diffPixels=1492
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-nested-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4505] [WPT reftest] css/CSS2/selectors/first-letter-nested-004.xht
+- [4506] [WPT reftest] css/CSS2/selectors/first-letter-nested-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-nested-001-ref.xht (==)
@@ -7134,7 +7134,7 @@
   stable page 1: diffRatio=0.0017794443172276925, diffPixels=1492
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-nested-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4506] [WPT reftest] css/CSS2/selectors/first-letter-nested-005.xht
+- [4507] [WPT reftest] css/CSS2/selectors/first-letter-nested-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-nested-001-ref.xht (==)
@@ -7147,7 +7147,7 @@
   stable page 1: diffRatio=0.0017794443172276925, diffPixels=1492
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-nested-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4507] [WPT reftest] css/CSS2/selectors/first-letter-nested-006.xht
+- [4508] [WPT reftest] css/CSS2/selectors/first-letter-nested-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-nested-001-ref.xht (==)
@@ -7160,7 +7160,7 @@
   stable page 1: diffRatio=0.0002874303488283337, diffPixels=241
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-nested-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4512] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-004.xht
+- [4513] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-004-ref.xht (==)
@@ -7173,7 +7173,7 @@
   stable page 1: diffRatio=0.0005128425311044959, diffPixels=430
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4513] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-005.xht
+- [4514] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-005-ref.xht (==)
@@ -7186,7 +7186,7 @@
   stable page 1: diffRatio=0.0002957789481718953, diffPixels=248
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-005-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4514] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-006.xht
+- [4515] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-006-ref.xht (==)
@@ -7199,7 +7199,7 @@
   stable page 1: diffRatio=0.00019559575604915656, diffPixels=164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4515] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-007.xht
+- [4516] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-007-ref.xht (==)
@@ -7212,7 +7212,7 @@
   stable page 1: diffRatio=0.0002659625219448897, diffPixels=223
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4516] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-008.xht
+- [4517] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-008-ref.xht (==)
@@ -7225,7 +7225,7 @@
   stable page 1: diffRatio=0.0001455041599877872, diffPixels=122
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4517] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-009.xht
+- [4518] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-009.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-009-ref.xht (==)
@@ -7238,7 +7238,7 @@
   stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-009-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4518] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-010.xht
+- [4519] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-010.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-010-ref.xht (==)
@@ -7251,7 +7251,7 @@
   stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4519] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-012.xht
+- [4520] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-012.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-012-ref.xht (==)
@@ -7264,7 +7264,7 @@
   stable page 1: diffRatio=0.00020036638424547745, diffPixels=168
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4520] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-013.xht
+- [4521] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-013-ref.xht (==)
@@ -7277,7 +7277,7 @@
   stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4521] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-014.xht
+- [4522] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-014-ref.xht (==)
@@ -7290,7 +7290,7 @@
   stable page 1: diffRatio=0.00020752232653995878, diffPixels=174
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-014-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4522] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-015.xht
+- [4523] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-015.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-015-ref.xht (==)
@@ -7303,7 +7303,7 @@
   stable page 1: diffRatio=0.00028504503473017327, diffPixels=239
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4523] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-016.xht
+- [4524] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-016.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-016-ref.xht (==)
@@ -7316,7 +7316,7 @@
   stable page 1: diffRatio=0.0003291733455461415, diffPixels=276
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-016-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4524] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-017.xht
+- [4525] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-017.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-017-ref.xht (==)
@@ -7329,7 +7329,7 @@
   stable page 1: diffRatio=0.00015862338752766964, diffPixels=133
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4525] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-018.xht
+- [4526] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-018.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-018-ref.xht (==)
@@ -7342,7 +7342,7 @@
   stable page 1: diffRatio=0.00022779749637432257, diffPixels=191
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4526] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-019.xht
+- [4527] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-019.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-019-ref.xht (==)
@@ -7355,7 +7355,7 @@
   stable page 1: diffRatio=0.0002444946950614457, diffPixels=205
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4527] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-020.xht
+- [4528] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-020.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-020-ref.xht (==)
@@ -7368,7 +7368,7 @@
   stable page 1: diffRatio=0.00031009083276085795, diffPixels=260
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-020-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4528] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-021.xht
+- [4529] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-021.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-021-ref.xht (==)
@@ -7381,7 +7381,7 @@
   stable page 1: diffRatio=0.00015504541638042897, diffPixels=130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4529] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-022.xht
+- [4530] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-022.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-022-ref.xht (==)
@@ -7394,7 +7394,7 @@
   stable page 1: diffRatio=0.00024210938096328523, diffPixels=203
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-022-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4530] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-023.xht
+- [4531] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-023.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-023-ref.xht (==)
@@ -7407,7 +7407,7 @@
   stable page 1: diffRatio=0.00022183421112892147, diffPixels=186
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4531] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-024.xht
+- [4532] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-024.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-024-ref.xht (==)
@@ -7420,7 +7420,7 @@
   stable page 1: diffRatio=0.00023018281047248302, diffPixels=193
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4532] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-025.xht
+- [4533] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-025.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-025-ref.xht (==)
@@ -7433,7 +7433,7 @@
   stable page 1: diffRatio=0.00022779749637432257, diffPixels=191
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4533] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-026.xht
+- [4534] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-026.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-026-ref.xht (==)
@@ -7446,7 +7446,7 @@
   stable page 1: diffRatio=0.00020155904129455767, diffPixels=169
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-026-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4534] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-027.xht
+- [4535] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-027.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-027-ref.xht (==)
@@ -7459,7 +7459,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-027-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4535] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-028.xht
+- [4536] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-028.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-028-ref.xht (==)
@@ -7472,7 +7472,7 @@
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-028-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4536] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-029.xht
+- [4537] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-029.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-029-ref.xht (==)
@@ -7485,7 +7485,7 @@
   stable page 1: diffRatio=0.0001884398137546752, diffPixels=158
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-029-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4537] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-030.xht
+- [4538] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-030.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-030-ref.xht (==)
@@ -7498,7 +7498,7 @@
   stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-030-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4538] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-031.xht
+- [4539] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-031.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-031-ref.xht (==)
@@ -7511,7 +7511,7 @@
   stable page 1: diffRatio=0.00024330203801236548, diffPixels=204
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-031-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4539] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-032.xht
+- [4540] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-032.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-032-ref.xht (==)
@@ -7524,7 +7524,7 @@
   stable page 1: diffRatio=0.0002993569193191359, diffPixels=251
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-032-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4540] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-033.xht
+- [4541] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-033.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-033-ref.xht (==)
@@ -7537,7 +7537,7 @@
   stable page 1: diffRatio=0.00020036638424547745, diffPixels=168
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-033-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4541] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-034.xht
+- [4542] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-034.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-034-ref.xht (==)
@@ -7550,7 +7550,7 @@
   stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-034-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4542] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-035.xht
+- [4543] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-035.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-035-ref.xht (==)
@@ -7563,7 +7563,7 @@
   stable page 1: diffRatio=0.0002755037783375315, diffPixels=231
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-035-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4543] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-036.xht
+- [4544] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-036.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-036-ref.xht (==)
@@ -7576,7 +7576,7 @@
   stable page 1: diffRatio=0.00015981604457674986, diffPixels=134
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-036-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4544] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-037.xht
+- [4545] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-037.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-037-ref.xht (==)
@@ -7589,7 +7589,7 @@
   stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-037-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4545] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-038.xht
+- [4546] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-038.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-038-ref.xht (==)
@@ -7602,7 +7602,7 @@
   stable page 1: diffRatio=0.00029458629112281504, diffPixels=247
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-038-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4546] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-039.xht
+- [4547] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-039.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-039-ref.xht (==)
@@ -7615,7 +7615,7 @@
   stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-039-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4547] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-040.xht
+- [4548] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-040.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-040-ref.xht (==)
@@ -7628,7 +7628,7 @@
   stable page 1: diffRatio=0.00025284329440500725, diffPixels=212
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-040-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4548] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-041.xht
+- [4549] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-041.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-041-ref.xht (==)
@@ -7641,7 +7641,7 @@
   stable page 1: diffRatio=0.0003232100603007404, diffPixels=271
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4549] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-042.xht
+- [4550] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-042.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-042-ref.xht (==)
@@ -7654,7 +7654,7 @@
   stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-042-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4550] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-043.xht
+- [4551] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-043.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-043-ref.xht (==)
@@ -7667,7 +7667,7 @@
   stable page 1: diffRatio=0.0002910083199755744, diffPixels=244
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-043-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4551] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-044.xht
+- [4552] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-044.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-044-ref.xht (==)
@@ -7680,7 +7680,7 @@
   stable page 1: diffRatio=0.00032678803144798105, diffPixels=274
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-044-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4552] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-045.xht
+- [4553] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-045.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-045-ref.xht (==)
@@ -7693,7 +7693,7 @@
   stable page 1: diffRatio=0.00032082474620257997, diffPixels=269
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-045-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4553] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-046.xht
+- [4554] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-046.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-046-ref.xht (==)
@@ -7706,7 +7706,7 @@
   stable page 1: diffRatio=0.00016458667277307075, diffPixels=138
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-046-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4554] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-047.xht
+- [4555] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-047.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-047-ref.xht (==)
@@ -7719,7 +7719,7 @@
   stable page 1: diffRatio=0.00015981604457674986, diffPixels=134
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-047-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4555] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-049.xht
+- [4556] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-049.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-049-ref.xht (==)
@@ -7732,7 +7732,7 @@
   stable page 1: diffRatio=0.0002957789481718953, diffPixels=248
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-049-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4556] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-050.xht
+- [4557] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-050.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-050-ref.xht (==)
@@ -7745,7 +7745,7 @@
   stable page 1: diffRatio=0.00019440309900007634, diffPixels=163
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-050-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4557] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-051.xht
+- [4558] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-051.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-051-ref.xht (==)
@@ -7758,7 +7758,7 @@
   stable page 1: diffRatio=0.00021587092588352033, diffPixels=181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-051-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4558] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-052.xht
+- [4559] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-052.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-052-ref.xht (==)
@@ -7771,7 +7771,7 @@
   stable page 1: diffRatio=0.00018724715670559498, diffPixels=157
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-052-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4559] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-053.xht
+- [4560] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-053.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-053-ref.xht (==)
@@ -7784,7 +7784,7 @@
   stable page 1: diffRatio=0.0003244027173498206, diffPixels=272
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-053-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4560] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-054.xht
+- [4561] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-054.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-054-ref.xht (==)
@@ -7797,7 +7797,7 @@
   stable page 1: diffRatio=0.0003184394321044195, diffPixels=267
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-054-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4561] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-055.xht
+- [4562] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-055.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-055-ref.xht (==)
@@ -7810,7 +7810,7 @@
   stable page 1: diffRatio=0.0001777059003129532, diffPixels=149
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-055-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4562] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-056.xht
+- [4563] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-056.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-056-ref.xht (==)
@@ -7823,7 +7823,7 @@
   stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-056-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4563] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-057.xht
+- [4564] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-057.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-057-ref.xht (==)
@@ -7836,7 +7836,7 @@
   stable page 1: diffRatio=0.000251650637355927, diffPixels=211
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-057-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4564] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-058.xht
+- [4565] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-058.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-058-ref.xht (==)
@@ -7849,7 +7849,7 @@
   stable page 1: diffRatio=0.00020394435539271811, diffPixels=171
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-058-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4565] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-059.xht
+- [4566] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-059.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-059-ref.xht (==)
@@ -7862,7 +7862,7 @@
   stable page 1: diffRatio=0.00015385275933134875, diffPixels=129
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-059-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4566] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-060.xht
+- [4567] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-060.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-060-ref.xht (==)
@@ -7875,7 +7875,7 @@
   stable page 1: diffRatio=0.00015862338752766964, diffPixels=133
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-060-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4567] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-061.xht
+- [4568] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-061.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-061-ref.xht (==)
@@ -7888,7 +7888,7 @@
   stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-061-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4568] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-062.xht
+- [4569] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-062.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-062-ref.xht (==)
@@ -7901,7 +7901,7 @@
   stable page 1: diffRatio=0.00019917372719639723, diffPixels=167
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-062-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4569] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-063.xht
+- [4570] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-063.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-063-ref.xht (==)
@@ -7914,7 +7914,7 @@
   stable page 1: diffRatio=0.00020513701244179834, diffPixels=172
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-063-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4570] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-064.xht
+- [4571] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-064.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-064-ref.xht (==)
@@ -7927,7 +7927,7 @@
   stable page 1: diffRatio=0.00021944889703076102, diffPixels=184
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-064-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4571] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-065.xht
+- [4572] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-065.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-065-ref.xht (==)
@@ -7940,7 +7940,7 @@
   stable page 1: diffRatio=0.0002635772078467293, diffPixels=221
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-065-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4572] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-066.xht
+- [4573] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-066.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-066-ref.xht (==)
@@ -7953,7 +7953,7 @@
   stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-066-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4573] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-067.xht
+- [4574] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-067.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-067-ref.xht (==)
@@ -7966,7 +7966,7 @@
   stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-067-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4574] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-068.xht
+- [4575] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-068.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-068-ref.xht (==)
@@ -7979,7 +7979,7 @@
   stable page 1: diffRatio=0.00012284367605526296, diffPixels=103
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-068-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4575] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-069.xht
+- [4576] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-069.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-069-ref.xht (==)
@@ -7992,7 +7992,7 @@
   stable page 1: diffRatio=0.00015504541638042897, diffPixels=130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-069-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4576] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-070.xht
+- [4577] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-070.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-070-ref.xht (==)
@@ -8005,7 +8005,7 @@
   stable page 1: diffRatio=0.00013357758949698496, diffPixels=112
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-070-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4577] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-071.xht
+- [4578] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-071.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-071-ref.xht (==)
@@ -8018,7 +8018,7 @@
   stable page 1: diffRatio=0.00013119227539882451, diffPixels=110
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-071-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4578] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-072.xht
+- [4579] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-072.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-072-ref.xht (==)
@@ -8031,7 +8031,7 @@
   stable page 1: diffRatio=0.0001359629035951454, diffPixels=114
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-072-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4579] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-073.xht
+- [4580] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-073.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-073-ref.xht (==)
@@ -8044,7 +8044,7 @@
   stable page 1: diffRatio=0.0001299996183497443, diffPixels=109
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-073-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4580] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-074.xht
+- [4581] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-074.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-074-ref.xht (==)
@@ -8057,7 +8057,7 @@
   stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-074-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4581] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-075.xht
+- [4582] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-075.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-075-ref.xht (==)
@@ -8070,7 +8070,7 @@
   stable page 1: diffRatio=0.0001204583619571025, diffPixels=101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-075-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4582] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-076.xht
+- [4583] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-076.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-076-ref.xht (==)
@@ -8083,7 +8083,7 @@
   stable page 1: diffRatio=0.00019321044195099612, diffPixels=162
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-076-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4583] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-077.xht
+- [4584] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-077.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-077-ref.xht (==)
@@ -8096,7 +8096,7 @@
   stable page 1: diffRatio=0.0001204583619571025, diffPixels=101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-077-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4584] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-078.xht
+- [4585] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-078.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-078-ref.xht (==)
@@ -8109,7 +8109,7 @@
   stable page 1: diffRatio=0.00012165101900618274, diffPixels=102
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-078-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4585] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-079.xht
+- [4586] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-079.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-079-ref.xht (==)
@@ -8122,7 +8122,7 @@
   stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-079-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4586] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-080.xht
+- [4587] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-080.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-080-ref.xht (==)
@@ -8135,7 +8135,7 @@
   stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-080-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4587] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-081.xht
+- [4588] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-081.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-081-ref.xht (==)
@@ -8148,7 +8148,7 @@
   stable page 1: diffRatio=0.00014908213113502787, diffPixels=125
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-081-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4588] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-082.xht
+- [4589] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-082.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-082-ref.xht (==)
@@ -8161,7 +8161,7 @@
   stable page 1: diffRatio=0.0001359629035951454, diffPixels=114
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-082-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4589] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-083.xht
+- [4590] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-083.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-083-ref.xht (==)
@@ -8174,7 +8174,7 @@
   stable page 1: diffRatio=0.00014788947408594764, diffPixels=124
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-083-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4590] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-084.xht
+- [4591] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-084.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-084-ref.xht (==)
@@ -8187,7 +8187,7 @@
   stable page 1: diffRatio=0.00012642164720250363, diffPixels=106
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-084-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4591] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-085.xht
+- [4592] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-085.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-085-ref.xht (==)
@@ -8200,7 +8200,7 @@
   stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-085-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4592] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-086.xht
+- [4593] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-086.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-086-ref.xht (==)
@@ -8213,7 +8213,7 @@
   stable page 1: diffRatio=0.00012284367605526296, diffPixels=103
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-086-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4784] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-283.xht
+- [4785] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-283.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-283-ref.xht (==)
@@ -8226,7 +8226,7 @@
   stable page 1: diffRatio=0.00014788947408594764, diffPixels=124
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-283-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4785] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-284.xht
+- [4786] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-284.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-284-ref.xht (==)
@@ -8239,7 +8239,7 @@
   stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-284-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4824] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-323.xht
+- [4825] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-323.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-323-ref.xht (==)
@@ -8252,7 +8252,7 @@
   stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-323-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4825] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-324.xht
+- [4826] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-324.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-324-ref.xht (==)
@@ -8265,7 +8265,7 @@
   stable page 1: diffRatio=0.00013834821769330584, diffPixels=116
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-324-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4827] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-326.xht
+- [4828] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-326.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-326-ref.xht (==)
@@ -8278,7 +8278,7 @@
   stable page 1: diffRatio=0.00015385275933134875, diffPixels=129
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-326-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4828] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-327.xht
+- [4829] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-327.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-327-ref.xht (==)
@@ -8291,7 +8291,7 @@
   stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-327-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4832] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-331.xht
+- [4833] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-331.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-331-ref.xht (==)
@@ -8304,7 +8304,7 @@
   stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-331-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4833] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-332.xht
+- [4834] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-332.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-332-ref.xht (==)
@@ -8317,7 +8317,7 @@
   stable page 1: diffRatio=0.0001455041599877872, diffPixels=122
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-332-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4847] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-394.xht
+- [4848] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-394.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-punctuation-394-ref.xht (==)
@@ -8330,7 +8330,7 @@
   stable page 1: diffRatio=0.0003399072589878635, diffPixels=285
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-394-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4849] [WPT reftest] css/CSS2/selectors/first-letter-quote-002.xht
+- [4850] [WPT reftest] css/CSS2/selectors/first-letter-quote-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-quote-001-ref.xht (==)
@@ -8343,7 +8343,7 @@
   stable page 1: diffRatio=0.000022660483932524234, diffPixels=19
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-quote-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4850] [WPT reftest] css/CSS2/selectors/first-letter-quote-003.xht
+- [4851] [WPT reftest] css/CSS2/selectors/first-letter-quote-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-quote-001-ref.xht (==)
@@ -8356,7 +8356,7 @@
   stable page 1: diffRatio=0.000007155942294481337, diffPixels=6
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-quote-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4851] [WPT reftest] css/CSS2/selectors/first-letter-quote-004.xht
+- [4852] [WPT reftest] css/CSS2/selectors/first-letter-quote-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-quote-001-ref.xht (==)
@@ -8369,7 +8369,7 @@
   stable page 1: diffRatio=0.000197981070147317, diffPixels=166
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-quote-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4852] [WPT reftest] css/CSS2/selectors/first-letter-quote-005.xht
+- [4853] [WPT reftest] css/CSS2/selectors/first-letter-quote-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-quote-001-ref.xht (==)
@@ -8382,7 +8382,7 @@
   stable page 1: diffRatio=0.000022660483932524234, diffPixels=19
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-quote-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4853] [WPT reftest] css/CSS2/selectors/first-letter-quote-006.xht
+- [4854] [WPT reftest] css/CSS2/selectors/first-letter-quote-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-quote-001-ref.xht (==)
@@ -8395,7 +8395,7 @@
   stable page 1: diffRatio=0.000007155942294481337, diffPixels=6
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-quote-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4854] [WPT reftest] css/CSS2/selectors/first-letter-selector-000.xht
+- [4855] [WPT reftest] css/CSS2/selectors/first-letter-selector-000.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-selector-000-ref.html (==)
@@ -8408,7 +8408,7 @@
   stable page 1: diffRatio=0.0000942199068773376, diffPixels=79
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-selector-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4856] [WPT reftest] css/CSS2/selectors/first-letter-selector-002.xht
+- [4857] [WPT reftest] css/CSS2/selectors/first-letter-selector-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-selector-002-ref.html (==)
@@ -8421,7 +8421,7 @@
   stable page 1: diffRatio=0.00002981642622700557, diffPixels=25
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-selector-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4858] [WPT reftest] css/CSS2/selectors/first-letter-selector-004.xht
+- [4859] [WPT reftest] css/CSS2/selectors/first-letter-selector-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-selector-001-ref.html (==)
@@ -8434,7 +8434,7 @@
   stable page 1: diffRatio=0.000017889855736203345, diffPixels=15
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-selector-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4859] [WPT reftest] css/CSS2/selectors/first-letter-selector-005.xht
+- [4860] [WPT reftest] css/CSS2/selectors/first-letter-selector-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-selector-005-ref.html (==)
@@ -8447,7 +8447,7 @@
   stable page 1: diffRatio=0.00012761430425158385, diffPixels=107
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-selector-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4860] [WPT reftest] css/CSS2/selectors/first-letter-selector-007.xht
+- [4861] [WPT reftest] css/CSS2/selectors/first-letter-selector-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-selector-007-ref.html (==)
@@ -8460,7 +8460,7 @@
   stable page 1: diffRatio=0.00012284367605526296, diffPixels=103
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-selector-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4863] [WPT reftest] css/CSS2/selectors/first-letter-selector-028.xht
+- [4864] [WPT reftest] css/CSS2/selectors/first-letter-selector-028.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-selector-028-ref.xht (==)
@@ -8473,7 +8473,7 @@
   stable page 1: diffRatio=0.0008324746202579956, diffPixels=698
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-selector-028-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4865] [WPT reftest] css/CSS2/selectors/first-line-floats-001.xht
+- [4866] [WPT reftest] css/CSS2/selectors/first-line-floats-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-line-floats-001-ref.xht (==)
@@ -8486,7 +8486,7 @@
   stable page 1: diffRatio=0.00034706320128234484, diffPixels=291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-line-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4867] [WPT reftest] css/CSS2/selectors/first-line-floats-003.xht
+- [4868] [WPT reftest] css/CSS2/selectors/first-line-floats-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-line-floats-001-ref.xht (==)
@@ -8499,7 +8499,7 @@
   stable page 1: diffRatio=0.00034706320128234484, diffPixels=291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-line-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4868] [WPT reftest] css/CSS2/selectors/first-line-floats-004.xht
+- [4869] [WPT reftest] css/CSS2/selectors/first-line-floats-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-line-floats-001-ref.xht (==)
@@ -8512,7 +8512,7 @@
   stable page 1: diffRatio=0.0003566044576749866, diffPixels=299
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-line-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4870] [WPT reftest] css/CSS2/selectors/first-line-inherit-002.xht
+- [4871] [WPT reftest] css/CSS2/selectors/first-line-inherit-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-line-inherit-002-ref.xht (==)
@@ -8525,7 +8525,7 @@
   stable page 1: diffRatio=0.0008408232196015571, diffPixels=705
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-line-inherit-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4871] [WPT reftest] css/CSS2/selectors/first-line-inherit-003.xht
+- [4872] [WPT reftest] css/CSS2/selectors/first-line-inherit-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-line-inherit-003-ref.xht (==)
@@ -8538,7 +8538,7 @@
   stable page 1: diffRatio=0.0008408232196015571, diffPixels=705
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-line-inherit-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4872] [WPT reftest] css/CSS2/selectors/first-line-pseudo-007.xht
+- [4873] [WPT reftest] css/CSS2/selectors/first-line-pseudo-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/cascade/cascade-012-ref.xht (==)
@@ -8551,7 +8551,7 @@
   stable page 1: diffRatio=0.0004257785665216396, diffPixels=357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/cascade/cascade-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4873] [WPT reftest] css/CSS2/selectors/first-line-pseudo-008.xht
+- [4874] [WPT reftest] css/CSS2/selectors/first-line-pseudo-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/cascade/cascade-012-ref.xht (==)
@@ -8564,7 +8564,7 @@
   stable page 1: diffRatio=0.0004257785665216396, diffPixels=357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/cascade/cascade-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4875] [WPT reftest] css/CSS2/selectors/first-line-pseudo-013.xht
+- [4876] [WPT reftest] css/CSS2/selectors/first-line-pseudo-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-line-pseudo-013-ref.xht (==)
@@ -8577,20 +8577,20 @@
   stable page 1: diffRatio=0.010846023204335547, diffPixels=9094
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-line-pseudo-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4878] [WPT reftest] css/CSS2/selectors/first-line-pseudo-016.xht
+- [4879] [WPT reftest] css/CSS2/selectors/first-line-pseudo-016.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-line-pseudo-015-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-line-pseudo-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00835098465765972, diffPixels=7002
+  canary page 1: diffRatio=0.014028032211281582, diffPixels=11762
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-line-pseudo-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-line-pseudo-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00835098465765972, diffPixels=7002
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-line-pseudo-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4883] [WPT reftest] css/CSS2/selectors/first-line-selector-004.xht
+- [4884] [WPT reftest] css/CSS2/selectors/first-line-selector-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -8603,7 +8603,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4884] [WPT reftest] css/CSS2/selectors/first-line-selector-010.xht
+- [4885] [WPT reftest] css/CSS2/selectors/first-line-selector-010.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/first-letter-selector-005-ref.html (==)
@@ -8616,7 +8616,7 @@
   stable page 1: diffRatio=0.00031486146095717883, diffPixels=264
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-selector-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4891] [WPT reftest] css/CSS2/selectors/id-selector-005.xht
+- [4892] [WPT reftest] css/CSS2/selectors/id-selector-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/no-red-filler-text-ref.xht (==)
@@ -8629,7 +8629,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/no-red-filler-text-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4899] [WPT reftest] css/CSS2/selectors/lang-selector-005.xht
+- [4900] [WPT reftest] css/CSS2/selectors/lang-selector-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -8642,7 +8642,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4900] [WPT reftest] css/CSS2/selectors/lang-selector-006.xht
+- [4901] [WPT reftest] css/CSS2/selectors/lang-selector-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -8655,7 +8655,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4904] [WPT reftest] css/CSS2/selectors/pseudo-007.xht
+- [4905] [WPT reftest] css/CSS2/selectors/pseudo-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/selectors/universal-selector-002-ref.xht (==)
@@ -8668,7 +8668,7 @@
   stable page 1: diffRatio=0.03299962789100069, diffPixels=27669
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/universal-selector-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4926] [WPT reftest] css/CSS2/stacking-context/root-element-creates-stacking-context.html
+- [4927] [WPT reftest] css/CSS2/stacking-context/root-element-creates-stacking-context.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/stacking-context/root-element-creates-stacking-context-ref.html (==)
@@ -8681,7 +8681,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/stacking-context/root-element-creates-stacking-context-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4929] [WPT reftest] css/CSS2/syntax/at-charset-002.xht
+- [4930] [WPT reftest] css/CSS2/syntax/at-charset-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8694,7 +8694,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4930] [WPT reftest] css/CSS2/syntax/at-charset-003.xht
+- [4931] [WPT reftest] css/CSS2/syntax/at-charset-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8707,7 +8707,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4931] [WPT reftest] css/CSS2/syntax/at-charset-004.xht
+- [4932] [WPT reftest] css/CSS2/syntax/at-charset-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8720,7 +8720,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4932] [WPT reftest] css/CSS2/syntax/at-charset-005.xht
+- [4933] [WPT reftest] css/CSS2/syntax/at-charset-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8733,7 +8733,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4933] [WPT reftest] css/CSS2/syntax/at-charset-006.xht
+- [4934] [WPT reftest] css/CSS2/syntax/at-charset-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8746,7 +8746,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4934] [WPT reftest] css/CSS2/syntax/at-charset-007.xht
+- [4935] [WPT reftest] css/CSS2/syntax/at-charset-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8759,7 +8759,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4935] [WPT reftest] css/CSS2/syntax/at-charset-008.xht
+- [4936] [WPT reftest] css/CSS2/syntax/at-charset-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8772,7 +8772,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4936] [WPT reftest] css/CSS2/syntax/at-charset-009.xht
+- [4937] [WPT reftest] css/CSS2/syntax/at-charset-009.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8785,7 +8785,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4937] [WPT reftest] css/CSS2/syntax/at-charset-010.xht
+- [4938] [WPT reftest] css/CSS2/syntax/at-charset-010.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8798,7 +8798,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4938] [WPT reftest] css/CSS2/syntax/at-charset-011.xht
+- [4939] [WPT reftest] css/CSS2/syntax/at-charset-011.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8811,7 +8811,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4939] [WPT reftest] css/CSS2/syntax/at-charset-012.xht
+- [4940] [WPT reftest] css/CSS2/syntax/at-charset-012.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8824,7 +8824,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4941] [WPT reftest] css/CSS2/syntax/at-charset-015.xht
+- [4942] [WPT reftest] css/CSS2/syntax/at-charset-015.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8837,7 +8837,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4942] [WPT reftest] css/CSS2/syntax/at-charset-016.xht
+- [4943] [WPT reftest] css/CSS2/syntax/at-charset-016.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8850,7 +8850,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4944] [WPT reftest] css/CSS2/syntax/at-charset-020.xht
+- [4945] [WPT reftest] css/CSS2/syntax/at-charset-020.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8863,7 +8863,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4945] [WPT reftest] css/CSS2/syntax/at-charset-021.xht
+- [4946] [WPT reftest] css/CSS2/syntax/at-charset-021.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8876,7 +8876,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4946] [WPT reftest] css/CSS2/syntax/at-charset-024.xht
+- [4947] [WPT reftest] css/CSS2/syntax/at-charset-024.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8889,7 +8889,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4947] [WPT reftest] css/CSS2/syntax/at-charset-025.xht
+- [4948] [WPT reftest] css/CSS2/syntax/at-charset-025.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8902,7 +8902,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4948] [WPT reftest] css/CSS2/syntax/at-charset-026.xht
+- [4949] [WPT reftest] css/CSS2/syntax/at-charset-026.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8915,7 +8915,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4949] [WPT reftest] css/CSS2/syntax/at-charset-027.xht
+- [4950] [WPT reftest] css/CSS2/syntax/at-charset-027.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8928,7 +8928,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4963] [WPT reftest] css/CSS2/syntax/at-charset-043.xht
+- [4964] [WPT reftest] css/CSS2/syntax/at-charset-043.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8941,7 +8941,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4965] [WPT reftest] css/CSS2/syntax/at-charset-045.xht
+- [4966] [WPT reftest] css/CSS2/syntax/at-charset-045.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8954,7 +8954,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4973] [WPT reftest] css/CSS2/syntax/at-charset-053.xht
+- [4974] [WPT reftest] css/CSS2/syntax/at-charset-053.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -8967,7 +8967,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4980] [WPT reftest] css/CSS2/syntax/at-charset-060.xht
+- [4981] [WPT reftest] css/CSS2/syntax/at-charset-060.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-001-ref.xht (==)
@@ -8980,7 +8980,7 @@
   stable page 1: diffRatio=0.0003124761468590184, diffPixels=262
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4982] [WPT reftest] css/CSS2/syntax/at-charset-071.xht
+- [4983] [WPT reftest] css/CSS2/syntax/at-charset-071.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -8993,7 +8993,7 @@
   stable page 1: diffRatio=0.014112710861766277, diffPixels=11833
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4983] [WPT reftest] css/CSS2/syntax/at-charset-072.xht
+- [4984] [WPT reftest] css/CSS2/syntax/at-charset-072.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -9006,7 +9006,7 @@
   stable page 1: diffRatio=0.014112710861766277, diffPixels=11833
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4984] [WPT reftest] css/CSS2/syntax/at-charset-073.xht
+- [4985] [WPT reftest] css/CSS2/syntax/at-charset-073.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -9019,7 +9019,7 @@
   stable page 1: diffRatio=0.014112710861766277, diffPixels=11833
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4985] [WPT reftest] css/CSS2/syntax/at-charset-074.xht
+- [4986] [WPT reftest] css/CSS2/syntax/at-charset-074.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -9032,7 +9032,7 @@
   stable page 1: diffRatio=0.014112710861766277, diffPixels=11833
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4986] [WPT reftest] css/CSS2/syntax/at-charset-075.xht
+- [4987] [WPT reftest] css/CSS2/syntax/at-charset-075.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -9045,7 +9045,7 @@
   stable page 1: diffRatio=0.014112710861766277, diffPixels=11833
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4987] [WPT reftest] css/CSS2/syntax/at-charset-076.xht
+- [4988] [WPT reftest] css/CSS2/syntax/at-charset-076.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -9058,7 +9058,7 @@
   stable page 1: diffRatio=0.014112710861766277, diffPixels=11833
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4988] [WPT reftest] css/CSS2/syntax/at-charset-077.xht
+- [4989] [WPT reftest] css/CSS2/syntax/at-charset-077.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -9071,7 +9071,7 @@
   stable page 1: diffRatio=0.014112710861766277, diffPixels=11833
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4993] [WPT reftest] css/CSS2/syntax/at-charset-utf16-be-002.xht
+- [4994] [WPT reftest] css/CSS2/syntax/at-charset-utf16-be-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-ref.xht (==)
@@ -9084,7 +9084,7 @@
   stable page 1: diffRatio=0.00034706320128234484, diffPixels=291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4994] [WPT reftest] css/CSS2/syntax/at-charset-utf16-be-003.xht
+- [4995] [WPT reftest] css/CSS2/syntax/at-charset-utf16-be-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-ref.xht (==)
@@ -9097,7 +9097,7 @@
   stable page 1: diffRatio=0.00034706320128234484, diffPixels=291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4996] [WPT reftest] css/CSS2/syntax/at-charset-utf16-le-002.xht
+- [4997] [WPT reftest] css/CSS2/syntax/at-charset-utf16-le-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-ref.xht (==)
@@ -9110,7 +9110,7 @@
   stable page 1: diffRatio=0.00034706320128234484, diffPixels=291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [4997] [WPT reftest] css/CSS2/syntax/at-charset-utf16-le-003.xht
+- [4998] [WPT reftest] css/CSS2/syntax/at-charset-utf16-le-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-ref.xht (==)
@@ -9123,7 +9123,7 @@
   stable page 1: diffRatio=0.00034706320128234484, diffPixels=291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5006] [WPT reftest] css/CSS2/syntax/at-rule-006.xht
+- [5007] [WPT reftest] css/CSS2/syntax/at-rule-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9136,7 +9136,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5007] [WPT reftest] css/CSS2/syntax/at-rule-007.xht
+- [5008] [WPT reftest] css/CSS2/syntax/at-rule-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/no-red-filler-text-ref.xht (==)
@@ -9149,7 +9149,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/no-red-filler-text-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5011] [WPT reftest] css/CSS2/syntax/at-rule-011.xht
+- [5012] [WPT reftest] css/CSS2/syntax/at-rule-011.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9162,7 +9162,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5012] [WPT reftest] css/CSS2/syntax/at-rule-012.xht
+- [5013] [WPT reftest] css/CSS2/syntax/at-rule-012.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9175,7 +9175,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5020] [WPT reftest] css/CSS2/syntax/blocks-001.xht
+- [5021] [WPT reftest] css/CSS2/syntax/blocks-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/blocks-001-ref.xht (==)
@@ -9188,7 +9188,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/blocks-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5026] [WPT reftest] css/CSS2/syntax/blocks-and-strings-001.xht
+- [5027] [WPT reftest] css/CSS2/syntax/blocks-and-strings-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9201,7 +9201,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5028] [WPT reftest] css/CSS2/syntax/case-sensitive-001.xht
+- [5029] [WPT reftest] css/CSS2/syntax/case-sensitive-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -9214,7 +9214,7 @@
   stable page 1: diffRatio=0.013622528814594305, diffPixels=11422
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5029] [WPT reftest] css/CSS2/syntax/case-sensitive-003.xht
+- [5030] [WPT reftest] css/CSS2/syntax/case-sensitive-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/case-sensitive-003-ref.xht (==)
@@ -9227,7 +9227,7 @@
   stable page 1: diffRatio=0.0009732081520494619, diffPixels=816
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/case-sensitive-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5030] [WPT reftest] css/CSS2/syntax/case-sensitive-004.xht
+- [5031] [WPT reftest] css/CSS2/syntax/case-sensitive-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/case-sensitive-003-ref.xht (==)
@@ -9240,7 +9240,7 @@
   stable page 1: diffRatio=0.0009660522097549805, diffPixels=810
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/case-sensitive-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5033] [WPT reftest] css/CSS2/syntax/case-sensitive-007.xht
+- [5034] [WPT reftest] css/CSS2/syntax/case-sensitive-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/no-red-filler-text-ref.xht (==)
@@ -9253,7 +9253,7 @@
   stable page 1: diffRatio=0.0001562380734295092, diffPixels=131
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/no-red-filler-text-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5034] [WPT reftest] css/CSS2/syntax/character-encoding-031.xht
+- [5035] [WPT reftest] css/CSS2/syntax/character-encoding-031.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/character-encoding-041-ref.xht (==)
@@ -9266,7 +9266,7 @@
   stable page 1: diffRatio=0.0144490401496069, diffPixels=12115
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/character-encoding-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5035] [WPT reftest] css/CSS2/syntax/character-encoding-032.xht
+- [5036] [WPT reftest] css/CSS2/syntax/character-encoding-032.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/character-encoding-041-ref.xht (==)
@@ -9279,7 +9279,7 @@
   stable page 1: diffRatio=0.0144490401496069, diffPixels=12115
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/character-encoding-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5036] [WPT reftest] css/CSS2/syntax/character-encoding-033.xht
+- [5037] [WPT reftest] css/CSS2/syntax/character-encoding-033.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/character-encoding-041-ref.xht (==)
@@ -9292,7 +9292,7 @@
   stable page 1: diffRatio=0.0144490401496069, diffPixels=12115
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/character-encoding-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5037] [WPT reftest] css/CSS2/syntax/character-encoding-034.xht
+- [5038] [WPT reftest] css/CSS2/syntax/character-encoding-034.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/character-encoding-041-ref.xht (==)
@@ -9305,7 +9305,7 @@
   stable page 1: diffRatio=0.0144490401496069, diffPixels=12115
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/character-encoding-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5038] [WPT reftest] css/CSS2/syntax/character-encoding-035.xht
+- [5039] [WPT reftest] css/CSS2/syntax/character-encoding-035.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/character-encoding-041-ref.xht (==)
@@ -9318,16 +9318,20 @@
   stable page 1: diffRatio=0.0144490401496069, diffPixels=12115
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/character-encoding-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5039] [WPT reftest] css/CSS2/syntax/character-encoding-036.xht
+- [5040] [WPT reftest] css/CSS2/syntax/character-encoding-036.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/character-encoding-041-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/character-encoding-036.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0144490401496069, diffPixels=12115
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/character-encoding-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/character-encoding-036.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0144490401496069, diffPixels=12115
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/character-encoding-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5040] [WPT reftest] css/CSS2/syntax/character-encoding-037.xht
+- [5041] [WPT reftest] css/CSS2/syntax/character-encoding-037.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/character-encoding-041-ref.xht (==)
@@ -9340,7 +9344,7 @@
   stable page 1: diffRatio=0.0144490401496069, diffPixels=12115
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/character-encoding-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5043] [WPT reftest] css/CSS2/syntax/charset-attr-001.xht
+- [5044] [WPT reftest] css/CSS2/syntax/charset-attr-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/at-charset-ref.xht (==)
@@ -9353,7 +9357,7 @@
   stable page 1: diffRatio=0.00034706320128234484, diffPixels=291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/at-charset-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5059] [WPT reftest] css/CSS2/syntax/content-type-000.xht
+- [5060] [WPT reftest] css/CSS2/syntax/content-type-000.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/content-type-000-ref.xht (==)
@@ -9366,7 +9370,7 @@
   stable page 1: diffRatio=0.028511659415311807, diffPixels=23906
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/content-type-000-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5060] [WPT reftest] css/CSS2/syntax/content-type-001.xht
+- [5061] [WPT reftest] css/CSS2/syntax/content-type-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/content-type-000-ref.xht (==)
@@ -9379,7 +9383,7 @@
   stable page 1: diffRatio=0.028511659415311807, diffPixels=23906
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/content-type-000-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5061] [WPT reftest] css/CSS2/syntax/core-syntax-001.xht
+- [5062] [WPT reftest] css/CSS2/syntax/core-syntax-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/core-syntax-001-ref.xht (==)
@@ -9392,13 +9396,7 @@
   stable page 1: diffRatio=0.00034109991603694376, diffPixels=286
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/core-syntax-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5065] [WPT reftest] css/CSS2/syntax/core-syntax-009.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/core-syntax-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/core-syntax-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [5083] [WPT reftest] css/CSS2/syntax/declarations-009.xht
+- [5084] [WPT reftest] css/CSS2/syntax/declarations-009.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/declarations-009-ref.xht (==)
@@ -9411,7 +9409,7 @@
   stable page 1: diffRatio=0.0023447637584917184, diffPixels=1966
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/declarations-009-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5086] [WPT reftest] css/CSS2/syntax/eof-003.xht
+- [5087] [WPT reftest] css/CSS2/syntax/eof-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9424,7 +9422,7 @@
   stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5087] [WPT reftest] css/CSS2/syntax/eof-004.xht
+- [5088] [WPT reftest] css/CSS2/syntax/eof-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9437,7 +9435,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5088] [WPT reftest] css/CSS2/syntax/eof-005.xht
+- [5089] [WPT reftest] css/CSS2/syntax/eof-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9450,7 +9448,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5092] [WPT reftest] css/CSS2/syntax/escaped-ident-002.xht
+- [5093] [WPT reftest] css/CSS2/syntax/escaped-ident-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9463,7 +9461,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5102] [WPT reftest] css/CSS2/syntax/escaped-ident-spaces-007.xht
+- [5103] [WPT reftest] css/CSS2/syntax/escaped-ident-spaces-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9476,7 +9474,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5103] [WPT reftest] css/CSS2/syntax/escaped-newline-001.xht
+- [5104] [WPT reftest] css/CSS2/syntax/escaped-newline-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/escaped-newline-001-ref.xht (==)
@@ -9489,7 +9487,7 @@
   stable page 1: diffRatio=0.0003482558583314251, diffPixels=292
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/escaped-newline-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5104] [WPT reftest] css/CSS2/syntax/escaped-url-001.xht
+- [5105] [WPT reftest] css/CSS2/syntax/escaped-url-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/escaped-url-001-ref.xht (==)
@@ -9502,7 +9500,7 @@
   stable page 1: diffRatio=0.0015266010228226852, diffPixels=1280
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/escaped-url-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5105] [WPT reftest] css/CSS2/syntax/escapes-000.xht
+- [5106] [WPT reftest] css/CSS2/syntax/escapes-000.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/escapes-000-ref.xht (==)
@@ -9515,7 +9513,7 @@
   stable page 1: diffRatio=0.0007585298832150217, diffPixels=636
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/escapes-000-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5119] [WPT reftest] css/CSS2/syntax/escapes-014.xht
+- [5120] [WPT reftest] css/CSS2/syntax/escapes-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -9528,7 +9526,7 @@
   stable page 1: diffRatio=0.014098398977177315, diffPixels=11821
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5120] [WPT reftest] css/CSS2/syntax/escapes-015.xht
+- [5121] [WPT reftest] css/CSS2/syntax/escapes-015.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-if-there-is-no-red.xht (==)
@@ -9541,7 +9539,7 @@
   stable page 1: diffRatio=0.0019285264483627205, diffPixels=1617
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-if-there-is-no-red.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5121] [WPT reftest] css/CSS2/syntax/escapes-016.xht
+- [5122] [WPT reftest] css/CSS2/syntax/escapes-016.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-if-there-is-no-red.xht (==)
@@ -9554,7 +9552,7 @@
   stable page 1: diffRatio=0.003976318601633463, diffPixels=3334
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-if-there-is-no-red.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5125] [WPT reftest] css/CSS2/syntax/ident-003.xht
+- [5126] [WPT reftest] css/CSS2/syntax/ident-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/ident-003-ref.xht (==)
@@ -9567,7 +9565,7 @@
   stable page 1: diffRatio=0.0006965117166628502, diffPixels=584
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/ident-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5130] [WPT reftest] css/CSS2/syntax/ident-008.xht
+- [5131] [WPT reftest] css/CSS2/syntax/ident-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/ident-000-ref.xht (==)
@@ -9580,7 +9578,7 @@
   stable page 1: diffRatio=0.0003482558583314251, diffPixels=292
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/ident-000-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5149] [WPT reftest] css/CSS2/syntax/import-000.xht
+- [5150] [WPT reftest] css/CSS2/syntax/import-000.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-this-text-should-be-green.xht (==)
@@ -9593,7 +9591,7 @@
   stable page 1: diffRatio=0.0004257785665216396, diffPixels=357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-this-text-should-be-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5150] [WPT reftest] css/CSS2/syntax/import-001.xht
+- [5151] [WPT reftest] css/CSS2/syntax/import-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-this-text-should-be-green.xht (==)
@@ -9606,7 +9604,7 @@
   stable page 1: diffRatio=0.0004257785665216396, diffPixels=357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-this-text-should-be-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5152] [WPT reftest] css/CSS2/syntax/invalid-decl-at-rule-001.xht
+- [5153] [WPT reftest] css/CSS2/syntax/invalid-decl-at-rule-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9619,7 +9617,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5153] [WPT reftest] css/CSS2/syntax/invalid-decl-at-rule-002.xht
+- [5154] [WPT reftest] css/CSS2/syntax/invalid-decl-at-rule-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9632,7 +9630,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5163] [WPT reftest] css/CSS2/syntax/malformed-decl-008.xht
+- [5164] [WPT reftest] css/CSS2/syntax/malformed-decl-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9645,7 +9643,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5165] [WPT reftest] css/CSS2/syntax/matching-brackets-001.xht
+- [5166] [WPT reftest] css/CSS2/syntax/matching-brackets-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/matching-brackets-001-ref.xht (==)
@@ -9658,7 +9656,7 @@
   stable page 1: diffRatio=0.00048302610487749027, diffPixels=405
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/matching-brackets-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5175] [WPT reftest] css/CSS2/syntax/sgml-comments-000.xht
+- [5176] [WPT reftest] css/CSS2/syntax/sgml-comments-000.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-this-text-should-be-green.xht (==)
@@ -9671,7 +9669,7 @@
   stable page 1: diffRatio=0.0004257785665216396, diffPixels=357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-this-text-should-be-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5176] [WPT reftest] css/CSS2/syntax/sgml-comments-001.xht
+- [5177] [WPT reftest] css/CSS2/syntax/sgml-comments-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/filler-text-below-green.xht (==)
@@ -9684,7 +9682,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/filler-text-below-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5177] [WPT reftest] css/CSS2/syntax/sgml-comments-002.xht
+- [5178] [WPT reftest] css/CSS2/syntax/sgml-comments-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/sgml-comments-002-ref.xht (==)
@@ -9697,7 +9695,7 @@
   stable page 1: diffRatio=0.001144950767117014, diffPixels=960
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/sgml-comments-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5180] [WPT reftest] css/CSS2/syntax/square-brackets-001.xht
+- [5181] [WPT reftest] css/CSS2/syntax/square-brackets-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-this-text-should-be-green.xht (==)
@@ -9710,7 +9708,7 @@
   stable page 1: diffRatio=0.0004257785665216396, diffPixels=357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-this-text-should-be-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5181] [WPT reftest] css/CSS2/syntax/strings-000.xht
+- [5182] [WPT reftest] css/CSS2/syntax/strings-000.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-this-text-should-be-green.xht (==)
@@ -9723,7 +9721,7 @@
   stable page 1: diffRatio=0.0004257785665216396, diffPixels=357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-this-text-should-be-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5195] [WPT reftest] css/CSS2/syntax/uri-013.xht
+- [5196] [WPT reftest] css/CSS2/syntax/uri-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/syntax/uri-013-ref.xht (==)
@@ -9736,7 +9734,7 @@
   stable page 1: diffRatio=0.04135419051980765, diffPixels=34674
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/syntax/uri-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5197] [WPT reftest] css/CSS2/syntax/uri-015.xht
+- [5198] [WPT reftest] css/CSS2/syntax/uri-015.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-green-background.xht (==)
@@ -9749,20 +9747,20 @@
   stable page 1: diffRatio=0.013622528814594305, diffPixels=11422
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-green-background.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5207] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-001.xht
+- [5208] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-cell-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007990802228837493, diffPixels=670
+  canary page 1: diffRatio=0.0015981604457674986, diffPixels=1340
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007990802228837493, diffPixels=670
+  stable page 1: diffRatio=0.0015981604457674986, diffPixels=1340
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5208] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-002.xht
+- [5209] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-cell-002-ref.xht (==)
@@ -9775,7 +9773,7 @@
   stable page 1: diffRatio=0.0018104534005037784, diffPixels=1518
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5209] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-003.xht
+- [5210] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-cell-003-ref.xht (==)
@@ -9788,33 +9786,33 @@
   stable page 1: diffRatio=0.009163184108083353, diffPixels=7683
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5210] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-004.xht
+- [5211] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-cell-004-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0019440309900007632, diffPixels=1630
+  canary page 1: diffRatio=0.0033155865964430197, diffPixels=2780
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0019440309900007632, diffPixels=1630
+  stable page 1: diffRatio=0.0033155865964430197, diffPixels=2780
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5211] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-005.xht
+- [5212] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-cell-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-cell-005-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018605449965651477, diffPixels=1560
+  canary page 1: diffRatio=0.003124761468590184, diffPixels=2620
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-005-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018605449965651477, diffPixels=1560
+  stable page 1: diffRatio=0.003124761468590184, diffPixels=2620
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-cell-005-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5212] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-colgroup-001.xht
+- [5213] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-colgroup-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-colgroup-001-ref.xht (==)
@@ -9827,7 +9825,7 @@
   stable page 1: diffRatio=0.003489714525608732, diffPixels=2926
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5213] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-colgroup-002.xht
+- [5214] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-colgroup-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-colgroup-002-ref.xht (==)
@@ -9840,20 +9838,20 @@
   stable page 1: diffRatio=0.00995272307457446, diffPixels=8345
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5214] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-colgroup-003.xht
+- [5215] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-colgroup-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-colgroup-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001562380734295092, diffPixels=1310
+  canary page 1: diffRatio=0.003124761468590184, diffPixels=2620
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001562380734295092, diffPixels=1310
+  stable page 1: diffRatio=0.003124761468590184, diffPixels=2620
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5215] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-column-001.xht
+- [5216] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-column-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-colgroup-001-ref.xht (==)
@@ -9866,7 +9864,7 @@
   stable page 1: diffRatio=0.003489714525608732, diffPixels=2926
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5216] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-column-002.xht
+- [5217] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-column-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-colgroup-002-ref.xht (==)
@@ -9879,20 +9877,20 @@
   stable page 1: diffRatio=0.00995272307457446, diffPixels=8345
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5217] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-column-003.xht
+- [5218] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-column-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-colgroup-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-column-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001562380734295092, diffPixels=1310
+  canary page 1: diffRatio=0.003124761468590184, diffPixels=2620
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-column-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001562380734295092, diffPixels=1310
+  stable page 1: diffRatio=0.003124761468590184, diffPixels=2620
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-colgroup-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5218] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-row-001.xht
+- [5219] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-row-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-rowgroup-001-ref.xht (==)
@@ -9905,7 +9903,7 @@
   stable page 1: diffRatio=0.0076699774826349135, diffPixels=6431
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5219] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-row-002.xht
+- [5220] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-row-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-rowgroup-002-ref.xht (==)
@@ -9918,20 +9916,20 @@
   stable page 1: diffRatio=0.010310520189298527, diffPixels=8645
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5220] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-row-003.xht
+- [5221] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-row-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-rowgroup-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-row-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006272183421112893, diffPixels=5259
+  canary page 1: diffRatio=0.007578142889855736, diffPixels=6354
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-row-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006272183421112893, diffPixels=5259
+  stable page 1: diffRatio=0.007578142889855736, diffPixels=6354
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5221] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-rowgroup-001.xht
+- [5222] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-rowgroup-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-rowgroup-001-ref.xht (==)
@@ -9944,7 +9942,7 @@
   stable page 1: diffRatio=0.00390952980688497, diffPixels=3278
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5222] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-rowgroup-002.xht
+- [5223] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-rowgroup-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-rowgroup-002-ref.xht (==)
@@ -9957,20 +9955,20 @@
   stable page 1: diffRatio=0.009866851767040684, diffPixels=8273
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5223] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-rowgroup-003.xht
+- [5224] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-rowgroup-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-rowgroup-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017532058621479276, diffPixels=1470
+  canary page 1: diffRatio=0.003506411724295855, diffPixels=2940
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017532058621479276, diffPixels=1470
+  stable page 1: diffRatio=0.003506411724295855, diffPixels=2940
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-rowgroup-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5224] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-table-001.xht
+- [5225] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-table-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-table-001-ref.xht (==)
@@ -9983,7 +9981,7 @@
   stable page 1: diffRatio=0.010729142813525685, diffPixels=8996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-table-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5225] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-table-002.xht
+- [5226] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-table-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-table-002-ref.xht (==)
@@ -9996,20 +9994,20 @@
   stable page 1: diffRatio=0.008300893061598352, diffPixels=6960
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-table-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5226] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-table-003.xht
+- [5227] [WPT reftest] css/CSS2/tables/border-collapse-dynamic-table-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-dynamic-table-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-table-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002397240668651248, diffPixels=2010
+  canary page 1: diffRatio=0.004794481337302496, diffPixels=4020
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-table-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-table-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002397240668651248, diffPixels=2010
+  stable page 1: diffRatio=0.004794481337302496, diffPixels=4020
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-dynamic-table-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5228] [WPT reftest] css/CSS2/tables/border-collapse-offset-001.xht
+- [5229] [WPT reftest] css/CSS2/tables/border-collapse-offset-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-offset-001-ref.xht (==)
@@ -10022,7 +10020,7 @@
   stable page 1: diffRatio=0.0027466891840317535, diffPixels=2303
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-offset-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5229] [WPT reftest] css/CSS2/tables/border-collapse-offset-002.xht
+- [5230] [WPT reftest] css/CSS2/tables/border-collapse-offset-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-collapse-offset-002-ref.xht (==)
@@ -10035,7 +10033,7 @@
   stable page 1: diffRatio=0.0021169662621173956, diffPixels=1775
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-collapse-offset-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5236] [WPT reftest] css/CSS2/tables/border-conflict-element-001e.xht
+- [5237] [WPT reftest] css/CSS2/tables/border-conflict-element-001e.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/border-conflict-element-001e-ref.xht (==)
@@ -10048,7 +10046,7 @@
   stable page 1: diffRatio=0.040073276849095486, diffPixels=33600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/border-conflict-element-001e-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5246] [WPT reftest] css/CSS2/tables/caption-side-applies-to-007.xht
+- [5247] [WPT reftest] css/CSS2/tables/caption-side-applies-to-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/caption-side-applies-to-006-ref.html (==)
@@ -10061,7 +10059,7 @@
   stable page 1: diffRatio=0.006724200442714296, diffPixels=5638
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/caption-side-applies-to-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5264] [WPT reftest] css/CSS2/tables/collapsing-border-model-010b.xht
+- [5265] [WPT reftest] css/CSS2/tables/collapsing-border-model-010b.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -10074,7 +10072,7 @@
   stable page 1: diffRatio=0.0019082512785283565, diffPixels=1600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5269] [WPT reftest] css/CSS2/tables/column-visibility-004.xht
+- [5270] [WPT reftest] css/CSS2/tables/column-visibility-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/column-visibility-004-ref.xht (==)
@@ -10087,7 +10085,7 @@
   stable page 1: diffRatio=0.023495343866880392, diffPixels=19700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/column-visibility-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5276] [WPT reftest] css/CSS2/tables/empty-cells-applies-to-014.xht
+- [5277] [WPT reftest] css/CSS2/tables/empty-cells-applies-to-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/no-red-on-blank-page-ref.xht (==)
@@ -10100,7 +10098,7 @@
   stable page 1: diffRatio=0.0017973341729638959, diffPixels=1507
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/no-red-on-blank-page-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5364] [WPT reftest] css/CSS2/tables/separated-border-model-004a.xht
+- [5365] [WPT reftest] css/CSS2/tables/separated-border-model-004a.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -10113,7 +10111,7 @@
   stable page 1: diffRatio=0.0005963285245401115, diffPixels=500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5365] [WPT reftest] css/CSS2/tables/separated-border-model-004b.xht
+- [5366] [WPT reftest] css/CSS2/tables/separated-border-model-004b.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -10126,7 +10124,7 @@
   stable page 1: diffRatio=0.0005963285245401115, diffPixels=500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5366] [WPT reftest] css/CSS2/tables/separated-border-model-004c.xht
+- [5367] [WPT reftest] css/CSS2/tables/separated-border-model-004c.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -10139,7 +10137,7 @@
   stable page 1: diffRatio=0.005247691015952981, diffPixels=4400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5367] [WPT reftest] css/CSS2/tables/separated-border-model-004d.xht
+- [5368] [WPT reftest] css/CSS2/tables/separated-border-model-004d.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/separated-border-model-004d-ref.xht (==)
@@ -10152,7 +10150,7 @@
   stable page 1: diffRatio=0.0019082512785283565, diffPixels=1600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/separated-border-model-004d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5369] [WPT reftest] css/CSS2/tables/separated-border-model-007.xht
+- [5370] [WPT reftest] css/CSS2/tables/separated-border-model-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/separated-border-model-007-ref.xht (==)
@@ -10165,7 +10163,7 @@
   stable page 1: diffRatio=0.0021467826883444013, diffPixels=1800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/separated-border-model-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5370] [WPT reftest] css/CSS2/tables/separated-border-model-008.xht
+- [5371] [WPT reftest] css/CSS2/tables/separated-border-model-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/separated-border-model-007-ref.xht (==)
@@ -10178,7 +10176,7 @@
   stable page 1: diffRatio=0.0021467826883444013, diffPixels=1800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/separated-border-model-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5371] [WPT reftest] css/CSS2/tables/separated-border-model-009.xht
+- [5372] [WPT reftest] css/CSS2/tables/separated-border-model-009.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/separated-border-model-007-ref.xht (==)
@@ -10191,7 +10189,7 @@
   stable page 1: diffRatio=0.0021467826883444013, diffPixels=1800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/separated-border-model-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5372] [WPT reftest] css/CSS2/tables/table-anonymous-border-spacing.xht
+- [5373] [WPT reftest] css/CSS2/tables/table-anonymous-border-spacing.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/table-anonymous-border-spacing-ref.xht (==)
@@ -10204,7 +10202,7 @@
   stable page 1: diffRatio=0.0014955919395465995, diffPixels=1254
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/table-anonymous-border-spacing-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5373] [WPT reftest] css/CSS2/tables/table-anonymous-objects-009.xht
+- [5374] [WPT reftest] css/CSS2/tables/table-anonymous-objects-009.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -10217,7 +10215,7 @@
   stable page 1: diffRatio=0.00005605488130677048, diffPixels=47
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5374] [WPT reftest] css/CSS2/tables/table-anonymous-objects-010.xht
+- [5375] [WPT reftest] css/CSS2/tables/table-anonymous-objects-010.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -10230,7 +10228,7 @@
   stable page 1: diffRatio=0.00027788909243569194, diffPixels=233
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5377] [WPT reftest] css/CSS2/tables/table-anonymous-objects-015.xht
+- [5378] [WPT reftest] css/CSS2/tables/table-anonymous-objects-015.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -10243,7 +10241,7 @@
   stable page 1: diffRatio=0.0001622013586749103, diffPixels=136
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5378] [WPT reftest] css/CSS2/tables/table-anonymous-objects-016.xht
+- [5379] [WPT reftest] css/CSS2/tables/table-anonymous-objects-016.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -10256,7 +10254,7 @@
   stable page 1: diffRatio=0.0003244027173498206, diffPixels=272
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5383] [WPT reftest] css/CSS2/tables/table-anonymous-objects-059.xht
+- [5384] [WPT reftest] css/CSS2/tables/table-anonymous-objects-059.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10269,7 +10267,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5384] [WPT reftest] css/CSS2/tables/table-anonymous-objects-060.xht
+- [5385] [WPT reftest] css/CSS2/tables/table-anonymous-objects-060.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10282,7 +10280,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5385] [WPT reftest] css/CSS2/tables/table-anonymous-objects-061.xht
+- [5386] [WPT reftest] css/CSS2/tables/table-anonymous-objects-061.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10295,7 +10293,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5386] [WPT reftest] css/CSS2/tables/table-anonymous-objects-062.xht
+- [5387] [WPT reftest] css/CSS2/tables/table-anonymous-objects-062.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10308,7 +10306,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5387] [WPT reftest] css/CSS2/tables/table-anonymous-objects-063.xht
+- [5388] [WPT reftest] css/CSS2/tables/table-anonymous-objects-063.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10321,7 +10319,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5388] [WPT reftest] css/CSS2/tables/table-anonymous-objects-064.xht
+- [5389] [WPT reftest] css/CSS2/tables/table-anonymous-objects-064.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10334,7 +10332,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5389] [WPT reftest] css/CSS2/tables/table-anonymous-objects-065.xht
+- [5390] [WPT reftest] css/CSS2/tables/table-anonymous-objects-065.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10347,7 +10345,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5390] [WPT reftest] css/CSS2/tables/table-anonymous-objects-066.xht
+- [5391] [WPT reftest] css/CSS2/tables/table-anonymous-objects-066.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10360,7 +10358,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5391] [WPT reftest] css/CSS2/tables/table-anonymous-objects-067.xht
+- [5392] [WPT reftest] css/CSS2/tables/table-anonymous-objects-067.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10373,7 +10371,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5392] [WPT reftest] css/CSS2/tables/table-anonymous-objects-068.xht
+- [5393] [WPT reftest] css/CSS2/tables/table-anonymous-objects-068.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10386,7 +10384,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5393] [WPT reftest] css/CSS2/tables/table-anonymous-objects-069.xht
+- [5394] [WPT reftest] css/CSS2/tables/table-anonymous-objects-069.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10399,7 +10397,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5394] [WPT reftest] css/CSS2/tables/table-anonymous-objects-070.xht
+- [5395] [WPT reftest] css/CSS2/tables/table-anonymous-objects-070.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10412,7 +10410,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5395] [WPT reftest] css/CSS2/tables/table-anonymous-objects-071.xht
+- [5396] [WPT reftest] css/CSS2/tables/table-anonymous-objects-071.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10425,7 +10423,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5396] [WPT reftest] css/CSS2/tables/table-anonymous-objects-072.xht
+- [5397] [WPT reftest] css/CSS2/tables/table-anonymous-objects-072.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10438,7 +10436,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5397] [WPT reftest] css/CSS2/tables/table-anonymous-objects-073.xht
+- [5398] [WPT reftest] css/CSS2/tables/table-anonymous-objects-073.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10451,7 +10449,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5398] [WPT reftest] css/CSS2/tables/table-anonymous-objects-074.xht
+- [5399] [WPT reftest] css/CSS2/tables/table-anonymous-objects-074.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10464,7 +10462,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5399] [WPT reftest] css/CSS2/tables/table-anonymous-objects-075.xht
+- [5400] [WPT reftest] css/CSS2/tables/table-anonymous-objects-075.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10477,7 +10475,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5400] [WPT reftest] css/CSS2/tables/table-anonymous-objects-076.xht
+- [5401] [WPT reftest] css/CSS2/tables/table-anonymous-objects-076.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10490,7 +10488,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5401] [WPT reftest] css/CSS2/tables/table-anonymous-objects-077.xht
+- [5402] [WPT reftest] css/CSS2/tables/table-anonymous-objects-077.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10503,7 +10501,7 @@
   stable page 1: diffRatio=0.010630152278452027, diffPixels=8913
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5402] [WPT reftest] css/CSS2/tables/table-anonymous-objects-078.xht
+- [5403] [WPT reftest] css/CSS2/tables/table-anonymous-objects-078.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10516,7 +10514,7 @@
   stable page 1: diffRatio=0.0047563163117319285, diffPixels=3988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5403] [WPT reftest] css/CSS2/tables/table-anonymous-objects-079.xht
+- [5404] [WPT reftest] css/CSS2/tables/table-anonymous-objects-079.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -10529,7 +10527,7 @@
   stable page 1: diffRatio=0.017886277765056104, diffPixels=14997
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5404] [WPT reftest] css/CSS2/tables/table-anonymous-objects-080.xht
+- [5405] [WPT reftest] css/CSS2/tables/table-anonymous-objects-080.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -10542,7 +10540,7 @@
   stable page 1: diffRatio=0.0191588428364247, diffPixels=16064
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5405] [WPT reftest] css/CSS2/tables/table-anonymous-objects-081.xht
+- [5406] [WPT reftest] css/CSS2/tables/table-anonymous-objects-081.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -10555,7 +10553,7 @@
   stable page 1: diffRatio=0.019167191435768262, diffPixels=16071
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5406] [WPT reftest] css/CSS2/tables/table-anonymous-objects-082.xht
+- [5407] [WPT reftest] css/CSS2/tables/table-anonymous-objects-082.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -10568,7 +10566,7 @@
   stable page 1: diffRatio=0.01792444279062667, diffPixels=15029
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5407] [WPT reftest] css/CSS2/tables/table-anonymous-objects-083.xht
+- [5408] [WPT reftest] css/CSS2/tables/table-anonymous-objects-083.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -10581,7 +10579,7 @@
   stable page 1: diffRatio=0.019167191435768262, diffPixels=16071
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5408] [WPT reftest] css/CSS2/tables/table-anonymous-objects-084.xht
+- [5409] [WPT reftest] css/CSS2/tables/table-anonymous-objects-084.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -10594,7 +10592,7 @@
   stable page 1: diffRatio=0.01792444279062667, diffPixels=15029
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5409] [WPT reftest] css/CSS2/tables/table-anonymous-objects-085.xht
+- [5410] [WPT reftest] css/CSS2/tables/table-anonymous-objects-085.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -10607,7 +10605,7 @@
   stable page 1: diffRatio=0.018799853064651553, diffPixels=15763
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5410] [WPT reftest] css/CSS2/tables/table-anonymous-objects-086.xht
+- [5411] [WPT reftest] css/CSS2/tables/table-anonymous-objects-086.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -10620,7 +10618,7 @@
   stable page 1: diffRatio=0.017044261888405465, diffPixels=14291
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5411] [WPT reftest] css/CSS2/tables/table-anonymous-objects-087.xht
+- [5412] [WPT reftest] css/CSS2/tables/table-anonymous-objects-087.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10633,7 +10631,7 @@
   stable page 1: diffRatio=0.010631344935501106, diffPixels=8914
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5412] [WPT reftest] css/CSS2/tables/table-anonymous-objects-088.xht
+- [5413] [WPT reftest] css/CSS2/tables/table-anonymous-objects-088.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10646,7 +10644,7 @@
   stable page 1: diffRatio=0.004765857568124571, diffPixels=3996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5413] [WPT reftest] css/CSS2/tables/table-anonymous-objects-089.xht
+- [5414] [WPT reftest] css/CSS2/tables/table-anonymous-objects-089.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10659,7 +10657,7 @@
   stable page 1: diffRatio=0.010631344935501106, diffPixels=8914
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5414] [WPT reftest] css/CSS2/tables/table-anonymous-objects-090.xht
+- [5415] [WPT reftest] css/CSS2/tables/table-anonymous-objects-090.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10672,7 +10670,7 @@
   stable page 1: diffRatio=0.004765857568124571, diffPixels=3996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5415] [WPT reftest] css/CSS2/tables/table-anonymous-objects-091.xht
+- [5416] [WPT reftest] css/CSS2/tables/table-anonymous-objects-091.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10685,7 +10683,7 @@
   stable page 1: diffRatio=0.010631344935501106, diffPixels=8914
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5416] [WPT reftest] css/CSS2/tables/table-anonymous-objects-092.xht
+- [5417] [WPT reftest] css/CSS2/tables/table-anonymous-objects-092.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10698,7 +10696,7 @@
   stable page 1: diffRatio=0.004765857568124571, diffPixels=3996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5417] [WPT reftest] css/CSS2/tables/table-anonymous-objects-093.xht
+- [5418] [WPT reftest] css/CSS2/tables/table-anonymous-objects-093.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht (==)
@@ -10711,7 +10709,7 @@
   stable page 1: diffRatio=0.01060033585222502, diffPixels=8888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5418] [WPT reftest] css/CSS2/tables/table-anonymous-objects-094.xht
+- [5419] [WPT reftest] css/CSS2/tables/table-anonymous-objects-094.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht (==)
@@ -10724,7 +10722,7 @@
   stable page 1: diffRatio=0.015864724066865125, diffPixels=13302
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5419] [WPT reftest] css/CSS2/tables/table-anonymous-objects-095.xht
+- [5420] [WPT reftest] css/CSS2/tables/table-anonymous-objects-095.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht (==)
@@ -10737,7 +10735,7 @@
   stable page 1: diffRatio=0.01060033585222502, diffPixels=8888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5420] [WPT reftest] css/CSS2/tables/table-anonymous-objects-096.xht
+- [5421] [WPT reftest] css/CSS2/tables/table-anonymous-objects-096.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht (==)
@@ -10750,7 +10748,7 @@
   stable page 1: diffRatio=0.015864724066865125, diffPixels=13302
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5421] [WPT reftest] css/CSS2/tables/table-anonymous-objects-097.xht
+- [5422] [WPT reftest] css/CSS2/tables/table-anonymous-objects-097.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht (==)
@@ -10763,7 +10761,7 @@
   stable page 1: diffRatio=0.01060033585222502, diffPixels=8888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5422] [WPT reftest] css/CSS2/tables/table-anonymous-objects-098.xht
+- [5423] [WPT reftest] css/CSS2/tables/table-anonymous-objects-098.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht (==)
@@ -10776,7 +10774,7 @@
   stable page 1: diffRatio=0.015864724066865125, diffPixels=13302
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_colored_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5423] [WPT reftest] css/CSS2/tables/table-anonymous-objects-099.xht
+- [5424] [WPT reftest] css/CSS2/tables/table-anonymous-objects-099.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10789,7 +10787,7 @@
   stable page 1: diffRatio=0.015696559422944813, diffPixels=13161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5424] [WPT reftest] css/CSS2/tables/table-anonymous-objects-100.xht
+- [5425] [WPT reftest] css/CSS2/tables/table-anonymous-objects-100.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10802,7 +10800,7 @@
   stable page 1: diffRatio=0.014440691550263339, diffPixels=12108
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5425] [WPT reftest] css/CSS2/tables/table-anonymous-objects-101.xht
+- [5426] [WPT reftest] css/CSS2/tables/table-anonymous-objects-101.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10815,7 +10813,7 @@
   stable page 1: diffRatio=0.015696559422944813, diffPixels=13161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5426] [WPT reftest] css/CSS2/tables/table-anonymous-objects-102.xht
+- [5427] [WPT reftest] css/CSS2/tables/table-anonymous-objects-102.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10828,7 +10826,7 @@
   stable page 1: diffRatio=0.014440691550263339, diffPixels=12108
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5427] [WPT reftest] css/CSS2/tables/table-anonymous-objects-103.xht
+- [5428] [WPT reftest] css/CSS2/tables/table-anonymous-objects-103.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10841,7 +10839,7 @@
   stable page 1: diffRatio=0.01744737997099458, diffPixels=14629
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5428] [WPT reftest] css/CSS2/tables/table-anonymous-objects-104.xht
+- [5429] [WPT reftest] css/CSS2/tables/table-anonymous-objects-104.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10854,7 +10852,7 @@
   stable page 1: diffRatio=0.0174461873139455, diffPixels=14628
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5429] [WPT reftest] css/CSS2/tables/table-anonymous-objects-105.xht
+- [5430] [WPT reftest] css/CSS2/tables/table-anonymous-objects-105.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10867,7 +10865,7 @@
   stable page 1: diffRatio=0.015696559422944813, diffPixels=13161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5430] [WPT reftest] css/CSS2/tables/table-anonymous-objects-106.xht
+- [5431] [WPT reftest] css/CSS2/tables/table-anonymous-objects-106.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10880,7 +10878,7 @@
   stable page 1: diffRatio=0.014440691550263339, diffPixels=12108
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5431] [WPT reftest] css/CSS2/tables/table-anonymous-objects-107.xht
+- [5432] [WPT reftest] css/CSS2/tables/table-anonymous-objects-107.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10893,7 +10891,7 @@
   stable page 1: diffRatio=0.015696559422944813, diffPixels=13161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5432] [WPT reftest] css/CSS2/tables/table-anonymous-objects-108.xht
+- [5433] [WPT reftest] css/CSS2/tables/table-anonymous-objects-108.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10906,7 +10904,7 @@
   stable page 1: diffRatio=0.014440691550263339, diffPixels=12108
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5433] [WPT reftest] css/CSS2/tables/table-anonymous-objects-109.xht
+- [5434] [WPT reftest] css/CSS2/tables/table-anonymous-objects-109.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10919,7 +10917,7 @@
   stable page 1: diffRatio=0.01524454240134341, diffPixels=12782
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5434] [WPT reftest] css/CSS2/tables/table-anonymous-objects-110.xht
+- [5435] [WPT reftest] css/CSS2/tables/table-anonymous-objects-110.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10932,7 +10930,7 @@
   stable page 1: diffRatio=0.014247481108312343, diffPixels=11946
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5435] [WPT reftest] css/CSS2/tables/table-anonymous-objects-111.xht
+- [5436] [WPT reftest] css/CSS2/tables/table-anonymous-objects-111.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10945,7 +10943,7 @@
   stable page 1: diffRatio=0.01524454240134341, diffPixels=12782
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5436] [WPT reftest] css/CSS2/tables/table-anonymous-objects-112.xht
+- [5437] [WPT reftest] css/CSS2/tables/table-anonymous-objects-112.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10958,7 +10956,7 @@
   stable page 1: diffRatio=0.014247481108312343, diffPixels=11946
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5437] [WPT reftest] css/CSS2/tables/table-anonymous-objects-113.xht
+- [5438] [WPT reftest] css/CSS2/tables/table-anonymous-objects-113.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10971,7 +10969,7 @@
   stable page 1: diffRatio=0.017470040454927106, diffPixels=14648
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5438] [WPT reftest] css/CSS2/tables/table-anonymous-objects-114.xht
+- [5439] [WPT reftest] css/CSS2/tables/table-anonymous-objects-114.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -10984,7 +10982,7 @@
   stable page 1: diffRatio=0.01815701091519731, diffPixels=15224
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5439] [WPT reftest] css/CSS2/tables/table-anonymous-objects-115.xht
+- [5440] [WPT reftest] css/CSS2/tables/table-anonymous-objects-115.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11002,7 +11000,7 @@
   stable page 1 (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): diffRatio=0.0001622013586749103, diffPixels=136
   stable reference render (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5440] [WPT reftest] css/CSS2/tables/table-anonymous-objects-116.xht
+- [5441] [WPT reftest] css/CSS2/tables/table-anonymous-objects-116.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11020,7 +11018,7 @@
   stable page 1 (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): diffRatio=0.0003244027173498206, diffPixels=272
   stable reference render (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5441] [WPT reftest] css/CSS2/tables/table-anonymous-objects-117.xht
+- [5442] [WPT reftest] css/CSS2/tables/table-anonymous-objects-117.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11038,7 +11036,7 @@
   stable page 1 (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): diffRatio=0.0001777059003129532, diffPixels=149
   stable reference render (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5442] [WPT reftest] css/CSS2/tables/table-anonymous-objects-118.xht
+- [5443] [WPT reftest] css/CSS2/tables/table-anonymous-objects-118.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11056,7 +11054,7 @@
   stable page 1 (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): diffRatio=0.00036614571406762844, diffPixels=307
   stable reference render (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5443] [WPT reftest] css/CSS2/tables/table-anonymous-objects-119.xht
+- [5444] [WPT reftest] css/CSS2/tables/table-anonymous-objects-119.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11074,7 +11072,7 @@
   stable page 1 (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): diffRatio=0.0001777059003129532, diffPixels=149
   stable reference render (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5444] [WPT reftest] css/CSS2/tables/table-anonymous-objects-120.xht
+- [5445] [WPT reftest] css/CSS2/tables/table-anonymous-objects-120.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11092,7 +11090,7 @@
   stable page 1 (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): diffRatio=0.00036614571406762844, diffPixels=307
   stable reference render (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5445] [WPT reftest] css/CSS2/tables/table-anonymous-objects-121.xht
+- [5446] [WPT reftest] css/CSS2/tables/table-anonymous-objects-121.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11110,7 +11108,7 @@
   stable page 1 (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): diffRatio=0.0001622013586749103, diffPixels=136
   stable reference render (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5446] [WPT reftest] css/CSS2/tables/table-anonymous-objects-122.xht
+- [5447] [WPT reftest] css/CSS2/tables/table-anonymous-objects-122.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11128,7 +11126,7 @@
   stable page 1 (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): diffRatio=0.0003244027173498206, diffPixels=272
   stable reference render (css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5447] [WPT reftest] css/CSS2/tables/table-anonymous-objects-123.xht
+- [5448] [WPT reftest] css/CSS2/tables/table-anonymous-objects-123.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11141,7 +11139,7 @@
   stable page 1: diffRatio=0.01600784291275475, diffPixels=13422
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5448] [WPT reftest] css/CSS2/tables/table-anonymous-objects-124.xht
+- [5449] [WPT reftest] css/CSS2/tables/table-anonymous-objects-124.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11154,7 +11152,7 @@
   stable page 1: diffRatio=0.014893901228913823, diffPixels=12488
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5449] [WPT reftest] css/CSS2/tables/table-anonymous-objects-125.xht
+- [5450] [WPT reftest] css/CSS2/tables/table-anonymous-objects-125.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11167,7 +11165,7 @@
   stable page 1: diffRatio=0.013098952370048088, diffPixels=10983
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5450] [WPT reftest] css/CSS2/tables/table-anonymous-objects-126.xht
+- [5451] [WPT reftest] css/CSS2/tables/table-anonymous-objects-126.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11180,7 +11178,7 @@
   stable page 1: diffRatio=0.009193000534310358, diffPixels=7708
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5451] [WPT reftest] css/CSS2/tables/table-anonymous-objects-127.xht
+- [5452] [WPT reftest] css/CSS2/tables/table-anonymous-objects-127.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11193,7 +11191,7 @@
   stable page 1: diffRatio=0.013301704068391726, diffPixels=11153
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5452] [WPT reftest] css/CSS2/tables/table-anonymous-objects-128.xht
+- [5453] [WPT reftest] css/CSS2/tables/table-anonymous-objects-128.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11206,7 +11204,7 @@
   stable page 1: diffRatio=0.009411256774292038, diffPixels=7891
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5453] [WPT reftest] css/CSS2/tables/table-anonymous-objects-129.xht
+- [5454] [WPT reftest] css/CSS2/tables/table-anonymous-objects-129.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11219,7 +11217,7 @@
   stable page 1: diffRatio=0.013301704068391726, diffPixels=11153
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5454] [WPT reftest] css/CSS2/tables/table-anonymous-objects-130.xht
+- [5455] [WPT reftest] css/CSS2/tables/table-anonymous-objects-130.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11232,7 +11230,7 @@
   stable page 1: diffRatio=0.009411256774292038, diffPixels=7891
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5455] [WPT reftest] css/CSS2/tables/table-anonymous-objects-131.xht
+- [5456] [WPT reftest] css/CSS2/tables/table-anonymous-objects-131.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11245,7 +11243,7 @@
   stable page 1: diffRatio=0.016859400045798032, diffPixels=14136
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5456] [WPT reftest] css/CSS2/tables/table-anonymous-objects-132.xht
+- [5457] [WPT reftest] css/CSS2/tables/table-anonymous-objects-132.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11258,7 +11256,7 @@
   stable page 1: diffRatio=0.016518300129761087, diffPixels=13850
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5457] [WPT reftest] css/CSS2/tables/table-anonymous-objects-133.xht
+- [5458] [WPT reftest] css/CSS2/tables/table-anonymous-objects-133.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11271,7 +11269,7 @@
   stable page 1: diffRatio=0.010552629570261813, diffPixels=8848
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5458] [WPT reftest] css/CSS2/tables/table-anonymous-objects-134.xht
+- [5459] [WPT reftest] css/CSS2/tables/table-anonymous-objects-134.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11284,7 +11282,7 @@
   stable page 1: diffRatio=0.0056066807877261276, diffPixels=4701
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5459] [WPT reftest] css/CSS2/tables/table-anonymous-objects-135.xht
+- [5460] [WPT reftest] css/CSS2/tables/table-anonymous-objects-135.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11297,7 +11295,7 @@
   stable page 1: diffRatio=0.014722158613846272, diffPixels=12344
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5460] [WPT reftest] css/CSS2/tables/table-anonymous-objects-136.xht
+- [5461] [WPT reftest] css/CSS2/tables/table-anonymous-objects-136.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11310,7 +11308,7 @@
   stable page 1: diffRatio=0.01359748301656362, diffPixels=11401
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5461] [WPT reftest] css/CSS2/tables/table-anonymous-objects-137.xht
+- [5462] [WPT reftest] css/CSS2/tables/table-anonymous-objects-137.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11323,7 +11321,7 @@
   stable page 1: diffRatio=0.014722158613846272, diffPixels=12344
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5462] [WPT reftest] css/CSS2/tables/table-anonymous-objects-138.xht
+- [5463] [WPT reftest] css/CSS2/tables/table-anonymous-objects-138.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11336,7 +11334,7 @@
   stable page 1: diffRatio=0.01359748301656362, diffPixels=11401
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5463] [WPT reftest] css/CSS2/tables/table-anonymous-objects-139.xht
+- [5464] [WPT reftest] css/CSS2/tables/table-anonymous-objects-139.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11349,7 +11347,7 @@
   stable page 1: diffRatio=0.015087111670864819, diffPixels=12650
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5464] [WPT reftest] css/CSS2/tables/table-anonymous-objects-140.xht
+- [5465] [WPT reftest] css/CSS2/tables/table-anonymous-objects-140.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11362,7 +11360,7 @@
   stable page 1: diffRatio=0.014062619265704908, diffPixels=11791
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5465] [WPT reftest] css/CSS2/tables/table-anonymous-objects-141.xht
+- [5466] [WPT reftest] css/CSS2/tables/table-anonymous-objects-141.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11375,7 +11373,7 @@
   stable page 1: diffRatio=0.014692342187619266, diffPixels=12319
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5466] [WPT reftest] css/CSS2/tables/table-anonymous-objects-142.xht
+- [5467] [WPT reftest] css/CSS2/tables/table-anonymous-objects-142.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11388,7 +11386,7 @@
   stable page 1: diffRatio=0.013559317990993055, diffPixels=11369
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5467] [WPT reftest] css/CSS2/tables/table-anonymous-objects-143.xht
+- [5468] [WPT reftest] css/CSS2/tables/table-anonymous-objects-143.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11401,7 +11399,7 @@
   stable page 1: diffRatio=0.014692342187619266, diffPixels=12319
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5468] [WPT reftest] css/CSS2/tables/table-anonymous-objects-144.xht
+- [5469] [WPT reftest] css/CSS2/tables/table-anonymous-objects-144.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11414,7 +11412,7 @@
   stable page 1: diffRatio=0.013559317990993055, diffPixels=11369
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5469] [WPT reftest] css/CSS2/tables/table-anonymous-objects-145.xht
+- [5470] [WPT reftest] css/CSS2/tables/table-anonymous-objects-145.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11427,7 +11425,7 @@
   stable page 1: diffRatio=0.015531972750171742, diffPixels=13023
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5470] [WPT reftest] css/CSS2/tables/table-anonymous-objects-146.xht
+- [5471] [WPT reftest] css/CSS2/tables/table-anonymous-objects-146.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11440,7 +11438,7 @@
   stable page 1: diffRatio=0.01508949698496298, diffPixels=12652
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5471] [WPT reftest] css/CSS2/tables/table-anonymous-objects-147.xht
+- [5472] [WPT reftest] css/CSS2/tables/table-anonymous-objects-147.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11453,7 +11451,7 @@
   stable page 1: diffRatio=0.015531972750171742, diffPixels=13023
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5472] [WPT reftest] css/CSS2/tables/table-anonymous-objects-148.xht
+- [5473] [WPT reftest] css/CSS2/tables/table-anonymous-objects-148.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11466,7 +11464,7 @@
   stable page 1: diffRatio=0.01508949698496298, diffPixels=12652
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5473] [WPT reftest] css/CSS2/tables/table-anonymous-objects-149.xht
+- [5474] [WPT reftest] css/CSS2/tables/table-anonymous-objects-149.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11479,7 +11477,7 @@
   stable page 1: diffRatio=0.015982797114724067, diffPixels=13401
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5474] [WPT reftest] css/CSS2/tables/table-anonymous-objects-150.xht
+- [5475] [WPT reftest] css/CSS2/tables/table-anonymous-objects-150.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11492,7 +11490,7 @@
   stable page 1: diffRatio=0.016038851996030837, diffPixels=13448
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5475] [WPT reftest] css/CSS2/tables/table-anonymous-objects-151.xht
+- [5476] [WPT reftest] css/CSS2/tables/table-anonymous-objects-151.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11505,7 +11503,7 @@
   stable page 1: diffRatio=0.015065643843981376, diffPixels=12632
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5476] [WPT reftest] css/CSS2/tables/table-anonymous-objects-152.xht
+- [5477] [WPT reftest] css/CSS2/tables/table-anonymous-objects-152.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11518,7 +11516,7 @@
   stable page 1: diffRatio=0.014100784291275476, diffPixels=11823
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5477] [WPT reftest] css/CSS2/tables/table-anonymous-objects-153.xht
+- [5478] [WPT reftest] css/CSS2/tables/table-anonymous-objects-153.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11531,7 +11529,7 @@
   stable page 1: diffRatio=0.015065643843981376, diffPixels=12632
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5478] [WPT reftest] css/CSS2/tables/table-anonymous-objects-154.xht
+- [5479] [WPT reftest] css/CSS2/tables/table-anonymous-objects-154.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11544,7 +11542,7 @@
   stable page 1: diffRatio=0.014100784291275476, diffPixels=11823
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5479] [WPT reftest] css/CSS2/tables/table-anonymous-objects-155.xht
+- [5480] [WPT reftest] css/CSS2/tables/table-anonymous-objects-155.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -11557,7 +11555,7 @@
   stable page 1: diffRatio=0.01476390161056408, diffPixels=12379
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5480] [WPT reftest] css/CSS2/tables/table-anonymous-objects-156.xht
+- [5481] [WPT reftest] css/CSS2/tables/table-anonymous-objects-156.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht (==)
@@ -11570,7 +11568,7 @@
   stable page 1: diffRatio=0.01546756926952141, diffPixels=12969
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_multi_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5481] [WPT reftest] css/CSS2/tables/table-anonymous-objects-157.xht
+- [5482] [WPT reftest] css/CSS2/tables/table-anonymous-objects-157.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11583,7 +11581,7 @@
   stable page 1: diffRatio=0.013098952370048088, diffPixels=10983
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5482] [WPT reftest] css/CSS2/tables/table-anonymous-objects-158.xht
+- [5483] [WPT reftest] css/CSS2/tables/table-anonymous-objects-158.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11596,7 +11594,7 @@
   stable page 1: diffRatio=0.009193000534310358, diffPixels=7708
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5483] [WPT reftest] css/CSS2/tables/table-anonymous-objects-159.xht
+- [5484] [WPT reftest] css/CSS2/tables/table-anonymous-objects-159.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11609,7 +11607,7 @@
   stable page 1: diffRatio=0.016018576826196472, diffPixels=13431
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5484] [WPT reftest] css/CSS2/tables/table-anonymous-objects-160.xht
+- [5485] [WPT reftest] css/CSS2/tables/table-anonymous-objects-160.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11622,7 +11620,7 @@
   stable page 1: diffRatio=0.01492968094038623, diffPixels=12518
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5485] [WPT reftest] css/CSS2/tables/table-anonymous-objects-161.xht
+- [5486] [WPT reftest] css/CSS2/tables/table-anonymous-objects-161.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11635,7 +11633,7 @@
   stable page 1: diffRatio=0.010552629570261813, diffPixels=8848
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5486] [WPT reftest] css/CSS2/tables/table-anonymous-objects-162.xht
+- [5487] [WPT reftest] css/CSS2/tables/table-anonymous-objects-162.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11648,7 +11646,7 @@
   stable page 1: diffRatio=0.0056066807877261276, diffPixels=4701
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5487] [WPT reftest] css/CSS2/tables/table-anonymous-objects-163.xht
+- [5488] [WPT reftest] css/CSS2/tables/table-anonymous-objects-163.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11661,7 +11659,7 @@
   stable page 1: diffRatio=0.010528776429280207, diffPixels=8828
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5488] [WPT reftest] css/CSS2/tables/table-anonymous-objects-164.xht
+- [5489] [WPT reftest] css/CSS2/tables/table-anonymous-objects-164.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11674,7 +11672,7 @@
   stable page 1: diffRatio=0.005551818563468438, diffPixels=4655
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5489] [WPT reftest] css/CSS2/tables/table-anonymous-objects-165.xht
+- [5490] [WPT reftest] css/CSS2/tables/table-anonymous-objects-165.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11687,7 +11685,7 @@
   stable page 1: diffRatio=0.010529969086329288, diffPixels=8829
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5490] [WPT reftest] css/CSS2/tables/table-anonymous-objects-166.xht
+- [5491] [WPT reftest] css/CSS2/tables/table-anonymous-objects-166.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht (==)
@@ -11700,7 +11698,7 @@
   stable page 1: diffRatio=0.005531543393634074, diffPixels=4638
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_3x3_monospace_table-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5491] [WPT reftest] css/CSS2/tables/table-anonymous-objects-167.xht
+- [5492] [WPT reftest] css/CSS2/tables/table-anonymous-objects-167.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11713,7 +11711,7 @@
   stable page 1: diffRatio=0.0000679814517975727, diffPixels=57
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5492] [WPT reftest] css/CSS2/tables/table-anonymous-objects-168.xht
+- [5493] [WPT reftest] css/CSS2/tables/table-anonymous-objects-168.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11726,7 +11724,7 @@
   stable page 1: diffRatio=0.00014669681703686742, diffPixels=123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5493] [WPT reftest] css/CSS2/tables/table-anonymous-objects-169.xht
+- [5494] [WPT reftest] css/CSS2/tables/table-anonymous-objects-169.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11739,7 +11737,7 @@
   stable page 1: diffRatio=0.0002719258071902908, diffPixels=228
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5494] [WPT reftest] css/CSS2/tables/table-anonymous-objects-170.xht
+- [5495] [WPT reftest] css/CSS2/tables/table-anonymous-objects-170.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11752,7 +11750,7 @@
   stable page 1: diffRatio=0.0004782554766811694, diffPixels=401
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5495] [WPT reftest] css/CSS2/tables/table-anonymous-objects-171.xht
+- [5496] [WPT reftest] css/CSS2/tables/table-anonymous-objects-171.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11765,7 +11763,7 @@
   stable page 1: diffRatio=0.0001514674452331883, diffPixels=127
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5496] [WPT reftest] css/CSS2/tables/table-anonymous-objects-172.xht
+- [5497] [WPT reftest] css/CSS2/tables/table-anonymous-objects-172.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11778,7 +11776,7 @@
   stable page 1: diffRatio=0.00023614609571788412, diffPixels=198
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5497] [WPT reftest] css/CSS2/tables/table-anonymous-objects-173.xht
+- [5498] [WPT reftest] css/CSS2/tables/table-anonymous-objects-173.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11791,7 +11789,7 @@
   stable page 1: diffRatio=0.0003112834898099382, diffPixels=261
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5498] [WPT reftest] css/CSS2/tables/table-anonymous-objects-174.xht
+- [5499] [WPT reftest] css/CSS2/tables/table-anonymous-objects-174.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11804,7 +11802,7 @@
   stable page 1: diffRatio=0.0005080719029081749, diffPixels=426
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5499] [WPT reftest] css/CSS2/tables/table-anonymous-objects-175.xht
+- [5500] [WPT reftest] css/CSS2/tables/table-anonymous-objects-175.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11817,7 +11815,7 @@
   stable page 1: diffRatio=0.0003112834898099382, diffPixels=261
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5500] [WPT reftest] css/CSS2/tables/table-anonymous-objects-176.xht
+- [5501] [WPT reftest] css/CSS2/tables/table-anonymous-objects-176.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11830,7 +11828,7 @@
   stable page 1: diffRatio=0.0005080719029081749, diffPixels=426
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5505] [WPT reftest] css/CSS2/tables/table-anonymous-objects-181.xht
+- [5506] [WPT reftest] css/CSS2/tables/table-anonymous-objects-181.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11843,7 +11841,7 @@
   stable page 1: diffRatio=0.0000679814517975727, diffPixels=57
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5506] [WPT reftest] css/CSS2/tables/table-anonymous-objects-182.xht
+- [5507] [WPT reftest] css/CSS2/tables/table-anonymous-objects-182.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11856,7 +11854,7 @@
   stable page 1: diffRatio=0.00014669681703686742, diffPixels=123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5507] [WPT reftest] css/CSS2/tables/table-anonymous-objects-183.xht
+- [5508] [WPT reftest] css/CSS2/tables/table-anonymous-objects-183.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11869,7 +11867,7 @@
   stable page 1: diffRatio=0.0000679814517975727, diffPixels=57
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5508] [WPT reftest] css/CSS2/tables/table-anonymous-objects-184.xht
+- [5509] [WPT reftest] css/CSS2/tables/table-anonymous-objects-184.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11882,7 +11880,7 @@
   stable page 1: diffRatio=0.00014669681703686742, diffPixels=123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5509] [WPT reftest] css/CSS2/tables/table-anonymous-objects-185.xht
+- [5510] [WPT reftest] css/CSS2/tables/table-anonymous-objects-185.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11895,7 +11893,7 @@
   stable page 1: diffRatio=0.0000679814517975727, diffPixels=57
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5510] [WPT reftest] css/CSS2/tables/table-anonymous-objects-186.xht
+- [5511] [WPT reftest] css/CSS2/tables/table-anonymous-objects-186.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11908,7 +11906,7 @@
   stable page 1: diffRatio=0.00014669681703686742, diffPixels=123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5511] [WPT reftest] css/CSS2/tables/table-anonymous-objects-187.xht
+- [5512] [WPT reftest] css/CSS2/tables/table-anonymous-objects-187.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11921,7 +11919,7 @@
   stable page 1: diffRatio=0.0000679814517975727, diffPixels=57
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5512] [WPT reftest] css/CSS2/tables/table-anonymous-objects-188.xht
+- [5513] [WPT reftest] css/CSS2/tables/table-anonymous-objects-188.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11934,7 +11932,7 @@
   stable page 1: diffRatio=0.00014669681703686742, diffPixels=123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5523] [WPT reftest] css/CSS2/tables/table-anonymous-objects-199.xht
+- [5524] [WPT reftest] css/CSS2/tables/table-anonymous-objects-199.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11947,7 +11945,7 @@
   stable page 1: diffRatio=0.00020155904129455767, diffPixels=169
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5524] [WPT reftest] css/CSS2/tables/table-anonymous-objects-200.xht
+- [5525] [WPT reftest] css/CSS2/tables/table-anonymous-objects-200.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11960,7 +11958,7 @@
   stable page 1: diffRatio=0.000406696053736356, diffPixels=341
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5525] [WPT reftest] css/CSS2/tables/table-anonymous-objects-201.xht
+- [5526] [WPT reftest] css/CSS2/tables/table-anonymous-objects-201.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11973,7 +11971,7 @@
   stable page 1: diffRatio=0.0001777059003129532, diffPixels=149
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5526] [WPT reftest] css/CSS2/tables/table-anonymous-objects-202.xht
+- [5527] [WPT reftest] css/CSS2/tables/table-anonymous-objects-202.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11986,7 +11984,7 @@
   stable page 1: diffRatio=0.00036614571406762844, diffPixels=307
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5527] [WPT reftest] css/CSS2/tables/table-anonymous-objects-203.xht
+- [5528] [WPT reftest] css/CSS2/tables/table-anonymous-objects-203.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -11999,7 +11997,7 @@
   stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5528] [WPT reftest] css/CSS2/tables/table-anonymous-objects-204.xht
+- [5529] [WPT reftest] css/CSS2/tables/table-anonymous-objects-204.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht (==)
@@ -12012,7 +12010,7 @@
   stable page 1: diffRatio=0.00025403595145408745, diffPixels=213
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/no_red_antialiasing_a_bc_d-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5531] [WPT reftest] css/CSS2/tables/table-anonymous-objects-211.xht
+- [5532] [WPT reftest] css/CSS2/tables/table-anonymous-objects-211.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/table-anonymous-objects-211-ref.xht (==)
@@ -12025,7 +12023,7 @@
   stable page 1: diffRatio=0.0017532058621479276, diffPixels=1470
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/table-anonymous-objects-211-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5535] [WPT reftest] css/CSS2/tables/table-anonymous-text-indent.xht
+- [5536] [WPT reftest] css/CSS2/tables/table-anonymous-text-indent.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/tables/reference/table-anonymous-text-indent-ref.xht (==)
@@ -12038,7 +12036,7 @@
   stable page 1: diffRatio=0.0016232062437981833, diffPixels=1361
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/tables/reference/table-anonymous-text-indent-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5567] [WPT reftest] css/CSS2/tables/table-vertical-align-baseline-008.xht
+- [5568] [WPT reftest] css/CSS2/tables/table-vertical-align-baseline-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -12051,7 +12049,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5577] [WPT reftest] css/CSS2/text/bidi-span-001.html
+- [5578] [WPT reftest] css/CSS2/text/bidi-span-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/bidi-span-001-ref.html (==)
@@ -12064,7 +12062,7 @@
   stable page 1: diffRatio=0.000011926570490802228, diffPixels=10
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/bidi-span-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5614] [WPT reftest] css/CSS2/text/letter-spacing-080.xht
+- [5615] [WPT reftest] css/CSS2/text/letter-spacing-080.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/letter-spacing-007-ref.xht (==)
@@ -12077,7 +12075,7 @@
   stable page 1: diffRatio=0.0019082512785283565, diffPixels=1600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/letter-spacing-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5625] [WPT reftest] css/CSS2/text/letter-spacing-102.xht
+- [5626] [WPT reftest] css/CSS2/text/letter-spacing-102.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/letter-spacing-102-ref.xht (==)
@@ -12090,7 +12088,7 @@
   stable page 1: diffRatio=0.008479791618960385, diffPixels=7110
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/letter-spacing-102-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5642] [WPT reftest] css/CSS2/text/text-align-bidi-011.xht
+- [5643] [WPT reftest] css/CSS2/text/text-align-bidi-011.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-align-bidi-011-ref.xht (==)
@@ -12103,7 +12101,7 @@
   stable page 1: diffRatio=0.0016530226700251888, diffPixels=1386
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-align-bidi-011-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5645] [WPT reftest] css/CSS2/text/text-align-white-space-002.xht
+- [5646] [WPT reftest] css/CSS2/text/text-align-white-space-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-align-white-space-002-ref.xht (==)
@@ -12116,7 +12114,7 @@
   stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-align-white-space-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5654] [WPT reftest] css/CSS2/text/text-decoration-applies-to-007.xht
+- [5655] [WPT reftest] css/CSS2/text/text-decoration-applies-to-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_filler_text_underlined.html (==)
@@ -12129,7 +12127,7 @@
   stable page 1: diffRatio=0.0005152278452026563, diffPixels=432
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_filler_text_underlined.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5662] [WPT reftest] css/CSS2/text/text-decoration-va-length-001.xht
+- [5663] [WPT reftest] css/CSS2/text/text-decoration-va-length-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-decoration-va-length-001-ref.xht (==)
@@ -12142,7 +12140,7 @@
   stable page 1: diffRatio=0.001198620334325624, diffPixels=1005
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-decoration-va-length-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5663] [WPT reftest] css/CSS2/text/text-decoration-va-length-002.xht
+- [5664] [WPT reftest] css/CSS2/text/text-decoration-va-length-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-decoration-va-length-002-ref.xht (==)
@@ -12155,7 +12153,7 @@
   stable page 1: diffRatio=0.0000035779711472406687, diffPixels=3
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-decoration-va-length-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5767] [WPT reftest] css/CSS2/text/text-transform-applies-to-007.xht
+- [5768] [WPT reftest] css/CSS2/text/text-transform-applies-to-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_letter_uppercase.html (==)
@@ -12168,7 +12166,7 @@
   stable page 1: diffRatio=0.00031486146095717883, diffPixels=264
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_letter_uppercase.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5782] [WPT reftest] css/CSS2/text/text-transform-bicameral-007.xht
+- [5783] [WPT reftest] css/CSS2/text/text-transform-bicameral-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-transform-bicameral-007-ref.xht (==)
@@ -12181,7 +12179,7 @@
   stable page 1: diffRatio=0.003310815968246699, diffPixels=2776
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-transform-bicameral-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5786] [WPT reftest] css/CSS2/text/text-transform-bicameral-011.xht
+- [5787] [WPT reftest] css/CSS2/text/text-transform-bicameral-011.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-transform-bicameral-011-ref.xht (==)
@@ -12194,7 +12192,7 @@
   stable page 1: diffRatio=0.0000047706281963208916, diffPixels=4
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-transform-bicameral-011-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5787] [WPT reftest] css/CSS2/text/text-transform-bicameral-012.xht
+- [5788] [WPT reftest] css/CSS2/text/text-transform-bicameral-012.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-transform-bicameral-012-ref.xht (==)
@@ -12207,7 +12205,7 @@
   stable page 1: diffRatio=0.000026238455079764903, diffPixels=22
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-transform-bicameral-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5788] [WPT reftest] css/CSS2/text/text-transform-bicameral-013.xht
+- [5789] [WPT reftest] css/CSS2/text/text-transform-bicameral-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-transform-bicameral-013-ref.xht (==)
@@ -12220,7 +12218,7 @@
   stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-transform-bicameral-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5797] [WPT reftest] css/CSS2/text/text-transform-bicameral-022.xht
+- [5798] [WPT reftest] css/CSS2/text/text-transform-bicameral-022.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-transform-bicameral-022-ref.xht (==)
@@ -12233,7 +12231,7 @@
   stable page 1: diffRatio=0.000007155942294481337, diffPixels=6
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-transform-bicameral-022-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5799] [WPT reftest] css/CSS2/text/text-transform-cap-002.xht
+- [5800] [WPT reftest] css/CSS2/text/text-transform-cap-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/text-transform-cap-001-ref.xht (==)
@@ -12246,7 +12244,7 @@
   stable page 1: diffRatio=0.000005963285245401114, diffPixels=5
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/text-transform-cap-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5818] [WPT reftest] css/CSS2/text/white-space-applies-to-007.xht
+- [5819] [WPT reftest] css/CSS2/text/white-space-applies-to-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-002-ref.xht (==)
@@ -12259,7 +12257,7 @@
   stable page 1: diffRatio=0.001984581329669491, diffPixels=1664
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5827] [WPT reftest] css/CSS2/text/white-space-bidirectionality-001.xht
+- [5828] [WPT reftest] css/CSS2/text/white-space-bidirectionality-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-bidirectionality-001-ref.xht (==)
@@ -12272,7 +12270,7 @@
   stable page 1: diffRatio=0.00006678879474849248, diffPixels=56
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-bidirectionality-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5833] [WPT reftest] css/CSS2/text/white-space-collapsing-bidi-001.xht
+- [5834] [WPT reftest] css/CSS2/text/white-space-collapsing-bidi-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-collapsing-bidi-001-ref.xht (==)
@@ -12285,7 +12283,7 @@
   stable page 1: diffRatio=0.010731528127623846, diffPixels=8998
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-collapsing-bidi-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5837] [WPT reftest] css/CSS2/text/white-space-generated-content-before-001.xht
+- [5838] [WPT reftest] css/CSS2/text/white-space-generated-content-before-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-generated-content-before-001-ref.xht (==)
@@ -12298,7 +12296,7 @@
   stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-generated-content-before-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5838] [WPT reftest] css/CSS2/text/white-space-mixed-001.xht
+- [5839] [WPT reftest] css/CSS2/text/white-space-mixed-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-mixed-001-ref.xht (==)
@@ -12311,7 +12309,7 @@
   stable page 1: diffRatio=0.1177331405999542, diffPixels=98715
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-mixed-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5861] [WPT reftest] css/CSS2/text/white-space-processing-002.xht
+- [5862] [WPT reftest] css/CSS2/text/white-space-processing-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-processing-002-ref.xht (==)
@@ -12324,7 +12322,7 @@
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-processing-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5862] [WPT reftest] css/CSS2/text/white-space-processing-003.xht
+- [5863] [WPT reftest] css/CSS2/text/white-space-processing-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-processing-002-ref.xht (==)
@@ -12337,7 +12335,7 @@
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-processing-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5863] [WPT reftest] css/CSS2/text/white-space-processing-004.xht
+- [5864] [WPT reftest] css/CSS2/text/white-space-processing-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-processing-002-ref.xht (==)
@@ -12350,7 +12348,7 @@
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-processing-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5867] [WPT reftest] css/CSS2/text/white-space-processing-008.xht
+- [5868] [WPT reftest] css/CSS2/text/white-space-processing-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-processing-002-ref.xht (==)
@@ -12363,7 +12361,7 @@
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-processing-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5868] [WPT reftest] css/CSS2/text/white-space-processing-009.xht
+- [5869] [WPT reftest] css/CSS2/text/white-space-processing-009.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-processing-002-ref.xht (==)
@@ -12376,7 +12374,7 @@
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-processing-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5869] [WPT reftest] css/CSS2/text/white-space-processing-010.xht
+- [5870] [WPT reftest] css/CSS2/text/white-space-processing-010.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/white-space-processing-002-ref.xht (==)
@@ -12389,7 +12387,7 @@
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/white-space-processing-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5961] [WPT reftest] css/CSS2/text/word-spacing-applies-to-001.xht
+- [5962] [WPT reftest] css/CSS2/text/word-spacing-applies-to-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12402,7 +12400,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5962] [WPT reftest] css/CSS2/text/word-spacing-applies-to-002.xht
+- [5963] [WPT reftest] css/CSS2/text/word-spacing-applies-to-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12415,7 +12413,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5963] [WPT reftest] css/CSS2/text/word-spacing-applies-to-003.xht
+- [5964] [WPT reftest] css/CSS2/text/word-spacing-applies-to-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-003-ref.xht (==)
@@ -12428,7 +12426,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5964] [WPT reftest] css/CSS2/text/word-spacing-applies-to-005.xht
+- [5965] [WPT reftest] css/CSS2/text/word-spacing-applies-to-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12441,7 +12439,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5965] [WPT reftest] css/CSS2/text/word-spacing-applies-to-006.xht
+- [5966] [WPT reftest] css/CSS2/text/word-spacing-applies-to-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12454,7 +12452,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5966] [WPT reftest] css/CSS2/text/word-spacing-applies-to-007.xht
+- [5967] [WPT reftest] css/CSS2/text/word-spacing-applies-to-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-007-ref.xht (==)
@@ -12467,7 +12465,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5967] [WPT reftest] css/CSS2/text/word-spacing-applies-to-008.xht
+- [5968] [WPT reftest] css/CSS2/text/word-spacing-applies-to-008.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12480,7 +12478,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5968] [WPT reftest] css/CSS2/text/word-spacing-applies-to-009.xht
+- [5969] [WPT reftest] css/CSS2/text/word-spacing-applies-to-009.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12493,7 +12491,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5969] [WPT reftest] css/CSS2/text/word-spacing-applies-to-010.xht
+- [5970] [WPT reftest] css/CSS2/text/word-spacing-applies-to-010.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12506,7 +12504,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5970] [WPT reftest] css/CSS2/text/word-spacing-applies-to-011.xht
+- [5971] [WPT reftest] css/CSS2/text/word-spacing-applies-to-011.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12519,7 +12517,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5973] [WPT reftest] css/CSS2/text/word-spacing-applies-to-014.xht
+- [5974] [WPT reftest] css/CSS2/text/word-spacing-applies-to-014.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12532,7 +12530,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5974] [WPT reftest] css/CSS2/text/word-spacing-applies-to-015.xht
+- [5975] [WPT reftest] css/CSS2/text/word-spacing-applies-to-015.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-applies-to-001-ref.xht (==)
@@ -12545,7 +12543,7 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5978] [WPT reftest] css/CSS2/text/word-spacing-justify-001.xht
+- [5979] [WPT reftest] css/CSS2/text/word-spacing-justify-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/text/word-spacing-justify-001-ref.xht (==)
@@ -12558,7 +12556,7 @@
   stable page 1: diffRatio=0.00006201816655217159, diffPixels=52
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-justify-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6042] [WPT reftest] css/CSS2/values/numbers-units-007.xht
+- [6043] [WPT reftest] css/CSS2/values/numbers-units-007.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/values/numbers-units-007-ref.xht (==)
@@ -12571,7 +12569,7 @@
   stable page 1: diffRatio=0.00007633005114113426, diffPixels=64
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/values/numbers-units-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6043] [WPT reftest] css/CSS2/values/numbers-units-009.xht
+- [6044] [WPT reftest] css/CSS2/values/numbers-units-009.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/values/numbers-units-009-ref.xht (==)
@@ -12584,7 +12582,7 @@
   stable page 1: diffRatio=0.00030532020456453706, diffPixels=256
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/values/numbers-units-009-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6044] [WPT reftest] css/CSS2/values/numbers-units-010.xht
+- [6045] [WPT reftest] css/CSS2/values/numbers-units-010.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/values/numbers-units-010-ref.xht (==)
@@ -12597,7 +12595,7 @@
   stable page 1: diffRatio=0.002633386764369132, diffPixels=2208
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/values/numbers-units-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6046] [WPT reftest] css/CSS2/values/numbers-units-012.xht
+- [6047] [WPT reftest] css/CSS2/values/numbers-units-012.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/values/numbers-units-012-ref.xht (==)
@@ -12610,7 +12608,7 @@
   stable page 1: diffRatio=0.0001144950767117014, diffPixels=96
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/values/numbers-units-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6047] [WPT reftest] css/CSS2/values/numbers-units-013.xht
+- [6048] [WPT reftest] css/CSS2/values/numbers-units-013.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/values/numbers-units-013-ref.xht (==)
@@ -12623,7 +12621,7 @@
   stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/values/numbers-units-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6053] [WPT reftest] css/CSS2/values/numbers-units-021.xht
+- [6054] [WPT reftest] css/CSS2/values/numbers-units-021.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/values/numbers-units-021-ref.xht (==)
@@ -12636,7 +12634,7 @@
   stable page 1: diffRatio=0.00030532020456453706, diffPixels=256
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/values/numbers-units-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6055] [WPT reftest] css/CSS2/values/units-002.xht
+- [6056] [WPT reftest] css/CSS2/values/units-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/values/units-002-ref.xht (==)
@@ -12649,7 +12647,7 @@
   stable page 1: diffRatio=0.029518261964735518, diffPixels=24750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/values/units-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6070] [WPT reftest] css/CSS2/visudet/height-percentage-003a.xht
+- [6071] [WPT reftest] css/CSS2/visudet/height-percentage-003a.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/height-percentage-003a-ref.xht (==)
@@ -12662,7 +12660,7 @@
   stable page 1: diffRatio=0.0007585298832150217, diffPixels=636
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/height-percentage-003a-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6074] [WPT reftest] css/CSS2/visudet/inline-block-baseline-003.xht
+- [6075] [WPT reftest] css/CSS2/visudet/inline-block-baseline-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/inline-block-baseline-001-ref.xht (==)
@@ -12675,7 +12673,7 @@
   stable page 1: diffRatio=0.0002146782688344401, diffPixels=180
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/inline-block-baseline-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6075] [WPT reftest] css/CSS2/visudet/inline-block-baseline-004.xht
+- [6076] [WPT reftest] css/CSS2/visudet/inline-block-baseline-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/inline-block-baseline-001-ref.xht (==)
@@ -12688,7 +12686,7 @@
   stable page 1: diffRatio=0.0002146782688344401, diffPixels=180
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/inline-block-baseline-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6076] [WPT reftest] css/CSS2/visudet/inline-block-baseline-005.xht
+- [6077] [WPT reftest] css/CSS2/visudet/inline-block-baseline-005.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/inline-block-baseline-001-ref.xht (==)
@@ -12701,7 +12699,7 @@
   stable page 1: diffRatio=0.0002146782688344401, diffPixels=180
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/inline-block-baseline-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6077] [WPT reftest] css/CSS2/visudet/inline-block-baseline-006.xht
+- [6078] [WPT reftest] css/CSS2/visudet/inline-block-baseline-006.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/inline-block-baseline-001-ref.xht (==)
@@ -12714,7 +12712,7 @@
   stable page 1: diffRatio=0.0002146782688344401, diffPixels=180
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/inline-block-baseline-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6091] [WPT reftest] css/CSS2/visudet/replaced-elements-all-auto.html
+- [6092] [WPT reftest] css/CSS2/visudet/replaced-elements-all-auto.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/replaced-elements-all-auto-ref.html (==)
@@ -12727,7 +12725,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/replaced-elements-all-auto-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6092] [WPT reftest] css/CSS2/visudet/replaced-elements-height-20.html
+- [6093] [WPT reftest] css/CSS2/visudet/replaced-elements-height-20.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/replaced-elements-height-20-ref.html (==)
@@ -12740,7 +12738,7 @@
   stable page 1: diffRatio=0.04877132470803756, diffPixels=40893
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/replaced-elements-height-20-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6093] [WPT reftest] css/CSS2/visudet/replaced-elements-max-height-20.html
+- [6094] [WPT reftest] css/CSS2/visudet/replaced-elements-max-height-20.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/replaced-elements-height-20-ref.html (==)
@@ -12753,7 +12751,7 @@
   stable page 1: diffRatio=0.04877132470803756, diffPixels=40893
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/replaced-elements-height-20-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6094] [WPT reftest] css/CSS2/visudet/replaced-elements-max-width-40.html
+- [6095] [WPT reftest] css/CSS2/visudet/replaced-elements-max-width-40.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/replaced-elements-width-40-ref.html (==)
@@ -12766,7 +12764,7 @@
   stable page 1: diffRatio=0.04366794519502328, diffPixels=36614
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/replaced-elements-width-40-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6095] [WPT reftest] css/CSS2/visudet/replaced-elements-min-height-20.html
+- [6096] [WPT reftest] css/CSS2/visudet/replaced-elements-min-height-20.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/replaced-elements-all-auto-ref.html (==)
@@ -12779,7 +12777,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/replaced-elements-all-auto-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6096] [WPT reftest] css/CSS2/visudet/replaced-elements-min-height-40.html
+- [6097] [WPT reftest] css/CSS2/visudet/replaced-elements-min-height-40.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/replaced-elements-min-height-40-ref.html (==)
@@ -12792,7 +12790,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/replaced-elements-min-height-40-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6097] [WPT reftest] css/CSS2/visudet/replaced-elements-min-width-40.html
+- [6098] [WPT reftest] css/CSS2/visudet/replaced-elements-min-width-40.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/replaced-elements-all-auto-ref.html (==)
@@ -12805,7 +12803,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/replaced-elements-all-auto-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6098] [WPT reftest] css/CSS2/visudet/replaced-elements-min-width-80.html
+- [6099] [WPT reftest] css/CSS2/visudet/replaced-elements-min-width-80.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/replaced-elements-min-width-80-ref.html (==)
@@ -12818,7 +12816,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/replaced-elements-min-width-80-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6099] [WPT reftest] css/CSS2/visudet/replaced-elements-width-40.html
+- [6100] [WPT reftest] css/CSS2/visudet/replaced-elements-width-40.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visudet/replaced-elements-width-40-ref.html (==)
@@ -12831,7 +12829,7 @@
   stable page 1: diffRatio=0.04366794519502328, diffPixels=36614
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visudet/replaced-elements-width-40-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6100] [WPT reftest] css/CSS2/visufx/clip-001.xht
+- [6101] [WPT reftest] css/CSS2/visufx/clip-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -12844,7 +12842,7 @@
   stable page 1: diffRatio=0.011925377833753149, diffPixels=9999
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6146] [WPT reftest] css/CSS2/visufx/overflow-propagation-001a.html
+- [6147] [WPT reftest] css/CSS2/visufx/overflow-propagation-001a.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visufx/support/overflow-propagation-001-ref.html (==)
@@ -12857,7 +12855,7 @@
   stable page 1: diffRatio=0.00045678764979772534, diffPixels=383
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visufx/support/overflow-propagation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6167] [WPT reftest] css/CSS2/visuren/inline-formatting-context-001.xht
+- [6168] [WPT reftest] css/CSS2/visuren/inline-formatting-context-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/inline-formatting-context-001-ref.xht (==)
@@ -12870,7 +12868,7 @@
   stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/inline-formatting-context-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6173] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-1.html
+- [6174] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-1-ref.html (==)
@@ -12883,7 +12881,7 @@
   stable page 1: diffRatio=0.0002826597206320128, diffPixels=237
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6174] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-2.html
+- [6175] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-2-ref.html (==)
@@ -12896,7 +12894,7 @@
   stable page 1: diffRatio=0.0008491718189451187, diffPixels=712
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6176] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-3.html
+- [6177] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-3.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-3-ref.html (==)
@@ -12909,7 +12907,7 @@
   stable page 1: diffRatio=0.00048779673307381116, diffPixels=409
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6178] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-4.html
+- [6179] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-4.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-4-ref.html (==)
@@ -12922,7 +12920,7 @@
   stable page 1: diffRatio=0.0011389874818716129, diffPixels=955
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6180] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-5.html
+- [6181] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-5.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-5-ref.html (==)
@@ -12935,7 +12933,7 @@
   stable page 1: diffRatio=0.0008157774215708725, diffPixels=684
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-5-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6182] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-6.html
+- [6183] [WPT reftest] css/CSS2/visuren/remove-from-split-inline-6.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-from-split-inline-6-ref.html (==)
@@ -12948,7 +12946,7 @@
   stable page 1: diffRatio=0.0008372452484543165, diffPixels=702
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-from-split-inline-6-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6183] [WPT reftest] css/CSS2/visuren/remove-split-inline-1.html
+- [6184] [WPT reftest] css/CSS2/visuren/remove-split-inline-1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/visuren/remove-split-inline-1-ref.html (==)
@@ -12961,7 +12959,7 @@
   stable page 1: diffRatio=0.0003279806884970613, diffPixels=275
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visuren/remove-split-inline-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6192] [WPT reftest] css/CSS2/zindex/stack-floats-001.xht
+- [6193] [WPT reftest] css/CSS2/zindex/stack-floats-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zindex/stack-floats-001-ref.xht (==)
@@ -12974,7 +12972,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zindex/stack-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6193] [WPT reftest] css/CSS2/zindex/stack-floats-002.xht
+- [6194] [WPT reftest] css/CSS2/zindex/stack-floats-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zindex/stack-floats-001-ref.xht (==)
@@ -12987,7 +12985,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zindex/stack-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6194] [WPT reftest] css/CSS2/zindex/stack-floats-003.xht
+- [6195] [WPT reftest] css/CSS2/zindex/stack-floats-003.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zindex/stack-floats-001-ref.xht (==)
@@ -13000,7 +12998,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zindex/stack-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6195] [WPT reftest] css/CSS2/zindex/stack-floats-004.xht
+- [6196] [WPT reftest] css/CSS2/zindex/stack-floats-004.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zindex/stack-floats-001-ref.xht (==)
@@ -13013,7 +13011,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zindex/stack-floats-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6211] [WPT reftest] css/CSS2/zindex/z-index-016.xht
+- [6212] [WPT reftest] css/CSS2/zindex/z-index-016.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -13026,7 +13024,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6215] [WPT reftest] css/CSS2/zindex/z-index-020.html
+- [6216] [WPT reftest] css/CSS2/zindex/z-index-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-200px-square.html (==)
@@ -13039,7 +13037,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-200px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6222] [WPT reftest] css/CSS2/zindex/z-index-dynamic-001.xht
+- [6223] [WPT reftest] css/CSS2/zindex/z-index-dynamic-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/reference/ref-filled-green-100px-square.xht (==)
@@ -13052,7 +13050,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6223] [WPT reftest] css/CSS2/zorder/z-index-020.xht
+- [6224] [WPT reftest] css/CSS2/zorder/z-index-020.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/zorder/z-index-020-ref.xht (==)
@@ -13070,7 +13068,7 @@
   stable page 1 (css/CSS2/zorder/z-index-020-ref2.xht): diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render (css/CSS2/zorder/z-index-020-ref2.xht): https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/zorder/z-index-020-ref2.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6226] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-11-print.html
+- [6227] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-11-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/block-page-break-inside-avoid-print-ref.html (==)
@@ -13083,7 +13081,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/block-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6228] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-13-print.html
+- [6229] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-13-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/block-page-break-inside-avoid-8-print-ref.html (==)
@@ -13096,7 +13094,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/block-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6237] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-8-print.html
+- [6238] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-8-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/block-page-break-inside-avoid-8-print-ref.html (==)
@@ -13109,7 +13107,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/block-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6238] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-9-print.html
+- [6239] [WPT print-reftest] css/CSS2/pagination/block-page-break-inside-avoid-9-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/block-page-break-inside-avoid-print-ref.html (==)
@@ -13124,7 +13122,7 @@
   stable page 2: diffRatio=0.06648582175925925, diffPixels=9191
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/block-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6239] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-1-print.html
+- [6240] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-1-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html (==)
@@ -13137,7 +13135,7 @@
   stable selected pages: test=[1, 2], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6240] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-2-print.html
+- [6241] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-2-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/float-page-break-inside-avoid-2-print-ref.html (==)
@@ -13152,7 +13150,16 @@
   stable page 2: diffRatio=0.09969618055555556, diffPixels=13782
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-2-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6244] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-6-print.html
+- [6244] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-5-print.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page count: canary=2, stable=3
+  page 1: diffRatio=0.19850983796296295, diffPixels=27442
+  page 2: diffRatio=0.19850983796296295, diffPixels=27442
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-5-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-5-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6245] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-6-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/float-page-break-inside-avoid-6-print-ref.html (==)
@@ -13165,7 +13172,7 @@
   stable page 1: diffRatio=0.24165219907407406, diffPixels=33406
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-6-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6245] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-7-print.html
+- [6246] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-7-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/float-page-break-inside-avoid-7-print-ref.html (==)
@@ -13180,7 +13187,7 @@
   stable page 2: diffRatio=0.0001663773148148148, diffPixels=23
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-7-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6246] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-8-print.html
+- [6247] [WPT print-reftest] css/CSS2/pagination/float-page-break-inside-avoid-8-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/float-page-break-inside-avoid-8-print-ref.html (==)
@@ -13195,7 +13202,7 @@
   stable page 2: diffRatio=0.00028935185185185184, diffPixels=40
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/float-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6248] [WPT print-reftest] css/CSS2/pagination/inline-page-break-inside-avoid-1-print.html
+- [6249] [WPT print-reftest] css/CSS2/pagination/inline-page-break-inside-avoid-1-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/inline-page-break-inside-avoid-1-print-ref.html (==)
@@ -13210,7 +13217,7 @@
   stable page 2: diffRatio=0.06648582175925925, diffPixels=9191
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/inline-page-break-inside-avoid-1-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6250] [WPT print-reftest] css/CSS2/pagination/row-page-break-inside-avoid-2-print.html
+- [6251] [WPT print-reftest] css/CSS2/pagination/row-page-break-inside-avoid-2-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/rowgroup-page-break-inside-avoid-5-print-ref.html (==)
@@ -13223,7 +13230,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/rowgroup-page-break-inside-avoid-5-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6251] [WPT print-reftest] css/CSS2/pagination/rowgroup-page-break-inside-avoid-1-print.html
+- [6252] [WPT print-reftest] css/CSS2/pagination/rowgroup-page-break-inside-avoid-1-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html (==)
@@ -13236,7 +13243,7 @@
   stable selected pages: test=[1, 2], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6253] [WPT print-reftest] css/CSS2/pagination/rowgroup-page-break-inside-avoid-3-print.html
+- [6254] [WPT print-reftest] css/CSS2/pagination/rowgroup-page-break-inside-avoid-3-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html (==)
@@ -13249,7 +13256,7 @@
   stable selected pages: test=[1, 2], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6260] [WPT print-reftest] css/CSS2/pagination/table-page-break-inside-avoid-2-print.html
+- [6261] [WPT print-reftest] css/CSS2/pagination/table-page-break-inside-avoid-2-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-2-print-ref.html (==)
@@ -13262,7 +13269,7 @@
   stable selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-2-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6266] [WPT print-reftest] css/CSS2/pagination/table-page-break-inside-avoid-8-print.html
+- [6267] [WPT print-reftest] css/CSS2/pagination/table-page-break-inside-avoid-8-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html (==)
@@ -13275,12 +13282,93 @@
   stable selected pages: test=[1], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/table-page-break-inside-avoid-8-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6480] [WPT manual] css/CSS2/backgrounds/background-animated-001.xht
+- [6614] [WPT manual] css/CSS2/pagination/allowed-page-breaks-002.xht
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00013954087474238607, diffPixels=117
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  page 1: diffRatio=0.0003899988550492329, diffPixels=327
+  page 2: diffRatio=0.00044366842225784293, diffPixels=372
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/allowed-page-breaks-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/allowed-page-breaks-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6626] [WPT manual] css/CSS2/pagination/orphans-004a.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.00043054919471796047, diffPixels=361
+  page 2: diffRatio=0.0004293565376688802, diffPixels=360
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/orphans-004a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/orphans-004a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6634] [WPT manual] css/CSS2/pagination/page-break-after-007.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.00002504579803068468, diffPixels=21
+  page 2: diffRatio=0.00007394473704297382, diffPixels=62
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/page-break-after-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/page-break-after-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6636] [WPT manual] css/CSS2/pagination/page-break-after-009.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.0004377051370124418, diffPixels=367
+  page 2: diffRatio=0.0004257785665216396, diffPixels=357
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/page-break-after-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/page-break-after-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6648] [WPT manual] css/CSS2/pagination/page-break-before-009.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.0004377051370124418, diffPixels=367
+  page 2: diffRatio=0.0004257785665216396, diffPixels=357
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/page-break-before-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/page-break-before-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6649] [WPT manual] css/CSS2/pagination/page-break-before-010.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.00045678764979772534, diffPixels=383
+  page 2: diffRatio=0.00041027402488359667, diffPixels=344
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/page-break-before-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/page-break-before-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6652] [WPT manual] css/CSS2/pagination/page-break-inside-000.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.00012880696130066407, diffPixels=108
+  page 2: diffRatio=0.0002874303488283337, diffPixels=241
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/page-break-inside-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/page-break-inside-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6654] [WPT manual] css/CSS2/pagination/page-break-inside-002.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.000031009083276085796, diffPixels=26
+  page 2: diffRatio=0.00004532096786504847, diffPixels=38
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/page-break-inside-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/page-break-inside-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6655] [WPT manual] css/CSS2/pagination/page-break-inside-003.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.000031009083276085796, diffPixels=26
+  page 2: diffRatio=0.00004532096786504847, diffPixels=38
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/page-break-inside-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/page-break-inside-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6656] [WPT manual] css/CSS2/pagination/page-break-inside-004.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.000023853140981604456, diffPixels=20
+  page 2: diffRatio=0.00007394473704297382, diffPixels=62
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/page-break-inside-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/page-break-inside-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [6668] [WPT manual] css/CSS2/pagination/widows-004a.xht
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.0004329345088161209, diffPixels=363
+  page 2: diffRatio=0.0003923841691473933, diffPixels=329
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/pagination/widows-004a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/widows-004a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
 
@@ -13294,28 +13382,7 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [5039] [WPT reftest] css/CSS2/syntax/character-encoding-036.xht
-  triage: pending
-  side: canary-reference
-  reference: css/CSS2/syntax/character-encoding-041-ref.xht
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): loading page
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/character-encoding-036.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/character-encoding-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [5065] [WPT reftest] css/CSS2/syntax/core-syntax-009.xht
-  triage: pending
-  side: canary-reference
-  reference: css/CSS2/reference/ref-this-text-should-be-green.xht
-  timeout: true
-  error: TimeoutError: page.goto: Timeout 10000ms exceeded.
-Call log:
-  - navigating to "https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-this-text-should-be-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false", waiting until "domcontentloaded"
-
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/syntax/core-syntax-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/reference/ref-this-text-should-be-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [6147] [WPT reftest] css/CSS2/visufx/overflow-propagation-001b.html
+- [6148] [WPT reftest] css/CSS2/visufx/overflow-propagation-001b.html
   triage: pending
   side: canary, stable
   canary timeout: true
@@ -13325,7 +13392,7 @@ Call log:
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/visufx/overflow-propagation-001b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/visufx/overflow-propagation-001b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [6148] [WPT reftest] css/CSS2/visufx/overflow-propagation-001c.html
+- [6149] [WPT reftest] css/CSS2/visufx/overflow-propagation-001c.html
   triage: pending
   side: canary, stable
   canary timeout: true

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 308
-- Entries with differences: 21 (pending: 21, triaged: 0)
+- Entries with differences: 19 (pending: 19, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":287,"known-fail":21}
+- Outcome summary: {"pass":289,"known-fail":19}
 
 ## Differences
 
@@ -204,32 +204,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/lch-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/blacksquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0134] [WPT reftest] css/css-color/light-dark-image-none-interpolation.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-color/light-dark-image-none-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/light-dark-image-none-interpolation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000010733913441722006, diffPixels=9
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/light-dark-image-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/light-dark-image-none-interpolation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/light-dark-image-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0135] [WPT reftest] css/css-color/light-dark-image-none.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-color/light-dark-image-none-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/light-dark-image-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000010733913441722006, diffPixels=9
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/light-dark-image-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/light-dark-image-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/light-dark-image-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0159] [WPT reftest] css/css-color/oklch-009.html
   triage: pending

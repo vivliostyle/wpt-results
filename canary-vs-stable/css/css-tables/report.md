@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 167
+- Compared entries: 169
 - Entries with differences: 30 (pending: 30, triaged: 0)
-- Entries with errors: 4 (pending: 4, triaged: 0)
-- Timeout entries: 4
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":30,"pass":134,"error":3}
+- Outcome summary: {"known-fail":30,"pass":139}
 
 ## Differences
 
@@ -55,11 +55,11 @@
   reference: css/css-tables/col-definite-max-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/col-definite-max-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004534482100603007, diffPixels=3802
+  canary page 1: diffRatio=0.008011077398671858, diffPixels=6717
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/col-definite-max-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/col-definite-max-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004534482100603007, diffPixels=3802
+  stable page 1: diffRatio=0.008011077398671858, diffPixels=6717
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/col-definite-max-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-tables/col-definite-min-size-001.html
@@ -68,11 +68,11 @@
   reference: css/css-tables/col-definite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/col-definite-min-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009374284405770552, diffPixels=786
+  canary page 1: diffRatio=0.00165898595527059, diffPixels=1391
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/col-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/col-definite-min-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009374284405770552, diffPixels=786
+  stable page 1: diffRatio=0.00165898595527059, diffPixels=1391
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/col-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0031] [WPT reftest] css/css-tables/col-definite-size-001.html
@@ -81,11 +81,11 @@
   reference: css/css-tables/col-definite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/col-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00022183421112892147, diffPixels=186
+  canary page 1: diffRatio=0.00022779749637432257, diffPixels=191
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/col-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/col-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00022183421112892147, diffPixels=186
+  stable page 1: diffRatio=0.00022779749637432257, diffPixels=191
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/col-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0039] [WPT reftest] css/css-tables/collapsed-border-partial-invalidation-003.html
@@ -103,12 +103,16 @@
 
 - [0041] [WPT reftest] css/css-tables/collapsed-border-remove-cell.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/collapsed-border-remove-cell-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0002444946950614457, diffPixels=205
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0002444946950614457, diffPixels=205
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/css-tables/colspan-004.html
   triage: pending
@@ -292,7 +296,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-child-overflow-measure-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0118] [WPT reftest] css/css-tables/table-cell-width-0.html
+- [0120] [WPT reftest] css/css-tables/table-cell-width-0.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/table-cell-width-0-ref.html (==)
@@ -305,7 +309,7 @@
   stable page 1: diffRatio=0.0357427391038852, diffPixels=29969
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-width-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0146] [WPT reftest] css/css-tables/tentative/padding-percentage.html
+- [0148] [WPT reftest] css/css-tables/tentative/padding-percentage.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -318,7 +322,7 @@
   stable page 1: diffRatio=0.004114666819326769, diffPixels=3450
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0152] [WPT reftest] css/css-tables/tentative/paint/overflow-hidden-table.html
+- [0154] [WPT reftest] css/css-tables/tentative/paint/overflow-hidden-table.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/tentative/paint/overflow-hidden-table-ref.html (==)
@@ -331,7 +335,7 @@
   stable page 1: diffRatio=0.002862376917792535, diffPixels=2400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/tentative/paint/overflow-hidden-table-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0155] [WPT reftest] css/css-tables/th-text-align.html
+- [0157] [WPT reftest] css/css-tables/th-text-align.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/th-text-align-ref.html (==)
@@ -344,7 +348,7 @@
   stable page 1: diffRatio=0.00005366956720861003, diffPixels=45
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/th-text-align-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0156] [WPT reftest] css/css-tables/toggle-row-display-property-001.html
+- [0158] [WPT reftest] css/css-tables/toggle-row-display-property-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/toggle-row-display-property-001-ref.html (==)
@@ -357,7 +361,7 @@
   stable page 1: diffRatio=0.005667506297229219, diffPixels=4752
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/css-tables/visibility-collapse-colspan-003.html
+- [0161] [WPT reftest] css/css-tables/visibility-collapse-colspan-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/visibility-collapse-colspan-003-ref.html (==)
@@ -370,7 +374,7 @@
   stable page 1: diffRatio=0.00032082474620257997, diffPixels=269
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0160] [WPT reftest] css/css-tables/visibility-collapse-rowspan-005.html
+- [0162] [WPT reftest] css/css-tables/visibility-collapse-rowspan-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/visibility-collapse-rowspan-005-ref.html (==)
@@ -383,7 +387,7 @@
   stable page 1: diffRatio=0.0005665120983131058, diffPixels=475
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0162] [WPT reftest] css/css-tables/whitespace-001.html
+- [0164] [WPT reftest] css/css-tables/whitespace-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-tables/whitespace-001-ref.html (==)
@@ -395,56 +399,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/whitespace-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.017811140370964047, diffPixels=14934
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/whitespace-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0041] [WPT reftest] css/css-tables/collapsed-border-remove-cell.html
-  triage: pending
-  side: stable
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/collapsed-border-remove-cell.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0042] [WPT reftest] css/css-tables/collapsed-border-remove-row-group.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-tables/collapsed-border-remove-row-group-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-tables/collapsed-border-remove-row-group-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/collapsed-border-remove-row-group.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/collapsed-border-remove-row-group.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0043] [WPT reftest] css/css-tables/collapsed-border-sideways-rl-rtl-overflow.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-tables/collapsed-border-sideways-rl-rtl-overflow-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-tables/collapsed-border-sideways-rl-rtl-overflow-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/collapsed-border-sideways-rl-rtl-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/collapsed-border-sideways-rl-rtl-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0048] [WPT reftest] css/css-tables/display-contents-002.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/display-contents-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/display-contents-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

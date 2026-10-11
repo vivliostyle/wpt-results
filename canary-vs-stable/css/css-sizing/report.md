@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 562
-- Entries with differences: 73 (pending: 73, triaged: 0)
-- Entries with errors: 5 (pending: 5, triaged: 0)
+- Entries with differences: 71 (pending: 71, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":484,"known-fail":73,"error":5}
+- Outcome summary: {"pass":488,"known-fail":71,"error":3}
 
 ## Differences
 
@@ -87,19 +87,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.008758873368445157, diffPixels=7344
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-table-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0311] [WPT reftest] css/css-sizing/clone-intrinsic-size.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-sizing/clone-intrinsic-size-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/clone-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0010244924051599114, diffPixels=859
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/clone-intrinsic-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/clone-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010244924051599114, diffPixels=859
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/clone-intrinsic-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0325] [WPT reftest] css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013.html
   triage: pending
@@ -842,19 +829,6 @@
   stable page 1: diffRatio=0.0013119227539882452, diffPixels=1100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0520] [WPT reftest] css/css-sizing/slice-intrinsic-size.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-sizing/slice-intrinsic-size-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/slice-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009445843828715365, diffPixels=792
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/slice-intrinsic-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/slice-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009445843828715365, diffPixels=792
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/slice-intrinsic-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0525] [WPT reftest] css/css-sizing/stretch/bfc-next-to-float-1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -961,26 +935,6 @@
 
 ## Errors
 
-- [0232] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-012.html
-  triage: pending
-  side: canary, stable
-  canary timeout: false
-  canary error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/aspect-ratio/replaced-element-012.html (429)
-  stable timeout: false
-  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/aspect-ratio/replaced-element-012.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0262] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-048.tentative.html
-  triage: pending
-  side: canary, stable
-  canary timeout: false
-  canary error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/aspect-ratio/replaced-element-048.tentative.html (429)
-  stable timeout: false
-  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-sizing/aspect-ratio/replaced-element-048.tentative.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-048.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-048.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0503] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.html
   triage: pending
   side: canary, stable
@@ -995,9 +949,9 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-not-embedded-sized.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

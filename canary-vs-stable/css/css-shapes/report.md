@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 232
-- Entries with differences: 168 (pending: 168, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Entries with differences: 169 (pending: 169, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":62,"known-fail":167,"regression":1,"error":2}
+- Screenshot mismatches: 2
+- Outcome summary: {"pass":63,"known-fail":167,"regression":1,"changed-fail":1}
 
 ## Differences
 
@@ -944,11 +944,11 @@
 
 - [0094] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-025.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011568773376078163, diffPixels=9700
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1384,6 +1384,19 @@
   stable page 1: diffRatio=0.052677276543775284, diffPixels=44168
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-052-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0133] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-053.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-053-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.03088385428593237, diffPixels=25895
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-053-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.03088385428593237, diffPixels=25895
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-053-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0134] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-054.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1396,6 +1409,19 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.026524692771544157, diffPixels=22240
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0135] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-055.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-055-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.026524692771544157, diffPixels=22240
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-055-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.026524692771544157, diffPixels=22240
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-055-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0137] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/ellipse/shape-outside-ellipse-013.html
   triage: pending
@@ -1800,19 +1826,6 @@
   stable page 1: diffRatio=0.019737281505228608, diffPixels=16549
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/reference/shape-outside-ellipse-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0174] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/ellipse/shape-outside-ellipse-054.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-shapes/shape-outside/supported-shapes/ellipse/reference/shape-outside-ellipse-054-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/shape-outside-ellipse-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008801809022212045, diffPixels=7380
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/reference/shape-outside-ellipse-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/shape-outside-ellipse-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008801809022212045, diffPixels=7380
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/ellipse/reference/shape-outside-ellipse-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0175] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/inset/shape-outside-inset-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2189,32 +2202,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/values/shape-outside-inset-0010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0133] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-053.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0135] [WPT reftest] css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-055.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-055-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-shapes/shape-outside/supported-shapes/circle/reference/shape-outside-circle-055-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/supported-shapes/circle/shape-outside-circle-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

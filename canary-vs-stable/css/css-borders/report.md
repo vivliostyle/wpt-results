@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 99
-- Entries with differences: 19 (pending: 19, triaged: 0)
+- Compared entries: 102
+- Entries with differences: 15 (pending: 15, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":19,"pass":80}
+- Outcome summary: {"known-fail":15,"pass":87}
 
 ## Differences
 
@@ -22,19 +22,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-image-color-scheme.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-image-color-scheme-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0004] [WPT reftest] css/css-borders/border-shape/border-shape-background-origin-border-box.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007487500954125639, diffPixels=6278
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007487500954125639, diffPixels=6278
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-borders/border-shape/border-shape-circle-extent-keywords.html
   triage: pending
@@ -74,45 +61,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ellipse-corner-keywords.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.11274544882070071, diffPixels=94533
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ellipse-corner-keywords-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0028] [WPT reftest] css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002871918174185177, diffPixels=2408
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002871918174185177, diffPixels=2408
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-double-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0029] [WPT reftest] css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010384464926341501, diffPixels=8707
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010384464926341501, diffPixels=8707
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-outline-with-border-ellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0039] [WPT reftest] css/css-borders/border-shape/border-shape-polygon-miter-limit.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0026548545912525763, diffPixels=2226
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0026548545912525763, diffPixels=2226
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-polygon-miter-limit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0049] [WPT reftest] css/css-borders/border-shape/border-shape-stroke-from-border.html
   triage: pending
@@ -192,7 +140,7 @@
   stable page 1: diffRatio=0.011617672315090451, diffPixels=9741
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0074] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html
+- [0077] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-offset-bevel-ref.html (==)
@@ -205,7 +153,7 @@
   stable page 1: diffRatio=0.02761239600030532, diffPixels=23152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-bevel-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0075] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html
+- [0078] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-offset-elliptical-ref.html (==)
@@ -218,7 +166,7 @@
   stable page 1: diffRatio=0.027420378215403406, diffPixels=22991
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0093] [WPT reftest] css/css-borders/corner-shape/corner-shorthand-rendering.html
+- [0096] [WPT reftest] css/css-borders/corner-shape/corner-shorthand-rendering.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shorthand-rendering-ref.html (==)
@@ -231,7 +179,7 @@
   stable page 1: diffRatio=0.0025272402870009925, diffPixels=2119
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0098] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
+- [0101] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)
@@ -244,7 +192,7 @@
   stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0099] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
+- [0102] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)

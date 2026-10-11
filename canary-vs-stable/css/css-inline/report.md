@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 186
-- Entries with differences: 94 (pending: 94, triaged: 0)
+- Entries with differences: 93 (pending: 93, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":92,"known-fail":94}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":93,"known-fail":92,"changed-fail":1}
 
 ## Differences
 
@@ -896,11 +896,11 @@
 
 - [0085] [WPT reftest] css/css-inline/initial-letter/initial-letter-with-first-line.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-with-first-line-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014229591252576139, diffPixels=11931
+  canary page 1: diffRatio=0.014741241126631555, diffPixels=12360
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -913,11 +913,11 @@
   reference: css/css-inline/initial-letter/initial-letter-with-tab-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-tab-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07791032173116556, diffPixels=65325
+  canary page 1: diffRatio=0.07744041485382795, diffPixels=64931
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-tab-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-tab-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.07791032173116556, diffPixels=65325
+  stable page 1: diffRatio=0.07744041485382795, diffPixels=64931
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-tab-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0087] [WPT reftest] css/css-inline/initial-letter/initial-letter-with-tab.html
@@ -1153,19 +1153,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02403203953896649, diffPixels=20150
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0155] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-list-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-inline/text-box-trim/text-box-trim-list-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.017412792916571253, diffPixels=14600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017412792916571253, diffPixels=14600
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-list-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0168] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-multicol-014.html
   triage: pending

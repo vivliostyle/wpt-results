@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 430
+- Compared entries: 431
 - Entries with differences: 131 (pending: 131, triaged: 0)
-- Entries with errors: 9 (pending: 9, triaged: 0)
-- Timeout entries: 9
+- Entries with errors: 8 (pending: 8, triaged: 0)
+- Timeout entries: 8
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"pass":290,"known-fail":130,"error":9,"changed-fail":1}
+- Outcome summary: {"pass":292,"known-fail":130,"error":8,"changed-fail":1}
 
 ## Differences
 
@@ -374,7 +374,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-inline-size-bfc-floats-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0062] [WPT reftest] css/css-contain/contain-layout-001.html
+- [0063] [WPT reftest] css/css-contain/contain-layout-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_pass_below.html (==)
@@ -387,7 +387,7 @@
   stable page 1: diffRatio=0.000007155942294481337, diffPixels=6
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_pass_below.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0084] [WPT reftest] css/css-contain/contain-layout-baseline-004.html
+- [0085] [WPT reftest] css/css-contain/contain-layout-baseline-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-layout-baseline-004-ref.html (==)
@@ -400,7 +400,7 @@
   stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-layout-baseline-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0086] [WPT reftest] css/css-contain/contain-layout-baseline-006.html
+- [0087] [WPT reftest] css/css-contain/contain-layout-baseline-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/contain-layout-baseline-006-ref.html (==)
@@ -413,7 +413,7 @@
   stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-baseline-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0091] [WPT reftest] css/css-contain/contain-layout-cell-001.html
+- [0092] [WPT reftest] css/css-contain/contain-layout-cell-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-layout-cell-001-ref.html (==)
@@ -426,7 +426,7 @@
   stable page 1: diffRatio=0.0011843084497366613, diffPixels=993
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-layout-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0092] [WPT reftest] css/css-contain/contain-layout-cell-002.html
+- [0093] [WPT reftest] css/css-contain/contain-layout-cell-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-layout-cell-001-ref.html (==)
@@ -439,7 +439,7 @@
   stable page 1: diffRatio=0.00009064193573009694, diffPixels=76
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-layout-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0096] [WPT reftest] css/css-contain/contain-layout-dynamic-004.html
+- [0097] [WPT reftest] css/css-contain/contain-layout-dynamic-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/contain-layout-dynamic-004-ref.html (==)
@@ -452,7 +452,7 @@
   stable page 1: diffRatio=0.0032976967407068163, diffPixels=2765
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-dynamic-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0097] [WPT reftest] css/css-contain/contain-layout-dynamic-005.html
+- [0098] [WPT reftest] css/css-contain/contain-layout-dynamic-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/contain-layout-dynamic-005-ref.html (==)
@@ -465,7 +465,7 @@
   stable page 1: diffRatio=0.0032976967407068163, diffPixels=2765
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-layout-dynamic-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0099] [WPT reftest] css/css-contain/contain-layout-formatting-context-float-001.html
+- [0100] [WPT reftest] css/css-contain/contain-layout-formatting-context-float-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/contain-paint-formatting-context-float-001-ref.html (==)
@@ -478,7 +478,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-formatting-context-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0120] [WPT reftest] css/css-contain/contain-layout-select-001.tentative.html
+- [0121] [WPT reftest] css/css-contain/contain-layout-select-001.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-layout-select-001-ref.html (==)
@@ -491,7 +491,7 @@
   stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-layout-select-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0155] [WPT reftest] css/css-contain/contain-paint-change-opacity.html
+- [0156] [WPT reftest] css/css-contain/contain-paint-change-opacity.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -504,7 +504,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0170] [WPT reftest] css/css-contain/contain-paint-clip-019.html
+- [0171] [WPT reftest] css/css-contain/contain-paint-clip-019.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-paint-clip-019-ref.html (==)
@@ -517,7 +517,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-paint-clip-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0173] [WPT reftest] css/css-contain/contain-paint-dynamic-002.html
+- [0174] [WPT reftest] css/css-contain/contain-paint-dynamic-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/contain-paint-dynamic-002-ref.html (==)
@@ -530,7 +530,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-dynamic-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0175] [WPT reftest] css/css-contain/contain-paint-dynamic-004.html
+- [0176] [WPT reftest] css/css-contain/contain-paint-dynamic-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/contain-paint-dynamic-004-ref.html (==)
@@ -543,7 +543,7 @@
   stable page 1: diffRatio=0.0024103598961911304, diffPixels=2021
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-dynamic-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0176] [WPT reftest] css/css-contain/contain-paint-dynamic-005.html
+- [0177] [WPT reftest] css/css-contain/contain-paint-dynamic-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/contain-paint-dynamic-005-ref.html (==)
@@ -556,7 +556,7 @@
   stable page 1: diffRatio=0.0024103598961911304, diffPixels=2021
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-dynamic-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0177] [WPT reftest] css/css-contain/contain-paint-formatting-context-float-001.html
+- [0178] [WPT reftest] css/css-contain/contain-paint-formatting-context-float-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/contain-paint-formatting-context-float-001-ref.html (==)
@@ -569,7 +569,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-paint-formatting-context-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0218] [WPT reftest] css/css-contain/contain-size-052.html
+- [0219] [WPT reftest] css/css-contain/contain-size-052.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-size-051-ref.html (==)
@@ -582,7 +582,7 @@
   stable page 1: diffRatio=0.00029339363407373484, diffPixels=246
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-size-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0239] [WPT reftest] css/css-contain/contain-size-flexbox-002.html
+- [0240] [WPT reftest] css/css-contain/contain-size-flexbox-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-size-flexbox-002-ref.html (==)
@@ -595,7 +595,7 @@
   stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-size-flexbox-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0281] [WPT reftest] css/css-contain/contain-strict-011.html
+- [0282] [WPT reftest] css/css-contain/contain-strict-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-strict-011-ref.html (==)
@@ -608,7 +608,7 @@
   stable page 1: diffRatio=0.0019977005572093735, diffPixels=1675
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-strict-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0288] [WPT reftest] css/css-contain/contain-style-counters-001.html
+- [0289] [WPT reftest] css/css-contain/contain-style-counters-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-counters-001-ref.html (==)
@@ -621,7 +621,7 @@
   stable page 1: diffRatio=0.00048183344782841, diffPixels=404
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0290] [WPT reftest] css/css-contain/contain-style-counters-003.html
+- [0291] [WPT reftest] css/css-contain/contain-style-counters-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-counters-003-ref.html (==)
@@ -634,7 +634,7 @@
   stable page 1: diffRatio=0.0004114666819326769, diffPixels=345
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0291] [WPT reftest] css/css-contain/contain-style-counters-004.html
+- [0292] [WPT reftest] css/css-contain/contain-style-counters-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-counters-004-ref.html (==)
@@ -647,7 +647,7 @@
   stable page 1: diffRatio=0.00024210938096328523, diffPixels=203
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0292] [WPT reftest] css/css-contain/contain-style-counters-005.html
+- [0293] [WPT reftest] css/css-contain/contain-style-counters-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-counters-005-ref.html (==)
@@ -660,7 +660,7 @@
   stable page 1: diffRatio=0.0002289901534234028, diffPixels=192
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-counters-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0295] [WPT reftest] css/css-contain/contain-style-ol-ordinal-pseudo-reversed.html
+- [0296] [WPT reftest] css/css-contain/contain-style-ol-ordinal-pseudo-reversed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-ol-ordinal-pseudo-reversed-ref.html (==)
@@ -673,7 +673,7 @@
   stable page 1: diffRatio=0.0009338504694298145, diffPixels=783
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-pseudo-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0296] [WPT reftest] css/css-contain/contain-style-ol-ordinal-pseudo.html
+- [0297] [WPT reftest] css/css-contain/contain-style-ol-ordinal-pseudo.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-ol-ordinal-pseudo-ref.html (==)
@@ -686,7 +686,7 @@
   stable page 1: diffRatio=0.0004734848484848485, diffPixels=397
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-pseudo-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0297] [WPT reftest] css/css-contain/contain-style-ol-ordinal-reversed.html
+- [0298] [WPT reftest] css/css-contain/contain-style-ol-ordinal-reversed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-ol-ordinal-reversed-ref.html (==)
@@ -699,7 +699,7 @@
   stable page 1: diffRatio=0.00021587092588352033, diffPixels=181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0298] [WPT reftest] css/css-contain/contain-style-ol-ordinal-start-reversed.html
+- [0299] [WPT reftest] css/css-contain/contain-style-ol-ordinal-start-reversed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-ol-ordinal-start-reversed-ref.html (==)
@@ -712,7 +712,7 @@
   stable page 1: diffRatio=0.0002134856117853599, diffPixels=179
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-start-reversed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0299] [WPT reftest] css/css-contain/contain-style-ol-ordinal-start.html
+- [0300] [WPT reftest] css/css-contain/contain-style-ol-ordinal-start.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-ol-ordinal-start-ref.html (==)
@@ -725,7 +725,7 @@
   stable page 1: diffRatio=0.00012642164720250363, diffPixels=106
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-start-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0300] [WPT reftest] css/css-contain/contain-style-ol-ordinal.html
+- [0301] [WPT reftest] css/css-contain/contain-style-ol-ordinal.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/contain-style-ol-ordinal-ref.html (==)
@@ -738,7 +738,7 @@
   stable page 1: diffRatio=0.00013357758949698496, diffPixels=112
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/contain-style-ol-ordinal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0304] [WPT reftest] css/css-contain/content-visibility/content-visibility-002.html
+- [0305] [WPT reftest] css/css-contain/content-visibility/content-visibility-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
@@ -751,7 +751,7 @@
   stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0307] [WPT reftest] css/css-contain/content-visibility/content-visibility-005.html
+- [0308] [WPT reftest] css/css-contain/content-visibility/content-visibility-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -764,7 +764,7 @@
   stable page 1: diffRatio=0.0036459525990382414, diffPixels=3057
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0308] [WPT reftest] css/css-contain/content-visibility/content-visibility-006.html
+- [0309] [WPT reftest] css/css-contain/content-visibility/content-visibility-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -777,7 +777,7 @@
   stable page 1: diffRatio=0.0036459525990382414, diffPixels=3057
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0309] [WPT reftest] css/css-contain/content-visibility/content-visibility-007.html
+- [0310] [WPT reftest] css/css-contain/content-visibility/content-visibility-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -790,7 +790,7 @@
   stable page 1: diffRatio=0.0036459525990382414, diffPixels=3057
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0310] [WPT reftest] css/css-contain/content-visibility/content-visibility-008.html
+- [0311] [WPT reftest] css/css-contain/content-visibility/content-visibility-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -803,7 +803,7 @@
   stable page 1: diffRatio=0.0036459525990382414, diffPixels=3057
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0311] [WPT reftest] css/css-contain/content-visibility/content-visibility-009.html
+- [0312] [WPT reftest] css/css-contain/content-visibility/content-visibility-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/positioned-container-ref.html (==)
@@ -816,7 +816,7 @@
   stable page 1: diffRatio=0.0036459525990382414, diffPixels=3057
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/positioned-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0312] [WPT reftest] css/css-contain/content-visibility/content-visibility-010.html
+- [0313] [WPT reftest] css/css-contain/content-visibility/content-visibility-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -829,7 +829,7 @@
   stable page 1: diffRatio=0.0033537516220135868, diffPixels=2812
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0313] [WPT reftest] css/css-contain/content-visibility/content-visibility-011.html
+- [0314] [WPT reftest] css/css-contain/content-visibility/content-visibility-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/positioned-container-ref.html (==)
@@ -842,7 +842,7 @@
   stable page 1: diffRatio=0.003440815586596443, diffPixels=2885
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/positioned-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0314] [WPT reftest] css/css-contain/content-visibility/content-visibility-012.html
+- [0315] [WPT reftest] css/css-contain/content-visibility/content-visibility-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
@@ -855,7 +855,7 @@
   stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0315] [WPT reftest] css/css-contain/content-visibility/content-visibility-013.html
+- [0316] [WPT reftest] css/css-contain/content-visibility/content-visibility-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
@@ -868,7 +868,7 @@
   stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0316] [WPT reftest] css/css-contain/content-visibility/content-visibility-014.html
+- [0317] [WPT reftest] css/css-contain/content-visibility/content-visibility-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
@@ -881,7 +881,7 @@
   stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0317] [WPT reftest] css/css-contain/content-visibility/content-visibility-019.sub.https.html
+- [0318] [WPT reftest] css/css-contain/content-visibility/content-visibility-019.sub.https.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-019-ref.html (==)
@@ -894,7 +894,7 @@
   stable page 1: diffRatio=0.001187886420883902, diffPixels=996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0318] [WPT reftest] css/css-contain/content-visibility/content-visibility-020.html
+- [0319] [WPT reftest] css/css-contain/content-visibility/content-visibility-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-020-ref.html (==)
@@ -907,7 +907,7 @@
   stable page 1: diffRatio=0.008070710251125868, diffPixels=6767
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0319] [WPT reftest] css/css-contain/content-visibility/content-visibility-021.html
+- [0320] [WPT reftest] css/css-contain/content-visibility/content-visibility-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-021-ref.html (==)
@@ -920,7 +920,7 @@
   stable page 1: diffRatio=0.15892274444698878, diffPixels=133251
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0320] [WPT reftest] css/css-contain/content-visibility/content-visibility-022.html
+- [0321] [WPT reftest] css/css-contain/content-visibility/content-visibility-022.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-022-ref.html (==)
@@ -933,7 +933,7 @@
   stable page 1: diffRatio=0.016341786886497213, diffPixels=13702
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0321] [WPT reftest] css/css-contain/content-visibility/content-visibility-023.html
+- [0322] [WPT reftest] css/css-contain/content-visibility/content-visibility-023.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-023-ref.html (==)
@@ -946,7 +946,7 @@
   stable page 1: diffRatio=0.008037315853751621, diffPixels=6739
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0322] [WPT reftest] css/css-contain/content-visibility/content-visibility-024.html
+- [0323] [WPT reftest] css/css-contain/content-visibility/content-visibility-024.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-024-ref.html (==)
@@ -959,7 +959,7 @@
   stable page 1: diffRatio=0.15892035913289063, diffPixels=133249
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0323] [WPT reftest] css/css-contain/content-visibility/content-visibility-025.html
+- [0324] [WPT reftest] css/css-contain/content-visibility/content-visibility-025.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-025-ref.html (==)
@@ -972,7 +972,7 @@
   stable page 1: diffRatio=0.016341786886497213, diffPixels=13702
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0329] [WPT reftest] css/css-contain/content-visibility/content-visibility-037.html
+- [0330] [WPT reftest] css/css-contain/content-visibility/content-visibility-037.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -985,7 +985,7 @@
   stable page 1: diffRatio=0.00048779673307381116, diffPixels=409
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0330] [WPT reftest] css/css-contain/content-visibility/content-visibility-040.html
+- [0331] [WPT reftest] css/css-contain/content-visibility/content-visibility-040.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -998,7 +998,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0331] [WPT reftest] css/css-contain/content-visibility/content-visibility-041.html
+- [0332] [WPT reftest] css/css-contain/content-visibility/content-visibility-041.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -1011,7 +1011,7 @@
   stable page 1: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0332] [WPT reftest] css/css-contain/content-visibility/content-visibility-042.html
+- [0333] [WPT reftest] css/css-contain/content-visibility/content-visibility-042.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-042-ref.html (==)
@@ -1024,7 +1024,7 @@
   stable page 1: diffRatio=0.0009672448668040607, diffPixels=811
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-042-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0334] [WPT reftest] css/css-contain/content-visibility/content-visibility-045.html
+- [0335] [WPT reftest] css/css-contain/content-visibility/content-visibility-045.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -1037,7 +1037,7 @@
   stable page 1: diffRatio=0.0036030169452713535, diffPixels=3021
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0337] [WPT reftest] css/css-contain/content-visibility/content-visibility-051.html
+- [0338] [WPT reftest] css/css-contain/content-visibility/content-visibility-051.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -1050,7 +1050,7 @@
   stable page 1: diffRatio=0.025435796885733913, diffPixels=21327
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0338] [WPT reftest] css/css-contain/content-visibility/content-visibility-052.html
+- [0339] [WPT reftest] css/css-contain/content-visibility/content-visibility-052.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-with-pos-children-ref.html (==)
@@ -1063,7 +1063,7 @@
   stable page 1: diffRatio=0.005059251202198306, diffPixels=4242
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-pos-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0340] [WPT reftest] css/css-contain/content-visibility/content-visibility-056.html
+- [0341] [WPT reftest] css/css-contain/content-visibility/content-visibility-056.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-and-container-ref.html (==)
@@ -1076,7 +1076,7 @@
   stable page 2: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0341] [WPT reftest] css/css-contain/content-visibility/content-visibility-057.html
+- [0342] [WPT reftest] css/css-contain/content-visibility/content-visibility-057.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
@@ -1089,7 +1089,7 @@
   stable page 1: diffRatio=0.0038510896114800396, diffPixels=3229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0343] [WPT reftest] css/css-contain/content-visibility/content-visibility-060.html
+- [0344] [WPT reftest] css/css-contain/content-visibility/content-visibility-060.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-and-container-ref.html (==)
@@ -1102,7 +1102,7 @@
   stable page 2: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0344] [WPT reftest] css/css-contain/content-visibility/content-visibility-061.html
+- [0345] [WPT reftest] css/css-contain/content-visibility/content-visibility-061.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-and-container-ref.html (==)
@@ -1115,7 +1115,7 @@
   stable page 2: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0345] [WPT reftest] css/css-contain/content-visibility/content-visibility-062.html
+- [0346] [WPT reftest] css/css-contain/content-visibility/content-visibility-062.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-and-container-ref.html (==)
@@ -1128,7 +1128,7 @@
   stable page 2: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0346] [WPT reftest] css/css-contain/content-visibility/content-visibility-063.html
+- [0347] [WPT reftest] css/css-contain/content-visibility/content-visibility-063.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-and-container-ref.html (==)
@@ -1141,7 +1141,7 @@
   stable page 2: diffRatio=0.026661848332188383, diffPixels=22355
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0348] [WPT reftest] css/css-contain/content-visibility/content-visibility-065.html
+- [0349] [WPT reftest] css/css-contain/content-visibility/content-visibility-065.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-and-container-ref.html (==)
@@ -1154,7 +1154,7 @@
   stable page 2: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0349] [WPT reftest] css/css-contain/content-visibility/content-visibility-066.html
+- [0350] [WPT reftest] css/css-contain/content-visibility/content-visibility-066.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-and-container-ref.html (==)
@@ -1167,7 +1167,7 @@
   stable page 2: diffRatio=0.026661848332188383, diffPixels=22355
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0350] [WPT reftest] css/css-contain/content-visibility/content-visibility-067.html
+- [0351] [WPT reftest] css/css-contain/content-visibility/content-visibility-067.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-and-container-ref.html (==)
@@ -1180,7 +1180,7 @@
   stable page 2: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-and-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0351] [WPT reftest] css/css-contain/content-visibility/content-visibility-073.html
+- [0352] [WPT reftest] css/css-contain/content-visibility/content-visibility-073.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/inline-container-with-child-ref.html (==)
@@ -1193,7 +1193,7 @@
   stable page 1: diffRatio=0.026139464544691245, diffPixels=21917
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/inline-container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0353] [WPT reftest] css/css-contain/content-visibility/content-visibility-075.html
+- [0354] [WPT reftest] css/css-contain/content-visibility/content-visibility-075.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-075-ref.html (==)
@@ -1206,7 +1206,7 @@
   stable selected pages: test=[1, 2, 3, 4], reference=[1, 2, 3, 4, 5, 6]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-075-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0355] [WPT reftest] css/css-contain/content-visibility/content-visibility-078.html
+- [0356] [WPT reftest] css/css-contain/content-visibility/content-visibility-078.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-078-ref.html (==)
@@ -1219,7 +1219,7 @@
   stable page 1: diffRatio=0.011999322570796122, diffPixels=10061
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-078-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0360] [WPT reftest] css/css-contain/content-visibility/content-visibility-085.html
+- [0361] [WPT reftest] css/css-contain/content-visibility/content-visibility-085.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1232,7 +1232,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0361] [WPT reftest] css/css-contain/content-visibility/content-visibility-094.html
+- [0362] [WPT reftest] css/css-contain/content-visibility/content-visibility-094.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-094-ref.html (==)
@@ -1245,7 +1245,7 @@
   stable page 1: diffRatio=0.014620782764674453, diffPixels=12259
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-094-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0362] [WPT reftest] css/css-contain/content-visibility/content-visibility-095.html
+- [0363] [WPT reftest] css/css-contain/content-visibility/content-visibility-095.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-095-ref.html (==)
@@ -1258,7 +1258,7 @@
   stable page 1: diffRatio=0.0008288966491107549, diffPixels=695
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-095-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0367] [WPT reftest] css/css-contain/content-visibility/content-visibility-animation-and-scroll.html
+- [0368] [WPT reftest] css/css-contain/content-visibility/content-visibility-animation-and-scroll.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-animation-and-scroll-ref.html (==)
@@ -1271,7 +1271,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-animation-and-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0368] [WPT reftest] css/css-contain/content-visibility/content-visibility-animation-becomes-visible.html
+- [0369] [WPT reftest] css/css-contain/content-visibility/content-visibility-animation-becomes-visible.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-animation-becomes-visible-ref.html (==)
@@ -1284,20 +1284,20 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-animation-becomes-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0374] [WPT reftest] css/css-contain/content-visibility/content-visibility-auto-svg-image.html
+- [0375] [WPT reftest] css/css-contain/content-visibility/content-visibility-auto-svg-image.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-auto-svg-image-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-auto-svg-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0033036600259522173, diffPixels=2770
+  canary page 1: diffRatio=0.004293565376688803, diffPixels=3600
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-auto-svg-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-auto-svg-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0033036600259522173, diffPixels=2770
+  stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-auto-svg-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0376] [WPT reftest] css/css-contain/content-visibility/content-visibility-canvas.html
+- [0377] [WPT reftest] css/css-contain/content-visibility/content-visibility-canvas.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-canvas-ref.html (==)
@@ -1310,7 +1310,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-canvas-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0378] [WPT reftest] css/css-contain/content-visibility/content-visibility-hidden-and-float-inside-skipped-subtree.html
+- [0379] [WPT reftest] css/css-contain/content-visibility/content-visibility-hidden-and-float-inside-skipped-subtree.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-hidden-and-float-inside-skipped-subtree-ref.html (==)
@@ -1323,7 +1323,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-hidden-and-float-inside-skipped-subtree-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0379] [WPT reftest] css/css-contain/content-visibility/content-visibility-hidden-and-innertext.html
+- [0380] [WPT reftest] css/css-contain/content-visibility/content-visibility-hidden-and-innertext.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-hidden-and-innertext-ref.html (==)
@@ -1336,7 +1336,7 @@
   stable page 1: diffRatio=0.0009243092130371728, diffPixels=775
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-hidden-and-innertext-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0381] [WPT reftest] css/css-contain/content-visibility/content-visibility-intrinsic-size-001.html
+- [0382] [WPT reftest] css/css-contain/content-visibility/content-visibility-intrinsic-size-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-intrinsic-size-001-ref.html (==)
@@ -1349,7 +1349,7 @@
   stable selected pages: test=[1, 2, 3, 4], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-intrinsic-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0383] [WPT reftest] css/css-contain/content-visibility/content-visibility-on-g.html
+- [0384] [WPT reftest] css/css-contain/content-visibility/content-visibility-on-g.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-on-g-ref.html (==)
@@ -1362,7 +1362,7 @@
   stable page 1: diffRatio=0.016919032898252043, diffPixels=14186
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-on-g-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0387] [WPT reftest] css/css-contain/content-visibility/content-visibility-paint-containment-002.html
+- [0388] [WPT reftest] css/css-contain/content-visibility/content-visibility-paint-containment-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-paint-containment-002-ref.html (==)
@@ -1375,7 +1375,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-paint-containment-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0388] [WPT reftest] css/css-contain/content-visibility/content-visibility-paint-containment-003.html
+- [0389] [WPT reftest] css/css-contain/content-visibility/content-visibility-paint-containment-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-paint-containment-003-ref.html (==)
@@ -1388,20 +1388,20 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-paint-containment-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0391] [WPT reftest] css/css-contain/content-visibility/content-visibility-video.html
+- [0392] [WPT reftest] css/css-contain/content-visibility/content-visibility-video.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-video-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.039883644378291734, diffPixels=33441
+  canary page 1: diffRatio=0.04032969811464774, diffPixels=33815
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.041250429356537666, diffPixels=34587
+  stable page 1: diffRatio=0.039896763605831616, diffPixels=33452
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0395] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-001.html
+- [0396] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -1414,7 +1414,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0396] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-002.html
+- [0397] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -1427,7 +1427,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0398] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-004.html
+- [0399] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-with-popover-top-layer-ref.html (==)
@@ -1440,7 +1440,7 @@
   stable selected pages: test=[1, 2], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-with-popover-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0399] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-005.html
+- [0400] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/spacer-with-popover-top-layer-ref.html (==)
@@ -1455,7 +1455,7 @@
   stable page 3: diffRatio=0.00007871536523929471, diffPixels=66
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/spacer-with-popover-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0400] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant.html
+- [0401] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant-ref.html (==)
@@ -1468,7 +1468,7 @@
   stable page 2: diffRatio=0.002059718723761545, diffPixels=1727
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-popover-top-layer-and-auto-descendant-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0401] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-hide-after-addition.html
+- [0402] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-hide-after-addition.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -1481,7 +1481,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0403] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-001.html
+- [0404] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -1494,7 +1494,7 @@
   stable page 1: diffRatio=0.0009445843828715365, diffPixels=792
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0404] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-002.html
+- [0405] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -1507,7 +1507,7 @@
   stable page 1: diffRatio=0.0011676112510495382, diffPixels=979
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0405] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-003.html
+- [0406] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-with-top-layer-ref.html (==)
@@ -1520,7 +1520,7 @@
   stable page 1: diffRatio=0.0019941225860621325, diffPixels=1672
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-with-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0409] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-hide-after-addition.html
+- [0410] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-hide-after-addition.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-ref.html (==)
@@ -1533,7 +1533,7 @@
   stable page 1: diffRatio=0.0010101805205709488, diffPixels=847
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0410] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-in-auto-subtree-removal.html
+- [0411] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-in-auto-subtree-removal.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/container-with-child-ref.html (==)
@@ -1546,7 +1546,7 @@
   stable page 1: diffRatio=0.0032619170292344096, diffPixels=2735
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-with-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0411] [WPT reftest] css/css-contain/content-visibility/dynamic-change-paint-fully-obscuring-child-001.html
+- [0412] [WPT reftest] css/css-contain/content-visibility/dynamic-change-paint-fully-obscuring-child-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1559,7 +1559,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0412] [WPT reftest] css/css-contain/content-visibility/dynamic-change-with-slotted-text.html
+- [0413] [WPT reftest] css/css-contain/content-visibility/dynamic-change-with-slotted-text.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/dynamic-change-with-slotted-text-ref.html (==)
@@ -1572,7 +1572,7 @@
   stable page 1: diffRatio=0.0006333008930615984, diffPixels=531
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/dynamic-change-with-slotted-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0415] [WPT reftest] css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden.html
+- [0416] [WPT reftest] css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden-ref.html (==)
@@ -1585,7 +1585,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/scrollIntoView-target-with-contents-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0416] [WPT reftest] css/css-contain/content-visibility/scrollIntoView-with-focus-target-with-contents-hidden.html
+- [0417] [WPT reftest] css/css-contain/content-visibility/scrollIntoView-with-focus-target-with-contents-hidden.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/scrollIntoView-with-focus-target-with-contents-hidden-ref.html (==)
@@ -1598,7 +1598,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/scrollIntoView-with-focus-target-with-contents-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0417] [WPT reftest] css/css-contain/counter-scoping-001.html
+- [0418] [WPT reftest] css/css-contain/counter-scoping-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/counter-scoping-001-ref.html (==)
@@ -1611,7 +1611,7 @@
   stable page 1: diffRatio=0.00004889893901228914, diffPixels=41
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/counter-scoping-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0418] [WPT reftest] css/css-contain/counter-scoping-002.html
+- [0419] [WPT reftest] css/css-contain/counter-scoping-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/counter-scoping-001-ref.html (==)
@@ -1624,7 +1624,7 @@
   stable page 1: diffRatio=0.000041742996717807804, diffPixels=35
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/counter-scoping-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0419] [WPT reftest] css/css-contain/counter-scoping-003.html
+- [0420] [WPT reftest] css/css-contain/counter-scoping-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/counter-scoping-003-ref.html (==)
@@ -1637,7 +1637,7 @@
   stable page 1: diffRatio=0.00012165101900618274, diffPixels=102
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/counter-scoping-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0420] [WPT reftest] css/css-contain/counter-scoping-004.html
+- [0421] [WPT reftest] css/css-contain/counter-scoping-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/counter-scoping-004-ref.html (==)
@@ -1650,7 +1650,7 @@
   stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/counter-scoping-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0421] [WPT reftest] css/css-contain/quote-scoping-001.html
+- [0422] [WPT reftest] css/css-contain/quote-scoping-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/quote-scoping-001-ref.html (==)
@@ -1663,7 +1663,7 @@
   stable page 1: diffRatio=0.000039357682619647354, diffPixels=33
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0423] [WPT reftest] css/css-contain/quote-scoping-003.html
+- [0424] [WPT reftest] css/css-contain/quote-scoping-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/quote-scoping-003-ref.html (==)
@@ -1676,7 +1676,7 @@
   stable page 1: diffRatio=0.000039357682619647354, diffPixels=33
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0426] [WPT reftest] css/css-contain/quote-scoping-invalidation-001.html
+- [0427] [WPT reftest] css/css-contain/quote-scoping-invalidation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/quote-scoping-invalidation-001-ref.html (==)
@@ -1689,7 +1689,7 @@
   stable page 1: diffRatio=0.00003458705442332646, diffPixels=29
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-invalidation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0428] [WPT reftest] css/css-contain/quote-scoping-invalidation-003.html
+- [0429] [WPT reftest] css/css-contain/quote-scoping-invalidation-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/quote-scoping-invalidation-003-ref.html (==)
@@ -1702,7 +1702,7 @@
   stable page 1: diffRatio=0.00007155942294481338, diffPixels=60
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/reference/quote-scoping-invalidation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0429] [WPT reftest] css/css-contain/quote-scoping-invalidation-004.html
+- [0430] [WPT reftest] css/css-contain/quote-scoping-invalidation-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/reference/quote-scoping-invalidation-004-ref.html (==)
@@ -1717,45 +1717,37 @@
 
 ## Errors
 
-- [0259] [WPT reftest] css/css-contain/contain-size-replaced-003a.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0336] [WPT reftest] css/css-contain/content-visibility/content-visibility-049.html
-  triage: pending
-  side: canary, stable
-  canary timeout: false
-  canary error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0339] [WPT reftest] css/css-contain/content-visibility/content-visibility-055.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0354] [WPT reftest] css/css-contain/content-visibility/content-visibility-076.html
+- [0337] [WPT reftest] css/css-contain/content-visibility/content-visibility-049.html
   triage: pending
   side: canary, stable
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0340] [WPT reftest] css/css-contain/content-visibility/content-visibility-055.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0355] [WPT reftest] css/css-contain/content-visibility/content-visibility-076.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0358] [WPT reftest] css/css-contain/content-visibility/content-visibility-083.html
+- [0359] [WPT reftest] css/css-contain/content-visibility/content-visibility-083.html
   triage: pending
   side: canary, stable
   canary timeout: true
@@ -1765,7 +1757,7 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-083.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-083.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0359] [WPT reftest] css/css-contain/content-visibility/content-visibility-084.html
+- [0360] [WPT reftest] css/css-contain/content-visibility/content-visibility-084.html
   triage: pending
   side: canary, stable
   canary timeout: true
@@ -1775,7 +1767,7 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-084.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-084.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0406] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-004.html
+- [0407] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-004.html
   triage: pending
   side: canary, stable
   canary timeout: true
@@ -1785,7 +1777,7 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0407] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-005.html
+- [0408] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-005.html
   triage: pending
   side: canary, stable
   canary timeout: true
@@ -1795,7 +1787,7 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-with-top-layer-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0408] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-and-auto-descendant.html
+- [0409] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-top-layer-and-auto-descendant.html
   triage: pending
   side: canary, stable
   canary timeout: true

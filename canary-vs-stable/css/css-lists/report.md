@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 171
-- Entries with differences: 104 (pending: 104, triaged: 0)
+- Entries with differences: 102 (pending: 102, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":67,"known-fail":104}
+- Outcome summary: {"pass":69,"known-fail":102}
 
 ## Differences
 
@@ -386,19 +386,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-set-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-set-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0053] [WPT reftest] css/css-lists/counter-slot-order-scoping.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-lists/counter-slot-order-scoping-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-slot-order-scoping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015266010228226853, diffPixels=128
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-slot-order-scoping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-slot-order-scoping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-slot-order-scoping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/css-lists/counter-slot-order.html
   triage: pending
@@ -1283,19 +1270,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-quotes.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-quotes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0163] [WPT reftest] css/css-lists/marker-webkit-text-fill-color.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-lists/marker-webkit-text-fill-color-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/marker-webkit-text-fill-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/marker-webkit-text-fill-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-webkit-text-fill-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-webkit-text-fill-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0164] [WPT reftest] css/css-lists/nested-marker-dynamic.html
   triage: pending

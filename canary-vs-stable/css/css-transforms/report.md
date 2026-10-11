@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 794
-- Entries with differences: 258 (pending: 258, triaged: 0)
+- Compared entries: 796
+- Entries with differences: 259 (pending: 259, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":535,"known-fail":258,"unchanged":1}
+- Outcome summary: {"pass":536,"known-fail":259,"unchanged":1}
 
 ## Differences
 
@@ -1856,7 +1856,33 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0350] [WPT reftest] css/css-transforms/scale-animation-with-var-001.html
+- [0286] [WPT reftest] css/css-transforms/perspective-svg-child-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-transforms/perspective-svg-child-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-svg-child-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.012880696130066408, diffPixels=10800
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-svg-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/perspective-svg-child-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.012880696130066408, diffPixels=10800
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/perspective-svg-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0287] [WPT reftest] css/css-transforms/perspective-svg-child-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-transforms/perspective-svg-child-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-svg-child-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008587130753377605, diffPixels=7200
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-svg-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/perspective-svg-child-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008587130753377605, diffPixels=7200
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/perspective-svg-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0352] [WPT reftest] css/css-transforms/scale-animation-with-var-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -1869,7 +1895,7 @@
   stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0398] [WPT reftest] css/css-transforms/transform-background-005.html
+- [0400] [WPT reftest] css/css-transforms/transform-background-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-background-ref-2.html (==)
@@ -1882,7 +1908,7 @@
   stable page 1: diffRatio=0.006542916571254102, diffPixels=5486
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-background-ref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0402] [WPT reftest] css/css-transforms/transform-box/content-box-mutation-001.html
+- [0404] [WPT reftest] css/css-transforms/transform-box/content-box-mutation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/cssbox-ref.html (==)
@@ -1895,20 +1921,7 @@
   stable page 1: diffRatio=0.016399034424853066, diffPixels=13750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/cssbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0413] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0414] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-001.html
+- [0416] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/svgbox-rect-ref.html (==)
@@ -1921,7 +1934,7 @@
   stable page 1: diffRatio=0.005844019540493092, diffPixels=4900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/svgbox-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0415] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-002.html
+- [0417] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/svgbox-rect-ref.html (==)
@@ -1934,7 +1947,7 @@
   stable page 1: diffRatio=0.007633005114113426, diffPixels=6400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/svgbox-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0416] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-003.html
+- [0418] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/svgbox-rect-ref.html (==)
@@ -1947,7 +1960,7 @@
   stable page 1: diffRatio=0.005844019540493092, diffPixels=4900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/svgbox-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0417] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-004.html
+- [0419] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/svgbox-rect-ref.html (==)
@@ -1960,7 +1973,7 @@
   stable page 1: diffRatio=0.007633005114113426, diffPixels=6400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/svgbox-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0426] [WPT reftest] css/css-transforms/transform-box/svgbox-stroke-box-005.html
+- [0428] [WPT reftest] css/css-transforms/transform-box/svgbox-stroke-box-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/svgbox-rect-ref.html (==)
@@ -1973,7 +1986,7 @@
   stable page 1: diffRatio=0.005605488130677048, diffPixels=4700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/svgbox-rect-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0430] [WPT reftest] css/css-transforms/transform-box/view-box-mutation-002.html
+- [0432] [WPT reftest] css/css-transforms/transform-box/view-box-mutation-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
@@ -1986,7 +1999,7 @@
   stable page 1: diffRatio=0.023614609571788413, diffPixels=19800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0431] [WPT reftest] css/css-transforms/transform-box/view-box-mutation-003.html
+- [0433] [WPT reftest] css/css-transforms/transform-box/view-box-mutation-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
@@ -1999,7 +2012,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0438] [WPT reftest] css/css-transforms/transform-containing-block-and-scrolling-area-for-fixed.html
+- [0440] [WPT reftest] css/css-transforms/transform-containing-block-and-scrolling-area-for-fixed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-containing-block-and-scrolling-area-for-fixed-ref.html (==)
@@ -2012,7 +2025,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-containing-block-and-scrolling-area-for-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0439] [WPT reftest] css/css-transforms/transform-containing-block-dynamic-1a.html
+- [0441] [WPT reftest] css/css-transforms/transform-containing-block-dynamic-1a.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/containing-block-dynamic-1-ref.html (==)
@@ -2025,7 +2038,7 @@
   stable page 1: diffRatio=0.024330203801236547, diffPixels=20400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/containing-block-dynamic-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0447] [WPT reftest] css/css-transforms/transform-fixed-bg-002.html
+- [0449] [WPT reftest] css/css-transforms/transform-fixed-bg-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-fixed-bg-ref.html (==)
@@ -2038,7 +2051,7 @@
   stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-fixed-bg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0449] [WPT reftest] css/css-transforms/transform-fixed-bg-004.html
+- [0451] [WPT reftest] css/css-transforms/transform-fixed-bg-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-fixed-bg-ref.html (==)
@@ -2051,7 +2064,7 @@
   stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-fixed-bg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0451] [WPT reftest] css/css-transforms/transform-fixed-bg-006.html
+- [0453] [WPT reftest] css/css-transforms/transform-fixed-bg-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-fixed-bg-ref.html (==)
@@ -2064,7 +2077,7 @@
   stable page 1: diffRatio=0.0014311884588962675, diffPixels=1200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-fixed-bg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0452] [WPT reftest] css/css-transforms/transform-fixed-bg-007.html
+- [0454] [WPT reftest] css/css-transforms/transform-fixed-bg-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-fixed-bg-ref.html (==)
@@ -2077,7 +2090,7 @@
   stable page 1: diffRatio=0.004412831081596825, diffPixels=3700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-fixed-bg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0459] [WPT reftest] css/css-transforms/transform-iframe-scroll-position.html
+- [0461] [WPT reftest] css/css-transforms/transform-iframe-scroll-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-iframe-scroll-position-ref.html (==)
@@ -2090,7 +2103,7 @@
   stable page 1: diffRatio=0.0014908213113502787, diffPixels=1250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-iframe-scroll-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0461] [WPT reftest] css/css-transforms/transform-inherit-001.html
+- [0463] [WPT reftest] css/css-transforms/transform-inherit-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-inherit-ref.html (==)
@@ -2103,7 +2116,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-inherit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0505] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-001.html
+- [0507] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-ref.html (==)
@@ -2116,7 +2129,7 @@
   stable page 1: diffRatio=0.01145427829936646, diffPixels=9604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0506] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-002.html
+- [0508] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-ref.html (==)
@@ -2129,7 +2142,7 @@
   stable page 1: diffRatio=0.01145427829936646, diffPixels=9604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0507] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-003.html
+- [0509] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-ref.html (==)
@@ -2142,7 +2155,7 @@
   stable page 1: diffRatio=0.01145427829936646, diffPixels=9604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0508] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-004.html
+- [0510] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-ref.html (==)
@@ -2155,7 +2168,7 @@
   stable page 1: diffRatio=0.01145427829936646, diffPixels=9604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0509] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-005.html
+- [0511] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-ref.html (==)
@@ -2168,7 +2181,7 @@
   stable page 1: diffRatio=0.01145427829936646, diffPixels=9604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0510] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-006.html
+- [0512] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-ref.html (==)
@@ -2181,7 +2194,7 @@
   stable page 1: diffRatio=0.01145427829936646, diffPixels=9604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0511] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-007.html
+- [0513] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-ref.html (==)
@@ -2194,7 +2207,7 @@
   stable page 1: diffRatio=0.01145427829936646, diffPixels=9604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0512] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-008.html
+- [0514] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-ref.html (==)
@@ -2207,7 +2220,7 @@
   stable page 1: diffRatio=0.01145427829936646, diffPixels=9604
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0513] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-001.html
+- [0515] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html (==)
@@ -2220,7 +2233,7 @@
   stable page 1: diffRatio=0.006355669414548508, diffPixels=5329
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0514] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-002.html
+- [0516] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html (==)
@@ -2233,7 +2246,7 @@
   stable page 1: diffRatio=0.006355669414548508, diffPixels=5329
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0515] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-003.html
+- [0517] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html (==)
@@ -2246,7 +2259,7 @@
   stable page 1: diffRatio=0.006355669414548508, diffPixels=5329
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0516] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-004.html
+- [0518] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html (==)
@@ -2259,7 +2272,7 @@
   stable page 1: diffRatio=0.006355669414548508, diffPixels=5329
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0517] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-005.html
+- [0519] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-cm-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html (==)
@@ -2272,7 +2285,7 @@
   stable page 1: diffRatio=0.006355669414548508, diffPixels=5329
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-cm-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0518] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-001.html
+- [0520] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html (==)
@@ -2285,7 +2298,7 @@
   stable page 1: diffRatio=0.024048736737653613, diffPixels=20164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0519] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-002.html
+- [0521] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html (==)
@@ -2298,7 +2311,7 @@
   stable page 1: diffRatio=0.024048736737653613, diffPixels=20164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0520] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-003.html
+- [0522] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html (==)
@@ -2311,7 +2324,7 @@
   stable page 1: diffRatio=0.024048736737653613, diffPixels=20164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0521] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-004.html
+- [0523] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html (==)
@@ -2324,7 +2337,7 @@
   stable page 1: diffRatio=0.024048736737653613, diffPixels=20164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0522] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-005.html
+- [0524] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-in-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html (==)
@@ -2337,7 +2350,7 @@
   stable page 1: diffRatio=0.024048736737653613, diffPixels=20164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-in-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0523] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-001.html
+- [0525] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html (==)
@@ -2350,7 +2363,7 @@
   stable page 1: diffRatio=0.012899778642851691, diffPixels=10816
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0524] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-002.html
+- [0526] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html (==)
@@ -2363,7 +2376,7 @@
   stable page 1: diffRatio=0.012899778642851691, diffPixels=10816
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0525] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-003.html
+- [0527] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html (==)
@@ -2376,7 +2389,7 @@
   stable page 1: diffRatio=0.012899778642851691, diffPixels=10816
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0526] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-004.html
+- [0528] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html (==)
@@ -2389,7 +2402,7 @@
   stable page 1: diffRatio=0.012899778642851691, diffPixels=10816
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0527] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-005.html
+- [0529] [WPT reftest] css/css-transforms/transform-origin/svg-origin-length-pt-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html (==)
@@ -2402,7 +2415,7 @@
   stable page 1: diffRatio=0.012899778642851691, diffPixels=10816
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-length-pt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0528] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-001.html
+- [0530] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2415,7 +2428,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0529] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-002.html
+- [0531] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2428,7 +2441,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0530] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-003.html
+- [0532] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2441,7 +2454,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0531] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-004.html
+- [0533] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2454,7 +2467,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0532] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-005.html
+- [0534] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2467,7 +2480,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0533] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-006.html
+- [0535] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2480,7 +2493,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0534] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-007.html
+- [0536] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2493,7 +2506,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0535] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-008.html
+- [0537] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2506,7 +2519,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0536] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-009.html
+- [0538] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2519,7 +2532,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0537] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-010.html
+- [0539] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2532,7 +2545,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0538] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-011.html
+- [0540] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2545,7 +2558,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0539] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-012.html
+- [0541] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2558,7 +2571,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0540] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-013.html
+- [0542] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2571,7 +2584,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0541] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-014.html
+- [0543] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2584,7 +2597,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0542] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-015.html
+- [0544] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2597,7 +2610,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0543] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-016.html
+- [0545] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2610,7 +2623,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0544] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-017.html
+- [0546] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2623,7 +2636,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0545] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-018.html
+- [0547] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2636,7 +2649,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0546] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-019.html
+- [0548] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-019.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2649,7 +2662,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0547] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-020.html
+- [0549] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2662,7 +2675,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0548] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-021.html
+- [0550] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2675,7 +2688,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0549] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-022.html
+- [0551] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-022.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2688,7 +2701,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0550] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-023.html
+- [0552] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-023.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2701,7 +2714,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0551] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-024.html
+- [0553] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-024.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2714,7 +2727,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0552] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-025.html
+- [0554] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-025.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2727,7 +2740,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0553] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-026.html
+- [0555] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-026.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2740,7 +2753,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0554] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-027.html
+- [0556] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-027.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2753,7 +2766,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0555] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-028.html
+- [0557] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-028.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2766,7 +2779,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0556] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-029.html
+- [0558] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-029.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2779,7 +2792,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0557] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-030.html
+- [0559] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-030.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2792,7 +2805,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0558] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-031.html
+- [0560] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-031.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2805,7 +2818,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0559] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-032.html
+- [0561] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-032.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2818,7 +2831,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0560] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-033.html
+- [0562] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-033.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2831,7 +2844,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0561] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-034.html
+- [0563] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-034.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2844,7 +2857,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0562] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-035.html
+- [0564] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-035.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2857,7 +2870,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0563] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-036.html
+- [0565] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-036.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2870,7 +2883,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0564] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-037.html
+- [0566] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-037.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2883,7 +2896,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0565] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-038.html
+- [0567] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-038.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2896,7 +2909,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0566] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-039.html
+- [0568] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-039.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2909,7 +2922,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0567] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-040.html
+- [0569] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-040.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2922,7 +2935,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0568] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-041.html
+- [0570] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-041.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2935,7 +2948,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0569] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-042.html
+- [0571] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-042.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2948,7 +2961,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0570] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-043.html
+- [0572] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-043.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2961,7 +2974,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0571] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-044.html
+- [0573] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-044.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2974,7 +2987,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0572] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-045.html
+- [0574] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-045.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -2987,7 +3000,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0573] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-046.html
+- [0575] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-046.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html (==)
@@ -3000,7 +3013,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0574] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-001.html
+- [0576] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3013,7 +3026,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0575] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-002.html
+- [0577] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3026,7 +3039,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0576] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-003.html
+- [0578] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3039,7 +3052,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0577] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-004.html
+- [0579] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3052,7 +3065,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0578] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-005.html
+- [0580] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3065,7 +3078,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0579] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-006.html
+- [0581] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3078,7 +3091,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0580] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-007.html
+- [0582] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3091,7 +3104,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0581] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-008.html
+- [0583] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3104,7 +3117,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0582] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-009.html
+- [0584] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3117,7 +3130,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0583] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-010.html
+- [0585] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3130,7 +3143,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0584] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-011.html
+- [0586] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3143,7 +3156,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0585] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-012.html
+- [0587] [WPT reftest] css/css-transforms/transform-origin/svg-origin-relative-length-invalid-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html (==)
@@ -3156,7 +3169,7 @@
   stable page 1: diffRatio=0.0261239600030532, diffPixels=21904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin/reference/svg-origin-relative-length-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0591] [WPT reftest] css/css-transforms/transform-origin-006.html
+- [0593] [WPT reftest] css/css-transforms/transform-origin-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-origin-ref-2.html (==)
@@ -3169,7 +3182,7 @@
   stable page 1: diffRatio=0.0012701797572704373, diffPixels=1065
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin-ref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0618] [WPT reftest] css/css-transforms/transform-percent-010.html
+- [0620] [WPT reftest] css/css-transforms/transform-percent-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
@@ -3182,7 +3195,7 @@
   stable page 1: diffRatio=0.07155942294481338, diffPixels=60000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0619] [WPT reftest] css/css-transforms/transform-propagate-inherit-boolean-001.html
+- [0621] [WPT reftest] css/css-transforms/transform-propagate-inherit-boolean-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-propagate-inherit-boolean-ref.html (==)
@@ -3195,7 +3208,7 @@
   stable page 1: diffRatio=0.0000047706281963208916, diffPixels=4
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-propagate-inherit-boolean-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0653] [WPT reftest] css/css-transforms/transform-table-009.html
+- [0655] [WPT reftest] css/css-transforms/transform-table-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-table-009-ref.html (==)
@@ -3208,7 +3221,7 @@
   stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-table-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0654] [WPT reftest] css/css-transforms/transform-table-010.html
+- [0656] [WPT reftest] css/css-transforms/transform-table-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-table-009-ref.html (==)
@@ -3221,7 +3234,7 @@
   stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-table-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0655] [WPT reftest] css/css-transforms/transform-table-011.html
+- [0657] [WPT reftest] css/css-transforms/transform-table-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-table-009-ref.html (==)
@@ -3234,7 +3247,7 @@
   stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-table-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0666] [WPT reftest] css/css-transforms/transform-transformed-caption-contains-fixed-position.html
+- [0668] [WPT reftest] css/css-transforms/transform-transformed-caption-contains-fixed-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-transformed-caption-contains-fixed-position-ref.html (==)
@@ -3247,7 +3260,7 @@
   stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-caption-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0667] [WPT reftest] css/css-transforms/transform-transformed-tbody-contains-fixed-position.html
+- [0669] [WPT reftest] css/css-transforms/transform-transformed-tbody-contains-fixed-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-transformed-tbody-contains-fixed-position-ref.html (==)
@@ -3260,7 +3273,7 @@
   stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-tbody-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0668] [WPT reftest] css/css-transforms/transform-transformed-td-contains-fixed-position.html
+- [0670] [WPT reftest] css/css-transforms/transform-transformed-td-contains-fixed-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-transformed-td-contains-fixed-position-ref.html (==)
@@ -3273,7 +3286,7 @@
   stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-td-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0669] [WPT reftest] css/css-transforms/transform-transformed-tfoot-contains-fixed-position.html
+- [0671] [WPT reftest] css/css-transforms/transform-transformed-tfoot-contains-fixed-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-transformed-tfoot-contains-fixed-position-ref.html (==)
@@ -3286,7 +3299,7 @@
   stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-tfoot-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0670] [WPT reftest] css/css-transforms/transform-transformed-th-contains-fixed-position.html
+- [0672] [WPT reftest] css/css-transforms/transform-transformed-th-contains-fixed-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-transformed-th-contains-fixed-position-ref.html (==)
@@ -3299,7 +3312,7 @@
   stable page 1: diffRatio=0.0006977043737119304, diffPixels=585
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-th-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0671] [WPT reftest] css/css-transforms/transform-transformed-thead-contains-fixed-position.html
+- [0673] [WPT reftest] css/css-transforms/transform-transformed-thead-contains-fixed-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-transformed-thead-contains-fixed-position-ref.html (==)
@@ -3312,7 +3325,7 @@
   stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-thead-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0672] [WPT reftest] css/css-transforms/transform-transformed-tr-contains-fixed-position.html
+- [0674] [WPT reftest] css/css-transforms/transform-transformed-tr-contains-fixed-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-transformed-tr-contains-fixed-position-ref.html (==)
@@ -3325,7 +3338,7 @@
   stable page 1: diffRatio=0.0006726585756812458, diffPixels=564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-transformed-tr-contains-fixed-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0679] [WPT reftest] css/css-transforms/transform-translate-background-001.html
+- [0681] [WPT reftest] css/css-transforms/transform-translate-background-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-translate-background-001-ref.html (==)
@@ -3338,7 +3351,7 @@
   stable page 1: diffRatio=0.3200996107167392, diffPixels=268392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-translate-background-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0680] [WPT reftest] css/css-transforms/transform-translate-background-002.html
+- [0682] [WPT reftest] css/css-transforms/transform-translate-background-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-translate-background-001-ref.html (==)
@@ -3351,7 +3364,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-translate-background-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0788] [WPT reftest] css/css-transforms/ttwf-reftest-rotate.html
+- [0790] [WPT reftest] css/css-transforms/ttwf-reftest-rotate.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/reference/ttwf-reftest-rotate-ref.html (==)
