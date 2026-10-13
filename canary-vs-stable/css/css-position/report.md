@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 251
-- Entries with differences: 97 (pending: 97, triaged: 0)
-- Entries with errors: 6 (pending: 6, triaged: 0)
-- Timeout entries: 6
+- Entries with differences: 102 (pending: 102, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":97,"pass":148,"error":6}
+- Outcome summary: {"known-fail":102,"pass":146,"error":3}
 
 ## Differences
 
@@ -107,11 +107,11 @@
   reference: css/css-position/multicol/static-position/vlr-in-multicol-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-ltr-ltr-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05816826959774063, diffPixels=48772
+  canary page 1: diffRatio=0.05817900351118235, diffPixels=48781
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-ltr-ltr-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05816826959774063, diffPixels=48772
+  stable page 1: diffRatio=0.05817900351118235, diffPixels=48781
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0015] [WPT reftest] css/css-position/multicol/static-position/vlr-ltr-rtl-in-multicol.tentative.html
@@ -120,11 +120,11 @@
   reference: css/css-position/multicol/static-position/vlr-in-multicol-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-ltr-rtl-in-multicol.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.058974505762918863, diffPixels=49448
+  canary page 1: diffRatio=0.058986432333409666, diffPixels=49458
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-ltr-rtl-in-multicol.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.058974505762918863, diffPixels=49448
+  stable page 1: diffRatio=0.058986432333409666, diffPixels=49458
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0016] [WPT reftest] css/css-position/multicol/static-position/vlr-rtl-ltr-in-multicol.tentative.html
@@ -133,11 +133,11 @@
   reference: css/css-position/multicol/static-position/vlr-in-multicol-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-rtl-ltr-in-multicol.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05819570070986948, diffPixels=48795
+  canary page 1: diffRatio=0.058198086023967636, diffPixels=48797
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-rtl-ltr-in-multicol.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05819570070986948, diffPixels=48795
+  stable page 1: diffRatio=0.058198086023967636, diffPixels=48797
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0017] [WPT reftest] css/css-position/multicol/static-position/vlr-rtl-rtl-in-multicol.html
@@ -146,11 +146,11 @@
   reference: css/css-position/multicol/static-position/vlr-in-multicol-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-rtl-rtl-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05882303831768567, diffPixels=49321
+  canary page 1: diffRatio=0.05882780894588199, diffPixels=49325
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-rtl-rtl-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05882303831768567, diffPixels=49321
+  stable page 1: diffRatio=0.05882780894588199, diffPixels=49325
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vlr-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0018] [WPT reftest] css/css-position/multicol/static-position/vrl-ltr-ltr-in-multicol.html
@@ -159,11 +159,11 @@
   reference: css/css-position/multicol/static-position/vrl-in-multicol-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-ltr-ltr-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017138481795282803, diffPixels=1437
+  canary page 1: diffRatio=0.0017245820929700023, diffPixels=1446
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-ltr-ltr-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017138481795282803, diffPixels=1437
+  stable page 1: diffRatio=0.0017245820929700023, diffPixels=1446
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0019] [WPT reftest] css/css-position/multicol/static-position/vrl-ltr-rtl-in-multicol.tentative.html
@@ -172,11 +172,11 @@
   reference: css/css-position/multicol/static-position/vrl-in-multicol-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-ltr-rtl-in-multicol.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017854076024730937, diffPixels=1497
+  canary page 1: diffRatio=0.0017961415159148157, diffPixels=1506
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-ltr-rtl-in-multicol.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017854076024730937, diffPixels=1497
+  stable page 1: diffRatio=0.0017961415159148157, diffPixels=1506
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0020] [WPT reftest] css/css-position/multicol/static-position/vrl-rtl-ltr-in-multicol.tentative.html
@@ -185,11 +185,11 @@
   reference: css/css-position/multicol/static-position/vrl-in-multicol-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-rtl-ltr-in-multicol.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014741241126631555, diffPixels=1236
+  canary page 1: diffRatio=0.0014824727120067171, diffPixels=1243
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-rtl-ltr-in-multicol.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014741241126631555, diffPixels=1236
+  stable page 1: diffRatio=0.0014824727120067171, diffPixels=1243
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT reftest] css/css-position/multicol/static-position/vrl-rtl-rtl-in-multicol.html
@@ -198,11 +198,11 @@
   reference: css/css-position/multicol/static-position/vrl-in-multicol-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-rtl-rtl-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018533890542706663, diffPixels=1554
+  canary page 1: diffRatio=0.0018641229677123883, diffPixels=1563
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-rtl-rtl-in-multicol.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018533890542706663, diffPixels=1554
+  stable page 1: diffRatio=0.0018641229677123883, diffPixels=1563
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/static-position/vrl-in-multicol-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0022] [WPT reftest] css/css-position/multicol/vlr-ltr-ltr-in-multicols.html
@@ -211,11 +211,11 @@
   reference: css/css-position/multicol/vlr-in-multicols-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-ltr-ltr-in-multicols.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013207484161514389, diffPixels=11074
+  canary page 1: diffRatio=0.013290970154950003, diffPixels=11144
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-ltr-ltr-in-multicols.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013207484161514389, diffPixels=11074
+  stable page 1: diffRatio=0.013290970154950003, diffPixels=11144
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0023] [WPT reftest] css/css-position/multicol/vlr-ltr-rtl-in-multicols.tentative.html
@@ -224,11 +224,11 @@
   reference: css/css-position/multicol/vlr-in-multicols-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-ltr-rtl-in-multicols.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016845088161209068, diffPixels=14124
+  canary page 1: diffRatio=0.01706811502938707, diffPixels=14311
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-ltr-rtl-in-multicols.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.016845088161209068, diffPixels=14124
+  stable page 1: diffRatio=0.01706811502938707, diffPixels=14311
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0024] [WPT reftest] css/css-position/multicol/vlr-rtl-ltr-in-multicols.tentative.html
@@ -237,11 +237,11 @@
   reference: css/css-position/multicol/vlr-in-multicols-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-rtl-ltr-in-multicols.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.015863531409816046, diffPixels=13301
+  canary page 1: diffRatio=0.016080594992748644, diffPixels=13483
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-rtl-ltr-in-multicols.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.015863531409816046, diffPixels=13301
+  stable page 1: diffRatio=0.016080594992748644, diffPixels=13483
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT reftest] css/css-position/multicol/vlr-rtl-rtl-in-multicols.html
@@ -250,11 +250,11 @@
   reference: css/css-position/multicol/vlr-in-multicols-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-rtl-rtl-in-multicols.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01321225478971071, diffPixels=11078
+  canary page 1: diffRatio=0.013295740783146324, diffPixels=11148
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-rtl-rtl-in-multicols.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01321225478971071, diffPixels=11078
+  stable page 1: diffRatio=0.013295740783146324, diffPixels=11148
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/multicol/vlr-in-multicols-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0027] [WPT reftest] css/css-position/multicol/vrl-ltr-rtl-in-multicols.tentative.html
@@ -354,11 +354,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-center-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002537974200442714, diffPixels=2128
+  canary page 1: diffRatio=0.0025821025112586827, diffPixels=2165
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-center-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002537974200442714, diffPixels=2128
+  stable page 1: diffRatio=0.0025821025112586827, diffPixels=2165
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0053] [WPT reftest] css/css-position/position-absolute-dynamic-relayout-004.html
@@ -439,6 +439,71 @@
   stable page 1: diffRatio=0.003816502557056713, diffPixels=3200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0075] [WPT reftest] css/css-position/position-absolute-in-inline-007a.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-position/position-absolute-in-inline-007-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000020275169834363788, diffPixels=17
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-007a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000020275169834363788, diffPixels=17
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0077] [WPT reftest] css/css-position/position-absolute-in-inline-008a.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-position/position-absolute-in-inline-008-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-008a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000021467826883444013, diffPixels=18
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-008a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000021467826883444013, diffPixels=18
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0079] [WPT reftest] css/css-position/position-absolute-in-inline-009.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-position/position-absolute-in-inline-009-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000020275169834363788, diffPixels=17
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000020275169834363788, diffPixels=17
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0081] [WPT reftest] css/css-position/position-absolute-in-inline-011.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-position/position-absolute-in-inline-011-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000040550339668727576, diffPixels=34
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000040550339668727576, diffPixels=34
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0082] [WPT reftest] css/css-position/position-absolute-in-inline-012.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-position/position-absolute-in-inline-012-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00006440348065033204, diffPixels=54
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-in-inline-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00006440348065033204, diffPixels=54
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-in-inline-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0097] [WPT reftest] css/css-position/position-fixed-dynamic-transformed-sibling.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -510,11 +575,11 @@
   reference: css/css-position/static-position/htb-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/htb-ltr-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.018319212273872225, diffPixels=15360
+  canary page 1: diffRatio=0.01818324937027708, diffPixels=15246
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/htb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/htb-ltr-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.018319212273872225, diffPixels=15360
+  stable page 1: diffRatio=0.01818324937027708, diffPixels=15246
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/htb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0138] [WPT reftest] css/css-position/static-position/htb-ltr-rtl.tentative.html
@@ -523,11 +588,11 @@
   reference: css/css-position/static-position/htb-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/htb-ltr-rtl.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.018319212273872225, diffPixels=15360
+  canary page 1: diffRatio=0.01818324937027708, diffPixels=15246
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/htb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/htb-ltr-rtl.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.018319212273872225, diffPixels=15360
+  stable page 1: diffRatio=0.01818324937027708, diffPixels=15246
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/htb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0139] [WPT reftest] css/css-position/static-position/htb-rtl-ltr.tentative.html
@@ -822,11 +887,11 @@
   reference: css/css-position/static-position/vlr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vlr-ltr-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01732930692313564, diffPixels=14530
+  canary page 1: diffRatio=0.017303068468055873, diffPixels=14508
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ltr-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01732930692313564, diffPixels=14530
+  stable page 1: diffRatio=0.017303068468055873, diffPixels=14508
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0166] [WPT reftest] css/css-position/static-position/vlr-ltr-rtl.tentative.html
@@ -835,11 +900,11 @@
   reference: css/css-position/static-position/vlr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vlr-ltr-rtl.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016556465155331653, diffPixels=13882
+  canary page 1: diffRatio=0.01653022670025189, diffPixels=13860
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ltr-rtl.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.016556465155331653, diffPixels=13882
+  stable page 1: diffRatio=0.01653022670025189, diffPixels=13860
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0167] [WPT reftest] css/css-position/static-position/vlr-rtl-ltr.tentative.html
@@ -848,11 +913,11 @@
   reference: css/css-position/static-position/vlr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vlr-rtl-ltr.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01659224486680406, diffPixels=13912
+  canary page 1: diffRatio=0.016555272498282574, diffPixels=13881
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-rtl-ltr.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01659224486680406, diffPixels=13912
+  stable page 1: diffRatio=0.016555272498282574, diffPixels=13881
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0168] [WPT reftest] css/css-position/static-position/vlr-rtl-rtl.html
@@ -861,11 +926,11 @@
   reference: css/css-position/static-position/vlr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vlr-rtl-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.015819403099000075, diffPixels=13264
+  canary page 1: diffRatio=0.01578243073047859, diffPixels=13233
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-rtl-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.015819403099000075, diffPixels=13264
+  stable page 1: diffRatio=0.01578243073047859, diffPixels=13233
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0169] [WPT reftest] css/css-position/static-position/vrl-ltr-ltr.html
@@ -874,11 +939,11 @@
   reference: css/css-position/static-position/vrl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vrl-ltr-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.017510590794595833, diffPixels=14682
+  canary page 1: diffRatio=0.018338294786657508, diffPixels=15376
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ltr-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017510590794595833, diffPixels=14682
+  stable page 1: diffRatio=0.018338294786657508, diffPixels=15376
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0170] [WPT reftest] css/css-position/static-position/vrl-ltr-rtl.tentative.html
@@ -887,11 +952,11 @@
   reference: css/css-position/static-position/vrl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vrl-ltr-rtl.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.017510590794595833, diffPixels=14682
+  canary page 1: diffRatio=0.018338294786657508, diffPixels=15376
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ltr-rtl.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017510590794595833, diffPixels=14682
+  stable page 1: diffRatio=0.018338294786657508, diffPixels=15376
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0171] [WPT reftest] css/css-position/static-position/vrl-rtl-ltr.tentative.html
@@ -900,11 +965,11 @@
   reference: css/css-position/static-position/vrl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vrl-rtl-ltr.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01749985688115411, diffPixels=14673
+  canary page 1: diffRatio=0.018328753530264866, diffPixels=15368
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-rtl-ltr.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01749985688115411, diffPixels=14673
+  stable page 1: diffRatio=0.018328753530264866, diffPixels=15368
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0172] [WPT reftest] css/css-position/static-position/vrl-rtl-rtl.html
@@ -913,11 +978,11 @@
   reference: css/css-position/static-position/vrl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vrl-rtl-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01749985688115411, diffPixels=14673
+  canary page 1: diffRatio=0.018328753530264866, diffPixels=15368
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-rtl-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01749985688115411, diffPixels=14673
+  stable page 1: diffRatio=0.018328753530264866, diffPixels=15368
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0173] [WPT reftest] css/css-position/sticky/position-sticky-bottom-002.html
@@ -1030,11 +1095,11 @@
   reference: css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.23546270322876117, diffPixels=197427
+  canary page 1: diffRatio=0.2354495840012213, diffPixels=197416
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.23546270322876117, diffPixels=197427
+  stable page 1: diffRatio=0.2354495840012213, diffPixels=197416
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0188] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor-003.html
@@ -1043,12 +1108,25 @@
   reference: css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.16229438592473858, diffPixels=136078
+  canary page 1: diffRatio=0.16229557858178764, diffPixels=136079
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.16229438592473858, diffPixels=136078
+  stable page 1: diffRatio=0.16229557858178764, diffPixels=136079
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0190] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-position/sticky/position-sticky-fixed-ancestor-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.662374293947027, diffPixels=555377
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.662374293947027, diffPixels=555377
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0191] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-001.html
   triage: pending
@@ -1101,19 +1179,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-flex-item-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.009541256392641783, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0198] [WPT reftest] css/css-position/sticky/position-sticky-hyperlink.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-position/sticky/position-sticky-hyperlink-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-hyperlink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001622013586749103, diffPixels=136
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-hyperlink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-hyperlink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001622013586749103, diffPixels=136
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-hyperlink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0203] [WPT reftest] css/css-position/sticky/position-sticky-left-002.html
   triage: pending
@@ -1186,11 +1251,11 @@
   reference: css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00224815853751622, diffPixels=1885
+  canary page 1: diffRatio=0.0022445805663689794, diffPixels=1882
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00224815853751622, diffPixels=1885
+  stable page 1: diffRatio=0.0022445805663689794, diffPixels=1882
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0227] [WPT reftest] css/css-position/sticky/position-sticky-table-pixel-rounding.html
@@ -1199,11 +1264,11 @@
   reference: css/css-position/sticky/position-sticky-table-pixel-rounding-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-table-pixel-rounding.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000023853140981604456, diffPixels=20
+  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-table-pixel-rounding-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-table-pixel-rounding.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000023853140981604456, diffPixels=20
+  stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-table-pixel-rounding-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0241] [WPT reftest] css/css-position/sticky/position-sticky-top-002.html
@@ -1302,34 +1367,4 @@
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0190] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0196] [WPT reftest] css/css-position/sticky/position-sticky-fractional-offset.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fractional-offset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fractional-offset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0197] [WPT reftest] css/css-position/sticky/position-sticky-grid.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

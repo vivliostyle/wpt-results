@@ -29,11 +29,11 @@
   reference: css/css-cascade/reference/ref-green-text.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/all-prop-initial-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000197981070147317, diffPixels=166
+  canary page 1: diffRatio=0.0002242195252270819, diffPixels=188
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/all-prop-initial-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000197981070147317, diffPixels=166
+  stable page 1: diffRatio=0.0002242195252270819, diffPixels=188
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/reference/ref-green-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-cascade/all-prop-initial-visited.html
@@ -42,11 +42,11 @@
   reference: css/css-cascade/all-prop-initial-visited-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00041027402488359667, diffPixels=344
+  canary page 1: diffRatio=0.0004365124799633616, diffPixels=366
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00041027402488359667, diffPixels=344
+  stable page 1: diffRatio=0.0004365124799633616, diffPixels=366
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/all-prop-initial-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0011] [WPT reftest] css/css-cascade/import-conditional-002.html
@@ -68,11 +68,11 @@
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/import-removal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.9866160025952218, diffPixels=827242
+  canary page 1: diffRatio=0.986620773223418, diffPixels=827246
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/import-removal.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.9866160025952218, diffPixels=827242
+  stable page 1: diffRatio=0.986620773223418, diffPixels=827246
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0013] [WPT reftest] css/css-cascade/important-prop.html
@@ -81,11 +81,11 @@
   reference: css/css-cascade/important-prop-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/important-prop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004369895427829937, diffPixels=3664
+  canary page 1: diffRatio=0.004368702770780856, diffPixels=3663
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/important-prop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004369895427829937, diffPixels=3664
+  stable page 1: diffRatio=0.004368702770780856, diffPixels=3663
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/important-prop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0028] [WPT reftest] css/css-cascade/revert-layer-010.html
@@ -133,11 +133,11 @@
   reference: css/css-cascade/scope-pseudo-element-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/scope-pseudo-element.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006937686054499657, diffPixels=5817
+  canary page 1: diffRatio=0.0069388787115487365, diffPixels=5818
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/scope-pseudo-element.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006937686054499657, diffPixels=5817
+  stable page 1: diffRatio=0.0069388787115487365, diffPixels=5818
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/scope-pseudo-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0039] [WPT reftest] css/css-cascade/scope-shadow-sharing.html
@@ -172,11 +172,11 @@
   reference: css/css-cascade/scope-visited-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/scope-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008201902526524692, diffPixels=6877
+  canary page 1: diffRatio=0.008173278757346768, diffPixels=6853
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/scope-visited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008201902526524692, diffPixels=6877
+  stable page 1: diffRatio=0.008173278757346768, diffPixels=6853
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-cascade/scope-visited-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0044] [WPT print-reftest] css/css-cascade/scope-implicit-001-print.html

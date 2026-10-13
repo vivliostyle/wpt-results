@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 214
-- Entries with differences: 74 (pending: 74, triaged: 0)
+- Entries with differences: 73 (pending: 73, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"pass":139,"known-fail":72,"regression":1,"changed-fail":1,"unchanged":1}
+- Outcome summary: {"pass":140,"known-fail":72,"changed-fail":1,"unchanged":1}
 
 ## Differences
 
@@ -42,11 +42,11 @@
   reference: css/css-values/attr-namespace-case-sensitivity-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/attr-namespace-case-sensitivity.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012642164720250363, diffPixels=1060
+  canary page 1: diffRatio=0.0013131154110373254, diffPixels=1101
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/attr-namespace-case-sensitivity-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-namespace-case-sensitivity.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012642164720250363, diffPixels=1060
+  stable page 1: diffRatio=0.0013131154110373254, diffPixels=1101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/attr-namespace-case-sensitivity-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0016] [WPT reftest] css/css-values/attr-namespace-non-existing.html
@@ -133,11 +133,11 @@
   reference: css/css-values/calc-in-counter-001-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-in-counter-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  canary page 1: diffRatio=0.00004532096786504847, diffPixels=38
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-in-counter-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-in-counter-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  stable page 1: diffRatio=0.00004532096786504847, diffPixels=38
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-in-counter-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0039] [WPT reftest] css/css-values/calc-in-max.html
@@ -211,11 +211,11 @@
   reference: css/css-values/calc-rem-lang-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-rem-lang.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005522002137241432, diffPixels=463
+  canary page 1: diffRatio=0.0011747671933440196, diffPixels=985
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-rem-lang-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-rem-lang.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005522002137241432, diffPixels=463
+  stable page 1: diffRatio=0.0011747671933440196, diffPixels=985
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-rem-lang-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0118] [WPT reftest] css/css-values/ic-unit-002.html
@@ -283,15 +283,6 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/inline-cache-base-uri-cssom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0131] [WPT reftest] css/css-values/inline-cache-base-uri.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-values/inline-cache-base-uri-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/inline-cache-base-uri.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6283919166475842, diffPixels=526884
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/inline-cache-base-uri-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0136] [WPT reftest] css/css-values/max-20-arguments.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -350,11 +341,11 @@
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/percentage-rem-low.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00039357682619647357, diffPixels=330
+  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/percentage-rem-low.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00039357682619647357, diffPixels=330
+  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0147] [WPT reftest] css/css-values/rlh-unit-001.html
@@ -363,11 +354,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/rlh-unit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary page 1: diffRatio=0.00047706281963208914, diffPixels=400
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/rlh-unit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  stable page 1: diffRatio=0.00047706281963208914, diffPixels=400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0148] [WPT reftest] css/css-values/svg-attr-case-sensitivity.html
@@ -935,11 +926,11 @@
   reference: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014311884588962676, diffPixels=120
+  canary page 1: diffRatio=0.0004293565376688802, diffPixels=360
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004293565376688802, diffPixels=360
+  stable page 1: diffRatio=0.000572475383558507, diffPixels=480
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0204] [WPT reftest] css/css-values/viewport-units-scrollbars-auto-vhw-001.html

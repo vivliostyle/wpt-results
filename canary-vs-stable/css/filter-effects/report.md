@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 333
-- Entries with differences: 161 (improvement: 1, pending: 160, triaged: 0)
+- Compared entries: 334
+- Entries with differences: 160 (pending: 160, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":172,"known-fail":160,"improvement":1}
+- Outcome summary: {"pass":174,"known-fail":160}
 
 ## Differences
 
@@ -133,11 +133,11 @@
   reference: css/filter-effects/backdrop-filter-non-isolation-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-isolation-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06148147088008549, diffPixels=51550
+  canary page 1: diffRatio=0.06148624150828181, diffPixels=51554
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-non-isolation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-isolation-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06148147088008549, diffPixels=51550
+  stable page 1: diffRatio=0.06148624150828181, diffPixels=51554
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-non-isolation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0042] [WPT reftest] css/filter-effects/backdrop-filter-nested-border-radius-clip-3.html
@@ -211,11 +211,11 @@
   reference: css/filter-effects/backdrop-filter-root-element-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-root-element.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01498215785054576, diffPixels=12562
+  canary page 1: diffRatio=0.014979772536447599, diffPixels=12560
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-root-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-root-element.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01498215785054576, diffPixels=12562
+  stable page 1: diffRatio=0.014979772536447599, diffPixels=12560
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-root-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0060] [WPT reftest] css/filter-effects/backdrop-filter-svg.html
@@ -705,11 +705,11 @@
   reference: css/filter-effects/reference/effect-reference-on-span-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/effect-reference-on-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038212731852530343, diffPixels=3204
+  canary page 1: diffRatio=0.0038129245859094725, diffPixels=3197
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/effect-reference-on-span-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/effect-reference-on-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038212731852530343, diffPixels=3204
+  stable page 1: diffRatio=0.0038129245859094725, diffPixels=3197
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/effect-reference-on-span-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0128] [WPT reftest] css/filter-effects/effect-reference-on-transparent-element.html
@@ -907,7 +907,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0150] [WPT reftest] css/filter-effects/fecolormatrix-display-p3.html
+- [0151] [WPT reftest] css/filter-effects/fecolormatrix-display-p3.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/fecolormatrix-display-p3-ref.html (==)
@@ -920,7 +920,7 @@
   stable page 1: diffRatio=0.023086262499045874, diffPixels=19357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/fecolormatrix-display-p3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0151] [WPT reftest] css/filter-effects/fecolormatrix-negative.html
+- [0152] [WPT reftest] css/filter-effects/fecolormatrix-negative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/fecolormatrix-negative-ref.html (==)
@@ -933,7 +933,7 @@
   stable page 1: diffRatio=0.4809091386153729, diffPixels=403225
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/fecolormatrix-negative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0152] [WPT reftest] css/filter-effects/fecolormatrix-special-value.html
+- [0153] [WPT reftest] css/filter-effects/fecolormatrix-special-value.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/fecolormatrix-special-value-ref.html (==)
@@ -946,7 +946,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/fecolormatrix-special-value-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0153] [WPT reftest] css/filter-effects/fecolormatrix-type.html
+- [0154] [WPT reftest] css/filter-effects/fecolormatrix-type.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/fecolormatrix-type-ref.html (==)
@@ -959,20 +959,20 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/fecolormatrix-type-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0154] [WPT reftest] css/filter-effects/fecomponenttransfer-display-p3.html
+- [0155] [WPT reftest] css/filter-effects/fecomponenttransfer-display-p3.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/fecolormatrix-display-p3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/fecomponenttransfer-display-p3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.023578829860316005, diffPixels=19770
+  canary page 1: diffRatio=0.02358598580261049, diffPixels=19776
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/fecolormatrix-display-p3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/fecomponenttransfer-display-p3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.023578829860316005, diffPixels=19770
+  stable page 1: diffRatio=0.02358598580261049, diffPixels=19776
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/fecolormatrix-display-p3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0155] [WPT reftest] css/filter-effects/fecomposite-non-zero-inoffset-001.html
+- [0156] [WPT reftest] css/filter-effects/fecomposite-non-zero-inoffset-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/fecomposite-non-zero-inoffset-001-ref.html (==)
@@ -985,7 +985,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/fecomposite-non-zero-inoffset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0157] [WPT reftest] css/filter-effects/feconvolve-region-001.html
+- [0158] [WPT reftest] css/filter-effects/feconvolve-region-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/feconvolve-region-ref.html (==)
@@ -998,7 +998,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/feconvolve-region-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0158] [WPT reftest] css/filter-effects/feconvolve-region-002.html
+- [0159] [WPT reftest] css/filter-effects/feconvolve-region-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/feconvolve-region-ref.html (==)
@@ -1011,7 +1011,7 @@
   stable page 1: diffRatio=0.047707474620258, diffPixels=40001
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/feconvolve-region-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/filter-effects/fedisplacementmap-non-uniform-transform-001.html
+- [0160] [WPT reftest] css/filter-effects/fedisplacementmap-non-uniform-transform-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/fedisplacementmap-non-uniform-transform-001-ref.html (==)
@@ -1024,7 +1024,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/fedisplacementmap-non-uniform-transform-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0160] [WPT reftest] css/filter-effects/feflood-with-filter-reference.html
+- [0161] [WPT reftest] css/filter-effects/feflood-with-filter-reference.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1037,7 +1037,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0165] [WPT reftest] css/filter-effects/filter-cb-dynamic-1a.html
+- [0166] [WPT reftest] css/filter-effects/filter-cb-dynamic-1a.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filter-cb-dynamic-1-ref.html (==)
@@ -1050,7 +1050,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-cb-dynamic-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0171] [WPT reftest] css/filter-effects/filter-effect-remove-unattached.html
+- [0172] [WPT reftest] css/filter-effects/filter-effect-remove-unattached.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/filter-effect-remove-unattached-ref.html (==)
@@ -1063,7 +1063,7 @@
   stable page 1: diffRatio=0.00011926570490802228, diffPixels=100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/filter-effect-remove-unattached-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0172] [WPT reftest] css/filter-effects/filter-external-001-test.html
+- [0173] [WPT reftest] css/filter-effects/filter-external-001-test.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filter-external-001-ref.html (==)
@@ -1076,7 +1076,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-external-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0174] [WPT reftest] css/filter-effects/filter-function/filter-function-001.html
+- [0175] [WPT reftest] css/filter-effects/filter-function/filter-function-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1089,7 +1089,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0175] [WPT reftest] css/filter-effects/filter-function/filter-function-002.html
+- [0176] [WPT reftest] css/filter-effects/filter-function/filter-function-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1102,7 +1102,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0176] [WPT reftest] css/filter-effects/filter-function/filter-function-003.html
+- [0177] [WPT reftest] css/filter-effects/filter-function/filter-function-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1115,7 +1115,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0178] [WPT reftest] css/filter-effects/filter-function/filter-function-005.html
+- [0179] [WPT reftest] css/filter-effects/filter-function/filter-function-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1128,7 +1128,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0179] [WPT reftest] css/filter-effects/filter-function/filter-function-006.html
+- [0180] [WPT reftest] css/filter-effects/filter-function/filter-function-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1141,7 +1141,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0180] [WPT reftest] css/filter-effects/filter-function/filter-function-007.html
+- [0181] [WPT reftest] css/filter-effects/filter-function/filter-function-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1154,85 +1154,85 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0182] [WPT reftest] css/filter-effects/filter-function/filter-function-conic-gradient.html
+- [0183] [WPT reftest] css/filter-effects/filter-function/filter-function-conic-gradient.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filter-function/filter-function-conic-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-conic-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1868297267384169, diffPixels=156650
+  canary page 1: diffRatio=0.1868678917639875, diffPixels=156682
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-conic-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-conic-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1868297267384169, diffPixels=156650
+  stable page 1: diffRatio=0.1868678917639875, diffPixels=156682
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-conic-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0183] [WPT reftest] css/filter-effects/filter-function/filter-function-linear-gradient.html
+- [0184] [WPT reftest] css/filter-effects/filter-function/filter-function-linear-gradient.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filter-function/filter-function-linear-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-linear-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.18843265781238072, diffPixels=157994
+  canary page 1: diffRatio=0.18840284138615374, diffPixels=157969
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-linear-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-linear-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.18843265781238072, diffPixels=157994
+  stable page 1: diffRatio=0.18840284138615374, diffPixels=157969
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-linear-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0184] [WPT reftest] css/filter-effects/filter-function/filter-function-radial-gradient.html
+- [0185] [WPT reftest] css/filter-effects/filter-function/filter-function-radial-gradient.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filter-function/filter-function-radial-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-radial-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1804203877566598, diffPixels=151276
+  canary page 1: diffRatio=0.18052772689107702, diffPixels=151366
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-radial-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-radial-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1804203877566598, diffPixels=151276
+  stable page 1: diffRatio=0.18052772689107702, diffPixels=151366
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-radial-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0185] [WPT reftest] css/filter-effects/filter-function/filter-function-repeating-conic-gradient.html
+- [0186] [WPT reftest] css/filter-effects/filter-function/filter-function-repeating-conic-gradient.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filter-function/filter-function-repeating-conic-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-conic-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.09431174147011678, diffPixels=79077
+  canary page 1: diffRatio=0.09420082436455232, diffPixels=78984
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-conic-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-conic-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.09431174147011678, diffPixels=79077
+  stable page 1: diffRatio=0.09420082436455232, diffPixels=78984
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-conic-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0186] [WPT reftest] css/filter-effects/filter-function/filter-function-repeating-linear-gradient.html
+- [0187] [WPT reftest] css/filter-effects/filter-function/filter-function-repeating-linear-gradient.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filter-function/filter-function-repeating-linear-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-linear-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.09422944813373026, diffPixels=79008
+  canary page 1: diffRatio=0.0940338523776811, diffPixels=78844
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-linear-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-linear-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.09422944813373026, diffPixels=79008
+  stable page 1: diffRatio=0.0940338523776811, diffPixels=78844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-linear-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0187] [WPT reftest] css/filter-effects/filter-function/filter-function-repeating-radial-gradient.html
+- [0188] [WPT reftest] css/filter-effects/filter-function/filter-function-repeating-radial-gradient.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filter-function/filter-function-repeating-radial-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-radial-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.09367128463476071, diffPixels=78540
+  canary page 1: diffRatio=0.09365935806426991, diffPixels=78530
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-radial-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-radial-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.09367128463476071, diffPixels=78540
+  stable page 1: diffRatio=0.09365935806426991, diffPixels=78530
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-radial-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0199] [WPT reftest] css/filter-effects/filter-region-calc-001.html
+- [0200] [WPT reftest] css/filter-effects/filter-region-calc-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1245,7 +1245,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0200] [WPT reftest] css/filter-effects/filter-region-html-content-viewport.tentative.html
+- [0201] [WPT reftest] css/filter-effects/filter-region-html-content-viewport.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1258,7 +1258,7 @@
   stable page 1: diffRatio=0.02552286085031677, diffPixels=21400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0204] [WPT reftest] css/filter-effects/filter-region-units-001.html
+- [0205] [WPT reftest] css/filter-effects/filter-region-units-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1271,7 +1271,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0208] [WPT reftest] css/filter-effects/filter-subregion-01.html
+- [0209] [WPT reftest] css/filter-effects/filter-subregion-01.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filter-subregion-01-ref.html (==)
@@ -1284,7 +1284,7 @@
   stable page 1: diffRatio=0.05378286962827265, diffPixels=45095
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-subregion-01-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0213] [WPT reftest] css/filter-effects/filter-turbulence-invalid-001.html
+- [0214] [WPT reftest] css/filter-effects/filter-turbulence-invalid-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/filter-turbulence-invalid-001-ref.html (==)
@@ -1297,7 +1297,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/filter-turbulence-invalid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0217] [WPT reftest] css/filter-effects/filtered-html-is-not-container.html
+- [0218] [WPT reftest] css/filter-effects/filtered-html-is-not-container.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filtered-html-is-not-container-ref.html (==)
@@ -1310,7 +1310,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filtered-html-is-not-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0218] [WPT reftest] css/filter-effects/filtered-inline-applies-to-float.html
+- [0219] [WPT reftest] css/filter-effects/filtered-inline-applies-to-float.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/filtered-inline-applies-to-float-ref.html (==)
@@ -1323,20 +1323,7 @@
   stable page 1: diffRatio=0.0019082512785283565, diffPixels=1600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filtered-inline-applies-to-float-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0219] [WPT reftest] css/filter-effects/filtered-inline-is-container.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/filter-effects/filtered-inline-is-container-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00035779711472406687, diffPixels=300
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00035779711472406687, diffPixels=300
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0231] [WPT reftest] css/filter-effects/fixed-pos-filter-clip-002.html
+- [0232] [WPT reftest] css/filter-effects/fixed-pos-filter-clip-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/fixed-pos-filter-clip-002-ref.html (==)
@@ -1349,7 +1336,7 @@
   stable page 1: diffRatio=0.24958734066101823, diffPixels=209270
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/fixed-pos-filter-clip-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0232] [WPT reftest] css/filter-effects/hidpi-invert-filter-background.html
+- [0233] [WPT reftest] css/filter-effects/hidpi-invert-filter-background.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/hidpi-invert-filter-background-ref.html (==)
@@ -1362,7 +1349,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/hidpi-invert-filter-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0236] [WPT reftest] css/filter-effects/lighting-region.html
+- [0237] [WPT reftest] css/filter-effects/lighting-region.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/lighting-region-ref.html (==)
@@ -1375,7 +1362,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/lighting-region-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0238] [WPT reftest] css/filter-effects/morphology-mirrored.html
+- [0239] [WPT reftest] css/filter-effects/morphology-mirrored.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1388,7 +1375,7 @@
   stable page 1: diffRatio=0.006201816655217159, diffPixels=5200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0240] [WPT reftest] css/filter-effects/remove-filter-repaint.html
+- [0241] [WPT reftest] css/filter-effects/remove-filter-repaint.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/remove-filter-repaint-ref.html (==)
@@ -1401,7 +1388,7 @@
   stable page 1: diffRatio=0.004205308755056866, diffPixels=3526
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/remove-filter-repaint-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0243] [WPT reftest] css/filter-effects/svg-empty-container-with-filter-content-added.html
+- [0244] [WPT reftest] css/filter-effects/svg-empty-container-with-filter-content-added.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1414,7 +1401,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0245] [WPT reftest] css/filter-effects/svg-empty-hidden-foreignobject-with-filter-001.html
+- [0246] [WPT reftest] css/filter-effects/svg-empty-hidden-foreignobject-with-filter-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1427,7 +1414,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0246] [WPT reftest] css/filter-effects/svg-external-filter-resource.html
+- [0247] [WPT reftest] css/filter-effects/svg-external-filter-resource.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1440,7 +1427,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0247] [WPT reftest] css/filter-effects/svg-feflood-001.html
+- [0248] [WPT reftest] css/filter-effects/svg-feflood-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-feflood-ref.html (==)
@@ -1453,7 +1440,7 @@
   stable page 1: diffRatio=0.10733913441722005, diffPixels=90000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-feflood-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0248] [WPT reftest] css/filter-effects/svg-feimage-001.html
+- [0249] [WPT reftest] css/filter-effects/svg-feimage-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-feimage-ref.html (==)
@@ -1466,7 +1453,7 @@
   stable page 1: diffRatio=0.10733913441722005, diffPixels=90000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-feimage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0249] [WPT reftest] css/filter-effects/svg-feimage-002.html
+- [0250] [WPT reftest] css/filter-effects/svg-feimage-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-feimage-ref.html (==)
@@ -1479,7 +1466,7 @@
   stable page 1: diffRatio=0.10733913441722005, diffPixels=90000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-feimage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0250] [WPT reftest] css/filter-effects/svg-feimage-003.html
+- [0251] [WPT reftest] css/filter-effects/svg-feimage-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-feimage-ref.html (==)
@@ -1492,7 +1479,7 @@
   stable page 1: diffRatio=0.10733913441722005, diffPixels=90000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-feimage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0251] [WPT reftest] css/filter-effects/svg-feimage-004.html
+- [0252] [WPT reftest] css/filter-effects/svg-feimage-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-feimage-ref.html (==)
@@ -1505,7 +1492,7 @@
   stable page 1: diffRatio=0.10733913441722005, diffPixels=90000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-feimage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0252] [WPT reftest] css/filter-effects/svg-feimage-005.html
+- [0253] [WPT reftest] css/filter-effects/svg-feimage-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1518,7 +1505,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0253] [WPT reftest] css/filter-effects/svg-feoffset-001.html
+- [0254] [WPT reftest] css/filter-effects/svg-feoffset-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-feoffset-ref.html (==)
@@ -1531,7 +1518,7 @@
   stable page 1: diffRatio=0.11926570490802228, diffPixels=100000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-feoffset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0254] [WPT reftest] css/filter-effects/svg-filter-filter-units-user-space.html
+- [0255] [WPT reftest] css/filter-effects/svg-filter-filter-units-user-space.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-filter-filter-units-user-space-ref.html (==)
@@ -1544,7 +1531,7 @@
   stable page 1: diffRatio=0.06523834058468819, diffPixels=54700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-filter-filter-units-user-space-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0256] [WPT reftest] css/filter-effects/svg-filter-primitive-units-user-space.html
+- [0257] [WPT reftest] css/filter-effects/svg-filter-primitive-units-user-space.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-filter-primitive-units-user-space-ref.html (==)
@@ -1557,7 +1544,7 @@
   stable page 1: diffRatio=0.07990802228837493, diffPixels=67000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-filter-primitive-units-user-space-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0257] [WPT reftest] css/filter-effects/svg-filter-user-space-viewport-change.html
+- [0258] [WPT reftest] css/filter-effects/svg-filter-user-space-viewport-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1570,7 +1557,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0258] [WPT reftest] css/filter-effects/svg-filter-vs-clip-path.html
+- [0259] [WPT reftest] css/filter-effects/svg-filter-vs-clip-path.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1583,7 +1570,7 @@
   stable page 1: diffRatio=0.004750353026486528, diffPixels=3983
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0259] [WPT reftest] css/filter-effects/svg-filter-vs-mask.html
+- [0260] [WPT reftest] css/filter-effects/svg-filter-vs-mask.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1596,7 +1583,7 @@
   stable page 1: diffRatio=0.004750353026486528, diffPixels=3983
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0262] [WPT reftest] css/filter-effects/svg-mutation-drop-shadow-color.html
+- [0263] [WPT reftest] css/filter-effects/svg-mutation-drop-shadow-color.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1609,7 +1596,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0263] [WPT reftest] css/filter-effects/svg-mutation-drop-shadow-offset.html
+- [0264] [WPT reftest] css/filter-effects/svg-mutation-drop-shadow-offset.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1622,7 +1609,7 @@
   stable page 1: diffRatio=0.005366956720861003, diffPixels=4500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0266] [WPT reftest] css/filter-effects/svg-mutation-function-to-url.html
+- [0267] [WPT reftest] css/filter-effects/svg-mutation-function-to-url.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1635,7 +1622,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0267] [WPT reftest] css/filter-effects/svg-mutation-group-position-changed.html
+- [0268] [WPT reftest] css/filter-effects/svg-mutation-group-position-changed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1648,7 +1635,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0268] [WPT reftest] css/filter-effects/svg-mutation-group-size-changed.html
+- [0269] [WPT reftest] css/filter-effects/svg-mutation-group-size-changed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1661,7 +1648,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0269] [WPT reftest] css/filter-effects/svg-mutation-group-transform-changed.html
+- [0270] [WPT reftest] css/filter-effects/svg-mutation-group-transform-changed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1674,7 +1661,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0270] [WPT reftest] css/filter-effects/svg-mutation-object-position-changed.html
+- [0271] [WPT reftest] css/filter-effects/svg-mutation-object-position-changed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1687,7 +1674,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0271] [WPT reftest] css/filter-effects/svg-mutation-object-size-changed.html
+- [0272] [WPT reftest] css/filter-effects/svg-mutation-object-size-changed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1700,7 +1687,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0272] [WPT reftest] css/filter-effects/svg-mutation-object-transform-changed.html
+- [0273] [WPT reftest] css/filter-effects/svg-mutation-object-transform-changed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1713,7 +1700,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0273] [WPT reftest] css/filter-effects/svg-mutation-single-to-multiple-001.html
+- [0274] [WPT reftest] css/filter-effects/svg-mutation-single-to-multiple-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1726,7 +1713,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0274] [WPT reftest] css/filter-effects/svg-mutation-single-to-multiple-002.html
+- [0275] [WPT reftest] css/filter-effects/svg-mutation-single-to-multiple-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1739,7 +1726,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0275] [WPT reftest] css/filter-effects/svg-mutation-url-to-function.html
+- [0276] [WPT reftest] css/filter-effects/svg-mutation-url-to-function.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1752,29 +1739,33 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0276] [WPT reftest] css/filter-effects/svg-relative-urls-001.html
+- [0277] [WPT reftest] css/filter-effects/svg-relative-urls-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-relative-urls-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02767202885275933, diffPixels=23202
+  canary page 1: diffRatio=0.027910560262575376, diffPixels=23402
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02767202885275933, diffPixels=23202
+  stable page 1: diffRatio=0.027910560262575376, diffPixels=23402
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0277] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+- [0278] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/svg-relative-urls-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011688039080986184, diffPixels=9800
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0280] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
+- [0281] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1787,7 +1778,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0281] [WPT reftest] css/filter-effects/svg-sourcegraphic-invalidation-001.html
+- [0282] [WPT reftest] css/filter-effects/svg-sourcegraphic-invalidation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1800,7 +1791,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0282] [WPT reftest] css/filter-effects/svg-unknown-input-001.html
+- [0283] [WPT reftest] css/filter-effects/svg-unknown-input-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/svg-unknown-input-ref.html (==)
@@ -1813,7 +1804,7 @@
   stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-unknown-input-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0283] [WPT reftest] css/filter-effects/svg-unknown-input-002.html
+- [0284] [WPT reftest] css/filter-effects/svg-unknown-input-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/svg-unknown-input-ref.html (==)
@@ -1826,7 +1817,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-unknown-input-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0284] [WPT reftest] css/filter-effects/svg-visibility-hidden-element-with-filter-001.html
+- [0285] [WPT reftest] css/filter-effects/svg-visibility-hidden-element-with-filter-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1839,7 +1830,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0285] [WPT reftest] css/filter-effects/svg-visibility-hidden-element-with-filter-002.html
+- [0286] [WPT reftest] css/filter-effects/svg-visibility-hidden-element-with-filter-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1852,7 +1843,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0286] [WPT reftest] css/filter-effects/svg-visibility-hidden-element-with-filter-003.html
+- [0287] [WPT reftest] css/filter-effects/svg-visibility-hidden-element-with-filter-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1865,7 +1856,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0287] [WPT reftest] css/filter-effects/tainting-css-dropshadow-001.html
+- [0288] [WPT reftest] css/filter-effects/tainting-css-dropshadow-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)
@@ -1878,7 +1869,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0289] [WPT reftest] css/filter-effects/tainting-feblend-001.html
+- [0290] [WPT reftest] css/filter-effects/tainting-feblend-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -1891,7 +1882,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0291] [WPT reftest] css/filter-effects/tainting-fecomponenttransfer-001.html
+- [0292] [WPT reftest] css/filter-effects/tainting-fecomponenttransfer-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -1904,7 +1895,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0293] [WPT reftest] css/filter-effects/tainting-fecomposite-001.html
+- [0294] [WPT reftest] css/filter-effects/tainting-fecomposite-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -1917,7 +1908,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0295] [WPT reftest] css/filter-effects/tainting-feconvolvematrix-001.html
+- [0296] [WPT reftest] css/filter-effects/tainting-feconvolvematrix-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -1930,7 +1921,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0297] [WPT reftest] css/filter-effects/tainting-fediffuselighting-001.html
+- [0298] [WPT reftest] css/filter-effects/tainting-fediffuselighting-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -1943,7 +1934,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0303] [WPT reftest] css/filter-effects/tainting-fedisplacementmap-001.html
+- [0304] [WPT reftest] css/filter-effects/tainting-fedisplacementmap-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -1956,7 +1947,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0305] [WPT reftest] css/filter-effects/tainting-fedropshadow-001.html
+- [0306] [WPT reftest] css/filter-effects/tainting-fedropshadow-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -1969,7 +1960,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0309] [WPT reftest] css/filter-effects/tainting-feflood-001.html
+- [0310] [WPT reftest] css/filter-effects/tainting-feflood-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -1982,7 +1973,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0315] [WPT reftest] css/filter-effects/tainting-feflood-007.html
+- [0316] [WPT reftest] css/filter-effects/tainting-feflood-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -1995,7 +1986,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0316] [WPT reftest] css/filter-effects/tainting-feflood-008.html
+- [0317] [WPT reftest] css/filter-effects/tainting-feflood-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -2008,7 +1999,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0317] [WPT reftest] css/filter-effects/tainting-feflood-009.html
+- [0318] [WPT reftest] css/filter-effects/tainting-feflood-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -2021,7 +2012,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0320] [WPT reftest] css/filter-effects/tainting-fegaussianblur-001.html
+- [0321] [WPT reftest] css/filter-effects/tainting-fegaussianblur-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -2034,7 +2025,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0322] [WPT reftest] css/filter-effects/tainting-femorphology-001.html
+- [0323] [WPT reftest] css/filter-effects/tainting-femorphology-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -2047,7 +2038,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0324] [WPT reftest] css/filter-effects/tainting-feoffset-001.html
+- [0325] [WPT reftest] css/filter-effects/tainting-feoffset-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -2060,7 +2051,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0326] [WPT reftest] css/filter-effects/tainting-fespecularlighting-001.html
+- [0327] [WPT reftest] css/filter-effects/tainting-fespecularlighting-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -2073,7 +2064,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0330] [WPT reftest] css/filter-effects/tainting-fetile-001.html
+- [0331] [WPT reftest] css/filter-effects/tainting-fetile-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-blue-stripe-100x100.html (==)
@@ -2086,7 +2077,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-blue-stripe-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0332] [WPT reftest] css/filter-effects/visibility-hidden-element-with-filter-001.html
+- [0333] [WPT reftest] css/filter-effects/visibility-hidden-element-with-filter-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/filter-effects/reference/green-100x100.html (==)

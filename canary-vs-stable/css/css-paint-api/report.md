@@ -250,11 +250,11 @@
   reference: css/css-paint-api/hidpi/canvas-transform-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/hidpi/canvas-transform.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03220174032516602, diffPixels=27000
+  canary page 1: diffRatio=0.014908213113502785, diffPixels=12500
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/hidpi/canvas-transform-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/hidpi/canvas-transform.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03220174032516602, diffPixels=27000
+  stable page 1: diffRatio=0.014908213113502785, diffPixels=12500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/hidpi/canvas-transform-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0020] [WPT reftest] css/css-paint-api/hidpi/device-pixel-ratio.https.html
@@ -263,11 +263,11 @@
   reference: css/css-paint-api/hidpi/device-pixel-ratio-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/hidpi/device-pixel-ratio.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006708695901076253, diffPixels=5625
+  canary page 1: diffRatio=0.026834783604305013, diffPixels=22500
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/hidpi/device-pixel-ratio-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/hidpi/device-pixel-ratio.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006708695901076253, diffPixels=5625
+  stable page 1: diffRatio=0.026834783604305013, diffPixels=22500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/hidpi/device-pixel-ratio-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT reftest] css/css-paint-api/invalid-image-constructor-error.https.html
@@ -1063,7 +1063,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-003.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1275,7 +1275,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/registered-property-value-012.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-value-012.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

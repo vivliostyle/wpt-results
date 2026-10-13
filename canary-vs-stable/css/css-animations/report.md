@@ -29,11 +29,11 @@
   reference: css/css-animations/animate-font-size-with-margin-override-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-font-size-with-margin-override.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010841252576139226, diffPixels=9090
+  canary page 1: diffRatio=0.0101674013434089, diffPixels=8525
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-font-size-with-margin-override-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-font-size-with-margin-override.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010841252576139226, diffPixels=9090
+  stable page 1: diffRatio=0.0101674013434089, diffPixels=8525
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-font-size-with-margin-override-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0003] [WPT reftest] css/css-animations/animate-with-background-color-hsla-to-legacy-rgb.html
@@ -146,11 +146,11 @@
   reference: css/css-animations/animation-important-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-important-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018474257690252653, diffPixels=1549
+  canary page 1: diffRatio=0.0018581596824669873, diffPixels=1558
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-important-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-important-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018474257690252653, diffPixels=1549
+  stable page 1: diffRatio=0.0018581596824669873, diffPixels=1558
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-important-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0013] [WPT reftest] css/css-animations/animation-name-in-nested-shadow.html

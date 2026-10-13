@@ -16,11 +16,11 @@
   reference: css/css-sizing/aspect-ratio/fieldset-element-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/fieldset-element-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01643839210747271, diffPixels=13783
+  canary page 1: diffRatio=0.016984629035951455, diffPixels=14241
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/fieldset-element-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/fieldset-element-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01643839210747271, diffPixels=13783
+  stable page 1: diffRatio=0.016984629035951455, diffPixels=14241
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/fieldset-element-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0130] [WPT reftest] css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html
@@ -29,11 +29,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014908213113502785, diffPixels=12500
+  canary page 1: diffRatio=0.014729314556140752, diffPixels=12350
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/flex-aspect-ratio-038.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014908213113502785, diffPixels=12500
+  stable page 1: diffRatio=0.014729314556140752, diffPixels=12350
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0264] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-dynamic-aspect-ratio.html
@@ -55,11 +55,11 @@
   reference: css/css-sizing/block-size-with-min-or-max-content-1-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-1b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006412916952904358, diffPixels=5377
+  canary page 1: diffRatio=0.006468971834211129, diffPixels=5424
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-1b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006412916952904358, diffPixels=5377
+  stable page 1: diffRatio=0.006468971834211129, diffPixels=5424
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/block-size-with-min-or-max-content-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0289] [WPT reftest] css/css-sizing/block-size-with-min-or-max-content-table-1a.html
@@ -679,11 +679,11 @@
   reference: css/css-sizing/max-content-input-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/max-content-input-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008842359361880773, diffPixels=7414
+  canary page 1: diffRatio=0.008856671246469735, diffPixels=7426
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/max-content-input-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/max-content-input-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008842359361880773, diffPixels=7414
+  stable page 1: diffRatio=0.008856671246469735, diffPixels=7426
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/max-content-input-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0484] [WPT reftest] css/css-sizing/orthogonal-writing-mode-float-in-inline.html
@@ -705,11 +705,11 @@
   reference: css/css-sizing/range-percent-intrinsic-size-2-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0076043813449355015, diffPixels=6376
+  canary page 1: diffRatio=0.00759961071673918, diffPixels=6372
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0076043813449355015, diffPixels=6376
+  stable page 1: diffRatio=0.00759961071673918, diffPixels=6372
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/range-percent-intrinsic-size-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0488] [WPT reftest] css/css-sizing/range-percent-intrinsic-size-2a.html
@@ -913,11 +913,11 @@
   reference: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02194250438897794, diffPixels=18398
+  canary page 1: diffRatio=0.021763605831615906, diffPixels=18248
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02194250438897794, diffPixels=18398
+  stable page 1: diffRatio=0.021763605831615906, diffPixels=18248
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0561] [WPT reftest] css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2b.html
@@ -926,11 +926,11 @@
   reference: css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07150456072055568, diffPixels=59954
+  canary page 1: diffRatio=0.07092970002289901, diffPixels=59472
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.07150456072055568, diffPixels=59954
+  stable page 1: diffRatio=0.07092970002289901, diffPixels=59472
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/vert-block-size-small-or-larger-than-container-with-min-or-max-content-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors

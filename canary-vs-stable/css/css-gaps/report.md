@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 525
-- Entries with differences: 212 (pending: 212, triaged: 0)
+- Entries with differences: 209 (pending: 209, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":313,"known-fail":209,"regression":3}
+- Outcome summary: {"pass":316,"known-fail":209}
 
 ## Differences
 
@@ -126,16 +126,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-multi-value-wrap-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-multi-value-wrap-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0079] [WPT reftest] css/css-gaps/flex/flex-gap-decorations-multi-value-writing-mode.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-gaps/flex/flex-gap-decorations-multi-value-writing-mode-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-multi-value-writing-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008121994504236318, diffPixels=6810
-  canary page 2: diffRatio=0.008110067933745515, diffPixels=6800
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-multi-value-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0081] [WPT reftest] css/css-gaps/flex/flex-gap-decorations-repaint-on-container-shift.html
   triage: pending
@@ -397,16 +387,6 @@
   stable page 1: diffRatio=0.0002289901534234028, diffPixels=192
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-column-rule-between-spanning-items-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0243] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-multi-value-writing-mode.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-gaps/grid/grid-gap-decorations-multi-value-writing-mode-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-multi-value-writing-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008121994504236318, diffPixels=6810
-  canary page 2: diffRatio=0.008110067933745515, diffPixels=6800
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-multi-value-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0247] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-visited-alpha-clamp.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -660,11 +640,11 @@
   reference: css/css-gaps/grid-lanes/column-gap-decorations-018-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0030639359590870926, diffPixels=2569
+  canary page 1: diffRatio=0.0030651286161361728, diffPixels=2570
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0030639359590870926, diffPixels=2569
+  stable page 1: diffRatio=0.0030651286161361728, diffPixels=2570
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0314] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-019.html
@@ -1765,11 +1745,11 @@
   reference: css/css-gaps/grid-lanes/row-gap-decorations-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003114027555148462, diffPixels=2611
+  canary page 1: diffRatio=0.0031104495840012215, diffPixels=2608
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003114027555148462, diffPixels=2611
+  stable page 1: diffRatio=0.0031104495840012215, diffPixels=2608
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0406] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-008.html
@@ -2733,16 +2713,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000706052973055492, diffPixels=592
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0522] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008121994504236318, diffPixels=6810
-  canary page 2: diffRatio=0.008110067933745515, diffPixels=6800
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-multi-value-writing-mode-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0524] [WPT reftest] css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns.html
   triage: pending

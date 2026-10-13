@@ -29,11 +29,11 @@
   reference: css/css-shadow/reference/green-box.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/css-scoping-shadow-slot-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005331177009388596, diffPixels=4470
+  canary page 1: diffRatio=0.005319250438897794, diffPixels=4460
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/css-scoping-shadow-slot-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005331177009388596, diffPixels=4470
+  stable page 1: diffRatio=0.005319250438897794, diffPixels=4460
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/reference/green-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/css-shadow/css-scoping-shadow-slotted-nested.html
@@ -419,11 +419,11 @@
   reference: css/css-shadow/part/exportparts-different-scope-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/part/exportparts-different-scope.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002468800091596061, diffPixels=207
+  canary page 1: diffRatio=0.0002444946950614457, diffPixels=205
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/part/exportparts-different-scope-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/exportparts-different-scope.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002468800091596061, diffPixels=207
+  stable page 1: diffRatio=0.0002444946950614457, diffPixels=205
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/exportparts-different-scope-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0074] [WPT reftest] css/css-shadow/part/exportparts-layered.html
@@ -432,11 +432,11 @@
   reference: css/css-shadow/part/exportparts-layered.ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/part/exportparts-layered.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012528862300587742, diffPixels=10505
+  canary page 1: diffRatio=0.01252409167239142, diffPixels=10501
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/part/exportparts-layered.ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/exportparts-layered.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012528862300587742, diffPixels=10505
+  stable page 1: diffRatio=0.01252409167239142, diffPixels=10501
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/exportparts-layered.ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0075] [WPT reftest] css/css-shadow/part/interaction-with-nested-pseudo-class.html
@@ -458,11 +458,11 @@
   reference: css/css-shadow/part/interaction-with-placeholder-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/part/interaction-with-placeholder.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012033909625219449, diffPixels=1009
+  canary page 1: diffRatio=0.0011568773376078162, diffPixels=970
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/part/interaction-with-placeholder-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/interaction-with-placeholder.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012033909625219449, diffPixels=1009
+  stable page 1: diffRatio=0.0011568773376078162, diffPixels=970
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/interaction-with-placeholder-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0077] [WPT reftest] css/css-shadow/part/part-after-combinator-invalidation.html
@@ -471,11 +471,11 @@
   reference: css/css-shadow/part/part-after-combinator-invalidation-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/part/part-after-combinator-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00025403595145408745, diffPixels=213
+  canary page 1: diffRatio=0.0002504579803068468, diffPixels=210
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/part/part-after-combinator-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/part-after-combinator-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00025403595145408745, diffPixels=213
+  stable page 1: diffRatio=0.0002504579803068468, diffPixels=210
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/part/part-after-combinator-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0078] [WPT reftest] css/css-shadow/part/part-nested-pseudo.html
@@ -497,11 +497,11 @@
   reference: css/css-shadow/same-rules-bug-2044746-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000017889855736203345, diffPixels=15
+  canary page 1: diffRatio=0.000019082512785283566, diffPixels=16
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000017889855736203345, diffPixels=15
+  stable page 1: diffRatio=0.000019082512785283566, diffPixels=16
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/same-rules-bug-2044746-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0081] [WPT reftest] css/css-shadow/scoped-reference-animation-001.html
@@ -692,11 +692,11 @@
   reference: css/css-shadow/slotted-text-with-flex-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-text-with-flex.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004220813296694909, diffPixels=3539
+  canary page 1: diffRatio=0.004212464697351348, diffPixels=3532
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shadow/slotted-text-with-flex-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-text-with-flex.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004220813296694909, diffPixels=3539
+  stable page 1: diffRatio=0.004212464697351348, diffPixels=3532
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shadow/slotted-text-with-flex-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0111] [WPT reftest] css/css-shadow/slotted-with-pseudo-element.html

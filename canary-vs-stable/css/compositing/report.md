@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":50,"known-fail":9,"changed-fail":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":50,"known-fail":10}
 
 ## Differences
 
@@ -38,11 +38,11 @@
 
 - [0049] [WPT reftest] css/compositing/root-element-background-image-transparency-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/compositing/root-element-background-image-transparency-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.30036829249675595, diffPixels=251848
+  canary page 1: diffRatio=0.2941497786428517, diffPixels=246634
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/root-element-background-image-transparency-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -122,11 +122,11 @@
   reference: css/compositing/root-element-opacity-change-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/root-element-opacity-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.021277001755591177, diffPixels=17840
+  canary page 1: diffRatio=0.021273423784443937, diffPixels=17837
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/root-element-opacity-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/root-element-opacity-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021277001755591177, diffPixels=17840
+  stable page 1: diffRatio=0.021273423784443937, diffPixels=17837
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/root-element-opacity-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0058] [WPT reftest] css/compositing/root-element-opacity.html

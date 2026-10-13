@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 495
-- Entries with differences: 216 (improvement: 1, pending: 215, triaged: 0)
+- Entries with differences: 217 (improvement: 1, pending: 216, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 5
-- Outcome summary: {"known-fail":211,"pass":279,"regression":2,"changed-fail":2,"improvement":1}
+- Outcome summary: {"known-fail":212,"pass":278,"regression":2,"changed-fail":2,"improvement":1}
 
 ## Differences
 
@@ -185,11 +185,11 @@
   reference: css/css-masking/clip-path/animations/clip-path-animation-font-size-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-inherited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00845355316388062, diffPixels=7088
+  canary page 1: diffRatio=0.00845593847797878, diffPixels=7090
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-inherited.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00845355316388062, diffPixels=7088
+  stable page 1: diffRatio=0.00845593847797878, diffPixels=7090
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0042] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-font-size-mixed-change.html
@@ -198,11 +198,11 @@
   reference: css/css-masking/clip-path/animations/clip-path-animation-font-size-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-mixed-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00845355316388062, diffPixels=7088
+  canary page 1: diffRatio=0.00845593847797878, diffPixels=7090
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-mixed-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00845355316388062, diffPixels=7088
+  stable page 1: diffRatio=0.00845593847797878, diffPixels=7090
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0043] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-font-size.html
@@ -211,11 +211,11 @@
   reference: css/css-masking/clip-path/animations/clip-path-animation-font-size-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00845355316388062, diffPixels=7088
+  canary page 1: diffRatio=0.00845593847797878, diffPixels=7090
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00845355316388062, diffPixels=7088
+  stable page 1: diffRatio=0.00845593847797878, diffPixels=7090
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-font-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0045] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-forward-fill.html
@@ -237,11 +237,11 @@
   reference: css/css-masking/clip-path/animations/clip-path-animation-fragmented-inline-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-fragmented-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.017857653995878176, diffPixels=14973
+  canary page 1: diffRatio=0.017861231967025416, diffPixels=14976
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-fragmented-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-fragmented-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017857653995878176, diffPixels=14973
+  stable page 1: diffRatio=0.017861231967025416, diffPixels=14976
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-fragmented-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-fragmented.html
@@ -432,11 +432,11 @@
   reference: css/css-masking/clip-path/animations/clip-path-animation-non-shape-delay-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-reference-delay.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000942199068773376, diffPixels=79
+  canary page 1: diffRatio=0.00010376116326997939, diffPixels=87
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-non-shape-delay-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-reference-delay.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000942199068773376, diffPixels=79
+  stable page 1: diffRatio=0.00010376116326997939, diffPixels=87
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-non-shape-delay-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0075] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-set-effect.html
@@ -783,11 +783,11 @@
   reference: css/css-masking/clip-path/reference/clip-path-ref-right-green-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.3187626421647203, diffPixels=267271
+  canary page 1: diffRatio=0.3187769540493092, diffPixels=267283
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ref-right-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.3187626421647203, diffPixels=267271
+  stable page 1: diffRatio=0.3187769540493092, diffPixels=267283
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ref-right-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0138] [WPT reftest] css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html
@@ -796,11 +796,11 @@
   reference: css/css-masking/clip-path/reference/clip-path-ref-bottom-green-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.31724677505533927, diffPixels=266000
+  canary page 1: diffRatio=0.31729805930844973, diffPixels=266043
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ref-bottom-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.31724677505533927, diffPixels=266000
+  stable page 1: diffRatio=0.31729805930844973, diffPixels=266043
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ref-bottom-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0147] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-closest-farthest-corner.html
@@ -842,6 +842,19 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0158] [WPT reftest] css/css-masking/clip-path/clip-path-inline-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0173] [WPT reftest] css/css-masking/clip-path/clip-path-mix-blend-mode-1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -874,11 +887,11 @@
   reference: css/css-masking/clip-path/clip-path-on-fixed-position-scroll-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-on-fixed-position-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002635772078467293, diffPixels=221
+  canary page 1: diffRatio=0.00027788909243569194, diffPixels=233
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-on-fixed-position-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-on-fixed-position-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002635772078467293, diffPixels=221
+  stable page 1: diffRatio=0.00027788909243569194, diffPixels=233
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-on-fixed-position-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0179] [WPT reftest] css/css-masking/clip-path/clip-path-paddingBox-1d.html

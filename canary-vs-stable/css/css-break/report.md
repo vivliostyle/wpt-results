@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1102
-- Entries with differences: 159 (improvement: 1, pending: 158, triaged: 0)
+- Entries with differences: 159 (pending: 159, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
-- Page count changed: 1
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":943,"known-fail":157,"improvement":1,"changed-fail":1}
+- Page count changed: 0
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":943,"known-fail":159}
 
 ## Differences
 
@@ -231,23 +231,17 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0531] [WPT reftest] css/css-break/grid/grid-item-fragmentation-048.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-item-fragmentation-048.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-item-fragmentation-048.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0550] [WPT reftest] css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005848790168689413, diffPixels=4904
+  canary page 1: diffRatio=0.005847597511640333, diffPixels=4903
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005848790168689413, diffPixels=4904
+  stable page 1: diffRatio=0.005847597511640333, diffPixels=4903
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0551] [WPT reftest] css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-004.html
@@ -256,11 +250,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004357968857339135, diffPixels=3654
+  canary page 1: diffRatio=0.004356776200290054, diffPixels=3653
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004357968857339135, diffPixels=3654
+  stable page 1: diffRatio=0.004356776200290054, diffPixels=3653
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0552] [WPT reftest] css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-005.html
@@ -295,11 +289,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01112987558201664, diffPixels=9332
+  canary page 1: diffRatio=0.01112868292496756, diffPixels=9331
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01112987558201664, diffPixels=9332
+  stable page 1: diffRatio=0.01112868292496756, diffPixels=9331
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0556] [WPT reftest] css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-009.html
@@ -308,11 +302,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011726204106556752, diffPixels=9832
+  canary page 1: diffRatio=0.011725011449507671, diffPixels=9831
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011726204106556752, diffPixels=9832
+  stable page 1: diffRatio=0.011725011449507671, diffPixels=9831
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0557] [WPT reftest] css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-010.html
@@ -334,11 +328,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011534186321654835, diffPixels=9671
+  canary page 1: diffRatio=0.011535378978703915, diffPixels=9672
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011534186321654835, diffPixels=9671
+  stable page 1: diffRatio=0.011535378978703915, diffPixels=9672
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0559] [WPT reftest] css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-012.html
@@ -347,11 +341,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008744561483856194, diffPixels=7332
+  canary page 1: diffRatio=0.008743368826807114, diffPixels=7331
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-grid-lanes-oof-fragmentation-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008744561483856194, diffPixels=7332
+  stable page 1: diffRatio=0.008743368826807114, diffPixels=7331
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0560] [WPT reftest] css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-001.html
@@ -633,11 +627,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011726204106556752, diffPixels=9832
+  canary page 1: diffRatio=0.011725011449507671, diffPixels=9831
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011726204106556752, diffPixels=9832
+  stable page 1: diffRatio=0.011725011449507671, diffPixels=9831
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0596] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-002.html
@@ -659,11 +653,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011534186321654835, diffPixels=9671
+  canary page 1: diffRatio=0.011535378978703915, diffPixels=9672
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011534186321654835, diffPixels=9671
+  stable page 1: diffRatio=0.011535378978703915, diffPixels=9672
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0600] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-006.html
@@ -698,11 +692,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011726204106556752, diffPixels=9832
+  canary page 1: diffRatio=0.011725011449507671, diffPixels=9831
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011726204106556752, diffPixels=9832
+  stable page 1: diffRatio=0.011725011449507671, diffPixels=9831
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0603] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-009.html
@@ -1095,6 +1089,19 @@
   stable page 1: diffRatio=0.0034587054423326465, diffPixels=2900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0730] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-049.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00002981642622700557, diffPixels=25
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00002981642622700557, diffPixels=25
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0736] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-055.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1127,11 +1134,11 @@
   reference: css/css-break/out-of-flow-in-multicolumn-093-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-093.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001777059003129532, diffPixels=149
+  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-093-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-093.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001777059003129532, diffPixels=149
+  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-093-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0778] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-097.html
@@ -1507,14 +1514,14 @@
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.15724826388888888, diffPixels=21738
-  canary page 2: diffRatio=0.17074652777777777, diffPixels=23604
-  canary page 3: diffRatio=0.21883680555555557, diffPixels=30252
+  canary page 2: diffRatio=0.17078269675925925, diffPixels=23609
+  canary page 3: diffRatio=0.21878616898148148, diffPixels=30245
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.15724826388888888, diffPixels=21738
-  stable page 2: diffRatio=0.17074652777777777, diffPixels=23604
-  stable page 3: diffRatio=0.21883680555555557, diffPixels=30252
+  stable page 2: diffRatio=0.17078269675925925, diffPixels=23609
+  stable page 3: diffRatio=0.21878616898148148, diffPixels=30245
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1051] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print.html
@@ -1563,12 +1570,12 @@
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.08802806712962963, diffPixels=12169
-  canary page 2: diffRatio=0.20439091435185186, diffPixels=28255
+  canary page 2: diffRatio=0.20442708333333334, diffPixels=28260
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.08802806712962963, diffPixels=12169
-  stable page 2: diffRatio=0.20439091435185186, diffPixels=28255
+  stable page 2: diffRatio=0.20442708333333334, diffPixels=28260
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1055] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-081a-print.html
@@ -1683,13 +1690,13 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.16072048611111112, diffPixels=22218
   canary page 2: diffRatio=0.10610532407407407, diffPixels=14668
-  canary page 3: diffRatio=0.21893807870370371, diffPixels=30266
+  canary page 3: diffRatio=0.21889467592592593, diffPixels=30260
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.16072048611111112, diffPixels=22218
   stable page 2: diffRatio=0.10610532407407407, diffPixels=14668
-  stable page 3: diffRatio=0.21893807870370371, diffPixels=30266
+  stable page 3: diffRatio=0.21889467592592593, diffPixels=30260
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1064] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-065-print.html
@@ -1934,11 +1941,11 @@
   reference: css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 4: diffRatio=0.0012642164720250363, diffPixels=1060
+  canary page 4: diffRatio=0.0012749503854667583, diffPixels=1069
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 4: diffRatio=0.0012642164720250363, diffPixels=1060
+  stable page 4: diffRatio=0.0012749503854667583, diffPixels=1069
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1090] [WPT print-reftest] css/css-break/table/table-fragmentation-002a-print.html
@@ -1947,11 +1954,11 @@
   reference: css/css-break/table/table-fragmentation-002a-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 3: diffRatio=0.1267722800925926, diffPixels=17525
+  canary page 3: diffRatio=0.1267867476851852, diffPixels=17527
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 3: diffRatio=0.1267722800925926, diffPixels=17525
+  stable page 3: diffRatio=0.1267867476851852, diffPixels=17527
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1091] [WPT print-reftest] css/css-break/table/table-fragmentation-002b-print.html
@@ -1960,11 +1967,11 @@
   reference: css/css-break/table/table-fragmentation-002a-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 3: diffRatio=0.1267722800925926, diffPixels=17525
+  canary page 3: diffRatio=0.1267867476851852, diffPixels=17527
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002b-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 3: diffRatio=0.1267722800925926, diffPixels=17525
+  stable page 3: diffRatio=0.1267867476851852, diffPixels=17527
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1092] [WPT print-reftest] css/css-break/table/table-fragmentation-002c-print.html
@@ -1973,11 +1980,11 @@
   reference: css/css-break/table/table-fragmentation-002c-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 3: diffRatio=0.1267722800925926, diffPixels=17525
+  canary page 3: diffRatio=0.1267867476851852, diffPixels=17527
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 3: diffRatio=0.1267722800925926, diffPixels=17525
+  stable page 3: diffRatio=0.1267867476851852, diffPixels=17527
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1093] [WPT print-reftest] css/css-break/table/table-fragmentation-002d-print.html
@@ -1986,11 +1993,11 @@
   reference: css/css-break/table/table-fragmentation-002c-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 3: diffRatio=0.1267722800925926, diffPixels=17525
+  canary page 3: diffRatio=0.1267867476851852, diffPixels=17527
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002d-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 3: diffRatio=0.1267722800925926, diffPixels=17525
+  stable page 3: diffRatio=0.1267867476851852, diffPixels=17527
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1094] [WPT print-reftest] css/css-break/table/table-fragmentation-003a-print.html
@@ -2060,11 +2067,11 @@
 
 - [1100] [WPT print-reftest] css/css-break/transform-024-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/transform-024-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-024-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1, 2, 3, 4, 5]
+  canary selected pages: test=[1, 2, 3], reference=[1, 2, 3, 4, 5]
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/transform-024-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-024-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

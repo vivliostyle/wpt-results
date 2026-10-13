@@ -1513,11 +1513,11 @@
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/layout-child/inlines.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008551351041905198, diffPixels=7170
+  canary page 1: diffRatio=0.008498874131745668, diffPixels=7126
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/layout-child/inlines.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008551351041905198, diffPixels=7170
+  stable page 1: diffRatio=0.008498874131745668, diffPixels=7126
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0126] [WPT reftest] css/css-layout-api/layout-child/text-01.https.html
@@ -1526,11 +1526,11 @@
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/layout-child/text-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00936712846347607, diffPixels=7854
+  canary page 1: diffRatio=0.009317036867414702, diffPixels=7812
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/layout-child/text-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00936712846347607, diffPixels=7854
+  stable page 1: diffRatio=0.009317036867414702, diffPixels=7812
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0127] [WPT reftest] css/css-layout-api/layout-child/text-02.https.html
@@ -1539,11 +1539,11 @@
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/layout-child/text-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01064684947713915, diffPixels=8927
+  canary page 1: diffRatio=0.010621803679108465, diffPixels=8906
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/layout-child/text-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01064684947713915, diffPixels=8927
+  stable page 1: diffRatio=0.010621803679108465, diffPixels=8906
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0128] [WPT reftest] css/css-layout-api/position-fragment/htb-ltr.https.html

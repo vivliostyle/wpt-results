@@ -5,8 +5,8 @@
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":238,"known-fail":405,"changed-fail":1,"error":3,"unchanged":2}
+- Screenshot mismatches: 2
+- Outcome summary: {"pass":238,"known-fail":404,"changed-fail":2,"error":3,"unchanged":2}
 
 ## Differences
 
@@ -29,11 +29,11 @@
   reference: css/css-overflow/reference/before-after-pseudo-element-scrolling-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/before-after-pseudo-element-scrolling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016446740706816274, diffPixels=13790
+  canary page 1: diffRatio=0.016487291046485, diffPixels=13824
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/before-after-pseudo-element-scrolling-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/before-after-pseudo-element-scrolling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.016446740706816274, diffPixels=13790
+  stable page 1: diffRatio=0.016487291046485, diffPixels=13824
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/before-after-pseudo-element-scrolling-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0013] [WPT reftest] css/css-overflow/clipped-scroller-add-content.html
@@ -94,11 +94,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0030114590489275627, diffPixels=2525
+  canary page 1: diffRatio=0.003029348904663766, diffPixels=2540
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0030114590489275627, diffPixels=2525
+  stable page 1: diffRatio=0.003029348904663766, diffPixels=2540
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0036] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-002.html
@@ -120,11 +120,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
+  canary page 1: diffRatio=0.0001204583619571025, diffPixels=101
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
+  stable page 1: diffRatio=0.0001204583619571025, diffPixels=101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0038] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-004.html
@@ -146,11 +146,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  canary page 1: diffRatio=0.0000989905350736585, diffPixels=83
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  stable page 1: diffRatio=0.0000989905350736585, diffPixels=83
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0040] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-006.html
@@ -159,11 +159,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  canary page 1: diffRatio=0.0000989905350736585, diffPixels=83
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  stable page 1: diffRatio=0.0000989905350736585, diffPixels=83
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0041] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-007.html
@@ -172,11 +172,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000882566216319365, diffPixels=74
+  canary page 1: diffRatio=0.00009183459277917716, diffPixels=77
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000882566216319365, diffPixels=74
+  stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0042] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-008.html
@@ -185,11 +185,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00046632890619036717, diffPixels=391
+  canary page 1: diffRatio=0.00047229219143576825, diffPixels=396
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00046632890619036717, diffPixels=391
+  stable page 1: diffRatio=0.00047229219143576825, diffPixels=396
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0043] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-009.html
@@ -198,11 +198,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  canary page 1: diffRatio=0.0000989905350736585, diffPixels=83
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  stable page 1: diffRatio=0.0000989905350736585, diffPixels=83
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0044] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-010.html
@@ -212,15 +212,15 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-010-alt-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-010-ref.html): diffRatio=0.01680453782154034, diffPixels=14090
+  canary page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-010-ref.html): diffRatio=0.0169094916418594, diffPixels=14178
   canary reference render (css/css-overflow/line-clamp/reference/block-ellipsis-010-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-010-alt-ref.html): diffRatio=0.01739609571788413, diffPixels=14586
+  canary page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-010-alt-ref.html): diffRatio=0.017512976108693994, diffPixels=14684
   canary reference render (css/css-overflow/line-clamp/reference/block-ellipsis-010-alt-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-010-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-010-ref.html): diffRatio=0.01680453782154034, diffPixels=14090
+  stable page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-010-ref.html): diffRatio=0.0169094916418594, diffPixels=14178
   stable reference render (css/css-overflow/line-clamp/reference/block-ellipsis-010-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-010-alt-ref.html): diffRatio=0.01739609571788413, diffPixels=14586
+  stable page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-010-alt-ref.html): diffRatio=0.017512976108693994, diffPixels=14684
   stable reference render (css/css-overflow/line-clamp/reference/block-ellipsis-010-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-010-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-012.html
@@ -229,11 +229,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0023042134188229904, diffPixels=1932
+  canary page 1: diffRatio=0.0022910941912831083, diffPixels=1921
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0023042134188229904, diffPixels=1932
+  stable page 1: diffRatio=0.0022910941912831083, diffPixels=1921
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-013.html
@@ -242,11 +242,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004468885962903595, diffPixels=3747
+  canary page 1: diffRatio=0.0044903537897870395, diffPixels=3765
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004468885962903595, diffPixels=3747
+  stable page 1: diffRatio=0.0044903537897870395, diffPixels=3765
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0048] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-014.html
@@ -255,11 +255,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004468885962903595, diffPixels=3747
+  canary page 1: diffRatio=0.0044903537897870395, diffPixels=3765
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004468885962903595, diffPixels=3747
+  stable page 1: diffRatio=0.0044903537897870395, diffPixels=3765
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0049] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-015.tentative.html
@@ -268,11 +268,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-015.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005438516143805816, diffPixels=4560
+  canary page 1: diffRatio=0.005467139912983742, diffPixels=4584
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-015.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005438516143805816, diffPixels=4560
+  stable page 1: diffRatio=0.005467139912983742, diffPixels=4584
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0050] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-016.html
@@ -281,11 +281,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-016-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011079783985955272, diffPixels=929
+  canary page 1: diffRatio=0.0011044004274482864, diffPixels=926
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011079783985955272, diffPixels=929
+  stable page 1: diffRatio=0.0011044004274482864, diffPixels=926
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0051] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-017.html
@@ -294,11 +294,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004468885962903595, diffPixels=3747
+  canary page 1: diffRatio=0.0044903537897870395, diffPixels=3765
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004468885962903595, diffPixels=3747
+  stable page 1: diffRatio=0.0044903537897870395, diffPixels=3765
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0052] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-018.html
@@ -307,11 +307,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01980645561407526, diffPixels=16607
+  canary page 1: diffRatio=0.019807648271124342, diffPixels=16608
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01980645561407526, diffPixels=16607
+  stable page 1: diffRatio=0.019807648271124342, diffPixels=16608
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0053] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-019.html
@@ -320,11 +320,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014908213113502785, diffPixels=12500
+  canary page 1: diffRatio=0.014839039004656133, diffPixels=12442
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014908213113502785, diffPixels=12500
+  stable page 1: diffRatio=0.014839039004656133, diffPixels=12442
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-020.html
@@ -333,11 +333,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014908213113502785, diffPixels=12500
+  canary page 1: diffRatio=0.014839039004656133, diffPixels=12442
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014908213113502785, diffPixels=12500
+  stable page 1: diffRatio=0.014839039004656133, diffPixels=12442
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0055] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-021.html
@@ -346,11 +346,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.019385447675749942, diffPixels=16254
+  canary page 1: diffRatio=0.019305539653461566, diffPixels=16187
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.019385447675749942, diffPixels=16254
+  stable page 1: diffRatio=0.019305539653461566, diffPixels=16187
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-022.html
@@ -359,11 +359,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-022-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009123826425463705, diffPixels=765
+  canary page 1: diffRatio=0.0009040340432028089, diffPixels=758
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009123826425463705, diffPixels=765
+  stable page 1: diffRatio=0.0009040340432028089, diffPixels=758
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0057] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-023.html
@@ -372,11 +372,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007573372261659415, diffPixels=635
+  canary page 1: diffRatio=0.0007609151973131822, diffPixels=638
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007573372261659415, diffPixels=635
+  stable page 1: diffRatio=0.0007609151973131822, diffPixels=638
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0058] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-024.html
@@ -385,11 +385,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007573372261659415, diffPixels=635
+  canary page 1: diffRatio=0.0007609151973131822, diffPixels=638
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007573372261659415, diffPixels=635
+  stable page 1: diffRatio=0.0007609151973131822, diffPixels=638
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0059] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-025.html
@@ -398,11 +398,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-025-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015695366765895733, diffPixels=1316
+  canary page 1: diffRatio=0.0015814632470803754, diffPixels=1326
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015695366765895733, diffPixels=1316
+  stable page 1: diffRatio=0.0015814632470803754, diffPixels=1326
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0060] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-026.html
@@ -411,11 +411,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-026-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004564298526830013, diffPixels=3827
+  canary page 1: diffRatio=0.0045595278986336925, diffPixels=3823
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004564298526830013, diffPixels=3827
+  stable page 1: diffRatio=0.0045595278986336925, diffPixels=3823
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0061] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-027.html
@@ -424,11 +424,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-026-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004745582398290207, diffPixels=3979
+  canary page 1: diffRatio=0.004781362109762614, diffPixels=4009
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004745582398290207, diffPixels=3979
+  stable page 1: diffRatio=0.004781362109762614, diffPixels=4009
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0062] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-028.html
@@ -438,15 +438,15 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-b.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-a.html): diffRatio=0.004194574841615144, diffPixels=3517
+  canary page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-a.html): diffRatio=0.00422439126784215, diffPixels=3542
   canary reference render (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-a.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-b.html): diffRatio=0.004194574841615144, diffPixels=3517
+  canary page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-b.html): diffRatio=0.00422439126784215, diffPixels=3542
   canary reference render (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-b.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-a.html): diffRatio=0.004194574841615144, diffPixels=3517
+  stable page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-a.html): diffRatio=0.00422439126784215, diffPixels=3542
   stable reference render (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-a.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-b.html): diffRatio=0.004194574841615144, diffPixels=3517
+  stable page 1 (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-b.html): diffRatio=0.00422439126784215, diffPixels=3542
   stable reference render (css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-b.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-028-ref-b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0063] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-029.html
@@ -455,11 +455,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-029-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006857778032211281, diffPixels=575
+  canary page 1: diffRatio=0.0006893557743683688, diffPixels=578
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006857778032211281, diffPixels=575
+  stable page 1: diffRatio=0.0006893557743683688, diffPixels=578
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0064] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-030.html
@@ -468,11 +468,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-029-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007430253415769789, diffPixels=623
+  canary page 1: diffRatio=0.0007466033127242195, diffPixels=626
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007430253415769789, diffPixels=623
+  stable page 1: diffRatio=0.0007466033127242195, diffPixels=626
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0065] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-031.html
@@ -481,11 +481,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-031-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0045559499274864515, diffPixels=3820
+  canary page 1: diffRatio=0.004523748187161286, diffPixels=3793
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-031-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0045559499274864515, diffPixels=3820
+  stable page 1: diffRatio=0.004523748187161286, diffPixels=3793
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-031-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0066] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-032.html
@@ -494,11 +494,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-032-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-032.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011428039844286695, diffPixels=9582
+  canary page 1: diffRatio=0.011456663613464622, diffPixels=9606
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-032-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-032.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011428039844286695, diffPixels=9582
+  stable page 1: diffRatio=0.011456663613464622, diffPixels=9606
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-032-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0067] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-033.html
@@ -520,11 +520,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-034-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014109132890619037, diffPixels=1183
+  canary page 1: diffRatio=0.001424032516601786, diffPixels=1194
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014109132890619037, diffPixels=1183
+  stable page 1: diffRatio=0.001424032516601786, diffPixels=1194
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0069] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-035.html
@@ -533,11 +533,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-035-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-035.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001855774368368827, diffPixels=1556
+  canary page 1: diffRatio=0.0019189851919700787, diffPixels=1609
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-035-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-035.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001855774368368827, diffPixels=1556
+  stable page 1: diffRatio=0.0019189851919700787, diffPixels=1609
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-035-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0070] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-036.html
@@ -559,11 +559,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007573372261659415, diffPixels=635
+  canary page 1: diffRatio=0.0007609151973131822, diffPixels=638
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007573372261659415, diffPixels=635
+  stable page 1: diffRatio=0.0007609151973131822, diffPixels=638
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0072] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-038.html
@@ -572,11 +572,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-038-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-038.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004090813678345164, diffPixels=343
+  canary page 1: diffRatio=0.000385228226852912, diffPixels=323
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-038-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-038.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004090813678345164, diffPixels=343
+  stable page 1: diffRatio=0.000385228226852912, diffPixels=323
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-038-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0073] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-039.html
@@ -585,11 +585,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-039-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013727482634913366, diffPixels=1151
+  canary page 1: diffRatio=0.001370362949393176, diffPixels=1149
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-039-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013727482634913366, diffPixels=1151
+  stable page 1: diffRatio=0.001370362949393176, diffPixels=1149
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-039-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0074] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-040.html
@@ -598,11 +598,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0022374246240744983, diffPixels=1876
+  canary page 1: diffRatio=0.002236231967025418, diffPixels=1875
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0022374246240744983, diffPixels=1876
+  stable page 1: diffRatio=0.002236231967025418, diffPixels=1875
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0075] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-041.html
@@ -611,11 +611,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-041-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004329345088161209, diffPixels=363
+  canary page 1: diffRatio=0.00043531982291428135, diffPixels=365
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004329345088161209, diffPixels=363
+  stable page 1: diffRatio=0.00043531982291428135, diffPixels=365
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0076] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-bidi-001.html
@@ -624,11 +624,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-014-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-bidi-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024053507365849935, diffPixels=20168
+  canary page 1: diffRatio=0.024059470651095337, diffPixels=20173
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-bidi-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024053507365849935, diffPixels=20168
+  stable page 1: diffRatio=0.024059470651095337, diffPixels=20173
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0077] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-bidi-002.html
@@ -637,11 +637,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-bidi-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-bidi-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001455041599877872, diffPixels=122
+  canary page 1: diffRatio=0.00016339401572399052, diffPixels=137
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-bidi-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-bidi-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001455041599877872, diffPixels=122
+  stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-bidi-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0078] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-bidi-003.html
@@ -650,11 +650,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-bidi-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-bidi-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003888061980001527, diffPixels=326
+  canary page 1: diffRatio=0.0003697236852148691, diffPixels=310
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-bidi-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-bidi-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003888061980001527, diffPixels=326
+  stable page 1: diffRatio=0.0003697236852148691, diffPixels=310
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-bidi-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0079] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-bidi-004.html
@@ -663,11 +663,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-bidi-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-bidi-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002922009770246546, diffPixels=245
+  canary page 1: diffRatio=0.00028146706358293263, diffPixels=236
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-bidi-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-bidi-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002922009770246546, diffPixels=245
+  stable page 1: diffRatio=0.00028146706358293263, diffPixels=236
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-bidi-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0080] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-quirk-001.html
@@ -676,11 +676,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-quirk-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005968055873597436, diffPixels=5004
+  canary page 1: diffRatio=0.005971633844744676, diffPixels=5007
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-quirk-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005968055873597436, diffPixels=5004
+  stable page 1: diffRatio=0.005971633844744676, diffPixels=5007
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0081] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-quirk-002.html
@@ -702,11 +702,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-repaint-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-repaint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.015275551484619494, diffPixels=12808
+  canary page 1: diffRatio=0.015295826654453858, diffPixels=12825
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-repaint-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-repaint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.015275551484619494, diffPixels=12808
+  stable page 1: diffRatio=0.015295826654453858, diffPixels=12825
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-repaint-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0083] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-repaint-002.html
@@ -715,11 +715,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-repaint-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-repaint-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001455041599877872, diffPixels=122
+  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-repaint-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-repaint-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001455041599877872, diffPixels=122
+  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-repaint-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0084] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-repaint-003.html
@@ -728,11 +728,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-repaint-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-repaint-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000882566216319365, diffPixels=74
+  canary page 1: diffRatio=0.00009183459277917716, diffPixels=77
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-repaint-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-repaint-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000882566216319365, diffPixels=74
+  stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-repaint-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0085] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-repaint-004.html
@@ -741,11 +741,11 @@
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-repaint-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-repaint-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012811522021219754, diffPixels=10742
+  canary page 1: diffRatio=0.012813907335317915, diffPixels=10744
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-repaint-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-repaint-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012811522021219754, diffPixels=10742
+  stable page 1: diffRatio=0.012813907335317915, diffPixels=10744
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/block-ellipsis-repaint-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0086] [WPT reftest] css/css-overflow/line-clamp/continue-001.html
@@ -754,11 +754,11 @@
   reference: css/css-overflow/line-clamp/reference/continue-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/continue-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001884398137546752, diffPixels=158
+  canary page 1: diffRatio=0.00019321044195099612, diffPixels=162
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/continue-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/continue-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001884398137546752, diffPixels=158
+  stable page 1: diffRatio=0.00019321044195099612, diffPixels=162
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/continue-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0087] [WPT reftest] css/css-overflow/line-clamp/discard/discard-multicol-001.html
@@ -767,11 +767,11 @@
   reference: css/css-overflow/line-clamp/discard/reference/discard-multicol-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/discard/discard-multicol-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009660522097549806, diffPixels=81
+  canary page 1: diffRatio=0.00009779787802457828, diffPixels=82
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/discard/reference/discard-multicol-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/discard/discard-multicol-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009660522097549806, diffPixels=81
+  stable page 1: diffRatio=0.00009779787802457828, diffPixels=82
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/discard/reference/discard-multicol-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0088] [WPT reftest] css/css-overflow/line-clamp/discard/discard-multicol-002.html
@@ -806,11 +806,11 @@
   reference: css/css-overflow/line-clamp/discard/reference/discard-multicol-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/discard/discard-multicol-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009660522097549806, diffPixels=81
+  canary page 1: diffRatio=0.00009779787802457828, diffPixels=82
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/discard/reference/discard-multicol-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/discard/discard-multicol-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009660522097549806, diffPixels=81
+  stable page 1: diffRatio=0.00009779787802457828, diffPixels=82
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/discard/reference/discard-multicol-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0091] [WPT reftest] css/css-overflow/line-clamp/line-clamp-001.html
@@ -832,11 +832,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.023953324173727197, diffPixels=20084
+  canary page 1: diffRatio=0.023937819632089154, diffPixels=20071
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.023953324173727197, diffPixels=20084
+  stable page 1: diffRatio=0.023937819632089154, diffPixels=20071
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0095] [WPT reftest] css/css-overflow/line-clamp/line-clamp-005.html
@@ -845,11 +845,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03607549042057858, diffPixels=30248
+  canary page 1: diffRatio=0.03607310510648042, diffPixels=30246
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03607549042057858, diffPixels=30248
+  stable page 1: diffRatio=0.03607310510648042, diffPixels=30246
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0096] [WPT reftest] css/css-overflow/line-clamp/line-clamp-006.html
@@ -884,11 +884,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1039770341958629, diffPixels=87181
+  canary page 1: diffRatio=0.10397584153881383, diffPixels=87180
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1039770341958629, diffPixels=87181
+  stable page 1: diffRatio=0.10397584153881383, diffPixels=87180
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0099] [WPT reftest] css/css-overflow/line-clamp/line-clamp-009.html
@@ -897,11 +897,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.10384345660636593, diffPixels=87069
+  canary page 1: diffRatio=0.10383153003587513, diffPixels=87059
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.10384345660636593, diffPixels=87069
+  stable page 1: diffRatio=0.10383153003587513, diffPixels=87059
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0100] [WPT reftest] css/css-overflow/line-clamp/line-clamp-010.html
@@ -910,11 +910,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00026476986489580947, diffPixels=222
+  canary page 1: diffRatio=0.00027431112128845124, diffPixels=230
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00026476986489580947, diffPixels=222
+  stable page 1: diffRatio=0.00027431112128845124, diffPixels=230
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0101] [WPT reftest] css/css-overflow/line-clamp/line-clamp-011.html
@@ -923,11 +923,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  canary page 1: diffRatio=0.00009779787802457828, diffPixels=82
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  stable page 1: diffRatio=0.00009779787802457828, diffPixels=82
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0102] [WPT reftest] css/css-overflow/line-clamp/line-clamp-012.tentative.html
@@ -936,11 +936,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-012.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05394745630104572, diffPixels=45233
+  canary page 1: diffRatio=0.053936722387604, diffPixels=45224
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-012.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05394745630104572, diffPixels=45233
+  stable page 1: diffRatio=0.053936722387604, diffPixels=45224
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0103] [WPT reftest] css/css-overflow/line-clamp/line-clamp-013.tentative.html
@@ -949,11 +949,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-013.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001777059003129532, diffPixels=149
+  canary page 1: diffRatio=0.00018605449965651476, diffPixels=156
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-013.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001777059003129532, diffPixels=149
+  stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0105] [WPT reftest] css/css-overflow/line-clamp/line-clamp-015.html
@@ -962,11 +962,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-015-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0059954869857262805, diffPixels=5027
+  canary page 1: diffRatio=0.006039615296542249, diffPixels=5064
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0059954869857262805, diffPixels=5027
+  stable page 1: diffRatio=0.006039615296542249, diffPixels=5064
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0106] [WPT reftest] css/css-overflow/line-clamp/line-clamp-016.html
@@ -988,11 +988,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024734514540874743, diffPixels=20739
+  canary page 1: diffRatio=0.024763138310052668, diffPixels=20763
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024734514540874743, diffPixels=20739
+  stable page 1: diffRatio=0.024763138310052668, diffPixels=20763
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0108] [WPT reftest] css/css-overflow/line-clamp/line-clamp-018.html
@@ -1001,11 +1001,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000899263415006488, diffPixels=754
+  canary page 1: diffRatio=0.0009326578123807343, diffPixels=782
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000899263415006488, diffPixels=754
+  stable page 1: diffRatio=0.0009326578123807343, diffPixels=782
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0109] [WPT reftest] css/css-overflow/line-clamp/line-clamp-019.html
@@ -1014,11 +1014,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009183459277917716, diffPixels=77
+  canary page 1: diffRatio=0.0000942199068773376, diffPixels=79
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
+  stable page 1: diffRatio=0.0000942199068773376, diffPixels=79
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0111] [WPT reftest] css/css-overflow/line-clamp/line-clamp-021.html
@@ -1027,11 +1027,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-021-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005796313258529883, diffPixels=486
+  canary page 1: diffRatio=0.0005390809861842607, diffPixels=452
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005796313258529883, diffPixels=486
+  stable page 1: diffRatio=0.0005390809861842607, diffPixels=452
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0112] [WPT reftest] css/css-overflow/line-clamp/line-clamp-022.tentative.html
@@ -1040,11 +1040,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-022-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-022.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05976523738645905, diffPixels=50111
+  canary page 1: diffRatio=0.05975331081596825, diffPixels=50101
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-022.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05976523738645905, diffPixels=50111
+  stable page 1: diffRatio=0.05975331081596825, diffPixels=50101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0113] [WPT reftest] css/css-overflow/line-clamp/line-clamp-023.tentative.html
@@ -1053,11 +1053,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-023.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05534405770551866, diffPixels=46404
+  canary page 1: diffRatio=0.055332131135027864, diffPixels=46394
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-023.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05534405770551866, diffPixels=46404
+  stable page 1: diffRatio=0.055332131135027864, diffPixels=46394
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0114] [WPT reftest] css/css-overflow/line-clamp/line-clamp-024.tentative.html
@@ -1066,11 +1066,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-022-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-024.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1445870067170445, diffPixels=121231
+  canary page 1: diffRatio=0.1445750801465537, diffPixels=121221
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-024.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1445870067170445, diffPixels=121231
+  stable page 1: diffRatio=0.1445750801465537, diffPixels=121221
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0115] [WPT reftest] css/css-overflow/line-clamp/line-clamp-025.tentative.html
@@ -1079,11 +1079,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-025.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.12804843141744904, diffPixels=107364
+  canary page 1: diffRatio=0.12803650484695825, diffPixels=107354
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-025.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.12804843141744904, diffPixels=107364
+  stable page 1: diffRatio=0.12803650484695825, diffPixels=107354
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0116] [WPT reftest] css/css-overflow/line-clamp/line-clamp-026.html
@@ -1092,11 +1092,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-026-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013572437218532937, diffPixels=1138
+  canary page 1: diffRatio=0.0017412792916571254, diffPixels=1460
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005653194412640256, diffPixels=474
+  stable page 1: diffRatio=0.0005450442714296619, diffPixels=457
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0117] [WPT reftest] css/css-overflow/line-clamp/line-clamp-027.html
@@ -1105,11 +1105,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-027-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.11343599725211816, diffPixels=95112
+  canary page 1: diffRatio=0.11343122662392184, diffPixels=95108
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.11343599725211816, diffPixels=95112
+  stable page 1: diffRatio=0.11343122662392184, diffPixels=95108
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0118] [WPT reftest] css/css-overflow/line-clamp/line-clamp-028.html
@@ -1118,11 +1118,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-028-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1066736317838333, diffPixels=89442
+  canary page 1: diffRatio=0.10591867987176551, diffPixels=88809
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1066736317838333, diffPixels=89442
+  stable page 1: diffRatio=0.10591867987176551, diffPixels=88809
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0120] [WPT reftest] css/css-overflow/line-clamp/line-clamp-030.html
@@ -1183,11 +1183,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-035.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  canary page 1: diffRatio=0.00009779787802457828, diffPixels=82
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-035.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  stable page 1: diffRatio=0.00009779787802457828, diffPixels=82
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0126] [WPT reftest] css/css-overflow/line-clamp/line-clamp-036.html
@@ -1209,11 +1209,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-041-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019082512785283565, diffPixels=160
+  canary page 1: diffRatio=0.00019559575604915656, diffPixels=164
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
+  stable page 1: diffRatio=0.00019559575604915656, diffPixels=164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0131] [WPT reftest] css/css-overflow/line-clamp/line-clamp-042.html
@@ -1222,11 +1222,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-042.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024158461186168996, diffPixels=20256
+  canary page 1: diffRatio=0.024160846500267154, diffPixels=20258
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-042.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024158461186168996, diffPixels=20256
+  stable page 1: diffRatio=0.024160846500267154, diffPixels=20258
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0132] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-001.html
@@ -1235,11 +1235,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  canary page 1: diffRatio=0.00018963247080375543, diffPixels=159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  stable page 1: diffRatio=0.00018963247080375543, diffPixels=159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0133] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-002.tentative.html
@@ -1248,11 +1248,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-002.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  canary page 1: diffRatio=0.00018963247080375543, diffPixels=159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-002.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  stable page 1: diffRatio=0.00018963247080375543, diffPixels=159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0134] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-003.tentative.html
@@ -1261,11 +1261,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-003.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  canary page 1: diffRatio=0.00018963247080375543, diffPixels=159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-003.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  stable page 1: diffRatio=0.00018963247080375543, diffPixels=159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0135] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-004.html
@@ -1274,11 +1274,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012185377070452637, diffPixels=10217
+  canary page 1: diffRatio=0.012160331272421953, diffPixels=10196
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012185377070452637, diffPixels=10217
+  stable page 1: diffRatio=0.012160331272421953, diffPixels=10196
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0136] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-005.html
@@ -1287,11 +1287,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018605449965651476, diffPixels=156
+  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
+  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0140] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-009.html
@@ -1300,11 +1300,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00192614113426456, diffPixels=1615
+  canary page 1: diffRatio=0.0018903614227921532, diffPixels=1585
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00192614113426456, diffPixels=1615
+  stable page 1: diffRatio=0.0018903614227921532, diffPixels=1585
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0142] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-011.html
@@ -1313,11 +1313,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00035183382947866573, diffPixels=295
+  canary page 1: diffRatio=0.00036137508587130756, diffPixels=303
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00035183382947866573, diffPixels=295
+  stable page 1: diffRatio=0.00036137508587130756, diffPixels=303
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0144] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-013.html
@@ -1326,11 +1326,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  canary page 1: diffRatio=0.00018963247080375543, diffPixels=159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  stable page 1: diffRatio=0.00018963247080375543, diffPixels=159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0145] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-014.html
@@ -1339,11 +1339,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  canary page 1: diffRatio=0.00018963247080375543, diffPixels=159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  stable page 1: diffRatio=0.00018963247080375543, diffPixels=159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0146] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-015.tentative.html
@@ -1352,11 +1352,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-015.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024262222349438974, diffPixels=20343
+  canary page 1: diffRatio=0.024266992977635293, diffPixels=20347
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-015.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024262222349438974, diffPixels=20343
+  stable page 1: diffRatio=0.024266992977635293, diffPixels=20347
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0147] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-016.html
@@ -1365,11 +1365,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-016-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  canary page 1: diffRatio=0.00018963247080375543, diffPixels=159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  stable page 1: diffRatio=0.00018963247080375543, diffPixels=159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0148] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-017.html
@@ -1378,11 +1378,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  canary page 1: diffRatio=0.00018963247080375543, diffPixels=159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  stable page 1: diffRatio=0.00018963247080375543, diffPixels=159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0149] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-018.tentative.html
@@ -1391,11 +1391,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-018-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-018.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.021300854896572782, diffPixels=17860
+  canary page 1: diffRatio=0.02130324021067094, diffPixels=17862
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-018.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.021300854896572782, diffPixels=17860
+  stable page 1: diffRatio=0.02130324021067094, diffPixels=17862
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0150] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-019.tentative.html
@@ -1404,11 +1404,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-019-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-019.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003430081673154721, diffPixels=2876
+  canary page 1: diffRatio=0.0034372376154492026, diffPixels=2882
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-019.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003430081673154721, diffPixels=2876
+  stable page 1: diffRatio=0.0034372376154492026, diffPixels=2882
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0151] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-020.tentative.html
@@ -1417,11 +1417,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-020-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-020.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025807905885046944, diffPixels=21639
+  canary page 1: diffRatio=0.02579478665750706, diffPixels=21628
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-020.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025807905885046944, diffPixels=21639
+  stable page 1: diffRatio=0.02579478665750706, diffPixels=21628
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0152] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-021.tentative.html
@@ -1430,11 +1430,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-021.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007316950996107167, diffPixels=6135
+  canary page 1: diffRatio=0.007333648194794291, diffPixels=6149
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-021.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007316950996107167, diffPixels=6135
+  stable page 1: diffRatio=0.007333648194794291, diffPixels=6149
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0153] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-022.tentative.html
@@ -1443,11 +1443,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-022.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.019096824669872527, diffPixels=16012
+  canary page 1: diffRatio=0.01910636592626517, diffPixels=16020
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-022.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.019096824669872527, diffPixels=16012
+  stable page 1: diffRatio=0.01910636592626517, diffPixels=16020
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0154] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-023.tentative.html
@@ -1456,11 +1456,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-023.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003820080528203954, diffPixels=3203
+  canary page 1: diffRatio=0.0038272364704984353, diffPixels=3209
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-023.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003820080528203954, diffPixels=3203
+  stable page 1: diffRatio=0.0038272364704984353, diffPixels=3209
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0155] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-024.tentative.html
@@ -1469,11 +1469,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-024.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014356012899778644, diffPixels=12037
+  canary page 1: diffRatio=0.014370324784367606, diffPixels=12049
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-024.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014356012899778644, diffPixels=12037
+  stable page 1: diffRatio=0.014370324784367606, diffPixels=12049
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0156] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-025.html
@@ -1495,11 +1495,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-027-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-027.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0482560968628349, diffPixels=40461
+  canary page 1: diffRatio=0.04827517937562018, diffPixels=40477
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-027.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0482560968628349, diffPixels=40461
+  stable page 1: diffRatio=0.04827517937562018, diffPixels=40477
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0158] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-028.tentative.html
@@ -1508,11 +1508,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-028-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-028.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024274148919929777, diffPixels=20353
+  canary page 1: diffRatio=0.02430038737500954, diffPixels=20375
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-028.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024274148919929777, diffPixels=20353
+  stable page 1: diffRatio=0.02430038737500954, diffPixels=20375
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0159] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-029.tentative.html
@@ -1521,11 +1521,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-029.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.018473065033203572, diffPixels=15489
+  canary page 1: diffRatio=0.018475450347301733, diffPixels=15491
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-029.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.018473065033203572, diffPixels=15489
+  stable page 1: diffRatio=0.018475450347301733, diffPixels=15491
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0160] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-030.tentative.html
@@ -1534,11 +1534,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-030.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007871536523929471, diffPixels=660
+  canary page 1: diffRatio=0.0007966949087855889, diffPixels=668
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-030.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007871536523929471, diffPixels=660
+  stable page 1: diffRatio=0.0007966949087855889, diffPixels=668
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0161] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-031.tentative.html
@@ -1573,11 +1573,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07198281619723686, diffPixels=60355
+  canary page 1: diffRatio=0.07198520151133501, diffPixels=60357
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-033.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.07198281619723686, diffPixels=60355
+  stable page 1: diffRatio=0.07198520151133501, diffPixels=60357
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0164] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-034.html
@@ -1586,11 +1586,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-034-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04761325471338066, diffPixels=39922
+  canary page 1: diffRatio=0.04761564002747882, diffPixels=39924
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04761325471338066, diffPixels=39922
+  stable page 1: diffRatio=0.04761564002747882, diffPixels=39924
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0165] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-035.html
@@ -1599,11 +1599,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-035.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07213189832837189, diffPixels=60480
+  canary page 1: diffRatio=0.07213428364247004, diffPixels=60482
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-035.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.07213189832837189, diffPixels=60480
+  stable page 1: diffRatio=0.07213428364247004, diffPixels=60482
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0166] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-036.html
@@ -1612,11 +1612,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-036-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-036.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0715463037172735, diffPixels=59989
+  canary page 1: diffRatio=0.07154868903137165, diffPixels=59991
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-036.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0715463037172735, diffPixels=59989
+  stable page 1: diffRatio=0.07154868903137165, diffPixels=59991
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0167] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-037.html
@@ -1625,11 +1625,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013779959545072894, diffPixels=11554
+  canary page 1: diffRatio=0.01375252843294405, diffPixels=11531
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013779959545072894, diffPixels=11554
+  stable page 1: diffRatio=0.01375252843294405, diffPixels=11531
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0168] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-038.html
@@ -1638,11 +1638,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-038-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-038.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  canary page 1: diffRatio=0.00018963247080375543, diffPixels=159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-038-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-038.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
+  stable page 1: diffRatio=0.00018963247080375543, diffPixels=159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-038-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0169] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-039.html
@@ -1651,11 +1651,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-039-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009183459277917716, diffPixels=77
+  canary page 1: diffRatio=0.0000942199068773376, diffPixels=79
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-039-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
+  stable page 1: diffRatio=0.0000942199068773376, diffPixels=79
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-039-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0170] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-040.html
@@ -1664,11 +1664,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-040-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004412831081596825, diffPixels=37
+  canary page 1: diffRatio=0.00004770628196320891, diffPixels=40
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00004412831081596825, diffPixels=37
+  stable page 1: diffRatio=0.00004770628196320891, diffPixels=40
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0171] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-041.html
@@ -1677,11 +1677,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-041-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005761726204106557, diffPixels=4831
+  canary page 1: diffRatio=0.005755762918861156, diffPixels=4826
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005761726204106557, diffPixels=4831
+  stable page 1: diffRatio=0.005755762918861156, diffPixels=4826
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0172] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-042.html
@@ -1690,11 +1690,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-042.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0957333886726204, diffPixels=80269
+  canary page 1: diffRatio=0.09573577398671856, diffPixels=80271
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-042.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0957333886726204, diffPixels=80269
+  stable page 1: diffRatio=0.09573577398671856, diffPixels=80271
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0173] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-043.html
@@ -1703,11 +1703,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-043-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-043.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009183459277917716, diffPixels=77
+  canary page 1: diffRatio=0.00009302724982825738, diffPixels=78
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-043-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-043.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
+  stable page 1: diffRatio=0.00009302724982825738, diffPixels=78
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-043-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0174] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-044.html
@@ -1716,11 +1716,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-044-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-044.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0075507117777268914, diffPixels=6331
+  canary page 1: diffRatio=0.007523280665598046, diffPixels=6308
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-044-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-044.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0075507117777268914, diffPixels=6331
+  stable page 1: diffRatio=0.007523280665598046, diffPixels=6308
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-044-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0175] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-045.html
@@ -1729,11 +1729,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-045-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-045.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0031605411800625905, diffPixels=2650
+  canary page 1: diffRatio=0.0031688897794061523, diffPixels=2657
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-045-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-045.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0031605411800625905, diffPixels=2650
+  stable page 1: diffRatio=0.0031688897794061523, diffPixels=2657
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-045-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0176] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-046.html
@@ -1742,11 +1742,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-046-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-046.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  canary page 1: diffRatio=0.00009779787802457828, diffPixels=82
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-046-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-046.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
+  stable page 1: diffRatio=0.00009779787802457828, diffPixels=82
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-046-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0177] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-047.html
@@ -1755,11 +1755,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-047-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-047.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005969248530646515, diffPixels=5005
+  canary page 1: diffRatio=0.00594062476146859, diffPixels=4981
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-047-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-047.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005969248530646515, diffPixels=5005
+  stable page 1: diffRatio=0.00594062476146859, diffPixels=4981
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-047-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0178] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-048.html
@@ -1768,11 +1768,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-048-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-048.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07288685024043966, diffPixels=61113
+  canary page 1: diffRatio=0.07289162086863599, diffPixels=61117
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-048-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-048.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.07288685024043966, diffPixels=61113
+  stable page 1: diffRatio=0.07289162086863599, diffPixels=61117
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-048-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0181] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-051.html
@@ -1781,11 +1781,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-051-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-051.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0016494446988779483, diffPixels=1383
+  canary page 1: diffRatio=0.0016506373559270285, diffPixels=1384
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-051.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0016494446988779483, diffPixels=1383
+  stable page 1: diffRatio=0.0016506373559270285, diffPixels=1384
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0182] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-052.html
@@ -1794,11 +1794,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-052-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-052.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007178602778413861, diffPixels=6019
+  canary page 1: diffRatio=0.007180988092512022, diffPixels=6021
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-052-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-052.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007178602778413861, diffPixels=6019
+  stable page 1: diffRatio=0.007180988092512022, diffPixels=6021
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-052-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0183] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-053.html
@@ -1807,11 +1807,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-053-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007178602778413861, diffPixels=6019
+  canary page 1: diffRatio=0.007180988092512022, diffPixels=6021
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-053-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007178602778413861, diffPixels=6019
+  stable page 1: diffRatio=0.007180988092512022, diffPixels=6021
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-053-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0184] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-054.html
@@ -1820,11 +1820,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-054-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017543985191970078, diffPixels=1471
+  canary page 1: diffRatio=0.0017555911762460882, diffPixels=1472
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-054.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017543985191970078, diffPixels=1471
+  stable page 1: diffRatio=0.0017555911762460882, diffPixels=1472
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0185] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-055.html
@@ -1833,11 +1833,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-055-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002744303869933593, diffPixels=2301
+  canary page 1: diffRatio=0.002734762613540951, diffPixels=2293
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-055-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-055.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002744303869933593, diffPixels=2301
+  stable page 1: diffRatio=0.002734762613540951, diffPixels=2293
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-055-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0186] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-056.html
@@ -1846,11 +1846,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-056-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-056.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006105211434241661, diffPixels=5119
+  canary page 1: diffRatio=0.006070624379818334, diffPixels=5090
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-056-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-056.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006105211434241661, diffPixels=5119
+  stable page 1: diffRatio=0.006070624379818334, diffPixels=5090
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-056-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0187] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-057.html
@@ -1872,11 +1872,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-058.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001920177849019159, diffPixels=161
+  canary page 1: diffRatio=0.00019678841309823678, diffPixels=165
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-058.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
+  stable page 1: diffRatio=0.00019678841309823678, diffPixels=165
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0189] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-059.html
@@ -1885,11 +1885,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-059.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001920177849019159, diffPixels=161
+  canary page 1: diffRatio=0.00019678841309823678, diffPixels=165
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-059.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
+  stable page 1: diffRatio=0.00019678841309823678, diffPixels=165
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0190] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-060.html
@@ -1898,11 +1898,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-060.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001920177849019159, diffPixels=161
+  canary page 1: diffRatio=0.00019678841309823678, diffPixels=165
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-060.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
+  stable page 1: diffRatio=0.00019678841309823678, diffPixels=165
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0191] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-061.html
@@ -1911,11 +1911,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-061.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001920177849019159, diffPixels=161
+  canary page 1: diffRatio=0.00019678841309823678, diffPixels=165
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-061.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
+  stable page 1: diffRatio=0.00019678841309823678, diffPixels=165
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0192] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-062.html
@@ -1924,11 +1924,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-062.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024256259064193573, diffPixels=20338
+  canary page 1: diffRatio=0.024261029692389895, diffPixels=20342
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-062.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024256259064193573, diffPixels=20338
+  stable page 1: diffRatio=0.024261029692389895, diffPixels=20342
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0193] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-063.html
@@ -1937,11 +1937,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-063-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-063.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.045722893290588505, diffPixels=38337
+  canary page 1: diffRatio=0.04572527860468666, diffPixels=38339
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-063-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-063.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.045722893290588505, diffPixels=38337
+  stable page 1: diffRatio=0.04572527860468666, diffPixels=38339
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-063-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0194] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-001.html
@@ -1950,11 +1950,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012087579192428059, diffPixels=10135
+  canary page 1: diffRatio=0.012063726051446455, diffPixels=10115
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012087579192428059, diffPixels=10135
+  stable page 1: diffRatio=0.012063726051446455, diffPixels=10115
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0195] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-002.html
@@ -1963,11 +1963,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00047109953438668805, diffPixels=395
+  canary page 1: diffRatio=0.00047587016258300894, diffPixels=399
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00047109953438668805, diffPixels=395
+  stable page 1: diffRatio=0.00047587016258300894, diffPixels=399
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0196] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-003.html
@@ -1976,11 +1976,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005982367758186398, diffPixels=5016
+  canary page 1: diffRatio=0.0067349343561560185, diffPixels=5647
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005982367758186398, diffPixels=5016
+  stable page 1: diffRatio=0.0067349343561560185, diffPixels=5647
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0197] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-004.html
@@ -1989,11 +1989,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025067265857568126, diffPixels=21018
+  canary page 1: diffRatio=0.02503029348904664, diffPixels=20987
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025067265857568126, diffPixels=21018
+  stable page 1: diffRatio=0.02503029348904664, diffPixels=20987
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0198] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-005.tentative.html
@@ -2002,11 +2002,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-005.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00010018319212273872, diffPixels=84
+  canary page 1: diffRatio=0.0000989905350736585, diffPixels=83
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-with-ruby-005.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00010018319212273872, diffPixels=84
+  stable page 1: diffRatio=0.0000989905350736585, diffPixels=83
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0199] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-001.html
@@ -2015,11 +2015,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002552286085031677, diffPixels=214
+  canary page 1: diffRatio=0.00026238455079764903, diffPixels=220
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002552286085031677, diffPixels=214
+  stable page 1: diffRatio=0.00026238455079764903, diffPixels=220
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0200] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-002.html
@@ -2028,11 +2028,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002802744065338524, diffPixels=235
+  canary page 1: diffRatio=0.0002862376917792535, diffPixels=240
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002802744065338524, diffPixels=235
+  stable page 1: diffRatio=0.0002862376917792535, diffPixels=240
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0201] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-003.html
@@ -2041,11 +2041,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005307323868406991, diffPixels=445
+  canary page 1: diffRatio=0.00053550301503702, diffPixels=449
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005307323868406991, diffPixels=445
+  stable page 1: diffRatio=0.00053550301503702, diffPixels=449
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0202] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-004.html
@@ -2054,11 +2054,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004985306465155331, diffPixels=418
+  canary page 1: diffRatio=0.0004997233035646134, diffPixels=419
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004985306465155331, diffPixels=418
+  stable page 1: diffRatio=0.0004997233035646134, diffPixels=419
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0203] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-005.html
@@ -2067,11 +2067,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016697198687123122, diffPixels=140
+  canary page 1: diffRatio=0.00016816464392031144, diffPixels=141
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
+  stable page 1: diffRatio=0.00016816464392031144, diffPixels=141
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0204] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-006.html
@@ -2080,11 +2080,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005307323868406991, diffPixels=445
+  canary page 1: diffRatio=0.00053550301503702, diffPixels=449
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005307323868406991, diffPixels=445
+  stable page 1: diffRatio=0.00053550301503702, diffPixels=449
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0205] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-007.html
@@ -2093,11 +2093,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004985306465155331, diffPixels=418
+  canary page 1: diffRatio=0.0004997233035646134, diffPixels=419
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004985306465155331, diffPixels=418
+  stable page 1: diffRatio=0.0004997233035646134, diffPixels=419
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0206] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-008.html
@@ -2106,11 +2106,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016697198687123122, diffPixels=140
+  canary page 1: diffRatio=0.00016816464392031144, diffPixels=141
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
+  stable page 1: diffRatio=0.00016816464392031144, diffPixels=141
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0207] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-009.html
@@ -2119,11 +2119,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001043574917945195, diffPixels=875
+  canary page 1: diffRatio=0.0011723818792458592, diffPixels=983
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001043574917945195, diffPixels=875
+  stable page 1: diffRatio=0.0011723818792458592, diffPixels=983
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0208] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-010.html
@@ -2132,11 +2132,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00048064079077932983, diffPixels=403
+  canary page 1: diffRatio=0.0004794481337302496, diffPixels=402
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00048064079077932983, diffPixels=403
+  stable page 1: diffRatio=0.0004794481337302496, diffPixels=402
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0209] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-011.html
@@ -2158,11 +2158,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00008587130753377605, diffPixels=72
+  canary page 1: diffRatio=0.00007871536523929471, diffPixels=66
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-balance-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00008587130753377605, diffPixels=72
+  stable page 1: diffRatio=0.00007871536523929471, diffPixels=66
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0211] [WPT reftest] css/css-overflow/line-clamp/line-clamp-bfc.html
@@ -2314,11 +2314,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04818573009693917, diffPixels=40402
+  canary page 1: diffRatio=0.048202427295626286, diffPixels=40416
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04818573009693917, diffPixels=40402
+  stable page 1: diffRatio=0.048202427295626286, diffPixels=40416
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0224] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-012.html
@@ -2327,11 +2327,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04818573009693917, diffPixels=40402
+  canary page 1: diffRatio=0.048202427295626286, diffPixels=40416
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04818573009693917, diffPixels=40402
+  stable page 1: diffRatio=0.048202427295626286, diffPixels=40416
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0225] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-013.html
@@ -2392,11 +2392,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-030-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024284882833371498, diffPixels=20362
+  canary page 1: diffRatio=0.024277726891077017, diffPixels=20356
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024284882833371498, diffPixels=20362
+  stable page 1: diffRatio=0.024277726891077017, diffPixels=20356
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0230] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-018.html
@@ -2431,11 +2431,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012111432333409663, diffPixels=10155
+  canary page 1: diffRatio=0.012116202961605984, diffPixels=10159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012111432333409663, diffPixels=10155
+  stable page 1: diffRatio=0.012116202961605984, diffPixels=10159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0233] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-021.html
@@ -2444,11 +2444,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012111432333409663, diffPixels=10155
+  canary page 1: diffRatio=0.012116202961605984, diffPixels=10159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012111432333409663, diffPixels=10155
+  stable page 1: diffRatio=0.012116202961605984, diffPixels=10159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0234] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-022.html
@@ -2457,11 +2457,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03131917410884665, diffPixels=26260
+  canary page 1: diffRatio=0.03134421990687734, diffPixels=26281
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03131917410884665, diffPixels=26260
+  stable page 1: diffRatio=0.03134421990687734, diffPixels=26281
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0235] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-023.html
@@ -2470,11 +2470,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009183459277917716, diffPixels=77
+  canary page 1: diffRatio=0.0000942199068773376, diffPixels=79
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
+  stable page 1: diffRatio=0.0000942199068773376, diffPixels=79
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0236] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-024.html
@@ -2483,11 +2483,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-024-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024065433936340738, diffPixels=20178
+  canary page 1: diffRatio=0.02407258987863522, diffPixels=20184
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024065433936340738, diffPixels=20178
+  stable page 1: diffRatio=0.02407258987863522, diffPixels=20184
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0237] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-025.html
@@ -2496,11 +2496,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02556818181818182, diffPixels=21438
+  canary page 1: diffRatio=0.025561025875887336, diffPixels=21432
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-abspos-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02556818181818182, diffPixels=21438
+  stable page 1: diffRatio=0.025561025875887336, diffPixels=21432
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0238] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-026.html
@@ -2522,11 +2522,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-block-in-inline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03607549042057858, diffPixels=30248
+  canary page 1: diffRatio=0.03607310510648042, diffPixels=30246
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-block-in-inline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03607549042057858, diffPixels=30248
+  stable page 1: diffRatio=0.03607310510648042, diffPixels=30246
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0240] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-001.html
@@ -2535,11 +2535,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024958734066101825, diffPixels=20927
+  canary page 1: diffRatio=0.02495157812380734, diffPixels=20921
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024958734066101825, diffPixels=20927
+  stable page 1: diffRatio=0.02495157812380734, diffPixels=20921
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0241] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-002.html
@@ -2548,11 +2548,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024958734066101825, diffPixels=20927
+  canary page 1: diffRatio=0.02495157812380734, diffPixels=20921
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024958734066101825, diffPixels=20927
+  stable page 1: diffRatio=0.02495157812380734, diffPixels=20921
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0242] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-003.html
@@ -2561,11 +2561,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024958734066101825, diffPixels=20927
+  canary page 1: diffRatio=0.02495157812380734, diffPixels=20921
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024958734066101825, diffPixels=20927
+  stable page 1: diffRatio=0.02495157812380734, diffPixels=20921
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0243] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-004.html
@@ -2574,11 +2574,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.024958734066101825, diffPixels=20927
+  canary page 1: diffRatio=0.02495157812380734, diffPixels=20921
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.024958734066101825, diffPixels=20927
+  stable page 1: diffRatio=0.02495157812380734, diffPixels=20921
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0244] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-005.html
@@ -2665,11 +2665,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04818573009693917, diffPixels=40402
+  canary page 1: diffRatio=0.048202427295626286, diffPixels=40416
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04818573009693917, diffPixels=40402
+  stable page 1: diffRatio=0.048202427295626286, diffPixels=40416
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0251] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-012.html
@@ -2678,11 +2678,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04818573009693917, diffPixels=40402
+  canary page 1: diffRatio=0.048202427295626286, diffPixels=40416
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04818573009693917, diffPixels=40402
+  stable page 1: diffRatio=0.048202427295626286, diffPixels=40416
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0252] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-013.html
@@ -2717,11 +2717,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012111432333409663, diffPixels=10155
+  canary page 1: diffRatio=0.012116202961605984, diffPixels=10159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012111432333409663, diffPixels=10155
+  stable page 1: diffRatio=0.012116202961605984, diffPixels=10159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0255] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-016.html
@@ -2730,11 +2730,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012111432333409663, diffPixels=10155
+  canary page 1: diffRatio=0.012116202961605984, diffPixels=10159
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012111432333409663, diffPixels=10155
+  stable page 1: diffRatio=0.012116202961605984, diffPixels=10159
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0256] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-017.html
@@ -2743,11 +2743,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03124284405770552, diffPixels=26196
+  canary page 1: diffRatio=0.03126311922753988, diffPixels=26213
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-fixed-pos-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03124284405770552, diffPixels=26196
+  stable page 1: diffRatio=0.03126311922753988, diffPixels=26213
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0257] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-001.html
@@ -2834,11 +2834,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-floats-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.023199564918708497, diffPixels=19452
+  canary page 1: diffRatio=0.023198372261659415, diffPixels=19451
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-floats-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.023199564918708497, diffPixels=19452
+  stable page 1: diffRatio=0.023198372261659415, diffPixels=19451
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0264] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-008.html
@@ -2860,11 +2860,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-floats-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.028155054957636823, diffPixels=23607
+  canary page 1: diffRatio=0.028134779787802457, diffPixels=23590
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-floats-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.028155054957636823, diffPixels=23607
+  stable page 1: diffRatio=0.028134779787802457, diffPixels=23590
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0266] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-010.html
@@ -2873,11 +2873,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-floats-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01937232844821006, diffPixels=16243
+  canary page 1: diffRatio=0.019443887871154874, diffPixels=16303
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-floats-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01937232844821006, diffPixels=16243
+  stable page 1: diffRatio=0.019443887871154874, diffPixels=16303
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0267] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-011.html
@@ -2899,11 +2899,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-floats-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0043365010304556905, diffPixels=3636
+  canary page 1: diffRatio=0.004355583543240974, diffPixels=3652
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-floats-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0043365010304556905, diffPixels=3636
+  stable page 1: diffRatio=0.004355583543240974, diffPixels=3652
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0269] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-013.html
@@ -2938,11 +2938,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-popover-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-popover-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.5661435672849401, diffPixels=474691
+  canary page 1: diffRatio=0.5661459525990382, diffPixels=474693
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-popover-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-popover-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.5661435672849401, diffPixels=474691
+  stable page 1: diffRatio=0.5661459525990382, diffPixels=474693
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-popover-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0274] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-003.html
@@ -2951,11 +2951,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0275] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-004.html
@@ -2977,11 +2977,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006571540340432028, diffPixels=551
+  canary page 1: diffRatio=0.000658346691092283, diffPixels=552
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006571540340432028, diffPixels=551
+  stable page 1: diffRatio=0.000658346691092283, diffPixels=552
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0277] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-006.html
@@ -3016,11 +3016,11 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-008-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007036676589573316, diffPixels=59
+  canary page 1: diffRatio=0.0000727520799938936, diffPixels=61
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00007036676589573316, diffPixels=59
+  stable page 1: diffRatio=0.0000727520799938936, diffPixels=61
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0280] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-009.html
@@ -3035,6 +3035,19 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0006655026333867644, diffPixels=558
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0304] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-024.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-024-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000014311884588962675, diffPixels=12
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000014311884588962675, diffPixels=12
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0314] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-035.html
   triage: pending
@@ -3055,11 +3068,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-036.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023376078161972368, diffPixels=196
+  canary page 1: diffRatio=0.00023733875276696435, diffPixels=199
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-036.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023376078161972368, diffPixels=196
+  stable page 1: diffRatio=0.00023733875276696435, diffPixels=199
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0319] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-040.html
@@ -3068,11 +3081,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-040-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00027431112128845124, diffPixels=230
+  canary page 1: diffRatio=0.00028146706358293263, diffPixels=236
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00027431112128845124, diffPixels=230
+  stable page 1: diffRatio=0.00028146706358293263, diffPixels=236
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0325] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-050.html
@@ -3081,11 +3094,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-050-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00012403633310434318, diffPixels=104
+  canary page 1: diffRatio=0.00014669681703686742, diffPixels=123
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-050-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00012403633310434318, diffPixels=104
+  stable page 1: diffRatio=0.00014669681703686742, diffPixels=123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-050-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0326] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-051.html
@@ -3094,11 +3107,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-051-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-051.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000176513243263873, diffPixels=148
+  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-051.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000176513243263873, diffPixels=148
+  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0327] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-052.html
@@ -3107,11 +3120,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-052-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-052.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000197981070147317, diffPixels=166
+  canary page 1: diffRatio=0.00020752232653995878, diffPixels=174
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-052-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-052.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000197981070147317, diffPixels=166
+  stable page 1: diffRatio=0.00020752232653995878, diffPixels=174
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-052-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0328] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-053.html
@@ -3120,11 +3133,11 @@
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-053-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007155942294481338, diffPixels=60
+  canary page 1: diffRatio=0.000031009083276085796, diffPixels=26
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-053-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-053.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00007155942294481338, diffPixels=60
+  stable page 1: diffRatio=0.000031009083276085796, diffPixels=26
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-053-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0334] [WPT reftest] css/css-overflow/margin-block-end-scroll-area-001.html
@@ -3146,11 +3159,11 @@
   reference: css/css-overflow/overflow-auto-scrollbar-gutter-intrinsic-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-auto-scrollbar-gutter-intrinsic-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017293527211663232, diffPixels=1450
+  canary page 1: diffRatio=0.001775866346080452, diffPixels=1489
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-auto-scrollbar-gutter-intrinsic-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-auto-scrollbar-gutter-intrinsic-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017293527211663232, diffPixels=1450
+  stable page 1: diffRatio=0.001775866346080452, diffPixels=1489
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-auto-scrollbar-gutter-intrinsic-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0354] [WPT reftest] css/css-overflow/overflow-body-propagation-007.html
@@ -3289,11 +3302,11 @@
   reference: css/css-overflow/reference/overflow-ellipsis-dynamic-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-ellipsis-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007966949087855889, diffPixels=668
+  canary page 1: diffRatio=0.0007883463094420273, diffPixels=661
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/overflow-ellipsis-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-ellipsis-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007966949087855889, diffPixels=668
+  stable page 1: diffRatio=0.0007883463094420273, diffPixels=661
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/overflow-ellipsis-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0407] [WPT reftest] css/css-overflow/overflow-hidden-resize-with-stacking-context-child.html
@@ -3302,37 +3315,24 @@
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-hidden-resize-with-stacking-context-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00995391573162354, diffPixels=8346
+  canary page 1: diffRatio=0.00995510838867262, diffPixels=8347
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-hidden-resize-with-stacking-context-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00995391573162354, diffPixels=8346
+  stable page 1: diffRatio=0.00995510838867262, diffPixels=8347
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0411] [WPT reftest] css/css-overflow/overflow-img-scroll-non-replaced.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-overflow/overflow-img-scroll-non-replaced-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-img-scroll-non-replaced.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000023853140981604458, diffPixels=2
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-img-scroll-non-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-img-scroll-non-replaced.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000023853140981604458, diffPixels=2
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-img-scroll-non-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0421] [WPT reftest] css/css-overflow/overflow-replaced-element-002.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000017889855736203345, diffPixels=15
+  canary page 1: diffRatio=0.0001455041599877872, diffPixels=122
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00016100870162583008, diffPixels=135
+  stable page 1: diffRatio=0.00043054919471796047, diffPixels=361
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0425] [WPT reftest] css/css-overflow/overflow-video-hidden.html
@@ -3354,11 +3354,11 @@
   reference: css/css-overflow/scroll-markers/column-scroll-marker-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06813530455690406, diffPixels=57129
+  canary page 1: diffRatio=0.06812814861460957, diffPixels=57123
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06813530455690406, diffPixels=57129
+  stable page 1: diffRatio=0.06812814861460957, diffPixels=57123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0431] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-002.html
@@ -3367,11 +3367,11 @@
   reference: css/css-overflow/scroll-markers/column-scroll-marker-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06812814861460957, diffPixels=57123
+  canary page 1: diffRatio=0.06813291924280589, diffPixels=57127
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06812814861460957, diffPixels=57123
+  stable page 1: diffRatio=0.06813291924280589, diffPixels=57127
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0432] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-004.html
@@ -3393,11 +3393,11 @@
   reference: css/css-overflow/scroll-markers/column-scroll-marker-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06813530455690406, diffPixels=57129
+  canary page 1: diffRatio=0.06812814861460957, diffPixels=57123
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06813530455690406, diffPixels=57129
+  stable page 1: diffRatio=0.06812814861460957, diffPixels=57123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0434] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-007.html
@@ -3406,11 +3406,11 @@
   reference: css/css-overflow/scroll-markers/column-scroll-marker-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06810668078772612, diffPixels=57105
+  canary page 1: diffRatio=0.06812814861460957, diffPixels=57123
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06810668078772612, diffPixels=57105
+  stable page 1: diffRatio=0.06812814861460957, diffPixels=57123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0435] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-008.html
@@ -3419,11 +3419,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00008110067933745515, diffPixels=68
+  canary page 1: diffRatio=0.00007990802228837493, diffPixels=67
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00008110067933745515, diffPixels=68
+  stable page 1: diffRatio=0.00007990802228837493, diffPixels=67
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0436] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-011.html
@@ -3523,11 +3523,11 @@
   reference: css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
+  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
+  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0446] [WPT reftest] css/css-overflow/scroll-markers/root-scroll-button.html
@@ -3653,11 +3653,11 @@
   reference: css/css-overflow/scroll-markers/scroll-buttons-counter-appearance-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-counter-appearance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001257060529730555, diffPixels=1054
+  canary page 1: diffRatio=0.0012582531867796351, diffPixels=1055
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-counter-appearance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-counter-appearance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001257060529730555, diffPixels=1054
+  stable page 1: diffRatio=0.0012582531867796351, diffPixels=1055
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-counter-appearance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0457] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl.html
@@ -3679,11 +3679,11 @@
   reference: css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013438859629035951, diffPixels=11268
+  canary page 1: diffRatio=0.013576015189680176, diffPixels=11383
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013438859629035951, diffPixels=11268
+  stable page 1: diffRatio=0.013576015189680176, diffPixels=11383
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0459] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr.html
@@ -3796,11 +3796,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08012270055720937, diffPixels=67180
+  canary page 1: diffRatio=0.08011077398671856, diffPixels=67170
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08012270055720937, diffPixels=67180
+  stable page 1: diffRatio=0.08011077398671856, diffPixels=67170
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0469] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-004.html
@@ -3809,11 +3809,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005712827265094268, diffPixels=4790
+  canary page 1: diffRatio=0.005705671322799786, diffPixels=4784
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005712827265094268, diffPixels=4790
+  stable page 1: diffRatio=0.005705671322799786, diffPixels=4784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0470] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-005.html
@@ -3887,11 +3887,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006548879856499504, diffPixels=5491
+  canary page 1: diffRatio=0.006558421112892145, diffPixels=5499
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006548879856499504, diffPixels=5491
+  stable page 1: diffRatio=0.006558421112892145, diffPixels=5499
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0476] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-011.html
@@ -3900,11 +3900,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
+  canary page 1: diffRatio=0.0001717426150675521, diffPixels=144
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
+  stable page 1: diffRatio=0.0001717426150675521, diffPixels=144
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0477] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-012.html
@@ -3913,11 +3913,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
+  canary page 1: diffRatio=0.0001717426150675521, diffPixels=144
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
+  stable page 1: diffRatio=0.0001717426150675521, diffPixels=144
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0478] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-counters.html
@@ -4030,11 +4030,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-group-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.15136249141286925, diffPixels=126912
+  canary page 1: diffRatio=0.1513827665827036, diffPixels=126929
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.15136249141286925, diffPixels=126912
+  stable page 1: diffRatio=0.1513827665827036, diffPixels=126929
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0489] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-013.html
@@ -4043,11 +4043,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-group-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1546756926952141, diffPixels=129690
+  canary page 1: diffRatio=0.15468284863750859, diffPixels=129696
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1546756926952141, diffPixels=129690
+  stable page 1: diffRatio=0.15468284863750859, diffPixels=129696
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0490] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-015.html
@@ -4186,11 +4186,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006985392336462865, diffPixels=5857
+  canary page 1: diffRatio=0.006986584993511946, diffPixels=5858
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006985392336462865, diffPixels=5857
+  stable page 1: diffRatio=0.006986584993511946, diffPixels=5858
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0501] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-layout-parent.html
@@ -4277,11 +4277,11 @@
   reference: css/css-overflow/scroll-markers/scroll-marker-selection-in-2d-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-selection-in-2d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02333910579345088, diffPixels=19569
+  canary page 1: diffRatio=0.023254427142966185, diffPixels=19498
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-selection-in-2d-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-selection-in-2d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02333910579345088, diffPixels=19569
+  stable page 1: diffRatio=0.023254427142966185, diffPixels=19498
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-selection-in-2d-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0513] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-001.html
@@ -4316,11 +4316,11 @@
   reference: css/css-overflow/scroll-markers/scroll-target-group-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003034119532860087, diffPixels=2544
+  canary page 1: diffRatio=0.0030114590489275627, diffPixels=2525
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003034119532860087, diffPixels=2544
+  stable page 1: diffRatio=0.0030114590489275627, diffPixels=2525
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0516] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-004.html
@@ -4433,11 +4433,11 @@
   reference: css/css-overflow/scroll-markers/scroll-target-group-inline-targets-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-inline-targets.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  canary page 1: diffRatio=0.00002862376917792535, diffPixels=24
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-inline-targets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-inline-targets.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  stable page 1: diffRatio=0.00002862376917792535, diffPixels=24
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-inline-targets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0526] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html
@@ -4446,11 +4446,11 @@
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003938153576062896, diffPixels=3302
+  canary page 1: diffRatio=0.003940538890161056, diffPixels=3304
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003938153576062896, diffPixels=3302
+  stable page 1: diffRatio=0.003940538890161056, diffPixels=3304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0527] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html
@@ -4459,11 +4459,11 @@
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003940538890161056, diffPixels=3304
+  canary page 1: diffRatio=0.003942924204259217, diffPixels=3306
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003940538890161056, diffPixels=3304
+  stable page 1: diffRatio=0.003942924204259217, diffPixels=3306
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0528] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html
@@ -4485,11 +4485,11 @@
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003975125944584383, diffPixels=3333
+  canary page 1: diffRatio=0.003977511258682544, diffPixels=3335
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003975125944584383, diffPixels=3333
+  stable page 1: diffRatio=0.003977511258682544, diffPixels=3335
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0536] [WPT reftest] css/css-overflow/scrollbar-gutter-002.html
@@ -4667,11 +4667,11 @@
   reference: css/css-overflow/text-overflow-026-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002862376917792535, diffPixels=2400
+  canary page 1: diffRatio=0.002857606289596214, diffPixels=2396
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002862376917792535, diffPixels=2400
+  stable page 1: diffRatio=0.002857606289596214, diffPixels=2396
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0582] [WPT reftest] css/css-overflow/text-overflow-027.html
@@ -4680,11 +4680,11 @@
   reference: css/css-overflow/reference/text-overflow-027-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000042935653766888026, diffPixels=36
+  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000042935653766888026, diffPixels=36
+  stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0583] [WPT reftest] css/css-overflow/text-overflow-028.html
@@ -4693,11 +4693,11 @@
   reference: css/css-overflow/reference/text-overflow-028-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000040550339668727576, diffPixels=34
+  canary page 1: diffRatio=0.00004412831081596825, diffPixels=37
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000040550339668727576, diffPixels=34
+  stable page 1: diffRatio=0.00004412831081596825, diffPixels=37
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0588] [WPT reftest] css/css-overflow/text-overflow-ellipsis-002.html
@@ -4849,11 +4849,11 @@
   reference: css/css-overflow/reference/text-overflow-string-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005891725822456301, diffPixels=494
+  canary page 1: diffRatio=0.0005903652392947104, diffPixels=495
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005891725822456301, diffPixels=494
+  stable page 1: diffRatio=0.0005903652392947104, diffPixels=495
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0609] [WPT reftest] css/css-overflow/text-overflow-string-002.html
@@ -4875,11 +4875,11 @@
   reference: css/css-overflow/reference/text-overflow-string-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012367853598961912, diffPixels=1037
+  canary page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012367853598961912, diffPixels=1037
+  stable page 1: diffRatio=0.0012344000457980306, diffPixels=1035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0611] [WPT reftest] css/css-overflow/text-overflow-string-004.html
@@ -4888,11 +4888,11 @@
   reference: css/css-overflow/reference/text-overflow-string-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007859609953438668, diffPixels=659
+  canary page 1: diffRatio=0.0007871536523929471, diffPixels=660
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007859609953438668, diffPixels=659
+  stable page 1: diffRatio=0.0007871536523929471, diffPixels=660
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0612] [WPT reftest] css/css-overflow/text-overflow-string-005.html
@@ -4901,11 +4901,11 @@
   reference: css/css-overflow/reference/text-overflow-string-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007990802228837493, diffPixels=67
+  canary page 1: diffRatio=0.00008587130753377605, diffPixels=72
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00007990802228837493, diffPixels=67
+  stable page 1: diffRatio=0.00008587130753377605, diffPixels=72
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0613] [WPT reftest] css/css-overflow/text-overflow-string-006.html
@@ -4914,11 +4914,11 @@
   reference: css/css-overflow/reference/text-overflow-string-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015910045034730174, diffPixels=1334
+  canary page 1: diffRatio=0.0015886191893748568, diffPixels=1332
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015910045034730174, diffPixels=1334
+  stable page 1: diffRatio=0.0015886191893748568, diffPixels=1332
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0614] [WPT reftest] css/css-overflow/text-overflow-string-007.html
@@ -4927,11 +4927,11 @@
   reference: css/css-overflow/reference/text-overflow-string-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006571540340432028, diffPixels=551
+  canary page 1: diffRatio=0.000658346691092283, diffPixels=552
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006571540340432028, diffPixels=551
+  stable page 1: diffRatio=0.000658346691092283, diffPixels=552
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0615] [WPT reftest] css/css-overflow/text-overflow-string-008.html
@@ -4953,11 +4953,11 @@
   reference: css/css-overflow/reference/text-overflow-string-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013799042057858178, diffPixels=1157
+  canary page 1: diffRatio=0.00139063811922754, diffPixels=1166
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013799042057858178, diffPixels=1157
+  stable page 1: diffRatio=0.00139063811922754, diffPixels=1166
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0617] [WPT reftest] css/css-overflow/text-overflow-string-010.html
@@ -4966,11 +4966,11 @@
   reference: css/css-overflow/reference/text-overflow-string-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014443076864361498, diffPixels=1211
+  canary page 1: diffRatio=0.001450270971681551, diffPixels=1216
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014443076864361498, diffPixels=1211
+  stable page 1: diffRatio=0.001450270971681551, diffPixels=1216
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0618] [WPT reftest] css/css-overflow/text-overflow-string-011.html
@@ -4979,11 +4979,11 @@
   reference: css/css-overflow/reference/text-overflow-string-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0019177925349209983, diffPixels=1608
+  canary page 1: diffRatio=0.0019237558201663995, diffPixels=1613
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0019177925349209983, diffPixels=1608
+  stable page 1: diffRatio=0.0019237558201663995, diffPixels=1613
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0619] [WPT reftest] css/css-overflow/text-overflow-string-012.html
@@ -4992,11 +4992,11 @@
   reference: css/css-overflow/reference/text-overflow-string-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011998129913747043, diffPixels=1006
+  canary page 1: diffRatio=0.001204583619571025, diffPixels=1010
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011998129913747043, diffPixels=1006
+  stable page 1: diffRatio=0.001204583619571025, diffPixels=1010
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0620] [WPT reftest] css/css-overflow/text-overflow-string-013.html
@@ -5005,11 +5005,11 @@
   reference: css/css-overflow/reference/text-overflow-string-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012510972444851538, diffPixels=1049
+  canary page 1: diffRatio=0.0012499045874360736, diffPixels=1048
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012510972444851538, diffPixels=1049
+  stable page 1: diffRatio=0.0012499045874360736, diffPixels=1048
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0621] [WPT reftest] css/css-overflow/text-overflow-string-014.html
@@ -5018,11 +5018,11 @@
   reference: css/css-overflow/reference/text-overflow-string-014-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014633901992214336, diffPixels=1227
+  canary page 1: diffRatio=0.0014586195710251126, diffPixels=1223
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014633901992214336, diffPixels=1227
+  stable page 1: diffRatio=0.0014586195710251126, diffPixels=1223
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0622] [WPT reftest] css/css-overflow/text-overflow-string-015.html
@@ -5031,11 +5031,11 @@
   reference: css/css-overflow/reference/text-overflow-string-015-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008944927868101671, diffPixels=750
+  canary page 1: diffRatio=0.0008909148156629264, diffPixels=747
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008944927868101671, diffPixels=750
+  stable page 1: diffRatio=0.0008909148156629264, diffPixels=747
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0623] [WPT reftest] css/css-overflow/text-overflow-string-016.html
@@ -5148,11 +5148,11 @@
   reference: css/css-overflow/reference/text-overflow-string-024-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-024.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015993531028165788, diffPixels=1341
+  canary page 1: diffRatio=0.0016065090451110602, diffPixels=1347
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-024-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-024.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015993531028165788, diffPixels=1341
+  stable page 1: diffRatio=0.0016065090451110602, diffPixels=1347
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-024-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0632] [WPT reftest] css/css-overflow/text-overflow-string-025.tentative.html
@@ -5161,11 +5161,11 @@
   reference: css/css-overflow/reference/text-overflow-string-025-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-025.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001321464010380887, diffPixels=1108
+  canary page 1: diffRatio=0.0013155007251354858, diffPixels=1103
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-025-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-025.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001321464010380887, diffPixels=1108
+  stable page 1: diffRatio=0.0013155007251354858, diffPixels=1103
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-025-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0633] [WPT reftest] css/css-overflow/text-overflow-string-026.tentative.html
@@ -5174,11 +5174,11 @@
   reference: css/css-overflow/reference/text-overflow-string-026-ref.tentative.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-026.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013393538661170903, diffPixels=1123
+  canary page 1: diffRatio=0.0013405465231661705, diffPixels=1124
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-026-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-026.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013393538661170903, diffPixels=1123
+  stable page 1: diffRatio=0.0013405465231661705, diffPixels=1124
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-026-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0634] [WPT reftest] css/css-overflow/text-overflow-string-in-input.html
@@ -5291,11 +5291,11 @@
   reference: css/css-overflow/text-overflow-with-selection-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-with-selection.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000040550339668727576, diffPixels=34
+  canary page 1: diffRatio=0.00004412831081596825, diffPixels=37
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-with-selection-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-with-selection.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000040550339668727576, diffPixels=34
+  stable page 1: diffRatio=0.00004412831081596825, diffPixels=37
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-with-selection-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors

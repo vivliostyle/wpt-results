@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1033
-- Entries with differences: 83 (pending: 83, triaged: 0)
+- Entries with differences: 88 (pending: 88, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":928,"known-fail":82,"regression":1,"error":1,"unchanged":21}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":923,"known-fail":88,"error":1,"unchanged":21}
 
 ## Differences
 
@@ -16,11 +16,11 @@
   reference: css/css-flexbox/reference/align-content-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/align-items-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
+  canary page 1: diffRatio=0.0000572475383558507, diffPixels=48
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/reference/align-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/align-items-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
+  stable page 1: diffRatio=0.0000572475383558507, diffPixels=48
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/align-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0074] [WPT reftest] css/css-flexbox/alignment/flow-start-flow-end-align-properties.html
@@ -133,11 +133,11 @@
   reference: css/css-flexbox/auto-margins-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/auto-margins-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011568773376078162, diffPixels=97
+  canary page 1: diffRatio=0.00011330241966262118, diffPixels=95
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/auto-margins-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/auto-margins-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011568773376078162, diffPixels=97
+  stable page 1: diffRatio=0.00011330241966262118, diffPixels=95
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/auto-margins-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0113] [WPT reftest] css/css-flexbox/balance/balance-available-size-002.html
@@ -164,6 +164,32 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/balance/balance-dynamic-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0147] [WPT reftest] css/css-flexbox/baseline-synthesis-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/baseline-synthesis-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00011926570490802228, diffPixels=100
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/baseline-synthesis-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00011926570490802228, diffPixels=100
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0148] [WPT reftest] css/css-flexbox/baseline-synthesis-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/baseline-synthesis-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00011807304785894206, diffPixels=99
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/baseline-synthesis-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00011807304785894206, diffPixels=99
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0155] [WPT reftest] css/css-flexbox/content-height-with-scrollbars.html
@@ -224,11 +250,11 @@
   reference: css/css-flexbox/flex-container-max-content-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-container-max-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012444183650103045, diffPixels=10434
+  canary page 1: diffRatio=0.012450146935348447, diffPixels=10439
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-container-max-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-container-max-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012444183650103045, diffPixels=10434
+  stable page 1: diffRatio=0.012450146935348447, diffPixels=10439
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-container-max-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0256] [WPT reftest] css/css-flexbox/flex-container-min-content-001.html
@@ -237,11 +263,11 @@
   reference: css/css-flexbox/flex-container-min-content-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008333094801923518, diffPixels=6987
+  canary page 1: diffRatio=0.008334287458972597, diffPixels=6988
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008333094801923518, diffPixels=6987
+  stable page 1: diffRatio=0.008334287458972597, diffPixels=6988
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-container-min-content-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0261] [WPT reftest] css/css-flexbox/flex-direction-row-reverse.html
@@ -250,11 +276,11 @@
   reference: css/css-flexbox/reference/flex-direction-row-reverse-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-direction-row-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04368225707961224, diffPixels=36626
+  canary page 1: diffRatio=0.04369776162125029, diffPixels=36639
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/reference/flex-direction-row-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-direction-row-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04368225707961224, diffPixels=36626
+  stable page 1: diffRatio=0.04369776162125029, diffPixels=36639
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/flex-direction-row-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0263] [WPT reftest] css/css-flexbox/flex-direction-with-element-insert.html
@@ -263,23 +289,14 @@
   reference: css/css-flexbox/reference/flex-direction-with-element-insert.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-direction-with-element-insert.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04104409968704679, diffPixels=34414
-  canary page 2: diffRatio=0.05406075872070834, diffPixels=45328
+  canary page 1: diffRatio=0.04161896038470346, diffPixels=34896
+  canary page 2: diffRatio=0.054042868864972136, diffPixels=45313
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/reference/flex-direction-with-element-insert.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-direction-with-element-insert.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04104409968704679, diffPixels=34414
-  stable page 2: diffRatio=0.05406075872070834, diffPixels=45328
+  stable page 1: diffRatio=0.04161896038470346, diffPixels=34896
+  stable page 2: diffRatio=0.054042868864972136, diffPixels=45313
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/flex-direction-with-element-insert.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0285] [WPT reftest] css/css-flexbox/flex-grow-009.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-grow-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0293] [WPT reftest] css/css-flexbox/flex-item-max-width-min-content.html
   triage: pending
@@ -313,11 +330,11 @@
   reference: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001a.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004316225860621327, diffPixels=3619
+  canary page 1: diffRatio=0.004311455232425006, diffPixels=3615
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001a.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004316225860621327, diffPixels=3619
+  stable page 1: diffRatio=0.004311455232425006, diffPixels=3615
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0374] [WPT reftest] css/css-flexbox/flexbox-align-self-baseline-horiz-001b.xhtml
@@ -326,11 +343,11 @@
   reference: css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001b.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004316225860621327, diffPixels=3619
+  canary page 1: diffRatio=0.004311455232425006, diffPixels=3615
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001b.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004316225860621327, diffPixels=3619
+  stable page 1: diffRatio=0.004311455232425006, diffPixels=3615
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0381] [WPT reftest] css/css-flexbox/flexbox-align-self-baseline-horiz-008.xhtml
@@ -339,11 +356,11 @@
   reference: css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-008.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009551990306083506, diffPixels=8009
+  canary page 1: diffRatio=0.009574650790016029, diffPixels=8028
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-008.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009551990306083506, diffPixels=8009
+  stable page 1: diffRatio=0.009574650790016029, diffPixels=8028
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-baseline-horiz-008-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0385] [WPT reftest] css/css-flexbox/flexbox-align-self-horiz-003.xhtml
@@ -365,25 +382,12 @@
   reference: css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-002.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  canary page 1: diffRatio=0.0008157774215708725, diffPixels=684
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-002.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  stable page 1: diffRatio=0.0008157774215708725, diffPixels=684
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-002-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0392] [WPT reftest] css/css-flexbox/flexbox-align-self-vert-003.xhtml
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-003.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000005963285245401114, diffPixels=5
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-003.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000005963285245401114, diffPixels=5
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-003-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0393] [WPT reftest] css/css-flexbox/flexbox-align-self-vert-004.xhtml
   triage: pending
@@ -391,11 +395,11 @@
   reference: css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-004.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007155942294481338, diffPixels=60
+  canary page 1: diffRatio=0.00006440348065033204, diffPixels=54
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-004.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00007155942294481338, diffPixels=60
+  stable page 1: diffRatio=0.00006440348065033204, diffPixels=54
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-004-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0395] [WPT reftest] css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml
@@ -404,11 +408,11 @@
   reference: css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00045201702160140445, diffPixels=379
+  canary page 1: diffRatio=0.0004985306465155331, diffPixels=418
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-002.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00045201702160140445, diffPixels=379
+  stable page 1: diffRatio=0.0004985306465155331, diffPixels=418
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-002-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0397] [WPT reftest] css/css-flexbox/flexbox-align-self-vert-rtl-004.xhtml
@@ -417,11 +421,11 @@
   reference: css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-004.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006559613769941226, diffPixels=55
+  canary page 1: diffRatio=0.00006440348065033204, diffPixels=54
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-004.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006559613769941226, diffPixels=55
+  stable page 1: diffRatio=0.00006440348065033204, diffPixels=54
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-004-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0398] [WPT reftest] css/css-flexbox/flexbox-align-self-vert-rtl-005.xhtml
@@ -430,11 +434,11 @@
   reference: css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-005.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  canary page 1: diffRatio=0.0008157774215708725, diffPixels=684
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-005.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007633005114113426, diffPixels=640
+  stable page 1: diffRatio=0.0008157774215708725, diffPixels=684
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-align-self-vert-rtl-005-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0423] [WPT reftest] css/css-flexbox/flexbox-basic-canvas-vert-001.xhtml
@@ -521,11 +525,11 @@
   reference: css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-collapsed-item-baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00034587054423326465, diffPixels=290
+  canary page 1: diffRatio=0.00035779711472406687, diffPixels=300
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-collapsed-item-baseline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00034587054423326465, diffPixels=290
+  stable page 1: diffRatio=0.00035779711472406687, diffPixels=300
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-collapsed-item-baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0444] [WPT reftest] css/css-flexbox/flexbox-collapsed-item-horiz-001.html
@@ -742,11 +746,11 @@
   reference: css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-order-only-flexitems.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000882566216319365, diffPixels=74
+  canary page 1: diffRatio=0.00007155942294481338, diffPixels=60
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-order-only-flexitems.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000882566216319365, diffPixels=74
+  stable page 1: diffRatio=0.00007155942294481338, diffPixels=60
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/flexbox-order-only-flexitems-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0560] [WPT reftest] css/css-flexbox/flexbox-sizing-vert-001.xhtml
@@ -814,6 +818,84 @@
   stable page 1: diffRatio=0.07463170750324402, diffPixels=62576
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-writing-mode-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0632] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-N-shrink.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-flexbox/flexbox_flex-0-0-N-shrink-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-shrink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-shrink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0634] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-N.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-flexbox/flexbox_flex-0-0-N-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0645] [WPT reftest] css/css-flexbox/flexbox_flex-0-1-N.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-flexbox/flexbox_flex-0-1-N-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-N.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-N-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-N.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-N-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0654] [WPT reftest] css/css-flexbox/flexbox_flex-0-N-N.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-flexbox/flexbox_flex-0-N-N-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-N-N.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-N-N-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-N-N.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-N-N-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0663] [WPT reftest] css/css-flexbox/flexbox_flex-1-0-N-shrink.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-flexbox/flexbox_flex-1-0-N-shrink-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-N-shrink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-1-0-N-shrink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0690] [WPT reftest] css/css-flexbox/flexbox_flex-N-0-N-shrink.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-flexbox/flexbox_flex-N-0-N-shrink-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-N-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-N-0-N-shrink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-N-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-N-0-N-shrink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0769] [WPT reftest] css/css-flexbox/flexbox_order-box.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -833,11 +915,11 @@
   reference: css/css-flexbox/flexbox_stf-table-singleline-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0789] [WPT reftest] css/css-flexbox/flexbox_stf-table-singleline.html
@@ -846,11 +928,11 @@
   reference: css/css-flexbox/flexbox_stf-table-singleline-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_stf-table-singleline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0792] [WPT reftest] css/css-flexbox/flexbox_visibility-collapse-line-wrapping.html
@@ -859,11 +941,11 @@
   reference: css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse-line-wrapping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05178755438516144, diffPixels=43422
+  canary page 1: diffRatio=0.0518018662697504, diffPixels=43434
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse-line-wrapping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05178755438516144, diffPixels=43422
+  stable page 1: diffRatio=0.0518018662697504, diffPixels=43434
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse-line-wrapping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0793] [WPT reftest] css/css-flexbox/flexbox_visibility-collapse.html
@@ -872,11 +954,11 @@
   reference: css/css-flexbox/flexbox_visibility-collapse-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011425654530188535, diffPixels=958
+  canary page 1: diffRatio=0.001144950767117014, diffPixels=960
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011425654530188535, diffPixels=958
+  stable page 1: diffRatio=0.001144950767117014, diffPixels=960
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_visibility-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0802] [WPT reftest] css/css-flexbox/gap-001-lr.html
@@ -924,11 +1006,11 @@
   reference: css/css-flexbox/gap-004-lr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/gap-004-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007037869246622396, diffPixels=5901
+  canary page 1: diffRatio=0.007043832531867796, diffPixels=5906
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/gap-004-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-004-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007037869246622396, diffPixels=5901
+  stable page 1: diffRatio=0.007043832531867796, diffPixels=5906
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-004-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0818] [WPT reftest] css/css-flexbox/gap-005-lr.html
@@ -937,11 +1019,11 @@
   reference: css/css-flexbox/gap-005-lr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/gap-005-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013355373635600336, diffPixels=11198
+  canary page 1: diffRatio=0.013367300206091138, diffPixels=11208
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/gap-005-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-005-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013355373635600336, diffPixels=11198
+  stable page 1: diffRatio=0.013367300206091138, diffPixels=11208
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-005-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0826] [WPT reftest] css/css-flexbox/gap-007-lr.html
@@ -950,11 +1032,11 @@
   reference: css/css-flexbox/gap-007-lr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/gap-007-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0019165998778719181, diffPixels=1607
+  canary page 1: diffRatio=0.0019368750477062819, diffPixels=1624
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/gap-007-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-007-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0019165998778719181, diffPixels=1607
+  stable page 1: diffRatio=0.0019368750477062819, diffPixels=1624
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/gap-007-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0842] [WPT reftest] css/css-flexbox/gap-collapse.html
@@ -1015,11 +1097,11 @@
   reference: css/css-flexbox/reference/multiline-shrink-to-fit-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/multiline-shrink-to-fit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0033895313334859935, diffPixels=2842
+  canary page 1: diffRatio=0.0033418250515227844, diffPixels=2802
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/reference/multiline-shrink-to-fit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/multiline-shrink-to-fit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0033895313334859935, diffPixels=2842
+  stable page 1: diffRatio=0.0033418250515227844, diffPixels=2802
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/reference/multiline-shrink-to-fit-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0943] [WPT reftest] css/css-flexbox/percentage-size-subitems-001.html
@@ -1060,19 +1142,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/remove-wrapped-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.011800148843599725, diffPixels=9894
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0956] [WPT reftest] css/css-flexbox/select-element-zero-height-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-flexbox/select-element-zero-height-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/select-element-zero-height-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00230063544767575, diffPixels=1929
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/select-element-zero-height-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/select-element-zero-height-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00230063544767575, diffPixels=1929
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/select-element-zero-height-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1012] [WPT print-reftest] css/css-flexbox/inline-flexbox-vertical-rl-image-flexitem-crash-print.html
   triage: pending

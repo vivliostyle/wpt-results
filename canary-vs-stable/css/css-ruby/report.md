@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 143
-- Entries with differences: 78 (pending: 78, triaged: 0)
+- Entries with differences: 81 (pending: 81, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 9
-- Outcome summary: {"pass":65,"known-fail":69,"changed-fail":6,"expected-change":1,"regression":2}
+- Outcome summary: {"pass":62,"known-fail":72,"changed-fail":6,"expected-change":1,"regression":2}
 
 ## Differences
 
@@ -16,11 +16,11 @@
   reference: css/css-ruby/block-ruby-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/block-ruby-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0034789806121670102, diffPixels=2917
+  canary page 1: diffRatio=0.003483751240363331, diffPixels=2921
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/block-ruby-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/block-ruby-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0034789806121670102, diffPixels=2917
+  stable page 1: diffRatio=0.003483751240363331, diffPixels=2921
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/block-ruby-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0006] [WPT reftest] css/css-ruby/block-ruby-003.html
@@ -55,11 +55,11 @@
   reference: css/css-ruby/break-within-bases/basic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/break-within-bases/basic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1346796046103351, diffPixels=112924
+  canary page 1: diffRatio=0.1345996965880467, diffPixels=112857
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/break-within-bases/basic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/break-within-bases/basic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1346796046103351, diffPixels=112924
+  stable page 1: diffRatio=0.1345996965880467, diffPixels=112857
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/break-within-bases/basic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0010] [WPT reftest] css/css-ruby/break-within-bases/no-break-opportunity-at-end.html
@@ -68,11 +68,11 @@
   reference: css/css-ruby/break-within-bases/no-break-opportunity-at-end-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/break-within-bases/no-break-opportunity-at-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0016888023814975955, diffPixels=1416
+  canary page 1: diffRatio=0.001706692237233799, diffPixels=1431
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/break-within-bases/no-break-opportunity-at-end-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/break-within-bases/no-break-opportunity-at-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010614647736813983, diffPixels=890
+  stable page 1: diffRatio=0.001075776658270361, diffPixels=902
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/break-within-bases/no-break-opportunity-at-end-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0011] [WPT reftest] css/css-ruby/break-within-bases/nowrap.html
@@ -94,11 +94,11 @@
   reference: css/css-ruby/empty-ruby-base-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-base-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001493206625448439, diffPixels=1252
+  canary page 1: diffRatio=0.0014955919395465995, diffPixels=1254
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-base-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-base-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001493206625448439, diffPixels=1252
+  stable page 1: diffRatio=0.0014955919395465995, diffPixels=1254
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-base-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/css-ruby/empty-ruby-text-container-abs.html
@@ -107,11 +107,11 @@
   reference: css/css-ruby/empty-ruby-text-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-abs.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025642126555224794, diffPixels=2150
+  canary page 1: diffRatio=0.0025665979696206397, diffPixels=2152
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-abs.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0025642126555224794, diffPixels=2150
+  stable page 1: diffRatio=0.0025665979696206397, diffPixels=2152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0015] [WPT reftest] css/css-ruby/empty-ruby-text-container-float.html
@@ -120,11 +120,11 @@
   reference: css/css-ruby/empty-ruby-text-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025642126555224794, diffPixels=2150
+  canary page 1: diffRatio=0.0025665979696206397, diffPixels=2152
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0025642126555224794, diffPixels=2150
+  stable page 1: diffRatio=0.0025665979696206397, diffPixels=2152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0016] [WPT reftest] css/css-ruby/empty-ruby-text-container.html
@@ -133,11 +133,11 @@
   reference: css/css-ruby/empty-ruby-text-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025642126555224794, diffPixels=2150
+  canary page 1: diffRatio=0.0025665979696206397, diffPixels=2152
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0025642126555224794, diffPixels=2150
+  stable page 1: diffRatio=0.0025665979696206397, diffPixels=2152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-text-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0017] [WPT reftest] css/css-ruby/improperly-contained-annotation-001.html
@@ -146,11 +146,11 @@
   reference: css/css-ruby/reference/improperly-contained-annotation-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/improperly-contained-annotation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015051331959392413, diffPixels=1262
+  canary page 1: diffRatio=0.0014419223723379894, diffPixels=1209
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/reference/improperly-contained-annotation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/improperly-contained-annotation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013846748339821388, diffPixels=1161
+  stable page 1: diffRatio=0.0012785283566139989, diffPixels=1072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/reference/improperly-contained-annotation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0018] [WPT reftest] css/css-ruby/interlinear-block-margin-box.html
@@ -179,11 +179,11 @@
   reference: css/css-ruby/nested-ruby-pairing-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/nested-ruby-pairing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002156323944737043, diffPixels=1808
+  canary page 1: diffRatio=0.0021622872299824443, diffPixels=1813
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/nested-ruby-pairing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/nested-ruby-pairing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002156323944737043, diffPixels=1808
+  stable page 1: diffRatio=0.0021622872299824443, diffPixels=1813
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/nested-ruby-pairing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT reftest] css/css-ruby/pseudo-first-letter.html
@@ -205,11 +205,11 @@
   reference: css/css-ruby/pseudo-first-line-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/pseudo-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009219238989390123, diffPixels=773
+  canary page 1: diffRatio=0.0009278871841844135, diffPixels=778
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/pseudo-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/pseudo-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009219238989390123, diffPixels=773
+  stable page 1: diffRatio=0.0009278871841844135, diffPixels=778
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/pseudo-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0023] [WPT reftest] css/css-ruby/rb-display-001.html
@@ -218,7 +218,7 @@
   reference: css/css-ruby/reference/rb-display-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/rb-display-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004532096786504847, diffPixels=3800
+  canary page 1: diffRatio=0.004529711472406686, diffPixels=3798
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/reference/rb-display-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/rb-display-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -231,11 +231,11 @@
   reference: css/css-ruby/reference/rbc-rtc-basic-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/rbc-rtc-basic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013221796046103351, diffPixels=11086
+  canary page 1: diffRatio=0.01321583276085795, diffPixels=11081
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/reference/rbc-rtc-basic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/rbc-rtc-basic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013221796046103351, diffPixels=11086
+  stable page 1: diffRatio=0.01321583276085795, diffPixels=11081
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/reference/rbc-rtc-basic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT reftest] css/css-ruby/root-block-ruby.xhtml
@@ -244,11 +244,11 @@
   reference: css/css-ruby/root-ruby-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/root-block-ruby.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0022302686817800167, diffPixels=1870
+  canary page 1: diffRatio=0.0022624704221051828, diffPixels=1897
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/root-ruby-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/root-block-ruby.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0022302686817800167, diffPixels=1870
+  stable page 1: diffRatio=0.0022624704221051828, diffPixels=1897
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/root-ruby-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0026] [WPT reftest] css/css-ruby/root-ruby.xhtml
@@ -257,11 +257,11 @@
   reference: css/css-ruby/root-ruby-ref.xhtml (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/root-ruby.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0022278833676818563, diffPixels=1868
+  canary page 1: diffRatio=0.0022338466529272577, diffPixels=1873
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/root-ruby-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/root-ruby.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0022278833676818563, diffPixels=1868
+  stable page 1: diffRatio=0.0022338466529272577, diffPixels=1873
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/root-ruby-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0027] [WPT reftest] css/css-ruby/rt-display-001.html
@@ -270,7 +270,7 @@
   reference: css/css-ruby/reference/rb-display-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/rt-display-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004532096786504847, diffPixels=3800
+  canary page 1: diffRatio=0.004529711472406686, diffPixels=3798
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/reference/rb-display-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/rt-display-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -296,11 +296,11 @@
   reference: css/css-ruby/ruby-align-space-around-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-align-space-around.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013739409205404168, diffPixels=1152
+  canary page 1: diffRatio=0.00139063811922754, diffPixels=1166
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-align-space-around-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-align-space-around.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
+  stable page 1: diffRatio=0.00139063811922754, diffPixels=1166
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-align-space-around-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0034] [WPT reftest] css/css-ruby/ruby-annotation-pairing-001.html
@@ -322,11 +322,11 @@
   reference: css/css-ruby/ruby-annotation-with-margin-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-annotation-with-margin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015504541638042897, diffPixels=130
+  canary page 1: diffRatio=0.00013119227539882451, diffPixels=110
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-annotation-with-margin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-annotation-with-margin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00015504541638042897, diffPixels=130
+  stable page 1: diffRatio=0.00013119227539882451, diffPixels=110
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-annotation-with-margin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0036] [WPT reftest] css/css-ruby/ruby-autohide-001.html
@@ -348,11 +348,11 @@
   reference: css/css-ruby/ruby-autohide-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-autohide-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009445843828715365, diffPixels=792
+  canary page 1: diffRatio=0.000946969696969697, diffPixels=794
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-autohide-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-autohide-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009445843828715365, diffPixels=792
+  stable page 1: diffRatio=0.000946969696969697, diffPixels=794
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-autohide-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0038] [WPT reftest] css/css-ruby/ruby-autohide-003.html
@@ -374,7 +374,7 @@
   reference: css/css-ruby/ruby-autohide-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-autohide-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005951358674910313, diffPixels=499
+  canary page 1: diffRatio=0.0006022918097855125, diffPixels=505
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-autohide-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-autohide-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -387,11 +387,11 @@
   reference: css/css-ruby/empty-ruby-base-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-base-container-abs.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001493206625448439, diffPixels=1252
+  canary page 1: diffRatio=0.0014955919395465995, diffPixels=1254
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-base-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-base-container-abs.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001493206625448439, diffPixels=1252
+  stable page 1: diffRatio=0.0014955919395465995, diffPixels=1254
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-base-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0041] [WPT reftest] css/css-ruby/ruby-base-container-float.html
@@ -400,11 +400,11 @@
   reference: css/css-ruby/empty-ruby-base-container-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-base-container-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001493206625448439, diffPixels=1252
+  canary page 1: diffRatio=0.0014955919395465995, diffPixels=1254
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/empty-ruby-base-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-base-container-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001493206625448439, diffPixels=1252
+  stable page 1: diffRatio=0.0014955919395465995, diffPixels=1254
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/empty-ruby-base-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0044] [WPT reftest] css/css-ruby/ruby-bidi-002.html
@@ -413,11 +413,11 @@
   reference: css/css-ruby/ruby-bidi-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-bidi-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0041981528127623844, diffPixels=3520
+  canary page 1: diffRatio=0.004248244408823754, diffPixels=3562
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-bidi-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-bidi-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0041981528127623844, diffPixels=3520
+  stable page 1: diffRatio=0.004248244408823754, diffPixels=3562
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-bidi-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0045] [WPT reftest] css/css-ruby/ruby-bidi-003.html
@@ -426,11 +426,11 @@
   reference: css/css-ruby/ruby-bidi-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-bidi-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002755037783375315, diffPixels=2310
+  canary page 1: diffRatio=0.0027156801007556675, diffPixels=2277
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-bidi-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-bidi-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0032762289138233724, diffPixels=2747
+  stable page 1: diffRatio=0.003280999542019693, diffPixels=2751
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-bidi-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/css-ruby/ruby-box-generation-001.html
@@ -439,11 +439,11 @@
   reference: css/css-ruby/ruby-box-generation-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0045523719563392104, diffPixels=3817
+  canary page 1: diffRatio=0.004446225478971071, diffPixels=3728
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0045523719563392104, diffPixels=3817
+  stable page 1: diffRatio=0.004446225478971071, diffPixels=3728
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0048] [WPT reftest] css/css-ruby/ruby-box-generation-002.html
@@ -452,11 +452,11 @@
   reference: css/css-ruby/ruby-box-generation-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004520170216014045, diffPixels=3790
+  canary page 1: diffRatio=0.004534482100603007, diffPixels=3802
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004520170216014045, diffPixels=3790
+  stable page 1: diffRatio=0.004534482100603007, diffPixels=3802
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0049] [WPT reftest] css/css-ruby/ruby-box-generation-003.html
@@ -465,11 +465,11 @@
   reference: css/css-ruby/ruby-box-generation-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00454879398519197, diffPixels=3814
+  canary page 1: diffRatio=0.004558335241584612, diffPixels=3822
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00454879398519197, diffPixels=3814
+  stable page 1: diffRatio=0.004558335241584612, diffPixels=3822
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0050] [WPT reftest] css/css-ruby/ruby-box-generation-004.html
@@ -478,11 +478,11 @@
   reference: css/css-ruby/ruby-box-generation-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004571454469124494, diffPixels=3833
+  canary page 1: diffRatio=0.004570261812075414, diffPixels=3832
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004571454469124494, diffPixels=3833
+  stable page 1: diffRatio=0.004570261812075414, diffPixels=3832
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0051] [WPT reftest] css/css-ruby/ruby-box-generation-005.html
@@ -491,11 +491,11 @@
   reference: css/css-ruby/ruby-box-generation-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00363879665674376, diffPixels=3051
+  canary page 1: diffRatio=0.0036924662239523703, diffPixels=3096
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-generation-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00363879665674376, diffPixels=3051
+  stable page 1: diffRatio=0.0036924662239523703, diffPixels=3096
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-generation-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0052] [WPT reftest] css/css-ruby/ruby-box-model-001.html
@@ -504,11 +504,11 @@
   reference: css/css-ruby/ruby-box-model-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-model-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08338581024349287, diffPixels=69916
+  canary page 1: diffRatio=0.08335241584611862, diffPixels=69888
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-box-model-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-model-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08338581024349287, diffPixels=69916
+  stable page 1: diffRatio=0.08335241584611862, diffPixels=69888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-box-model-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/css-ruby/ruby-dynamic-insertion-002.html
@@ -517,11 +517,11 @@
   reference: css/css-ruby/ruby-dynamic-insertion-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00010018319212273872, diffPixels=84
+  canary page 1: diffRatio=0.00010376116326997939, diffPixels=87
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00010018319212273872, diffPixels=84
+  stable page 1: diffRatio=0.00010376116326997939, diffPixels=87
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-ruby/ruby-dynamic-insertion-004.html
@@ -530,11 +530,11 @@
   reference: css/css-ruby/ruby-dynamic-insertion-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003005495763682162, diffPixels=252
+  canary page 1: diffRatio=0.00030651286161361725, diffPixels=257
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003005495763682162, diffPixels=252
+  stable page 1: diffRatio=0.00030651286161361725, diffPixels=257
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0057] [WPT reftest] css/css-ruby/ruby-dynamic-insertion-005.html
@@ -543,11 +543,11 @@
   reference: css/css-ruby/ruby-dynamic-insertion-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00010853179146630028, diffPixels=91
+  canary page 1: diffRatio=0.00010972444851538051, diffPixels=92
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00010853179146630028, diffPixels=91
+  stable page 1: diffRatio=0.00010972444851538051, diffPixels=92
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-dynamic-insertion-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0060] [WPT reftest] css/css-ruby/ruby-dynamic-removal-003.html
@@ -556,11 +556,11 @@
   reference: css/css-ruby/ruby-dynamic-removal-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-dynamic-removal-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015981604457674986, diffPixels=134
+  canary page 1: diffRatio=0.00016339401572399052, diffPixels=137
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-dynamic-removal-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-dynamic-removal-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00015981604457674986, diffPixels=134
+  stable page 1: diffRatio=0.00016339401572399052, diffPixels=137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-dynamic-removal-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0061] [WPT reftest] css/css-ruby/ruby-float-handling-001.html
@@ -569,11 +569,11 @@
   reference: css/css-ruby/ruby-float-handling-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-float-handling-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011926570490802228, diffPixels=100
+  canary page 1: diffRatio=0.00019082512785283565, diffPixels=160
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-float-handling-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-float-handling-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011926570490802228, diffPixels=100
+  stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-float-handling-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0062] [WPT reftest] css/css-ruby/ruby-inlinize-blocks-001.html
@@ -582,11 +582,11 @@
   reference: css/css-ruby/ruby-inlinize-blocks-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0049674166094191285, diffPixels=4165
+  canary page 1: diffRatio=0.005034205404167621, diffPixels=4221
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0049674166094191285, diffPixels=4165
+  stable page 1: diffRatio=0.005034205404167621, diffPixels=4221
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0063] [WPT reftest] css/css-ruby/ruby-inlinize-blocks-002.html
@@ -595,11 +595,11 @@
   reference: css/css-ruby/ruby-inlinize-blocks-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.031648347454392795, diffPixels=26536
+  canary page 1: diffRatio=0.03164596214029464, diffPixels=26534
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.031648347454392795, diffPixels=26536
+  stable page 1: diffRatio=0.03164596214029464, diffPixels=26534
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0065] [WPT reftest] css/css-ruby/ruby-inlinize-blocks-004.html
@@ -608,11 +608,11 @@
   reference: css/css-ruby/ruby-inlinize-blocks-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0049674166094191285, diffPixels=4165
+  canary page 1: diffRatio=0.005034205404167621, diffPixels=4221
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0049674166094191285, diffPixels=4165
+  stable page 1: diffRatio=0.005034205404167621, diffPixels=4221
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0066] [WPT reftest] css/css-ruby/ruby-inlinize-blocks-005.html
@@ -621,11 +621,11 @@
   reference: css/css-ruby/ruby-inlinize-blocks-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00882566216319365, diffPixels=7400
+  canary page 1: diffRatio=0.008910340813678344, diffPixels=7471
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00882566216319365, diffPixels=7400
+  stable page 1: diffRatio=0.008910340813678344, diffPixels=7471
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-inlinize-blocks-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0067] [WPT reftest] css/css-ruby/ruby-inlinize-recursive-simple.html
@@ -660,11 +660,11 @@
   reference: css/css-ruby/ruby-intrinsic-isize-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017722883749332111, diffPixels=1486
+  canary page 1: diffRatio=0.0017770590031295321, diffPixels=1490
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017722883749332111, diffPixels=1486
+  stable page 1: diffRatio=0.0017770590031295321, diffPixels=1490
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0072] [WPT reftest] css/css-ruby/ruby-intrinsic-isize-002.html
@@ -673,11 +673,11 @@
   reference: css/css-ruby/ruby-intrinsic-isize-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00003220174032516602, diffPixels=27
+  canary page 1: diffRatio=0.0000882566216319365, diffPixels=74
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00003220174032516602, diffPixels=27
+  stable page 1: diffRatio=0.0000882566216319365, diffPixels=74
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0073] [WPT reftest] css/css-ruby/ruby-intrinsic-isize-003.html
@@ -686,11 +686,11 @@
   reference: css/css-ruby/ruby-intrinsic-isize-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003236871231203725, diffPixels=2714
+  canary page 1: diffRatio=0.0032440271734982063, diffPixels=2720
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003236871231203725, diffPixels=2714
+  stable page 1: diffRatio=0.0032440271734982063, diffPixels=2720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-intrinsic-isize-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0075] [WPT reftest] css/css-ruby/ruby-justification-002.html
@@ -712,11 +712,11 @@
   reference: css/css-ruby/ruby-lang-specific-style-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-lang-specific-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0033310911380810626, diffPixels=2793
+  canary page 1: diffRatio=0.0033060453400503777, diffPixels=2772
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-lang-specific-style-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-lang-specific-style-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0033310911380810626, diffPixels=2793
+  stable page 1: diffRatio=0.0033060453400503777, diffPixels=2772
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-lang-specific-style-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0078] [WPT reftest] css/css-ruby/ruby-line-break-suppression-001.html
@@ -725,11 +725,11 @@
   reference: css/css-ruby/ruby-line-break-suppression-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002242195252270819, diffPixels=188
+  canary page 1: diffRatio=0.0002289901534234028, diffPixels=192
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002242195252270819, diffPixels=188
+  stable page 1: diffRatio=0.0002289901534234028, diffPixels=192
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0079] [WPT reftest] css/css-ruby/ruby-line-break-suppression-002.html
@@ -738,11 +738,11 @@
   reference: css/css-ruby/ruby-line-break-suppression-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002908890542706664, diffPixels=2439
+  canary page 1: diffRatio=0.003118798183344783, diffPixels=2615
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002908890542706664, diffPixels=2439
+  stable page 1: diffRatio=0.003118798183344783, diffPixels=2615
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0080] [WPT reftest] css/css-ruby/ruby-line-break-suppression-003.html
@@ -751,11 +751,11 @@
   reference: css/css-ruby/ruby-line-break-suppression-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016577932982215097, diffPixels=139
+  canary page 1: diffRatio=0.00017054995801847188, diffPixels=143
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
+  stable page 1: diffRatio=0.00017054995801847188, diffPixels=143
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0081] [WPT reftest] css/css-ruby/ruby-line-break-suppression-004.html
@@ -764,11 +764,11 @@
   reference: css/css-ruby/ruby-line-break-suppression-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00003577971147240669, diffPixels=30
+  canary page 1: diffRatio=0.00003816502557056713, diffPixels=32
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00003577971147240669, diffPixels=30
+  stable page 1: diffRatio=0.00003816502557056713, diffPixels=32
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0085] [WPT reftest] css/css-ruby/ruby-line-breaking-003.html
@@ -777,11 +777,11 @@
   reference: css/css-ruby/ruby-line-breaking-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-breaking-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006523834058468819, diffPixels=547
+  canary page 1: diffRatio=0.0006559613769941226, diffPixels=550
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-breaking-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-breaking-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006523834058468819, diffPixels=547
+  stable page 1: diffRatio=0.0006559613769941226, diffPixels=550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-breaking-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0087] [WPT reftest] css/css-ruby/ruby-overhang-dynamic.html
@@ -797,17 +797,30 @@
   stable page 1: diffRatio=0.0002671551789939699, diffPixels=224
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0093] [WPT reftest] css/css-ruby/ruby-overhang-spaces-005.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ruby/ruby-overhang-spaces-005-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0094] [WPT reftest] css/css-ruby/ruby-overhang-spaces-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ruby/ruby-overhang-spaces-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006201816655217159, diffPixels=52
+  canary page 1: diffRatio=0.000027431112128845128, diffPixels=23
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006201816655217159, diffPixels=52
+  stable page 1: diffRatio=0.000027431112128845128, diffPixels=23
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0095] [WPT reftest] css/css-ruby/ruby-overhang-spaces-007.html
@@ -816,25 +829,51 @@
   reference: css/css-ruby/ruby-overhang-spaces-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006201816655217159, diffPixels=52
+  canary page 1: diffRatio=0.0001204583619571025, diffPixels=101
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006201816655217159, diffPixels=52
+  stable page 1: diffRatio=0.0001204583619571025, diffPixels=101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0099] [WPT reftest] css/css-ruby/ruby-overhang-spaces-011.html
+- [0100] [WPT reftest] css/css-ruby/ruby-overhang-spaces-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ruby/ruby-overhang-spaces-011-ref.html (==)
+  reference: css/css-ruby/ruby-overhang-spaces-012-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000417429967178078, diffPixels=350
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000031009083276085796, diffPixels=26
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000417429967178078, diffPixels=350
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000031009083276085796, diffPixels=26
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0102] [WPT reftest] css/css-ruby/ruby-overhang-spaces-014.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ruby/ruby-overhang-spaces-014-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00008229333638653537, diffPixels=69
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00008229333638653537, diffPixels=69
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0104] [WPT reftest] css/css-ruby/ruby-overhang-spaces-016.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-ruby/ruby-overhang-spaces-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00008587130753377605, diffPixels=72
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00008587130753377605, diffPixels=72
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0105] [WPT reftest] css/css-ruby/ruby-overhang-spaces-017.html
   triage: pending
@@ -842,11 +881,11 @@
   reference: css/css-ruby/ruby-overhang-spaces-017-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0106] [WPT reftest] css/css-ruby/ruby-overhang-spaces-018.html
@@ -855,11 +894,11 @@
   reference: css/css-ruby/ruby-overhang-spaces-018-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  canary page 1: diffRatio=0.000042935653766888026, diffPixels=36
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  stable page 1: diffRatio=0.000042935653766888026, diffPixels=36
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0107] [WPT reftest] css/css-ruby/ruby-overhang-spaces-019.html
@@ -894,11 +933,11 @@
   reference: css/css-ruby/ruby-overhang-spaces-vertical-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0019977005572093735, diffPixels=1675
+  canary page 1: diffRatio=0.0007072456301045722, diffPixels=593
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0019977005572093735, diffPixels=1675
+  stable page 1: diffRatio=0.0007072456301045722, diffPixels=593
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0125] [WPT reftest] css/css-ruby/ruby-overhang-spaces-vertical-006.html
@@ -907,11 +946,11 @@
   reference: css/css-ruby/ruby-overhang-spaces-vertical-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014025646897183421, diffPixels=1176
+  canary page 1: diffRatio=0.0007227501717426151, diffPixels=606
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014025646897183421, diffPixels=1176
+  stable page 1: diffRatio=0.0007227501717426151, diffPixels=606
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-vertical-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0127] [WPT reftest] css/css-ruby/ruby-reflow-001-transparentruby.html
@@ -920,11 +959,11 @@
   reference: css/css-ruby/ruby-reflow-001-noruby.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-reflow-001-transparentruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005772460117548279, diffPixels=484
+  canary page 1: diffRatio=0.0005891725822456301, diffPixels=494
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-reflow-001-noruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-reflow-001-transparentruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005772460117548279, diffPixels=484
+  stable page 1: diffRatio=0.0005891725822456301, diffPixels=494
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-reflow-001-noruby.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0128] [WPT reftest] css/css-ruby/ruby-span-001.html
@@ -933,11 +972,11 @@
   reference: css/css-ruby/ruby-span-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-span-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  canary page 1: diffRatio=0.0007108236012518128, diffPixels=596
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-span-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-span-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007310987710861766, diffPixels=613
+  stable page 1: diffRatio=0.0007108236012518128, diffPixels=596
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-span-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0132] [WPT reftest] css/css-ruby/ruby-text-collapse.html
@@ -946,11 +985,11 @@
   reference: css/css-ruby/ruby-text-collapse-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-text-collapse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007752270819021449, diffPixels=65
+  canary page 1: diffRatio=0.00008348599343561561, diffPixels=70
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-text-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-text-collapse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00007752270819021449, diffPixels=65
+  stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-text-collapse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0137] [WPT reftest] css/css-ruby/ruby-text-dynamic-style.html
@@ -972,11 +1011,11 @@
   reference: css/css-ruby/ruby-whitespace-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-whitespace-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018987100221357148, diffPixels=1592
+  canary page 1: diffRatio=0.0018307285703381422, diffPixels=1535
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-whitespace-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-whitespace-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018987100221357148, diffPixels=1592
+  stable page 1: diffRatio=0.0018307285703381422, diffPixels=1535
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-whitespace-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0139] [WPT reftest] css/css-ruby/ruby-whitespace-002.html
@@ -985,11 +1024,11 @@
   reference: css/css-ruby/ruby-whitespace-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-whitespace-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000744217998626059, diffPixels=624
+  canary page 1: diffRatio=0.0007108236012518128, diffPixels=596
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-whitespace-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-whitespace-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000744217998626059, diffPixels=624
+  stable page 1: diffRatio=0.0007108236012518128, diffPixels=596
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-whitespace-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0140] [WPT reftest] css/css-ruby/ruby-with-floats-001.html
@@ -998,7 +1037,7 @@
   reference: css/css-ruby/ruby-with-floats-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-with-floats-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00021587092588352033, diffPixels=181
+  canary page 1: diffRatio=0.0002134856117853599, diffPixels=179
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-with-floats-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0141] [WPT reftest] css/css-ruby/ruby-with-floats-002.html
@@ -1007,6 +1046,6 @@
   reference: css/css-ruby/ruby-with-floats-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-with-floats-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00021587092588352033, diffPixels=181
+  canary page 1: diffRatio=0.0002134856117853599, diffPixels=179
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-with-floats-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

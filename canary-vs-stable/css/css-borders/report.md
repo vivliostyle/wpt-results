@@ -185,11 +185,11 @@
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0058762212808182585, diffPixels=4927
+  canary page 1: diffRatio=0.005873835966720098, diffPixels=4925
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
+  stable page 1: diffRatio=0.005873835966720098, diffPixels=4925
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0102] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
@@ -198,10 +198,10 @@
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0058762212808182585, diffPixels=4927
+  canary page 1: diffRatio=0.005873835966720098, diffPixels=4925
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
+  stable page 1: diffRatio=0.005873835966720098, diffPixels=4925
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

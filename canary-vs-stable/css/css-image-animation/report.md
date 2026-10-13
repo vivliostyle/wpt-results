@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 22
-- Entries with differences: 21 (improvement: 1, pending: 20, triaged: 0)
+- Entries with differences: 20 (pending: 20, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 3
-- Outcome summary: {"known-fail":18,"improvement":1,"changed-fail":2,"pass":1}
+- Screenshot mismatches: 2
+- Outcome summary: {"known-fail":18,"pass":2,"changed-fail":2}
 
 ## Differences
 
@@ -61,15 +61,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00047706281963208914, diffPixels=400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-background-stopped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0005] [WPT reftest] css/css-image-animation/image-animation-body-background-no-propagation-paused.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-body-background-no-propagation-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0006] [WPT reftest] css/css-image-animation/image-animation-body-background-root-propagation-paused.html
   triage: pending

@@ -1,14 +1,40 @@
 # canary vs stable comparison report
 
 - Compared entries: 62
-- Entries with differences: 12 (pending: 12, triaged: 0)
+- Entries with differences: 14 (pending: 14, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":50,"known-fail":12}
+- Outcome summary: {"pass":48,"known-fail":14}
 
 ## Differences
+
+- [0007] [WPT reftest] css/css-align/abspos/align-self-static-position-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-align/abspos/align-self-static-position-003-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00023853140981604457, diffPixels=200
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0008] [WPT reftest] css/css-align/abspos/align-self-static-position-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-align/abspos/align-self-static-position-004-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00011926570490802228, diffPixels=100
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00011926570490802228, diffPixels=100
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0009] [WPT reftest] css/css-align/abspos/align-self-static-position-005.html
   triage: pending
@@ -55,11 +81,11 @@
   reference: css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04648261583085261, diffPixels=38974
+  canary page 1: diffRatio=0.04652197351347225, diffPixels=39007
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04648261583085261, diffPixels=38974
+  stable page 1: diffRatio=0.04652197351347225, diffPixels=39007
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-align/blocks/align-content-block-001.html
@@ -68,11 +94,11 @@
   reference: css/css-align/blocks/align-content-block-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/blocks/align-content-block-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.2532965040836577, diffPixels=212380
+  canary page 1: diffRatio=0.25338595336233877, diffPixels=212455
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/blocks/align-content-block-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/align-content-block-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.2532965040836577, diffPixels=212380
+  stable page 1: diffRatio=0.25338595336233877, diffPixels=212455
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/align-content-block-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0031] [WPT reftest] css/css-align/blocks/align-content-block-012.html
@@ -81,11 +107,11 @@
   reference: css/css-align/blocks/align-content-block-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/blocks/align-content-block-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002926780398442867, diffPixels=2454
+  canary page 1: diffRatio=0.0029196244561483856, diffPixels=2448
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/blocks/align-content-block-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/align-content-block-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002926780398442867, diffPixels=2454
+  stable page 1: diffRatio=0.0029196244561483856, diffPixels=2448
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/align-content-block-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0038] [WPT reftest] css/css-align/blocks/align-content-table-cell-002.html

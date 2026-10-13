@@ -16,11 +16,11 @@
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/absolute-tables-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011670149225249981, diffPixels=9785
+  canary page 1: diffRatio=0.0116689565682009, diffPixels=9784
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/absolute-tables-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011670149225249981, diffPixels=9785
+  stable page 1: diffRatio=0.0116689565682009, diffPixels=9784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/css-tables/anonymous-table-ws-001.html
@@ -55,11 +55,11 @@
   reference: css/css-tables/col-definite-max-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/col-definite-max-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008011077398671858, diffPixels=6717
+  canary page 1: diffRatio=0.008006306770475537, diffPixels=6713
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/col-definite-max-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/col-definite-max-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008011077398671858, diffPixels=6717
+  stable page 1: diffRatio=0.008006306770475537, diffPixels=6713
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/col-definite-max-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-tables/col-definite-min-size-001.html
@@ -94,11 +94,11 @@
   reference: css/css-tables/collapsed-border-partial-invalidation-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/collapsed-border-partial-invalidation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005593561560186246, diffPixels=469
+  canary page 1: diffRatio=0.0005605488130677048, diffPixels=470
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/collapsed-border-partial-invalidation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/collapsed-border-partial-invalidation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005593561560186246, diffPixels=469
+  stable page 1: diffRatio=0.0005605488130677048, diffPixels=470
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/collapsed-border-partial-invalidation-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0041] [WPT reftest] css/css-tables/collapsed-border-remove-cell.html
@@ -276,11 +276,11 @@
   reference: css/css-tables/rules-groups-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/rules-groups.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0070080528203953895, diffPixels=5876
+  canary page 1: diffRatio=0.00711777726891077, diffPixels=5968
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/rules-groups-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/rules-groups.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0070080528203953895, diffPixels=5876
+  stable page 1: diffRatio=0.00711777726891077, diffPixels=5968
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/rules-groups-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0112] [WPT reftest] css/css-tables/table-cell-child-overflow-measure.html
@@ -302,11 +302,11 @@
   reference: css/css-tables/table-cell-width-0-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/table-cell-width-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0357427391038852, diffPixels=29969
+  canary page 1: diffRatio=0.03572365659109992, diffPixels=29953
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/table-cell-width-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-width-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0357427391038852, diffPixels=29969
+  stable page 1: diffRatio=0.03572365659109992, diffPixels=29953
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/table-cell-width-0-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0148] [WPT reftest] css/css-tables/tentative/padding-percentage.html
@@ -354,11 +354,11 @@
   reference: css/css-tables/toggle-row-display-property-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005667506297229219, diffPixels=4752
+  canary page 1: diffRatio=0.005648423784443936, diffPixels=4736
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005667506297229219, diffPixels=4752
+  stable page 1: diffRatio=0.005648423784443936, diffPixels=4736
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/toggle-row-display-property-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0161] [WPT reftest] css/css-tables/visibility-collapse-colspan-003.html
@@ -367,11 +367,11 @@
   reference: css/css-tables/visibility-collapse-colspan-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00032082474620257997, diffPixels=269
+  canary page 1: diffRatio=0.0003291733455461415, diffPixels=276
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00032082474620257997, diffPixels=269
+  stable page 1: diffRatio=0.0003291733455461415, diffPixels=276
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-colspan-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0162] [WPT reftest] css/css-tables/visibility-collapse-rowspan-005.html
@@ -380,11 +380,11 @@
   reference: css/css-tables/visibility-collapse-rowspan-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005665120983131058, diffPixels=475
+  canary page 1: diffRatio=0.0005056865888100145, diffPixels=424
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005665120983131058, diffPixels=475
+  stable page 1: diffRatio=0.0005056865888100145, diffPixels=424
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/visibility-collapse-rowspan-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0164] [WPT reftest] css/css-tables/whitespace-001.html
@@ -393,10 +393,10 @@
   reference: css/css-tables/whitespace-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/whitespace-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.017811140370964047, diffPixels=14934
+  canary page 1: diffRatio=0.01781352568506221, diffPixels=14936
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-tables/whitespace-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/whitespace-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.017811140370964047, diffPixels=14934
+  stable page 1: diffRatio=0.01781352568506221, diffPixels=14936
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-tables/whitespace-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
