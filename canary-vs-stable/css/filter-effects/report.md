@@ -2,11 +2,11 @@
 
 - Compared entries: 334
 - Entries with differences: 160 (pending: 160, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":174,"known-fail":160}
+- Outcome summary: {"pass":172,"known-fail":160,"error":2}
 
 ## Differences
 
@@ -1765,18 +1765,18 @@
   stable page 1: diffRatio=0.02767202885275933, diffPixels=23202
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0281] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
+- [0278] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/filter-effects/reference/green-100x100.html (==)
+  reference: css/filter-effects/reference/svg-relative-urls-002-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011688039080986184, diffPixels=9800
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0282] [WPT reftest] css/filter-effects/svg-sourcegraphic-invalidation-001.html
   triage: pending
@@ -2089,4 +2089,22 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/visibility-hidden-element-with-filter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0281] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0314] [WPT reftest] css/filter-effects/tainting-feflood-005.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/tainting-feflood-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/tainting-feflood-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

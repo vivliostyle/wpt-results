@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1191
-- Entries with differences: 599 (pending: 599, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 588 (pending: 588, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 11
-- Outcome summary: {"pass":372,"known-fail":588,"unchanged":220,"changed":11}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":372,"known-fail":587,"error":1,"unchanged":230,"changed":1}
 
 ## Differences
 
@@ -3283,31 +3283,14 @@
   stable page 1: diffRatio=0.0013310052667735287, diffPixels=1116
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0393] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-end-radius-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0394] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-start-radius-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0013584363789023739, diffPixels=1139
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013584363789023739, diffPixels=1139
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-input-search-text-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0395] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-top-color-001.html
   triage: pending
@@ -7664,80 +7647,28 @@
   stable page 1: diffRatio=0.000021467826883444013, diffPixels=18
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1036] [WPT manual] css/css-ui/cursor-image-png-005-manual.html
+- [1183] [WPT manual] css/css-ui/resize-014.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0008372452484543165, diffPixels=702
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-005-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-005-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  page 1: diffRatio=0.00615172505915579, diffPixels=5158
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1037] [WPT manual] css/css-ui/cursor-image-png-006-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0009970612930310662, diffPixels=836
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-006-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-006-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+## Errors
 
-- [1040] [WPT manual] css/css-ui/cursor-image-png-009-manual.html
+- [0393] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-end-radius-001.html
   triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0011497213953133348, diffPixels=964
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-009-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-009-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-end-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1041] [WPT manual] css/css-ui/cursor-image-png-010-manual.html
+- [0394] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-start-radius-001.html
   triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0011497213953133348, diffPixels=964
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-010-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-010-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1043] [WPT manual] css/css-ui/cursor-image-png-012-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0006726585756812458, diffPixels=564
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-012-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-012-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1046] [WPT manual] css/css-ui/cursor-image-png-016-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.00112348294023357, diffPixels=942
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-016-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-016-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1047] [WPT manual] css/css-ui/cursor-image-png-017-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.000867061674681322, diffPixels=727
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-017-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-017-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1048] [WPT manual] css/css-ui/cursor-image-png-018.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.000626144950767117, diffPixels=525
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1049] [WPT manual] css/css-ui/cursor-image-png-019-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0007883463094420273, diffPixels=661
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-019-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-019-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1055] [WPT manual] css/css-ui/cursor-image-png-025-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0011497213953133348, diffPixels=964
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-025-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-025-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1056] [WPT manual] css/css-ui/cursor-image-png-026-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.001128253568429891, diffPixels=946
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-026-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-026-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-input-search-text-border-start-start-radius-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

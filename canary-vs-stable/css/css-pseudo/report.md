@@ -2,8 +2,8 @@
 
 - Compared entries: 276
 - Entries with differences: 138 (pending: 138, triaged: 0)
-- Entries with errors: 23 (pending: 23, triaged: 0)
-- Timeout entries: 23
+- Entries with errors: 24 (pending: 24, triaged: 0)
+- Timeout entries: 24
 - Page count changed: 0
 - Screenshot mismatches: 0
 - Outcome summary: {"known-fail":138,"pass":108,"error":23,"unchanged":7}
@@ -16,11 +16,11 @@
   reference: css/css-pseudo/reference/active-selection-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0022934795053812687, diffPixels=1923
+  canary page 1: diffRatio=0.0023137546752156324, diffPixels=1940
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/active-selection-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0022934795053812687, diffPixels=1923
+  stable page 1: diffRatio=0.0023137546752156324, diffPixels=1940
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/active-selection-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0002] [WPT reftest] css/css-pseudo/active-selection-012.html
@@ -29,25 +29,21 @@
   reference: css/css-pseudo/reference/active-selection-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01487958934432486, diffPixels=12476
+  canary page 1: diffRatio=0.015183716891840317, diffPixels=12731
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/active-selection-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01487958934432486, diffPixels=12476
+  stable page 1: diffRatio=0.015183716891840317, diffPixels=12731
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/active-selection-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0003] [WPT reftest] css/css-pseudo/active-selection-014.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-pseudo/reference/active-selection-014-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012280789634379055, diffPixels=10297
+  canary page 1: diffRatio=0.012869962216624686, diffPixels=10791
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/active-selection-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012280789634379055, diffPixels=10297
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/active-selection-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-pseudo/active-selection-016.html
   triage: pending
@@ -81,11 +77,11 @@
   reference: css/css-pseudo/reference/active-selection-021-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009046303717273491, diffPixels=7585
+  canary page 1: diffRatio=0.009825108770322876, diffPixels=8238
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/active-selection-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009046303717273491, diffPixels=7585
+  stable page 1: diffRatio=0.009825108770322876, diffPixels=8238
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/active-selection-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0007] [WPT reftest] css/css-pseudo/active-selection-025.html
@@ -94,11 +90,11 @@
   reference: css/css-pseudo/reference/active-selection-025-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012588495153041753, diffPixels=10555
+  canary page 1: diffRatio=0.012871154873673765, diffPixels=10792
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/active-selection-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012588495153041753, diffPixels=10555
+  stable page 1: diffRatio=0.012871154873673765, diffPixels=10792
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/active-selection-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0008] [WPT reftest] css/css-pseudo/active-selection-027.html
@@ -107,11 +103,11 @@
   reference: css/css-pseudo/reference/active-selection-027-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03451430234333257, diffPixels=28939
+  canary page 1: diffRatio=0.03487329211510572, diffPixels=29240
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/active-selection-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03451430234333257, diffPixels=28939
+  stable page 1: diffRatio=0.03487329211510572, diffPixels=29240
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/active-selection-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0009] [WPT reftest] css/css-pseudo/active-selection-031.html
@@ -120,11 +116,11 @@
   reference: css/css-pseudo/reference/active-selection-031-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05756955575910236, diffPixels=48270
+  canary page 1: diffRatio=0.05796313258529883, diffPixels=48600
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/active-selection-031-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-031.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05756955575910236, diffPixels=48270
+  stable page 1: diffRatio=0.05796313258529883, diffPixels=48600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/active-selection-031-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0010] [WPT reftest] css/css-pseudo/active-selection-041.html
@@ -140,30 +136,17 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/active-selection-041-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0011] [WPT reftest] css/css-pseudo/active-selection-043.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-nothing-below.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-043.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023853140981604457, diffPixels=200
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-nothing-below.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-043.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-nothing-below.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0019] [WPT reftest] css/css-pseudo/active-selection-063.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-063.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-063.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT reftest] css/css-pseudo/before-after-dynamic-custom-property-001.html
@@ -198,11 +181,11 @@
   reference: css/reference/pass_if_pass_below.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/before-dynamic-display-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01155803946263644, diffPixels=9691
+  canary page 1: diffRatio=0.011677305167544462, diffPixels=9791
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/pass_if_pass_below.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/before-dynamic-display-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01155803946263644, diffPixels=9691
+  stable page 1: diffRatio=0.011677305167544462, diffPixels=9791
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/pass_if_pass_below.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT reftest] css/css-pseudo/file-selector-button-001.html
@@ -237,11 +220,11 @@
   reference: css/css-pseudo/first-letter-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00012165101900618274, diffPixels=102
+  canary page 1: diffRatio=0.00010853179146630028, diffPixels=91
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00012165101900618274, diffPixels=102
+  stable page 1: diffRatio=0.00010853179146630028, diffPixels=91
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0032] [WPT reftest] css/css-pseudo/first-letter-005.html
@@ -263,11 +246,11 @@
   reference: css/css-pseudo/first-letter-block-to-inline-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-and-sibling-display-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000040550339668727576, diffPixels=34
+  canary page 1: diffRatio=0.00009064193573009694, diffPixels=76
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-block-to-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-and-sibling-display-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000040550339668727576, diffPixels=34
+  stable page 1: diffRatio=0.00009064193573009694, diffPixels=76
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-block-to-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0034] [WPT reftest] css/css-pseudo/first-letter-and-whitespace.html
@@ -302,11 +285,11 @@
   reference: css/css-pseudo/first-letter-block-to-inline-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-block-to-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003899988550492329, diffPixels=327
+  canary page 1: diffRatio=0.00041027402488359667, diffPixels=344
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-block-to-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-block-to-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003899988550492329, diffPixels=327
+  stable page 1: diffRatio=0.00041027402488359667, diffPixels=344
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-block-to-inline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0038] [WPT reftest] css/css-pseudo/first-letter-c0.tentative.html
@@ -315,11 +298,11 @@
   reference: css/css-pseudo/first-letter-c0.tentative-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-c0.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014586195710251126, diffPixels=1223
+  canary page 1: diffRatio=0.0014836653690557973, diffPixels=1244
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-c0.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-c0.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014586195710251126, diffPixels=1223
+  stable page 1: diffRatio=0.0014836653690557973, diffPixels=1244
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-c0.tentative-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0039] [WPT reftest] css/css-pseudo/first-letter-capitalize-supplementary-char.html
@@ -380,11 +363,11 @@
   reference: css/css-pseudo/first-letter-exclude-block-child-marker-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-exclude-block-child-marker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00002862376917792535, diffPixels=24
+  canary page 1: diffRatio=0.00012403633310434318, diffPixels=104
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-exclude-block-child-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-exclude-block-child-marker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00002862376917792535, diffPixels=24
+  stable page 1: diffRatio=0.00012403633310434318, diffPixels=104
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-exclude-block-child-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0044] [WPT reftest] css/css-pseudo/first-letter-exclude-inline-child-marker.html
@@ -393,11 +376,11 @@
   reference: css/css-pseudo/first-letter-exclude-inline-child-marker-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-exclude-inline-child-marker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006917410884665292, diffPixels=58
+  canary page 1: diffRatio=0.0000572475383558507, diffPixels=48
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-exclude-inline-child-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-exclude-inline-child-marker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006917410884665292, diffPixels=58
+  stable page 1: diffRatio=0.0000572475383558507, diffPixels=48
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-exclude-inline-child-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/css-pseudo/first-letter-hi-001.html
@@ -406,11 +389,11 @@
   reference: css/css-pseudo/first-letter-hi-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-hi-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0019738474162277688, diffPixels=1655
+  canary page 1: diffRatio=0.0019881593008167315, diffPixels=1667
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-hi-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-hi-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0019738474162277688, diffPixels=1655
+  stable page 1: diffRatio=0.0019881593008167315, diffPixels=1667
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-hi-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/css-pseudo/first-letter-hi-002.html
@@ -445,11 +428,11 @@
   reference: css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003044853446301809, diffPixels=2553
+  canary page 1: diffRatio=0.0030532020456453704, diffPixels=2560
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003044853446301809, diffPixels=2553
+  stable page 1: diffRatio=0.0030532020456453704, diffPixels=2560
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0055] [WPT reftest] css/css-pseudo/first-letter-punctuation-dynamic.html
@@ -471,11 +454,11 @@
   reference: css/css-pseudo/first-letter-skip-empty-span-nested-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00002981642622700557, diffPixels=25
+  canary page 1: diffRatio=0.00003577971147240669, diffPixels=30
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00002981642622700557, diffPixels=25
+  stable page 1: diffRatio=0.00003577971147240669, diffPixels=30
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0058] [WPT reftest] css/css-pseudo/first-letter-skip-empty-span.html
@@ -484,11 +467,11 @@
   reference: css/css-pseudo/first-letter-skip-empty-span-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00002981642622700557, diffPixels=25
+  canary page 1: diffRatio=0.00003577971147240669, diffPixels=30
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00002981642622700557, diffPixels=25
+  stable page 1: diffRatio=0.00003577971147240669, diffPixels=30
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-skip-empty-span-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0060] [WPT reftest] css/css-pseudo/first-letter-text-and-display-change.html
@@ -510,11 +493,11 @@
   reference: css/css-pseudo/first-letter-trailing-punctuation-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-trailing-punctuation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020346729257308604, diffPixels=1706
+  canary page 1: diffRatio=0.0020358655827799406, diffPixels=1707
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-trailing-punctuation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-trailing-punctuation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0020346729257308604, diffPixels=1706
+  stable page 1: diffRatio=0.0020358655827799406, diffPixels=1707
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-trailing-punctuation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0062] [WPT reftest] css/css-pseudo/first-letter-width-2.html
@@ -523,11 +506,11 @@
   reference: css/css-pseudo/first-letter-width-2-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-width-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000679814517975727, diffPixels=570
+  canary page 1: diffRatio=0.0007155942294481337, diffPixels=600
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-width-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-width-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000679814517975727, diffPixels=570
+  stable page 1: diffRatio=0.0007155942294481337, diffPixels=600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-width-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0065] [WPT reftest] css/css-pseudo/first-letter-with-preceding-new-line.html
@@ -536,11 +519,11 @@
   reference: css/css-pseudo/reference/first-letter-with-preceding-new-line-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-with-preceding-new-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018056827723074574, diffPixels=1514
+  canary page 1: diffRatio=0.0017663250896878101, diffPixels=1481
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/first-letter-with-preceding-new-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-with-preceding-new-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018056827723074574, diffPixels=1514
+  stable page 1: diffRatio=0.0017663250896878101, diffPixels=1481
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/first-letter-with-preceding-new-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0066] [WPT reftest] css/css-pseudo/first-letter-with-quote.html
@@ -575,11 +558,11 @@
   reference: css/css-pseudo/first-line-and-marker-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-and-marker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008515571330432792, diffPixels=714
+  canary page 1: diffRatio=0.0008587130753377604, diffPixels=720
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-and-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-and-marker.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008515571330432792, diffPixels=714
+  stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-and-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0070] [WPT reftest] css/css-pseudo/first-line-below-float.html
@@ -588,11 +571,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-below-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005844019540493092, diffPixels=4900
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-below-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005844019540493092, diffPixels=4900
+  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0071] [WPT reftest] css/css-pseudo/first-line-change-inline-color-nested.html
@@ -640,11 +623,11 @@
   reference: css/css-pseudo/first-line-inherited-with-transition-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-inherited-with-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0053872318906953666, diffPixels=4517
+  canary page 1: diffRatio=0.005369342034959163, diffPixels=4502
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-inherited-with-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-inherited-with-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0053872318906953666, diffPixels=4517
+  stable page 1: diffRatio=0.005369342034959163, diffPixels=4502
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-inherited-with-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0077] [WPT reftest] css/css-pseudo/first-line-input-textarea.tentative.html
@@ -666,11 +649,11 @@
   reference: css/css-pseudo/first-line-insert-text-node-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-insert-text-node-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008515571330432792, diffPixels=714
+  canary page 1: diffRatio=0.0007072456301045722, diffPixels=593
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-insert-text-node-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008515571330432792, diffPixels=714
+  stable page 1: diffRatio=0.0007072456301045722, diffPixels=593
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0079] [WPT reftest] css/css-pseudo/first-line-line-height-001.html
@@ -692,11 +675,11 @@
   reference: css/css-pseudo/first-line-line-height-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-line-height-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03505338332951683, diffPixels=29391
+  canary page 1: diffRatio=0.03575347301732692, diffPixels=29978
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-line-height-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-line-height-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03505338332951683, diffPixels=29391
+  stable page 1: diffRatio=0.03575347301732692, diffPixels=29978
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-line-height-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0081] [WPT reftest] css/css-pseudo/first-line-nested-gcs.html
@@ -731,11 +714,11 @@
   reference: css/css-pseudo/first-line-on-list-item-with-block-children-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-on-list-item-with-block-children.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008527497900923594, diffPixels=715
+  canary page 1: diffRatio=0.0008479791618960385, diffPixels=711
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-on-list-item-with-block-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-on-list-item-with-block-children.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008527497900923594, diffPixels=715
+  stable page 1: diffRatio=0.0008479791618960385, diffPixels=711
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-on-list-item-with-block-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0085] [WPT reftest] css/css-pseudo/first-line-opacity-001.html
@@ -757,11 +740,11 @@
   reference: css/css-pseudo/first-line-with-before-after-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-with-before-after.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003280999542019693, diffPixels=2751
+  canary page 1: diffRatio=0.0032774215708724526, diffPixels=2748
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-with-before-after-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-with-before-after.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003280999542019693, diffPixels=2751
+  stable page 1: diffRatio=0.0032774215708724526, diffPixels=2748
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-with-before-after-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0089] [WPT reftest] css/css-pseudo/first-line-with-inline-block.html
@@ -770,11 +753,11 @@
   reference: css/css-pseudo/reference/first-line-with-inline-block-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-with-inline-block.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003589897717731471, diffPixels=301
+  canary page 1: diffRatio=0.00011926570490802228, diffPixels=100
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/first-line-with-inline-block-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-with-inline-block.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0003589897717731471, diffPixels=301
+  stable page 1: diffRatio=0.00011926570490802228, diffPixels=100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/first-line-with-inline-block-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0090] [WPT reftest] css/css-pseudo/first-line-with-out-of-flow-and-nested-div.html
@@ -822,11 +805,11 @@
   reference: css/css-pseudo/grammar-error-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/grammar-error-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001155684680558736, diffPixels=969
+  canary page 1: diffRatio=0.0011318315395771315, diffPixels=949
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/grammar-error-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/grammar-error-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001155684680558736, diffPixels=969
+  stable page 1: diffRatio=0.0011318315395771315, diffPixels=949
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/grammar-error-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0094] [WPT reftest] css/css-pseudo/grammar-spelling-errors-001.html
@@ -835,11 +818,11 @@
   reference: css/css-pseudo/reference/grammar-spelling-errors-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/grammar-spelling-errors-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009755934661476224, diffPixels=8180
+  canary page 1: diffRatio=0.010033823753911915, diffPixels=8413
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/grammar-spelling-errors-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/grammar-spelling-errors-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009755934661476224, diffPixels=8180
+  stable page 1: diffRatio=0.010033823753911915, diffPixels=8413
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/grammar-spelling-errors-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0095] [WPT reftest] css/css-pseudo/grammar-spelling-errors-002.html
@@ -848,11 +831,11 @@
   reference: css/css-pseudo/reference/grammar-spelling-errors-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/grammar-spelling-errors-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0065727329974811085, diffPixels=5511
+  canary page 1: diffRatio=0.0067730993817265855, diffPixels=5679
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/grammar-spelling-errors-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/grammar-spelling-errors-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0065727329974811085, diffPixels=5511
+  stable page 1: diffRatio=0.0067730993817265855, diffPixels=5679
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/grammar-spelling-errors-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0096] [WPT reftest] css/css-pseudo/highlight-cascade/cascade-highlight-001.html
@@ -861,11 +844,11 @@
   reference: css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013403079917563544, diffPixels=11238
+  canary page 1: diffRatio=0.013665464468361194, diffPixels=11458
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013403079917563544, diffPixels=11238
+  stable page 1: diffRatio=0.013665464468361194, diffPixels=11458
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0097] [WPT reftest] css/css-pseudo/highlight-cascade/cascade-highlight-002.html
@@ -874,11 +857,11 @@
   reference: css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013403079917563544, diffPixels=11238
+  canary page 1: diffRatio=0.013665464468361194, diffPixels=11458
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013403079917563544, diffPixels=11238
+  stable page 1: diffRatio=0.013665464468361194, diffPixels=11458
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0098] [WPT reftest] css/css-pseudo/highlight-cascade/cascade-highlight-004.html
@@ -887,11 +870,11 @@
   reference: css/css-pseudo/highlight-cascade/cascade-highlight-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013393538661170903, diffPixels=11230
+  canary page 1: diffRatio=0.01364757461262499, diffPixels=11443
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013393538661170903, diffPixels=11230
+  stable page 1: diffRatio=0.01364757461262499, diffPixels=11443
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0099] [WPT reftest] css/css-pseudo/highlight-cascade/cascade-highlight-005.html
@@ -900,11 +883,11 @@
   reference: css/css-pseudo/highlight-cascade/cascade-highlight-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014475278604686665, diffPixels=12137
+  canary page 1: diffRatio=0.01477225020990764, diffPixels=12386
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014475278604686665, diffPixels=12137
+  stable page 1: diffRatio=0.01477225020990764, diffPixels=12386
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/cascade-highlight-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0106] [WPT reftest] css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001.html
@@ -913,11 +896,11 @@
   reference: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0030400828181054882, diffPixels=2549
+  canary page 1: diffRatio=0.0034324669872528813, diffPixels=2878
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0030400828181054882, diffPixels=2549
+  stable page 1: diffRatio=0.0034324669872528813, diffPixels=2878
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0107] [WPT reftest] css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002.html
@@ -926,11 +909,11 @@
   reference: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00583209297000229, diffPixels=4890
+  canary page 1: diffRatio=0.006556035798793985, diffPixels=5497
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00583209297000229, diffPixels=4890
+  stable page 1: diffRatio=0.006556035798793985, diffPixels=5497
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-properties-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0108] [WPT reftest] css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001.html
@@ -939,11 +922,11 @@
   reference: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002349534386688039, diffPixels=197
+  canary page 1: diffRatio=0.00022660483932524235, diffPixels=190
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002349534386688039, diffPixels=197
+  stable page 1: diffRatio=0.00022660483932524235, diffPixels=190
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0109] [WPT reftest] css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002.html
@@ -952,11 +935,11 @@
   reference: css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008694469887794825, diffPixels=729
+  canary page 1: diffRatio=0.0009600889245095795, diffPixels=805
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008694469887794825, diffPixels=729
+  stable page 1: diffRatio=0.0009600889245095795, diffPixels=805
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-cascade/highlight-currentcolor-painting-text-shadow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0111] [WPT reftest] css/css-pseudo/highlight-cascade/highlight-currentcolor-root-explicit-default-002.html
@@ -991,11 +974,11 @@
   reference: css/css-pseudo/highlight-painting-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01884398137546752, diffPixels=15800
+  canary page 1: diffRatio=0.019020494618731395, diffPixels=15948
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01884398137546752, diffPixels=15800
+  stable page 1: diffRatio=0.019020494618731395, diffPixels=15948
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0124] [WPT reftest] css/css-pseudo/highlight-painting-003.html
@@ -1004,11 +987,11 @@
   reference: css/css-pseudo/highlight-painting-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02028232577665827, diffPixels=17006
+  canary page 1: diffRatio=0.020931131211357912, diffPixels=17550
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02028232577665827, diffPixels=17006
+  stable page 1: diffRatio=0.020931131211357912, diffPixels=17550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0125] [WPT reftest] css/css-pseudo/highlight-painting-004.html
@@ -1019,19 +1002,19 @@
   reference: css/css-pseudo/highlight-painting-004-ref3.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-pseudo/highlight-painting-004-ref1.html): diffRatio=0.021235258758873367, diffPixels=17805
+  canary page 1 (css/css-pseudo/highlight-painting-004-ref1.html): diffRatio=0.02038608693992825, diffPixels=17093
   canary reference render (css/css-pseudo/highlight-painting-004-ref1.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-004-ref1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-pseudo/highlight-painting-004-ref2.html): diffRatio=0.020296637661247233, diffPixels=17018
+  canary page 1 (css/css-pseudo/highlight-painting-004-ref2.html): diffRatio=0.020312142202885276, diffPixels=17031
   canary reference render (css/css-pseudo/highlight-painting-004-ref2.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-004-ref2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-pseudo/highlight-painting-004-ref3.html): diffRatio=0.020296637661247233, diffPixels=17018
+  canary page 1 (css/css-pseudo/highlight-painting-004-ref3.html): diffRatio=0.020309756888787115, diffPixels=17029
   canary reference render (css/css-pseudo/highlight-painting-004-ref3.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-004-ref3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-pseudo/highlight-painting-004-ref1.html): diffRatio=0.021235258758873367, diffPixels=17805
+  stable page 1 (css/css-pseudo/highlight-painting-004-ref1.html): diffRatio=0.02038608693992825, diffPixels=17093
   stable reference render (css/css-pseudo/highlight-painting-004-ref1.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-004-ref1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-pseudo/highlight-painting-004-ref2.html): diffRatio=0.020296637661247233, diffPixels=17018
+  stable page 1 (css/css-pseudo/highlight-painting-004-ref2.html): diffRatio=0.020312142202885276, diffPixels=17031
   stable reference render (css/css-pseudo/highlight-painting-004-ref2.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-004-ref2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-pseudo/highlight-painting-004-ref3.html): diffRatio=0.020296637661247233, diffPixels=17018
+  stable page 1 (css/css-pseudo/highlight-painting-004-ref3.html): diffRatio=0.020309756888787115, diffPixels=17029
   stable reference render (css/css-pseudo/highlight-painting-004-ref3.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-004-ref3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0126] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-001.html
@@ -1040,11 +1023,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008455938477978781, diffPixels=709
+  canary page 1: diffRatio=0.0008408232196015571, diffPixels=705
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008455938477978781, diffPixels=709
+  stable page 1: diffRatio=0.0008408232196015571, diffPixels=705
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0127] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-001a.html
@@ -1053,11 +1036,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-001a-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008420158766506374, diffPixels=706
+  canary page 1: diffRatio=0.0008432085336997176, diffPixels=707
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008420158766506374, diffPixels=706
+  stable page 1: diffRatio=0.0008432085336997176, diffPixels=707
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-001a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0128] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-002.html
@@ -1066,11 +1049,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008980707579574078, diffPixels=753
+  canary page 1: diffRatio=0.0008300893061598351, diffPixels=696
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008980707579574078, diffPixels=753
+  stable page 1: diffRatio=0.0008300893061598351, diffPixels=696
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0129] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-002a.html
@@ -1079,11 +1062,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-002a-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008622910464850011, diffPixels=723
+  canary page 1: diffRatio=0.0008408232196015571, diffPixels=705
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008622910464850011, diffPixels=723
+  stable page 1: diffRatio=0.0008408232196015571, diffPixels=705
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0130] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-002b.html
@@ -1092,11 +1075,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-002b-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008312819632089153, diffPixels=697
+  canary page 1: diffRatio=0.0008300893061598351, diffPixels=696
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008312819632089153, diffPixels=697
+  stable page 1: diffRatio=0.0008300893061598351, diffPixels=696
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-002b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0131] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-003.html
@@ -1105,11 +1088,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  canary page 1: diffRatio=0.0008754102740248836, diffPixels=734
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008897221586138462, diffPixels=746
+  stable page 1: diffRatio=0.0008754102740248836, diffPixels=734
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0132] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-003a.html
@@ -1118,11 +1101,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-003a-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008706396458285627, diffPixels=730
+  canary page 1: diffRatio=0.0008599057323868407, diffPixels=721
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008706396458285627, diffPixels=730
+  stable page 1: diffRatio=0.0008599057323868407, diffPixels=721
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0133] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-003b.html
@@ -1131,11 +1114,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-003b-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008873368445156859, diffPixels=744
+  canary page 1: diffRatio=0.0008789882451721243, diffPixels=737
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008873368445156859, diffPixels=744
+  stable page 1: diffRatio=0.0008789882451721243, diffPixels=737
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-003b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0134] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-004.html
@@ -1144,11 +1127,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011258682543317305, diffPixels=944
+  canary page 1: diffRatio=0.0011210976261354095, diffPixels=940
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011258682543317305, diffPixels=944
+  stable page 1: diffRatio=0.0011210976261354095, diffPixels=940
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0135] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-004a.html
@@ -1157,11 +1140,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-004a-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009684375238531409, diffPixels=812
+  canary page 1: diffRatio=0.0009696301809022212, diffPixels=813
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009684375238531409, diffPixels=812
+  stable page 1: diffRatio=0.0009696301809022212, diffPixels=813
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0136] [WPT reftest] css/css-pseudo/highlight-painting-currentcolor-004b.html
@@ -1170,11 +1153,11 @@
   reference: css/css-pseudo/highlight-painting-currentcolor-004b-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011270609113808107, diffPixels=945
+  canary page 1: diffRatio=0.0011222902831844897, diffPixels=941
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011270609113808107, diffPixels=945
+  stable page 1: diffRatio=0.0011222902831844897, diffPixels=941
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-currentcolor-004b-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0140] [WPT reftest] css/css-pseudo/highlight-painting-soft-hyphens-001.html
@@ -1222,11 +1205,11 @@
   reference: css/css-pseudo/marker-and-other-pseudo-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-and-other-pseudo-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000572475383558507, diffPixels=48
+  canary page 1: diffRatio=0.00006559613769941226, diffPixels=55
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-and-other-pseudo-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-and-other-pseudo-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000572475383558507, diffPixels=48
+  stable page 1: diffRatio=0.00006559613769941226, diffPixels=55
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-and-other-pseudo-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0149] [WPT reftest] css/css-pseudo/marker-animate-002.html
@@ -1235,12 +1218,25 @@
   reference: css/css-pseudo/marker-animate-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-animate-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000014311884588962675, diffPixels=12
+  canary page 1: diffRatio=0.000010733913441722006, diffPixels=9
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-animate-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-animate-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000014311884588962675, diffPixels=12
+  stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-animate-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0159] [WPT reftest] css/css-pseudo/marker-content-006.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-pseudo/marker-content-006-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000009541256392641783, diffPixels=8
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0162] [WPT reftest] css/css-pseudo/marker-content-012.html
   triage: pending
@@ -1248,11 +1244,11 @@
   reference: css/css-pseudo/marker-content-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005582827646744524, diffPixels=4681
+  canary page 1: diffRatio=0.006020532783756965, diffPixels=5048
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005582827646744524, diffPixels=4681
+  stable page 1: diffRatio=0.006020532783756965, diffPixels=5048
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0163] [WPT reftest] css/css-pseudo/marker-content-013.html
@@ -1261,11 +1257,11 @@
   reference: css/css-pseudo/marker-content-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003499255782001374, diffPixels=2934
+  canary page 1: diffRatio=0.0034658613846271277, diffPixels=2906
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003499255782001374, diffPixels=2934
+  stable page 1: diffRatio=0.0034658613846271277, diffPixels=2906
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0169] [WPT reftest] css/css-pseudo/marker-content-019.html
@@ -1274,11 +1270,11 @@
   reference: css/css-pseudo/marker-content-019-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.015163441722005953, diffPixels=12714
+  canary page 1: diffRatio=0.015270780856423173, diffPixels=12804
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-content-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.015163441722005953, diffPixels=12714
+  stable page 1: diffRatio=0.015270780856423173, diffPixels=12804
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-content-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0176] [WPT reftest] css/css-pseudo/marker-font-properties.html
@@ -1313,11 +1309,11 @@
   reference: css/css-pseudo/marker-intrinsic-contribution-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-intrinsic-contribution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001150914052362415, diffPixels=965
+  canary page 1: diffRatio=0.0011366021677734525, diffPixels=953
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-intrinsic-contribution-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-intrinsic-contribution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001150914052362415, diffPixels=965
+  stable page 1: diffRatio=0.0011366021677734525, diffPixels=953
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-intrinsic-contribution-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0185] [WPT reftest] css/css-pseudo/marker-letter-spacing.html
@@ -1383,11 +1379,11 @@
   reference: css/css-pseudo/marker-text-decoration-skip-ink-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-text-decoration-skip-ink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007394473704297382, diffPixels=62
+  canary page 1: diffRatio=0.0000727520799938936, diffPixels=61
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/marker-text-decoration-skip-ink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-decoration-skip-ink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00007394473704297382, diffPixels=62
+  stable page 1: diffRatio=0.0000727520799938936, diffPixels=61
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/marker-text-decoration-skip-ink-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0199] [WPT reftest] css/css-pseudo/marker-text-transform-dynamic.html
@@ -1448,11 +1444,11 @@
   reference: css/css-pseudo/relative-box-order-of-pseudo-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/relative-box-order-of-pseudo-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007031905961376994, diffPixels=5896
+  canary page 1: diffRatio=0.007155942294481337, diffPixels=6000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/relative-box-order-of-pseudo-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/relative-box-order-of-pseudo-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007031905961376994, diffPixels=5896
+  stable page 1: diffRatio=0.007155942294481337, diffPixels=6000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/relative-box-order-of-pseudo-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0213] [WPT reftest] css/css-pseudo/selection-background-color-001.html
@@ -1461,11 +1457,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0216] [WPT reftest] css/css-pseudo/selection-background-color-transparent.html
@@ -1488,15 +1484,15 @@
   reference: css/css-pseudo/selection-background-painting-order-ref2.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-background-painting-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-pseudo/selection-background-painting-order-ref1.html): diffRatio=0.006373559270284711, diffPixels=5344
+  canary page 1 (css/css-pseudo/selection-background-painting-order-ref1.html): diffRatio=0.006550072513548584, diffPixels=5492
   canary reference render (css/css-pseudo/selection-background-painting-order-ref1.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-background-painting-order-ref1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-pseudo/selection-background-painting-order-ref2.html): diffRatio=0.006301999847339898, diffPixels=5284
+  canary page 1 (css/css-pseudo/selection-background-painting-order-ref2.html): diffRatio=0.006483283718800092, diffPixels=5436
   canary reference render (css/css-pseudo/selection-background-painting-order-ref2.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-background-painting-order-ref2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-background-painting-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-pseudo/selection-background-painting-order-ref1.html): diffRatio=0.006373559270284711, diffPixels=5344
+  stable page 1 (css/css-pseudo/selection-background-painting-order-ref1.html): diffRatio=0.006550072513548584, diffPixels=5492
   stable reference render (css/css-pseudo/selection-background-painting-order-ref1.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-background-painting-order-ref1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1 (css/css-pseudo/selection-background-painting-order-ref2.html): diffRatio=0.006301999847339898, diffPixels=5284
+  stable page 1 (css/css-pseudo/selection-background-painting-order-ref2.html): diffRatio=0.006483283718800092, diffPixels=5436
   stable reference render (css/css-pseudo/selection-background-painting-order-ref2.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-background-painting-order-ref2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0218] [WPT reftest] css/css-pseudo/selection-contenteditable-011.html
@@ -1505,11 +1501,11 @@
   reference: css/css-pseudo/reference/selection-contenteditable-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-contenteditable-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01487481871612854, diffPixels=12472
+  canary page 1: diffRatio=0.015180138920693077, diffPixels=12728
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/selection-contenteditable-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-contenteditable-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01487481871612854, diffPixels=12472
+  stable page 1: diffRatio=0.015180138920693077, diffPixels=12728
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-contenteditable-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0219] [WPT reftest] css/css-pseudo/selection-input-011.html
@@ -1518,11 +1514,11 @@
   reference: css/css-pseudo/reference/selection-input-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-input-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.022555530112205176, diffPixels=18912
+  canary page 1: diffRatio=0.02300158384856118, diffPixels=19286
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/selection-input-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-input-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022555530112205176, diffPixels=18912
+  stable page 1: diffRatio=0.02300158384856118, diffPixels=19286
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-input-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0220] [WPT reftest] css/css-pseudo/selection-intercharacter-011.html
@@ -1531,11 +1527,11 @@
   reference: css/css-pseudo/reference/selection-intercharacter-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-intercharacter-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03298173803526448, diffPixels=27654
+  canary page 1: diffRatio=0.033163021906724675, diffPixels=27806
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/selection-intercharacter-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-intercharacter-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03298173803526448, diffPixels=27654
+  stable page 1: diffRatio=0.033163021906724675, diffPixels=27806
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-intercharacter-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0221] [WPT reftest] css/css-pseudo/selection-intercharacter-012.html
@@ -1544,11 +1540,11 @@
   reference: css/css-pseudo/reference/selection-intercharacter-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-intercharacter-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03691631364018014, diffPixels=30953
+  canary page 1: diffRatio=0.03709759751164033, diffPixels=31105
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/selection-intercharacter-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-intercharacter-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03691631364018014, diffPixels=30953
+  stable page 1: diffRatio=0.03709759751164033, diffPixels=31105
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-intercharacter-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0225] [WPT reftest] css/css-pseudo/selection-originating-decoration-color.html
@@ -1557,11 +1553,11 @@
   reference: css/css-pseudo/selection-originating-decoration-color-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-originating-decoration-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007420712159377147, diffPixels=6222
+  canary page 1: diffRatio=0.007411170902984505, diffPixels=6214
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-originating-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-originating-decoration-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007420712159377147, diffPixels=6222
+  stable page 1: diffRatio=0.007411170902984505, diffPixels=6214
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-originating-decoration-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0227] [WPT reftest] css/css-pseudo/selection-originating-underline-order.html
@@ -1583,11 +1579,11 @@
   reference: css/css-pseudo/selection-over-highlight-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-over-highlight-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005839248912296771, diffPixels=4896
+  canary page 1: diffRatio=0.0062053946263644, diffPixels=5203
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-over-highlight-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-over-highlight-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005839248912296771, diffPixels=4896
+  stable page 1: diffRatio=0.0062053946263644, diffPixels=5203
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-over-highlight-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0229] [WPT reftest] css/css-pseudo/selection-overlay-and-grammar-001.html
@@ -1596,11 +1592,11 @@
   reference: css/css-pseudo/reference/selection-overlay-and-grammar-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-overlay-and-grammar-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04386831157926876, diffPixels=36782
+  canary page 1: diffRatio=0.04395060491565529, diffPixels=36851
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/selection-overlay-and-grammar-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-overlay-and-grammar-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04386831157926876, diffPixels=36782
+  stable page 1: diffRatio=0.04395060491565529, diffPixels=36851
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-overlay-and-grammar-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0230] [WPT reftest] css/css-pseudo/selection-overlay-and-spelling-001.html
@@ -1635,11 +1631,11 @@
   reference: css/css-pseudo/reference/selection-textarea-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-textarea-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.027793679871765516, diffPixels=23304
+  canary page 1: diffRatio=0.028067990993053966, diffPixels=23534
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/selection-textarea-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-textarea-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.027793679871765516, diffPixels=23304
+  stable page 1: diffRatio=0.028067990993053966, diffPixels=23534
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/selection-textarea-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0235] [WPT reftest] css/css-pseudo/selection-transparent-text-ua-background.html
@@ -1752,11 +1748,11 @@
   reference: css/css-pseudo/spelling-error-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/spelling-error-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007561445691168613, diffPixels=634
+  canary page 1: diffRatio=0.0007322914281352569, diffPixels=614
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/spelling-error-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/spelling-error-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007561445691168613, diffPixels=634
+  stable page 1: diffRatio=0.0007322914281352569, diffPixels=614
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/spelling-error-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0245] [WPT reftest] css/css-pseudo/svg-text-selection-002.html
@@ -1825,6 +1821,14 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/svg-text-selection-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0003] [WPT reftest] css/css-pseudo/active-selection-014.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0051] [WPT reftest] css/css-pseudo/first-letter-of-html-root-refcrash.html
   triage: pending

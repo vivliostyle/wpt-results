@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 31
-- Entries with differences: 19 (pending: 19, triaged: 0)
+- Entries with differences: 18 (pending: 18, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":12,"known-fail":19}
+- Outcome summary: {"pass":13,"known-fail":18}
 
 ## Differences
 
@@ -217,19 +217,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/scrollbar-width-paint-006-mis-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0028] [WPT reftest] css/css-scrollbars/textarea-scrollbar-width-none.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-scrollbars/textarea-scrollbar-width-none-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/textarea-scrollbar-width-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017043069231356385, diffPixels=1429
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/textarea-scrollbar-width-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/textarea-scrollbar-width-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0017043069231356385, diffPixels=1429
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-scrollbars/textarea-scrollbar-width-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-scrollbars/viewport-scrollbar-body.html
   triage: pending

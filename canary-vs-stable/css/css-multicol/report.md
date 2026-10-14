@@ -1,40 +1,14 @@
 # canary vs stable comparison report
 
 - Compared entries: 468
-- Entries with differences: 208 (pending: 208, triaged: 0)
+- Entries with differences: 98 (pending: 98, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":259,"known-fail":208,"unchanged":1}
+- Outcome summary: {"pass":369,"known-fail":98,"unchanged":1}
 
 ## Differences
-
-- [0003] [WPT reftest] css/css-multicol/abspos-autopos-contained-by-viewport-000.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/abspos-autopos-contained-by-viewport-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/abspos-autopos-contained-by-viewport-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0004] [WPT reftest] css/css-multicol/abspos-autopos-contained-by-viewport-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/abspos-autopos-contained-by-viewport-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/abspos-autopos-contained-by-viewport-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0006] [WPT reftest] css/css-multicol/abspos-multicol-in-second-outer-clipped.html
   triage: pending
@@ -55,38 +29,77 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/ancestor-toggle-spanner-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006818420349591634, diffPixels=5717
+  canary page 1: diffRatio=0.006882823830241966, diffPixels=5771
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/ancestor-toggle-spanner-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006818420349591634, diffPixels=5717
+  stable page 1: diffRatio=0.006882823830241966, diffPixels=5771
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0010] [WPT reftest] css/css-multicol/as-column-flex-item.html
+- [0016] [WPT reftest] css/css-multicol/baseline-000.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  reference: css/css-multicol/baseline-000-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/as-column-flex-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/as-column-flex-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0015] [WPT reftest] css/css-multicol/balance-orphans-widows-000.html
+- [0019] [WPT reftest] css/css-multicol/baseline-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  reference: css/css-multicol/baseline-003-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/balance-orphans-widows-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006440348065033204, diffPixels=54
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/balance-orphans-widows-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00006440348065033204, diffPixels=54
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0020] [WPT reftest] css/css-multicol/baseline-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-multicol/baseline-004-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0021] [WPT reftest] css/css-multicol/baseline-005.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-multicol/baseline-005-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0022] [WPT reftest] css/css-multicol/baseline-006.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-multicol/baseline-006-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/baseline-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/baseline-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0027] [WPT reftest] css/css-multicol/change-fragmentainer-size-001.html
   triage: pending
@@ -94,11 +107,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/change-fragmentainer-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005844019540493092, diffPixels=4900
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/change-fragmentainer-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005844019540493092, diffPixels=4900
+  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0031] [WPT reftest] css/css-multicol/change-transform-in-nested.html
@@ -107,11 +120,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/change-transform-in-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/change-transform-in-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0032] [WPT reftest] css/css-multicol/change-transform-in-second-column.html
@@ -120,11 +133,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/change-transform-in-second-column.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/change-transform-in-second-column.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0033] [WPT reftest] css/css-multicol/change-transform-in-spanner.html
@@ -133,11 +146,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/change-transform-in-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/change-transform-in-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0034] [WPT reftest] css/css-multicol/change-transform.html
@@ -146,102 +159,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/change-transform.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/change-transform.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0041] [WPT reftest] css/css-multicol/column-height-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0042] [WPT reftest] css/css-multicol/column-height-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018605449965651476, diffPixels=156
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0043] [WPT reftest] css/css-multicol/column-height-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0044] [WPT reftest] css/css-multicol/column-height-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00046752156323944736, diffPixels=392
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00046752156323944736, diffPixels=392
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0046] [WPT reftest] css/css-multicol/column-height-006.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002103847034577513, diffPixels=1764
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002103847034577513, diffPixels=1764
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0047] [WPT reftest] css/css-multicol/column-height-007.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00002862376917792535, diffPixels=24
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00002862376917792535, diffPixels=24
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0048] [WPT reftest] css/css-multicol/column-height-008.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023376078161972368, diffPixels=196
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0049] [WPT reftest] css/css-multicol/column-height-009.html
@@ -250,102 +172,24 @@
   reference: css/css-multicol/column-height-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005557781848713839, diffPixels=466
+  canary page 1: diffRatio=0.000572475383558507, diffPixels=480
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005557781848713839, diffPixels=466
+  stable page 1: diffRatio=0.000572475383558507, diffPixels=480
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0050] [WPT reftest] css/css-multicol/column-height-010.html
+- [0061] [WPT reftest] css/css-multicol/column-height-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00011926570490802228, diffPixels=100
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0052] [WPT reftest] css/css-multicol/column-height-012.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0053] [WPT reftest] css/css-multicol/column-height-013.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011688039080986184, diffPixels=980
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011688039080986184, diffPixels=980
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0057] [WPT reftest] css/css-multicol/column-height-017.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0058] [WPT reftest] css/css-multicol/column-height-018.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007012823448591711, diffPixels=588
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007012823448591711, diffPixels=588
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0059] [WPT reftest] css/css-multicol/column-height-019.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00035064117242958554, diffPixels=294
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00035064117242958554, diffPixels=294
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0060] [WPT reftest] css/css-multicol/column-height-020.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009350431264788947, diffPixels=784
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009350431264788947, diffPixels=784
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00011926570490802228, diffPixels=100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0062] [WPT reftest] css/css-multicol/column-height-022.html
@@ -367,89 +211,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012265285092741012, diffPixels=10284
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012265285092741012, diffPixels=10284
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0064] [WPT reftest] css/css-multicol/column-height-024.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000834859934356156, diffPixels=700
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000834859934356156, diffPixels=700
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0065] [WPT reftest] css/css-multicol/column-height-025.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000023853140981604456, diffPixels=20
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000023853140981604456, diffPixels=20
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0066] [WPT reftest] css/css-multicol/column-height-026.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00035064117242958554, diffPixels=294
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00035064117242958554, diffPixels=294
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0067] [WPT reftest] css/css-multicol/column-height-027.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005844019540493092, diffPixels=490
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005844019540493092, diffPixels=490
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0068] [WPT reftest] css/css-multicol/column-height-028.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005844019540493092, diffPixels=490
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005844019540493092, diffPixels=490
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0069] [WPT reftest] css/css-multicol/column-height-029.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-height-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-height-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0072] [WPT reftest] css/css-multicol/column-rule-001.html
@@ -458,11 +224,11 @@
   reference: css/css-multicol/column-rule-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-rule-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.035185768261964734, diffPixels=29502
+  canary page 1: diffRatio=0.03577971147240669, diffPixels=30000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/column-rule-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-rule-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.035185768261964734, diffPixels=29502
+  stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/column-rule-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0075] [WPT reftest] css/css-multicol/column-wrap-no-constraints-002.html
@@ -478,56 +244,17 @@
   stable selected pages: test=[1, 2, 3], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0080] [WPT reftest] css/css-multicol/equal-gap-and-rule.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/equal-gap-and-rule.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000925501870086253, diffPixels=776
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/equal-gap-and-rule.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000925501870086253, diffPixels=776
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0085] [WPT reftest] css/css-multicol/fixed-size-child-with-overflow.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/fixed-size-child-with-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004627509350431265, diffPixels=388
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/fixed-size-child-with-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004627509350431265, diffPixels=388
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0088] [WPT reftest] css/css-multicol/fixedpos-static-pos-with-viewport-cb-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/fixedpos-static-pos-with-viewport-cb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008383186397984887, diffPixels=7029
+  canary page 1: diffRatio=0.008467865048469582, diffPixels=7100
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/fixedpos-static-pos-with-viewport-cb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008383186397984887, diffPixels=7029
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0092] [WPT reftest] css/css-multicol/inline-block-and-column-span-all.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/inline-block-and-column-span-all.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/inline-block-and-column-span-all.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
+  stable page 1: diffRatio=0.008467865048469582, diffPixels=7100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0099] [WPT reftest] css/css-multicol/large-actual-column-count.html
@@ -562,25 +289,12 @@
   reference: css/css-multicol/multicol-block-no-clip-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-block-no-clip-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003649530570185482, diffPixels=3060
+  canary page 1: diffRatio=0.003719897336081215, diffPixels=3119
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-block-no-clip-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-block-no-clip-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003649530570185482, diffPixels=3060
+  stable page 1: diffRatio=0.003719897336081215, diffPixels=3119
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-block-no-clip-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0111] [WPT reftest] css/css-multicol/multicol-block-no-clip-002.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-block-no-clip-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-block-no-clip-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-block-no-clip-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-block-no-clip-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-block-no-clip-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0130] [WPT reftest] css/css-multicol/multicol-clip-scrolled-content-001.html
   triage: pending
@@ -601,11 +315,11 @@
   reference: css/css-multicol/multicol-collapsing-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-collapsing-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008317590260285475, diffPixels=6974
+  canary page 1: diffRatio=0.008610983894359209, diffPixels=7220
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-collapsing-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-collapsing-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008317590260285475, diffPixels=6974
+  stable page 1: diffRatio=0.008610983894359209, diffPixels=7220
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-collapsing-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0135] [WPT reftest] css/css-multicol/multicol-columns-004.xht
@@ -614,11 +328,11 @@
   reference: css/css-multicol/multicol-columns-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-columns-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0366050301503702, diffPixels=30692
+  canary page 1: diffRatio=0.03696879055033967, diffPixels=30997
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-columns-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-columns-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0366050301503702, diffPixels=30692
+  stable page 1: diffRatio=0.03696879055033967, diffPixels=30997
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-columns-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0143] [WPT reftest] css/css-multicol/multicol-containing-001.xht
@@ -627,64 +341,25 @@
   reference: css/css-multicol/multicol-containing-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-containing-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018128387146019388, diffPixels=1520
+  canary page 1: diffRatio=0.0019082512785283565, diffPixels=1600
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-containing-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-containing-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018128387146019388, diffPixels=1520
+  stable page 1: diffRatio=0.0019082512785283565, diffPixels=1600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-containing-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0147] [WPT reftest] css/css-multicol/multicol-count-002.xht
+- [0144] [WPT reftest] css/css-multicol/multicol-containing-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-count-002-ref.xht (==)
+  reference: css/css-multicol/multicol-containing-002-ref.xht (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015862338752766964, diffPixels=1330
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-containing-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00006559613769941226, diffPixels=55
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-containing-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015862338752766964, diffPixels=1330
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0148] [WPT reftest] css/css-multicol/multicol-count-computed-003.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-count-computed-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-computed-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00022660483932524235, diffPixels=190
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-computed-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-computed-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00022660483932524235, diffPixels=190
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-computed-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0149] [WPT reftest] css/css-multicol/multicol-count-computed-004.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-count-computed-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-computed-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00031486146095717883, diffPixels=264
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-computed-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-computed-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00031486146095717883, diffPixels=264
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-computed-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0150] [WPT reftest] css/css-multicol/multicol-count-computed-005.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-count-computed-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-computed-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00022660483932524235, diffPixels=190
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-computed-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-computed-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00022660483932524235, diffPixels=190
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-computed-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-containing-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00006559613769941226, diffPixels=55
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-containing-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0151] [WPT reftest] css/css-multicol/multicol-count-negative-001.xht
   triage: pending
@@ -692,11 +367,11 @@
   reference: css/css-multicol/multicol-columns-invalid-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-negative-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0036256774292038776, diffPixels=3040
+  canary page 1: diffRatio=0.0037210899931302954, diffPixels=3120
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-columns-invalid-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-negative-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0036256774292038776, diffPixels=3040
+  stable page 1: diffRatio=0.0037210899931302954, diffPixels=3120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-columns-invalid-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0152] [WPT reftest] css/css-multicol/multicol-count-negative-002.xht
@@ -705,11 +380,11 @@
   reference: css/css-multicol/multicol-columns-invalid-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-negative-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0036256774292038776, diffPixels=3040
+  canary page 1: diffRatio=0.0037210899931302954, diffPixels=3120
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-columns-invalid-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-negative-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0036256774292038776, diffPixels=3040
+  stable page 1: diffRatio=0.0037210899931302954, diffPixels=3120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-columns-invalid-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0155] [WPT reftest] css/css-multicol/multicol-count-non-integer-003.xht
@@ -718,11 +393,11 @@
   reference: css/css-multicol/multicol-columns-invalid-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-non-integer-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0036256774292038776, diffPixels=3040
+  canary page 1: diffRatio=0.0037210899931302954, diffPixels=3120
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-columns-invalid-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-non-integer-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0036256774292038776, diffPixels=3040
+  stable page 1: diffRatio=0.0037210899931302954, diffPixels=3120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-columns-invalid-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0156] [WPT reftest] css/css-multicol/multicol-dynamic-add-001.html
@@ -731,11 +406,11 @@
   reference: css/css-multicol/multicol-dynamic-add-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-dynamic-add-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04494766620868636, diffPixels=37687
+  canary page 1: diffRatio=0.04586959010762537, diffPixels=38460
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-dynamic-add-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-dynamic-add-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04494766620868636, diffPixels=37687
+  stable page 1: diffRatio=0.04586959010762537, diffPixels=38460
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-dynamic-add-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0157] [WPT reftest] css/css-multicol/multicol-dynamic-add-002.html
@@ -744,11 +419,11 @@
   reference: css/css-multicol/multicol-dynamic-add-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-dynamic-add-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
+  canary page 1: diffRatio=0.000052476910159529805, diffPixels=44
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-dynamic-add-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-dynamic-add-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
+  stable page 1: diffRatio=0.000052476910159529805, diffPixels=44
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-dynamic-add-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0158] [WPT reftest] css/css-multicol/multicol-dynamic-add-003.html
@@ -783,25 +458,12 @@
   reference: css/css-multicol/multicol-dynamic-change-inside-break-inside-avoid-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-dynamic-change-inside-break-inside-avoid-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027419185558354322, diffPixels=2299
+  canary page 1: diffRatio=0.003242834516449126, diffPixels=2719
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-dynamic-change-inside-break-inside-avoid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-dynamic-change-inside-break-inside-avoid-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0027419185558354322, diffPixels=2299
+  stable page 1: diffRatio=0.003242834516449126, diffPixels=2719
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-dynamic-change-inside-break-inside-avoid-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0165] [WPT reftest] css/css-multicol/multicol-fill-auto-003.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-fill-auto-003-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013882528051293794, diffPixels=1164
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013882528051293794, diffPixels=1164
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0166] [WPT reftest] css/css-multicol/multicol-fill-auto-004.html
   triage: pending
@@ -809,11 +471,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07262804366078925, diffPixels=60896
+  canary page 1: diffRatio=0.07273299748110831, diffPixels=60984
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.07262804366078925, diffPixels=60896
+  stable page 1: diffRatio=0.07273299748110831, diffPixels=60984
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0167] [WPT reftest] css/css-multicol/multicol-fill-auto-005.html
@@ -835,11 +497,11 @@
   reference: css/css-multicol/multicol-fill-auto-block-children-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-block-children-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.17329903251660178, diffPixels=145305
+  canary page 1: diffRatio=0.17415058964964505, diffPixels=146019
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-block-children-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-block-children-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.17329903251660178, diffPixels=145305
+  stable page 1: diffRatio=0.17415058964964505, diffPixels=146019
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-block-children-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0169] [WPT reftest] css/css-multicol/multicol-fill-auto-block-children-002.xht
@@ -848,11 +510,11 @@
   reference: css/css-multicol/multicol-fill-auto-block-children-002-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-block-children-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06823787306312495, diffPixels=57215
+  canary page 1: diffRatio=0.06885209144340126, diffPixels=57730
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-block-children-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-block-children-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06823787306312495, diffPixels=57215
+  stable page 1: diffRatio=0.06885209144340126, diffPixels=57730
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-auto-block-children-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0172] [WPT reftest] css/css-multicol/multicol-fill-balance-002.html
@@ -868,43 +530,17 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0173] [WPT reftest] css/css-multicol/multicol-fill-balance-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005963285245401114, diffPixels=50
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005963285245401114, diffPixels=50
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0174] [WPT reftest] css/css-multicol/multicol-fill-balance-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0177] [WPT reftest] css/css-multicol/multicol-fill-balance-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005844019540493092, diffPixels=4900
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005844019540493092, diffPixels=4900
+  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0178] [WPT reftest] css/css-multicol/multicol-fill-balance-024.html
@@ -913,24 +549,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0059608999313029536, diffPixels=4998
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0059608999313029536, diffPixels=4998
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0181] [WPT reftest] css/css-multicol/multicol-fill-balance-030.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000572475383558507, diffPixels=48
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-030.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000572475383558507, diffPixels=48
+  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0191] [WPT reftest] css/css-multicol/multicol-fill-balance-040.html
@@ -946,84 +569,6 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0192] [WPT reftest] css/css-multicol/multicol-fill-balance-041.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0198] [WPT reftest] css/css-multicol/multicol-gap-fraction-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-gap-fraction-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-fraction-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005891725822456301, diffPixels=494
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-fraction-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-gap-fraction-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005891725822456301, diffPixels=494
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-gap-fraction-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0199] [WPT reftest] css/css-multicol/multicol-gap-fraction-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/nothing.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-fraction-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00026238455079764903, diffPixels=220
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/nothing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-gap-fraction-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00026238455079764903, diffPixels=220
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/nothing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0200] [WPT reftest] css/css-multicol/multicol-gap-large-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-gap-large-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-large-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000176513243263873, diffPixels=148
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-large-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-gap-large-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000176513243263873, diffPixels=148
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-gap-large-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0201] [WPT reftest] css/css-multicol/multicol-gap-large-002.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-gap-large-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-large-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-large-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-gap-large-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-gap-large-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0204] [WPT reftest] css/css-multicol/multicol-height-block-child-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-height-block-child-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-height-block-child-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00032559537439890085, diffPixels=273
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-height-block-child-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-height-block-child-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00032559537439890085, diffPixels=273
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-height-block-child-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0209] [WPT reftest] css/css-multicol/multicol-list-item-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1037,200 +582,18 @@
   stable page 1: diffRatio=0.01594701740325166, diffPixels=13371
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-list-item-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0218] [WPT reftest] css/css-multicol/multicol-margin-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005366956720861003, diffPixels=45
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005366956720861003, diffPixels=45
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0219] [WPT reftest] css/css-multicol/multicol-margin-child-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-multicol/multicol-margin-child-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-margin-child-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.020139206930768642, diffPixels=16886
+  canary page 1: diffRatio=0.020894158842836425, diffPixels=17519
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-margin-child-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-margin-child-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.020139206930768642, diffPixels=16886
+  stable page 1: diffRatio=0.020894158842836425, diffPixels=17519
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-margin-child-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0222] [WPT reftest] css/css-multicol/multicol-nested-007.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0227] [WPT reftest] css/css-multicol/multicol-nested-013.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0228] [WPT reftest] css/css-multicol/multicol-nested-014.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00003458705442332646, diffPixels=29
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00003458705442332646, diffPixels=29
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0229] [WPT reftest] css/css-multicol/multicol-nested-015.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0230] [WPT reftest] css/css-multicol/multicol-nested-016.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000197981070147317, diffPixels=166
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000197981070147317, diffPixels=166
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0231] [WPT reftest] css/css-multicol/multicol-nested-017.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0232] [WPT reftest] css/css-multicol/multicol-nested-018.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0233] [WPT reftest] css/css-multicol/multicol-nested-019.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0234] [WPT reftest] css/css-multicol/multicol-nested-020.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0235] [WPT reftest] css/css-multicol/multicol-nested-021.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0240] [WPT reftest] css/css-multicol/multicol-nested-026.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000572475383558507, diffPixels=48
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000572475383558507, diffPixels=48
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0241] [WPT reftest] css/css-multicol/multicol-nested-027.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0242] [WPT reftest] css/css-multicol/multicol-nested-028.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00002981642622700557, diffPixels=25
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00002981642622700557, diffPixels=25
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0249] [WPT reftest] css/css-multicol/multicol-nested-column-rule-002.html
   triage: pending
@@ -1238,38 +601,25 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-column-rule-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014168765743073047, diffPixels=1188
+  canary page 1: diffRatio=0.0014311884588962675, diffPixels=1200
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-column-rule-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014168765743073047, diffPixels=1188
+  stable page 1: diffRatio=0.0014311884588962675, diffPixels=1200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0254] [WPT reftest] css/css-multicol/multicol-nested-margin-004.xht
+- [0264] [WPT reftest] css/css-multicol/multicol-reduce-000.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-nested-margin-004-ref.xht (==)
+  reference: css/css-multicol/multicol-reduce-000-ref.xht (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-margin-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0099503377604763, diffPixels=8343
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-margin-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-reduce-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00001669719868712312, diffPixels=14
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-reduce-000-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-margin-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0099503377604763, diffPixels=8343
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-margin-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0255] [WPT reftest] css/css-multicol/multicol-nested-margin-005.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-nested-margin-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-margin-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0099503377604763, diffPixels=8343
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-margin-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-margin-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0099503377604763, diffPixels=8343
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-margin-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-reduce-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00001669719868712312, diffPixels=14
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-reduce-000-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0282] [WPT reftest] css/css-multicol/multicol-rule-large-001.xht
   triage: pending
@@ -1277,38 +627,12 @@
   reference: css/css-multicol/multicol-rule-large-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-rule-large-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0031486146095717885, diffPixels=2640
+  canary page 1: diffRatio=0.002862376917792535, diffPixels=2400
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-rule-large-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-rule-large-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0031486146095717885, diffPixels=2640
+  stable page 1: diffRatio=0.002862376917792535, diffPixels=2400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-rule-large-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0290] [WPT reftest] css/css-multicol/multicol-rule-px-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-rule-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-rule-px-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000035779711472406687, diffPixels=3
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-rule-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-rule-px-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000035779711472406687, diffPixels=3
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-rule-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0294] [WPT reftest] css/css-multicol/multicol-rule-shorthand-2.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-rule-shorthand-2-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-rule-shorthand-2.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000035779711472406687, diffPixels=3
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-rule-shorthand-2-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-rule-shorthand-2.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000035779711472406687, diffPixels=3
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-rule-shorthand-2-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0296] [WPT reftest] css/css-multicol/multicol-rule-stacking-001.xht
   triage: pending
@@ -1316,64 +640,12 @@
   reference: css/css-multicol/multicol-rule-stacking-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-rule-stacking-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0029208171131974658, diffPixels=2449
+  canary page 1: diffRatio=0.0030150370200748033, diffPixels=2528
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-rule-stacking-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-rule-stacking-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0029208171131974658, diffPixels=2449
+  stable page 1: diffRatio=0.0030150370200748033, diffPixels=2528
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-rule-stacking-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0298] [WPT reftest] css/css-multicol/multicol-shorthand-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-rule-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-shorthand-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0000035779711472406687, diffPixels=3
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-rule-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-shorthand-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000035779711472406687, diffPixels=3
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-rule-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0299] [WPT reftest] css/css-multicol/multicol-span-000.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-span-000-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001717426150675521, diffPixels=144
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-000-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001717426150675521, diffPixels=144
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-000-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0300] [WPT reftest] css/css-multicol/multicol-span-all-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-span-all-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00008348599343561561, diffPixels=70
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0302] [WPT reftest] css/css-multicol/multicol-span-all-003.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-count-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015778852759331349, diffPixels=1323
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015778852759331349, diffPixels=1323
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0306] [WPT reftest] css/css-multicol/multicol-span-all-007.html
   triage: pending
@@ -1381,11 +653,11 @@
   reference: css/css-multicol/multicol-span-all-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014144912602091443, diffPixels=1186
+  canary page 1: diffRatio=0.0014311884588962675, diffPixels=1200
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014144912602091443, diffPixels=1186
+  stable page 1: diffRatio=0.0014311884588962675, diffPixels=1200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0308] [WPT reftest] css/css-multicol/multicol-span-all-009.html
@@ -1394,77 +666,12 @@
   reference: css/css-multicol/multicol-span-all-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0028206339210747272, diffPixels=2365
+  canary page 1: diffRatio=0.0023447637584917184, diffPixels=1966
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0028206339210747272, diffPixels=2365
+  stable page 1: diffRatio=0.0023447637584917184, diffPixels=1966
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0311] [WPT reftest] css/css-multicol/multicol-span-all-012.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0312] [WPT reftest] css/css-multicol/multicol-span-all-013.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0314] [WPT reftest] css/css-multicol/multicol-span-all-015.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0316] [WPT reftest] css/css-multicol/multicol-span-all-018.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004090813678345164, diffPixels=343
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004090813678345164, diffPixels=343
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0317] [WPT reftest] css/css-multicol/multicol-span-all-019.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00035064117242958554, diffPixels=294
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00035064117242958554, diffPixels=294
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0320] [WPT reftest] css/css-multicol/multicol-span-all-button-001.html
   triage: pending
@@ -1472,11 +679,11 @@
   reference: css/css-multicol/multicol-span-all-button-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003772374246240745, diffPixels=3163
+  canary page 1: diffRatio=0.006109982062437982, diffPixels=5123
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003772374246240745, diffPixels=3163
+  stable page 1: diffRatio=0.006109982062437982, diffPixels=5123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0321] [WPT reftest] css/css-multicol/multicol-span-all-button-002.html
@@ -1485,11 +692,11 @@
   reference: css/css-multicol/multicol-span-all-button-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003922649034424853, diffPixels=3289
+  canary page 1: diffRatio=0.006390256468971834, diffPixels=5358
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003922649034424853, diffPixels=3289
+  stable page 1: diffRatio=0.006390256468971834, diffPixels=5358
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0322] [WPT reftest] css/css-multicol/multicol-span-all-button-003.html
@@ -1498,90 +705,12 @@
   reference: css/css-multicol/multicol-span-all-button-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003922649034424853, diffPixels=3289
+  canary page 1: diffRatio=0.006390256468971834, diffPixels=5358
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003922649034424853, diffPixels=3289
+  stable page 1: diffRatio=0.006390256468971834, diffPixels=5358
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-button-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0325] [WPT reftest] css/css-multicol/multicol-span-all-children-height-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-span-all-children-height-003-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable selected pages: test=[1, 2], reference=[1]
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0332] [WPT reftest] css/css-multicol/multicol-span-all-children-height-009.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0333] [WPT reftest] css/css-multicol/multicol-span-all-children-height-010.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0334] [WPT reftest] css/css-multicol/multicol-span-all-children-height-011.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0335] [WPT reftest] css/css-multicol/multicol-span-all-children-height-012.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0336] [WPT reftest] css/css-multicol/multicol-span-all-children-height-013.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-children-height-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0337] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-001.html
   triage: pending
@@ -1589,11 +718,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0029732940233569956, diffPixels=2493
+  canary page 1: diffRatio=0.0030532020456453704, diffPixels=2560
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0029732940233569956, diffPixels=2493
+  stable page 1: diffRatio=0.0030532020456453704, diffPixels=2560
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0338] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-002.html
@@ -1602,11 +731,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027073315014121057, diffPixels=2270
+  canary page 1: diffRatio=0.0027478818410808336, diffPixels=2304
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0027073315014121057, diffPixels=2270
+  stable page 1: diffRatio=0.0027478818410808336, diffPixels=2304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0339] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-003.html
@@ -1615,11 +744,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027073315014121057, diffPixels=2270
+  canary page 1: diffRatio=0.0027478818410808336, diffPixels=2304
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0027073315014121057, diffPixels=2270
+  stable page 1: diffRatio=0.0027478818410808336, diffPixels=2304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0340] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-004.html
@@ -1628,11 +757,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005222645217922296, diffPixels=4379
+  canary page 1: diffRatio=0.005467139912983742, diffPixels=4584
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005222645217922296, diffPixels=4379
+  stable page 1: diffRatio=0.005467139912983742, diffPixels=4584
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0341] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-005.html
@@ -1641,11 +770,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002552286085031677, diffPixels=214
+  canary page 1: diffRatio=0.00028504503473017327, diffPixels=239
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002552286085031677, diffPixels=214
+  stable page 1: diffRatio=0.00028504503473017327, diffPixels=239
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0342] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-006.html
@@ -1654,11 +783,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002467607434546981, diffPixels=2069
+  canary page 1: diffRatio=0.0024568735211052592, diffPixels=2060
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002467607434546981, diffPixels=2069
+  stable page 1: diffRatio=0.0024568735211052592, diffPixels=2060
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0343] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-007.html
@@ -1667,11 +796,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00034706320128234484, diffPixels=291
+  canary page 1: diffRatio=0.0004007327684909549, diffPixels=336
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00034706320128234484, diffPixels=291
+  stable page 1: diffRatio=0.0004007327684909549, diffPixels=336
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0344] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-008.html
@@ -1680,11 +809,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-008-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0037151267078848944, diffPixels=3115
+  canary page 1: diffRatio=0.0032285226318601633, diffPixels=2707
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0037151267078848944, diffPixels=3115
+  stable page 1: diffRatio=0.0032285226318601633, diffPixels=2707
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0345] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-009.html
@@ -1693,11 +822,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011103637126936875, diffPixels=931
+  canary page 1: diffRatio=0.0011163269979390885, diffPixels=936
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0011103637126936875, diffPixels=931
+  stable page 1: diffRatio=0.0011163269979390885, diffPixels=936
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0346] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-010.html
@@ -1745,11 +874,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-013-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00022183421112892147, diffPixels=186
+  canary page 1: diffRatio=0.000251650637355927, diffPixels=211
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00022183421112892147, diffPixels=186
+  stable page 1: diffRatio=0.000251650637355927, diffPixels=211
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0350] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-add-014.html
@@ -1758,11 +887,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-add-014-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027538451263262346, diffPixels=2309
+  canary page 1: diffRatio=0.0027800835814059993, diffPixels=2331
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0027538451263262346, diffPixels=2309
+  stable page 1: diffRatio=0.0027800835814059993, diffPixels=2331
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-add-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0351] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-remove-001.html
@@ -1771,11 +900,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0029732940233569956, diffPixels=2493
+  canary page 1: diffRatio=0.0030532020456453704, diffPixels=2560
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0029732940233569956, diffPixels=2493
+  stable page 1: diffRatio=0.0030532020456453704, diffPixels=2560
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0352] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-remove-002.html
@@ -1784,11 +913,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-remove-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027073315014121057, diffPixels=2270
+  canary page 1: diffRatio=0.0027478818410808336, diffPixels=2304
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0027073315014121057, diffPixels=2270
+  stable page 1: diffRatio=0.0027478818410808336, diffPixels=2304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0353] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-remove-003.html
@@ -1797,11 +926,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027073315014121057, diffPixels=2270
+  canary page 1: diffRatio=0.0027478818410808336, diffPixels=2304
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0027073315014121057, diffPixels=2270
+  stable page 1: diffRatio=0.0027478818410808336, diffPixels=2304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0354] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-remove-004.html
@@ -1810,11 +939,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-remove-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003527879551179299, diffPixels=2958
+  canary page 1: diffRatio=0.003655493855430883, diffPixels=3065
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003527879551179299, diffPixels=2958
+  stable page 1: diffRatio=0.003655493855430883, diffPixels=3065
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0355] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-remove-005.html
@@ -1823,11 +952,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-remove-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006410531638806198, diffPixels=5375
+  canary page 1: diffRatio=0.0057879646591863215, diffPixels=4853
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006410531638806198, diffPixels=5375
+  stable page 1: diffRatio=0.0057879646591863215, diffPixels=4853
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0356] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-remove-006.html
@@ -1836,11 +965,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003232100603007404, diffPixels=2710
+  canary page 1: diffRatio=0.0033132012823448593, diffPixels=2778
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003232100603007404, diffPixels=2710
+  stable page 1: diffRatio=0.0033132012823448593, diffPixels=2778
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0357] [WPT reftest] css/css-multicol/multicol-span-all-dynamic-remove-007.html
@@ -1849,11 +978,11 @@
   reference: css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004854114189756507, diffPixels=407
+  canary page 1: diffRatio=0.00048302610487749027, diffPixels=405
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004854114189756507, diffPixels=407
+  stable page 1: diffRatio=0.00048302610487749027, diffPixels=405
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-dynamic-remove-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0358] [WPT reftest] css/css-multicol/multicol-span-all-fieldset-001.html
@@ -1862,11 +991,11 @@
   reference: css/css-multicol/multicol-span-all-fieldset-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002134856117853599, diffPixels=1790
+  canary page 1: diffRatio=0.0027371479276391115, diffPixels=2295
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002134856117853599, diffPixels=1790
+  stable page 1: diffRatio=0.0027371479276391115, diffPixels=2295
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0359] [WPT reftest] css/css-multicol/multicol-span-all-fieldset-002.html
@@ -1875,11 +1004,11 @@
   reference: css/css-multicol/multicol-span-all-fieldset-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021622872299824443, diffPixels=1813
+  canary page 1: diffRatio=0.0028504503473017325, diffPixels=2390
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021622872299824443, diffPixels=1813
+  stable page 1: diffRatio=0.0028504503473017325, diffPixels=2390
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0360] [WPT reftest] css/css-multicol/multicol-span-all-fieldset-003.html
@@ -1888,38 +1017,12 @@
   reference: css/css-multicol/multicol-span-all-fieldset-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002165865201129685, diffPixels=1816
+  canary page 1: diffRatio=0.0028385237768109306, diffPixels=2380
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002165865201129685, diffPixels=1816
+  stable page 1: diffRatio=0.0028385237768109306, diffPixels=2380
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-fieldset-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0363] [WPT reftest] css/css-multicol/multicol-span-all-margin-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-span-all-margin-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009541256392641782, diffPixels=80
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0364] [WPT reftest] css/css-multicol/multicol-span-all-margin-002.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-span-all-margin-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007155942294481337, diffPixels=600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007155942294481337, diffPixels=600
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0366] [WPT reftest] css/css-multicol/multicol-span-all-margin-bottom-001.xht
   triage: pending
@@ -1927,11 +1030,11 @@
   reference: css/css-multicol/multicol-span-all-margin-bottom-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-bottom-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01102015113350126, diffPixels=9240
+  canary page 1: diffRatio=0.010447675749942752, diffPixels=8760
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-bottom-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-bottom-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01102015113350126, diffPixels=9240
+  stable page 1: diffRatio=0.010447675749942752, diffPixels=8760
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-bottom-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0368] [WPT reftest] css/css-multicol/multicol-span-all-margin-nested-002.xht
@@ -1940,25 +1043,12 @@
   reference: css/css-multicol/multicol-span-all-margin-nested-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-nested-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01903480650332036, diffPixels=15960
+  canary page 1: diffRatio=0.019725354934737805, diffPixels=16539
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-nested-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-nested-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01903480650332036, diffPixels=15960
+  stable page 1: diffRatio=0.019725354934737805, diffPixels=16539
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-nested-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0369] [WPT reftest] css/css-multicol/multicol-span-all-margin-nested-firstchild-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-span-all-margin-nested-firstchild-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-nested-firstchild-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001622013586749103, diffPixels=136
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-nested-firstchild-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-nested-firstchild-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0001622013586749103, diffPixels=136
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-nested-firstchild-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0370] [WPT reftest] css/css-multicol/multicol-span-all-restyle-001.html
   triage: pending
@@ -1966,11 +1056,11 @@
   reference: css/css-multicol/multicol-span-all-restyle-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016982243721853293, diffPixels=14239
+  canary page 1: diffRatio=0.01793159873292115, diffPixels=15035
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.016982243721853293, diffPixels=14239
+  stable page 1: diffRatio=0.01793159873292115, diffPixels=15035
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0371] [WPT reftest] css/css-multicol/multicol-span-all-restyle-002.html
@@ -1992,11 +1082,11 @@
   reference: css/css-multicol/multicol-span-all-restyle-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0465374780551103, diffPixels=39020
+  canary page 1: diffRatio=0.04701454087474238, diffPixels=39420
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0465374780551103, diffPixels=39020
+  stable page 1: diffRatio=0.04701454087474238, diffPixels=39420
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0373] [WPT reftest] css/css-multicol/multicol-span-all-restyle-004.html
@@ -2005,11 +1095,11 @@
   reference: css/css-multicol/multicol-span-all-restyle-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009933640561789176, diffPixels=8329
+  canary page 1: diffRatio=0.009927677276543775, diffPixels=8324
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009933640561789176, diffPixels=8329
+  stable page 1: diffRatio=0.009927677276543775, diffPixels=8324
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-restyle-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0375] [WPT reftest] css/css-multicol/multicol-span-all-rule-002.html
@@ -2018,11 +1108,11 @@
   reference: css/css-multicol/multicol-span-all-rule-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-rule-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.11428755438516144, diffPixels=95826
+  canary page 1: diffRatio=0.1144950767117014, diffPixels=96000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-rule-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-rule-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.11428755438516144, diffPixels=95826
+  stable page 1: diffRatio=0.1144950767117014, diffPixels=96000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-rule-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0376] [WPT reftest] css/css-multicol/multicol-span-auto-size-in-vertical-writing-mode-001.html
@@ -2031,11 +1121,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-auto-size-in-vertical-writing-mode-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005903652392947103, diffPixels=4950
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-auto-size-in-vertical-writing-mode-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005903652392947103, diffPixels=4950
+  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0377] [WPT reftest] css/css-multicol/multicol-span-auto-size-in-vertical-writing-mode-002.html
@@ -2044,38 +1134,12 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-auto-size-in-vertical-writing-mode-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005903652392947103, diffPixels=4950
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-auto-size-in-vertical-writing-mode-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005903652392947103, diffPixels=4950
+  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0378] [WPT reftest] css/css-multicol/multicol-span-float-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-span-float-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-float-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00036256774292038775, diffPixels=304
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-float-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-float-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00036256774292038775, diffPixels=304
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-float-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0382] [WPT reftest] css/css-multicol/multicol-span-none-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-span-none-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-none-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00009779787802457828, diffPixels=82
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-none-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-none-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00009779787802457828, diffPixels=82
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-none-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0383] [WPT reftest] css/css-multicol/multicol-under-vertical-rl-scroll.html
   triage: pending
@@ -2096,11 +1160,11 @@
   reference: css/css-multicol/multicol-width-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-width-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00013834821769330584, diffPixels=116
+  canary page 1: diffRatio=0.00014311884588962676, diffPixels=120
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-width-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-width-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00013834821769330584, diffPixels=116
+  stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-width-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0389] [WPT reftest] css/css-multicol/multicol-width-ch-001.html
@@ -2109,77 +1173,12 @@
   reference: css/css-multicol/multicol-width-ch-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-width-ch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005963285245401114, diffPixels=50
+  canary page 1: diffRatio=0.00002981642622700557, diffPixels=25
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-width-ch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-width-ch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005963285245401114, diffPixels=50
+  stable page 1: diffRatio=0.00002981642622700557, diffPixels=25
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-width-ch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0391] [WPT reftest] css/css-multicol/multicol-width-count-002.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-count-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-width-count-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015862338752766964, diffPixels=1330
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-width-count-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015862338752766964, diffPixels=1330
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0395] [WPT reftest] css/css-multicol/multicol-width-negative-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-count-002-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-width-negative-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015862338752766964, diffPixels=1330
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-count-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-width-negative-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0015862338752766964, diffPixels=1330
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-count-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0397] [WPT reftest] css/css-multicol/multicol-zero-height-001.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-zero-height-001-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-zero-height-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00047587016258300894, diffPixels=399
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-zero-height-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-zero-height-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00047587016258300894, diffPixels=399
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-zero-height-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0398] [WPT reftest] css/css-multicol/multicol-zero-height-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-zero-height-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-zero-height-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006321082360125182, diffPixels=530
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-zero-height-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-zero-height-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006321082360125182, diffPixels=530
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-zero-height-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0399] [WPT reftest] css/css-multicol/multicol-zero-height-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/multicol-zero-height-003-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-zero-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002862376917792535, diffPixels=2400
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-zero-height-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-zero-height-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002862376917792535, diffPixels=2400
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-zero-height-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0400] [WPT reftest] css/css-multicol/named-page.html
   triage: pending
@@ -2192,97 +1191,6 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/named-page.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2], reference=[1]
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0402] [WPT reftest] css/css-multicol/nested-at-outer-boundary-as-fieldset.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/nested-at-outer-boundary-as-fieldset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018605449965651476, diffPixels=156
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/nested-at-outer-boundary-as-fieldset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0404] [WPT reftest] css/css-multicol/nested-at-outer-boundary-as-legend.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/nested-at-outer-boundary-as-legend.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018605449965651476, diffPixels=156
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/nested-at-outer-boundary-as-legend.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0405] [WPT reftest] css/css-multicol/nested-floated-multicol-with-monolithic-child.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/nested-floated-multicol-with-monolithic-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/nested-floated-multicol-with-monolithic-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0407] [WPT reftest] css/css-multicol/nested-past-fragmentation-line.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/nested-past-fragmentation-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/nested-past-fragmentation-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0408] [WPT reftest] css/css-multicol/nested-with-padding-and-spanner.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/nested-with-padding-and-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/nested-with-padding-and-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0413] [WPT reftest] css/css-multicol/oof-nested-in-single-column.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/oof-nested-in-single-column.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/oof-nested-in-single-column.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0415] [WPT reftest] css/css-multicol/orthogonal-writing-mode-spanner.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/orthogonal-writing-mode-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/orthogonal-writing-mode-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0419] [WPT reftest] css/css-multicol/page-property-ignored.html
@@ -2298,238 +1206,17 @@
   stable selected pages: test=[1, 2, 3], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0420] [WPT reftest] css/css-multicol/paint-containment-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/paint-containment-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/paint-containment-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0421] [WPT reftest] css/css-multicol/parallel-flow-after-spanner-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/parallel-flow-after-spanner-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/parallel-flow-after-spanner-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0422] [WPT reftest] css/css-multicol/parallel-flow-after-spanner-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/parallel-flow-after-spanner-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/parallel-flow-after-spanner-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0425] [WPT reftest] css/css-multicol/remove-child-in-strict-containment-also-spanner.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/remove-child-in-strict-containment-also-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/remove-child-in-strict-containment-also-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0427] [WPT reftest] css/css-multicol/remove-transform-descendant-becomes-spanner.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/remove-transform-descendant-becomes-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00856804824059232, diffPixels=7184
+  canary page 1: diffRatio=0.008732634913365392, diffPixels=7322
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/remove-transform-descendant-becomes-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00856804824059232, diffPixels=7184
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0431] [WPT reftest] css/css-multicol/resize-multicol-with-fixed-size-children.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/resize-multicol-with-fixed-size-children.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/resize-multicol-with-fixed-size-children.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0433] [WPT reftest] css/css-multicol/spanner-fragmentation-000.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0434] [WPT reftest] css/css-multicol/spanner-fragmentation-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0435] [WPT reftest] css/css-multicol/spanner-fragmentation-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023376078161972368, diffPixels=196
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0436] [WPT reftest] css/css-multicol/spanner-fragmentation-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0437] [WPT reftest] css/css-multicol/spanner-fragmentation-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0438] [WPT reftest] css/css-multicol/spanner-fragmentation-005.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0439] [WPT reftest] css/css-multicol/spanner-fragmentation-006.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011568773376078162, diffPixels=97
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011568773376078162, diffPixels=97
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0440] [WPT reftest] css/css-multicol/spanner-fragmentation-007.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0441] [WPT reftest] css/css-multicol/spanner-fragmentation-008.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0442] [WPT reftest] css/css-multicol/spanner-fragmentation-009.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000023853140981604456, diffPixels=20
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000023853140981604456, diffPixels=20
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0443] [WPT reftest] css/css-multicol/spanner-fragmentation-010.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00005844019540493092, diffPixels=49
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0444] [WPT reftest] css/css-multicol/spanner-fragmentation-011.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000023853140981604456, diffPixels=20
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000023853140981604456, diffPixels=20
+  stable page 1: diffRatio=0.008732634913365392, diffPixels=7322
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0445] [WPT reftest] css/css-multicol/spanner-fragmentation-012.html
@@ -2538,63 +1225,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011864552324250058, diffPixels=9948
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-fragmentation-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011864552324250058, diffPixels=9948
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0446] [WPT reftest] css/css-multicol/spanner-in-child-after-parallel-flow-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-in-child-after-parallel-flow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-in-child-after-parallel-flow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0447] [WPT reftest] css/css-multicol/spanner-in-child-after-parallel-flow-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-in-child-after-parallel-flow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-in-child-after-parallel-flow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0448] [WPT reftest] css/css-multicol/spanner-in-child-after-parallel-flow-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-in-child-after-parallel-flow-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-in-child-after-parallel-flow-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0449] [WPT reftest] css/css-multicol/spanner-in-child-after-parallel-flow-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-in-child-after-parallel-flow-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-in-child-after-parallel-flow-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0450] [WPT reftest] css/css-multicol/spanner-in-opacity.html
@@ -2603,25 +1238,12 @@
   reference: css/css-multicol/spanner-in-opacity-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-in-opacity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/spanner-in-opacity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-in-opacity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/spanner-in-opacity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0451] [WPT reftest] css/css-multicol/subpixel-column-rule-width.tentative.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-multicol/reference/subpixel-column-rule-width-ref.tentative.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/subpixel-column-rule-width.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005844019540493092, diffPixels=490
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/reference/subpixel-column-rule-width-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/subpixel-column-rule-width.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0005844019540493092, diffPixels=490
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/reference/subpixel-column-rule-width-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0457] [WPT reftest] css/css-multicol/table/table-cell-content-change-000.html
   triage: pending
@@ -2649,68 +1271,16 @@
   stable page 1: diffRatio=0.011423269216090375, diffPixels=9578
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/table/table-cell-content-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0459] [WPT reftest] css/css-multicol/table/table-cell-multicol-nested-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/table/table-cell-multicol-nested-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011568773376078162, diffPixels=97
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/table/table-cell-multicol-nested-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011568773376078162, diffPixels=97
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0460] [WPT reftest] css/css-multicol/table/table-cell-multicol-nested-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/table/table-cell-multicol-nested-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011568773376078162, diffPixels=97
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/table/table-cell-multicol-nested-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011568773376078162, diffPixels=97
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0461] [WPT reftest] css/css-multicol/table/table-cell-multicol-nested-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/table/table-cell-multicol-nested-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/table/table-cell-multicol-nested-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0462] [WPT reftest] css/css-multicol/with-custom-layout-on-same-element.https.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/with-custom-layout-on-same-element.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00679814517975727, diffPixels=5700
+  canary page 1: diffRatio=0.006917410884665293, diffPixels=5800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/with-custom-layout-on-same-element.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00679814517975727, diffPixels=5700
+  stable page 1: diffRatio=0.006917410884665293, diffPixels=5800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0463] [WPT reftest] css/css-multicol/zero-column-width-layout.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/zero-column-width-layout.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011688039080986184, diffPixels=9800
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/zero-column-width-layout.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
