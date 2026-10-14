@@ -484,11 +484,11 @@
   reference: css/mediaqueries/reference/ref-green-body.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/relative-units-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6369027173498206, diffPixels=534020
+  canary page 1: diffRatio=0.6368979467216243, diffPixels=534016
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/reference/ref-green-body.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/relative-units-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6369027173498206, diffPixels=534020
+  stable page 1: diffRatio=0.6368979467216243, diffPixels=534016
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/reference/ref-green-body.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0053] [WPT reftest] css/mediaqueries/relative-units-002.html
@@ -497,11 +497,11 @@
   reference: css/mediaqueries/reference/ref-green-body.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/relative-units-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6369027173498206, diffPixels=534020
+  canary page 1: diffRatio=0.6368979467216243, diffPixels=534016
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/reference/ref-green-body.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/relative-units-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6369027173498206, diffPixels=534020
+  stable page 1: diffRatio=0.6368979467216243, diffPixels=534016
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/reference/ref-green-body.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0054] [WPT reftest] css/mediaqueries/relative-units-003.html
@@ -510,11 +510,11 @@
   reference: css/mediaqueries/reference/ref-green-body.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/relative-units-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6369027173498206, diffPixels=534020
+  canary page 1: diffRatio=0.6368979467216243, diffPixels=534016
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/reference/ref-green-body.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/relative-units-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6369027173498206, diffPixels=534020
+  stable page 1: diffRatio=0.6368979467216243, diffPixels=534016
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/reference/ref-green-body.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0055] [WPT reftest] css/mediaqueries/relative-units-004.html
@@ -523,11 +523,11 @@
   reference: css/mediaqueries/reference/ref-green-body.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/relative-units-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6369027173498206, diffPixels=534020
+  canary page 1: diffRatio=0.6368979467216243, diffPixels=534016
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/reference/ref-green-body.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/relative-units-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6369027173498206, diffPixels=534020
+  stable page 1: diffRatio=0.6368979467216243, diffPixels=534016
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/reference/ref-green-body.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0057] [WPT reftest] css/mediaqueries/scripting-print-script.html
@@ -536,11 +536,11 @@
   reference: css/mediaqueries/scripting-print-script-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/scripting-print-script.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00030889817571177775, diffPixels=259
+  canary page 1: diffRatio=0.00030174223341729637, diffPixels=253
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/scripting-print-script-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/scripting-print-script.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00030889817571177775, diffPixels=259
+  stable page 1: diffRatio=0.00030174223341729637, diffPixels=253
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/scripting-print-script-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0058] [WPT reftest] css/mediaqueries/viewport-script-dynamic.html
@@ -549,10 +549,10 @@
   reference: css/mediaqueries/viewport-script-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002719258071902908, diffPixels=228
+  canary page 1: diffRatio=0.00026119189374856883, diffPixels=219
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0002719258071902908, diffPixels=228
+  stable page 1: diffRatio=0.00026119189374856883, diffPixels=219
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

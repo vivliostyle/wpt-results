@@ -16,11 +16,11 @@
   reference: css/css-animations/animate-bg-color-with-change-during-delay-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-bg-color-with-change-during-delay.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03577971147240669, diffPixels=30000
+  canary page 1: diffRatio=0.03542191435768262, diffPixels=29700
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-bg-color-with-change-during-delay-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-bg-color-with-change-during-delay.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
+  stable page 1: diffRatio=0.03542191435768262, diffPixels=29700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-bg-color-with-change-during-delay-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0002] [WPT reftest] css/css-animations/animate-font-size-with-margin-override.html
@@ -29,11 +29,11 @@
   reference: css/css-animations/animate-font-size-with-margin-override-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-font-size-with-margin-override.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0101674013434089, diffPixels=8525
+  canary page 1: diffRatio=0.009498320738874895, diffPixels=7964
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-font-size-with-margin-override-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-font-size-with-margin-override.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0101674013434089, diffPixels=8525
+  stable page 1: diffRatio=0.009498320738874895, diffPixels=7964
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-font-size-with-margin-override-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0003] [WPT reftest] css/css-animations/animate-with-background-color-hsla-to-legacy-rgb.html
@@ -42,11 +42,11 @@
   reference: css/css-animations/animate-with-background-color-hsla-to-legacy-rgb-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-with-background-color-hsla-to-legacy-rgb.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary page 1: diffRatio=0.04746775055339287, diffPixels=39800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-with-background-color-hsla-to-legacy-rgb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-with-background-color-hsla-to-legacy-rgb.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable page 1: diffRatio=0.04746775055339287, diffPixels=39800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-with-background-color-hsla-to-legacy-rgb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-animations/animate-with-background-color-oklch-001.html
@@ -55,11 +55,11 @@
   reference: css/css-animations/animate-with-background-color-oklch-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-with-background-color-oklch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary page 1: diffRatio=0.04746775055339287, diffPixels=39800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animate-with-background-color-oklch-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-with-background-color-oklch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable page 1: diffRatio=0.04746775055339287, diffPixels=39800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animate-with-background-color-oklch-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-animations/animation-append-stylesheet-reverse.html
@@ -68,11 +68,11 @@
   reference: css/css-animations/animation-append-stylesheet-reverse-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-append-stylesheet-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-append-stylesheet-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-append-stylesheet-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-append-stylesheet-reverse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0006] [WPT reftest] css/css-animations/animation-delay-008.html
@@ -81,11 +81,11 @@
   reference: css/css-animations/animation-common-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-delay-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-common-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-delay-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-common-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0007] [WPT reftest] css/css-animations/animation-delay-009.html
@@ -94,11 +94,11 @@
   reference: css/css-animations/animation-common-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-delay-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-common-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-delay-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-common-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0008] [WPT reftest] css/css-animations/animation-delay-010.html
@@ -107,11 +107,11 @@
   reference: css/css-animations/animation-common-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-delay-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-common-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-delay-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-common-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0009] [WPT reftest] css/css-animations/animation-delay-011.html
@@ -120,11 +120,11 @@
   reference: css/css-animations/animation-common-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-delay-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-common-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-delay-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-common-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0010] [WPT reftest] css/css-animations/animation-delay-012.html
@@ -133,11 +133,11 @@
   reference: css/reference/ref-filled-green-200px-square.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-delay-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary page 1: diffRatio=0.04746775055339287, diffPixels=39800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-200px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-delay-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable page 1: diffRatio=0.04746775055339287, diffPixels=39800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-200px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0012] [WPT reftest] css/css-animations/animation-important-002.html
@@ -146,11 +146,11 @@
   reference: css/css-animations/animation-important-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-important-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018581596824669873, diffPixels=1558
+  canary page 1: diffRatio=0.0018450404549271047, diffPixels=1547
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-important-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-important-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018581596824669873, diffPixels=1558
+  stable page 1: diffRatio=0.0018450404549271047, diffPixels=1547
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-important-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0013] [WPT reftest] css/css-animations/animation-name-in-nested-shadow.html
@@ -159,11 +159,11 @@
   reference: css/css-animations/animation-name-in-nested-shadow-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-name-in-nested-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08348599343561561, diffPixels=70000
+  canary page 1: diffRatio=0.08300654530188535, diffPixels=69598
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-name-in-nested-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-name-in-nested-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08348599343561561, diffPixels=70000
+  stable page 1: diffRatio=0.08300654530188535, diffPixels=69598
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-name-in-nested-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/css-animations/animation-name-in-shadow-part-inner-match.html
@@ -172,11 +172,11 @@
   reference: css/css-animations/animation-name-in-shadow-part-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-inner-match.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-inner-match.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0015] [WPT reftest] css/css-animations/animation-name-in-shadow-part-outer-match.html
@@ -185,11 +185,11 @@
   reference: css/css-animations/animation-name-in-shadow-part-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-outer-match.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-outer-match.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0016] [WPT reftest] css/css-animations/animation-name-in-shadow-part.html
@@ -198,11 +198,11 @@
   reference: css/css-animations/animation-name-in-shadow-part-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-name-in-shadow-part-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0019] [WPT reftest] css/css-animations/animation-pseudo-dynamic-001.html
@@ -211,11 +211,11 @@
   reference: css/css-animations/animation-pseudo-dynamic-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-pseudo-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/animation-pseudo-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-pseudo-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/animation-pseudo-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT reftest] css/css-animations/cancel-animation-shadow-slot-invalidation.html
@@ -237,11 +237,11 @@
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/display-none-to-display-block.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/display-none-to-display-block.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0023] [WPT reftest] css/css-animations/flip-running-animation-via-variable.html
@@ -250,11 +250,11 @@
   reference: css/css-animations/flip-running-animation-via-variable-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/flip-running-animation-via-variable.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary page 1: diffRatio=0.04722921914357683, diffPixels=39600
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/flip-running-animation-via-variable-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/flip-running-animation-via-variable.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable page 1: diffRatio=0.04722921914357683, diffPixels=39600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/flip-running-animation-via-variable-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0026] [WPT reftest] css/css-animations/keyframes-tree-scoped-property-with-var.html
@@ -263,11 +263,11 @@
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/keyframes-tree-scoped-property-with-var.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/keyframes-tree-scoped-property-with-var.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0027] [WPT reftest] css/css-animations/nested-scale-animations.html
@@ -276,11 +276,11 @@
   reference: css/css-animations/nested-scale-animations-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/nested-scale-animations.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010733913441722006, diffPixels=9000
+  canary page 1: diffRatio=0.010495382031905962, diffPixels=8800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/nested-scale-animations-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/nested-scale-animations.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010733913441722006, diffPixels=9000
+  stable page 1: diffRatio=0.010495382031905962, diffPixels=8800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/nested-scale-animations-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0029] [WPT reftest] css/css-animations/parsing/animation-name-edge-cases.html
@@ -289,11 +289,11 @@
   reference: css/css-animations/parsing/animation-name-edge-cases-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/parsing/animation-name-edge-cases.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08050435081291504, diffPixels=67500
+  canary page 1: diffRatio=0.07728417678039844, diffPixels=64800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/parsing/animation-name-edge-cases-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/parsing/animation-name-edge-cases.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08050435081291504, diffPixels=67500
+  stable page 1: diffRatio=0.07728417678039844, diffPixels=64800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/parsing/animation-name-edge-cases-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-animations/svg-transform-animation.html
@@ -302,11 +302,11 @@
   reference: css/css-animations/svg-transform-animation-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/svg-transform-animation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  canary page 1: diffRatio=0.023614609571788413, diffPixels=19800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/svg-transform-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/svg-transform-animation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  stable page 1: diffRatio=0.023614609571788413, diffPixels=19800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/svg-transform-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0031] [WPT reftest] css/css-animations/svg-use-transform-keyframes-custom-property-override.html
@@ -315,11 +315,11 @@
   reference: css/css-animations/svg-use-transform-keyframes-custom-property-override-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/svg-use-transform-keyframes-custom-property-override.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023853140981604457, diffPixels=200
+  canary page 1: diffRatio=0.0002146782688344401, diffPixels=180
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/svg-use-transform-keyframes-custom-property-override-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/svg-use-transform-keyframes-custom-property-override.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
+  stable page 1: diffRatio=0.0002146782688344401, diffPixels=180
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/svg-use-transform-keyframes-custom-property-override-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0034] [WPT reftest] css/css-animations/translation-animation-subpixel-offset.html
@@ -328,10 +328,10 @@
   reference: css/css-animations/translation-animation-subpixel-offset-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/translation-animation-subpixel-offset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary page 1: diffRatio=0.0021467826883444013, diffPixels=1800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-animations/translation-animation-subpixel-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/translation-animation-subpixel-offset.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable page 1: diffRatio=0.0021467826883444013, diffPixels=1800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-animations/translation-animation-subpixel-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

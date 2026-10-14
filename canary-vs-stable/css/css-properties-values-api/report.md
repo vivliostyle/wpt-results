@@ -16,11 +16,11 @@
   reference: css/css-properties-values-api/registered-property-change-style-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012177028471109077, diffPixels=1021
+  canary page 1: diffRatio=0.0011688039080986184, diffPixels=980
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012177028471109077, diffPixels=1021
+  stable page 1: diffRatio=0.0011688039080986184, diffPixels=980
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-properties-values-api/registered-property-computation-color-004.html
@@ -29,11 +29,11 @@
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0007] [WPT reftest] css/css-properties-values-api/registered-property-computation-color-006.html
@@ -42,10 +42,10 @@
   reference: css/css-properties-values-api/registered-property-computation-color-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011807304785894207, diffPixels=9900
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.011807304785894207, diffPixels=9900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -133,11 +133,11 @@
   reference: css/filter-effects/backdrop-filter-non-isolation-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-isolation-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06148624150828181, diffPixels=51554
+  canary page 1: diffRatio=0.06148147088008549, diffPixels=51550
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-non-isolation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-isolation-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06148624150828181, diffPixels=51554
+  stable page 1: diffRatio=0.06148147088008549, diffPixels=51550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-non-isolation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0042] [WPT reftest] css/filter-effects/backdrop-filter-nested-border-radius-clip-3.html
@@ -211,11 +211,11 @@
   reference: css/filter-effects/backdrop-filter-root-element-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-root-element.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014979772536447599, diffPixels=12560
+  canary page 1: diffRatio=0.01498215785054576, diffPixels=12562
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-root-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-root-element.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014979772536447599, diffPixels=12560
+  stable page 1: diffRatio=0.01498215785054576, diffPixels=12562
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-root-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0060] [WPT reftest] css/filter-effects/backdrop-filter-svg.html
@@ -705,11 +705,11 @@
   reference: css/filter-effects/reference/effect-reference-on-span-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/effect-reference-on-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0038129245859094725, diffPixels=3197
+  canary page 1: diffRatio=0.0038212731852530343, diffPixels=3204
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/effect-reference-on-span-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/effect-reference-on-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038129245859094725, diffPixels=3197
+  stable page 1: diffRatio=0.0038212731852530343, diffPixels=3204
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/effect-reference-on-span-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0128] [WPT reftest] css/filter-effects/effect-reference-on-transparent-element.html
@@ -965,11 +965,11 @@
   reference: css/filter-effects/fecolormatrix-display-p3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/fecomponenttransfer-display-p3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02358598580261049, diffPixels=19776
+  canary page 1: diffRatio=0.023578829860316005, diffPixels=19770
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/fecolormatrix-display-p3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/fecomponenttransfer-display-p3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02358598580261049, diffPixels=19776
+  stable page 1: diffRatio=0.023578829860316005, diffPixels=19770
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/fecolormatrix-display-p3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0156] [WPT reftest] css/filter-effects/fecomposite-non-zero-inoffset-001.html
@@ -1160,11 +1160,11 @@
   reference: css/filter-effects/filter-function/filter-function-conic-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-conic-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1868678917639875, diffPixels=156682
+  canary page 1: diffRatio=0.1868297267384169, diffPixels=156650
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-conic-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-conic-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1868678917639875, diffPixels=156682
+  stable page 1: diffRatio=0.1868297267384169, diffPixels=156650
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-conic-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0184] [WPT reftest] css/filter-effects/filter-function/filter-function-linear-gradient.html
@@ -1173,11 +1173,11 @@
   reference: css/filter-effects/filter-function/filter-function-linear-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-linear-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.18840284138615374, diffPixels=157969
+  canary page 1: diffRatio=0.18843265781238072, diffPixels=157994
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-linear-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-linear-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.18840284138615374, diffPixels=157969
+  stable page 1: diffRatio=0.18843265781238072, diffPixels=157994
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-linear-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0185] [WPT reftest] css/filter-effects/filter-function/filter-function-radial-gradient.html
@@ -1186,11 +1186,11 @@
   reference: css/filter-effects/filter-function/filter-function-radial-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-radial-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.18052772689107702, diffPixels=151366
+  canary page 1: diffRatio=0.1804203877566598, diffPixels=151276
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-radial-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-radial-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.18052772689107702, diffPixels=151366
+  stable page 1: diffRatio=0.1804203877566598, diffPixels=151276
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-radial-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0186] [WPT reftest] css/filter-effects/filter-function/filter-function-repeating-conic-gradient.html
@@ -1199,11 +1199,11 @@
   reference: css/filter-effects/filter-function/filter-function-repeating-conic-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-conic-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.09420082436455232, diffPixels=78984
+  canary page 1: diffRatio=0.09431174147011678, diffPixels=79077
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-conic-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-conic-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.09420082436455232, diffPixels=78984
+  stable page 1: diffRatio=0.09431174147011678, diffPixels=79077
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-conic-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0187] [WPT reftest] css/filter-effects/filter-function/filter-function-repeating-linear-gradient.html
@@ -1212,11 +1212,11 @@
   reference: css/filter-effects/filter-function/filter-function-repeating-linear-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-linear-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0940338523776811, diffPixels=78844
+  canary page 1: diffRatio=0.09422944813373026, diffPixels=79008
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-linear-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-linear-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0940338523776811, diffPixels=78844
+  stable page 1: diffRatio=0.09422944813373026, diffPixels=79008
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-linear-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0188] [WPT reftest] css/filter-effects/filter-function/filter-function-repeating-radial-gradient.html
@@ -1225,11 +1225,11 @@
   reference: css/filter-effects/filter-function/filter-function-repeating-radial-gradient-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-radial-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.09365935806426991, diffPixels=78530
+  canary page 1: diffRatio=0.09367128463476071, diffPixels=78540
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-radial-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-radial-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.09365935806426991, diffPixels=78530
+  stable page 1: diffRatio=0.09367128463476071, diffPixels=78540
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filter-function/filter-function-repeating-radial-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0200] [WPT reftest] css/filter-effects/filter-region-calc-001.html
@@ -1322,6 +1322,19 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filtered-inline-applies-to-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0019082512785283565, diffPixels=1600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filtered-inline-applies-to-float-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0220] [WPT reftest] css/filter-effects/filtered-inline-is-container.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/filter-effects/filtered-inline-is-container-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00035779711472406687, diffPixels=300
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00035779711472406687, diffPixels=300
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0232] [WPT reftest] css/filter-effects/fixed-pos-filter-clip-002.html
   triage: pending
@@ -1745,25 +1758,12 @@
   reference: css/filter-effects/reference/svg-relative-urls-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.027910560262575376, diffPixels=23402
+  canary page 1: diffRatio=0.02767202885275933, diffPixels=23202
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.027910560262575376, diffPixels=23402
+  stable page 1: diffRatio=0.02767202885275933, diffPixels=23202
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0278] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/filter-effects/reference/svg-relative-urls-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011688039080986184, diffPixels=9800
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0281] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
   triage: pending
