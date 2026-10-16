@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 525
-- Entries with differences: 210 (improvement: 1, pending: 209, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 209 (pending: 209, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":314,"known-fail":209,"error":1,"improvement":1}
+- Outcome summary: {"pass":316,"known-fail":209}
 
 ## Differences
 
@@ -2389,12 +2389,6 @@
   stable page 1: diffRatio=0.001144950767117014, diffPixels=960
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0455] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-006.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0456] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-between-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2732,14 +2726,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0014311884588962675, diffPixels=1200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0039] [WPT reftest] css/css-gaps/flex/flex-gap-decorations-039.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/flex/flex-gap-decorations-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

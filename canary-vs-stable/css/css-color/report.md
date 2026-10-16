@@ -5,8 +5,8 @@
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":289,"known-fail":19}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":288,"known-fail":18,"changed-fail":1,"error":1}
 
 ## Differences
 
@@ -64,12 +64,16 @@
 
 - [0016] [WPT reftest] css/css-color/body-opacity-0-to-1-stacking-context.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/greensquare-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/body-opacity-0-to-1-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.044805740019845816, diffPixels=37568
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/greensquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/body-opacity-0-to-1-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.044805740019845816, diffPixels=37568
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/greensquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0018] [WPT reftest] css/css-color/border-color-currentcolor.html
   triage: pending
@@ -125,11 +129,11 @@
 
 - [0043] [WPT reftest] css/css-color/currentcolor-003.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/currentcolor-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/currentcolor-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05364332875353026, diffPixels=44978
+  canary page 1: diffRatio=0.0028289825204182886, diffPixels=2372
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/currentcolor-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/currentcolor-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -255,11 +259,13 @@
 
 ## Errors
 
-- [0016] [WPT reftest] css/css-color/body-opacity-0-to-1-stacking-context.html
+- [0052] [WPT reftest] css/css-color/deprecated-sameas-006.html
   triage: pending
-  side: stable
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/body-opacity-0-to-1-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/body-opacity-0-to-1-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/deprecated-sameas-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/deprecated-sameas-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

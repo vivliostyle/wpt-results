@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 796
-- Entries with differences: 260 (pending: 260, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 260 (improvement: 1, pending: 259, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":533,"known-fail":260,"error":2,"unchanged":1}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":535,"known-fail":259,"improvement":1,"unchanged":1}
 
 ## Differences
 
@@ -1856,12 +1856,6 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0284] [WPT reftest] css/css-transforms/perspective-split-by-zero-w.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-split-by-zero-w.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/perspective-split-by-zero-w.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0286] [WPT reftest] css/css-transforms/perspective-svg-child-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -1926,6 +1920,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/content-box-mutation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.016399034424853066, diffPixels=13750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/cssbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0415] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0416] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-001.html
   triage: pending
@@ -3382,36 +3385,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/ttwf-reftest-rotate.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00942199068773376, diffPixels=7900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/reference/ttwf-reftest-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0280] [WPT reftest] css/css-transforms/perspective-origin-006.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-origin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/perspective-origin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0282] [WPT reftest] css/css-transforms/perspective-origin-x.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-origin-x.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/perspective-origin-x.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0284] [WPT reftest] css/css-transforms/perspective-split-by-zero-w.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-transforms/perspective-split-by-zero-w-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-transforms/perspective-split-by-zero-w-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-split-by-zero-w.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/perspective-split-by-zero-w-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 186
-- Entries with differences: 92 (pending: 92, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 93 (improvement: 1, pending: 92, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":93,"known-fail":91,"error":1,"changed-fail":1}
+- Screenshot mismatches: 5
+- Outcome summary: {"pass":93,"known-fail":88,"changed-fail":4,"improvement":1}
 
 ## Differences
 
@@ -22,6 +22,19 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01305243874513396, diffPixels=10944
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-002-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0004] [WPT reftest] css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01669958400122128, diffPixels=14002
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01669958400122128, diffPixels=14002
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-inline/alignment-baseline/alignment-baseline-nested-001.html
   triage: pending
@@ -887,7 +900,7 @@
   reference: css/css-inline/initial-letter/initial-letter-with-first-line-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014741241126631555, diffPixels=12360
+  canary page 1: diffRatio=0.014186655598809252, diffPixels=11895
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -987,11 +1000,11 @@
 
 - [0120] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04822508777955881, diffPixels=40435
+  canary page 1: diffRatio=0.03297100412182276, diffPixels=27645
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1000,11 +1013,11 @@
 
 - [0121] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.11102325204182886, diffPixels=93089
+  canary page 1: diffRatio=0.060813582932600564, diffPixels=50990
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1013,11 +1026,11 @@
 
 - [0122] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.15249551560949545, diffPixels=127862
+  canary page 1: diffRatio=0.015510504923288298, diffPixels=13005
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1025,13 +1038,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0123] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-004-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.06237477100984658, diffPixels=52299
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.06237477100984658, diffPixels=52299
@@ -1207,16 +1216,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.05, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0004] [WPT reftest] css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/alignment-baseline/alignment-baseline-horizontal-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1218
-- Entries with differences: 556 (improvement: 9, pending: 547, triaged: 0)
-- Entries with errors: 25 (pending: 25, triaged: 0)
+- Entries with differences: 543 (pending: 543, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 6
 - Screenshot mismatches: 6
-- Outcome summary: {"pass":578,"known-fail":539,"improvement":9,"regression":2,"error":8,"changed-fail":6,"unchanged":76}
+- Outcome summary: {"pass":598,"known-fail":537,"error":1,"changed-fail":6,"unchanged":76}
 
 ## Differences
 
@@ -4274,18 +4274,6 @@
   stable page 1: diffRatio=0.02981642622700557, diffPixels=25000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0590] [WPT reftest] css/css-writing-modes/forms/color-input-appearance-native-horizontal.optional.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-native-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-native-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0591] [WPT reftest] css/css-writing-modes/forms/color-input-appearance-native-vertical.optional.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0601] [WPT reftest] css/css-writing-modes/forms/input-range-zero-inline-size.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -4299,17 +4287,36 @@
   stable page 1: diffRatio=0.00048064079077932983, diffPixels=403
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/input-range-zero-inline-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0608] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-horizontal.optional.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0609] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  reference: css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (!=)
+  reference: css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html (!=)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html): comparison matched but relation is !=
+  canary reference render (css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): comparison matched but relation is !=
+  canary reference render (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable unexpected equality (css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html): comparison matched but relation is !=
+  stable reference render (css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable unexpected equality (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): comparison matched but relation is !=
+  stable reference render (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0610] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html (!=)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary unexpected equality: comparison matched but relation is !=
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable unexpected equality: comparison matched but relation is !=
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0611] [WPT reftest] css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html
   triage: pending
@@ -4359,12 +4366,6 @@
   stable reference render (css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality (css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html): comparison matched but relation is !=
   stable reference render (css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0614] [WPT reftest] css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0646] [WPT reftest] css/css-writing-modes/full-width-003.html
   triage: pending
@@ -4495,24 +4496,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/logical-physical-mapping-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.004454574078314633, diffPixels=3735
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/logical-physical-mapping-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0730] [WPT reftest] css/css-writing-modes/logical-props-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/logical-props-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/logical-props-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0731] [WPT reftest] css/css-writing-modes/logical-props-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/logical-props-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/logical-props-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0732] [WPT reftest] css/css-writing-modes/logical-props-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/logical-props-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/logical-props-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0735] [WPT reftest] css/css-writing-modes/margin-collapse-vlr-011.xht
   triage: pending
@@ -4809,12 +4792,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-rtl-top-bottom-vrl-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0038379703839401575, diffPixels=3218
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/overconstrained-rel-pos-rtl-top-bottom-vrl-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0806] [WPT reftest] css/css-writing-modes/replaced-content-image-004.html
-  triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/replaced-content-image-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/replaced-content-image-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0821] [WPT reftest] css/css-writing-modes/sizing-orthog-htb-in-vlr-001.xht
   triage: pending
@@ -6181,68 +6158,83 @@
   stable page 1: diffRatio=0.001963113502786047, diffPixels=1646
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0933] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0935] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-003.html
+- [0934] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.026717903213495153, diffPixels=22402
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.026717903213495153, diffPixels=22402
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0936] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.07102511258682544, diffPixels=59552
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.07102511258682544, diffPixels=59552
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0937] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-005.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0939] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-007.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- [0938] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-006-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0940] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.016618483321883825, diffPixels=13934
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.016618483321883825, diffPixels=13934
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0941] [WPT reftest] css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-writing-modes/sizing-percentages-replaced-orthogonal-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2, 3, 4], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2, 3, 4], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0943] [WPT reftest] css/css-writing-modes/srl-alongside-vrl-floats.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/srl-alongside-vrl-floats-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/srl-alongside-vrl-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary selected pages: test=[1, 2], reference=[1]
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/srl-alongside-vrl-floats-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0944] [WPT reftest] css/css-writing-modes/svg-aliasing-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/svg-aliasing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/svg-aliasing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0945] [WPT reftest] css/css-writing-modes/svg-aliasing-002.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/svg-aliasing-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/svg-aliasing-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/srl-alongside-vrl-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/srl-alongside-vrl-floats-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0952] [WPT reftest] css/css-writing-modes/table-cell-align-005.html
   triage: pending
@@ -6360,18 +6352,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/table-progression-vrl-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.003091367071215938, diffPixels=2592
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/table-progression-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1008] [WPT reftest] css/css-writing-modes/text-combine-upright-break-inside-001a.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/text-combine-upright-break-inside-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/text-combine-upright-break-inside-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1010] [WPT reftest] css/css-writing-modes/text-combine-upright-compression-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/text-combine-upright-compression-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/text-combine-upright-compression-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1025] [WPT reftest] css/css-writing-modes/text-combine-upright-rtl-001.html
   triage: pending
@@ -7116,265 +7096,11 @@
 
 ## Errors
 
-- [0591] [WPT reftest] css/css-writing-modes/forms/color-input-appearance-native-vertical.optional.html
+- [0526] [WPT reftest] css/css-writing-modes/dynamic-offset-rtl-001.html
   triage: pending
-  side: canary-reference
-  reference: css/css-writing-modes/forms/color-input-appearance-none-horizontal.optional.html
+  side: canary
   timeout: true
   error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-none-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0608] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-horizontal.optional.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0609] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (429)
-  stable-reference reference: css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0610] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html
-  triage: pending
-  side: canary, stable
-  canary timeout: false
-  canary error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (429)
-  stable timeout: false
-  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0614] [WPT reftest] css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (429)
-  stable-reference reference: css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0729] [WPT reftest] css/css-writing-modes/logical-props-001.html
-  triage: pending
-  side: canary, canary-reference
-  canary timeout: false
-  canary error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/logical-props-001.html (429)
-  canary-reference reference: css/css-writing-modes/reference/logical-props-001-ref.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/reference/logical-props-001-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/logical-props-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/logical-props-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0730] [WPT reftest] css/css-writing-modes/logical-props-002.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-writing-modes/reference/logical-props-001-ref.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/reference/logical-props-001-ref.html (429)
-  stable-reference reference: css/css-writing-modes/reference/logical-props-001-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/reference/logical-props-001-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/logical-props-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/reference/logical-props-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0731] [WPT reftest] css/css-writing-modes/logical-props-003.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-writing-modes/reference/logical-props-001-ref.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/reference/logical-props-001-ref.html (429)
-  stable-reference reference: css/css-writing-modes/reference/logical-props-001-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/reference/logical-props-001-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/logical-props-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/reference/logical-props-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0732] [WPT reftest] css/css-writing-modes/logical-props-004.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-writing-modes/reference/logical-props-001-ref.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/reference/logical-props-001-ref.html (429)
-  stable-reference reference: css/css-writing-modes/reference/logical-props-001-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/reference/logical-props-001-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/logical-props-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/reference/logical-props-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0805] [WPT reftest] css/css-writing-modes/relpos-inline-overflowing-block-vrl.html
-  triage: pending
-  side: canary
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/relpos-inline-overflowing-block-vrl.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/relpos-inline-overflowing-block-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/relpos-inline-overflowing-block-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0806] [WPT reftest] css/css-writing-modes/replaced-content-image-004.html
-  triage: pending
-  side: canary-reference, stable
-  canary-reference reference: css/css-writing-modes/replaced-content-image-004-ref.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/replaced-content-image-004-ref.html (429)
-  stable timeout: false
-  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/replaced-content-image-004.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/replaced-content-image-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/replaced-content-image-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0819] [WPT reftest] css/css-writing-modes/scrollbar-vertical-rl.html
-  triage: pending
-  side: canary
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/scrollbar-vertical-rl.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/scrollbar-vertical-rl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/scrollbar-vertical-rl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0820] [WPT reftest] css/css-writing-modes/sideways-lr-main-axis.html
-  triage: pending
-  side: canary
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sideways-lr-main-axis.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sideways-lr-main-axis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sideways-lr-main-axis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0933] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-001.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-001-ref.html
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-001-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0934] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html
-  triage: pending
-  side: canary, stable-reference
-  canary timeout: false
-  canary error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html (429)
-  stable-reference reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-002-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-002-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0935] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-003.html
-  triage: pending
-  side: canary-reference
-  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0936] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html
-  triage: pending
-  side: canary-reference, stable, stable-reference
-  canary-reference reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html (429)
-  stable timeout: false
-  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html (429)
-  stable-reference reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0938] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html
-  triage: pending
-  side: canary, stable-reference
-  canary timeout: false
-  canary error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html (429)
-  stable-reference reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-006-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-006-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0939] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-007.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0940] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html
-  triage: pending
-  side: canary-reference, stable, stable-reference
-  canary-reference reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html (429)
-  stable timeout: false
-  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html (429)
-  stable-reference reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0941] [WPT reftest] css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html
-  triage: pending
-  side: canary-reference, stable
-  canary-reference reference: css/css-writing-modes/sizing-percentages-replaced-orthogonal-001-ref.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001-ref.html (429)
-  stable timeout: false
-  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0942] [WPT reftest] css/css-writing-modes/slr-alongside-vlr-floats.html
-  triage: pending
-  side: canary, stable-reference
-  canary timeout: false
-  canary error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/slr-alongside-vlr-floats.html (429)
-  stable-reference reference: css/css-writing-modes/slr-alongside-vlr-floats-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/slr-alongside-vlr-floats-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/slr-alongside-vlr-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/slr-alongside-vlr-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0943] [WPT reftest] css/css-writing-modes/srl-alongside-vrl-floats.html
-  triage: pending
-  side: stable, stable-reference
-  stable timeout: false
-  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/srl-alongside-vrl-floats.html (429)
-  stable-reference reference: css/css-writing-modes/srl-alongside-vrl-floats-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/srl-alongside-vrl-floats-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/srl-alongside-vrl-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/srl-alongside-vrl-floats.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0944] [WPT reftest] css/css-writing-modes/svg-aliasing-001.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-writing-modes/reference/svg-aliasing-001-ref.html
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/reference/svg-aliasing-001-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/svg-aliasing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/reference/svg-aliasing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1010] [WPT reftest] css/css-writing-modes/text-combine-upright-compression-002.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-writing-modes/text-combine-upright-compression-002-ref.html
-  timeout: false
-  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-writing-modes/text-combine-upright-compression-002-ref.html (429)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/text-combine-upright-compression-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/text-combine-upright-compression-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/dynamic-offset-rtl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/dynamic-offset-rtl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

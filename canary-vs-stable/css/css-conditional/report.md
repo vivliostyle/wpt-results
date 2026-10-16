@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 173
-- Entries with differences: 56 (pending: 56, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 55 (pending: 55, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":117,"known-fail":55,"expected-change":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":118,"known-fail":55}
 
 ## Differences
 
@@ -361,13 +361,6 @@
   stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/change-display-in-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0087] [WPT reftest] css/css-conditional/container-queries/container-for-cue.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0004019254255400351, diffPixels=337
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/container-for-cue.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/container-for-cue.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0088] [WPT reftest] css/css-conditional/container-queries/container-units-gradient-invalidation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -515,6 +508,10 @@
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-conditional/container-queries/multiple-conditions-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/multiple-conditions-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01375252843294405, diffPixels=11531
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/multiple-conditions-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/multiple-conditions-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01375252843294405, diffPixels=11531
@@ -727,15 +724,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/css-supports-042.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/support/pass.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0105] [WPT reftest] css/css-conditional/container-queries/multiple-conditions-001.html
-  triage: pending
-  side: canary-reference
-  reference: css/css-conditional/container-queries/multiple-conditions-001-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/multiple-conditions-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/multiple-conditions-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

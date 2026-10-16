@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 251
-- Entries with differences: 97 (pending: 97, triaged: 0)
-- Entries with errors: 5 (pending: 5, triaged: 0)
-- Timeout entries: 5
+- Entries with differences: 98 (pending: 98, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":97,"pass":150,"error":4}
+- Outcome summary: {"known-fail":98,"pass":150,"error":3}
 
 ## Differences
 
@@ -18,6 +18,10 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/absolute-pos-box-inside-fixed-pos-box-with-changing-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/absolute-pos-box-inside-fixed-pos-box-with-changing-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/absolute-pos-box-inside-fixed-pos-box-with-changing-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/absolute-pos-box-inside-fixed-pos-box-with-changing-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0005] [WPT reftest] css/css-position/containing-block-change-button.html
   triage: pending
@@ -31,6 +35,19 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/containing-block-change-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/containing-block-change-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0006] [WPT reftest] css/css-position/containing-block-change-scrollframe.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-position/containing-block-change-scrollframe-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/containing-block-change-scrollframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/containing-block-change-scrollframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/containing-block-change-scrollframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/containing-block-change-scrollframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0007] [WPT reftest] css/css-position/fixed-z-index-blend.html
   triage: pending
@@ -1268,23 +1285,6 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-fixed-overflow-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
-
-- [0001] [WPT reftest] css/css-position/absolute-pos-box-inside-fixed-pos-box-with-changing-height.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-position/absolute-pos-box-inside-fixed-pos-box-with-changing-height-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/absolute-pos-box-inside-fixed-pos-box-with-changing-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/absolute-pos-box-inside-fixed-pos-box-with-changing-height-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0006] [WPT reftest] css/css-position/containing-block-change-scrollframe.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/containing-block-change-scrollframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/containing-block-change-scrollframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0069] [WPT reftest] css/css-position/position-absolute-iframe-print-001.sub.html
   triage: pending

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 1103
-- Entries with differences: 158 (pending: 158, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Compared entries: 1121
+- Entries with differences: 173 (pending: 173, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":944,"known-fail":158,"error":1}
+- Outcome summary: {"pass":948,"known-fail":173}
 
 ## Differences
 
@@ -582,7 +582,111 @@
   stable page 1: diffRatio=0.009732081520494618, diffPixels=8160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0590] [WPT reftest] css/css-break/grid/grid-lanes/grid-lanes-container-fragmentation-006.html
+- [0580] [WPT reftest] css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-021.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0581] [WPT reftest] css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-022.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0582] [WPT reftest] css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-023.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0583] [WPT reftest] css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-024.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-024-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.017889855736203344, diffPixels=15000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0584] [WPT reftest] css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-025.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-multi-lane-fragmentation-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0590] [WPT reftest] css/css-break/grid/grid-lanes/column-single-lane-fragmentation-006.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-single-lane-fragmentation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008944927868101672, diffPixels=7500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-single-lane-fragmentation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0591] [WPT reftest] css/css-break/grid/grid-lanes/column-single-lane-fragmentation-007.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-single-lane-fragmentation-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-single-lane-fragmentation-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0592] [WPT reftest] css/css-break/grid/grid-lanes/column-single-lane-fragmentation-008.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-single-lane-fragmentation-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/column-single-lane-fragmentation-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0598] [WPT reftest] css/css-break/grid/grid-lanes/grid-lanes-container-fragmentation-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -595,7 +699,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0592] [WPT reftest] css/css-break/grid/grid-lanes/grid-lanes-fragmentation-001.html
+- [0600] [WPT reftest] css/css-break/grid/grid-lanes/grid-lanes-fragmentation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/grid/grid-lanes/grid-lanes-fragmentation-001-ref.html (==)
@@ -608,7 +712,7 @@
   stable selected pages: test=[1], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/grid-lanes-fragmentation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0593] [WPT reftest] css/css-break/grid/grid-lanes/grid-lanes-fragmentation-002.html
+- [0601] [WPT reftest] css/css-break/grid/grid-lanes/grid-lanes-fragmentation-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/grid/grid-lanes/grid-lanes-fragmentation-002-ref.html (==)
@@ -621,7 +725,7 @@
   stable page 1: diffRatio=0.02617047362796733, diffPixels=21943
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/grid-lanes-fragmentation-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0595] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-001.html
+- [0603] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -634,7 +738,7 @@
   stable page 1: diffRatio=0.011726204106556752, diffPixels=9832
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0596] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-002.html
+- [0604] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -647,7 +751,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0599] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-005.html
+- [0607] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -660,7 +764,7 @@
   stable page 1: diffRatio=0.011534186321654835, diffPixels=9671
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0600] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-006.html
+- [0608] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -673,7 +777,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0601] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-007.html
+- [0609] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -686,7 +790,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0602] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-008.html
+- [0610] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -699,7 +803,7 @@
   stable page 1: diffRatio=0.011726204106556752, diffPixels=9832
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0603] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-009.html
+- [0611] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/grid/grid-item-oof-013-ref.html (==)
@@ -712,7 +816,7 @@
   stable page 1: diffRatio=0.011330241966262117, diffPixels=9500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-item-oof-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0604] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-010.html
+- [0612] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -725,7 +829,7 @@
   stable page 1: diffRatio=0.0035779711472406685, diffPixels=3000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0605] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-011.html
+- [0613] [WPT reftest] css/css-break/grid/grid-lanes/row-grid-lanes-oof-fragmentation-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -738,7 +842,7 @@
   stable page 1: diffRatio=0.007752270819021449, diffPixels=6500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0606] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-001.html
+- [0614] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -751,7 +855,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0608] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-003.html
+- [0616] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -764,7 +868,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0609] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-004.html
+- [0617] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -777,7 +881,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0610] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-005.html
+- [0618] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -790,7 +894,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0611] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-006.html
+- [0619] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -803,7 +907,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0612] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-007.html
+- [0620] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -816,7 +920,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0613] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-008.html
+- [0621] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -829,7 +933,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0614] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-009.html
+- [0622] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -842,7 +946,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0615] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-010.html
+- [0623] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -855,7 +959,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0616] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-011.html
+- [0624] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -868,7 +972,7 @@
   stable page 1: diffRatio=0.009541256392641783, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0617] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-012.html
+- [0625] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -881,7 +985,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0618] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-013.html
+- [0626] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -894,7 +998,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0619] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-014.html
+- [0627] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -907,7 +1011,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0620] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-015.html
+- [0628] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -920,7 +1024,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0621] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-016.html
+- [0629] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -933,7 +1037,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0622] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-017.html
+- [0630] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -946,7 +1050,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0623] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-018.html
+- [0631] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -959,7 +1063,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0624] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-019.html
+- [0632] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-019.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-019-ref.html (==)
@@ -972,7 +1076,7 @@
   stable page 1: diffRatio=0.005366956720861003, diffPixels=4500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0625] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-020.html
+- [0633] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -985,7 +1089,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0626] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-021.html
+- [0634] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-021-ref.html (==)
@@ -998,7 +1102,72 @@
   stable page 1: diffRatio=0.005128425311044959, diffPixels=4300
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0627] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-001.html
+- [0635] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-022.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0636] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-023.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0637] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-024.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0638] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-025.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-025-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002862376917792535, diffPixels=2400
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002862376917792535, diffPixels=2400
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0639] [WPT reftest] css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-026.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-multi-lane-fragmentation-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0640] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1011,7 +1180,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0629] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-003.html
+- [0642] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1024,7 +1193,7 @@
   stable page 1: diffRatio=0.0035779711472406685, diffPixels=3000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0630] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-004.html
+- [0643] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1037,7 +1206,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0631] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-005.html
+- [0644] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1050,7 +1219,33 @@
   stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0676] [WPT reftest] css/css-break/monolithic-with-overflow-lr.html
+- [0648] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-009.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-single-lane-fragmentation-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-single-lane-fragmentation-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0649] [WPT reftest] css/css-break/grid/grid-lanes/row-single-lane-fragmentation-010.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-single-lane-fragmentation-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-lanes/row-single-lane-fragmentation-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0694] [WPT reftest] css/css-break/monolithic-with-overflow-lr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1063,7 +1258,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0697] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-016.html
+- [0715] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1076,7 +1271,7 @@
   stable page 1: diffRatio=0.0034587054423326465, diffPixels=2900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0698] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-017.html
+- [0716] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1089,7 +1284,7 @@
   stable page 1: diffRatio=0.0034587054423326465, diffPixels=2900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0736] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-055.html
+- [0754] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-055.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1102,7 +1297,7 @@
   stable page 1: diffRatio=0.00010733913441722005, diffPixels=90
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0744] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-063.html
+- [0762] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-063.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1115,7 +1310,7 @@
   stable page 1: diffRatio=0.02403203953896649, diffPixels=20150
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0774] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-093.html
+- [0792] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-093.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/out-of-flow-in-multicolumn-093-ref.html (==)
@@ -1128,7 +1323,7 @@
   stable page 1: diffRatio=0.0001777059003129532, diffPixels=149
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-093-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0778] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-097.html
+- [0796] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-097.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-200px-square.html (==)
@@ -1141,7 +1336,7 @@
   stable page 1: diffRatio=0.004055033966872758, diffPixels=3400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-200px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0779] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-098.html
+- [0797] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-098.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-200px-square.html (==)
@@ -1154,7 +1349,7 @@
   stable page 1: diffRatio=0.004055033966872758, diffPixels=3400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-200px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0786] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-105.html
+- [0804] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-105.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/out-of-flow-in-multicolumn-105-ref.html (==)
@@ -1167,7 +1362,7 @@
   stable selected pages: test=[1], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-105-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0787] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-106.html
+- [0805] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-106.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/out-of-flow-in-multicolumn-106-ref.html (==)
@@ -1180,7 +1375,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-106-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0789] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-109.html
+- [0807] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-109.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1193,7 +1388,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0800] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-120.html
+- [0818] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-120.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1206,7 +1401,7 @@
   stable page 1: diffRatio=0.0035779711472406685, diffPixels=3000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0813] [WPT reftest] css/css-break/overflow-clip-001.html
+- [0831] [WPT reftest] css/css-break/overflow-clip-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1219,7 +1414,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0825] [WPT reftest] css/css-break/overflow-clip-014.html
+- [0843] [WPT reftest] css/css-break/overflow-clip-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1232,7 +1427,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0826] [WPT reftest] css/css-break/overflow-clip-015.html
+- [0844] [WPT reftest] css/css-break/overflow-clip-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1245,7 +1440,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0827] [WPT reftest] css/css-break/overflow-clip-016.html
+- [0845] [WPT reftest] css/css-break/overflow-clip-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1258,7 +1453,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0828] [WPT reftest] css/css-break/overflow-clip-017.html
+- [0846] [WPT reftest] css/css-break/overflow-clip-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1271,7 +1466,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0841] [WPT reftest] css/css-break/rounded-clipped-border.html
+- [0859] [WPT reftest] css/css-break/rounded-clipped-border.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/rounded-clipped-border-ref.html (==)
@@ -1284,7 +1479,7 @@
   stable page 1: diffRatio=0.020512508587130752, diffPixels=17199
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/rounded-clipped-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0880] [WPT reftest] css/css-break/table/monolithic-overflow-006.html
+- [0898] [WPT reftest] css/css-break/table/monolithic-overflow-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1297,7 +1492,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0952] [WPT reftest] css/css-break/table/table-col-paint-vlr-rtl.html
+- [0970] [WPT reftest] css/css-break/table/table-col-paint-vlr-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-col-paint-vlr-rtl-ref.html (==)
@@ -1310,7 +1505,7 @@
   stable page 1: diffRatio=0.06869704602702084, diffPixels=57600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-col-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0956] [WPT reftest] css/css-break/table/table-collapsed-borders-paint-vlr-rtl.html
+- [0974] [WPT reftest] css/css-break/table/table-collapsed-borders-paint-vlr-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html (==)
@@ -1323,7 +1518,7 @@
   stable page 1: diffRatio=0.017423526830012977, diffPixels=14609
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-collapsed-borders-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0959] [WPT reftest] css/css-break/table/table-grid-paint-vlr-rtl.html
+- [0977] [WPT reftest] css/css-break/table/table-grid-paint-vlr-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-grid-paint-vlr-rtl-ref.html (==)
@@ -1336,7 +1531,7 @@
   stable page 1: diffRatio=0.06643099763376842, diffPixels=55700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-grid-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0962] [WPT reftest] css/css-break/table/table-row-paint-vlr-rtl.html
+- [0980] [WPT reftest] css/css-break/table/table-row-paint-vlr-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-row-paint-vlr-rtl-ref.html (==)
@@ -1349,7 +1544,7 @@
   stable page 1: diffRatio=0.08873368445156858, diffPixels=74400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-row-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0964] [WPT reftest] css/css-break/table/table-rowspan-001.html
+- [0982] [WPT reftest] css/css-break/table/table-rowspan-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1362,7 +1557,7 @@
   stable page 1: diffRatio=0.002113388290970155, diffPixels=1772
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0966] [WPT reftest] css/css-break/table/table-section-paint-vlr-rtl.html
+- [0984] [WPT reftest] css/css-break/table/table-section-paint-vlr-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-section-paint-vlr-rtl-ref.html (==)
@@ -1375,7 +1570,7 @@
   stable page 1: diffRatio=0.08873368445156858, diffPixels=74400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-section-paint-vlr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0993] [WPT reftest] css/css-break/transform-001.html
+- [1011] [WPT reftest] css/css-break/transform-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1388,7 +1583,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0996] [WPT reftest] css/css-break/transform-004.html
+- [1014] [WPT reftest] css/css-break/transform-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1401,7 +1596,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1001] [WPT reftest] css/css-break/transform-009.html
+- [1019] [WPT reftest] css/css-break/transform-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/transform-009-ref.html (==)
@@ -1414,7 +1609,7 @@
   stable page 1: diffRatio=0.014697112815815587, diffPixels=12323
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1012] [WPT reftest] css/css-break/transform-025.html
+- [1030] [WPT reftest] css/css-break/transform-025.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1427,7 +1622,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1042] [WPT print-reftest] css/css-break/block-001-wm-vlr-print.html
+- [1060] [WPT print-reftest] css/css-break/block-001-wm-vlr-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/block-001-wm-vlr-ref.html (==)
@@ -1440,7 +1635,7 @@
   stable selected pages: test=[1], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-001-wm-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1043] [WPT print-reftest] css/css-break/block-001-wm-vrl-print.html
+- [1061] [WPT print-reftest] css/css-break/block-001-wm-vrl-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/block-001-wm-vrl-ref.html (==)
@@ -1453,7 +1648,7 @@
   stable selected pages: test=[1], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-001-wm-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1044] [WPT print-reftest] css/css-break/block-002-wm-vlr-print.html
+- [1062] [WPT print-reftest] css/css-break/block-002-wm-vlr-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/block-002-wm-vlr-ref.html (==)
@@ -1466,7 +1661,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2, 3, 4, 5, 6, 7]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-002-wm-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1045] [WPT print-reftest] css/css-break/block-002-wm-vrl-print.html
+- [1063] [WPT print-reftest] css/css-break/block-002-wm-vrl-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/block-002-wm-vrl-ref.html (==)
@@ -1479,7 +1674,7 @@
   stable selected pages: test=[1, 2], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/block-002-wm-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1047] [WPT print-reftest] css/css-break/break-inside-avoid-multicol-001-print.html
+- [1065] [WPT print-reftest] css/css-break/break-inside-avoid-multicol-001-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/break-inside-avoid-multicol-001-print-ref.html (==)
@@ -1494,7 +1689,7 @@
   stable page 2: diffRatio=0.2, diffPixels=27648
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/break-inside-avoid-multicol-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1051] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print.html
+- [1069] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html (==)
@@ -1511,7 +1706,7 @@
   stable page 3: diffRatio=0.21883680555555557, diffPixels=30252
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-063-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1052] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print.html
+- [1070] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print-ref.html (==)
@@ -1524,7 +1719,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2, 3, 4]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-064-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1053] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print.html
+- [1071] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print-ref.html (==)
@@ -1537,7 +1732,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-075-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1054] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print.html
+- [1072] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print-ref.html (==)
@@ -1550,7 +1745,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-076-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1055] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print.html
+- [1073] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html (==)
@@ -1565,7 +1760,7 @@
   stable page 2: diffRatio=0.20439091435185186, diffPixels=28255
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-080-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1056] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-081a-print.html
+- [1074] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-081a-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html (==)
@@ -1578,7 +1773,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1057] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-081b-print.html
+- [1075] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-081b-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html (==)
@@ -1591,7 +1786,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1058] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-081c-print.html
+- [1076] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-081c-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html (==)
@@ -1604,7 +1799,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1059] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-081d-print.html
+- [1077] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-081d-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html (==)
@@ -1617,7 +1812,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-081-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1060] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-082a-print.html
+- [1078] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-082a-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html (==)
@@ -1630,7 +1825,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1061] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-082b-print.html
+- [1079] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-082b-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html (==)
@@ -1643,7 +1838,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1062] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-082c-print.html
+- [1080] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-082c-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html (==)
@@ -1656,7 +1851,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1063] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-082d-print.html
+- [1081] [WPT print-reftest] css/css-break/flexbox/multi-line-row-flex-fragmentation-082d-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html (==)
@@ -1669,7 +1864,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/multi-line-row-flex-fragmentation-082-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1064] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-060-print.html
+- [1082] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-060-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html (==)
@@ -1686,7 +1881,7 @@
   stable page 3: diffRatio=0.21893807870370371, diffPixels=30266
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-060-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1065] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-065-print.html
+- [1083] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-065-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-065-print-ref.html (==)
@@ -1699,7 +1894,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-065-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1066] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-066-print.html
+- [1084] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-066-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-066-print-ref.html (==)
@@ -1712,7 +1907,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-066-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1067] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-068a-print.html
+- [1085] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-068a-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html (==)
@@ -1725,7 +1920,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1068] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-068b-print.html
+- [1086] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-068b-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html (==)
@@ -1738,7 +1933,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1069] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-068c-print.html
+- [1087] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-068c-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html (==)
@@ -1751,7 +1946,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1070] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-068d-print.html
+- [1088] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-068d-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html (==)
@@ -1764,7 +1959,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-068-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1071] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-069a-print.html
+- [1089] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-069a-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html (==)
@@ -1777,7 +1972,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1072] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-069b-print.html
+- [1090] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-069b-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html (==)
@@ -1790,7 +1985,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1073] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-069c-print.html
+- [1091] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-069c-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html (==)
@@ -1803,7 +1998,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1074] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-069d-print.html
+- [1092] [WPT print-reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-069d-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html (==)
@@ -1816,7 +2011,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-069-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1075] [WPT print-reftest] css/css-break/flexbox/single-line-row-flex-fragmentation-042-print.html
+- [1093] [WPT print-reftest] css/css-break/flexbox/single-line-row-flex-fragmentation-042-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-row-flex-fragmentation-042-print-ref.html (==)
@@ -1829,7 +2024,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-042-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1076] [WPT print-reftest] css/css-break/flexbox/single-line-row-flex-fragmentation-045-print.html
+- [1094] [WPT print-reftest] css/css-break/flexbox/single-line-row-flex-fragmentation-045-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-row-flex-fragmentation-045-print-ref.html (==)
@@ -1842,7 +2037,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-045-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1077] [WPT print-reftest] css/css-break/flexbox/single-line-row-flex-fragmentation-046-print.html
+- [1095] [WPT print-reftest] css/css-break/flexbox/single-line-row-flex-fragmentation-046-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/flexbox/single-line-row-flex-fragmentation-046-print-ref.html (==)
@@ -1855,7 +2050,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-row-flex-fragmentation-046-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1078] [WPT print-reftest] css/css-break/float-with-large-margin-bottom-cross-page-001-print.html
+- [1096] [WPT print-reftest] css/css-break/float-with-large-margin-bottom-cross-page-001-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/float-with-large-margin-bottom-cross-page-001-print-ref.html (==)
@@ -1870,7 +2065,7 @@
   stable page 2: diffRatio=0.08981481481481482, diffPixels=12416
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/float-with-large-margin-bottom-cross-page-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1081] [WPT print-reftest] css/css-break/ink-overflow-001-print.html
+- [1099] [WPT print-reftest] css/css-break/ink-overflow-001-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: about:blank (==)
@@ -1883,7 +2078,7 @@
   stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
   stable reference render: https://vivliostyle.org/viewer/#src=about:blank&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1082] [WPT print-reftest] css/css-break/overflowed-abs-pos-with-percentage-height-print.html
+- [1100] [WPT print-reftest] css/css-break/overflowed-abs-pos-with-percentage-height-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/overflowed-abs-pos-with-percentage-height-print-ref.html (==)
@@ -1896,7 +2091,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflowed-abs-pos-with-percentage-height-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1083] [WPT print-reftest] css/css-break/overflowing-block-002-print.html
+- [1101] [WPT print-reftest] css/css-break/overflowing-block-002-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/overflowing-block-002-print-ref.html (==)
@@ -1909,7 +2104,7 @@
   stable selected pages: test=[1], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/overflowing-block-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1085] [WPT print-reftest] css/css-break/root-margin-001-print.html
+- [1103] [WPT print-reftest] css/css-break/root-margin-001-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/root-margin-001-print-ref.html (==)
@@ -1922,7 +2117,7 @@
   stable selected pages: test=[1], reference=[1, 2]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/root-margin-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1086] [WPT print-reftest] css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print.html
+- [1104] [WPT print-reftest] css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html (==)
@@ -1935,7 +2130,7 @@
   stable page 4: diffRatio=0.0012642164720250363, diffPixels=1060
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/repeated-section/fixedpos-in-footer-forced-break-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1091] [WPT print-reftest] css/css-break/table/table-fragmentation-002a-print.html
+- [1109] [WPT print-reftest] css/css-break/table/table-fragmentation-002a-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-002a-print-ref.html (==)
@@ -1948,7 +2143,7 @@
   stable page 3: diffRatio=0.1267722800925926, diffPixels=17525
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1092] [WPT print-reftest] css/css-break/table/table-fragmentation-002b-print.html
+- [1110] [WPT print-reftest] css/css-break/table/table-fragmentation-002b-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-002a-print-ref.html (==)
@@ -1961,7 +2156,7 @@
   stable page 3: diffRatio=0.1267722800925926, diffPixels=17525
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1093] [WPT print-reftest] css/css-break/table/table-fragmentation-002c-print.html
+- [1111] [WPT print-reftest] css/css-break/table/table-fragmentation-002c-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-002c-print-ref.html (==)
@@ -1974,7 +2169,7 @@
   stable page 3: diffRatio=0.1267722800925926, diffPixels=17525
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1094] [WPT print-reftest] css/css-break/table/table-fragmentation-002d-print.html
+- [1112] [WPT print-reftest] css/css-break/table/table-fragmentation-002d-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-002c-print-ref.html (==)
@@ -1987,7 +2182,7 @@
   stable page 3: diffRatio=0.1267722800925926, diffPixels=17525
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-002c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1095] [WPT print-reftest] css/css-break/table/table-fragmentation-003a-print.html
+- [1113] [WPT print-reftest] css/css-break/table/table-fragmentation-003a-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-003a-print-ref.html (==)
@@ -2000,7 +2195,7 @@
   stable selected pages: test=[1], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1096] [WPT print-reftest] css/css-break/table/table-fragmentation-003b-print.html
+- [1114] [WPT print-reftest] css/css-break/table/table-fragmentation-003b-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-003a-print-ref.html (==)
@@ -2013,7 +2208,7 @@
   stable selected pages: test=[1], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003a-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1097] [WPT print-reftest] css/css-break/table/table-fragmentation-003c-print.html
+- [1115] [WPT print-reftest] css/css-break/table/table-fragmentation-003c-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-003c-print-ref.html (==)
@@ -2026,7 +2221,7 @@
   stable selected pages: test=[1], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1098] [WPT print-reftest] css/css-break/table/table-fragmentation-003d-print.html
+- [1116] [WPT print-reftest] css/css-break/table/table-fragmentation-003d-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/table/table-fragmentation-003c-print-ref.html (==)
@@ -2039,7 +2234,7 @@
   stable selected pages: test=[1], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-fragmentation-003c-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1099] [WPT print-reftest] css/css-break/transform-022-print.html
+- [1117] [WPT print-reftest] css/css-break/transform-022-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/transform-022-print-ref.html (==)
@@ -2052,7 +2247,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-022-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1101] [WPT print-reftest] css/css-break/transform-024-print.html
+- [1119] [WPT print-reftest] css/css-break/transform-024-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/transform-024-print-ref.html (==)
@@ -2065,7 +2260,7 @@
   stable selected pages: test=[1, 2, 3], reference=[1, 2, 3, 4, 5]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/transform-024-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1102] [WPT print-reftest] css/css-break/underflow-from-next-page-print.html
+- [1120] [WPT print-reftest] css/css-break/underflow-from-next-page-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-break/underflow-from-next-page-print-ref.html (==)
@@ -2077,14 +2272,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00008467865048469583, diffPixels=71
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0849] [WPT reftest] css/css-break/table/border-spacing-at-breaks.tentative.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/border-spacing-at-breaks.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/border-spacing-at-breaks.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 276
-- Entries with differences: 138 (pending: 138, triaged: 0)
-- Entries with errors: 24 (pending: 24, triaged: 0)
-- Timeout entries: 24
+- Entries with differences: 138 (improvement: 2, pending: 136, triaged: 0)
+- Entries with errors: 23 (pending: 23, triaged: 0)
+- Timeout entries: 23
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":138,"pass":108,"error":23,"unchanged":7}
+- Screenshot mismatches: 4
+- Outcome summary: {"known-fail":134,"changed-fail":2,"pass":108,"error":23,"improvement":2,"unchanged":7}
 
 ## Differences
 
@@ -38,12 +38,16 @@
 
 - [0003] [WPT reftest] css/css-pseudo/active-selection-014.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/reference/active-selection-014-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.012869962216624686, diffPixels=10791
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/active-selection-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.012869962216624686, diffPixels=10791
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/reference/active-selection-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-pseudo/active-selection-016.html
   triage: pending
@@ -99,11 +103,11 @@
 
 - [0008] [WPT reftest] css/css-pseudo/active-selection-027.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/reference/active-selection-027-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03487329211510572, diffPixels=29240
+  canary page 1: diffRatio=0.029285693840164873, diffPixels=24555
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/reference/active-selection-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -605,13 +609,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-change-inline-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0074] [WPT reftest] css/css-pseudo/first-line-inherited-no-transition.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-pseudo/first-line-inherited-no-transition-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-inherited-no-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006225669796198764, diffPixels=522
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-inherited-no-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-inherited-no-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0006225669796198764, diffPixels=522
@@ -619,11 +619,11 @@
 
 - [0075] [WPT reftest] css/css-pseudo/first-line-inherited-with-transition.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-line-inherited-with-transition-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-inherited-with-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005369342034959163, diffPixels=4502
+  canary page 1: diffRatio=0.0031009083276085795, diffPixels=2600
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-inherited-with-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-inherited-with-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -722,13 +722,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-on-list-item-with-block-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0085] [WPT reftest] css/css-pseudo/first-line-opacity-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-pseudo/first-line-opacity-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-opacity-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-opacity-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-opacity-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00020513701244179834, diffPixels=172
@@ -1822,14 +1818,6 @@
 
 ## Errors
 
-- [0003] [WPT reftest] css/css-pseudo/active-selection-014.html
-  triage: pending
-  side: stable
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/active-selection-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/active-selection-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0051] [WPT reftest] css/css-pseudo/first-letter-of-html-root-refcrash.html
   triage: pending
   side: canary, stable
@@ -1991,7 +1979,7 @@
   canary-reference timeout: true
   canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable-reference reference: css/css-pseudo/target-text-011-ref.html
   stable-reference timeout: true
   stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 215
-- Entries with differences: 103 (pending: 103, triaged: 0)
+- Entries with differences: 104 (pending: 104, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":111,"known-fail":103,"unchanged":1}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":110,"known-fail":103,"regression":1,"unchanged":1}
 
 ## Differences
 
@@ -217,6 +217,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-inline-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00014431150293870698, diffPixels=121
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-pass-no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0054] [WPT reftest] css/css-display/display-contents-root-background.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-display/display-contents-root-background-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-root-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.6390375734676742, diffPixels=535810
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-root-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0055] [WPT reftest] css/css-display/display-contents-shadow-dom-1.html
   triage: pending
