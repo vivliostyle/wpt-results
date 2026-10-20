@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 32
+- Compared entries: 39
 - Entries with differences: 7 (improvement: 1, pending: 6, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":24,"known-fail":6,"error":1,"improvement":1}
+- Outcome summary: {"pass":31,"known-fail":6,"error":1,"improvement":1}
 
 ## Differences
 
@@ -49,7 +49,7 @@
   stable page 1: diffRatio=0.00026834783604305016, diffPixels=225
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/transition-in-media-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0021] [WPT print-reftest] css/printing/paused-animations-print.html
+- [0025] [WPT print-reftest] css/printing/paused-animations-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/printing/paused-animations-print-ref.html (==)
@@ -62,7 +62,7 @@
   stable page 1: diffRatio=0.0006833924891229677, diffPixels=573
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/paused-animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0022] [WPT print-reftest] css/printing/pseudo-animations-print.html
+- [0026] [WPT print-reftest] css/printing/pseudo-animations-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/printing/pseudo-animations-print-ref.html (==)
@@ -75,7 +75,7 @@
   stable page 1: diffRatio=0.0010101805205709488, diffPixels=847
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/pseudo-animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0026] [WPT print-reftest] css/printing/table-overflow-quirks-frameset-crash-print.html
+- [0031] [WPT print-reftest] css/printing/table-overflow-quirks-frameset-crash-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/blank.html (!=)
@@ -88,7 +88,7 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0032] [WPT print-reftest] css/printing/zero-size-003-print.tentative.html
+- [0039] [WPT print-reftest] css/printing/zero-size-003-print.tentative.html
   triage: not-needed
   outcome: improvement (baseline=ERROR, actual=PASS)
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -96,7 +96,7 @@
 
 ## Errors
 
-- [0010] [WPT print-reftest] css/printing/fixed-pos-object-pdf-crash-print.html
+- [0013] [WPT print-reftest] css/printing/fixed-pos-object-pdf-crash-print.html
   triage: pending
   side: canary, stable
   canary timeout: true

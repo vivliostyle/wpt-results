@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 276
-- Entries with differences: 138 (improvement: 2, pending: 136, triaged: 0)
+- Entries with differences: 138 (improvement: 3, pending: 135, triaged: 0)
 - Entries with errors: 23 (pending: 23, triaged: 0)
 - Timeout entries: 23
-- Page count changed: 0
-- Screenshot mismatches: 4
-- Outcome summary: {"known-fail":134,"changed-fail":2,"pass":108,"error":23,"improvement":2,"unchanged":7}
+- Page count changed: 1
+- Screenshot mismatches: 5
+- Outcome summary: {"known-fail":133,"changed-fail":2,"pass":108,"error":23,"improvement":3,"unchanged":7}
 
 ## Differences
 
@@ -657,13 +657,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0079] [WPT reftest] css/css-pseudo/first-line-line-height-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-pseudo/first-line-line-height-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-line-height-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-line-height-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-line-height-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2], reference=[1]
@@ -1943,7 +1939,7 @@
   canary-reference timeout: true
   canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable-reference reference: css/css-pseudo/target-text-008-ref.html
   stable-reference timeout: true
   stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
@@ -1979,7 +1975,7 @@
   canary-reference timeout: true
   canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable-reference reference: css/css-pseudo/target-text-011-ref.html
   stable-reference timeout: true
   stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready

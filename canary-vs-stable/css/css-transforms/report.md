@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 796
-- Entries with differences: 260 (improvement: 1, pending: 259, triaged: 0)
+- Entries with differences: 259 (pending: 259, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":535,"known-fail":259,"improvement":1,"unchanged":1}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":536,"known-fail":259,"unchanged":1}
 
 ## Differences
 
@@ -1920,15 +1920,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/content-box-mutation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.016399034424853066, diffPixels=13750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/cssbox-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0415] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0416] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-001.html
   triage: pending

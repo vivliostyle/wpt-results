@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1191
-- Entries with differences: 588 (pending: 588, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 590 (pending: 590, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":372,"known-fail":588,"unchanged":231}
+- Outcome summary: {"pass":370,"known-fail":589,"regression":1,"unchanged":231}
 
 ## Differences
 
@@ -23,18 +23,23 @@
   stable page 1: diffRatio=0.0001359629035951454, diffPixels=114
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/accent-color-invalidation-currentcolor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0007] [WPT reftest] css/css-ui/appearance-auto-details-list-item.html
+- [0006] [WPT reftest] css/css-ui/appearance-auto-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/appearance-auto-details-list-item-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-auto-details-list-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000010733913441722006, diffPixels=9
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-auto-details-list-item-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-auto-details-list-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-auto-details-list-item-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-auto-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-auto-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0007] [WPT reftest] css/css-ui/appearance-auto-details-list-item.html
+  triage: pending
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-auto-details-list-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-auto-details-list-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0010] [WPT reftest] css/css-ui/appearance-button-001.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-button-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/appearance-button-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0013] [WPT reftest] css/css-ui/appearance-invalidate-author-styling-001.html
   triage: pending
@@ -7663,4 +7668,41 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-generated-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000021467826883444013, diffPixels=18
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0006] [WPT reftest] css/css-ui/appearance-auto-001.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-ui/appearance-auto-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-ui/appearance-auto-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-auto-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-auto-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0007] [WPT reftest] css/css-ui/appearance-auto-details-list-item.html
+  triage: pending
+  side: canary-reference, stable, stable-reference
+  canary-reference reference: css/css-ui/appearance-auto-details-list-item-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-ui/appearance-auto-details-list-item-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-auto-details-list-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-auto-details-list-item-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0010] [WPT reftest] css/css-ui/appearance-button-001.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-ui/appearance-auto-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-button-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/appearance-auto-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

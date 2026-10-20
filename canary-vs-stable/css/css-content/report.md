@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 63
-- Entries with differences: 37 (pending: 37, triaged: 0)
+- Compared entries: 65
+- Entries with differences: 39 (pending: 39, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":26,"known-fail":37}
+- Outcome summary: {"pass":26,"known-fail":39}
 
 ## Differences
 
@@ -179,7 +179,33 @@
   stable page 1: diffRatio=0.011739323334096633, diffPixels=9843
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/element-replacement-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0020] [WPT reftest] css/css-content/pseudo-element-inline-box.html
+- [0020] [WPT reftest] css/css-content/pseudo-element-gradient.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-content/pseudo-element-gradient-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/pseudo-element-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011513911151820471, diffPixels=9654
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/pseudo-element-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/pseudo-element-gradient.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011513911151820471, diffPixels=9654
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/pseudo-element-gradient-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0021] [WPT reftest] css/css-content/pseudo-element-image-set.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-content/pseudo-element-image-set-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/pseudo-element-image-set.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/pseudo-element-image-set-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/pseudo-element-image-set.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/pseudo-element-image-set-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0022] [WPT reftest] css/css-content/pseudo-element-inline-box.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/pseudo-element-inline-box-ref.html (==)
@@ -192,7 +218,7 @@
   stable page 1: diffRatio=0.005056865888100145, diffPixels=4240
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/pseudo-element-inline-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0022] [WPT reftest] css/css-content/quotes-002.html
+- [0024] [WPT reftest] css/css-content/quotes-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-002-ref.html (==)
@@ -205,7 +231,7 @@
   stable page 1: diffRatio=0.0000047706281963208916, diffPixels=4
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0023] [WPT reftest] css/css-content/quotes-003.html
+- [0025] [WPT reftest] css/css-content/quotes-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-003-ref.html (==)
@@ -218,7 +244,7 @@
   stable page 1: diffRatio=0.000017889855736203345, diffPixels=15
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0024] [WPT reftest] css/css-content/quotes-004.html
+- [0026] [WPT reftest] css/css-content/quotes-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-004-ref.html (==)
@@ -231,7 +257,7 @@
   stable page 1: diffRatio=0.0012701797572704373, diffPixels=1065
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0025] [WPT reftest] css/css-content/quotes-005.html
+- [0027] [WPT reftest] css/css-content/quotes-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-005-ref.html (==)
@@ -244,7 +270,7 @@
   stable page 1: diffRatio=0.0007406400274788184, diffPixels=621
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0028] [WPT reftest] css/css-content/quotes-008.html
+- [0030] [WPT reftest] css/css-content/quotes-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-008-ref.html (==)
@@ -257,7 +283,7 @@
   stable page 1: diffRatio=0.0013202713533318068, diffPixels=1107
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0029] [WPT reftest] css/css-content/quotes-009.html
+- [0031] [WPT reftest] css/css-content/quotes-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-009-ref.html (==)
@@ -270,7 +296,7 @@
   stable page 1: diffRatio=0.0004734848484848485, diffPixels=397
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0030] [WPT reftest] css/css-content/quotes-010.html
+- [0032] [WPT reftest] css/css-content/quotes-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-010-ref.html (==)
@@ -283,7 +309,7 @@
   stable page 1: diffRatio=0.0010745840012212808, diffPixels=901
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0031] [WPT reftest] css/css-content/quotes-011.html
+- [0033] [WPT reftest] css/css-content/quotes-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-011-ref.html (==)
@@ -296,7 +322,7 @@
   stable page 1: diffRatio=0.001102015113350126, diffPixels=924
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0033] [WPT reftest] css/css-content/quotes-013.html
+- [0035] [WPT reftest] css/css-content/quotes-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-013-ref.html (==)
@@ -309,7 +335,7 @@
   stable page 1: diffRatio=0.0008849515304175254, diffPixels=742
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0035] [WPT reftest] css/css-content/quotes-015.html
+- [0037] [WPT reftest] css/css-content/quotes-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-015-ref.html (==)
@@ -322,7 +348,7 @@
   stable page 1: diffRatio=0.001492013968399359, diffPixels=1251
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0036] [WPT reftest] css/css-content/quotes-016.html
+- [0038] [WPT reftest] css/css-content/quotes-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-016-ref.html (==)
@@ -335,7 +361,7 @@
   stable page 1: diffRatio=0.0006464201206014808, diffPixels=542
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0041] [WPT reftest] css/css-content/quotes-021.html
+- [0043] [WPT reftest] css/css-content/quotes-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-021-ref.html (==)
@@ -348,7 +374,7 @@
   stable page 1: diffRatio=0.0013274272956262882, diffPixels=1113
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0046] [WPT reftest] css/css-content/quotes-026.html
+- [0048] [WPT reftest] css/css-content/quotes-026.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-026-ref.html (==)
@@ -361,7 +387,7 @@
   stable page 1: diffRatio=0.0007692637966567438, diffPixels=645
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0050] [WPT reftest] css/css-content/quotes-030.html
+- [0052] [WPT reftest] css/css-content/quotes-030.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-030-ref.html (==)
@@ -374,7 +400,7 @@
   stable page 1: diffRatio=0.005419433631020533, diffPixels=4544
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0053] [WPT reftest] css/css-content/quotes-033.html
+- [0055] [WPT reftest] css/css-content/quotes-033.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-033-ref.html (==)
@@ -387,7 +413,7 @@
   stable page 1: diffRatio=0.0000023853140981604458, diffPixels=2
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-033-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0054] [WPT reftest] css/css-content/quotes-034.html
+- [0056] [WPT reftest] css/css-content/quotes-034.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-034-ref.html (==)
@@ -400,7 +426,7 @@
   stable page 1: diffRatio=0.0017866002595221739, diffPixels=1498
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0056] [WPT reftest] css/css-content/quotes-first-letter-001.html
+- [0058] [WPT reftest] css/css-content/quotes-first-letter-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-001-ref.html (==)
@@ -413,7 +439,7 @@
   stable page 1: diffRatio=0.000551007556675063, diffPixels=462
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-first-letter-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0057] [WPT reftest] css/css-content/quotes-first-letter-002.html
+- [0059] [WPT reftest] css/css-content/quotes-first-letter-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-002-ref.html (==)
@@ -426,7 +452,7 @@
   stable page 1: diffRatio=0.0000023853140981604458, diffPixels=2
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-first-letter-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0058] [WPT reftest] css/css-content/quotes-first-letter-003.html
+- [0060] [WPT reftest] css/css-content/quotes-first-letter-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-001-ref.html (==)
@@ -439,7 +465,7 @@
   stable page 1: diffRatio=0.000026238455079764903, diffPixels=22
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-first-letter-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0059] [WPT reftest] css/css-content/quotes-first-letter-004.html
+- [0061] [WPT reftest] css/css-content/quotes-first-letter-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-001-ref.html (==)
@@ -452,7 +478,7 @@
   stable page 1: diffRatio=0.00002504579803068468, diffPixels=21
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-first-letter-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0060] [WPT reftest] css/css-content/quotes-first-letter-005.html
+- [0062] [WPT reftest] css/css-content/quotes-first-letter-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-002-ref.html (==)
@@ -465,7 +491,7 @@
   stable page 1: diffRatio=0.0000023853140981604458, diffPixels=2
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-first-letter-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0062] [WPT reftest] css/css-content/quotes-lang-dynamic-001.html
+- [0064] [WPT reftest] css/css-content/quotes-lang-dynamic-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-lang-dynamic-001-ref.html (==)
@@ -478,7 +504,7 @@
   stable page 1: diffRatio=0.00030651286161361725, diffPixels=257
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-lang-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0063] [WPT reftest] css/css-content/quotes-slot-scoping.html
+- [0065] [WPT reftest] css/css-content/quotes-slot-scoping.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/quotes-slot-scoping-ref.html (==)

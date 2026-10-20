@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 462
-- Entries with differences: 134 (improvement: 2, pending: 132, triaged: 0)
+- Entries with differences: 132 (improvement: 2, pending: 130, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 3
-- Outcome summary: {"pass":328,"known-fail":129,"improvement":2,"regression":3}
+- Screenshot mismatches: 2
+- Outcome summary: {"pass":330,"known-fail":130,"improvement":2}
 
 ## Differences
 
@@ -366,32 +366,18 @@
   stable page 1: diffRatio=0.022325347301732693, diffPixels=18719
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/image-orientation-none-cross-origin-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0147] [WPT reftest] css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-images/image-orientation/reference/svg-image-orientation-aspect-ratio-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.11724772918097855, diffPixels=98308
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-aspect-ratio-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0148] [WPT reftest] css/css-images/image-orientation/svg-image-orientation-none.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005953743989008472, diffPixels=4992
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0149] [WPT reftest] css/css-images/image-orientation/svg-image-orientation.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-images/image-orientation/reference/svg-image-orientation-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.035726041905198076, diffPixels=29955
+  canary page 1: diffRatio=0.005952551331959393, diffPixels=4991
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/svg-image-orientation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.005952551331959393, diffPixels=4991
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-orientation/reference/svg-image-orientation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0153] [WPT reftest] css/css-images/image-set/image-set-calc-x-rendering-2.html
   triage: pending

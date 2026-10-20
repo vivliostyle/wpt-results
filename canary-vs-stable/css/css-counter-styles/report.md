@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 249
-- Entries with differences: 65 (pending: 65, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Entries with differences: 68 (improvement: 1, pending: 67, triaged: 0)
+- Entries with errors: 5 (pending: 5, triaged: 0)
+- Timeout entries: 5
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":183,"known-fail":65,"unchanged":1}
+- Outcome summary: {"pass":179,"known-fail":67,"error":1,"improvement":1,"unchanged":1}
 
 ## Differences
 
@@ -491,6 +491,18 @@
   stable page 1 (css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html): diffRatio=0.0009755934661476223, diffPixels=818
   stable reference render (css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/css3-counter-styles-044-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0136] [WPT reftest] css/css-counter-styles/katakana-iroha/css3-counter-styles-039.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0137] [WPT reftest] css/css-counter-styles/katakana-iroha/css3-counter-styles-040.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0142] [WPT reftest] css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -589,6 +601,12 @@
   stable reference render (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): diffRatio=0.0019571502175406456, diffPixels=1641
   stable reference render (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0168] [WPT reftest] css/css-counter-styles/lower-armenian/css3-counter-styles-114.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-114.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-114.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0192] [WPT reftest] css/css-counter-styles/persian/css3-counter-styles-105.html
   triage: pending
@@ -929,4 +947,38 @@
   stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-symbolic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-symbolic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0136] [WPT reftest] css/css-counter-styles/katakana-iroha/css3-counter-styles-039.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-counter-styles/katakana-iroha/css3-counter-styles-039-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-counter-styles/katakana-iroha/css3-counter-styles-039-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-039.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-039-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0137] [WPT reftest] css/css-counter-styles/katakana-iroha/css3-counter-styles-040.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-counter-styles/katakana-iroha/css3-counter-styles-040-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-counter-styles/katakana-iroha/css3-counter-styles-040-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/katakana-iroha/css3-counter-styles-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0140] [WPT reftest] css/css-counter-styles/khmer/css3-counter-styles-162.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/khmer/css3-counter-styles-162.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/khmer/css3-counter-styles-162.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 379
-- Entries with differences: 100 (improvement: 5, pending: 95, triaged: 0)
+- Entries with differences: 101 (improvement: 6, pending: 95, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 7
-- Outcome summary: {"known-fail":93,"pass":279,"changed-fail":1,"improvement":5,"regression":1}
+- Outcome summary: {"known-fail":93,"pass":278,"changed-fail":1,"improvement":6,"regression":1}
 
 ## Differences
 
@@ -29,7 +29,7 @@
   reference: css/css-fonts/downloadable-font-scoped-to-document-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0034205404167620794, diffPixels=2868
+  canary page 1: diffRatio=0.0034181551026639186, diffPixels=2866
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -360,6 +360,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0010447675749942753, diffPixels=876
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-feature-resolution-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0068] [WPT reftest] css/css-fonts/font-kerning-01.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-kerning-01.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-kerning-01.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0070] [WPT reftest] css/css-fonts/font-kerning-03.html
   triage: pending

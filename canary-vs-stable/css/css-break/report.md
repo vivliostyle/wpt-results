@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1121
-- Entries with differences: 173 (pending: 173, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 174 (improvement: 1, pending: 173, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":948,"known-fail":173}
+- Outcome summary: {"pass":944,"known-fail":173,"error":3,"improvement":1}
 
 ## Differences
 
@@ -61,6 +61,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/borders-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.030532020456453705, diffPixels=25600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/borders-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0068] [WPT reftest] css/css-break/box-decoration-break-clone-018.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/box-decoration-break-clone-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/box-decoration-break-clone-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0085] [WPT reftest] css/css-break/box-decoration-break-clone-inline-001.html
   triage: pending
@@ -2272,4 +2278,34 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00008467865048469583, diffPixels=71
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0064] [WPT reftest] css/css-break/box-decoration-break-clone-014.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/box-decoration-break-clone-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/box-decoration-break-clone-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0486] [WPT reftest] css/css-break/grid/grid-item-fragmentation-003.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-item-fragmentation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-item-fragmentation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0487] [WPT reftest] css/css-break/grid/grid-item-fragmentation-004.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/grid/grid-item-fragmentation-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/grid/grid-item-fragmentation-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

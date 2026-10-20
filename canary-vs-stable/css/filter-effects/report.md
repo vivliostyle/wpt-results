@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 334
-- Entries with differences: 161 (improvement: 1, pending: 160, triaged: 0)
+- Entries with differences: 160 (pending: 160, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":173,"known-fail":160,"improvement":1}
+- Outcome summary: {"pass":174,"known-fail":160}
 
 ## Differences
 
@@ -237,11 +237,11 @@
   reference: css/filter-effects/reference/background-image-blur-repaint-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/background-image-blur-repaint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00882685482024273, diffPixels=7401
+  canary page 1: diffRatio=0.008944927868101672, diffPixels=7500
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/background-image-blur-repaint-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/background-image-blur-repaint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00882685482024273, diffPixels=7401
+  stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/background-image-blur-repaint-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0085] [WPT reftest] css/filter-effects/css-backdrop-filter-transform-clip.html
@@ -1764,15 +1764,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02767202885275933, diffPixels=23202
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0278] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/filter-effects/reference/svg-relative-urls-002-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0281] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
   triage: pending

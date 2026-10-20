@@ -2,11 +2,11 @@
 
 - Compared entries: 308
 - Entries with differences: 19 (pending: 19, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"pass":288,"known-fail":18,"changed-fail":1,"error":1}
+- Outcome summary: {"pass":289,"known-fail":18,"changed-fail":1}
 
 ## Differences
 
@@ -256,16 +256,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/system-color-hightlights-vs-getSelection-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.012657669261888405, diffPixels=10613
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/reference/system-color-hightlights-vs-getSelection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0052] [WPT reftest] css/css-color/deprecated-sameas-006.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/deprecated-sameas-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/deprecated-sameas-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
