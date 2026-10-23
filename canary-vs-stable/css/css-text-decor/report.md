@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 375
-- Entries with differences: 171 (pending: 171, triaged: 0)
+- Entries with differences: 173 (pending: 173, triaged: 0)
 - Entries with errors: 6 (pending: 6, triaged: 0)
 - Timeout entries: 6
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":132,"known-fail":171,"error":6,"unchanged":66}
+- Screenshot mismatches: 3
+- Outcome summary: {"pass":130,"known-fail":170,"changed-fail":1,"expected-change":2,"error":6,"unchanged":66}
 
 ## Differences
 
@@ -662,11 +662,11 @@
 
 - [0091] [WPT reftest] css/css-text-decor/text-decoration-skip-spaces-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text-decor/reference/text-decoration-skip-spaces-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-skip-spaces-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0015754999618349745, diffPixels=1321
+  canary page 1: diffRatio=0.0015778852759331349, diffPixels=1323
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-skip-spaces-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-skip-spaces-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -763,6 +763,13 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-subelements-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/reference/text-decoration-subelements-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0104] [WPT reftest] css/css-text-decor/text-decoration-subelements-003.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00005963285245401114, diffPixels=50
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-decoration-subelements-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-decoration-subelements-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0114] [WPT reftest] css/css-text-decor/text-decoration-thickness-length-rounding-002.html
   triage: pending
@@ -1582,6 +1589,13 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-emphasis-property-004a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00005366956720861003, diffPixels=45
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-emphasis-color-property-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0205] [WPT reftest] css/css-text-decor/text-emphasis-punctuation-2.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0002349534386688039, diffPixels=197
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text-decor/text-emphasis-punctuation-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text-decor/text-emphasis-punctuation-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0206] [WPT reftest] css/css-text-decor/text-emphasis-punctuation-3.html
   triage: pending

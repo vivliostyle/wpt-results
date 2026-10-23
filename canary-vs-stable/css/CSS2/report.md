@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 6825
-- Entries with differences: 1034 (improvement: 2, pending: 1032, triaged: 0)
-- Entries with errors: 5 (pending: 5, triaged: 0)
-- Timeout entries: 5
+- Entries with differences: 1033 (improvement: 92, pending: 941, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
-- Screenshot mismatches: 19
-- Outcome summary: {"known-fail":1015,"pass":5240,"error":4,"improvement":2,"changed-fail":1,"regression":5,"unchanged":547,"changed":11}
+- Screenshot mismatches: 110
+- Outcome summary: {"known-fail":923,"pass":5242,"error":3,"improvement":92,"changed-fail":1,"regression":5,"expected-change":1,"unchanged":547,"changed":11}
 
 ## Differences
 
@@ -861,11 +861,11 @@
   reference: css/CSS2/backgrounds/background-root-012b-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-012b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000647612777650561, diffPixels=543
+  canary page 1: diffRatio=0.0003029348904663766, diffPixels=254
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-012b-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-012b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000647612777650561, diffPixels=543
+  stable page 1: diffRatio=0.0003029348904663766, diffPixels=254
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-012b-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0355] [WPT reftest] css/CSS2/backgrounds/background-root-015.xht
@@ -900,11 +900,11 @@
   reference: css/CSS2/backgrounds/background-root-018-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.5730860239676361, diffPixels=480512
+  canary page 1: diffRatio=0.20223169987023892, diffPixels=169564
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-root-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.5730860239676361, diffPixels=480512
+  stable page 1: diffRatio=0.20223169987023892, diffPixels=169564
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-root-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0359] [WPT reftest] css/CSS2/backgrounds/background-root-019.xht
@@ -1491,19 +1491,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.025546713991298375, diffPixels=21420
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1042] [WPT reftest] css/CSS2/box-display/containing-block-023.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/CSS2/box-display/containing-block-023-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/box-display/containing-block-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010991527364323335, diffPixels=9216
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/box-display/containing-block-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010991527364323335, diffPixels=9216
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/box-display/containing-block-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1048] [WPT reftest] css/CSS2/box-display/delete-block-in-inlines-beginning-001.xht
   triage: pending
@@ -4547,12 +4534,6 @@
   stable page 1: diffRatio=0.00310329364170674, diffPixels=2602
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/generated-content/content-096-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1971] [WPT reftest] css/CSS2/generated-content/content-113.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/generated-content/content-113.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/generated-content/content-113.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [1980] [WPT reftest] css/CSS2/generated-content/content-123.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -7176,1170 +7157,810 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-nested-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4513] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-004.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005128425311044959, diffPixels=430
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0005128425311044959, diffPixels=430
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4514] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-005.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-005-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002957789481718953, diffPixels=248
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-005-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002957789481718953, diffPixels=248
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-005-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4515] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-006.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-006-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019559575604915656, diffPixels=164
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-006.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00019559575604915656, diffPixels=164
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-006-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4516] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-007.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-007-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002659625219448897, diffPixels=223
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002659625219448897, diffPixels=223
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4517] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-008.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-008-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001455041599877872, diffPixels=122
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001455041599877872, diffPixels=122
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4518] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-009.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-009-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015266010228226853, diffPixels=128
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-009-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-009.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-009-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4519] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-010.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-010-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019082512785283565, diffPixels=160
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4520] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-012.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-012-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020036638424547745, diffPixels=168
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00020036638424547745, diffPixels=168
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-012-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4521] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-013.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-013-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023853140981604457, diffPixels=200
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4522] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-014.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-014-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020752232653995878, diffPixels=174
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-014-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-014.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00020752232653995878, diffPixels=174
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-014-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4523] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-015.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-015-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00028504503473017327, diffPixels=239
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-015.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00028504503473017327, diffPixels=239
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-015-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4524] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-016.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-016-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003291733455461415, diffPixels=276
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-016-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-016.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0003291733455461415, diffPixels=276
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-016-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4525] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-017.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-017-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015862338752766964, diffPixels=133
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-017.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015862338752766964, diffPixels=133
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-017-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4526] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-018.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-018-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00022779749637432257, diffPixels=191
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00022779749637432257, diffPixels=191
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4527] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-019.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-019-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002444946950614457, diffPixels=205
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002444946950614457, diffPixels=205
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4528] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-020.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-020-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-020.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00031009083276085795, diffPixels=260
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-020-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-020.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00031009083276085795, diffPixels=260
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-020-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4529] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-021.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-021-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015504541638042897, diffPixels=130
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-021.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015504541638042897, diffPixels=130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-021-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4530] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-022.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-022-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00024210938096328523, diffPixels=203
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-022-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00024210938096328523, diffPixels=203
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-022-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4531] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-023.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-023-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00022183421112892147, diffPixels=186
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-023.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00022183421112892147, diffPixels=186
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-023-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4532] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-024.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-024-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023018281047248302, diffPixels=193
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00023018281047248302, diffPixels=193
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-024-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4533] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-025.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-025-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-025.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00022779749637432257, diffPixels=191
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-025.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00022779749637432257, diffPixels=191
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-025-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4534] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-026.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-026-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-026.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020155904129455767, diffPixels=169
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-026-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-026.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00020155904129455767, diffPixels=169
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-026-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4535] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-027.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-027-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-027.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018486184260743454, diffPixels=155
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-027-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-027.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-027-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4536] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-028.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-028-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-028.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018605449965651476, diffPixels=156
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-028-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-028.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-028-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4537] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-029.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-029-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001884398137546752, diffPixels=158
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-029-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-029.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001884398137546752, diffPixels=158
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-029-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4538] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-030.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-030-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016577932982215097, diffPixels=139
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-030-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-030.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-030-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4539] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-031.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-031-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-031.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00024330203801236548, diffPixels=204
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-031-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-031.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00024330203801236548, diffPixels=204
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-031-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4540] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-032.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-032-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-032.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002993569193191359, diffPixels=251
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-032-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-032.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002993569193191359, diffPixels=251
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-032-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4541] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-033.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-033-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-033.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020036638424547745, diffPixels=168
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-033-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-033.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00020036638424547745, diffPixels=168
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-033-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4542] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-034.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-034-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-034.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015266010228226853, diffPixels=128
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-034-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-034.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-034-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4543] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-035.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-035-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-035.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002755037783375315, diffPixels=231
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-035-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-035.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002755037783375315, diffPixels=231
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-035-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4544] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-036.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-036-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-036.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015981604457674986, diffPixels=134
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-036-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-036.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015981604457674986, diffPixels=134
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-036-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4545] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-037.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-037-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-037.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019082512785283565, diffPixels=160
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-037-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-037.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-037-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4546] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-038.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-038-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-038.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00029458629112281504, diffPixels=247
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-038-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-038.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00029458629112281504, diffPixels=247
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-038-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4547] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-039.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-039-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-039.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016697198687123122, diffPixels=140
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-039-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-039.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-039-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4548] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-040.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-040-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-040.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00025284329440500725, diffPixels=212
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-040-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-040.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00025284329440500725, diffPixels=212
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-040-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4549] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-041.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-041-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-041.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003232100603007404, diffPixels=271
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-041.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0003232100603007404, diffPixels=271
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-041-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4550] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-042.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-042-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-042.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019082512785283565, diffPixels=160
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-042-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-042.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-042-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4551] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-043.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-043-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-043.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002910083199755744, diffPixels=244
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-043-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-043.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002910083199755744, diffPixels=244
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-043-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4552] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-044.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-044-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-044.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00032678803144798105, diffPixels=274
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-044-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-044.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00032678803144798105, diffPixels=274
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-044-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4553] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-045.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-045-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-045.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00032082474620257997, diffPixels=269
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-045-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-045.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00032082474620257997, diffPixels=269
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-045-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4554] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-046.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-046-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-046.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016458667277307075, diffPixels=138
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-046-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-046.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00016458667277307075, diffPixels=138
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-046-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4555] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-047.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-047-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-047.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015981604457674986, diffPixels=134
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-047-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-047.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015981604457674986, diffPixels=134
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-047-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4556] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-049.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-049-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-049.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002957789481718953, diffPixels=248
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-049-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-049.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002957789481718953, diffPixels=248
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-049-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4557] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-050.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-050-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-050.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019440309900007634, diffPixels=163
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-050-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-050.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00019440309900007634, diffPixels=163
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-050-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4558] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-051.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-051-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-051.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00021587092588352033, diffPixels=181
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-051-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-051.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00021587092588352033, diffPixels=181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-051-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4559] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-052.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-052-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-052.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00018724715670559498, diffPixels=157
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-052-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-052.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00018724715670559498, diffPixels=157
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-052-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4560] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-053.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-053-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-053.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003244027173498206, diffPixels=272
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-053-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-053.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0003244027173498206, diffPixels=272
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-053-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4561] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-054.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-054-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-054.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003184394321044195, diffPixels=267
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-054-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-054.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0003184394321044195, diffPixels=267
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-054-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4562] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-055.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-055-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-055.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001777059003129532, diffPixels=149
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-055-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-055.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001777059003129532, diffPixels=149
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-055-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4563] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-056.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-056-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-056.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016577932982215097, diffPixels=139
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-056-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-056.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-056-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4564] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-057.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-057-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-057.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000251650637355927, diffPixels=211
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-057-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-057.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000251650637355927, diffPixels=211
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-057-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4565] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-058.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-058-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-058.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020394435539271811, diffPixels=171
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-058-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-058.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00020394435539271811, diffPixels=171
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-058-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4566] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-059.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-059-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-059.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015385275933134875, diffPixels=129
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-059-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-059.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015385275933134875, diffPixels=129
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-059-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4567] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-060.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-060-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-060.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015862338752766964, diffPixels=133
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-060-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-060.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015862338752766964, diffPixels=133
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-060-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4568] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-061.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-061-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-061.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016697198687123122, diffPixels=140
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-061-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-061.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-061-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4569] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-062.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-062-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-062.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019917372719639723, diffPixels=167
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-062-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-062.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00019917372719639723, diffPixels=167
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-062-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4570] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-063.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-063-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-063.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00020513701244179834, diffPixels=172
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-063-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-063.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00020513701244179834, diffPixels=172
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-063-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4571] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-064.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-064-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-064.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00021944889703076102, diffPixels=184
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-064-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-064.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00021944889703076102, diffPixels=184
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-064-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4572] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-065.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-065-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-065.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002635772078467293, diffPixels=221
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-065-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-065.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002635772078467293, diffPixels=221
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-065-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4573] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-066.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-066-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-066.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-066-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-066.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00017412792916571255, diffPixels=146
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-066-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4574] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-067.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-067-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-067.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001920177849019159, diffPixels=161
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-067-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-067.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-067-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4575] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-068.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-068-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-068.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00012284367605526296, diffPixels=103
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-068-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-068.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00012284367605526296, diffPixels=103
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-068-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4576] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-069.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-069-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-069.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015504541638042897, diffPixels=130
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-069-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-069.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015504541638042897, diffPixels=130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-069-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4577] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-070.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-070-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-070.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00013357758949698496, diffPixels=112
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-070-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-070.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00013357758949698496, diffPixels=112
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-070-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4578] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-071.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-071-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-071.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00013119227539882451, diffPixels=110
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-071-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-071.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00013119227539882451, diffPixels=110
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-071-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4579] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-072.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-072-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-072.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001359629035951454, diffPixels=114
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-072-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-072.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001359629035951454, diffPixels=114
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-072-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4580] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-073.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-073-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-073.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001299996183497443, diffPixels=109
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-073-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-073.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001299996183497443, diffPixels=109
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-073-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4581] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-074.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-074-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-074.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-074-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-074.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-074-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4582] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-075.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-075-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-075.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001204583619571025, diffPixels=101
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-075-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-075.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001204583619571025, diffPixels=101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-075-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4583] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-076.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-076-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-076.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019321044195099612, diffPixels=162
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-076-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-076.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00019321044195099612, diffPixels=162
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-076-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4584] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-077.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-077-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-077.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001204583619571025, diffPixels=101
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-077-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-077.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001204583619571025, diffPixels=101
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-077-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4585] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-078.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-078-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-078.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00012165101900618274, diffPixels=102
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-078-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-078.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00012165101900618274, diffPixels=102
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-078-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4586] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-079.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-079-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-079.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015743073047858942, diffPixels=132
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-079-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-079.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-079-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4587] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-080.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-080-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-080.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015743073047858942, diffPixels=132
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-080-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-080.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-080-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4588] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-081.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-081-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-081.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014908213113502787, diffPixels=125
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-081-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-081.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00014908213113502787, diffPixels=125
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-081-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4589] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-082.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-082-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-082.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001359629035951454, diffPixels=114
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-082-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-082.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001359629035951454, diffPixels=114
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-082-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4590] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-083.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-083-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-083.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014788947408594764, diffPixels=124
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-083-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-083.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00014788947408594764, diffPixels=124
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-083-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4591] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-084.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-084-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-084.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00012642164720250363, diffPixels=106
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-084-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-084.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00012642164720250363, diffPixels=106
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-084-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4592] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-085.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-085-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-085.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00011688039080986184, diffPixels=98
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-085-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-085.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00011688039080986184, diffPixels=98
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-085-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4593] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-086.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-086-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00012284367605526296, diffPixels=103
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-086-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-086.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00012284367605526296, diffPixels=103
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-086-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4785] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-283.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-283-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-283.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014788947408594764, diffPixels=124
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-283-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-283.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00014788947408594764, diffPixels=124
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-283-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4786] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-284.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-284-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-284.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015266010228226853, diffPixels=128
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-284-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-284.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-284-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4825] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-323.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-323-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-323.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015266010228226853, diffPixels=128
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-323-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-323.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015266010228226853, diffPixels=128
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-323-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4826] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-324.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-324-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-324.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00013834821769330584, diffPixels=116
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-324-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-324.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00013834821769330584, diffPixels=116
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-324-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4828] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-326.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-326-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-326.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015385275933134875, diffPixels=129
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-326-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-326.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015385275933134875, diffPixels=129
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-326-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4829] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-327.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-327-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-327.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00016577932982215097, diffPixels=139
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-327-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-327.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00016577932982215097, diffPixels=139
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-327-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4833] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-331.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-331-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-331.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00015743073047858942, diffPixels=132
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-331-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-331.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-331-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4834] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-332.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-332-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-332.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0001455041599877872, diffPixels=122
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-332-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-332.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0001455041599877872, diffPixels=122
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-332-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [4848] [WPT reftest] css/CSS2/selectors/first-letter-punctuation-394.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/CSS2/selectors/first-letter-punctuation-394-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-394.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0003399072589878635, diffPixels=285
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-394-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/selectors/first-letter-punctuation-394.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0003399072589878635, diffPixels=285
@@ -12599,6 +12220,13 @@
   stable page 1: diffRatio=0.00008348599343561561, diffPixels=70
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-applies-to-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [5977] [WPT reftest] css/CSS2/text/word-spacing-characters-002.xht
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00008110067933745515, diffPixels=68
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/text/word-spacing-characters-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/text/word-spacing-characters-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [5979] [WPT reftest] css/CSS2/text/word-spacing-justify-001.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -13418,28 +13046,6 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/pagination/widows-004a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
-
-- [1971] [WPT reftest] css/CSS2/generated-content/content-113.xht
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/CSS2/generated-content/content-113-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/CSS2/generated-content/content-113-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/generated-content/content-113.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/generated-content/content-113-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1975] [WPT reftest] css/CSS2/generated-content/content-117.xht
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/generated-content/content-117.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/generated-content/content-117.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [3275] [WPT reftest] css/CSS2/normal-flow/cross-domain-iframe-paint-order.sub.html
   triage: pending

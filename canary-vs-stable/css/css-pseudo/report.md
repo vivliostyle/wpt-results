@@ -5,8 +5,8 @@
 - Entries with errors: 23 (pending: 23, triaged: 0)
 - Timeout entries: 23
 - Page count changed: 1
-- Screenshot mismatches: 5
-- Outcome summary: {"known-fail":133,"changed-fail":2,"pass":108,"error":23,"improvement":3,"unchanged":7}
+- Screenshot mismatches: 6
+- Outcome summary: {"known-fail":132,"changed-fail":3,"pass":108,"error":23,"improvement":3,"unchanged":7}
 
 ## Differences
 
@@ -493,11 +493,11 @@
 
 - [0061] [WPT reftest] css/css-pseudo/first-letter-trailing-punctuation.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/first-letter-trailing-punctuation-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-trailing-punctuation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0020358655827799406, diffPixels=1707
+  canary page 1: diffRatio=0.002547515456835356, diffPixels=2136
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-trailing-punctuation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-trailing-punctuation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1939,7 +1939,7 @@
   canary-reference timeout: true
   canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable-reference reference: css/css-pseudo/target-text-008-ref.html
   stable-reference timeout: true
   stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready

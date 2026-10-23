@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 244
-- Entries with differences: 116 (pending: 116, triaged: 0)
+- Entries with differences: 117 (pending: 117, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 2
-- Outcome summary: {"pass":108,"known-fail":114,"changed-fail":2,"unchanged":20}
+- Outcome summary: {"pass":107,"known-fail":115,"expected-change":1,"changed-fail":1,"unchanged":20}
 
 ## Differences
 
@@ -335,6 +335,13 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/auto-margins-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.03135, diffPixels=6270
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/auto-margins-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0036] [WPT print-reftest] css/css-page/margin-boxes/content-002-print.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00011210976261354095, diffPixels=94
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/content-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/content-002-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0040] [WPT print-reftest] css/css-page/margin-boxes/content-006-print.html
   triage: pending
@@ -847,11 +854,11 @@
 
 - [0103] [WPT print-reftest] css/css-page/page-background-001-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-page/page-background-001-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025689832837188, diffPixels=2154
+  canary page 1: diffRatio=0.001514674452331883, diffPixels=1270
   canary page 2: diffRatio=0.0025689832837188, diffPixels=2154
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-background-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL

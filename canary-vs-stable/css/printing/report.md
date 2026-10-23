@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 39
-- Entries with differences: 7 (improvement: 1, pending: 6, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 8 (improvement: 2, pending: 6, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":31,"known-fail":6,"error":1,"improvement":1}
+- Outcome summary: {"pass":31,"known-fail":6,"improvement":2}
 
 ## Differences
 
@@ -48,6 +48,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/existing-transition-in-media-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00026834783604305016, diffPixels=225
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/transition-in-media-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0013] [WPT print-reftest] css/printing/fixed-pos-object-pdf-crash-print.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT print-reftest] css/printing/paused-animations-print.html
   triage: pending
@@ -93,16 +99,4 @@
   outcome: improvement (baseline=ERROR, actual=PASS)
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/zero-size-003-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0013] [WPT print-reftest] css/printing/fixed-pos-object-pdf-crash-print.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/fixed-pos-object-pdf-crash-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

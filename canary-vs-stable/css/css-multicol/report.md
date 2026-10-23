@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 468
-- Entries with differences: 98 (pending: 98, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 99 (pending: 99, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":369,"known-fail":98,"unchanged":1}
+- Outcome summary: {"pass":366,"known-fail":99,"error":2,"unchanged":1}
 
 ## Differences
 
@@ -568,6 +568,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0196] [WPT reftest] css/css-multicol/multicol-gap-002.xht
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-gap-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0209] [WPT reftest] css/css-multicol/multicol-list-item-002.html
   triage: pending
@@ -1283,4 +1289,36 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/with-custom-layout-on-same-element.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.006917410884665293, diffPixels=5800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0185] [WPT reftest] css/css-multicol/multicol-fill-balance-034.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0193] [WPT reftest] css/css-multicol/multicol-fill-balance-nested-000.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-nested-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-fill-balance-nested-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0196] [WPT reftest] css/css-multicol/multicol-gap-002.xht
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-multicol/multicol-gap-002-ref.xht
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-multicol/multicol-gap-002-ref.xht
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-gap-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

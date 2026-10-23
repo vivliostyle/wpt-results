@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 664
-- Entries with differences: 419 (pending: 419, triaged: 0)
+- Entries with differences: 421 (pending: 421, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":240,"known-fail":418,"changed-fail":1,"error":3,"unchanged":2}
+- Screenshot mismatches: 8
+- Outcome summary: {"pass":240,"known-fail":413,"changed-fail":6,"error":3,"changed":2}
 
 ## Differences
 
@@ -407,7 +407,7 @@
 
 - [0060] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-026.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-026-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -420,7 +420,7 @@
 
 - [0061] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-027.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-026-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -607,7 +607,7 @@
 
 - [0075] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-041.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-041-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -633,7 +633,7 @@
 
 - [0077] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-bidi-002.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/block-ellipsis-bidi-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/block-ellipsis-bidi-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1092,7 +1092,7 @@
   reference: css/css-overflow/line-clamp/reference/line-clamp-026-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013572437218532937, diffPixels=1138
+  canary page 1: diffRatio=0.0013500877795588123, diffPixels=1132
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3467,15 +3467,15 @@
 
 - [0433] [WPT reftest] css/css-overflow/overflow-replaced-element-002.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00003697236852148691, diffPixels=31
+  canary page 1: diffRatio=0.0003685310281657889, diffPixels=309
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000026238455079764903, diffPixels=22
+  stable page 1: diffRatio=0.00007394473704297382, diffPixels=62
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0437] [WPT reftest] css/css-overflow/overflow-video-hidden.html
@@ -5122,7 +5122,7 @@
   reference: css/css-overflow/reference/text-overflow-string-009-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013799042057858178, diffPixels=1157
+  canary page 1: diffRatio=0.0014109132890619037, diffPixels=1183
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -5135,7 +5135,7 @@
   reference: css/css-overflow/reference/text-overflow-string-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014443076864361498, diffPixels=1211
+  canary page 1: diffRatio=0.0014538489428287916, diffPixels=1219
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -5161,7 +5161,7 @@
   reference: css/css-overflow/reference/text-overflow-string-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-string-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011998129913747043, diffPixels=1006
+  canary page 1: diffRatio=0.0012105469048164263, diffPixels=1015
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -5466,6 +5466,20 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-with-selection.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000040550339668727576, diffPixels=34
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-with-selection-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0663] [WPT manual] css/css-overflow/text-overflow-018.html
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.0002755037783375315, diffPixels=231
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0664] [WPT manual] css/css-overflow/text-overflow-019.html
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.00016339401572399052, diffPixels=137
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/text-overflow-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
 

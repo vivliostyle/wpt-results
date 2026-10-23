@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 143
-- Entries with differences: 78 (pending: 78, triaged: 0)
+- Entries with differences: 84 (improvement: 1, pending: 83, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 9
-- Outcome summary: {"pass":65,"known-fail":69,"changed-fail":6,"expected-change":1,"regression":2}
+- Screenshot mismatches: 18
+- Outcome summary: {"pass":59,"known-fail":63,"changed-fail":11,"regression":7,"expected-change":2,"improvement":1}
 
 ## Differences
 
@@ -25,16 +25,25 @@
 
 - [0006] [WPT reftest] css/css-ruby/block-ruby-003.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ruby/block-ruby-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/block-ruby-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00019082512785283565, diffPixels=160
+  canary page 1: diffRatio=0.000021467826883444013, diffPixels=18
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/block-ruby-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/block-ruby-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00019082512785283565, diffPixels=160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/block-ruby-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0007] [WPT reftest] css/css-ruby/block-ruby-004.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-ruby/block-ruby-004-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/block-ruby-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00017412792916571255, diffPixels=146
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/block-ruby-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0008] [WPT reftest] css/css-ruby/block-ruby-005.html
   triage: pending
@@ -175,11 +184,11 @@
 
 - [0020] [WPT reftest] css/css-ruby/nested-ruby-pairing-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ruby/nested-ruby-pairing-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/nested-ruby-pairing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002156323944737043, diffPixels=1808
+  canary page 1: diffRatio=0.0021682505152278452, diffPixels=1818
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/nested-ruby-pairing-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/nested-ruby-pairing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -344,11 +353,11 @@
 
 - [0037] [WPT reftest] css/css-ruby/ruby-autohide-002.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ruby/ruby-autohide-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-autohide-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009445843828715365, diffPixels=792
+  canary page 1: diffRatio=0.0006762365468284863, diffPixels=567
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-autohide-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-autohide-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -771,6 +780,13 @@
   stable page 1: diffRatio=0.00003577971147240669, diffPixels=30
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-break-suppression-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0083] [WPT reftest] css/css-ruby/ruby-line-breaking-001.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00018366918555835432, diffPixels=154
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-line-breaking-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-line-breaking-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0085] [WPT reftest] css/css-ruby/ruby-line-breaking-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -803,7 +819,7 @@
   reference: css/css-ruby/ruby-overhang-spaces-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00006201816655217159, diffPixels=52
+  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -823,26 +839,53 @@
   stable page 1: diffRatio=0.00006201816655217159, diffPixels=52
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0098] [WPT reftest] css/css-ruby/ruby-overhang-spaces-010.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-ruby/ruby-overhang-spaces-010-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0001824765285092741, diffPixels=153
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0099] [WPT reftest] css/css-ruby/ruby-overhang-spaces-011.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ruby/ruby-overhang-spaces-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000417429967178078, diffPixels=350
+  canary page 1: diffRatio=0.006238789023738646, diffPixels=5231
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000417429967178078, diffPixels=350
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0101] [WPT reftest] css/css-ruby/ruby-overhang-spaces-013.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-ruby/ruby-overhang-spaces-013-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0001824765285092741, diffPixels=153
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0104] [WPT reftest] css/css-ruby/ruby-overhang-spaces-016.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-ruby/ruby-overhang-spaces-016-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00007036676589573316, diffPixels=59
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0105] [WPT reftest] css/css-ruby/ruby-overhang-spaces-017.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-ruby/ruby-overhang-spaces-017-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  canary page 1: diffRatio=0.00007394473704297382, diffPixels=62
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -875,14 +918,19 @@
   stable page 1: diffRatio=0.00018366918555835432, diffPixels=154
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0119] [WPT reftest] css/css-ruby/ruby-overhang-spaces-text-spacing-trim-002.html
+- [0110] [WPT reftest] css/css-ruby/ruby-overhang-spaces-022.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ruby/ruby-overhang-spaces-text-spacing-trim-002-ref.html (==)
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-ruby/ruby-overhang-spaces-022-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-text-spacing-trim-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0056412678421494545, diffPixels=4730
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-text-spacing-trim-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000027431112128845128, diffPixels=23
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0119] [WPT reftest] css/css-ruby/ruby-overhang-spaces-text-spacing-trim-002.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-ruby/ruby-overhang-spaces-text-spacing-trim-002-ref.html (==)
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ruby/ruby-overhang-spaces-text-spacing-trim-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0056412678421494545, diffPixels=4730

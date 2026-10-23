@@ -2,11 +2,11 @@
 
 - Compared entries: 173
 - Entries with differences: 55 (pending: 55, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":117,"known-fail":55,"error":1}
+- Outcome summary: {"pass":118,"known-fail":55}
 
 ## Differences
 
@@ -724,16 +724,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/css-supports-042.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/support/pass.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0047] [WPT reftest] css/css-conditional/at-supports-037.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/at-supports-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/at-supports-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 219
-- Entries with differences: 106 (pending: 106, triaged: 0)
+- Entries with differences: 108 (pending: 108, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":112,"known-fail":105,"regression":1,"unchanged":1}
+- Screenshot mismatches: 3
+- Outcome summary: {"pass":110,"known-fail":105,"regression":3,"unchanged":1}
 
 ## Differences
 
@@ -140,6 +140,15 @@
   stable page 1: diffRatio=0.000005963285245401114, diffPixels=5
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-pass-green-no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0030] [WPT reftest] css/css-display/display-contents-dynamic-pseudo-insertion-001.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-display/display-contents-dynamic-pseudo-insertion-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-dynamic-pseudo-insertion-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00014431150293870698, diffPixels=121
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-dynamic-pseudo-insertion-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0035] [WPT reftest] css/css-display/display-contents-fieldset-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -205,6 +214,15 @@
   stable page 1: diffRatio=0.0005796313258529883, diffPixels=486
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-pass-green-no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0045] [WPT reftest] css/css-display/display-contents-float-001.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-display/display-contents-pass-no-red-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-float-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0001562380734295092, diffPixels=131
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-pass-no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0046] [WPT reftest] css/css-display/display-contents-inline-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -231,14 +249,14 @@
   stable page 1: diffRatio=0.00014431150293870698, diffPixels=121
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-pass-no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0055] [WPT reftest] css/css-display/display-contents-root-background.html
+- [0052] [WPT reftest] css/css-display/display-contents-oof-001.html
   triage: pending
   outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-display/display-contents-root-background-ref.html (==)
+  reference: css/css-display/display-contents-pass-no-red-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-root-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6390375734676742, diffPixels=535810
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-root-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-oof-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0001562380734295092, diffPixels=131
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-pass-no-red-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-display/display-contents-shadow-dom-1.html
   triage: pending
