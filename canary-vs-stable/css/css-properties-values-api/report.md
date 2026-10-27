@@ -5,18 +5,18 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":3,"pass":4}
+- Screenshot mismatches: 2
+- Outcome summary: {"changed-fail":2,"pass":4,"known-fail":1}
 
 ## Differences
 
 - [0001] [WPT reftest] css/css-properties-values-api/registered-property-change-style-002.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-properties-values-api/registered-property-change-style-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001226051446454469, diffPixels=1028
+  canary page 1: diffRatio=0.0011425654530188535, diffPixels=958
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-properties-values-api/registered-property-change-style-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -25,7 +25,7 @@
 
 - [0005] [WPT reftest] css/css-properties-values-api/registered-property-computation-color-004.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-properties-values-api/registered-property-computation-color-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

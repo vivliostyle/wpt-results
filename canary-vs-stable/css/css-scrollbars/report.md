@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":13,"known-fail":18}
+- Screenshot mismatches: 2
+- Outcome summary: {"pass":13,"known-fail":16,"changed-fail":2}
 
 ## Differences
 
@@ -220,7 +220,7 @@
 
 - [0030] [WPT reftest] css/css-scrollbars/viewport-scrollbar-body.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-scrollbars/viewport-scrollbar-body-mis-ref.html (!=)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -233,7 +233,7 @@
 
 - [0031] [WPT reftest] css/css-scrollbars/viewport-scrollbar.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-scrollbars/viewport-scrollbar-mis-ref.html (!=)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-scrollbars/viewport-scrollbar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

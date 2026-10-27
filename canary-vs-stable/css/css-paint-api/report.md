@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 115
-- Entries with differences: 79 (pending: 79, triaged: 0)
+- Entries with differences: 80 (pending: 80, triaged: 0)
 - Entries with errors: 30 (pending: 30, triaged: 0)
 - Timeout entries: 30
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":79,"pass":6,"error":30}
+- Screenshot mismatches: 3
+- Outcome summary: {"known-fail":77,"changed-fail":2,"expected-change":1,"pass":5,"error":30}
 
 ## Differences
 
@@ -259,7 +259,7 @@
 
 - [0020] [WPT reftest] css/css-paint-api/hidpi/device-pixel-ratio.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-paint-api/hidpi/device-pixel-ratio-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/hidpi/device-pixel-ratio.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -308,6 +308,13 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/invalid-image-pending-script.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/invalid-image-pending-script-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0024] [WPT reftest] css/css-paint-api/no-op-animation.https.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00004412831081596825, diffPixels=37
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/no-op-animation.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/no-op-animation.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0025] [WPT reftest] css/css-paint-api/non-registered-property-value.https.html
   triage: pending
@@ -818,7 +825,7 @@
 
 - [0065] [WPT reftest] css/css-paint-api/parse-input-arguments-018.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-paint-api/parse-input-arguments-018-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-018.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1093,7 +1100,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-006.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1195,7 +1202,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/registered-property-value-004.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-value-004.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1235,7 +1242,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/registered-property-value-008.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-value-008.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

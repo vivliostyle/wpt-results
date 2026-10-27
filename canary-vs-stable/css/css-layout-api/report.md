@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":126,"pass":9}
+- Screenshot mismatches: 15
+- Outcome summary: {"known-fail":111,"pass":9,"changed-fail":15}
 
 ## Differences
 
@@ -222,7 +222,7 @@
 
 - [0018] [WPT reftest] css/css-layout-api/child-constraints/available-size-for-percentages-htb-htb.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-htb-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -235,7 +235,7 @@
 
 - [0019] [WPT reftest] css/css-layout-api/child-constraints/available-size-for-percentages-htb-vrl.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-htb-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -248,7 +248,7 @@
 
 - [0020] [WPT reftest] css/css-layout-api/child-constraints/available-size-for-percentages-invalid.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -274,7 +274,7 @@
 
 - [0022] [WPT reftest] css/css-layout-api/child-constraints/available-size-for-percentages-vrl-vrl.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/available-size-for-percentages-vrl-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -339,7 +339,7 @@
 
 - [0027] [WPT reftest] css/css-layout-api/child-constraints/percentage-size-htb-htb.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-htb-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -352,7 +352,7 @@
 
 - [0028] [WPT reftest] css/css-layout-api/child-constraints/percentage-size-htb-vrl.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-htb-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -365,7 +365,7 @@
 
 - [0029] [WPT reftest] css/css-layout-api/child-constraints/percentage-size-invalid.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-invalid.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -391,7 +391,7 @@
 
 - [0031] [WPT reftest] css/css-layout-api/child-constraints/percentage-size-vrl-htb.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-vrl-htb.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -404,7 +404,7 @@
 
 - [0032] [WPT reftest] css/css-layout-api/child-constraints/percentage-size-vrl-vrl.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/child-constraints/percentage-size-vrl-vrl.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -989,7 +989,7 @@
 
 - [0077] [WPT reftest] css/css-layout-api/edges/all.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/edges/all-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/edges/all.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1158,7 +1158,7 @@
 
 - [0090] [WPT reftest] css/css-layout-api/edges/scrollbar.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/edges/scrollbar-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/edges/scrollbar.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1457,7 +1457,7 @@
 
 - [0121] [WPT reftest] css/css-layout-api/layout-child/before-after.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/layout-child/before-after.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1509,11 +1509,11 @@
 
 - [0125] [WPT reftest] css/css-layout-api/layout-child/inlines.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/layout-child/inlines.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008551351041905198, diffPixels=7170
+  canary page 1: diffRatio=0.008789882451721243, diffPixels=7370
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/layout-child/inlines.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1522,11 +1522,11 @@
 
 - [0126] [WPT reftest] css/css-layout-api/layout-child/text-01.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/layout-child/text-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00936712846347607, diffPixels=7854
+  canary page 1: diffRatio=0.009557953591328907, diffPixels=8014
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/layout-child/text-01.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1535,11 +1535,11 @@
 
 - [0127] [WPT reftest] css/css-layout-api/layout-child/text-02.https.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-layout-api/green-square-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/layout-child/text-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01064684947713915, diffPixels=8927
+  canary page 1: diffRatio=0.010742262041065568, diffPixels=9007
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-layout-api/green-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-layout-api/layout-child/text-02.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
