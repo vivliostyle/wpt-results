@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 798
-- Entries with differences: 583 (improvement: 1, pending: 582, triaged: 0)
+- Entries with differences: 582 (pending: 582, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 539
-- Outcome summary: {"expected-change":321,"pass":215,"known-fail":44,"changed-fail":216,"improvement":1,"changed":1}
+- Outcome summary: {"expected-change":321,"pass":216,"known-fail":43,"changed-fail":217,"changed":1}
 
 ## Differences
 
@@ -3224,19 +3224,6 @@
   stable page 1: diffRatio=0.006542916571254102, diffPixels=5486
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-background-ref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0404] [WPT reftest] css/css-transforms/transform-background-007.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-transforms/transform-root-bg-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-background-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.3000486604076025, diffPixels=251580
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-root-bg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-background-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.3000486604076025, diffPixels=251580
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-root-bg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0406] [WPT reftest] css/css-transforms/transform-box/content-box-mutation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -3272,9 +3259,13 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0417] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000

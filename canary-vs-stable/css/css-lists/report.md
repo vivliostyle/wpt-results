@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 175
-- Entries with differences: 158 (pending: 158, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Compared entries: 178
+- Entries with differences: 161 (pending: 161, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 129
-- Outcome summary: {"expected-change":56,"changed-fail":73,"known-fail":29,"error":1,"pass":16}
+- Screenshot mismatches: 131
+- Outcome summary: {"expected-change":57,"changed-fail":74,"known-fail":30,"pass":17}
 
 ## Differences
 
@@ -273,6 +273,19 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-list-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0013035741546446836, diffPixels=1093
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-list-item-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0031] [WPT reftest] css/css-lists/counter-order-display-contents.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-lists/counter-order-display-contents-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-order-display-contents.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-order-display-contents-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-order-display-contents.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-order-display-contents-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0032] [WPT reftest] css/css-lists/counter-reset-increment-overflow-underflow.html
   triage: pending
@@ -1462,7 +1475,20 @@
   stable page 1: diffRatio=0.00003339439737424624, diffPixels=28
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-counter-style-mutation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0141] [WPT reftest] css/css-lists/list-marker-symbol-bidi.html
+- [0139] [WPT reftest] css/css-lists/list-marker-font-size-mutation.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-lists/list-marker-font-size-mutation-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-marker-font-size-mutation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0005772460117548279, diffPixels=484
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-marker-font-size-mutation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-font-size-mutation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0005903652392947104, diffPixels=495
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-font-size-mutation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0142] [WPT reftest] css/css-lists/list-marker-symbol-bidi.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/list-marker-symbol-bidi-ref.html (==)
@@ -1475,14 +1501,14 @@
   stable page 1: diffRatio=0.0002719258071902908, diffPixels=228
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-symbol-bidi-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0142] [WPT reftest] css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html
+- [0143] [WPT reftest] css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0020084344706510953, diffPixels=1684
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-marker-with-lineheight-and-overflow-hidden-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0143] [WPT reftest] css/css-lists/list-style-image-gradients-dynamic.html
+- [0144] [WPT reftest] css/css-lists/list-style-image-gradients-dynamic.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/list-style-image-gradients-dynamic-ref.html (==)
@@ -1495,7 +1521,7 @@
   stable page 1: diffRatio=0.07913040989237463, diffPixels=66348
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-image-gradients-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0144] [WPT reftest] css/css-lists/list-style-image-gradients.html
+- [0145] [WPT reftest] css/css-lists/list-style-image-gradients.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/list-style-image-gradients-ref.html (==)
@@ -1508,7 +1534,7 @@
   stable selected pages: test=[1], reference=[1, 2, 3]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-image-gradients-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0145] [WPT reftest] css/css-lists/list-style-image-zoom-dynamic.html
+- [0146] [WPT reftest] css/css-lists/list-style-image-zoom-dynamic.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/list-style-image-zoom-dynamic-ref.html (==)
@@ -1521,56 +1547,56 @@
   stable page 1: diffRatio=0.25023614609571787, diffPixels=209814
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-image-zoom-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0146] [WPT reftest] css/css-lists/list-style-position-001.html
+- [0147] [WPT reftest] css/css-lists/list-style-position-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.002322103274559194, diffPixels=1947
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-position-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0148] [WPT reftest] css/css-lists/list-style-type-decimal-vertical-lr.html
+- [0149] [WPT reftest] css/css-lists/list-style-type-decimal-vertical-lr.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0007155942294481337, diffPixels=600
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-decimal-vertical-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-decimal-vertical-lr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0149] [WPT reftest] css/css-lists/list-style-type-decimal-vertical-rl.html
+- [0150] [WPT reftest] css/css-lists/list-style-type-decimal-vertical-rl.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0007155942294481337, diffPixels=600
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-decimal-vertical-rl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-decimal-vertical-rl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0150] [WPT reftest] css/css-lists/list-style-type-string-001a.html
+- [0151] [WPT reftest] css/css-lists/list-style-type-string-001a.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.002232653995878177, diffPixels=1872
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-001a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0151] [WPT reftest] css/css-lists/list-style-type-string-001b.html
+- [0152] [WPT reftest] css/css-lists/list-style-type-string-001b.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.002232653995878177, diffPixels=1872
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-001b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-001b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0152] [WPT reftest] css/css-lists/list-style-type-string-002.html
+- [0153] [WPT reftest] css/css-lists/list-style-type-string-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0037151267078848944, diffPixels=3115
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0153] [WPT reftest] css/css-lists/list-style-type-string-003.html
+- [0154] [WPT reftest] css/css-lists/list-style-type-string-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.003456320128234486, diffPixels=2898
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0154] [WPT reftest] css/css-lists/list-style-type-string-004.html
+- [0155] [WPT reftest] css/css-lists/list-style-type-string-004.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/list-style-type-string-004-ref.html (==)
@@ -1583,7 +1609,7 @@
   stable page 1: diffRatio=0.000791924280589268, diffPixels=664
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0158] [WPT reftest] css/css-lists/list-style-type-string-007.html
+- [0159] [WPT reftest] css/css-lists/list-style-type-string-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/list-style-type-string-007-ref.html (==)
@@ -1596,21 +1622,28 @@
   stable page 1: diffRatio=0.0002635772078467293, diffPixels=221
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0160] [WPT reftest] css/css-lists/list-with-image-display-changed-001.html
+- [0161] [WPT reftest] css/css-lists/list-with-image-display-changed-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0031056789558049002, diffPixels=2604
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-with-image-display-changed-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-with-image-display-changed-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0161] [WPT reftest] css/css-lists/marker-counter.html
+- [0162] [WPT reftest] css/css-lists/marker-counter.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.002777698267307839, diffPixels=2329
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/marker-counter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-counter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0162] [WPT reftest] css/css-lists/marker-dynamic-content-change.html
+- [0163] [WPT reftest] css/css-lists/marker-direction-does-not-move-box.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00011330241966262118, diffPixels=95
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/marker-direction-does-not-move-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-direction-does-not-move-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0164] [WPT reftest] css/css-lists/marker-dynamic-content-change.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/marker-dynamic-content-change-ref.html (==)
@@ -1623,7 +1656,7 @@
   stable page 1: diffRatio=0.00020632966949087856, diffPixels=173
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-dynamic-content-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0163] [WPT reftest] css/css-lists/marker-quotes.html
+- [0165] [WPT reftest] css/css-lists/marker-quotes.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/marker-quotes-ref.html (==)
@@ -1636,14 +1669,14 @@
   stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-quotes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0164] [WPT reftest] css/css-lists/marker-webkit-text-fill-color.html
+- [0166] [WPT reftest] css/css-lists/marker-webkit-text-fill-color.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.004245859094725593, diffPixels=3560
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/marker-webkit-text-fill-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/marker-webkit-text-fill-color.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0165] [WPT reftest] css/css-lists/nested-marker-dynamic.html
+- [0167] [WPT reftest] css/css-lists/nested-marker-dynamic.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/nested-marker-ref.html (==)
@@ -1656,7 +1689,7 @@
   stable page 1: diffRatio=0.0006762365468284863, diffPixels=567
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/nested-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0166] [WPT reftest] css/css-lists/nested-marker-styling.html
+- [0168] [WPT reftest] css/css-lists/nested-marker-styling.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/nested-marker-styling-ref.html (==)
@@ -1669,7 +1702,7 @@
   stable page 1: diffRatio=0.007451721242653232, diffPixels=6248
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/nested-marker-styling-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0167] [WPT reftest] css/css-lists/nested-marker.html
+- [0169] [WPT reftest] css/css-lists/nested-marker.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/nested-marker-ref.html (==)
@@ -1682,7 +1715,7 @@
   stable page 1: diffRatio=0.00008706396458285627, diffPixels=73
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/nested-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0168] [WPT reftest] css/css-lists/ol-change-display-type.html
+- [0170] [WPT reftest] css/css-lists/ol-change-display-type.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/ol-change-display-type-ref.html (==)
@@ -1695,14 +1728,14 @@
   stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/ol-change-display-type-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0170] [WPT reftest] css/css-lists/outside-marker-in-multicol-relpos-content.html
+- [0173] [WPT reftest] css/css-lists/outside-marker-in-multicol-relpos-content.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.00010137584917181895, diffPixels=85
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/outside-marker-in-multicol-relpos-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/outside-marker-in-multicol-relpos-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0172] [WPT reftest] css/css-lists/outside-marker-with-float-in-content.html
+- [0175] [WPT reftest] css/css-lists/outside-marker-with-float-in-content.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/outside-marker-with-float-in-content-ref.html (==)
@@ -1715,7 +1748,7 @@
   stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/outside-marker-with-float-in-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0175] [WPT reftest] css/css-lists/pseudo-element-remove-update.html
+- [0178] [WPT reftest] css/css-lists/pseudo-element-remove-update.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-lists/pseudo-element-remove-update-ref.html (==)
@@ -1727,22 +1760,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/pseudo-element-remove-update.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000026238455079764903, diffPixels=22
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/pseudo-element-remove-update-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0031] [WPT reftest] css/css-lists/counter-order-display-contents.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-lists/counter-order-display-contents-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-lists/counter-order-display-contents-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/counter-order-display-contents.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/counter-order-display-contents.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

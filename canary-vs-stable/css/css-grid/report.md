@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1723
-- Entries with differences: 1536 (improvement: 2, pending: 1534, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 2
+- Entries with differences: 1538 (improvement: 2, pending: 1536, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 10
 - Screenshot mismatches: 1025
-- Outcome summary: {"expected-change":620,"known-fail":511,"pass":184,"changed-fail":381,"regression":22,"improvement":2,"error":3}
+- Outcome summary: {"expected-change":620,"known-fail":513,"pass":184,"changed-fail":381,"regression":22,"improvement":2,"error":1}
 
 ## Differences
 
@@ -4984,6 +4984,32 @@
   stable page 1: diffRatio=0.02134140523624151, diffPixels=17894
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-content-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0641] [WPT reftest] css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.029938077246011757, diffPixels=25102
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.029938077246011757, diffPixels=25102
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0642] [WPT reftest] css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01322060338905427, diffPixels=11085
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01322060338905427, diffPixels=11085
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0643] [WPT reftest] css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -7878,44 +7904,44 @@
   stable page 1: diffRatio=0.13592354591252576, diffPixels=113967
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0888] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-001.html
+- [0888] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-001-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-001-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.3500054862224258, diffPixels=293467
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.3500054862224258, diffPixels=293467
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0889] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-002.html
+- [0889] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-002.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-002-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-002-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.11878625677429204, diffPixels=99598
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.11877790817494847, diffPixels=99591
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0890] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-003.html
+- [0890] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-003.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-003-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-003-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.02146186359819861, diffPixels=17995
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02146782688344401, diffPixels=18000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-flow-tolerance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-fit-tolerance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0891] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-dense-packing-multi-span-001.html
   triage: pending
@@ -8086,18 +8112,18 @@
   stable page 1: diffRatio=0.1309883310434318, diffPixels=109829
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0904] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-flow-tolerance-001.html
+- [0904] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-fit-tolerance-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-flow-tolerance-001-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-fit-tolerance-001-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.11584158652011296, diffPixels=97129
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.11585112777650561, diffPixels=97137
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0905] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-indefinite-size-001.html
   triage: pending
@@ -8112,31 +8138,31 @@
   stable page 1: diffRatio=0.13903041752537973, diffPixels=116572
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-fill-reverse-dense-packing-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0906] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-001.html
+- [0906] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-001-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-001-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.35004365124799636, diffPixels=293499
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.35004365124799636, diffPixels=293499
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0907] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-002.html
+- [0907] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-002.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-002-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-002-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.11874928440577055, diffPixels=99567
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.11874570643462332, diffPixels=99564
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-flow-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/column-track-reverse-dense-packing-fit-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0908] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-001.html
   triage: pending
@@ -8190,44 +8216,44 @@
   stable page 1: diffRatio=0.02504579803068468, diffPixels=21000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0912] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-001.html
+- [0912] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-001-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-001-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.05633634837035341, diffPixels=47236
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.05633634837035341, diffPixels=47236
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0913] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-002.html
+- [0913] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-002.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-002-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-002-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.01798407564308068, diffPixels=15079
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0180914147774979, diffPixels=15169
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0914] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-003.html
+- [0914] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-003.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-003-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-003-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0022612777650561026, diffPixels=1896
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.002235039309976338, diffPixels=1874
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-flow-tolerance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-fit-tolerance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0915] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-dense-packing-multi-span-001.html
   triage: pending
@@ -8333,33 +8359,248 @@
   stable page 1: diffRatio=0.11124747156705594, diffPixels=93277
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-fill-reverse-dense-packing-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0923] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-001.html
+- [0923] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-001-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-001-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.05913670712159377, diffPixels=49584
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.05913670712159377, diffPixels=49584
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0924] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-002.html
+- [0924] [WPT reftest] css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-002.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-002-ref.html (==)
+  reference: css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-002-ref.html (==)
   canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.019779024501946418, diffPixels=16584
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.020089115334707273, diffPixels=16844
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-flow-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/dense-packing/row-track-reverse-dense-packing-fit-tolerance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0925] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/column-fit-tolerance-infinite-explicit-placement.html
+- [0925] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/column-fit-tolerance-infinite.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/column-fit-tolerance-infinite-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/column-fit-tolerance-infinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.19552300396916267, diffPixels=163939
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/column-fit-tolerance-infinite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/column-fit-tolerance-infinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.19552300396916267, diffPixels=163939
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/column-fit-tolerance-infinite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0926] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/column-initial-fit-tolerance.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/column-initial-fit-tolerance-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/column-initial-fit-tolerance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.1316693382184566, diffPixels=110400
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/column-initial-fit-tolerance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/column-initial-fit-tolerance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.1316693382184566, diffPixels=110400
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/column-initial-fit-tolerance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0927] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.032225593466147624, diffPixels=27020
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.032225593466147624, diffPixels=27020
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0928] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.052020122509732085, diffPixels=43617
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.052020122509732085, diffPixels=43617
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0929] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-003-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08589158270361041, diffPixels=72017
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08589158270361041, diffPixels=72017
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0930] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-004-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.045821883825662164, diffPixels=38420
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.045821883825662164, diffPixels=38420
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-column-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0931] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-dynamic-update.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.009913365391954813, diffPixels=8312
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-dynamic-update.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-dynamic-update.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0932] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-column-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-column-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01729352721166323, diffPixels=14500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01729352721166323, diffPixels=14500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0933] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-column-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-column-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08020618655064499, diffPixels=67250
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08020618655064499, diffPixels=67250
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0934] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-row-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-row-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.07155942294481338, diffPixels=60000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.07155942294481338, diffPixels=60000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-intrinsic-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0935] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-row-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-row-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011330241966262117, diffPixels=9500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011330241966262117, diffPixels=9500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-percentage-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0936] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.03340393863063888, diffPixels=28008
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.03340393863063888, diffPixels=28008
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0937] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.05530827799404626, diffPixels=46374
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.05530827799404626, diffPixels=46374
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0938] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-003-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08559818906953667, diffPixels=71771
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08559818906953667, diffPixels=71771
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0939] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-004-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04562867338371117, diffPixels=38258
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04562867338371117, diffPixels=38258
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/fit-tolerance-row-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0940] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/row-fit-tolerance-infinite.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/row-fit-tolerance-infinite-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/row-fit-tolerance-infinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/row-fit-tolerance-infinite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/row-fit-tolerance-infinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/row-fit-tolerance-infinite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0941] [WPT reftest] css/css-grid/grid-lanes/item-placement/fit-tolerance/row-initial-fit-tolerance.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-grid/grid-lanes/item-placement/fit-tolerance/row-initial-fit-tolerance-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/row-initial-fit-tolerance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08014655369819097, diffPixels=67200
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/row-initial-fit-tolerance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/row-initial-fit-tolerance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08014655369819097, diffPixels=67200
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/fit-tolerance/row-initial-fit-tolerance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0942] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/column-fit-tolerance-infinite-explicit-placement.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/column-fit-tolerance-infinite-explicit-placement-ref.html (==)
@@ -8371,221 +8612,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-fit-tolerance-infinite-explicit-placement.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01989829020685444, diffPixels=16684
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-fit-tolerance-infinite-explicit-placement-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0926] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/column-flow-tolerance-infinite.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/column-flow-tolerance-infinite-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-flow-tolerance-infinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.19552300396916267, diffPixels=163939
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-flow-tolerance-infinite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-flow-tolerance-infinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.19552300396916267, diffPixels=163939
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-flow-tolerance-infinite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0927] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/column-initial-flow-tolerance.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/column-initial-flow-tolerance-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-initial-flow-tolerance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.1316693382184566, diffPixels=110400
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-initial-flow-tolerance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-initial-flow-tolerance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.1316693382184566, diffPixels=110400
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/column-initial-flow-tolerance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0928] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.032225593466147624, diffPixels=27020
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.032225593466147624, diffPixels=27020
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0929] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.052020122509732085, diffPixels=43617
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.052020122509732085, diffPixels=43617
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0930] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-003-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08589158270361041, diffPixels=72017
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08589158270361041, diffPixels=72017
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0931] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-004-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.045821883825662164, diffPixels=38420
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.045821883825662164, diffPixels=38420
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-column-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0932] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-dynamic-update.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.009913365391954813, diffPixels=8312
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-dynamic-update.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-dynamic-update.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0933] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-column-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-column-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01729352721166323, diffPixels=14500
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01729352721166323, diffPixels=14500
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0934] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-column-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-column-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08020618655064499, diffPixels=67250
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-column-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08020618655064499, diffPixels=67250
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-column-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0935] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-row-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-row-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07155942294481338, diffPixels=60000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.07155942294481338, diffPixels=60000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-intrinsic-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0936] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-row-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-row-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011330241966262117, diffPixels=9500
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011330241966262117, diffPixels=9500
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-percentage-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0937] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03340393863063888, diffPixels=28008
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.03340393863063888, diffPixels=28008
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0938] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05530827799404626, diffPixels=46374
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05530827799404626, diffPixels=46374
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0939] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-003.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-003-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08559818906953667, diffPixels=71771
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08559818906953667, diffPixels=71771
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0940] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-004.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-004-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04562867338371117, diffPixels=38258
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04562867338371117, diffPixels=38258
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/flow-tolerance-row-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0941] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/row-flow-tolerance-infinite.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/row-flow-tolerance-infinite-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/row-flow-tolerance-infinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/row-flow-tolerance-infinite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/row-flow-tolerance-infinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable selected pages: test=[1, 2], reference=[1]
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/row-flow-tolerance-infinite-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0942] [WPT reftest] css/css-grid/grid-lanes/item-placement/flow-tolerance/row-initial-flow-tolerance.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-grid/grid-lanes/item-placement/flow-tolerance/row-initial-flow-tolerance-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/row-initial-flow-tolerance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08014655369819097, diffPixels=67200
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/row-initial-flow-tolerance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/row-initial-flow-tolerance.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.08014655369819097, diffPixels=67200
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/flow-tolerance/row-initial-flow-tolerance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0943] [WPT reftest] css/css-grid/grid-lanes/item-placement/grid-lanes-item-placement-001.html
   triage: pending
@@ -16225,30 +16251,6 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-fragmentation-between-rows-001-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
-
-- [0641] [WPT reftest] css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0642] [WPT reftest] css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-002.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-fill-reverse-justify-items-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1664] [WPT reftest] css/css-grid/subgrid/line-names-parent-auto-repeat-001.html
   triage: pending

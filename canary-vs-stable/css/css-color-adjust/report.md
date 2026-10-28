@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 22
-- Entries with differences: 11 (pending: 11, triaged: 0)
+- Compared entries: 25
+- Entries with differences: 13 (pending: 13, triaged: 0)
 - Entries with errors: 8 (pending: 8, triaged: 0)
 - Timeout entries: 8
 - Page count changed: 0
 - Screenshot mismatches: 4
-- Outcome summary: {"known-fail":7,"expected-change":2,"error":8,"pass":3,"changed-fail":2}
+- Outcome summary: {"known-fail":9,"expected-change":2,"error":8,"pass":4,"changed-fail":2}
 
 ## Differences
 
@@ -140,6 +140,32 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0011544920235096558, diffPixels=968
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/color-scheme-visited-link-initial-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0023] [WPT reftest] css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-dark.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-light-notref.html (!=)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-dark.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary unexpected equality: comparison matched but relation is !=
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-light-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-dark.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable unexpected equality: comparison matched but relation is !=
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-light-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0025] [WPT print-reftest] css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-only-dark-print.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-dark-print-notref.html (!=)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-only-dark-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary unexpected equality: comparison matched but relation is !=
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-dark-print-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-only-dark-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable unexpected equality: comparison matched but relation is !=
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color-adjust/rendering/dark-color-scheme/prefers-color-scheme-meta-dark-print-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
 

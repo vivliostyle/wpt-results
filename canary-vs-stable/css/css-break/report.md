@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1143
-- Entries with differences: 1079 (improvement: 20, pending: 1059, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Entries with differences: 1080 (improvement: 18, pending: 1062, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 1
-- Screenshot mismatches: 1060
-- Outcome summary: {"expected-change":886,"changed-fail":156,"known-fail":17,"pass":63,"improvement":20,"error":1}
+- Screenshot mismatches: 1064
+- Outcome summary: {"expected-change":889,"changed-fail":157,"known-fail":16,"pass":63,"improvement":18}
 
 ## Differences
 
@@ -130,8 +130,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0018] [WPT reftest] css/css-break/become-unfragmented-001.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/become-unfragmented-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/become-unfragmented-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2518,8 +2519,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-063.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0384] [WPT reftest] css/css-break/flexbox/single-line-column-flex-fragmentation-064.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-064.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/single-line-column-flex-fragmentation-064.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -6185,12 +6187,16 @@
 
 - [0825] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-109.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-109.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.004770628196320892, diffPixels=4000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-109.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0826] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-110.html
   triage: pending
@@ -7033,7 +7039,7 @@
 - [0941] [WPT reftest] css/css-break/table/repeated-section/image.tentative.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/repeated-section/image.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/repeated-section/image.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -7528,6 +7534,13 @@
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/tall-float-pushed-to-next-fragmentainer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/tall-float-pushed-to-next-fragmentainer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1021] [WPT reftest] css/css-break/tall-float-pushed-to-next-fragmentainer-004.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0014848580261048775, diffPixels=1245
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/tall-float-pushed-to-next-fragmentainer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/tall-float-pushed-to-next-fragmentainer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1022] [WPT reftest] css/css-break/tall-line-in-short-fragmentainer-000.html
   triage: pending
@@ -8650,24 +8663,4 @@
   page 1: diffRatio=0.0001502747881841081, diffPixels=126
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/zero-height-page-break-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/zero-height-page-break-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0825] [WPT reftest] css/css-break/out-of-flow-in-multicolumn-109.html
-  triage: pending
-  side: stable
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-109.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/out-of-flow-in-multicolumn-109.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1021] [WPT reftest] css/css-break/tall-float-pushed-to-next-fragmentainer-004.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/tall-float-pushed-to-next-fragmentainer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/tall-float-pushed-to-next-fragmentainer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

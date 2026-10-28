@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 250
-- Entries with differences: 224 (improvement: 13, pending: 211, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Entries with differences: 224 (improvement: 15, pending: 209, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 4
 - Page count changed: 37
-- Screenshot mismatches: 201
-- Outcome summary: {"expected-change":157,"changed-fail":29,"pass":26,"known-fail":23,"improvement":13,"regression":1,"changed":1}
+- Screenshot mismatches: 200
+- Outcome summary: {"expected-change":154,"changed-fail":30,"pass":26,"known-fail":23,"improvement":15,"regression":1,"changed":1}
 
 ## Differences
 
@@ -1285,23 +1285,22 @@
 
 - [0168] [WPT reftest] css/css-counter-styles/lower-armenian/css3-counter-styles-112.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   page count: canary=2, stable=1
   page 1: diffRatio=0.015027478818410808, diffPixels=12600
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-112.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-112.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0169] [WPT reftest] css/css-counter-styles/lower-armenian/css3-counter-styles-114.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   page 1: diffRatio=0.0020489848103198227, diffPixels=1718
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-114.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-114.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0170] [WPT reftest] css/css-counter-styles/lower-armenian/css3-counter-styles-115.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0017639397755896495, diffPixels=1479
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-115.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-115.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2017,4 +2016,25 @@
   stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-symbolic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-symbolic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0168] [WPT reftest] css/css-counter-styles/lower-armenian/css3-counter-styles-112.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-counter-styles/lower-armenian/css3-counter-styles-112-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-counter-styles/lower-armenian/css3-counter-styles-112-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-112.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-112-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0169] [WPT reftest] css/css-counter-styles/lower-armenian/css3-counter-styles-114.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-counter-styles/lower-armenian/css3-counter-styles-114-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-114.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/lower-armenian/css3-counter-styles-114-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

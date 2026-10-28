@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1044
-- Entries with differences: 829 (improvement: 11, pending: 818, triaged: 0)
-- Entries with errors: 18 (pending: 18, triaged: 0)
-- Timeout entries: 17
+- Entries with differences: 844 (improvement: 11, pending: 833, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 796
-- Outcome summary: {"expected-change":717,"pass":198,"changed-fail":42,"known-fail":32,"regression":6,"error":17,"improvement":11,"changed":21}
+- Screenshot mismatches: 810
+- Outcome summary: {"expected-change":731,"pass":198,"changed-fail":41,"known-fail":33,"error":2,"regression":7,"improvement":11,"changed":21}
 
 ## Differences
 
@@ -866,16 +866,9 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0134] [WPT reftest] css/css-flexbox/balance/balance-min-line-count-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015397202503625678, diffPixels=1291
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0135] [WPT reftest] css/css-flexbox/balance/balance-min-line-count-005.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
+  outcome: regression (baseline=PASS, actual=FAIL)
   page 1: diffRatio=0.0015397202503625678, diffPixels=1291
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3265,6 +3258,19 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-sizing-horiz-002.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-sizing-horiz-002.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0565] [WPT reftest] css/css-flexbox/flexbox-sizing-vert-001.xhtml
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-sizing-vert-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00353026486527746, diffPixels=2960
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-sizing-vert-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00353026486527746, diffPixels=2960
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-sizing-vert-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0566] [WPT reftest] css/css-flexbox/flexbox-sizing-vert-002.xhtml
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
@@ -3591,12 +3597,103 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_columns-flexitems.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_columns-flexitems.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0627] [WPT reftest] css/css-flexbox/flexbox_direction-column-reverse.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.01214363407373483, diffPixels=10182
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_direction-column-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_direction-column-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0628] [WPT reftest] css/css-flexbox/flexbox_direction-column.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.01214363407373483, diffPixels=10182
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_direction-column.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_direction-column.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0629] [WPT reftest] css/css-flexbox/flexbox_direction-row-reverse.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0036698057400198457, diffPixels=3077
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_direction-row-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_direction-row-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0630] [WPT reftest] css/css-flexbox/flexbox_display.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.010309327532249446, diffPixels=8644
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0631] [WPT reftest] css/css-flexbox/flexbox_fbfc.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0048326463628730635, diffPixels=4052
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_fbfc.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_fbfc.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0632] [WPT reftest] css/css-flexbox/flexbox_fbfc2.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0020931131211357912, diffPixels=1755
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_fbfc2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_fbfc2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0633] [WPT reftest] css/css-flexbox/flexbox_first-line.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.013070328600870162, diffPixels=10959
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0634] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-0-unitless.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00032678803144798105, diffPixels=274
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0635] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-0.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00032678803144798105, diffPixels=274
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0636] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-1-unitless-basis.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0003160541180062591, diffPixels=265
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-1-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-1-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0637] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-N-shrink.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0003160541180062591, diffPixels=265
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0638] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-N-unitless-basis.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0003160541180062591, diffPixels=265
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0639] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-N.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0003160541180062591, diffPixels=265
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0640] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-Npercent-shrink.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0003160541180062591, diffPixels=265
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-Npercent-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-Npercent-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0641] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-Npercent.html
   triage: pending
@@ -3640,6 +3737,13 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0647] [WPT reftest] css/css-flexbox/flexbox_flex-0-1-1-unitless-basis.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0003160541180062591, diffPixels=265
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-1-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-1-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0648] [WPT reftest] css/css-flexbox/flexbox_flex-0-1-N-shrink.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
@@ -3681,6 +3785,13 @@
   page 1: diffRatio=0.0003160541180062591, diffPixels=265
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-auto-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-auto-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0654] [WPT reftest] css/css-flexbox/flexbox_flex-0-1-auto.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0003160541180062591, diffPixels=265
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0655] [WPT reftest] css/css-flexbox/flexbox_flex-0-1.html
   triage: pending
@@ -6291,249 +6402,30 @@
 
 ## Errors
 
-- [0565] [WPT reftest] css/css-flexbox/flexbox-sizing-vert-001.xhtml
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox-sizing-vert-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox-sizing-vert-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0627] [WPT reftest] css/css-flexbox/flexbox_direction-column-reverse.html
+- [0134] [WPT reftest] css/css-flexbox/balance/balance-min-line-count-004.html
   triage: pending
   side: canary, canary-reference, stable, stable-reference
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_direction-column-reverse-ref.html
+  canary-reference reference: css/css-flexbox/balance/balance-min-line-count-004-ref.html
   canary-reference timeout: true
   canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_direction-column-reverse-ref.html
+  stable-reference reference: css/css-flexbox/balance/balance-min-line-count-004-ref.html
   stable-reference timeout: true
   stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_direction-column-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_direction-column-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0628] [WPT reftest] css/css-flexbox/flexbox_direction-column.html
+- [0135] [WPT reftest] css/css-flexbox/balance/balance-min-line-count-005.html
   triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_direction-column-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_direction-column-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_direction-column.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_direction-column.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0629] [WPT reftest] css/css-flexbox/flexbox_direction-row-reverse.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_direction-row-reverse-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_direction-row-reverse-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_direction-row-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_direction-row-reverse.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0630] [WPT reftest] css/css-flexbox/flexbox_display.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_display-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_display-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0631] [WPT reftest] css/css-flexbox/flexbox_fbfc.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_fbfc-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_fbfc-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_fbfc.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_fbfc.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0632] [WPT reftest] css/css-flexbox/flexbox_fbfc2.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_fbfc2-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_fbfc2-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_fbfc2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_fbfc2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0633] [WPT reftest] css/css-flexbox/flexbox_first-line.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_first-line-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_first-line-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0634] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-0-unitless.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_flex-0-0-0-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_flex-0-0-0-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-0-unitless.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0635] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-0.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_flex-0-0-0-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_flex-0-0-0-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-0.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0636] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-1-unitless-basis.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_flex-unitless-basis-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_flex-unitless-basis-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-1-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-1-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0637] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-N-shrink.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_flex-0-0-N-shrink-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_flex-0-0-N-shrink-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0638] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-N-unitless-basis.html
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-flexbox/flexbox_flex-unitless-basis-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_flex-unitless-basis-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0639] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-N.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-flexbox/flexbox_flex-0-0-N-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-flexbox/flexbox_flex-0-0-N-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-N-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0640] [WPT reftest] css/css-flexbox/flexbox_flex-0-0-Npercent-shrink.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-Npercent-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-0-Npercent-shrink.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0647] [WPT reftest] css/css-flexbox/flexbox_flex-0-1-1-unitless-basis.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-1-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-1-unitless-basis.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0654] [WPT reftest] css/css-flexbox/flexbox_flex-0-1-auto.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flexbox_flex-0-1-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  side: canary-reference
+  reference: css/css-flexbox/balance/balance-min-line-count-005-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/balance/balance-min-line-count-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0918] [WPT reftest] css/css-flexbox/overflow-auto-005.html
   triage: pending

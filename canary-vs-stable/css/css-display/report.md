@@ -6,7 +6,7 @@
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 211
-- Outcome summary: {"expected-change":105,"changed-fail":101,"regression":4,"known-fail":4,"pass":4,"changed":1}
+- Outcome summary: {"expected-change":105,"changed-fail":102,"regression":3,"known-fail":4,"pass":4,"changed":1}
 
 ## Differences
 
@@ -498,12 +498,16 @@
 
 - [0055] [WPT reftest] css/css-display/display-contents-root-background.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-display/display-contents-root-background-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-root-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.6390375734676742, diffPixels=535810
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-root-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-root-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.6390375734676742, diffPixels=535810
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-root-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-display/display-contents-shadow-dom-1.html
   triage: pending

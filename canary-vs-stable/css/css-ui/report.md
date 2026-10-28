@@ -2,11 +2,11 @@
 
 - Compared entries: 1191
 - Entries with differences: 986 (improvement: 1, pending: 985, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 518
-- Outcome summary: {"pass":205,"known-fail":468,"expected-change":167,"changed-fail":119,"improvement":1,"changed":231}
+- Outcome summary: {"pass":204,"known-fail":468,"expected-change":167,"changed-fail":119,"error":1,"improvement":1,"changed":231}
 
 ## Differences
 
@@ -10386,7 +10386,7 @@
 - [1183] [WPT manual] css/css-ui/resize-014.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.008766029310739639, diffPixels=7350
+  page 1: diffRatio=0.0026143042515838484, diffPixels=2192
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -10445,4 +10445,16 @@
   page 1: diffRatio=0.01583729295473628, diffPixels=13279
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/select-cursor-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/select-cursor-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0689] [WPT reftest] css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-range-border-inline-end-color-001.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-range-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/kind-of-widget-fallback-range-border-inline-end-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 276
-- Entries with differences: 234 (improvement: 4, pending: 230, triaged: 0)
-- Entries with errors: 23 (pending: 23, triaged: 0)
-- Timeout entries: 23
+- Entries with differences: 233 (improvement: 4, pending: 229, triaged: 0)
+- Entries with errors: 26 (pending: 26, triaged: 0)
+- Timeout entries: 26
 - Page count changed: 1
-- Screenshot mismatches: 188
-- Outcome summary: {"changed-fail":87,"known-fail":46,"expected-change":90,"pass":19,"improvement":4,"error":23,"changed":7}
+- Screenshot mismatches: 187
+- Outcome summary: {"changed-fail":86,"known-fail":46,"expected-change":90,"pass":18,"improvement":4,"error":25,"changed":7}
 
 ## Differences
 
@@ -524,15 +524,9 @@
 - [0049] [WPT reftest] css/css-pseudo/first-letter-insert-text-node-dynamic.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0030532020456453704, diffPixels=2560
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0030532020456453704, diffPixels=2560
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  page 1: diffRatio=0.003762832989848103, diffPixels=3155
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0050] [WPT reftest] css/css-pseudo/first-letter-list-item-dynamic-001.html
   triage: pending
@@ -732,19 +726,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-below-float.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0071] [WPT reftest] css/css-pseudo/first-line-change-inline-color-nested.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-pseudo/first-line-change-inline-color-nested-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-change-inline-color-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00037926494160751085, diffPixels=318
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-change-inline-color-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-change-inline-color-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00037926494160751085, diffPixels=318
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-change-inline-color-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0072] [WPT reftest] css/css-pseudo/first-line-change-inline-color.html
   triage: pending
@@ -2476,6 +2457,18 @@
 
 ## Errors
 
+- [0049] [WPT reftest] css/css-pseudo/first-letter-insert-text-node-dynamic.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-insert-text-node-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0051] [WPT reftest] css/css-pseudo/first-letter-of-html-root-refcrash.html
   triage: pending
   side: canary, stable
@@ -2485,6 +2478,26 @@
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-letter-of-html-root-refcrash.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-letter-of-html-root-refcrash.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0071] [WPT reftest] css/css-pseudo/first-line-change-inline-color-nested.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-change-inline-color-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-change-inline-color-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0073] [WPT reftest] css/css-pseudo/first-line-font-relative-units-001.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/first-line-font-relative-units-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/first-line-font-relative-units-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0117] [WPT reftest] css/css-pseudo/highlight-cascade/highlight-paired-cascade-004.html
   triage: pending
@@ -2578,7 +2591,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/target-text-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2637,7 +2650,7 @@
   canary-reference timeout: true
   canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable-reference reference: css/css-pseudo/target-text-011-ref.html
   stable-reference timeout: true
   stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
@@ -2678,7 +2691,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-dynamic-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

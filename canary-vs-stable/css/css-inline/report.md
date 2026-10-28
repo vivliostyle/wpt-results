@@ -2,11 +2,11 @@
 
 - Compared entries: 196
 - Entries with differences: 125 (improvement: 2, pending: 123, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 40
-- Outcome summary: {"pass":71,"known-fail":85,"changed-fail":16,"expected-change":22,"improvement":2}
+- Screenshot mismatches: 39
+- Outcome summary: {"pass":71,"known-fail":86,"expected-change":22,"changed-fail":15,"improvement":2}
 
 ## Differences
 
@@ -142,11 +142,11 @@
 
 - [0014] [WPT reftest] css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/baseline-shift/baseline-shift-length-percentage-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005247691015952981, diffPixels=4400
+  canary page 1: diffRatio=0.0009541256392641783, diffPixels=800
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -269,8 +269,15 @@
 - [0033] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking-vlr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  reference: css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.05606084459201588, diffPixels=47005
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.05606084459201588, diffPixels=47005
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0034] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking-vrl.html
   triage: pending
@@ -1489,18 +1496,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.05, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0033] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking-vlr.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

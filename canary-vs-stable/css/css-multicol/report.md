@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 468
-- Entries with differences: 364 (improvement: 3, pending: 361, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 364 (improvement: 4, pending: 360, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 340
-- Outcome summary: {"expected-change":265,"changed-fail":71,"pass":104,"known-fail":24,"improvement":3,"changed":1}
+- Outcome summary: {"expected-change":264,"changed-fail":71,"pass":104,"known-fail":24,"improvement":4,"changed":1}
 
 ## Differences
 
@@ -802,8 +802,8 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0101] [WPT reftest] css/css-multicol/move-with-text-after-paint.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   page 1: diffRatio=0.016034081367834515, diffPixels=13444
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/move-with-text-after-paint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/move-with-text-after-paint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3134,4 +3134,15 @@
   page 2: diffRatio=0.031105324074074073, diffPixels=4300
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/moz-multicol3-column-balancing-break-inside-avoid-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/moz-multicol3-column-balancing-break-inside-avoid-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0101] [WPT reftest] css/css-multicol/move-with-text-after-paint.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-multicol/move-with-text-after-paint-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/move-with-text-after-paint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/move-with-text-after-paint-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

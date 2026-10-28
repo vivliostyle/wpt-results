@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 308
-- Entries with differences: 281 (improvement: 3, pending: 278, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 282 (pending: 282, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 274
-- Outcome summary: {"expected-change":259,"changed-fail":13,"known-fail":6,"pass":26,"improvement":3,"error":1}
+- Screenshot mismatches: 276
+- Outcome summary: {"expected-change":263,"changed-fail":13,"known-fail":6,"pass":26}
 
 ## Differences
 
@@ -1781,8 +1781,8 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t423-transparent-2-a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0263] [WPT reftest] css/css-color/t424-hsl-basic-a.xht
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0005498148996259828, diffPixels=461
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/t424-hsl-basic-a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t424-hsl-basic-a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1844,15 +1844,16 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t424-hsl-values-b-14.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0272] [WPT reftest] css/css-color/t424-hsl-values-b-15.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.009049881688420731, diffPixels=7588
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/t424-hsl-values-b-15.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t424-hsl-values-b-15.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0273] [WPT reftest] css/css-color/t424-hsl-values-b-2.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.009411256774292038, diffPixels=7891
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/t424-hsl-values-b-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t424-hsl-values-b-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1869,6 +1870,13 @@
   page 1: diffRatio=0.0056877814670635825, diffPixels=4769
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/t424-hsl-values-b-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t424-hsl-values-b-4.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0276] [WPT reftest] css/css-color/t424-hsl-values-b-5.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.005842826883444012, diffPixels=4899
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/t424-hsl-values-b-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t424-hsl-values-b-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0277] [WPT reftest] css/css-color/t424-hsl-values-b-6.html
   triage: pending
@@ -2098,32 +2106,4 @@
   page 1: diffRatio=0.0019106365926265171, diffPixels=1602
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/xyz-d65-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/xyz-d65-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0263] [WPT reftest] css/css-color/t424-hsl-basic-a.xht
-  triage: pending
-  side: stable-reference
-  reference: css/css-color/t424-hsl-basic-a-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/t424-hsl-basic-a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t424-hsl-basic-a-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0272] [WPT reftest] css/css-color/t424-hsl-values-b-15.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-color/t424-hsl-values-b-15-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/t424-hsl-values-b-15.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t424-hsl-values-b-15-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0276] [WPT reftest] css/css-color/t424-hsl-values-b-5.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/t424-hsl-values-b-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/t424-hsl-values-b-5.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
