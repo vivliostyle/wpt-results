@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1229
-- Entries with differences: 1083 (improvement: 29, pending: 1054, triaged: 0)
-- Entries with errors: 4 (pending: 4, triaged: 0)
-- Timeout entries: 4
+- Entries with differences: 1083 (improvement: 42, pending: 1041, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 19
-- Screenshot mismatches: 929
-- Outcome summary: {"expected-change":472,"pass":124,"changed-fail":362,"known-fail":153,"improvement":29,"error":1,"regression":12,"changed":55,"unchanged":21}
+- Screenshot mismatches: 936
+- Outcome summary: {"expected-change":484,"pass":125,"changed-fail":354,"known-fail":147,"improvement":42,"regression":1,"changed":55,"unchanged":21}
 
 ## Differences
 
@@ -1383,7 +1383,7 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-185.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007198877948248225, diffPixels=6036
+  canary page 1: diffRatio=0.014831883062361651, diffPixels=12436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-185.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1409,7 +1409,7 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-vlr-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-189.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007198877948248225, diffPixels=6036
+  canary page 1: diffRatio=0.014831883062361651, diffPixels=12436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-189.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1435,7 +1435,7 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-vlr-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-193.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007198877948248225, diffPixels=6036
+  canary page 1: diffRatio=0.014831883062361651, diffPixels=12436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-193.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1461,7 +1461,7 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-vlr-009-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-197.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007198877948248225, diffPixels=6036
+  canary page 1: diffRatio=0.014831883062361651, diffPixels=12436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-009-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-197.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2839,7 +2839,7 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-184.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007198877948248225, diffPixels=6036
+  canary page 1: diffRatio=0.014831883062361651, diffPixels=12436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-184.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2865,7 +2865,7 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-vlr-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-188.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007198877948248225, diffPixels=6036
+  canary page 1: diffRatio=0.014831883062361651, diffPixels=12436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-188.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2891,7 +2891,7 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-vlr-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-192.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007198877948248225, diffPixels=6036
+  canary page 1: diffRatio=0.014831883062361651, diffPixels=12436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-192.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2917,7 +2917,7 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-vlr-009-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-196.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007198877948248225, diffPixels=6036
+  canary page 1: diffRatio=0.014831883062361651, diffPixels=12436
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-009-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vrl-196.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3385,13 +3385,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/reference/available-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0284] [WPT reftest] css/css-writing-modes/available-size-017.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/reference/available-size-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/available-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000658346691092283, diffPixels=552
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/reference/available-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/available-size-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0007155942294481337, diffPixels=600
@@ -3429,7 +3425,7 @@
   reference: css/css-writing-modes/reference/available-size-020-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/available-size-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03938869170292344, diffPixels=33026
+  canary page 1: diffRatio=0.021749293947026946, diffPixels=18236
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/reference/available-size-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/available-size-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3442,7 +3438,7 @@
   reference: css/css-writing-modes/reference/available-size-020-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/available-size-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05677286085031677, diffPixels=47602
+  canary page 1: diffRatio=0.03977272727272727, diffPixels=33348
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/reference/available-size-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/available-size-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3687,7 +3683,7 @@
 
 - [0315] [WPT reftest] css/css-writing-modes/bidi-embed-010.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0038451263262346386, diffPixels=3224
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/bidi-embed-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/bidi-embed-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -5131,13 +5127,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/direction-vrl-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0532] [WPT reftest] css/css-writing-modes/flexbox_align-items-stretch-writing-modes.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/flexbox_align-items-stretch-writing-modes-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/flexbox_align-items-stretch-writing-modes.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/flexbox_align-items-stretch-writing-modes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/flexbox_align-items-stretch-writing-modes.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
@@ -5338,17 +5330,44 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-in-htb-in-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-in-htb-in-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0554] [WPT reftest] css/css-writing-modes/float-lft-orthog-htb-in-vlr-002.xht
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-writing-modes/float-lft-orthog-htb-in-vlr-002-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0016876097244485154, diffPixels=1415
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.015853990153423404, diffPixels=13293
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0555] [WPT reftest] css/css-writing-modes/float-lft-orthog-htb-in-vrl-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  reference: css/css-writing-modes/float-lft-orthog-htb-in-vrl-002-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.001728160064117243, diffPixels=1449
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.001728160064117243, diffPixels=1449
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0556] [WPT reftest] css/css-writing-modes/float-lft-orthog-vlr-in-htb-002.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-vlr-in-htb-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-vlr-in-htb-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  reference: css/css-writing-modes/float-lft-orthog-vlr-in-htb-002-ref.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-vlr-in-htb-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0052023700480879325, diffPixels=4362
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-vlr-in-htb-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-vlr-in-htb-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0052023700480879325, diffPixels=4362
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-vlr-in-htb-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0557] [WPT reftest] css/css-writing-modes/float-lft-orthog-vrl-in-htb-002.xht
   triage: pending
@@ -5584,8 +5603,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-vrl-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0584] [WPT reftest] css/css-writing-modes/forms/button-appearance-native-horizontal.optional.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.001279721013663079, diffPixels=1073
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/button-appearance-native-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/button-appearance-native-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -5634,7 +5654,7 @@
 - [0591] [WPT reftest] css/css-writing-modes/forms/color-input-appearance-native-vertical.optional.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012940328982520418, diffPixels=1085
+  page 1: diffRatio=0.001920177849019159, diffPixels=1610
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -5648,7 +5668,7 @@
 - [0593] [WPT reftest] css/css-writing-modes/forms/color-input-appearance-none-vertical.optional.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0019714621021296084, diffPixels=1653
+  page 1: diffRatio=0.0012773356995649187, diffPixels=1071
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/color-input-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -5727,28 +5747,28 @@
 - [0604] [WPT reftest] css/css-writing-modes/forms/meter-appearance-native-sideways-lr-rtl.optional.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0016685272116632318, diffPixels=1399
+  page 1: diffRatio=0.001272565071368598, diffPixels=1067
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/meter-appearance-native-sideways-lr-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/meter-appearance-native-sideways-lr-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0605] [WPT reftest] css/css-writing-modes/forms/meter-appearance-native-sideways-lr.optional.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0016780684680558736, diffPixels=1407
+  page 1: diffRatio=0.001273757728417678, diffPixels=1068
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/meter-appearance-native-sideways-lr.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/meter-appearance-native-sideways-lr.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0606] [WPT reftest] css/css-writing-modes/forms/meter-appearance-native-vertical-rtl.optional.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012642164720250363, diffPixels=1060
+  page 1: diffRatio=0.0016780684680558736, diffPixels=1407
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/meter-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/meter-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0607] [WPT reftest] css/css-writing-modes/forms/meter-appearance-native-vertical.optional.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012642164720250363, diffPixels=1060
+  page 1: diffRatio=0.0016685272116632318, diffPixels=1399
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/meter-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/meter-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -5775,33 +5795,23 @@
 
 - [0611] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-sideways-lr-rtl.optional.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/forms/progress-appearance-native-sideways-lr-ref.html (!=)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-sideways-lr-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality: comparison matched but relation is !=
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-sideways-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0013834821769330586, diffPixels=1160
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-sideways-lr-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-sideways-lr-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0612] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-sideways-lr.optional.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/forms/progress-appearance-native-sideways-lr-rtl-ref.html (!=)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-sideways-lr.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality: comparison matched but relation is !=
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-sideways-lr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0013846748339821388, diffPixels=1161
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-sideways-lr.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-sideways-lr.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0613] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (!=)
   reference: css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html (!=)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality (css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html): comparison matched but relation is !=
@@ -5810,20 +5820,13 @@
   stable reference render (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0614] [WPT reftest] css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html (!=)
-  reference: css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html (!=)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable unexpected equality (css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html): comparison matched but relation is !=
-  stable reference render (css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable unexpected equality: comparison matched but relation is !=
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0615] [WPT reftest] css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html
   triage: pending
@@ -5834,8 +5837,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html): comparison matched but relation is !=
   canary reference render (css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality (css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html): comparison matched but relation is !=
@@ -5847,50 +5848,34 @@
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html (!=)
-  reference: css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html (!=)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary unexpected equality: comparison matched but relation is !=
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable unexpected equality (css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html): comparison matched but relation is !=
-  stable reference render (css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable unexpected equality: comparison matched but relation is !=
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0617] [WPT reftest] css/css-writing-modes/forms/progress-appearance-none-sideways-lr-rtl.optional.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/forms/progress-appearance-none-sideways-lr-ref.html (!=)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-sideways-lr-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality: comparison matched but relation is !=
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-sideways-lr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0014514636287306312, diffPixels=1217
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-sideways-lr-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-sideways-lr-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0618] [WPT reftest] css/css-writing-modes/forms/progress-appearance-none-sideways-lr.optional.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/forms/progress-appearance-none-sideways-lr-rtl-ref.html (!=)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-sideways-lr.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality: comparison matched but relation is !=
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-sideways-lr-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0014514636287306312, diffPixels=1217
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-sideways-lr.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-sideways-lr.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0619] [WPT reftest] css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html (!=)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html (!=)
   reference: css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html (!=)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality (css/css-writing-modes/forms/progress-appearance-native-vertical-rtl.optional.html): comparison matched but relation is !=
@@ -5900,18 +5885,10 @@
 
 - [0620] [WPT reftest] css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html (!=)
-  reference: css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html (!=)
-  reference: css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html (!=)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-horizontal.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical-rtl.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary unexpected equality (css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html): comparison matched but relation is !=
-  canary reference render (css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-native-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0014514636287306312, diffPixels=1217
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/forms/progress-appearance-none-vertical.optional.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0621] [WPT reftest] css/css-writing-modes/forms/radio-appearance-native-vertical-lr-baseline.optional.html
   triage: pending
@@ -6887,13 +6864,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-child-with-padding.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0780] [WPT reftest] css/css-writing-modes/orthogonal-containing-block-height-changes.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/orthogonal-containing-block-height-changes-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-containing-block-height-changes.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04740811770093886, diffPixels=39750
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-containing-block-height-changes-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-containing-block-height-changes.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04740811770093886, diffPixels=39750
@@ -6901,12 +6874,10 @@
 
 - [0781] [WPT reftest] css/css-writing-modes/orthogonal-dynamic-size-001.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-dynamic-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-dynamic-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-dynamic-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0782] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-001.html
   triage: pending
@@ -6925,14 +6896,14 @@
 - [0784] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001556417449049691, diffPixels=1305
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0785] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-004.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  page 1: diffRatio=0.0015611880772460117, diffPixels=1309
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -6946,14 +6917,14 @@
 - [0787] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-006.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0788] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-007.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015611880772460117, diffPixels=1309
+  page 1: diffRatio=0.0015576101060987711, diffPixels=1306
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -7252,7 +7223,7 @@
   reference: css/css-writing-modes/sizing-orthog-htb-in-vlr-007-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3], reference=[1]
+  canary page 1: diffRatio=0.01461004885123273, diffPixels=12250
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7287,11 +7258,11 @@
 
 - [0838] [WPT reftest] css/css-writing-modes/sizing-orthog-htb-in-vlr-010.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-htb-in-vlr-010-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010454831692237234, diffPixels=8766
+  canary page 1: diffRatio=0.009569880161819708, diffPixels=8024
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7369,7 +7340,7 @@
   reference: css/css-writing-modes/sizing-orthog-htb-in-vlr-019-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3], reference=[1]
+  canary page 1: diffRatio=0.01461004885123273, diffPixels=12250
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7404,11 +7375,11 @@
 
 - [0848] [WPT reftest] css/css-writing-modes/sizing-orthog-htb-in-vlr-022.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-htb-in-vlr-022-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012664825204182887, diffPixels=10619
+  canary page 1: diffRatio=0.013602253644759942, diffPixels=11405
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-022-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vlr-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7482,11 +7453,11 @@
 
 - [0855] [WPT reftest] css/css-writing-modes/sizing-orthog-htb-in-vrl-007.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-htb-in-vrl-007-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3], reference=[1]
+  canary page 1: diffRatio=0.014617204793527211, diffPixels=12256
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7521,11 +7492,11 @@
 
 - [0858] [WPT reftest] css/css-writing-modes/sizing-orthog-htb-in-vrl-010.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-htb-in-vrl-010-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010571712083047096, diffPixels=8864
+  canary page 1: diffRatio=0.009537678421494543, diffPixels=7997
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7599,11 +7570,11 @@
 
 - [0865] [WPT reftest] css/css-writing-modes/sizing-orthog-htb-in-vrl-019.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-htb-in-vrl-019-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3], reference=[1]
+  canary page 1: diffRatio=0.014617204793527211, diffPixels=12256
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7638,11 +7609,11 @@
 
 - [0868] [WPT reftest] css/css-writing-modes/sizing-orthog-htb-in-vrl-022.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-htb-in-vrl-022-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01274354056942218, diffPixels=10685
+  canary page 1: diffRatio=0.013609409587054424, diffPixels=11411
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-022-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-htb-in-vrl-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7694,7 +7665,7 @@
   reference: css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013711978093275323, diffPixels=11497
+  canary page 1: diffRatio=0.011961157545225556, diffPixels=10029
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7703,11 +7674,11 @@
 
 - [0874] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-004.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-004-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012243817265857567, diffPixels=10266
+  canary page 1: diffRatio=0.010346299900770933, diffPixels=8675
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7742,21 +7713,12 @@
   reference: css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-007-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013711978093275323, diffPixels=11497
+  canary page 1: diffRatio=0.011961157545225556, diffPixels=10029
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.012019597740630486, diffPixels=10078
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0878] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-008.xht
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-008-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009800062972292191, diffPixels=8217
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vlr-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0879] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-001.xht
   triage: pending
@@ -7773,11 +7735,11 @@
 
 - [0881] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-003.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013621336157545226, diffPixels=11421
+  canary page 1: diffRatio=0.011888405465231662, diffPixels=9968
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7785,13 +7747,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0882] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-004.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-004-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011919414548507748, diffPixels=9994
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.011919414548507748, diffPixels=9994
@@ -7812,11 +7770,11 @@
 
 - [0885] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-007.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-007-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013621336157545226, diffPixels=11421
+  canary page 1: diffRatio=0.011888405465231662, diffPixels=9968
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7824,13 +7782,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0886] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-008.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-008-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011919414548507748, diffPixels=9994
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-htb-in-vrl-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.011919414548507748, diffPixels=9994
@@ -7864,11 +7818,11 @@
 
 - [0889] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-003.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014197389512250974, diffPixels=11904
+  canary page 1: diffRatio=0.01181923135638501, diffPixels=9910
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7877,11 +7831,11 @@
 
 - [0890] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-004.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-004-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013155007251354859, diffPixels=11030
+  canary page 1: diffRatio=0.010958132966949087, diffPixels=9188
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7916,11 +7870,11 @@
 
 - [0893] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-007.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-007-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014384636668956568, diffPixels=12061
+  canary page 1: diffRatio=0.012006478513090604, diffPixels=10067
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7929,11 +7883,11 @@
 
 - [0894] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-008.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-008-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013155007251354859, diffPixels=11030
+  canary page 1: diffRatio=0.010958132966949087, diffPixels=9188
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vlr-in-htb-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7968,11 +7922,11 @@
 
 - [0897] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-003.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-003-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01427968284863751, diffPixels=11973
+  canary page 1: diffRatio=0.011899139378673384, diffPixels=9977
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-003-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7981,11 +7935,11 @@
 
 - [0898] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-004.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-004-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013257575757575758, diffPixels=11116
+  canary page 1: diffRatio=0.011038040989237463, diffPixels=9255
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-004-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-004.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8020,11 +7974,11 @@
 
 - [0901] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-007.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-007-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014466930005343104, diffPixels=12130
+  canary page 1: diffRatio=0.012086386535378978, diffPixels=10134
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8033,11 +7987,11 @@
 
 - [0902] [WPT reftest] css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-008.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-008-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013257575757575758, diffPixels=11116
+  canary page 1: diffRatio=0.011038040989237463, diffPixels=9255
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-008-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-prct-vrl-in-htb-008.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8098,11 +8052,11 @@
 
 - [0907] [WPT reftest] css/css-writing-modes/sizing-orthog-vlr-in-htb-007.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-vlr-in-htb-007-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3], reference=[1]
+  canary page 1: diffRatio=0.01445023280665598, diffPixels=12116
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8137,11 +8091,11 @@
 
 - [0910] [WPT reftest] css/css-writing-modes/sizing-orthog-vlr-in-htb-010.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-vlr-in-htb-010-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013690510266391879, diffPixels=11479
+  canary page 1: diffRatio=0.01358913441722006, diffPixels=11394
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8228,11 +8182,11 @@
 
 - [0917] [WPT reftest] css/css-writing-modes/sizing-orthog-vlr-in-htb-019.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-vlr-in-htb-019-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3], reference=[1]
+  canary page 1: diffRatio=0.014637479963361575, diffPixels=12273
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8267,11 +8221,11 @@
 
 - [0920] [WPT reftest] css/css-writing-modes/sizing-orthog-vlr-in-htb-022.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-vlr-in-htb-022-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014588581024349286, diffPixels=12232
+  canary page 1: diffRatio=0.01358913441722006, diffPixels=11394
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-022-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vlr-in-htb-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8358,11 +8312,11 @@
 
 - [0927] [WPT reftest] css/css-writing-modes/sizing-orthog-vrl-in-htb-007.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-vrl-in-htb-007-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3], reference=[1]
+  canary page 1: diffRatio=0.014520599572551713, diffPixels=12175
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-007-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-007.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8397,11 +8351,11 @@
 
 - [0930] [WPT reftest] css/css-writing-modes/sizing-orthog-vrl-in-htb-010.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-vrl-in-htb-010-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01401372032669262, diffPixels=11750
+  canary page 1: diffRatio=0.013659501183115793, diffPixels=11453
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-010-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-010.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8488,11 +8442,11 @@
 
 - [0937] [WPT reftest] css/css-writing-modes/sizing-orthog-vrl-in-htb-019.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-vrl-in-htb-019-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3], reference=[1]
+  canary page 1: diffRatio=0.01470784672925731, diffPixels=12332
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-019-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-019.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8527,11 +8481,11 @@
 
 - [0940] [WPT reftest] css/css-writing-modes/sizing-orthog-vrl-in-htb-022.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-writing-modes/sizing-orthog-vrl-in-htb-022-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.014911791084650027, diffPixels=12503
+  canary page 1: diffRatio=0.013659501183115793, diffPixels=11453
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-022-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthog-vrl-in-htb-022.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8566,21 +8520,15 @@
 
 - [0943] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-001.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02537377871918174, diffPixels=21275
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00690190634302725, diffPixels=5787
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0944] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.026717903213495153, diffPixels=22402
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.026717903213495153, diffPixels=22402
@@ -8588,21 +8536,15 @@
 
 - [0945] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-003.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0680422773070758, diffPixels=57051
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.008439241279291658, diffPixels=7076
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0946] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07102511258682544, diffPixels=59552
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.07102511258682544, diffPixels=59552
@@ -8610,21 +8552,15 @@
 
 - [0947] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-005.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.005253654301198382, diffPixels=4405
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0948] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2], reference=[1]
@@ -8632,34 +8568,24 @@
 
 - [0949] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-007.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.025223503930997634, diffPixels=21149
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0038272364704984353, diffPixels=3209
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0950] [WPT reftest] css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016618483321883825, diffPixels=13934
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.016618483321883825, diffPixels=13934
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-orthogonal-percentage-margin-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0951] [WPT reftest] css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/sizing-percentages-replaced-orthogonal-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2, 3, 4], reference=[1]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/sizing-percentages-replaced-orthogonal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2, 3, 4], reference=[1]
@@ -9746,13 +9672,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/three-levels-of-orthogonal-flows.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1085] [WPT reftest] css/css-writing-modes/two-levels-of-orthogonal-flows-fixed.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-writing-modes/reference/two-levels-of-orthogonal-flows-fixed.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/two-levels-of-orthogonal-flows-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.015237386459048928, diffPixels=12776
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/reference/two-levels-of-orthogonal-flows-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/two-levels-of-orthogonal-flows-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0170060968628349, diffPixels=14259
@@ -10780,58 +10702,4 @@
   page 1: diffRatio=0.001985773986718571, diffPixels=1665
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/writing-mode-vrl-table-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/writing-mode-vrl-table-002-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0315] [WPT reftest] css/css-writing-modes/bidi-embed-010.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-writing-modes/reference/bidi-embed-010.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-writing-modes/reference/bidi-embed-010.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/bidi-embed-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/reference/bidi-embed-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0554] [WPT reftest] css/css-writing-modes/float-lft-orthog-htb-in-vlr-002.xht
-  triage: pending
-  side: canary, canary-reference, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-writing-modes/float-lft-orthog-htb-in-vlr-002-ref.xht
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-writing-modes/float-lft-orthog-htb-in-vlr-002-ref.xht
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vlr-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0555] [WPT reftest] css/css-writing-modes/float-lft-orthog-htb-in-vrl-002.xht
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-writing-modes/float-lft-orthog-htb-in-vrl-002-ref.xht
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-writing-modes/float-lft-orthog-htb-in-vrl-002-ref.xht
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vrl-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-htb-in-vrl-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0556] [WPT reftest] css/css-writing-modes/float-lft-orthog-vlr-in-htb-002.xht
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-writing-modes/float-lft-orthog-vlr-in-htb-002-ref.xht
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-writing-modes/float-lft-orthog-vlr-in-htb-002-ref.xht
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-vlr-in-htb-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/float-lft-orthog-vlr-in-htb-002-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

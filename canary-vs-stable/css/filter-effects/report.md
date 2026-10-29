@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 337
-- Entries with differences: 237 (improvement: 1, pending: 236, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Entries with differences: 239 (improvement: 2, pending: 237, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 139
-- Outcome summary: {"changed-fail":62,"known-fail":98,"expected-change":76,"pass":98,"improvement":1,"error":2}
+- Outcome summary: {"changed-fail":62,"known-fail":99,"expected-change":76,"pass":98,"improvement":2}
 
 ## Differences
 
@@ -785,7 +785,7 @@
 - [0105] [WPT reftest] css/filter-effects/blur-text.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.02943835394244714, diffPixels=24683
+  page 1: diffRatio=0.028343494771391496, diffPixels=23765
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/blur-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/blur-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2176,6 +2176,19 @@
   stable page 1: diffRatio=0.005366956720861003, diffPixels=4500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0270] [WPT reftest] css/filter-effects/svg-mutation-function-to-url.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/filter-effects/reference/green-100x100.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-mutation-function-to-url.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-mutation-function-to-url.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0271] [WPT reftest] css/filter-effects/svg-mutation-group-position-changed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2305,6 +2318,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02767202885275933, diffPixels=23202
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0281] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/filter-effects/reference/svg-relative-urls-002-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0284] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
   triage: pending
@@ -2630,24 +2652,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/visibility-hidden-element-with-filter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0269] [WPT reftest] css/filter-effects/svg-mutation-filter-used-by-mask.html
-  triage: pending
-  side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-mutation-filter-used-by-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-mutation-filter-used-by-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0270] [WPT reftest] css/filter-effects/svg-mutation-function-to-url.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-mutation-function-to-url.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-mutation-function-to-url.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

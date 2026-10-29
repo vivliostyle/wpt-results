@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 717
-- Entries with differences: 456 (pending: 456, triaged: 0)
+- Entries with differences: 455 (pending: 455, triaged: 0)
 - Entries with errors: 2 (pending: 2, triaged: 0)
 - Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 298
-- Outcome summary: {"known-fail":157,"pass":259,"expected-change":238,"changed-fail":58,"error":2,"regression":1,"changed":2}
+- Outcome summary: {"known-fail":157,"pass":260,"expected-change":243,"changed-fail":53,"error":2,"changed":2}
 
 ## Differences
 
@@ -1365,7 +1365,7 @@
   reference: css/css-backgrounds/reference/origin-border-box_with_radius-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-origin/origin-border-box_with_radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.05678598007785665, diffPixels=47613
+  canary page 1: diffRatio=0.05678478742080757, diffPixels=47612
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/origin-border-box_with_radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-origin/origin-border-box_with_radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1608,7 +1608,7 @@
 - [0222] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-repeat-x.xht
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.010830518662697504, diffPixels=9081
+  page 1: diffRatio=0.010838867262041066, diffPixels=9088
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-repeat-x.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-repeat-x.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1622,7 +1622,7 @@
 - [0224] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-round-roundup.xht
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.02586038279520647, diffPixels=21683
+  page 1: diffRatio=0.02584964888176475, diffPixels=21674
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-round-roundup.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-round-roundup.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1674,16 +1674,10 @@
 
 - [0250] [WPT reftest] css/css-backgrounds/background-size/background-size-contain-svg-view.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-contain-svg-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-contain-svg-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.001385867491031219, diffPixels=1162
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-contain-svg-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-contain-svg-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0251] [WPT reftest] css/css-backgrounds/background-size/background-size-contain.xht
   triage: pending
@@ -1691,73 +1685,40 @@
   reference: css/css-backgrounds/background-size/reference/background-size-contain.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-contain.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0019810033585222504, diffPixels=1661
+  canary page 1: diffRatio=0.00024330203801236548, diffPixels=204
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-contain.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-contain.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0019810033585222504, diffPixels=1661
+  stable page 1: diffRatio=0.00024330203801236548, diffPixels=204
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-contain.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0252] [WPT reftest] css/css-backgrounds/background-size/background-size-cover-contain-001.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-contain-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-contain-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-contain-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-contain-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0253] [WPT reftest] css/css-backgrounds/background-size/background-size-cover-contain-002.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-contain-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-contain-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-contain-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-contain-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0254] [WPT reftest] css/css-backgrounds/background-size/background-size-cover-svg-view.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-svg-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-svg-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0255] [WPT reftest] css/css-backgrounds/background-size/background-size-cover-svg.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-backgrounds/background-size/reference/background-size-cover-svg-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-svg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.2862376917792535, diffPixels=240000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-cover-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.001385867491031219, diffPixels=1162
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-svg-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover-svg-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0256] [WPT reftest] css/css-backgrounds/background-size/background-size-cover.xht
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/background-size/reference/background-size-cover.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009946759789329059, diffPixels=834
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-cover.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009946759789329059, diffPixels=834
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/reference/background-size-cover.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.009037955117929928, diffPixels=7578
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-size/background-size-cover.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0259] [WPT reftest] css/css-backgrounds/background-size/background-size-near-zero-png.html
   triage: pending

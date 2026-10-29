@@ -6,7 +6,7 @@
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 539
-- Outcome summary: {"expected-change":321,"pass":216,"known-fail":43,"changed-fail":217,"changed":1}
+- Outcome summary: {"expected-change":322,"pass":216,"known-fail":43,"changed-fail":216,"changed":1}
 
 ## Differences
 
@@ -3260,16 +3260,10 @@
 
 - [0417] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-transforms/transform-box/reference/greensquare200x200.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/reference/greensquare200x200.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0021372414319517593, diffPixels=1792
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0418] [WPT reftest] css/css-transforms/transform-box/stroke-box-mutation-001.html
   triage: pending

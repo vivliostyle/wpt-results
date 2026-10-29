@@ -6,7 +6,7 @@
 - Timeout entries: 0
 - Page count changed: 2
 - Screenshot mismatches: 1425
-- Outcome summary: {"expected-change":1012,"changed-fail":380,"pass":74,"known-fail":14,"regression":2,"improvement":29,"changed":2}
+- Outcome summary: {"expected-change":1012,"changed-fail":381,"pass":74,"known-fail":14,"regression":1,"improvement":29,"changed":2}
 
 ## Differences
 
@@ -7179,12 +7179,16 @@
 
 - [0890] [WPT reftest] css/css-text/text-transform/text-transform-uppercase-dynamic.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0891] [WPT reftest] css/css-text/text-transform/text-transform-upperlower-001.html
   triage: pending

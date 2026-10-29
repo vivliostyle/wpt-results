@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 253
-- Entries with differences: 220 (improvement: 3, pending: 217, triaged: 0)
+- Entries with differences: 220 (improvement: 4, pending: 216, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
 - Page count changed: 0
 - Screenshot mismatches: 187
-- Outcome summary: {"known-fail":33,"expected-change":121,"pass":30,"changed-fail":63,"improvement":3,"error":3}
+- Outcome summary: {"known-fail":33,"expected-change":121,"pass":30,"changed-fail":62,"improvement":4,"error":3}
 
 ## Differences
 
@@ -411,13 +411,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-center-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0042] [WPT reftest] css/css-position/position-absolute-center-002.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-center-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002499809174872147, diffPixels=2096
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-center-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.002537974200442714, diffPixels=2128
@@ -686,7 +682,7 @@
 - [0088] [WPT reftest] css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001385867491031219, diffPixels=1162
+  page 1: diffRatio=0.0013810968628348982, diffPixels=1158
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

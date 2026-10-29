@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 568
-- Entries with differences: 471 (improvement: 6, pending: 465, triaged: 0)
+- Entries with differences: 471 (improvement: 7, pending: 464, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
-- Page count changed: 1
-- Screenshot mismatches: 449
-- Outcome summary: {"expected-change":392,"regression":3,"changed-fail":50,"pass":94,"improvement":6,"known-fail":20,"error":3}
+- Page count changed: 0
+- Screenshot mismatches: 450
+- Outcome summary: {"expected-change":396,"changed-fail":48,"pass":94,"improvement":7,"known-fail":20,"error":3}
 
 ## Differences
 
@@ -180,12 +180,10 @@
 
 - [0025] [WPT reftest] css/css-sizing/aspect-ratio/abspos-015.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/abspos-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/abspos-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/abspos-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0026] [WPT reftest] css/css-sizing/aspect-ratio/abspos-016.html
   triage: pending
@@ -1145,12 +1143,10 @@
 
 - [0161] [WPT reftest] css/css-sizing/aspect-ratio/grid-aspect-ratio-012.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.2004665674376002, diffPixels=168084
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/grid-aspect-ratio-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0162] [WPT reftest] css/css-sizing/aspect-ratio/grid-aspect-ratio-014.html
   triage: pending
@@ -1503,8 +1499,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0212] [WPT reftest] css/css-sizing/aspect-ratio/intrinsic-size-020.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/intrinsic-size-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1552,12 +1549,10 @@
 
 - [0219] [WPT reftest] css/css-sizing/aspect-ratio/percentage-resolution-002.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/percentage-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/percentage-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/percentage-resolution-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0220] [WPT reftest] css/css-sizing/aspect-ratio/percentage-resolution-003.html
   triage: pending
@@ -1646,7 +1641,7 @@
 - [0232] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-010.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001556417449049691, diffPixels=1305
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1702,7 +1697,7 @@
 - [0242] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-020.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001556417449049691, diffPixels=1305
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2734,13 +2729,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0431] [WPT reftest] css/css-sizing/intrinsic-percent-non-replaced-008.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-sizing/intrinsic-percent-non-replaced-008-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
@@ -3218,13 +3209,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/ortho-writing-mode-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0489] [WPT reftest] css/css-sizing/orthogonal-writing-mode-float-in-inline.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/orthogonal-writing-mode-float-in-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.08885295015647661, diffPixels=74500
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/orthogonal-writing-mode-float-in-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.08885295015647661, diffPixels=74500

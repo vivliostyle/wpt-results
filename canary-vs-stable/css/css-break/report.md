@@ -7039,7 +7039,7 @@
 - [0941] [WPT reftest] css/css-break/table/repeated-section/image.tentative.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/repeated-section/image.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/repeated-section/image.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

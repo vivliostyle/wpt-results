@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 239
-- Entries with differences: 205 (improvement: 1, pending: 204, triaged: 0)
+- Entries with differences: 205 (improvement: 2, pending: 203, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 1
-- Screenshot mismatches: 125
-- Outcome summary: {"known-fail":79,"pass":34,"expected-change":72,"changed-fail":53,"improvement":1}
+- Screenshot mismatches: 126
+- Outcome summary: {"known-fail":78,"pass":34,"expected-change":72,"changed-fail":53,"improvement":2}
 
 ## Differences
 
@@ -1518,13 +1518,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-008-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0163] [WPT reftest] css/css-anchor-position/position-area-percents-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-anchor-position/position-area-percents-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/position-area-percents-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0022708190214487446, diffPixels=1904
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/position-area-percents-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/position-area-percents-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0022708190214487446, diffPixels=1904
