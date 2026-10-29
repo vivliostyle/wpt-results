@@ -2,8 +2,8 @@
 
 - Compared entries: 72
 - Entries with differences: 72 (pending: 72, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 47
 - Outcome summary: {"changed-fail":45,"known-fail":25,"expected-change":2}
@@ -561,10 +561,6 @@
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00014311884588962676, diffPixels=120
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
@@ -933,4 +929,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0044] [WPT reftest] css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/flex-column-style-change-triggers-layout-block-end-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

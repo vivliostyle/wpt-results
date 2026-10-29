@@ -6,7 +6,7 @@
 - Timeout entries: 2
 - Page count changed: 37
 - Screenshot mismatches: 201
-- Outcome summary: {"expected-change":157,"changed-fail":29,"pass":26,"known-fail":23,"improvement":13,"regression":1,"changed":1}
+- Outcome summary: {"expected-change":158,"changed-fail":29,"pass":26,"known-fail":23,"improvement":13,"changed":1}
 
 ## Differences
 
@@ -1500,12 +1500,10 @@
 
 - [0196] [WPT reftest] css/css-counter-styles/simp-chinese-formal/css3-counter-styles-076.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-counter-styles/simp-chinese-formal/css3-counter-styles-076-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00003816502557056713, diffPixels=32
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-076-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.008007499427524616, diffPixels=6714
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/css3-counter-styles-076.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0197] [WPT reftest] css/css-counter-styles/simp-chinese-formal/css3-counter-styles-077.html
   triage: not-needed

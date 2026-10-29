@@ -26014,14 +26014,14 @@
 - [3424] [WPT reftest] css/CSS2/normal-flow/inline-replaced-width-012.xht
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003419347759712999, diffPixels=2867
+  page 1: diffRatio=0.0034217330738111596, diffPixels=2869
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/inline-replaced-width-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/inline-replaced-width-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [3425] [WPT reftest] css/CSS2/normal-flow/inline-replaced-width-013.xht
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0034217330738111596, diffPixels=2869
+  page 1: diffRatio=0.003419347759712999, diffPixels=2867
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/normal-flow/inline-replaced-width-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/normal-flow/inline-replaced-width-013.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -49898,7 +49898,7 @@
 - [6486] [WPT manual] css/CSS2/backgrounds/background-animated-001.xht
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0015337569651171666, diffPixels=1286
+  page 1: diffRatio=0.0015170597664300434, diffPixels=1272
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/backgrounds/background-animated-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -51934,7 +51934,7 @@
 - [6798] [WPT manual] css/CSS2/ui/cursor-024.xht
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.0036149435157621554, diffPixels=3031
+  page 1: diffRatio=0.003617328829860316, diffPixels=3033
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/CSS2/ui/cursor-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/CSS2/ui/cursor-024.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

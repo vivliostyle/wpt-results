@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 337
-- Entries with differences: 239 (improvement: 2, pending: 237, triaged: 0)
+- Entries with differences: 238 (improvement: 1, pending: 237, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 139
-- Outcome summary: {"changed-fail":62,"known-fail":99,"expected-change":76,"pass":98,"improvement":2}
+- Outcome summary: {"changed-fail":62,"known-fail":99,"expected-change":76,"pass":99,"improvement":1}
 
 ## Differences
 
@@ -785,7 +785,7 @@
 - [0105] [WPT reftest] css/filter-effects/blur-text.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.028343494771391496, diffPixels=23765
+  page 1: diffRatio=0.029521839935882758, diffPixels=24753
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/blur-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/blur-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2318,15 +2318,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.02767202885275933, diffPixels=23202
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0281] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/filter-effects/reference/svg-relative-urls-002-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0284] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
   triage: pending

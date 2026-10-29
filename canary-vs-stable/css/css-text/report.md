@@ -5787,7 +5787,7 @@
 - [0701] [WPT reftest] css/css-text/text-autospace/text-autospace-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.010119695061445692, diffPixels=8485
+  page 1: diffRatio=0.01866508281810549, diffPixels=15650
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -7167,7 +7167,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-tailoring-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012212808182581482, diffPixels=1024
+  stable page 1: diffRatio=0.001209354247767346, diffPixels=1014
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0889] [WPT reftest] css/css-text/text-transform/text-transform-uppercase-101.xht

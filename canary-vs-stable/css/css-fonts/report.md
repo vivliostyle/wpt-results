@@ -2,11 +2,11 @@
 
 - Compared entries: 380
 - Entries with differences: 317 (improvement: 12, pending: 305, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 287
-- Outcome summary: {"known-fail":22,"pass":63,"changed-fail":66,"expected-change":208,"improvement":12,"regression":9}
+- Screenshot mismatches: 286
+- Outcome summary: {"known-fail":23,"pass":63,"changed-fail":65,"expected-change":208,"improvement":12,"regression":9}
 
 ## Differences
 
@@ -29,11 +29,11 @@
   reference: css/css-fonts/downloadable-font-scoped-to-document-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0034181551026639186, diffPixels=2866
+  canary page 1: diffRatio=0.003436044958400122, diffPixels=2881
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018366918555835431, diffPixels=1540
+  stable page 1: diffRatio=0.0040443000534310354, diffPixels=3391
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0004] [WPT reftest] css/css-fonts/first-available-font-001.html
@@ -148,16 +148,12 @@
 
 - [0019] [WPT reftest] css/css-fonts/font-display/font-display.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-fonts/font-display/font-display-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-display/font-display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.005573286390351881, diffPixels=4673
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-display/font-display-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-display/font-display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005573286390351881, diffPixels=4673
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-display/font-display-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0021] [WPT reftest] css/css-fonts/font-face-sign-function.html
   triage: pending
@@ -2798,4 +2794,14 @@
   page 1: diffRatio=0.00019440309900007634, diffPixels=163
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0019] [WPT reftest] css/css-fonts/font-display/font-display.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): capturing page 1
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-display/font-display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-display/font-display.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

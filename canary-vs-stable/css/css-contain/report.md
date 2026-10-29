@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 432
-- Entries with differences: 370 (improvement: 2, pending: 368, triaged: 0)
-- Entries with errors: 13 (pending: 13, triaged: 0)
-- Timeout entries: 13
+- Entries with differences: 372 (improvement: 2, pending: 370, triaged: 0)
+- Entries with errors: 11 (pending: 11, triaged: 0)
+- Timeout entries: 11
 - Page count changed: 0
-- Screenshot mismatches: 348
-- Outcome summary: {"expected-change":240,"changed-fail":106,"pass":49,"improvement":2,"known-fail":22,"error":13}
+- Screenshot mismatches: 349
+- Outcome summary: {"expected-change":240,"changed-fail":107,"pass":49,"improvement":2,"known-fail":23,"error":11}
 
 ## Differences
 
@@ -2511,6 +2511,32 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0330] [WPT reftest] css/css-contain/content-visibility/content-visibility-037.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-contain/content-visibility/container-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00048779673307381116, diffPixels=409
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00048779673307381116, diffPixels=409
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0331] [WPT reftest] css/css-contain/content-visibility/content-visibility-040.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-contain/content-visibility/container-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0332] [WPT reftest] css/css-contain/content-visibility/content-visibility-041.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -3014,11 +3040,11 @@
   reference: css/css-contain/content-visibility/content-visibility-video-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04050621135791161, diffPixels=33963
+  canary page 1: diffRatio=0.03132752270819021, diffPixels=26267
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04130052095259904, diffPixels=34629
+  stable page 1: diffRatio=0.03554118006259064, diffPixels=29800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0397] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-001.html
@@ -3413,37 +3439,11 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/contain-size-replaced-003c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/contain-size-replaced-003c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0330] [WPT reftest] css/css-contain/content-visibility/content-visibility-037.html
-  triage: pending
-  side: canary, stable, stable-reference
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): capturing page 1
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-contain/content-visibility/container-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-037.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0331] [WPT reftest] css/css-contain/content-visibility/content-visibility-040.html
-  triage: pending
-  side: canary, canary-reference, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/css-contain/content-visibility/container-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-040.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0337] [WPT reftest] css/css-contain/content-visibility/content-visibility-049.html
   triage: pending
   side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary timeout: false
+  canary error: Error: page.addStyleTag: Execution context was destroyed, most likely because of a navigation
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-049.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

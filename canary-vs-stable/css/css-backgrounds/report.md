@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 717
-- Entries with differences: 455 (pending: 455, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Entries with differences: 455 (improvement: 2, pending: 453, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 4
 - Page count changed: 0
-- Screenshot mismatches: 298
-- Outcome summary: {"known-fail":157,"pass":260,"expected-change":243,"changed-fail":53,"error":2,"changed":2}
+- Screenshot mismatches: 297
+- Outcome summary: {"known-fail":157,"pass":260,"expected-change":241,"changed-fail":53,"error":2,"improvement":2,"changed":2}
 
 ## Differences
 
@@ -1196,7 +1196,7 @@
 - [0168] [WPT reftest] css/css-backgrounds/background-image-007.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1432,10 +1432,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-origin/origin-content-box_with_size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.05510791160980078, diffPixels=46206
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box_with_size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-origin/origin-content-box_with_size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05510791160980078, diffPixels=46206
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box_with_size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0200] [WPT reftest] css/css-backgrounds/background-origin/origin-padding-box.html
   triage: pending
@@ -1565,9 +1561,8 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0215] [WPT reftest] css/css-backgrounds/background-position-calc-minmax-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-position-calc-minmax-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-position-calc-minmax-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1585,8 +1580,8 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-position-negative-percentage-comparison-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0219] [WPT reftest] css/css-backgrounds/background-position-three-four-values.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   page 1: diffRatio=0.0012021983054728647, diffPixels=1008
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-position-three-four-values.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-position-three-four-values.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1608,21 +1603,21 @@
 - [0222] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-repeat-x.xht
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.010838867262041066, diffPixels=9088
+  page 1: diffRatio=0.010816206778108541, diffPixels=9069
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-repeat-x.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-repeat-x.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0223] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-repeat-y.xht
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.010368960384703458, diffPixels=8694
+  page 1: diffRatio=0.010352263186016335, diffPixels=8680
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-repeat-y.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-repeat-y.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0224] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-round-roundup.xht
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.02584964888176475, diffPixels=21674
+  page 1: diffRatio=0.025799557285703382, diffPixels=21632
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-round-roundup.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-round-roundup.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -3672,7 +3667,7 @@
 - [0605] [WPT reftest] css/css-backgrounds/border-radius-013.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  page 1: diffRatio=0.001556417449049691, diffPixels=1305
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/border-radius-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/border-radius-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -4477,4 +4472,22 @@
   stable error: TimeoutError: Timeout (10000ms): navigating to page 1
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0199] [WPT reftest] css/css-backgrounds/background-origin/origin-content-box_with_size.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-backgrounds/reference/origin-content-box_with_size-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-origin/origin-content-box_with_size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/origin-content-box_with_size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0219] [WPT reftest] css/css-backgrounds/background-position-three-four-values.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-backgrounds/reference/background-position-three-four-values-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-position-three-four-values.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/reference/background-position-three-four-values-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

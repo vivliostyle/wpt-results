@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 173
-- Entries with differences: 125 (pending: 125, triaged: 0)
+- Entries with differences: 124 (pending: 124, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 118
-- Outcome summary: {"expected-change":69,"changed-fail":49,"known-fail":7,"pass":48}
+- Screenshot mismatches: 117
+- Outcome summary: {"expected-change":69,"changed-fail":48,"pass":49,"known-fail":7}
 
 ## Differences
 
@@ -773,19 +773,6 @@
   page 1: diffRatio=0.001102015113350126, diffPixels=924
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/chrome-legacy-skip-recalc.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/chrome-legacy-skip-recalc.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0087] [WPT reftest] css/css-conditional/container-queries/container-for-cue.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-conditional/container-queries/container-for-cue-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/container-for-cue.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004019254255400351, diffPixels=337
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-conditional/container-queries/container-for-cue-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/container-for-cue.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004019254255400351, diffPixels=337
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-conditional/container-queries/container-for-cue-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0088] [WPT reftest] css/css-conditional/container-queries/container-units-gradient-invalidation.html
   triage: pending

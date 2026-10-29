@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1044
-- Entries with differences: 844 (improvement: 17, pending: 827, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 845 (improvement: 17, pending: 828, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 1
-- Screenshot mismatches: 810
-- Outcome summary: {"expected-change":738,"pass":198,"changed-fail":35,"known-fail":33,"improvement":17,"error":2,"changed":21}
+- Screenshot mismatches: 811
+- Outcome summary: {"expected-change":739,"pass":198,"changed-fail":35,"known-fail":33,"improvement":17,"error":1,"changed":21}
 
 ## Differences
 
@@ -5294,6 +5294,13 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0884] [WPT reftest] css/css-flexbox/intrinsic-size/row-006.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/intrinsic-size/row-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/intrinsic-size/row-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0885] [WPT reftest] css/css-flexbox/intrinsic-size/row-007.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
@@ -6365,14 +6372,6 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/interactive/flexbox_interactive_order-transitions.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
-
-- [0884] [WPT reftest] css/css-flexbox/intrinsic-size/row-006.html
-  triage: pending
-  side: canary
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/intrinsic-size/row-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/intrinsic-size/row-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0918] [WPT reftest] css/css-flexbox/overflow-auto-005.html
   triage: pending

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 468
-- Entries with differences: 290 (improvement: 2, pending: 288, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 289 (improvement: 2, pending: 287, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 251
-- Outcome summary: {"expected-change":153,"known-fail":39,"pass":178,"changed-fail":95,"improvement":2,"regression":1}
+- Screenshot mismatches: 249
+- Outcome summary: {"expected-change":154,"known-fail":40,"pass":178,"changed-fail":93,"improvement":2,"error":1}
 
 ## Differences
 
@@ -729,7 +729,7 @@
 - [0156] [WPT reftest] css/css-images/image-set/image-set-all-options-invalid.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001385867491031219, diffPixels=1162
+  page 1: diffRatio=0.0013822895198839784, diffPixels=1159
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/image-set/image-set-all-options-invalid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/image-set/image-set-all-options-invalid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -872,12 +872,10 @@
 
 - [0200] [WPT reftest] css/css-images/linear-gradient-viewport-units-invalidation.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-images/linear-gradient-viewport-units-invalidation-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/linear-gradient-viewport-units-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.007155942294481337, diffPixels=6000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/linear-gradient-viewport-units-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015385275933134876, diffPixels=1290
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/linear-gradient-viewport-units-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/linear-gradient-viewport-units-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0218] [WPT reftest] css/css-images/object-fit-contain-png-001c.html
   triage: pending
@@ -1181,19 +1179,6 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006i.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006i.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0250] [WPT reftest] css/css-images/object-fit-contain-svg-006o.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-images/object-fit-contain-svg-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00834859934356156, diffPixels=7000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00834859934356156, diffPixels=7000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0251] [WPT reftest] css/css-images/object-fit-contain-svg-006p.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
@@ -1353,16 +1338,12 @@
 
 - [0270] [WPT reftest] css/css-images/object-fit-cover-svg-001e.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-images/object-fit-cover-svg-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.006993740935806427, diffPixels=5864
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.006993740935806427, diffPixels=5864
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0271] [WPT reftest] css/css-images/object-fit-cover-svg-001i.html
   triage: pending
@@ -2849,4 +2830,24 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.053669567208610026, diffPixels=45000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-view-box-writing-mode-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0250] [WPT reftest] css/css-images/object-fit-contain-svg-006o.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-contain-svg-006o.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0270] [WPT reftest] css/css-images/object-fit-cover-svg-001e.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-images/object-fit-cover-svg-001e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

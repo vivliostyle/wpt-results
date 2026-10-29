@@ -10358,7 +10358,7 @@
 - [1179] [WPT manual] css/css-ui/resize-010.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.014864084802686818, diffPixels=12463
+  page 1: diffRatio=0.002937514311884589, diffPixels=2463
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

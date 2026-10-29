@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 102
-- Entries with differences: 19 (pending: 19, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 24 (improvement: 3, pending: 21, triaged: 0)
+- Entries with errors: 7 (pending: 7, triaged: 0)
+- Timeout entries: 7
 - Page count changed: 0
 - Screenshot mismatches: 6
-- Outcome summary: {"known-fail":13,"pass":83,"expected-change":4,"changed-fail":2}
+- Outcome summary: {"known-fail":15,"pass":77,"expected-change":4,"error":1,"improvement":3,"changed-fail":2}
 
 ## Differences
 
@@ -83,6 +83,12 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0041] [WPT reftest] css/css-borders/border-shape/border-shape-shadow-circle.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0049] [WPT reftest] css/css-borders/border-shape/border-shape-stroke-from-border.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -108,6 +114,24 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0016196282726509427, diffPixels=1358
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0053] [WPT reftest] css/css-borders/borders-on-sub-unit-sized-elements.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/borders-on-sub-unit-sized-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/borders-on-sub-unit-sized-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0055] [WPT reftest] css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0056] [WPT reftest] css/css-borders/corner-shape/corner-shape-backdrop-filter.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0061] [WPT reftest] css/css-borders/corner-shape/corner-shape-box-shadow-spread-bevel.html
   triage: pending
@@ -135,6 +159,12 @@
   stable page 1: diffRatio=0.023812590641935732, diffPixels=19966
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0063] [WPT reftest] css/css-borders/corner-shape/corner-shape-fill.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0072] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -143,10 +173,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0066037420807571945, diffPixels=5537
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0066037420807571945, diffPixels=5537
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0073] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002.html
   triage: pending
@@ -232,4 +258,76 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0040] [WPT reftest] css/css-borders/border-shape/border-shape-shadow-blur.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-blur.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0041] [WPT reftest] css/css-borders/border-shape/border-shape-shadow-circle.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-borders/border-shape/border-shape-shadow-circle-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-shadow-circle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0053] [WPT reftest] css/css-borders/borders-on-sub-unit-sized-elements.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-borders/reference/borders-on-sub-unit-sized-elements-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/borders-on-sub-unit-sized-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/borders-on-sub-unit-sized-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0055] [WPT reftest] css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0056] [WPT reftest] css/css-borders/corner-shape/corner-shape-backdrop-filter.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-borders/corner-shape/corner-shape-backdrop-filter-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-borders/corner-shape/corner-shape-backdrop-filter-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0063] [WPT reftest] css/css-borders/corner-shape/corner-shape-fill.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-borders/corner-shape/corner-shape-fill-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-borders/corner-shape/corner-shape-fill-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-fill-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0072] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

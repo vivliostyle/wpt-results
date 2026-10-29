@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 542
-- Entries with differences: 297 (improvement: 1, pending: 296, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 296 (pending: 296, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 75
-- Outcome summary: {"pass":245,"expected-change":70,"known-fail":221,"improvement":1,"changed-fail":5}
+- Outcome summary: {"pass":246,"expected-change":70,"known-fail":221,"changed-fail":5}
 
 ## Differences
 
@@ -512,12 +512,6 @@
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0131] [WPT reftest] css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-014.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0132] [WPT reftest] css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-015.html
   triage: pending
@@ -3443,15 +3437,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0014311884588962675, diffPixels=1200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0131] [WPT reftest] css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-014.html
-  triage: pending
-  side: stable-reference
-  reference: css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-014-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

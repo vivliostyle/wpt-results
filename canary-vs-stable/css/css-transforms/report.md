@@ -3261,7 +3261,7 @@
 - [0417] [WPT reftest] css/css-transforms/transform-box/fill-box-mutation-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0021372414319517593, diffPixels=1792
+  page 1: diffRatio=0.002150360659491642, diffPixels=1803
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-box/fill-box-mutation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

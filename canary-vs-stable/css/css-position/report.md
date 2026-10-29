@@ -682,7 +682,7 @@
 - [0088] [WPT reftest] css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013810968628348982, diffPixels=1158
+  page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -2,11 +2,11 @@
 
 - Compared entries: 1143
 - Entries with differences: 1080 (improvement: 18, pending: 1062, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 1
 - Screenshot mismatches: 1064
-- Outcome summary: {"expected-change":889,"changed-fail":157,"known-fail":16,"pass":63,"improvement":18}
+- Outcome summary: {"expected-change":888,"changed-fail":157,"known-fail":16,"pass":63,"improvement":18,"regression":1}
 
 ## Differences
 
@@ -7039,7 +7039,7 @@
 - [0941] [WPT reftest] css/css-break/table/repeated-section/image.tentative.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/repeated-section/image.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/repeated-section/image.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -7829,7 +7829,7 @@
 
 - [1064] [WPT reftest] css/css-break/widows-orphans-011.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
+  outcome: regression (baseline=PASS, actual=FAIL)
   page 1: diffRatio=0.012615926265170597, diffPixels=10578
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/widows-orphans-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/widows-orphans-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -8663,4 +8663,15 @@
   page 1: diffRatio=0.0001502747881841081, diffPixels=126
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/zero-height-page-break-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/zero-height-page-break-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [1064] [WPT reftest] css/css-break/widows-orphans-011.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-break/reference/widows-orphans-011-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/widows-orphans-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/reference/widows-orphans-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

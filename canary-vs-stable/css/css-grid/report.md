@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1723
-- Entries with differences: 1534 (improvement: 16, pending: 1518, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 1535 (improvement: 17, pending: 1518, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 13
 - Screenshot mismatches: 1021
-- Outcome summary: {"expected-change":638,"known-fail":511,"pass":188,"changed-fail":369,"improvement":16,"error":1}
+- Outcome summary: {"expected-change":638,"known-fail":511,"pass":187,"changed-fail":369,"improvement":17,"error":1}
 
 ## Differences
 
@@ -15833,6 +15833,12 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/independent-tracks-from-parent-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/independent-tracks-from-parent-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [1657] [WPT reftest] css/css-grid/subgrid/line-names-009.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [1661] [WPT reftest] css/css-grid/subgrid/line-names-013.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
@@ -16123,6 +16129,15 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-fragmentation-between-rows-001-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [1657] [WPT reftest] css/css-grid/subgrid/line-names-009.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-grid/subgrid/line-names-009-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1664] [WPT reftest] css/css-grid/subgrid/line-names-parent-auto-repeat-001.html
   triage: pending

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1229
-- Entries with differences: 1083 (improvement: 42, pending: 1041, triaged: 0)
+- Entries with differences: 1082 (improvement: 42, pending: 1040, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 19
 - Screenshot mismatches: 936
-- Outcome summary: {"expected-change":484,"pass":125,"changed-fail":354,"known-fail":147,"improvement":42,"regression":1,"changed":55,"unchanged":21}
+- Outcome summary: {"expected-change":484,"pass":126,"changed-fail":354,"known-fail":146,"improvement":42,"regression":1,"changed":55,"unchanged":21}
 
 ## Differences
 
@@ -3471,19 +3471,6 @@
   stable selected pages: test=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ... (18 pages)], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/reference/available-size-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0291] [WPT reftest] css/css-writing-modes/background-position-vrl-018.xht
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-writing-modes/background-position-vrl-018-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/background-position-vrl-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.10066025494237081, diffPixels=84400
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/background-position-vrl-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-position-vrl-018.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.10066025494237081, diffPixels=84400
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/background-position-vrl-018-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0292] [WPT reftest] css/css-writing-modes/background-position-vrl-020.xht
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -6896,14 +6883,14 @@
 - [0784] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0785] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-004.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015611880772460117, diffPixels=1309
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -6917,14 +6904,14 @@
 - [0787] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-006.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
+  page 1: diffRatio=0.0015611880772460117, diffPixels=1309
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0788] [WPT reftest] css/css-writing-modes/orthogonal-root-resize-icb-007.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015576101060987711, diffPixels=1306
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/orthogonal-root-resize-icb-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
