@@ -1565,11 +1565,11 @@
   reference: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002862376917792535, diffPixels=240
+  canary page 1: diffRatio=0.001144950767117014, diffPixels=960
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007155942294481337, diffPixels=600
+  stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0205] [WPT reftest] css/css-values/viewport-units-scrollbars-auto-vhw-001.html

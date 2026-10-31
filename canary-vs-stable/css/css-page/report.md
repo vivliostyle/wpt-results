@@ -6,7 +6,7 @@
 - Timeout entries: 0
 - Page count changed: 2
 - Screenshot mismatches: 202
-- Outcome summary: {"expected-change":98,"changed-fail":84,"known-fail":32,"pass":15,"changed":20}
+- Outcome summary: {"expected-change":97,"changed-fail":84,"known-fail":32,"pass":15,"regression":1,"changed":20}
 
 ## Differences
 
@@ -391,10 +391,12 @@
 
 - [0034] [WPT print-reftest] css/css-page/margin-boxes/background-001-print.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001187886420883902, diffPixels=996
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-page/margin-boxes/background-001-print-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.05083581405999542, diffPixels=42624
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/background-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0035] [WPT print-reftest] css/css-page/margin-boxes/content-001-print.html
   triage: pending

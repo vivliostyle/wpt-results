@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1191
-- Entries with differences: 986 (improvement: 1, pending: 985, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 983 (improvement: 1, pending: 982, triaged: 0)
+- Entries with errors: 3 (pending: 3, triaged: 0)
+- Timeout entries: 3
 - Page count changed: 0
-- Screenshot mismatches: 518
-- Outcome summary: {"pass":205,"known-fail":468,"expected-change":167,"changed-fail":119,"improvement":1,"changed":231}
+- Screenshot mismatches: 515
+- Outcome summary: {"pass":205,"known-fail":468,"expected-change":167,"changed-fail":119,"improvement":1,"changed":228,"error":3}
 
 ## Differences
 
@@ -9578,27 +9578,6 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-037-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-037-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1068] [WPT manual] css/css-ui/cursor-image-png-038-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.017428297458209296, diffPixels=14613
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-038-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-038-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1069] [WPT manual] css/css-ui/cursor-image-png-039-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.016449126020914435, diffPixels=13792
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-039-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-039-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [1070] [WPT manual] css/css-ui/cursor-image-png-040-manual.html
-  triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.017795635829326004, diffPixels=14921
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-040-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-040-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [1071] [WPT manual] css/css-ui/cursor-image-png-041-manual.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
@@ -10358,7 +10337,7 @@
 - [1179] [WPT manual] css/css-ui/resize-010.html
   triage: pending
   outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.014864084802686818, diffPixels=12463
+  page 1: diffRatio=0.002937514311884589, diffPixels=2463
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -10445,4 +10424,36 @@
   page 1: diffRatio=0.01583729295473628, diffPixels=13279
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/select-cursor-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/select-cursor-001-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [1068] [WPT manual] css/css-ui/cursor-image-png-038-manual.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-038-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-038-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1069] [WPT manual] css/css-ui/cursor-image-png-039-manual.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-039-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-039-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1070] [WPT manual] css/css-ui/cursor-image-png-040-manual.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-040-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-040-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
