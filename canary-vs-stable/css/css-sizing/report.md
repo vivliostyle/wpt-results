@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 568
-- Entries with differences: 471 (improvement: 7, pending: 464, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 468 (improvement: 7, pending: 461, triaged: 0)
+- Entries with errors: 6 (pending: 6, triaged: 0)
+- Timeout entries: 6
 - Page count changed: 0
-- Screenshot mismatches: 450
-- Outcome summary: {"expected-change":396,"changed-fail":48,"pass":94,"improvement":7,"known-fail":20,"error":3}
+- Screenshot mismatches: 447
+- Outcome summary: {"expected-change":393,"changed-fail":48,"pass":94,"improvement":7,"error":6,"known-fail":20}
 
 ## Differences
 
@@ -1641,7 +1641,7 @@
 - [0232] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-010.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1697,7 +1697,7 @@
 - [0242] [WPT reftest] css/css-sizing/aspect-ratio/replaced-element-020.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/replaced-element-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2076,27 +2076,6 @@
   page 1: diffRatio=0.001787792916571254, diffPixels=1499
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-content-box-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-content-box-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0303] [WPT reftest] css/css-sizing/box-sizing-replaced-001.xht
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.03172348484848485, diffPixels=26599
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0304] [WPT reftest] css/css-sizing/box-sizing-replaced-002.xht
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.059439642012060145, diffPixels=49838
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0305] [WPT reftest] css/css-sizing/box-sizing-replaced-003.xht
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.031394311502938706, diffPixels=26323
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0306] [WPT reftest] css/css-sizing/calc-margins-block.html
   triage: pending
@@ -3730,6 +3709,36 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/whitespace-and-break.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0303] [WPT reftest] css/css-sizing/box-sizing-replaced-001.xht
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0304] [WPT reftest] css/css-sizing/box-sizing-replaced-002.xht
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0305] [WPT reftest] css/css-sizing/box-sizing-replaced-003.xht
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0509] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.html
   triage: pending

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 178
-- Entries with differences: 161 (pending: 161, triaged: 0)
+- Entries with differences: 164 (pending: 164, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 131
-- Outcome summary: {"expected-change":57,"changed-fail":74,"known-fail":30,"pass":17}
+- Screenshot mismatches: 134
+- Outcome summary: {"expected-change":60,"changed-fail":74,"known-fail":30,"pass":14}
 
 ## Differences
 
@@ -1608,6 +1608,27 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000791924280589268, diffPixels=664
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0156] [WPT reftest] css/css-lists/list-style-type-string-005a.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0004949526753682925, diffPixels=415
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-005a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-005a.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0157] [WPT reftest] css/css-lists/list-style-type-string-005b.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0004949526753682925, diffPixels=415
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-005b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-005b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0158] [WPT reftest] css/css-lists/list-style-type-string-006.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0006619246622395237, diffPixels=555
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-lists/list-style-type-string-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-lists/list-style-type-string-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0159] [WPT reftest] css/css-lists/list-style-type-string-007.html
   triage: pending

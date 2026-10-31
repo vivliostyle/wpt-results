@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 468
-- Entries with differences: 364 (improvement: 3, pending: 361, triaged: 0)
+- Entries with differences: 364 (improvement: 4, pending: 360, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 340
-- Outcome summary: {"expected-change":265,"changed-fail":71,"pass":104,"known-fail":24,"improvement":3,"changed":1}
+- Screenshot mismatches: 343
+- Outcome summary: {"expected-change":265,"changed-fail":73,"pass":104,"known-fail":21,"improvement":4,"changed":1}
 
 ## Differences
 
@@ -913,11 +913,11 @@
 
 - [0131] [WPT reftest] css/css-multicol/multicol-collapsing-001.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-multicol/multicol-collapsing-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-collapsing-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008610983894359209, diffPixels=7220
+  canary page 1: diffRatio=0.008563277612396, diffPixels=7180
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-collapsing-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-collapsing-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2419,11 +2419,11 @@
 
 - [0366] [WPT reftest] css/css-multicol/multicol-span-all-margin-bottom-001.xht
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-multicol/multicol-span-all-margin-bottom-001-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-bottom-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.010447675749942752, diffPixels=8760
+  canary page 1: diffRatio=0.011351709793145561, diffPixels=9518
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-bottom-001-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-span-all-margin-bottom-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2591,13 +2591,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-width-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0389] [WPT reftest] css/css-multicol/multicol-width-ch-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-multicol/multicol-width-ch-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-width-ch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00002981642622700557, diffPixels=25
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-width-ch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-width-ch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00002981642622700557, diffPixels=25

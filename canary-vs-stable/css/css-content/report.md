@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 65
-- Entries with differences: 51 (pending: 51, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with differences: 50 (pending: 50, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 18
-- Outcome summary: {"expected-change":1,"known-fail":22,"pass":14,"changed-fail":17,"regression":11}
+- Outcome summary: {"expected-change":1,"known-fail":22,"pass":15,"changed-fail":17,"regression":10}
 
 ## Differences
 
@@ -466,12 +466,6 @@
   stable page 1: diffRatio=0.0007692637966567438, diffPixels=645
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0049] [WPT reftest] css/css-content/quotes-027.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0050] [WPT reftest] css/css-content/quotes-028.html
   triage: pending
   outcome: regression (baseline=PASS, actual=FAIL)
@@ -619,15 +613,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-slot-scoping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00026238455079764903, diffPixels=220
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-slot-scoping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0049] [WPT reftest] css/css-content/quotes-027.html
-  triage: pending
-  side: canary-reference
-  reference: css/css-content/reference/quotes-027-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

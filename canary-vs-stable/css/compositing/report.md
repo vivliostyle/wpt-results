@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 60
-- Entries with differences: 51 (improvement: 1, pending: 50, triaged: 0)
+- Entries with differences: 51 (pending: 51, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 44
-- Outcome summary: {"expected-change":41,"pass":9,"changed-fail":2,"improvement":1,"known-fail":7}
+- Outcome summary: {"expected-change":41,"pass":9,"changed-fail":3,"known-fail":7}
 
 ## Differences
 
@@ -194,7 +194,7 @@
 - [0027] [WPT reftest] css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0014967845965956797, diffPixels=1255
+  page 1: diffRatio=0.00149916991069384, diffPixels=1257
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-parent-element-overflow-hidden-and-border-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -290,9 +290,13 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video-sibling.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0047] [WPT reftest] css/compositing/mix-blend-mode/mix-blend-mode-video.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html (!=)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary unexpected equality: comparison matched but relation is !=
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=

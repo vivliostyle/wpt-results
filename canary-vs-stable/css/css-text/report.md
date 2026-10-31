@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1513
-- Entries with differences: 1439 (improvement: 29, pending: 1410, triaged: 0)
+- Entries with differences: 1441 (improvement: 58, pending: 1383, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 2
-- Screenshot mismatches: 1425
-- Outcome summary: {"expected-change":1012,"changed-fail":381,"pass":74,"known-fail":14,"regression":1,"improvement":29,"changed":2}
+- Screenshot mismatches: 1430
+- Outcome summary: {"expected-change":1010,"changed-fail":354,"pass":72,"known-fail":11,"regression":6,"improvement":58,"changed":2}
 
 ## Differences
 
@@ -326,11 +326,11 @@
 
 - [0044] [WPT reftest] css/css-text/hyphens/hyphenate-limit-lines-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/hyphens/reference/hyphenate-limit-lines-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphenate-limit-lines-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01193372643309671, diffPixels=10006
+  canary page 1: diffRatio=0.004727692542554004, diffPixels=3964
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/reference/hyphenate-limit-lines-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphenate-limit-lines-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -361,16 +361,10 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/reference/hyphens-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0048] [WPT reftest] css/css-text/hyphens/hyphens-auto-004.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/hyphens/reference/hyphens-auto-004M-ref.html (==)
   reference: css/css-text/hyphens/reference/hyphens-auto-004H-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphens-auto-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-text/hyphens/reference/hyphens-auto-004M-ref.html): diffRatio=0.002484304633234104, diffPixels=2083
-  canary reference render (css/css-text/hyphens/reference/hyphens-auto-004M-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/reference/hyphens-auto-004M-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-text/hyphens/reference/hyphens-auto-004H-ref.html): diffRatio=0.002484304633234104, diffPixels=2083
-  canary reference render (css/css-text/hyphens/reference/hyphens-auto-004H-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/reference/hyphens-auto-004H-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphens-auto-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-text/hyphens/reference/hyphens-auto-004M-ref.html): diffRatio=0.00155164682085337, diffPixels=1301
@@ -379,16 +373,10 @@
   stable reference render (css/css-text/hyphens/reference/hyphens-auto-004H-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/reference/hyphens-auto-004H-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0050] [WPT reftest] css/css-text/hyphens/hyphens-auto-010.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/hyphens/reference/hyphens-auto-010M-ref.html (==)
   reference: css/css-text/hyphens/reference/hyphens-auto-010H-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphens-auto-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-text/hyphens/reference/hyphens-auto-010M-ref.html): diffRatio=0.002852835661399893, diffPixels=2392
-  canary reference render (css/css-text/hyphens/reference/hyphens-auto-010M-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/reference/hyphens-auto-010M-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-text/hyphens/reference/hyphens-auto-010H-ref.html): diffRatio=0.002852835661399893, diffPixels=2392
-  canary reference render (css/css-text/hyphens/reference/hyphens-auto-010H-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/reference/hyphens-auto-010H-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphens-auto-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-text/hyphens/reference/hyphens-auto-010M-ref.html): diffRatio=0.0028671475459888557, diffPixels=2404
@@ -397,13 +385,9 @@
   stable reference render (css/css-text/hyphens/reference/hyphens-auto-010H-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/reference/hyphens-auto-010H-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0051] [WPT reftest] css/css-text/hyphens/hyphens-auto-control.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/hyphens/hyphens-auto-control-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphens-auto-control.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002230268681780017, diffPixels=187
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphens-auto-control-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphens-auto-control.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002230268681780017, diffPixels=187
@@ -635,6 +619,20 @@
   page 1: diffRatio=0.002477148690939623, diffPixels=2077
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphens-vertical-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphens-vertical-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0081] [WPT reftest] css/css-text/hyphens/hyphens-vs-float-clearance-001.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00004412831081596825, diffPixels=37
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphens-vs-float-clearance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphens-vs-float-clearance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0082] [WPT reftest] css/css-text/hyphens/hyphens-vs-float-clearance-002.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.00004412831081596825, diffPixels=37
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphens-vs-float-clearance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphens-vs-float-clearance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0083] [WPT reftest] css/css-text/hyphens/i18n/hyphens-i18n-auto-001.html
   triage: pending
@@ -2223,7 +2221,7 @@
   reference: css/css-text/letter-spacing/reference/letter-spacing-ligatures-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-ligatures-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0006118330661781543, diffPixels=513
+  canary page 1: diffRatio=0.0006225669796198764, diffPixels=522
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/reference/letter-spacing-ligatures-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-ligatures-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2312,10 +2310,12 @@
 
 - [0287] [WPT reftest] css/css-text/letter-spacing/letter-spacing-trim-start-001.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0028230192351728876, diffPixels=2367
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-trim-start-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-trim-start-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-text/letter-spacing/reference/letter-spacing-trim-start-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-trim-start-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000011926570490802228, diffPixels=10
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/reference/letter-spacing-trim-start-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0288] [WPT reftest] css/css-text/line-break/line-break-anywhere-001.html
   triage: pending
@@ -2478,13 +2478,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-break/line-break-anywhere-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0304] [WPT reftest] css/css-text/line-break/line-break-anywhere-017.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/line-break/reference/line-break-anywhere-004-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-break/line-break-anywhere-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007454106556751394, diffPixels=625
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-break/reference/line-break-anywhere-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-break/line-break-anywhere-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0007454106556751394, diffPixels=625
@@ -2614,13 +2610,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-break/line-break-anywhere-overrides-uax-behavior-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0320] [WPT reftest] css/css-text/line-break/line-break-anywhere-overrides-uax-behavior-007.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/line-break/reference/line-break-anywhere-004-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-break/line-break-anywhere-overrides-uax-behavior-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009064193573009694, diffPixels=760
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-break/reference/line-break-anywhere-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-break/line-break-anywhere-overrides-uax-behavior-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009064193573009694, diffPixels=760
@@ -4265,13 +4257,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-anywhere-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0511] [WPT reftest] css/css-text/overflow-wrap/overflow-wrap-anywhere-009.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/overflow-wrap/reference/overflow-wrap-break-word-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-anywhere-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007454106556751394, diffPixels=625
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/overflow-wrap/reference/overflow-wrap-break-word-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-anywhere-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0007454106556751394, diffPixels=625
@@ -4357,13 +4345,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/reference/overflow-wrap-break-word-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0519] [WPT reftest] css/css-text/overflow-wrap/overflow-wrap-anywhere-span-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/overflow-wrap/reference/overflow-wrap-break-word-span-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-anywhere-span-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007871536523929471, diffPixels=66
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/overflow-wrap/reference/overflow-wrap-break-word-span-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-anywhere-span-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00007871536523929471, diffPixels=66
@@ -4438,13 +4422,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/reference/overflow-wrap-break-word-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0528] [WPT reftest] css/css-text/overflow-wrap/overflow-wrap-break-word-009.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/overflow-wrap/reference/overflow-wrap-break-word-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-break-word-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007454106556751394, diffPixels=625
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/overflow-wrap/reference/overflow-wrap-break-word-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-break-word-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0007454106556751394, diffPixels=625
@@ -4471,13 +4451,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-break-word-fit-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0531] [WPT reftest] css/css-text/overflow-wrap/overflow-wrap-break-word-span-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/overflow-wrap/reference/overflow-wrap-break-word-span-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-break-word-span-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00007871536523929471, diffPixels=66
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/overflow-wrap/reference/overflow-wrap-break-word-span-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-break-word-span-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00007871536523929471, diffPixels=66
@@ -5059,17 +5035,21 @@
 
 - [0609] [WPT reftest] css/css-text/tab-size/tab-size-spacing-002.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001342931837264331, diffPixels=1126
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-text/tab-size/tab-size-spacing-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0610] [WPT reftest] css/css-text/tab-size/tab-size-spacing-003.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012224734753072284, diffPixels=1025
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-text/tab-size/tab-size-spacing-003-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000007155942294481337, diffPixels=6
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/tab-size/tab-size-spacing-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0611] [WPT reftest] css/css-text/text-align/text-align-006.html
   triage: pending
@@ -5347,7 +5327,7 @@
 - [0650] [WPT reftest] css/css-text/text-align/text-align-justify-shy-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013584363789023739, diffPixels=1139
+  page 1: diffRatio=0.0013667849782459354, diffPixels=1146
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-justify-shy-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-justify-shy-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -5370,7 +5350,7 @@
   reference: css/css-text/text-align/reference/text-align-justify-tabs-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-justify-tabs-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016235640409129073, diffPixels=13613
+  canary page 1: diffRatio=0.007041447217769636, diffPixels=5904
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/reference/text-align-justify-tabs-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-justify-tabs-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -5383,7 +5363,7 @@
   reference: css/css-text/text-align/reference/text-align-justify-tabs-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-justify-tabs-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016235640409129073, diffPixels=13613
+  canary page 1: diffRatio=0.007041447217769636, diffPixels=5904
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/reference/text-align-justify-tabs-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-justify-tabs-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -5396,7 +5376,7 @@
   reference: css/css-text/text-align/reference/text-align-justify-tabs-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/text-align-justify-tabs-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016235640409129073, diffPixels=13613
+  canary page 1: diffRatio=0.007041447217769636, diffPixels=5904
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-align/reference/text-align-justify-tabs-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-align/text-align-justify-tabs-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -5899,9 +5879,13 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-edit-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0712] [WPT reftest] css/css-text/text-autospace/text-autospace-elements-001.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-text/text-autospace/text-autospace-elements-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.000019082512785283566, diffPixels=16
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000019082512785283566, diffPixels=16
@@ -5931,26 +5915,18 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0716] [WPT reftest] css/css-text/text-autospace/text-autospace-elements-005.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/text-autospace/text-autospace-elements-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000009541256392641783, diffPixels=8
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0717] [WPT reftest] css/css-text/text-autospace/text-autospace-elements-005b.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/text-autospace/text-autospace-elements-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-005b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000009541256392641783, diffPixels=8
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-elements-005b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000009541256392641783, diffPixels=8
@@ -6009,13 +5985,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-ligature-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0724] [WPT reftest] css/css-text/text-autospace/text-autospace-mixed-001.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/text-autospace/text-autospace-mixed-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-mixed-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000020275169834363788, diffPixels=17
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-mixed-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-autospace/text-autospace-mixed-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000020275169834363788, diffPixels=17
@@ -6340,7 +6312,7 @@
 - [0794] [WPT reftest] css/css-text/text-indent/text-indent-tab-positions-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.009624742386077398, diffPixels=8070
+  page 1: diffRatio=0.009611623158537516, diffPixels=8059
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-indent/text-indent-tab-positions-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-indent/text-indent-tab-positions-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -7167,7 +7139,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-tailoring-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001209354247767346, diffPixels=1014
+  stable page 1: diffRatio=0.0012212808182581482, diffPixels=1024
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0889] [WPT reftest] css/css-text/text-transform/text-transform-uppercase-101.xht
@@ -7179,16 +7151,12 @@
 
 - [0890] [WPT reftest] css/css-text/text-transform/text-transform-uppercase-dynamic.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-uppercase-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-uppercase-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0891] [WPT reftest] css/css-text/text-transform/text-transform-upperlower-001.html
   triage: pending
@@ -7533,13 +7501,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-upperlower-108.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0939] [WPT reftest] css/css-text/white-space/break-spaces-001.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/pre-wrap-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/break-spaces-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0027228360430501487, diffPixels=2283
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/break-spaces-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0027228360430501487, diffPixels=2283
@@ -8497,7 +8461,7 @@
   reference: css/css-text/white-space/reference/control-chars-00D-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/control-chars-00D.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002226690710632776, diffPixels=1867
+  canary page 1: diffRatio=0.0020835718647431493, diffPixels=1747
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/control-chars-00D-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/control-chars-00D.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -9235,10 +9199,12 @@
 
 - [1096] [WPT reftest] css/css-text/white-space/hanging-whitespace-003.tentative.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013930234333257004, diffPixels=1168
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/hanging-whitespace-003.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/hanging-whitespace-003.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/hanging-whitespace-003.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0014908213113502787, diffPixels=1250
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1097] [WPT reftest] css/css-text/white-space/hanging-whitespace-004.html
   triage: pending
@@ -9485,42 +9451,42 @@
 - [1131] [WPT reftest] css/css-text/white-space/pre-wrap-align-center-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004702646744523318, diffPixels=3943
+  page 1: diffRatio=0.004703839401572399, diffPixels=3944
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-center-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-center-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1132] [WPT reftest] css/css-text/white-space/pre-wrap-align-center-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004631087321578506, diffPixels=3883
+  page 1: diffRatio=0.004635857949774827, diffPixels=3887
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-center-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-center-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1133] [WPT reftest] css/css-text/white-space/pre-wrap-align-center-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004699068773376078, diffPixels=3940
+  page 1: diffRatio=0.004701454087474239, diffPixels=3942
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-center-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-center-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1134] [WPT reftest] css/css-text/white-space/pre-wrap-align-end-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004514206930768643, diffPixels=3785
+  page 1: diffRatio=0.004522555530112205, diffPixels=3792
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-end-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-end-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1135] [WPT reftest] css/css-text/white-space/pre-wrap-align-end-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004591729638958858, diffPixels=3850
+  page 1: diffRatio=0.0045941149530570186, diffPixels=3852
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-end-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-end-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1136] [WPT reftest] css/css-text/white-space/pre-wrap-align-end-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0044557667353637125, diffPixels=3736
+  page 1: diffRatio=0.004456959392412793, diffPixels=3737
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-end-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-end-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -9534,35 +9500,35 @@
 - [1138] [WPT reftest] css/css-text/white-space/pre-wrap-align-left-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004591729638958858, diffPixels=3850
+  page 1: diffRatio=0.0045941149530570186, diffPixels=3852
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-left-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-left-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1139] [WPT reftest] css/css-text/white-space/pre-wrap-align-left-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0044557667353637125, diffPixels=3736
+  page 1: diffRatio=0.004456959392412793, diffPixels=3737
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-left-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-left-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1140] [WPT reftest] css/css-text/white-space/pre-wrap-align-right-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004514206930768643, diffPixels=3785
+  page 1: diffRatio=0.004522555530112205, diffPixels=3792
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-right-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-right-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1141] [WPT reftest] css/css-text/white-space/pre-wrap-align-right-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004514206930768643, diffPixels=3785
+  page 1: diffRatio=0.004522555530112205, diffPixels=3792
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-right-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-right-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1142] [WPT reftest] css/css-text/white-space/pre-wrap-align-right-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00465374780551103, diffPixels=3902
+  page 1: diffRatio=0.004662096404854591, diffPixels=3909
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-right-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-right-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -9576,14 +9542,14 @@
 - [1144] [WPT reftest] css/css-text/white-space/pre-wrap-align-start-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004514206930768643, diffPixels=3785
+  page 1: diffRatio=0.004522555530112205, diffPixels=3792
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-start-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-start-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1145] [WPT reftest] css/css-text/white-space/pre-wrap-align-start-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00465374780551103, diffPixels=3902
+  page 1: diffRatio=0.004662096404854591, diffPixels=3909
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-start-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-align-start-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -9627,104 +9593,72 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1150] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-004.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1151] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-005.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1152] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-006.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1153] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-007.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1154] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-008.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1155] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-009.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1156] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-010.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1157] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-011.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009505476681169377, diffPixels=797
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0009505476681169377, diffPixels=797
@@ -9757,13 +9691,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1160] [WPT reftest] css/css-text/white-space/pre-wrap-leading-spaces-014.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-break-spaces-005-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002916046485001145, diffPixels=2445
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-break-spaces-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-leading-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.002916046485001145, diffPixels=2445
@@ -9819,26 +9749,18 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-tab-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1168] [WPT reftest] css/css-text/white-space/pre-wrap-tab-005.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/pre-wrap-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-tab-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018378845126326235, diffPixels=1541
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-tab-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0018378845126326235, diffPixels=1541
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1169] [WPT reftest] css/css-text/white-space/pre-wrap-tab-006.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/pre-wrap-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/pre-wrap-tab-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018378845126326235, diffPixels=1541
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/pre-wrap-tab-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0018378845126326235, diffPixels=1541
@@ -9985,7 +9907,7 @@
 - [1189] [WPT reftest] css/css-text/white-space/text-wrap-balance-before-after-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.018110497290283186, diffPixels=15185
+  page 1: diffRatio=0.018123616517823068, diffPixels=15196
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/text-wrap-balance-before-after-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/text-wrap-balance-before-after-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -10012,7 +9934,7 @@
 - [1197] [WPT reftest] css/css-text/white-space/text-wrap-balance-line-clamp-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013930234333257004, diffPixels=1168
+  page 1: diffRatio=0.001434766430043508, diffPixels=1203
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/text-wrap-balance-line-clamp-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/text-wrap-balance-line-clamp-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -10118,13 +10040,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/textarea-always-preserves-spaces-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1210] [WPT reftest] css/css-text/white-space/textarea-break-spaces-001.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/textarea-pre-wrap-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/textarea-break-spaces-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017901782306694145, diffPixels=1501
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/textarea-pre-wrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/textarea-break-spaces-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0017901782306694145, diffPixels=1501
@@ -10199,7 +10117,7 @@
   reference: css/css-text/white-space/reference/pre-wrap-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/textarea-pre-wrap-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0017436646057552858, diffPixels=1462
+  canary page 1: diffRatio=0.0018128387146019388, diffPixels=1520
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/pre-wrap-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/textarea-pre-wrap-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -10703,7 +10621,7 @@
 - [1290] [WPT reftest] css/css-text/white-space/white-space-applies-to-text-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.03200137394092054, diffPixels=26832
+  page 1: diffRatio=0.03217430921303717, diffPixels=26977
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-applies-to-text-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -10909,13 +10827,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-032.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1318] [WPT reftest] css/css-text/white-space/white-space-pre-034.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-pre-034-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-pre-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0005486222425769025, diffPixels=460
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-034.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0005486222425769025, diffPixels=460
@@ -10945,28 +10859,28 @@
 - [1322] [WPT reftest] css/css-text/white-space/white-space-pre-wrap-justify-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.009037955117929928, diffPixels=7578
+  page 1: diffRatio=0.00899024883596672, diffPixels=7538
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-justify-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-justify-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1323] [WPT reftest] css/css-text/white-space/white-space-pre-wrap-justify-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.009042725746126249, diffPixels=7582
+  page 1: diffRatio=0.008966395694985115, diffPixels=7518
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-justify-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-justify-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1324] [WPT reftest] css/css-text/white-space/white-space-pre-wrap-justify-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.009028413861537287, diffPixels=7570
+  page 1: diffRatio=0.009064193573009693, diffPixels=7600
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-justify-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-justify-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1325] [WPT reftest] css/css-text/white-space/white-space-pre-wrap-justify-004.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00877557056713228, diffPixels=7358
+  page 1: diffRatio=0.00883043279138997, diffPixels=7404
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-justify-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-justify-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -10978,13 +10892,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-justify-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1327] [WPT reftest] css/css-text/white-space/white-space-pre-wrap-trailing-spaces-001.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-trailing-spaces-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.000017889855736203345, diffPixels=15
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-trailing-spaces-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000017889855736203345, diffPixels=15
@@ -11068,16 +10978,10 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-trailing-spaces-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1339] [WPT reftest] css/css-text/white-space/white-space-pre-wrap-trailing-spaces-014.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-014-ref.html (==)
   reference: css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-014-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-trailing-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-014-ref.html): diffRatio=0.00508191168613083, diffPixels=4261
-  canary reference render (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-014-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-014-ref.html): diffRatio=0.00417549232882986, diffPixels=3501
-  canary reference render (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-014-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-trailing-spaces-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-014-ref.html): diffRatio=0.00508191168613083, diffPixels=4261
@@ -11086,16 +10990,10 @@
   stable reference render (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-014-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1340] [WPT reftest] css/css-text/white-space/white-space-pre-wrap-trailing-spaces-015.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-015-ref.html (==)
   reference: css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-015-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-trailing-spaces-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-015-ref.html): diffRatio=0.0027419185558354322, diffPixels=2299
-  canary reference render (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-015-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1 (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-015-ref.html): diffRatio=0.002288708877184948, diffPixels=1919
-  canary reference render (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-015-ref.html): https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-alt-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-pre-wrap-trailing-spaces-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1 (css/css-text/white-space/reference/white-space-pre-wrap-trailing-spaces-015-ref.html): diffRatio=0.0027419185558354322, diffPixels=2299
@@ -11391,7 +11289,7 @@
 - [1381] [WPT reftest] css/css-text/word-break/break-boundary-2-chars-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0005080719029081749, diffPixels=426
+  page 1: diffRatio=0.0004889893901228914, diffPixels=410
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-break/break-boundary-2-chars-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/break-boundary-2-chars-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -11482,7 +11380,7 @@
   reference: css/css-text/word-break/reference/word-break-break-all-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-break/word-break-break-all-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00045559499274864515, diffPixels=382
+  canary page 1: diffRatio=0.0000011926570490802229, diffPixels=1
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/word-break-break-all-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -11502,7 +11400,7 @@
   reference: css/css-text/word-break/reference/word-break-break-all-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-break/word-break-break-all-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00045559499274864515, diffPixels=382
+  canary page 1: diffRatio=0.0000011926570490802229, diffPixels=1
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/word-break-break-all-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -11529,7 +11427,7 @@
   reference: css/css-text/word-break/reference/word-break-break-all-010-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-break/word-break-break-all-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0004782554766811694, diffPixels=401
+  canary page 1: diffRatio=0.0000011926570490802229, diffPixels=1
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/word-break-break-all-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -11682,13 +11580,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/word-break-break-all-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1410] [WPT reftest] css/css-text/word-break/word-break-break-all-029.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/word-break/reference/word-break-break-all-010-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-break/word-break-break-all-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007454106556751394, diffPixels=625
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-break/reference/word-break-break-all-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-break/word-break-break-all-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0007454106556751394, diffPixels=625
@@ -12490,7 +12384,7 @@
 - [1498] [WPT reftest] css/css-text/word-spacing/word-spacing-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.024622404778261203, diffPixels=20645
+  page 1: diffRatio=0.024699927486451417, diffPixels=20710
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-spacing/word-spacing-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-spacing/word-spacing-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
