@@ -3202,7 +3202,7 @@
 - [0418] [WPT reftest] css/css-masking/mask-image/mask-image-data-url-image.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.006529797343714221, diffPixels=5475
+  page 1: diffRatio=0.006538145943057782, diffPixels=5482
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-data-url-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-data-url-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -3229,7 +3229,7 @@
 - [0423] [WPT reftest] css/css-masking/mask-image/mask-image-svg-child-will-change.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001669719868712312, diffPixels=1400
+  page 1: diffRatio=0.001674490496908633, diffPixels=1404
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-child-will-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-child-will-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

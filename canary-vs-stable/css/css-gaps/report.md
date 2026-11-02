@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 544
-- Entries with differences: 298 (pending: 298, triaged: 0)
+- Entries with differences: 299 (pending: 299, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 75
-- Outcome summary: {"pass":246,"expected-change":70,"known-fail":223,"changed-fail":5}
+- Screenshot mismatches: 76
+- Outcome summary: {"pass":245,"expected-change":71,"known-fail":223,"changed-fail":5}
 
 ## Differences
 
@@ -1551,6 +1551,13 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-join.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0031867796351423556, diffPixels=2672
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-join-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0349] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-spanner.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.000492567361270132, diffPixels=413
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0350] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-overlapping-gutters-percentage.html
   triage: pending

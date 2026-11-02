@@ -6,7 +6,7 @@
 - Timeout entries: 0
 - Page count changed: 1
 - Screenshot mismatches: 811
-- Outcome summary: {"expected-change":739,"pass":198,"changed-fail":35,"known-fail":33,"improvement":17,"error":1,"changed":21}
+- Outcome summary: {"expected-change":731,"pass":198,"changed-fail":35,"known-fail":33,"improvement":17,"regression":8,"error":1,"changed":21}
 
 ## Differences
 
@@ -1761,17 +1761,21 @@
 
 - [0268] [WPT reftest] css/css-flexbox/flex-flow-002.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003515952980688497, diffPixels=2948
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-flow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-flexbox/flex-flow-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00007513739409205404, diffPixels=63
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0269] [WPT reftest] css/css-flexbox/flex-flow-003.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003515952980688497, diffPixels=2948
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-flow-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-flexbox/flex-flow-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00007513739409205404, diffPixels=63
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0270] [WPT reftest] css/css-flexbox/flex-flow-004.html
   triage: pending
@@ -1782,17 +1786,21 @@
 
 - [0271] [WPT reftest] css/css-flexbox/flex-flow-005.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003515952980688497, diffPixels=2948
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-flow-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-flexbox/flex-flow-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00007513739409205404, diffPixels=63
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0272] [WPT reftest] css/css-flexbox/flex-flow-006.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003515952980688497, diffPixels=2948
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-flow-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-flexbox/flex-flow-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00007513739409205404, diffPixels=63
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0273] [WPT reftest] css/css-flexbox/flex-flow-007.html
   triage: pending
@@ -1803,17 +1811,21 @@
 
 - [0274] [WPT reftest] css/css-flexbox/flex-flow-008.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003515952980688497, diffPixels=2948
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-flow-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-flexbox/flex-flow-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00007513739409205404, diffPixels=63
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0275] [WPT reftest] css/css-flexbox/flex-flow-009.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003515952980688497, diffPixels=2948
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-flow-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-flexbox/flex-flow-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00007513739409205404, diffPixels=63
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0276] [WPT reftest] css/css-flexbox/flex-flow-010.html
   triage: pending
@@ -1824,17 +1836,21 @@
 
 - [0277] [WPT reftest] css/css-flexbox/flex-flow-011.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003515952980688497, diffPixels=2948
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-flow-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-flexbox/flex-flow-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00007513739409205404, diffPixels=63
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0278] [WPT reftest] css/css-flexbox/flex-flow-012.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003515952980688497, diffPixels=2948
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-flexbox/flex-flow-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-flexbox/flex-flow-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00007513739409205404, diffPixels=63
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-flexbox/flex-flow-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0280] [WPT reftest] css/css-flexbox/flex-grow-002.html
   triage: pending

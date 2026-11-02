@@ -478,11 +478,11 @@
   reference: css/css-paint-api/paint2d-image-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/paint2d-image.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.10592345049996184, diffPixels=88813
+  canary page 1: diffRatio=0.10733913441722005, diffPixels=90000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/paint2d-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/paint2d-image.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.10592345049996184, diffPixels=88813
+  stable page 1: diffRatio=0.10733913441722005, diffPixels=90000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/paint2d-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0039] [WPT reftest] css/css-paint-api/paint2d-imageSmoothingQuality.high.https.html
@@ -1102,7 +1102,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-006.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-interpolation-006.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1222,7 +1222,7 @@
   canary timeout: true
   canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/registered-property-value-006.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-paint-api/registered-property-value-006.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1240,7 +1240,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/registered-property-value-008.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1340,7 +1340,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/registered-property-value-018.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

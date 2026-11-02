@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 113
-- Entries with differences: 29 (pending: 29, triaged: 0)
+- Compared entries: 114
+- Entries with differences: 30 (pending: 30, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 6
-- Outcome summary: {"known-fail":23,"pass":84,"expected-change":4,"changed-fail":2}
+- Outcome summary: {"known-fail":24,"pass":84,"expected-change":4,"changed-fail":2}
 
 ## Differences
 
@@ -135,7 +135,20 @@
   stable page 1: diffRatio=0.023812590641935732, diffPixels=19966
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0072] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html
+- [0063] [WPT reftest] css/css-borders/corner-shape/corner-shape-clip-path-border-box.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/corner-shape/corner-shape-clip-path-border-box-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-clip-path-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01836214792763911, diffPixels=15396
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-clip-path-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-clip-path-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01836214792763911, diffPixels=15396
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-clip-path-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0073] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html (==)
@@ -148,7 +161,7 @@
   stable page 1: diffRatio=0.0066037420807571945, diffPixels=5537
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0073] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002.html
+- [0074] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002-ref.html (==)
@@ -161,7 +174,7 @@
   stable page 1: diffRatio=0.011617672315090451, diffPixels=9741
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0075] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-elliptical.html
+- [0076] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-elliptical.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-elliptical-ref.html (==)
@@ -174,7 +187,7 @@
   stable page 1: diffRatio=0.00679814517975727, diffPixels=5700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0076] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-mixed.html
+- [0077] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-mixed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-mixed-ref.html (==)
@@ -187,7 +200,7 @@
   stable page 1: diffRatio=0.004573839783222655, diffPixels=3835
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0077] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-notch.html
+- [0078] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-notch.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-notch-ref.html (==)
@@ -200,7 +213,7 @@
   stable page 1: diffRatio=0.001695958323792077, diffPixels=1422
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-notch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0078] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-scoop.html
+- [0079] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-scoop.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-scoop-ref.html (==)
@@ -213,7 +226,7 @@
   stable page 1: diffRatio=0.006552457827646745, diffPixels=5494
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-scoop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0079] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-superellipse.html
+- [0080] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-superellipse.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-superellipse-ref.html (==)
@@ -226,7 +239,7 @@
   stable page 1: diffRatio=0.01065162010533547, diffPixels=8931
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-superellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0083] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-bevel.html
+- [0084] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-bevel.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-bevel-ref.html (==)
@@ -239,7 +252,7 @@
   stable page 1: diffRatio=0.033042563544767575, diffPixels=27705
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-bevel-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0084] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch001.html
+- [0085] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch001-ref.html (==)
@@ -252,7 +265,7 @@
   stable page 1: diffRatio=0.020513701244179835, diffPixels=17200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0085] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch002.html
+- [0086] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch002-ref.html (==)
@@ -265,7 +278,7 @@
   stable page 1: diffRatio=0.01717426150675521, diffPixels=14400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0086] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch003.html
+- [0087] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch003-ref.html (==)
@@ -278,7 +291,7 @@
   stable page 1: diffRatio=0.04333757919242806, diffPixels=36337
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0087] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-square.html
+- [0088] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-square.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-square-ref.html (==)
@@ -291,7 +304,7 @@
   stable page 1: diffRatio=0.03244027173498206, diffPixels=27200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0088] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html
+- [0089] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-offset-bevel-ref.html (==)
@@ -304,7 +317,7 @@
   stable page 1: diffRatio=0.02761239600030532, diffPixels=23152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-bevel-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0089] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html
+- [0090] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-offset-elliptical-ref.html (==)
@@ -317,7 +330,7 @@
   stable page 1: diffRatio=0.027420378215403406, diffPixels=22991
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0107] [WPT reftest] css/css-borders/corner-shape/corner-shorthand-rendering.html
+- [0108] [WPT reftest] css/css-borders/corner-shape/corner-shorthand-rendering.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shorthand-rendering-ref.html (==)
@@ -330,14 +343,14 @@
   stable page 1: diffRatio=0.0025272402870009925, diffPixels=2119
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0109] [WPT reftest] css/css-borders/subpixel-border-width.tentative.html
+- [0110] [WPT reftest] css/css-borders/subpixel-border-width.tentative.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.012128129532096786, diffPixels=10169
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/subpixel-border-width.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/subpixel-border-width.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0112] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
+- [0113] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)
@@ -350,7 +363,7 @@
   stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0113] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
+- [0114] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)

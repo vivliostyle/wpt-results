@@ -6,7 +6,7 @@
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 290
-- Outcome summary: {"known-fail":23,"pass":64,"expected-change":211,"changed-fail":66,"improvement":13,"regression":8}
+- Outcome summary: {"known-fail":23,"pass":64,"expected-change":211,"changed-fail":65,"improvement":13,"regression":9}
 
 ## Differences
 
@@ -50,7 +50,7 @@
   reference: css/css-fonts/downloadable-font-scoped-to-document-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003430081673154721, diffPixels=2876
+  canary page 1: diffRatio=0.0034432009006946035, diffPixels=2887
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2815,16 +2815,12 @@
 
 - [0384] [WPT print-reftest] css/css-fonts/downloadable-font-in-iframe-print.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-fonts/downloadable-font-in-iframe-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.000052476910159529805, diffPixels=44
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000027431112128845128, diffPixels=23
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-in-iframe-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0385] [WPT print-reftest] css/css-fonts/downloadable-font-print.html
   triage: pending

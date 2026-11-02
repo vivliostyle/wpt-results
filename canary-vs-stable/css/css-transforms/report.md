@@ -6,7 +6,7 @@
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 539
-- Outcome summary: {"expected-change":321,"pass":216,"known-fail":43,"changed-fail":215,"regression":1,"improvement":1,"changed":1}
+- Outcome summary: {"expected-change":320,"pass":216,"known-fail":43,"changed-fail":215,"regression":2,"improvement":1,"changed":1}
 
 ## Differences
 
@@ -2689,10 +2689,12 @@
 
 - [0312] [WPT reftest] css/css-transforms/preserve3d-and-flattening-z-order-008.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0010137584917181894, diffPixels=850
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/preserve3d-and-flattening-z-order-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/preserve3d-and-flattening-z-order-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-transforms/reference/green.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/preserve3d-and-flattening-z-order-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/reference/green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0317] [WPT reftest] css/css-transforms/rotate/svg-rotate-3args-002.html
   triage: pending
@@ -4871,7 +4873,7 @@
   reference: css/css-transforms/transform-origin-ref-2.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-origin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0012594458438287153, diffPixels=1056
+  canary page 1: diffRatio=0.001279721013663079, diffPixels=1073
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform-origin-ref-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform-origin-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

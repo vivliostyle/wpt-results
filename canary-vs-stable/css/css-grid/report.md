@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 1737
-- Entries with differences: 1544 (improvement: 16, pending: 1528, triaged: 0)
+- Compared entries: 1739
+- Entries with differences: 1546 (improvement: 16, pending: 1530, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 13
-- Screenshot mismatches: 1024
-- Outcome summary: {"expected-change":640,"known-fail":518,"pass":192,"changed-fail":370,"improvement":16,"error":1}
+- Screenshot mismatches: 1026
+- Outcome summary: {"expected-change":642,"known-fail":518,"pass":192,"changed-fail":370,"improvement":16,"error":1}
 
 ## Differences
 
@@ -4756,7 +4756,7 @@
   reference: css/css-grid/grid-lanes/alignment/column-align-self-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-align-self-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04382179795435463, diffPixels=36743
+  canary page 1: diffRatio=0.0438539996946798, diffPixels=36770
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-align-self-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-align-self-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7812,7 +7812,7 @@
   reference: css/css-grid/grid-lanes/item-placement/column-negative-margin-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.11030169452713533, diffPixels=92484
+  canary page 1: diffRatio=0.11038398786352187, diffPixels=92553
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7825,7 +7825,7 @@
   reference: css/css-grid/grid-lanes/item-placement/column-negative-margin-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07413675482787574, diffPixels=62161
+  canary page 1: diffRatio=0.07426794710327456, diffPixels=62271
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12429,7 +12429,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02156562476146859, diffPixels=18082
+  canary page 1: diffRatio=0.021590670559499276, diffPixels=18103
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12442,7 +12442,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.020838103961529655, diffPixels=17472
+  canary page 1: diffRatio=0.02086314975956034, diffPixels=17493
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12455,7 +12455,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02065085680482406, diffPixels=17315
+  canary page 1: diffRatio=0.020675902602854745, diffPixels=17336
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12520,7 +12520,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.020840489275627816, diffPixels=17474
+  canary page 1: diffRatio=0.0208655350736585, diffPixels=17495
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12533,7 +12533,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.020188105869780933, diffPixels=16927
+  canary page 1: diffRatio=0.020213151667811617, diffPixels=16948
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -15178,70 +15178,84 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-inline-vertical-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-inline-vertical-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1531] [WPT reftest] css/css-grid/grid-model/grid-layout-stale-001.html
+- [1531] [WPT reftest] css/css-grid/grid-model/grid-item-first-line-001.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-item-first-line-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-item-first-line-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1532] [WPT reftest] css/css-grid/grid-model/grid-item-first-line-002.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-item-first-line-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-item-first-line-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1533] [WPT reftest] css/css-grid/grid-model/grid-layout-stale-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0017460499198534464, diffPixels=1464
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-layout-stale-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-layout-stale-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1532] [WPT reftest] css/css-grid/grid-model/grid-layout-stale-002.html
+- [1534] [WPT reftest] css/css-grid/grid-model/grid-layout-stale-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0012534825585833144, diffPixels=1051
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-layout-stale-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-layout-stale-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1533] [WPT reftest] css/css-grid/grid-model/grid-margins-no-collapse-001.html
+- [1535] [WPT reftest] css/css-grid/grid-model/grid-margins-no-collapse-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0013822895198839784, diffPixels=1159
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-margins-no-collapse-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-margins-no-collapse-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1534] [WPT reftest] css/css-grid/grid-model/grid-margins-no-collapse-002.html
+- [1536] [WPT reftest] css/css-grid/grid-model/grid-margins-no-collapse-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.004329345088161209, diffPixels=3630
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-margins-no-collapse-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-margins-no-collapse-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1535] [WPT reftest] css/css-grid/grid-model/grid-max-content-size-with-max-content-item.html
+- [1537] [WPT reftest] css/css-grid/grid-model/grid-max-content-size-with-max-content-item.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0013095374398900848, diffPixels=1098
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-max-content-size-with-max-content-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-max-content-size-with-max-content-item.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1536] [WPT reftest] css/css-grid/grid-model/grid-multicol-001.html
+- [1538] [WPT reftest] css/css-grid/grid-model/grid-multicol-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-multicol-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-multicol-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1537] [WPT reftest] css/css-grid/grid-model/grid-overflow-padding-001.html
+- [1539] [WPT reftest] css/css-grid/grid-model/grid-overflow-padding-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.002012012441798336, diffPixels=1687
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-overflow-padding-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-overflow-padding-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1538] [WPT reftest] css/css-grid/grid-model/grid-overflow-padding-002.html
+- [1540] [WPT reftest] css/css-grid/grid-model/grid-overflow-padding-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.002012012441798336, diffPixels=1687
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-overflow-padding-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-overflow-padding-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1539] [WPT reftest] css/css-grid/grid-model/grid-painting-rtl-001.html
+- [1541] [WPT reftest] css/css-grid/grid-model/grid-painting-rtl-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.033569717960461036, diffPixels=28147
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-painting-rtl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-painting-rtl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1540] [WPT reftest] css/css-grid/grid-model/grid-scrolled-painting-001.html
+- [1542] [WPT reftest] css/css-grid/grid-model/grid-scrolled-painting-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/grid-model/grid-scrolled-painting-001-ref.html (==)
@@ -15255,7 +15269,7 @@
   stable page 2: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-scrolled-painting-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1541] [WPT reftest] css/css-grid/grid-model/grid-scrolled-painting-overflow-001.html
+- [1543] [WPT reftest] css/css-grid/grid-model/grid-scrolled-painting-overflow-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/grid-model/grid-scrolled-painting-overflow-001-ref.html (==)
@@ -15268,35 +15282,35 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-scrolled-painting-overflow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1542] [WPT reftest] css/css-grid/grid-model/grid-vertical-align-001.html
+- [1544] [WPT reftest] css/css-grid/grid-model/grid-vertical-align-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001439537058239829, diffPixels=1207
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-model/grid-vertical-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-model/grid-vertical-align-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1545] [WPT reftest] css/css-grid/grid-overflowing-item-content-is-painted.html
+- [1547] [WPT reftest] css/css-grid/grid-overflowing-item-content-is-painted.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-overflowing-item-content-is-painted.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-overflowing-item-content-is-painted.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1550] [WPT reftest] css/css-grid/grid-relayout-with-nested-grid.html
+- [1552] [WPT reftest] css/css-grid/grid-relayout-with-nested-grid.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015576101060987711, diffPixels=1306
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-relayout-with-nested-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-relayout-with-nested-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1551] [WPT reftest] css/css-grid/grid-with-aspect-ratio-uses-content-box-height-for-track-sizing.html
+- [1553] [WPT reftest] css/css-grid/grid-with-aspect-ratio-uses-content-box-height-for-track-sizing.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-with-aspect-ratio-uses-content-box-height-for-track-sizing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-with-aspect-ratio-uses-content-box-height-for-track-sizing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1552] [WPT reftest] css/css-grid/grid-with-content-dynamic-display-001.html
+- [1554] [WPT reftest] css/css-grid/grid-with-content-dynamic-display-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -15309,7 +15323,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1553] [WPT reftest] css/css-grid/grid-with-content-dynamic-display-002.html
+- [1555] [WPT reftest] css/css-grid/grid-with-content-dynamic-display-002.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -15322,14 +15336,14 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1554] [WPT reftest] css/css-grid/grid-with-dynamic-img.html
+- [1556] [WPT reftest] css/css-grid/grid-with-dynamic-img.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-with-dynamic-img.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-with-dynamic-img.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1555] [WPT reftest] css/css-grid/grid-with-orthogonal-child-within-flexbox.html
+- [1557] [WPT reftest] css/css-grid/grid-with-orthogonal-child-within-flexbox.html
   triage: not-needed
   outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -15338,21 +15352,21 @@
   stable page 1: diffRatio=0.005849982825738493, diffPixels=4905
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1556] [WPT reftest] css/css-grid/grid-within-flexbox-definite-change.html
+- [1558] [WPT reftest] css/css-grid/grid-within-flexbox-definite-change.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-within-flexbox-definite-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-within-flexbox-definite-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1557] [WPT reftest] css/css-grid/grid-within-flexbox-indefinite.html
+- [1559] [WPT reftest] css/css-grid/grid-within-flexbox-indefinite.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-within-flexbox-indefinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-within-flexbox-indefinite.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1558] [WPT reftest] css/css-grid/img-src-changes.html
+- [1560] [WPT reftest] css/css-grid/img-src-changes.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -15365,21 +15379,21 @@
   stable page 1: diffRatio=0.011864552324250058, diffPixels=9948
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1559] [WPT reftest] css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-001.html
+- [1561] [WPT reftest] css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0016613712693687504, diffPixels=1393
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1560] [WPT reftest] css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-002.html
+- [1562] [WPT reftest] css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0019953152431112127, diffPixels=1673
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1561] [WPT reftest] css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-003.html
+- [1563] [WPT reftest] css/css-grid/implicit-grids/grid-support-grid-auto-columns-rows-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/reference/grid-support-grid-auto-columns-rows-003-ref.html (==)
@@ -15392,98 +15406,98 @@
   stable page 1: diffRatio=0.007764197389512251, diffPixels=6510
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/reference/grid-support-grid-auto-columns-rows-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1562] [WPT reftest] css/css-grid/layout-algorithm/auto-margins-ignored-during-track-sizing-001.html
+- [1564] [WPT reftest] css/css-grid/layout-algorithm/auto-margins-ignored-during-track-sizing-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.026208638653537897, diffPixels=21975
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/auto-margins-ignored-during-track-sizing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/auto-margins-ignored-during-track-sizing-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1563] [WPT reftest] css/css-grid/layout-algorithm/flex-and-intrinsic-sizes-002.html
+- [1565] [WPT reftest] css/css-grid/layout-algorithm/flex-and-intrinsic-sizes-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/flex-and-intrinsic-sizes-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/flex-and-intrinsic-sizes-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1564] [WPT reftest] css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height-002.html
+- [1566] [WPT reftest] css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1565] [WPT reftest] css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height.html
+- [1567] [WPT reftest] css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/flex-sizing-rows-indefinite-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1566] [WPT reftest] css/css-grid/layout-algorithm/flex-tracks-with-fractional-size.html
+- [1568] [WPT reftest] css/css-grid/layout-algorithm/flex-tracks-with-fractional-size.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/flex-tracks-with-fractional-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/flex-tracks-with-fractional-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1567] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-001.html
+- [1569] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1568] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-002.html
+- [1570] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1569] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-003.html
+- [1571] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1570] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-004.html
+- [1572] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-004.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1571] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-005.html
+- [1573] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-005.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1572] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-006.html
+- [1574] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-006.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1573] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-007.html
+- [1575] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-007.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1574] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-008.html
+- [1576] [WPT reftest] css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-008.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-as-flex-item-should-not-shrink-to-fit-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1575] [WPT reftest] css/css-grid/layout-algorithm/grid-auto-track-item-with-border-001.html
+- [1577] [WPT reftest] css/css-grid/layout-algorithm/grid-auto-track-item-with-border-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/layout-algorithm/grid-auto-track-item-with-border-001-ref.html (==)
@@ -15496,7 +15510,7 @@
   stable page 1: diffRatio=0.007656858255095031, diffPixels=6420
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-auto-track-item-with-border-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1576] [WPT reftest] css/css-grid/layout-algorithm/grid-auto-tracks-items-with-borders-001.html
+- [1578] [WPT reftest] css/css-grid/layout-algorithm/grid-auto-tracks-items-with-borders-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/layout-algorithm/grid-auto-tracks-items-with-borders-001-ref.html (==)
@@ -15509,42 +15523,42 @@
   stable page 1: diffRatio=0.023504885123273034, diffPixels=19708
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-auto-tracks-items-with-borders-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1577] [WPT reftest] css/css-grid/layout-algorithm/grid-find-fr-size-restart-algorithm.html
+- [1579] [WPT reftest] css/css-grid/layout-algorithm/grid-find-fr-size-restart-algorithm.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-find-fr-size-restart-algorithm.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-find-fr-size-restart-algorithm.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1578] [WPT reftest] css/css-grid/layout-algorithm/grid-fit-content-indefinite-percentage-not-stretched-001.html
+- [1580] [WPT reftest] css/css-grid/layout-algorithm/grid-fit-content-indefinite-percentage-not-stretched-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-fit-content-indefinite-percentage-not-stretched-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-fit-content-indefinite-percentage-not-stretched-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1579] [WPT reftest] css/css-grid/layout-algorithm/grid-fit-content-indefinite-percentage-not-stretched-002.html
+- [1581] [WPT reftest] css/css-grid/layout-algorithm/grid-fit-content-indefinite-percentage-not-stretched-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-fit-content-indefinite-percentage-not-stretched-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-fit-content-indefinite-percentage-not-stretched-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1580] [WPT reftest] css/css-grid/layout-algorithm/grid-fit-content-width-percent-height-aspect-ratio-001.html
+- [1582] [WPT reftest] css/css-grid/layout-algorithm/grid-fit-content-width-percent-height-aspect-ratio-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-fit-content-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-fit-content-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1581] [WPT reftest] css/css-grid/layout-algorithm/grid-flex-and-auto-columns-fill-available-width-001.html
+- [1583] [WPT reftest] css/css-grid/layout-algorithm/grid-flex-and-auto-columns-fill-available-width-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.05409415311808259, diffPixels=45356
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-flex-and-auto-columns-fill-available-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-flex-and-auto-columns-fill-available-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1582] [WPT reftest] css/css-grid/layout-algorithm/grid-float-intrinsic-width-percent-height-aspect-ratio-001.html
+- [1584] [WPT reftest] css/css-grid/layout-algorithm/grid-float-intrinsic-width-percent-height-aspect-ratio-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -15557,63 +15571,63 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1583] [WPT reftest] css/css-grid/layout-algorithm/grid-inline-grid-intrinsic-width-percent-height-aspect-ratio-001.html
+- [1585] [WPT reftest] css/css-grid/layout-algorithm/grid-inline-grid-intrinsic-width-percent-height-aspect-ratio-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-inline-grid-intrinsic-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-inline-grid-intrinsic-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1584] [WPT reftest] css/css-grid/layout-algorithm/grid-intrinsic-size-dynamic-block-size.html
+- [1586] [WPT reftest] css/css-grid/layout-algorithm/grid-intrinsic-size-dynamic-block-size.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-intrinsic-size-dynamic-block-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-intrinsic-size-dynamic-block-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1585] [WPT reftest] css/css-grid/layout-algorithm/grid-intrinsic-size-nested-baseline-grid-001.html
+- [1587] [WPT reftest] css/css-grid/layout-algorithm/grid-intrinsic-size-nested-baseline-grid-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.005160627051370124, diffPixels=4327
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-intrinsic-size-nested-baseline-grid-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-intrinsic-size-nested-baseline-grid-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1586] [WPT reftest] css/css-grid/layout-algorithm/grid-intrinsic-track-sizes-min-size-001.html
+- [1588] [WPT reftest] css/css-grid/layout-algorithm/grid-intrinsic-track-sizes-min-size-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-intrinsic-track-sizes-min-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-intrinsic-track-sizes-min-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1587] [WPT reftest] css/css-grid/layout-algorithm/grid-item-margin-auto-columns-rows-vertical-rtl-001.html
+- [1589] [WPT reftest] css/css-grid/layout-algorithm/grid-item-margin-auto-columns-rows-vertical-rtl-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.012242624608808489, diffPixels=10265
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-item-margin-auto-columns-rows-vertical-rtl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-item-margin-auto-columns-rows-vertical-rtl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1588] [WPT reftest] css/css-grid/layout-algorithm/grid-layout-free-space-unit.html
+- [1590] [WPT reftest] css/css-grid/layout-algorithm/grid-layout-free-space-unit.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015182524234791238, diffPixels=1273
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-layout-free-space-unit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-layout-free-space-unit.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1590] [WPT reftest] css/css-grid/layout-algorithm/grid-max-content-width-percent-height-aspect-ratio-001.html
+- [1592] [WPT reftest] css/css-grid/layout-algorithm/grid-max-content-width-percent-height-aspect-ratio-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-max-content-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-max-content-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1591] [WPT reftest] css/css-grid/layout-algorithm/grid-min-content-width-percent-height-aspect-ratio-001.html
+- [1593] [WPT reftest] css/css-grid/layout-algorithm/grid-min-content-width-percent-height-aspect-ratio-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-min-content-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-min-content-width-percent-height-aspect-ratio-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1592] [WPT reftest] css/css-grid/layout-algorithm/grid-percent-cols-filled-shrinkwrap-001.html
+- [1594] [WPT reftest] css/css-grid/layout-algorithm/grid-percent-cols-filled-shrinkwrap-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/layout-algorithm/references/grid-percent-cols-filled-shrinkwrap-001-ref.html (==)
@@ -15626,7 +15640,7 @@
   stable page 1: diffRatio=0.00438897794061522, diffPixels=3680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/references/grid-percent-cols-filled-shrinkwrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1593] [WPT reftest] css/css-grid/layout-algorithm/grid-percent-cols-spanned-shrinkwrap-001.html
+- [1595] [WPT reftest] css/css-grid/layout-algorithm/grid-percent-cols-spanned-shrinkwrap-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/layout-algorithm/references/grid-percent-cols-spanned-shrinkwrap-001-ref.html (==)
@@ -15639,7 +15653,7 @@
   stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/references/grid-percent-cols-spanned-shrinkwrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1594] [WPT reftest] css/css-grid/layout-algorithm/grid-percent-rows-filled-shrinkwrap-001.html
+- [1596] [WPT reftest] css/css-grid/layout-algorithm/grid-percent-rows-filled-shrinkwrap-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/layout-algorithm/references/grid-percent-rows-filled-shrinkwrap-001-ref.html (==)
@@ -15652,7 +15666,7 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/references/grid-percent-rows-filled-shrinkwrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1595] [WPT reftest] css/css-grid/layout-algorithm/grid-percent-rows-spanned-shrinkwrap-001.html
+- [1597] [WPT reftest] css/css-grid/layout-algorithm/grid-percent-rows-spanned-shrinkwrap-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/layout-algorithm/references/grid-percent-rows-spanned-shrinkwrap-001-ref.html (==)
@@ -15665,133 +15679,133 @@
   stable page 1: diffRatio=0.002862376917792535, diffPixels=2400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/references/grid-percent-rows-spanned-shrinkwrap-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1598] [WPT reftest] css/css-grid/layout-algorithm/grid-stretch-respects-min-size-001.html
+- [1600] [WPT reftest] css/css-grid/layout-algorithm/grid-stretch-respects-min-size-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-stretch-respects-min-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-stretch-respects-min-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1599] [WPT reftest] css/css-grid/layout-algorithm/grid-stretch-respects-min-size-002.html
+- [1601] [WPT reftest] css/css-grid/layout-algorithm/grid-stretch-respects-min-size-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-stretch-respects-min-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-stretch-respects-min-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1600] [WPT reftest] css/css-grid/layout-algorithm/grid-stretch-respects-min-size-003.html
+- [1602] [WPT reftest] css/css-grid/layout-algorithm/grid-stretch-respects-min-size-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-stretch-respects-min-size-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-stretch-respects-min-size-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1601] [WPT reftest] css/css-grid/layout-algorithm/grid-template-flexible-rerun-track-sizing.html
+- [1603] [WPT reftest] css/css-grid/layout-algorithm/grid-template-flexible-rerun-track-sizing.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-template-flexible-rerun-track-sizing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-template-flexible-rerun-track-sizing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1602] [WPT reftest] css/css-grid/layout-algorithm/grid-track-ignores-max-size-001.html
+- [1604] [WPT reftest] css/css-grid/layout-algorithm/grid-track-ignores-max-size-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-track-ignores-max-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-track-ignores-max-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1603] [WPT reftest] css/css-grid/layout-algorithm/grid-track-ignores-max-size-002.html
+- [1605] [WPT reftest] css/css-grid/layout-algorithm/grid-track-ignores-max-size-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-track-ignores-max-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/layout-algorithm/grid-track-ignores-max-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1606] [WPT reftest] css/css-grid/placement/grid-layout-grid-span.html
+- [1608] [WPT reftest] css/css-grid/placement/grid-layout-grid-span.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015182524234791238, diffPixels=1273
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-layout-grid-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-layout-grid-span.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1607] [WPT reftest] css/css-grid/placement/grid-layout-lines-shorthands.html
+- [1609] [WPT reftest] css/css-grid/placement/grid-layout-lines-shorthands.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015182524234791238, diffPixels=1273
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-layout-lines-shorthands.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-layout-lines-shorthands.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1608] [WPT reftest] css/css-grid/placement/grid-layout-lines.html
+- [1610] [WPT reftest] css/css-grid/placement/grid-layout-lines.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015182524234791238, diffPixels=1273
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-layout-lines.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-layout-lines.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1609] [WPT reftest] css/css-grid/placement/grid-layout-placement-shorthands.html
+- [1611] [WPT reftest] css/css-grid/placement/grid-layout-placement-shorthands.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015182524234791238, diffPixels=1273
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-layout-placement-shorthands.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-layout-placement-shorthands.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1610] [WPT reftest] css/css-grid/placement/grid-placement-items-spanning-multiple-rows-001.html
+- [1612] [WPT reftest] css/css-grid/placement/grid-placement-items-spanning-multiple-rows-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-items-spanning-multiple-rows-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-items-spanning-multiple-rows-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1611] [WPT reftest] css/css-grid/placement/grid-placement-items-spanning-multiple-rows-002.html
+- [1613] [WPT reftest] css/css-grid/placement/grid-placement-items-spanning-multiple-rows-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-items-spanning-multiple-rows-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-items-spanning-multiple-rows-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1612] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-001.html
+- [1614] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1613] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-002.html
+- [1615] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1614] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-003.html
+- [1616] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1615] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-004.html
+- [1617] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-004.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1616] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-005.html
+- [1618] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-005.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1617] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-006.html
+- [1619] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-006.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1618] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-007.html
+- [1620] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-007.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-300px-square.html (==)
@@ -15804,21 +15818,21 @@
   stable page 1: diffRatio=0.10733913441722005, diffPixels=90000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1619] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-008.html
+- [1621] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-008.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1620] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-009.html
+- [1622] [WPT reftest] css/css-grid/placement/grid-placement-using-named-grid-lines-009.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-placement-using-named-grid-lines-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1621] [WPT reftest] css/css-grid/placement/grid-template-areas-media-query-001.html
+- [1623] [WPT reftest] css/css-grid/placement/grid-template-areas-media-query-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/placement/grid-template-areas-media-query-001-ref.html (==)
@@ -15831,84 +15845,84 @@
   stable page 1: diffRatio=0.07573372261659415, diffPixels=63500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-template-areas-media-query-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1622] [WPT reftest] css/css-grid/placement/grid-template-areas-must-keep-named-columns-order-001.html
+- [1624] [WPT reftest] css/css-grid/placement/grid-template-areas-must-keep-named-columns-order-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.007238235630867873, diffPixels=6069
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/placement/grid-template-areas-must-keep-named-columns-order-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/placement/grid-template-areas-must-keep-named-columns-order-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1623] [WPT reftest] css/css-grid/relative-grandchild.html
+- [1625] [WPT reftest] css/css-grid/relative-grandchild.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/relative-grandchild.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/relative-grandchild.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1624] [WPT reftest] css/css-grid/replaced-element-percentage-height-in-grid-nested-in-flex-001.html
+- [1626] [WPT reftest] css/css-grid/replaced-element-percentage-height-in-grid-nested-in-flex-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/replaced-element-percentage-height-in-grid-nested-in-flex-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/replaced-element-percentage-height-in-grid-nested-in-flex-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1625] [WPT reftest] css/css-grid/replaced-element-percentage-height-in-grid-nested-in-flex-002.html
+- [1627] [WPT reftest] css/css-grid/replaced-element-percentage-height-in-grid-nested-in-flex-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/replaced-element-percentage-height-in-grid-nested-in-flex-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/replaced-element-percentage-height-in-grid-nested-in-flex-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1635] [WPT reftest] css/css-grid/subgrid/auto-track-sizing-003.html
+- [1637] [WPT reftest] css/css-grid/subgrid/auto-track-sizing-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/auto-track-sizing-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/auto-track-sizing-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1636] [WPT reftest] css/css-grid/subgrid/auto-track-sizing-004.html
+- [1638] [WPT reftest] css/css-grid/subgrid/auto-track-sizing-004.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/auto-track-sizing-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/auto-track-sizing-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1638] [WPT reftest] css/css-grid/subgrid/contribution-size-flex-tracks-001.html
+- [1640] [WPT reftest] css/css-grid/subgrid/contribution-size-flex-tracks-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/contribution-size-flex-tracks-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/contribution-size-flex-tracks-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1639] [WPT reftest] css/css-grid/subgrid/dynamic-min-content-001.html
+- [1641] [WPT reftest] css/css-grid/subgrid/dynamic-min-content-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/dynamic-min-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/dynamic-min-content-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1640] [WPT reftest] css/css-grid/subgrid/dynamic-min-content-002.html
+- [1642] [WPT reftest] css/css-grid/subgrid/dynamic-min-content-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/dynamic-min-content-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/dynamic-min-content-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1641] [WPT reftest] css/css-grid/subgrid/dynamic-min-content-003.html
+- [1643] [WPT reftest] css/css-grid/subgrid/dynamic-min-content-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/dynamic-min-content-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/dynamic-min-content-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1642] [WPT reftest] css/css-grid/subgrid/dynamic-subgridded-item-height.html
+- [1644] [WPT reftest] css/css-grid/subgrid/dynamic-subgridded-item-height.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/dynamic-subgridded-item-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/dynamic-subgridded-item-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1649] [WPT reftest] css/css-grid/subgrid/grid-gap-007.html
+- [1651] [WPT reftest] css/css-grid/subgrid/grid-gap-007.html
   triage: not-needed
   outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/subgrid/grid-gap-007-ref.html (==)
@@ -15917,7 +15931,7 @@
   stable page 1: diffRatio=0.018537468513853905, diffPixels=15543
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/grid-gap-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1659] [WPT reftest] css/css-grid/subgrid/independent-formatting-context-fieldset.html
+- [1661] [WPT reftest] css/css-grid/subgrid/independent-formatting-context-fieldset.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/subgrid/independent-formatting-context-fieldset-ref.html (==)
@@ -15930,49 +15944,49 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/independent-formatting-context-fieldset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1661] [WPT reftest] css/css-grid/subgrid/independent-tracks-from-parent-grid.html
+- [1663] [WPT reftest] css/css-grid/subgrid/independent-tracks-from-parent-grid.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/independent-tracks-from-parent-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/independent-tracks-from-parent-grid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1670] [WPT reftest] css/css-grid/subgrid/line-names-008.html
+- [1672] [WPT reftest] css/css-grid/subgrid/line-names-008.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.00422916189603847, diffPixels=3546
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1674] [WPT reftest] css/css-grid/subgrid/line-names-012.html
+- [1676] [WPT reftest] css/css-grid/subgrid/line-names-012.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.003930997633768415, diffPixels=3296
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1675] [WPT reftest] css/css-grid/subgrid/line-names-013.html
+- [1677] [WPT reftest] css/css-grid/subgrid/line-names-013.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1676] [WPT reftest] css/css-grid/subgrid/line-names-014.html
+- [1678] [WPT reftest] css/css-grid/subgrid/line-names-014.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1677] [WPT reftest] css/css-grid/subgrid/line-names-015.html
+- [1679] [WPT reftest] css/css-grid/subgrid/line-names-015.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/line-names-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/line-names-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1681] [WPT reftest] css/css-grid/subgrid/orthogonal-writing-mode-003.html
+- [1683] [WPT reftest] css/css-grid/subgrid/orthogonal-writing-mode-003.html
   triage: not-needed
   outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/subgrid/orthogonal-writing-mode-003-ref.html (==)
@@ -15981,7 +15995,7 @@
   stable page 1: diffRatio=0.004443840164872911, diffPixels=3726
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1682] [WPT reftest] css/css-grid/subgrid/orthogonal-writing-mode-004.html
+- [1684] [WPT reftest] css/css-grid/subgrid/orthogonal-writing-mode-004.html
   triage: not-needed
   outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html (==)
@@ -15990,154 +16004,154 @@
   stable page 1: diffRatio=0.0010733913441722007, diffPixels=900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/orthogonal-writing-mode-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1685] [WPT reftest] css/css-grid/subgrid/overflow-hidden-does-not-prohibit-subgrid.html
+- [1687] [WPT reftest] css/css-grid/subgrid/overflow-hidden-does-not-prohibit-subgrid.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/overflow-hidden-does-not-prohibit-subgrid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/overflow-hidden-does-not-prohibit-subgrid.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1688] [WPT reftest] css/css-grid/subgrid/percentage-track-sizing.html
+- [1690] [WPT reftest] css/css-grid/subgrid/percentage-track-sizing.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/percentage-track-sizing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/percentage-track-sizing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1696] [WPT reftest] css/css-grid/subgrid/repeat-auto-fill-007.html
+- [1698] [WPT reftest] css/css-grid/subgrid/repeat-auto-fill-007.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.013834821769330586, diffPixels=11600
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/repeat-auto-fill-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/repeat-auto-fill-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1698] [WPT reftest] css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-001.html
+- [1700] [WPT reftest] css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1699] [WPT reftest] css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-002.html
+- [1701] [WPT reftest] css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1700] [WPT reftest] css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-003.html
+- [1702] [WPT reftest] css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/row-subgrid-intrinsic-size-transfer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1701] [WPT reftest] css/css-grid/subgrid/scrollbar-gutter-001.html
+- [1703] [WPT reftest] css/css-grid/subgrid/scrollbar-gutter-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.021172047935272116, diffPixels=17752
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/scrollbar-gutter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/scrollbar-gutter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1702] [WPT reftest] css/css-grid/subgrid/scrollbar-gutter-002.html
+- [1704] [WPT reftest] css/css-grid/subgrid/scrollbar-gutter-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.021172047935272116, diffPixels=17752
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/scrollbar-gutter-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/scrollbar-gutter-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1703] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-001.html
+- [1705] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1704] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-002.html
+- [1706] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1705] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-003.html
+- [1707] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-003.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1706] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-004.html
+- [1708] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-004.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1707] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-005.html
+- [1709] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-005.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1708] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-006.html
+- [1710] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-006.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1709] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-007.html
+- [1711] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-007.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1710] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-008.html
+- [1712] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-008.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1711] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-009.html
+- [1713] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-009.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1712] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-010.html
+- [1714] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-010.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1713] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-011.html
+- [1715] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-011.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1714] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-012.html
+- [1716] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-012.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1715] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-013.html
+- [1717] [WPT reftest] css/css-grid/subgrid/standalone-axis-size-013.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/standalone-axis-size-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1716] [WPT reftest] css/css-grid/subgrid/sticky-subgrid-item.html
+- [1718] [WPT reftest] css/css-grid/subgrid/sticky-subgrid-item.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/subgrid/sticky-subgrid-item-ref.html (==)
@@ -16150,21 +16164,21 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/sticky-subgrid-item-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1721] [WPT reftest] css/css-grid/subgrid/subgrid-baseline-012.html
+- [1723] [WPT reftest] css/css-grid/subgrid/subgrid-baseline-012.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/subgrid-baseline-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-baseline-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1722] [WPT reftest] css/css-grid/subgrid/subgrid-button.html
+- [1724] [WPT reftest] css/css-grid/subgrid/subgrid-button.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0020776085794977483, diffPixels=1742
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/subgrid-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1724] [WPT reftest] css/css-grid/subgrid/subgrid-item-with-margin-left-auto.html
+- [1726] [WPT reftest] css/css-grid/subgrid/subgrid-item-with-margin-left-auto.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -16177,28 +16191,28 @@
   stable page 1: diffRatio=0.0002289901534234028, diffPixels=192
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1725] [WPT reftest] css/css-grid/subgrid/subgrid-no-items-on-edges-001.html
+- [1727] [WPT reftest] css/css-grid/subgrid/subgrid-no-items-on-edges-001.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/subgrid-no-items-on-edges-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-no-items-on-edges-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1726] [WPT reftest] css/css-grid/subgrid/subgrid-no-items-on-edges-002.html
+- [1728] [WPT reftest] css/css-grid/subgrid/subgrid-no-items-on-edges-002.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.0015588027631478513, diffPixels=1307
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/subgrid-no-items-on-edges-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-no-items-on-edges-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1727] [WPT reftest] css/css-grid/subgrid/subgrid-scroller-auto-height-padding.html
+- [1729] [WPT reftest] css/css-grid/subgrid/subgrid-scroller-auto-height-padding.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.00041027402488359667, diffPixels=344
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/subgrid/subgrid-scroller-auto-height-padding.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-scroller-auto-height-padding.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1728] [WPT reftest] css/css-grid/subgrid/subgrid-stretch.html
+- [1730] [WPT reftest] css/css-grid/subgrid/subgrid-stretch.html
   triage: not-needed
   outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-grid/subgrid/subgrid-stretch-ref.html (==)
@@ -16207,7 +16221,7 @@
   stable page 1: diffRatio=0.09302724982825739, diffPixels=78000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/subgrid/subgrid-stretch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1733] [WPT reftest] css/css-grid/table-grid-item-dynamic-002.html
+- [1735] [WPT reftest] css/css-grid/table-grid-item-dynamic-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-grid/table-grid-item-dynamic-002-ref.html (==)
@@ -16220,7 +16234,7 @@
   stable page 1: diffRatio=0.3025317723837875, diffPixels=253662
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/table-grid-item-dynamic-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1736] [WPT reftest] css/css-grid/whitespace-reattach.html
+- [1738] [WPT reftest] css/css-grid/whitespace-reattach.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -16233,7 +16247,7 @@
   stable page 1: diffRatio=0.011802534157697886, diffPixels=9896
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1737] [WPT print-reftest] css/css-grid/grid-fragmentation-between-rows-001-print.tentative.html
+- [1739] [WPT print-reftest] css/css-grid/grid-fragmentation-between-rows-001-print.tentative.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
   page 1: diffRatio=0.00272760667124647, diffPixels=2287
@@ -16242,7 +16256,7 @@
 
 ## Errors
 
-- [1678] [WPT reftest] css/css-grid/subgrid/line-names-parent-auto-repeat-001.html
+- [1680] [WPT reftest] css/css-grid/subgrid/line-names-parent-auto-repeat-001.html
   triage: pending
   side: canary, stable
   canary timeout: false
