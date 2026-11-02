@@ -1615,7 +1615,7 @@
 - [0224] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-repeat-y.xht
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.010353455843065415, diffPixels=8681
+  page 1: diffRatio=0.01037730898404702, diffPixels=8701
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-repeat-y.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-repeat-y.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -1642,7 +1642,7 @@
 - [0227] [WPT reftest] css/css-backgrounds/background-repeat/background-repeat-space.xht
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.03261559232119685, diffPixels=27347
+  page 1: diffRatio=0.03263586749103122, diffPixels=27364
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-space.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-repeat/background-repeat-space.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -4462,25 +4462,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: locator.fill: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator('#vivliostyle-page-number')
-    - locator resolved to <input type="text" autocomplete="off" inputmode="numeric" aria-keyshortcuts="G" title="Go to Page… (G)" aria-label="Page number" id="vivliostyle-page-number" data-bind="value: navigation.pageNumber, attr: {'aria-disabled': navigation.isPageNumberDisabled, title: t('TIP_Go_to_Page')}, event: {'focus': navigation.onfocusPageNumber,'wheel': navigation.onwheelPageSlider}"/>
-    - fill("1")
-  - attempting fill action
-    2 × waiting for element to be visible, enabled and editable
-      - element is not visible
-    - retrying fill action
-    - waiting 20ms
-    2 × waiting for element to be visible, enabled and editable
-      - element is not visible
-    - retrying fill action
-      - waiting 100ms
-    19 × waiting for element to be visible, enabled and editable
-       - element is not visible
-     - retrying fill action
-       - waiting 500ms
-
+  canary error: TimeoutError: Timeout (10000ms): navigating to page 1
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): navigating to page 1
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-body-propagation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

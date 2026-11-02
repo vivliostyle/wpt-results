@@ -3990,11 +3990,11 @@
   reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004770628196320891, diffPixels=40
+  canary page 1: diffRatio=0.000027431112128845128, diffPixels=23
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000023853140981604456, diffPixels=20
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0439] [WPT reftest] css/css-overflow/overflow-scroll-intrinsic-001.html

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 372
-- Entries with differences: 254 (improvement: 2, pending: 252, triaged: 0)
+- Entries with differences: 254 (improvement: 1, pending: 253, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 146
-- Outcome summary: {"changed-fail":63,"known-fail":107,"expected-change":82,"pass":118,"improvement":2}
+- Outcome summary: {"changed-fail":63,"known-fail":107,"expected-change":82,"pass":118,"improvement":1,"regression":1}
 
 ## Differences
 
@@ -354,7 +354,7 @@
 - [0039] [WPT reftest] css/filter-effects/backdrop-filter-border-radius-change.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.06573567857415465, diffPixels=55117
+  page 1: diffRatio=0.050443429890848025, diffPixels=42295
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-border-radius-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-border-radius-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -409,7 +409,7 @@
 - [0049] [WPT reftest] css/filter-effects/backdrop-filter-corner-shape-change.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.06178798374169911, diffPixels=51807
+  page 1: diffRatio=0.048302610487749024, diffPixels=40500
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/backdrop-filter-corner-shape-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/backdrop-filter-corner-shape-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2479,13 +2479,13 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0316] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/filter-effects/reference/svg-relative-urls-002-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011688039080986184, diffPixels=9800
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0319] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
   triage: pending

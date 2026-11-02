@@ -6771,11 +6771,11 @@
   reference: css/css-writing-modes/abs-pos-non-replaced-vlr-013-ref.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/normal-flow-overconstrained-vlr-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004208886726204107, diffPixels=3529
+  canary page 1: diffRatio=0.005067599801541867, diffPixels=4249
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/normal-flow-overconstrained-vlr-005.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003929804976719334, diffPixels=3295
+  stable page 1: diffRatio=0.004788518052057095, diffPixels=4015
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-writing-modes/abs-pos-non-replaced-vlr-013-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0772] [WPT reftest] css/css-writing-modes/normal-flow-overconstrained-vrl-002.xht

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 42
-- Entries with differences: 42 (pending: 42, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 40 (pending: 40, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 36
-- Outcome summary: {"changed-fail":34,"known-fail":6,"expected-change":2}
+- Screenshot mismatches: 34
+- Outcome summary: {"changed-fail":32,"known-fail":6,"expected-change":2,"error":2}
 
 ## Differences
 
@@ -466,19 +466,6 @@
   stable page 1: diffRatio=0.007155942294481337, diffPixels=6000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0037] [WPT reftest] css/css-box/margin-trim/multicol-spanner-002.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004770628196320892, diffPixels=4000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0038] [WPT reftest] css/css-box/margin-trim/multicol-spanner-003.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
@@ -490,19 +477,6 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0039] [WPT reftest] css/css-box/margin-trim/multicol-spanner-004.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0040] [WPT reftest] css/css-box/margin-trim/multicol-spanner-005.html
@@ -543,4 +517,22 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0037] [WPT reftest] css/css-box/margin-trim/multicol-spanner-002.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0039] [WPT reftest] css/css-box/margin-trim/multicol-spanner-004.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-box/margin-trim/multicol-spanner-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -4756,7 +4756,7 @@
   reference: css/css-grid/grid-lanes/alignment/column-align-self-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-align-self-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0438539996946798, diffPixels=36770
+  canary page 1: diffRatio=0.04382179795435463, diffPixels=36743
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-align-self-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/alignment/column-align-self-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7812,7 +7812,7 @@
   reference: css/css-grid/grid-lanes/item-placement/column-negative-margin-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.11038398786352187, diffPixels=92553
+  canary page 1: diffRatio=0.11030169452713533, diffPixels=92484
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -7825,7 +7825,7 @@
   reference: css/css-grid/grid-lanes/item-placement/column-negative-margin-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.07426794710327456, diffPixels=62271
+  canary page 1: diffRatio=0.07413675482787574, diffPixels=62161
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/item-placement/column-negative-margin-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12429,7 +12429,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.021590670559499276, diffPixels=18103
+  canary page 1: diffRatio=0.02156562476146859, diffPixels=18082
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12442,7 +12442,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02086314975956034, diffPixels=17493
+  canary page 1: diffRatio=0.020838103961529655, diffPixels=17472
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-definite-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12455,7 +12455,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.020675902602854745, diffPixels=17336
+  canary page 1: diffRatio=0.02065085680482406, diffPixels=17315
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-indefinite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12520,7 +12520,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0208655350736585, diffPixels=17495
+  canary page 1: diffRatio=0.020840489275627816, diffPixels=17474
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-definite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -12533,7 +12533,7 @@
   reference: css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.020213151667811617, diffPixels=16948
+  canary page 1: diffRatio=0.020188105869780933, diffPixels=16927
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-grid/grid-lanes/tentative/item-placement/column-fill-reverse-track-reverse-indefinite-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

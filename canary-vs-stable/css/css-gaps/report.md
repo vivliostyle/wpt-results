@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 544
-- Entries with differences: 299 (pending: 299, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 297 (pending: 297, triaged: 0)
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 76
-- Outcome summary: {"pass":245,"expected-change":71,"known-fail":223,"changed-fail":5}
+- Screenshot mismatches: 74
+- Outcome summary: {"pass":246,"expected-change":69,"known-fail":223,"error":1,"changed-fail":5}
 
 ## Differences
 
@@ -590,13 +590,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002862376917792535, diffPixels=240
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0156] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0167] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-012.html
   triage: pending
@@ -1515,16 +1508,12 @@
 
 - [0345] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-negative-junction.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-gaps/grid-lanes/column-gap-decorations-inset-negative-junction-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-negative-junction.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0016792611251049538, diffPixels=1408
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-negative-junction-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-negative-junction.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0016792611251049538, diffPixels=1408
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-negative-junction-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0346] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-non-overlapping-gutter-percentage.html
   triage: pending
@@ -1551,13 +1540,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-join.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0031867796351423556, diffPixels=2672
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-join-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0349] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-spanner.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.000492567361270132, diffPixels=413
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-overlap-spanner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0350] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-overlapping-gutters-percentage.html
   triage: pending
@@ -3470,4 +3452,22 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0014311884588962675, diffPixels=1200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-visibility-all-empty-columns-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0156] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-001.html
+  triage: pending
+  side: canary
+  timeout: false
+  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-gaps/grid/grid-gap-decorations-001.html (502)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0345] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-negative-junction.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-negative-junction.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-negative-junction.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

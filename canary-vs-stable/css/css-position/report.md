@@ -3,7 +3,7 @@
 - Compared entries: 253
 - Entries with differences: 220 (improvement: 4, pending: 216, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 187
 - Outcome summary: {"known-fail":33,"expected-change":121,"pass":30,"changed-fail":62,"improvement":4,"error":3}
@@ -682,7 +682,7 @@
 - [0088] [WPT reftest] css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013810968628348982, diffPixels=1158
+  page 1: diffRatio=0.001385867491031219, diffPixels=1162
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-replaced-no-intrinsic-size.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2133,20 +2133,20 @@
 - [0070] [WPT reftest] css/css-position/position-absolute-iframe-print-001.sub.html
   triage: pending
   side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary timeout: false
+  canary error: Error: Viewer error: Failed to load https://wpt.live/css/css-position/position-absolute-iframe-print-001.sub.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
+  stable timeout: false
+  stable error: Error: Viewer error: Failed to load https://wpt.live/css/css-position/position-absolute-iframe-print-001.sub.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-001.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-001.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0071] [WPT reftest] css/css-position/position-absolute-iframe-print-002.sub.html
   triage: pending
   side: canary, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary timeout: false
+  canary error: Error: Viewer error: Failed to load https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
+  stable timeout: false
+  stable error: Error: Viewer error: Failed to load https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html. This may be caused by network error, incorrect URL, or the server not allowing cross-origin resource sharing (CORS).
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

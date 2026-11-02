@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 219
-- Entries with differences: 215 (improvement: 1, pending: 214, triaged: 0)
+- Entries with differences: 215 (pending: 215, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 211
-- Outcome summary: {"expected-change":105,"changed-fail":101,"regression":3,"improvement":1,"known-fail":4,"pass":4,"changed":1}
+- Outcome summary: {"expected-change":106,"changed-fail":101,"regression":3,"known-fail":4,"pass":4,"changed":1}
 
 ## Differences
 
@@ -497,13 +497,11 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-replaced-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0055] [WPT reftest] css/css-display/display-contents-root-background.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-display/display-contents-root-background-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-root-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6390375734676742, diffPixels=535810
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-root-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0004579803068468056, diffPixels=384
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-display/display-contents-root-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-display/display-contents-root-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0056] [WPT reftest] css/css-display/display-contents-shadow-dom-1.html
   triage: pending

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 238
-- Entries with differences: 220 (improvement: 30, pending: 190, triaged: 0)
+- Entries with differences: 220 (improvement: 32, pending: 188, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 156
-- Outcome summary: {"expected-change":46,"known-fail":64,"pass":18,"improvement":30,"changed-fail":79,"regression":1}
+- Outcome summary: {"expected-change":45,"known-fail":64,"pass":18,"improvement":32,"changed-fail":79}
 
 ## Differences
 
@@ -852,19 +852,25 @@
 
 - [0081] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-006.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0024962312037249065, diffPixels=2093
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0001562380734295092, diffPixels=131
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.009181073963819555, diffPixels=7698
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0082] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-007.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009181073963819555, diffPixels=7698
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.009181073963819555, diffPixels=7698
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0083] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-008.html
   triage: pending
@@ -1069,7 +1075,7 @@
   reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011568773376078163, diffPixels=9700
+  canary page 1: diffRatio=0.00017293527211663232, diffPixels=145
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-025.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1077,13 +1083,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0101] [WPT reftest] css/css-shapes/shape-outside/shape-image/shape-image-026.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009181073963819555, diffPixels=7698
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/reference/shape-image-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-shapes/shape-outside/shape-image/shape-image-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.009181073963819555, diffPixels=7698

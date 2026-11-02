@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 468
-- Entries with differences: 364 (improvement: 4, pending: 360, triaged: 0)
+- Entries with differences: 364 (improvement: 5, pending: 359, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 343
-- Outcome summary: {"expected-change":265,"changed-fail":73,"pass":104,"known-fail":21,"improvement":4,"changed":1}
+- Screenshot mismatches: 342
+- Outcome summary: {"expected-change":264,"changed-fail":73,"pass":104,"known-fail":21,"improvement":5,"changed":1}
 
 ## Differences
 
@@ -1576,9 +1576,8 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0241] [WPT reftest] css/css-multicol/multicol-nested-027.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-multicol/multicol-nested-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-multicol/multicol-nested-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

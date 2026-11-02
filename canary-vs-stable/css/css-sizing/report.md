@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 569
-- Entries with differences: 472 (improvement: 7, pending: 465, triaged: 0)
+- Entries with differences: 472 (improvement: 8, pending: 464, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
 - Page count changed: 0
-- Screenshot mismatches: 451
-- Outcome summary: {"expected-change":397,"changed-fail":48,"pass":94,"improvement":7,"known-fail":20,"error":3}
+- Screenshot mismatches: 450
+- Outcome summary: {"expected-change":396,"changed-fail":48,"pass":94,"improvement":8,"known-fail":20,"error":3}
 
 ## Differences
 
@@ -2085,9 +2085,8 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-content-box-003.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0304] [WPT reftest] css/css-sizing/box-sizing-replaced-001.xht
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.03172348484848485, diffPixels=26599
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/box-sizing-replaced-001.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

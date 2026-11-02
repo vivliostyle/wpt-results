@@ -2,8 +2,8 @@
 
 - Compared entries: 348
 - Entries with differences: 332 (improvement: 1, pending: 331, triaged: 0)
-- Entries with errors: 4 (pending: 4, triaged: 0)
-- Timeout entries: 4
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 314
 - Outcome summary: {"expected-change":135,"known-fail":18,"changed-fail":172,"pass":15,"error":1,"improvement":1,"changed":6}
@@ -989,6 +989,10 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-attr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0008682543317304022, diffPixels=728
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-attr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-attr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0008682543317304022, diffPixels=728
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-attr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0099] [WPT reftest] css/selectors/invalidation/nth-child-of-class-prefix.html
   triage: pending
@@ -1083,12 +1087,16 @@
 
 - [0106] [WPT reftest] css/selectors/invalidation/nth-child-of-in-shadow-root.html
   triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/selectors/invalidation/nth-child-of-in-shadow-root-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-in-shadow-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0005784386688039081, diffPixels=485
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-in-shadow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-in-shadow-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0005784386688039081, diffPixels=485
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-in-shadow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0107] [WPT reftest] css/selectors/invalidation/nth-child-of-is.html
   triage: pending
@@ -1202,6 +1210,10 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-prefix.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0008682543317304022, diffPixels=728
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-prefix.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0008682543317304022, diffPixels=728
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0116] [WPT reftest] css/selectors/invalidation/nth-last-child-of-class.html
   triage: pending
@@ -2311,14 +2323,14 @@
 - [0221] [WPT reftest] css/selectors/old-tests/css3-modsel-149.xml
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013405465231661705, diffPixels=1124
+  page 1: diffRatio=0.0008527497900923594, diffPixels=715
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-149.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-149.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0222] [WPT reftest] css/selectors/old-tests/css3-modsel-149b.xml
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013405465231661705, diffPixels=1124
+  page 1: diffRatio=0.0008527497900923594, diffPixels=715
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-149b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-149b.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2332,14 +2344,14 @@
 - [0224] [WPT reftest] css/selectors/old-tests/css3-modsel-151.xml
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013405465231661705, diffPixels=1124
+  page 1: diffRatio=0.0008527497900923594, diffPixels=715
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-151.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-151.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0225] [WPT reftest] css/selectors/old-tests/css3-modsel-152.xml
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013405465231661705, diffPixels=1124
+  page 1: diffRatio=0.0008527497900923594, diffPixels=715
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-152.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/old-tests/css3-modsel-152.xml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -3478,30 +3490,4 @@
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/lang-pseudo-class-in-has-multiple-document-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/lang-pseudo-class-in-has-multiple-document-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0098] [WPT reftest] css/selectors/invalidation/nth-child-of-attr.html
-  triage: pending
-  side: stable-reference
-  reference: css/selectors/invalidation/nth-child-of-attr-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-attr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-attr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0106] [WPT reftest] css/selectors/invalidation/nth-child-of-in-shadow-root.html
-  triage: pending
-  side: stable
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-in-shadow-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-in-shadow-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0115] [WPT reftest] css/selectors/invalidation/nth-last-child-of-class-prefix.html
-  triage: pending
-  side: stable-reference
-  reference: css/selectors/invalidation/nth-last-child-of-class-ref.html
-  timeout: true
-  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-prefix.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-last-child-of-class-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

@@ -2,11 +2,11 @@
 
 - Compared entries: 249
 - Entries with differences: 234 (pending: 234, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 2
-- Screenshot mismatches: 202
-- Outcome summary: {"expected-change":98,"changed-fail":84,"known-fail":32,"pass":15,"changed":20}
+- Screenshot mismatches: 201
+- Outcome summary: {"expected-change":98,"changed-fail":83,"known-fail":33,"pass":15,"changed":20}
 
 ## Differences
 
@@ -629,10 +629,6 @@
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-011-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-011-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-011-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=Infinity, diffPixels=Infinity (dimension mismatch)
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-011-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0059] [WPT print-reftest] css/css-page/margin-boxes/dimensions-012-print.html
   triage: pending
@@ -675,16 +671,12 @@
 
 - [0062] [WPT print-reftest] css/css-page/margin-boxes/dimensions-015-print.tentative.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=ERROR, actual=FAIL)
   reference: css/css-page/margin-boxes/dimensions-015-print-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-015-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.34405532020456453, diffPixels=288478
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-015-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-015-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.34405532020456453, diffPixels=288478
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-015-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0063] [WPT print-reftest] css/css-page/margin-boxes/inapplicable-properties-print.html
   triage: pending
@@ -1117,7 +1109,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-background-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-background-001-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0025689832837188, diffPixels=2154
+  stable page 1: diffRatio=0.001514674452331883, diffPixels=1270
   stable page 2: diffRatio=0.0025689832837188, diffPixels=2154
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-background-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
@@ -2506,4 +2498,23 @@
   page 1: diffRatio=0.0019275169872715093, diffPixels=2578
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-size-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-size-012.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0058] [WPT print-reftest] css/css-page/margin-boxes/dimensions-011-print.html
+  triage: pending
+  side: stable-reference
+  reference: css/css-page/margin-boxes/dimensions-011-print-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-011-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-011-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0062] [WPT print-reftest] css/css-page/margin-boxes/dimensions-015-print.tentative.html
+  triage: pending
+  side: stable
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-015-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/margin-boxes/dimensions-015-print.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

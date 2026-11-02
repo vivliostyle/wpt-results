@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 22
-- Entries with differences: 20 (pending: 20, triaged: 0)
+- Entries with differences: 13 (pending: 13, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 5
-- Outcome summary: {"known-fail":15,"pass":2,"changed-fail":5}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":12,"pass":9,"changed-fail":1}
 
 ## Differences
 
@@ -133,38 +133,25 @@
   reference: css/css-image-animation/image-animation-img-running-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  canary page 1: diffRatio=0.00015743073047858942, diffPixels=132
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-running-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0012] [WPT reftest] css/css-image-animation/image-animation-img-stopped.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-image-animation/image-animation-img-stopped-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 1: diffRatio=0.011752442561636517, diffPixels=9854
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable page 1: diffRatio=0.005946588046713991, diffPixels=4986
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-img-stopped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0013] [WPT reftest] css/css-image-animation/image-animation-paused-exact-frame.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-image-animation/image-animation-paused-exact-frame-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-paused-exact-frame-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/css-image-animation/image-animation-pseudo-animated-image.html
   triage: pending
@@ -172,25 +159,12 @@
   reference: css/css-image-animation/image-animation-pseudo-animated-image-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0021467826883444013, diffPixels=1800
+  canary page 1: diffRatio=0.001192657049080223, diffPixels=1000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0021467826883444013, diffPixels=1800
+  stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-pseudo-animated-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0015] [WPT reftest] css/css-image-animation/image-animation-repeat-background-paused.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-image-animation/image-animation-repeat-background-paused-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-repeat-background-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0017] [WPT reftest] css/css-image-animation/image-animation-root-background-paused.html
   triage: pending
@@ -204,69 +178,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-root-background-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0018] [WPT reftest] css/css-image-animation/image-animation-stopped-reset-frame.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-image-animation/image-animation-stopped-reset-frame-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-stopped-reset-frame-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0019] [WPT reftest] css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007155942294481337, diffPixels=600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007155942294481337, diffPixels=600
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-normal-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0020] [WPT reftest] css/css-image-animation/image-animation-video-poster-paused.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-image-animation/image-animation-video-poster-paused-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00047706281963208914, diffPixels=400
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00047706281963208914, diffPixels=400
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-paused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0021] [WPT reftest] css/css-image-animation/image-animation-video-poster-running.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-image-animation/image-animation-video-poster-running-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00023853140981604457, diffPixels=200
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00023853140981604457, diffPixels=200
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-running-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0022] [WPT reftest] css/css-image-animation/image-animation-video-poster-stopped.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-image-animation/image-animation-video-poster-stopped-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00047706281963208914, diffPixels=400
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00047706281963208914, diffPixels=400
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-image-animation/image-animation-video-poster-stopped-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

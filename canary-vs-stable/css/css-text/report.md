@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1561
-- Entries with differences: 1475 (improvement: 58, pending: 1417, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
+- Entries with differences: 1475 (improvement: 60, pending: 1415, triaged: 0)
+- Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 2
 - Screenshot mismatches: 1447
-- Outcome summary: {"expected-change":1014,"changed-fail":370,"pass":86,"known-fail":28,"regression":3,"improvement":58,"changed":2}
+- Outcome summary: {"expected-change":1013,"changed-fail":368,"pass":86,"known-fail":28,"regression":4,"improvement":60,"changed":2}
 
 ## Differences
 
@@ -1301,7 +1301,7 @@
 
 - [0160] [WPT reftest] css/css-text/i18n/css3-text-line-break-opclns-101.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
+  outcome: regression (baseline=PASS, actual=FAIL)
   page 1: diffRatio=0.0029291657125410276, diffPixels=2456
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/i18n/css3-text-line-break-opclns-101.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/i18n/css3-text-line-break-opclns-101.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2830,13 +2830,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-break/line-break-normal-015a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0348] [WPT reftest] css/css-text/line-break/line-break-normal-015b.xht
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/line-break/reference/line-break-normal-015b-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-break/line-break-normal-015b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003387146019387833, diffPixels=2840
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-break/reference/line-break-normal-015b-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-break/line-break-normal-015b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.003387146019387833, diffPixels=2840
@@ -2954,13 +2950,9 @@
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-break/line-break-strict-015a.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0368] [WPT reftest] css/css-text/line-break/line-break-strict-015b.xht
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-text/line-break/reference/line-break-strict-015b-ref.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-break/line-break-strict-015b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003387146019387833, diffPixels=2840
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-break/reference/line-break-strict-015b-ref.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-break/line-break-strict-015b.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.003387146019387833, diffPixels=2840
@@ -7159,7 +7151,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-tailoring-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001209354247767346, diffPixels=1014
+  stable page 1: diffRatio=0.0012212808182581482, diffPixels=1024
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-tailoring-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0897] [WPT reftest] css/css-text/text-transform/text-transform-uppercase-101.xht
@@ -11202,7 +11194,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/white-space/reference/white-space-trim-inline-block-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/white-space-trim-inline-block.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000176513243263873, diffPixels=148
+  stable page 1: diffRatio=0.0001777059003129532, diffPixels=149
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/white-space/reference/white-space-trim-inline-block-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [1365] [WPT reftest] css/css-text/white-space/white-space-trim-interaction.html
@@ -12951,4 +12943,15 @@
   page 1: diffRatio=0.021901954049309214, diffPixels=18364
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/word-space-transform/word-space-transform-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/word-space-transform/word-space-transform-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0160] [WPT reftest] css/css-text/i18n/css3-text-line-break-opclns-101.html
+  triage: pending
+  side: canary-reference
+  reference: css/css-text/i18n/reference/css3-text-line-break-opclns-101-ref.html
+  timeout: false
+  error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-text/i18n/reference/css3-text-line-break-opclns-101-ref.html (502)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/i18n/css3-text-line-break-opclns-101.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/i18n/reference/css3-text-line-break-opclns-101-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

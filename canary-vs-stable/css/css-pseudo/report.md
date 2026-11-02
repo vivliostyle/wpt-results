@@ -2727,7 +2727,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2787,7 +2787,7 @@
   triage: pending
   side: canary, stable
   canary timeout: true
-  canary error: TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/target-text-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 500
-- Entries with differences: 312 (improvement: 1, pending: 311, triaged: 0)
+- Entries with differences: 311 (pending: 311, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 129
-- Outcome summary: {"known-fail":183,"expected-change":93,"pass":187,"changed-fail":33,"regression":2,"improvement":1,"error":1}
+- Screenshot mismatches: 128
+- Outcome summary: {"known-fail":183,"expected-change":93,"pass":188,"changed-fail":33,"regression":2,"error":1}
 
 ## Differences
 
@@ -2958,15 +2958,6 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/backdrop-filter-good-and-bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/backdrop-filter-good-and-bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0372] [WPT reftest] css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-after-load.tentative.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-after-load-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-after-load.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008587130753377605, diffPixels=7200
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-after-load-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0373] [WPT reftest] css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-while-loading.tentative.html
   triage: pending
   outcome: regression (baseline=PASS, actual=FAIL)
@@ -3107,11 +3098,11 @@
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004637050606823906, diffPixels=3888
+  canary page 1: diffRatio=0.0016554079841233495, diffPixels=1388
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0016554079841233495, diffPixels=1388
+  stable page 1: diffRatio=0.004637050606823906, diffPixels=3888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0404] [WPT reftest] css/css-masking/mask-image/mask-image-3e.html
@@ -3229,7 +3220,7 @@
 - [0423] [WPT reftest] css/css-masking/mask-image/mask-image-svg-child-will-change.html
   triage: pending
   outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001674490496908633, diffPixels=1404
+  page 1: diffRatio=0.001669719868712312, diffPixels=1400
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-child-will-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-child-will-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
