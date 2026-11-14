@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 500
-- Entries with differences: 311 (pending: 311, triaged: 0)
+- Compared entries: 501
+- Entries with differences: 219 (improvement: 1, pending: 218, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 128
-- Outcome summary: {"known-fail":183,"expected-change":93,"pass":188,"changed-fail":33,"regression":2,"error":1}
+- Screenshot mismatches: 5
+- Outcome summary: {"known-fail":214,"pass":281,"regression":2,"changed-fail":2,"improvement":1,"error":1}
 
 ## Differences
 
@@ -23,27 +23,6 @@
   stable page 1: diffRatio=0.039257499427524614, diffPixels=32916
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/animations/clip-path-interpolation-shape-arc-direction-agnostic-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0002] [WPT reftest] css/css-masking/clip/clip-absolute-positioned-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015504541638042897, diffPixels=1300
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-absolute-positioned-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-absolute-positioned-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0003] [WPT reftest] css/css-masking/clip/clip-absolute-positioned-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015504541638042897, diffPixels=1300
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-absolute-positioned-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-absolute-positioned-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0004] [WPT reftest] css/css-masking/clip/clip-filter-order.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00668961338829097, diffPixels=5609
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-filter-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-filter-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0005] [WPT reftest] css/css-masking/clip/clip-fixed-pos-transform-descendant-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -57,156 +36,9 @@
   stable page 1: diffRatio=0.002379350812915045, diffPixels=1995
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-fixed-pos-transform-descendant-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0006] [WPT reftest] css/css-masking/clip/clip-negative-values-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002027516983436379, diffPixels=1700
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-negative-values-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-negative-values-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0007] [WPT reftest] css/css-masking/clip/clip-negative-values-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002027516983436379, diffPixels=1700
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-negative-values-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-negative-values-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0008] [WPT reftest] css/css-masking/clip/clip-negative-values-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012630238149759561, diffPixels=1059
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-negative-values-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-negative-values-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0009] [WPT reftest] css/css-masking/clip/clip-negative-values-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0020513701244179836, diffPixels=1720
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-negative-values-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-negative-values-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0010] [WPT reftest] css/css-masking/clip/clip-no-clipping-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002658432562399817, diffPixels=2229
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-no-clipping-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-no-clipping-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0011] [WPT reftest] css/css-masking/clip/clip-no-clipping-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002658432562399817, diffPixels=2229
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-no-clipping-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-no-clipping-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0012] [WPT reftest] css/css-masking/clip/clip-no-stacking-context.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012713724143195175, diffPixels=1066
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-no-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-no-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0013] [WPT reftest] css/css-masking/clip/clip-not-absolute-positioned-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002658432562399817, diffPixels=2229
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-not-absolute-positioned-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-not-absolute-positioned-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0014] [WPT reftest] css/css-masking/clip/clip-not-absolute-positioned-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002658432562399817, diffPixels=2229
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-not-absolute-positioned-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-not-absolute-positioned-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0016] [WPT reftest] css/css-masking/clip/clip-not-absolute-positioned-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002658432562399817, diffPixels=2229
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-not-absolute-positioned-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-not-absolute-positioned-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0017] [WPT reftest] css/css-masking/clip/clip-rect-auto-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0034420082436455233, diffPixels=2886
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0018] [WPT reftest] css/css-masking/clip/clip-rect-auto-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002658432562399817, diffPixels=2229
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0019] [WPT reftest] css/css-masking/clip/clip-rect-auto-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0023089840470193117, diffPixels=1936
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0020] [WPT reftest] css/css-masking/clip/clip-rect-auto-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0022135714830928935, diffPixels=1856
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0021] [WPT reftest] css/css-masking/clip/clip-rect-auto-005.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002332837188000916, diffPixels=1956
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0022] [WPT reftest] css/css-masking/clip/clip-rect-auto-006.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002232653995878177, diffPixels=1872
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-auto-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0023] [WPT reftest] css/css-masking/clip/clip-rect-comma-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015504541638042897, diffPixels=1300
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-comma-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-comma-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0024] [WPT reftest] css/css-masking/clip/clip-rect-comma-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002658432562399817, diffPixels=2229
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-comma-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-comma-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0025] [WPT reftest] css/css-masking/clip/clip-rect-comma-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002658432562399817, diffPixels=2229
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-comma-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-comma-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0026] [WPT reftest] css/css-masking/clip/clip-rect-comma-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002658432562399817, diffPixels=2229
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-comma-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-comma-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0027] [WPT reftest] css/css-masking/clip/clip-rect-scroll.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003930997633768415, diffPixels=3296
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-rect-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-rect-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0028] [WPT reftest] css/css-masking/clip/clip-transform-order-2.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip/clip-filter-order-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-transform-order-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -216,13 +48,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-transform-order-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-filter-order-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0029] [WPT reftest] css/css-masking/clip/clip-transform-order.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00668961338829097, diffPixels=5609
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip/clip-transform-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip/clip-transform-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0031] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-circle-0-percent.html
   triage: pending
@@ -432,13 +257,6 @@
   stable page 1: diffRatio=0.00872309365697275, diffPixels=7314
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-fragmented-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0048] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-geometry-box-delay.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013787115487367376, diffPixels=1156
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-geometry-box-delay.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-geometry-box-delay.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0051] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-inherit.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -478,7 +296,20 @@
   stable page 1: diffRatio=0.006001450270971682, diffPixels=5032
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-inset-rounded-100-percent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0055] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-missing-0-percent.html
+- [0055] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-linear-easing.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-masking/clip-path/animations/clip-path-animation-linear-easing-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-linear-easing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.041504465307991754, diffPixels=34800
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-linear-easing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-linear-easing.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.041504465307991754, diffPixels=34800
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-linear-easing-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0056] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-missing-0-percent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-missing-0-percent-ref.html (==)
@@ -491,7 +322,7 @@
   stable page 1: diffRatio=0.0006559613769941226, diffPixels=550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-missing-0-percent-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0056] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-mixed-calc.html
+- [0057] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-mixed-calc.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-mixed-calc-ref.html (==)
@@ -504,7 +335,7 @@
   stable page 1: diffRatio=0.008799423708113884, diffPixels=7378
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-mixed-calc-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0057] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-mixed-interpolation.html
+- [0058] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-mixed-interpolation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-ref.html (==)
@@ -517,7 +348,7 @@
   stable page 1: diffRatio=0.007229887031524311, diffPixels=6062
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0058] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-neutral-keyframe-svg-smil.html
+- [0059] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-neutral-keyframe-svg-smil.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-neutral-keyframe-svg-smil-ref.html (==)
@@ -530,9 +361,9 @@
   stable page 1: diffRatio=0.005646038470345775, diffPixels=4734
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-neutral-keyframe-svg-smil-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0059] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-no-inherit-clip-after-remove.html
+- [0060] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-no-inherit-clip-after-remove.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-no-inherit-clip-after-remove-ref.html?force-repaint (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-no-inherit-clip-after-remove.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -543,7 +374,7 @@
   stable page 1: diffRatio=0.01598876039996947, diffPixels=13406
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-no-inherit-clip-after-remove-ref.html?force-repaint&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0061] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-none-backdrop-filter-subpixel-offset.html
+- [0062] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-none-backdrop-filter-subpixel-offset.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-none-backdrop-filter-subpixel-offset-ref.html (==)
@@ -556,7 +387,7 @@
   stable page 1: diffRatio=0.0023686168994733227, diffPixels=1986
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-none-backdrop-filter-subpixel-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0063] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-offset-position-not-stuck.html
+- [0064] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-offset-position-not-stuck.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-ref.html (==)
@@ -569,7 +400,7 @@
   stable page 1: diffRatio=0.007229887031524311, diffPixels=6062
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0065] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-path.html
+- [0066] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-path.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-path-ref.html (==)
@@ -582,7 +413,7 @@
   stable page 1: diffRatio=0.02626350087779559, diffPixels=22021
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-path-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0066] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-polygon-mixed-change.html
+- [0067] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-polygon-mixed-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-polygon-ref.html (==)
@@ -595,7 +426,7 @@
   stable page 1: diffRatio=0.008014655369819098, diffPixels=6720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-polygon-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0067] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-polygon.html
+- [0068] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-polygon.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-polygon-ref.html (==)
@@ -608,9 +439,9 @@
   stable page 1: diffRatio=0.008014655369819098, diffPixels=6720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-polygon-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0068] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-reference-delay.html
+- [0069] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-reference-delay.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-non-shape-delay-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-reference-delay.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -618,10 +449,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-non-shape-delay-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-reference-delay.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0000942199068773376, diffPixels=79
+  stable page 1: diffRatio=0.0000989905350736585, diffPixels=83
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-non-shape-delay-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0075] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-set-effect.html
+- [0076] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-set-effect.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-ref.html (==)
@@ -634,7 +465,7 @@
   stable page 1: diffRatio=0.007229887031524311, diffPixels=6062
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0077] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-svg-zoom.html
+- [0078] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-svg-zoom.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-svg-zoom-ref.html (==)
@@ -647,7 +478,7 @@
   stable page 1: diffRatio=0.004359161514388215, diffPixels=3655
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-svg-zoom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0078] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-svg.html
+- [0079] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-svg.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-svg-ref.html (==)
@@ -660,7 +491,7 @@
   stable page 1: diffRatio=0.0026679738187924584, diffPixels=2237
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-svg-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0079] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-three-keyframes1.html
+- [0080] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-three-keyframes1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-three-keyframes1-ref.html (==)
@@ -673,7 +504,7 @@
   stable page 1: diffRatio=0.010457217006335394, diffPixels=8768
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-three-keyframes1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0082] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-view-transition-mixed-change.html
+- [0083] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-view-transition-mixed-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-view-transition-mixed-change-ref.html (==)
@@ -686,7 +517,7 @@
   stable page 1: diffRatio=0.013834821769330586, diffPixels=11600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-view-transition-mixed-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0083] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-zero-duration.html
+- [0084] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-zero-duration.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-zero-duration-ref.html (==)
@@ -699,7 +530,7 @@
   stable page 1: diffRatio=0.004045492710480116, diffPixels=3392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-zero-duration-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0084] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-zoom.html
+- [0085] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation-zoom.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-zoom-ref.html (==)
@@ -712,7 +543,7 @@
   stable page 1: diffRatio=0.007229887031524311, diffPixels=6062
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-zoom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0085] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation.html
+- [0086] [WPT reftest] css/css-masking/clip-path/animations/clip-path-animation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-animation-ref.html (==)
@@ -725,7 +556,7 @@
   stable page 1: diffRatio=0.007229887031524311, diffPixels=6062
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-animation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0088] [WPT reftest] css/css-masking/clip-path/animations/clip-path-path-interpolation-with-zoom.html
+- [0089] [WPT reftest] css/css-masking/clip-path/animations/clip-path-path-interpolation-with-zoom.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-path-interpolation-with-zoom-ref.html (==)
@@ -738,7 +569,7 @@
   stable page 1: diffRatio=0.06628191550263339, diffPixels=55575
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-path-interpolation-with-zoom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0089] [WPT reftest] css/css-masking/clip-path/animations/clip-path-rect-interpolation-001.html
+- [0090] [WPT reftest] css/css-masking/clip-path/animations/clip-path-rect-interpolation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-xywh-interpolation-001-ref.html (==)
@@ -751,7 +582,7 @@
   stable page 1: diffRatio=0.0044748492481489965, diffPixels=3752
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-xywh-interpolation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0090] [WPT reftest] css/css-masking/clip-path/animations/clip-path-shape-arc-interpolation.html
+- [0091] [WPT reftest] css/css-masking/clip-path/animations/clip-path-shape-arc-interpolation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-shape-arc-interpolation-ref.html (==)
@@ -764,7 +595,7 @@
   stable page 1: diffRatio=0.03630209525990383, diffPixels=30438
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-shape-arc-interpolation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0095] [WPT reftest] css/css-masking/clip-path/animations/clip-path-shape-interpolation-with-zoom.html
+- [0096] [WPT reftest] css/css-masking/clip-path/animations/clip-path-shape-interpolation-with-zoom.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-path-interpolation-with-zoom-ref.html (==)
@@ -777,7 +608,7 @@
   stable page 1: diffRatio=0.06628191550263339, diffPixels=55575
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-path-interpolation-with-zoom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0096] [WPT reftest] css/css-masking/clip-path/animations/clip-path-shape-transition-with-zoom.html
+- [0097] [WPT reftest] css/css-masking/clip-path/animations/clip-path-shape-transition-with-zoom.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-shape-transition-with-zoom-ref.html (==)
@@ -790,7 +621,7 @@
   stable page 1: diffRatio=0.002504579803068468, diffPixels=2100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-shape-transition-with-zoom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0101] [WPT reftest] css/css-masking/clip-path/animations/clip-path-xywh-interpolation-001.html
+- [0102] [WPT reftest] css/css-masking/clip-path/animations/clip-path-xywh-interpolation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/clip-path-xywh-interpolation-001-ref.html (==)
@@ -803,7 +634,7 @@
   stable page 1: diffRatio=0.0044748492481489965, diffPixels=3752
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/clip-path-xywh-interpolation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0102] [WPT reftest] css/css-masking/clip-path/animations/two-clip-path-animation-diff-length1.html
+- [0103] [WPT reftest] css/css-masking/clip-path/animations/two-clip-path-animation-diff-length1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/two-clip-path-animation-diff-length1-ref.html (==)
@@ -816,7 +647,7 @@
   stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/two-clip-path-animation-diff-length1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0103] [WPT reftest] css/css-masking/clip-path/animations/two-clip-path-animation-diff-length2.html
+- [0104] [WPT reftest] css/css-masking/clip-path/animations/two-clip-path-animation-diff-length2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/two-clip-path-animation-diff-length2-ref.html (==)
@@ -829,7 +660,7 @@
   stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/two-clip-path-animation-diff-length2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0104] [WPT reftest] css/css-masking/clip-path/animations/two-clip-path-animation-diff-length3.html
+- [0105] [WPT reftest] css/css-masking/clip-path/animations/two-clip-path-animation-diff-length3.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/animations/two-clip-path-animation-diff-length3-ref.html (==)
@@ -842,86 +673,9 @@
   stable page 1: diffRatio=0.0023686168994733227, diffPixels=1986
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/animations/two-clip-path-animation-diff-length3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0113] [WPT reftest] css/css-masking/clip-path/clip-path-circle-001.html
+- [0125] [WPT reftest] css/css-masking/clip-path/clip-path-circle-farthest-corner.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011139416838409281, diffPixels=934
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0114] [WPT reftest] css/css-masking/clip-path/clip-path-circle-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011139416838409281, diffPixels=934
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0115] [WPT reftest] css/css-masking/clip-path/clip-path-circle-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011139416838409281, diffPixels=934
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0116] [WPT reftest] css/css-masking/clip-path/clip-path-circle-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011139416838409281, diffPixels=934
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0117] [WPT reftest] css/css-masking/clip-path/clip-path-circle-005.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011139416838409281, diffPixels=934
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0118] [WPT reftest] css/css-masking/clip-path/clip-path-circle-006.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011139416838409281, diffPixels=934
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0119] [WPT reftest] css/css-masking/clip-path/clip-path-circle-007.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011151343408900083, diffPixels=935
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0120] [WPT reftest] css/css-masking/clip-path/clip-path-circle-008.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011139416838409281, diffPixels=934
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0121] [WPT reftest] css/css-masking/clip-path/clip-path-circle-009.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011139416838409281, diffPixels=934
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0122] [WPT reftest] css/css-masking/clip-path/clip-path-circle-010.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013727482634913366, diffPixels=1151
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0123] [WPT reftest] css/css-masking/clip-path/clip-path-circle-closest-corner.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0008766029310739638, diffPixels=735
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-closest-corner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-closest-corner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0124] [WPT reftest] css/css-masking/clip-path/clip-path-circle-farthest-corner.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-circle-4-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-circle-farthest-corner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -932,7 +686,7 @@
   stable page 1: diffRatio=0.13694326768948936, diffPixels=114822
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-circle-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0126] [WPT reftest] css/css-masking/clip-path/clip-path-columns-shape-002.html
+- [0127] [WPT reftest] css/css-masking/clip-path/clip-path-columns-shape-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-columns-shape-002-ref.html (==)
@@ -945,7 +699,7 @@
   stable page 1: diffRatio=0.0022660483932524234, diffPixels=1900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-columns-shape-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0130] [WPT reftest] css/css-masking/clip-path/clip-path-contentBox-1d.html
+- [0131] [WPT reftest] css/css-masking/clip-path/clip-path-contentBox-1d.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-100x100.html (==)
@@ -958,7 +712,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0131] [WPT reftest] css/css-masking/clip-path/clip-path-contentBox-1e.html
+- [0132] [WPT reftest] css/css-masking/clip-path/clip-path-contentBox-1e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-circle-100x100.html (==)
@@ -971,7 +725,7 @@
   stable page 1: diffRatio=0.0022922868483321885, diffPixels=1922
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0132] [WPT reftest] css/css-masking/clip-path/clip-path-descendant-text-mutated-001.html
+- [0133] [WPT reftest] css/css-masking/clip-path/clip-path-descendant-text-mutated-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-descendant-text-mutated-001-ref.html (==)
@@ -984,7 +738,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-descendant-text-mutated-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0133] [WPT reftest] css/css-masking/clip-path/clip-path-document-element-will-change.html
+- [0134] [WPT reftest] css/css-masking/clip-path/clip-path-document-element-will-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-document-element-ref.html (==)
@@ -997,7 +751,7 @@
   stable page 1: diffRatio=0.6312542935653767, diffPixels=529284
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-document-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0134] [WPT reftest] css/css-masking/clip-path/clip-path-document-element.html
+- [0135] [WPT reftest] css/css-masking/clip-path/clip-path-document-element.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-document-element-ref.html (==)
@@ -1010,9 +764,9 @@
   stable page 1: diffRatio=0.6312542935653767, diffPixels=529284
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-document-element-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0135] [WPT reftest] css/css-masking/clip-path/clip-path-element-userSpaceOnUse-001.html
+- [0136] [WPT reftest] css/css-masking/clip-path/clip-path-element-userSpaceOnUse-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-rectangle-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1023,9 +777,9 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-rectangle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0136] [WPT reftest] css/css-masking/clip-path/clip-path-element-userSpaceOnUse-002.html
+- [0137] [WPT reftest] css/css-masking/clip-path/clip-path-element-userSpaceOnUse-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-rectangle-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1036,9 +790,9 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-rectangle-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0137] [WPT reftest] css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html
+- [0138] [WPT reftest] css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-ref-right-green-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1049,9 +803,9 @@
   stable page 1: diffRatio=0.3187626421647203, diffPixels=267271
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ref-right-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0138] [WPT reftest] css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html
+- [0139] [WPT reftest] css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-ref-bottom-green-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-element-userSpaceOnUse-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1062,65 +816,9 @@
   stable page 1: diffRatio=0.31724677505533927, diffPixels=266000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ref-bottom-green-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0139] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-001.html
+- [0148] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-closest-farthest-corner.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011652259369513778, diffPixels=977
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0140] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011652259369513778, diffPixels=977
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0141] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011139416838409281, diffPixels=934
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0142] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011652259369513778, diffPixels=977
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0143] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-005.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011652259369513778, diffPixels=977
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0144] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-006.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011652259369513778, diffPixels=977
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0145] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-007.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011652259369513778, diffPixels=977
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0146] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-008.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011652259369513778, diffPixels=977
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0147] [WPT reftest] css/css-masking/clip-path/clip-path-ellipse-closest-farthest-corner.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-ellipse-2-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-ellipse-closest-farthest-corner.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1131,14 +829,7 @@
   stable page 1: diffRatio=0.1588798087932219, diffPixels=133215
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-ellipse-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0150] [WPT reftest] css/css-masking/clip-path/clip-path-filter-order.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00668961338829097, diffPixels=5609
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-filter-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-filter-order.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0152] [WPT reftest] css/css-masking/clip-path/clip-path-fixed-nested.html
+- [0153] [WPT reftest] css/css-masking/clip-path/clip-path-fixed-nested.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/clip-path-fixed-nested-ref.html (==)
@@ -1151,7 +842,7 @@
   stable page 1: diffRatio=0.001006602549423708, diffPixels=844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-fixed-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0154] [WPT reftest] css/css-masking/clip-path/clip-path-foreignobject-non-zero-xy.html
+- [0155] [WPT reftest] css/css-masking/clip-path/clip-path-foreignobject-non-zero-xy.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-100x100.html (==)
@@ -1164,84 +855,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0156] [WPT reftest] css/css-masking/clip-path/clip-path-inline-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015540321349515303, diffPixels=1303
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0157] [WPT reftest] css/css-masking/clip-path/clip-path-inline-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0158] [WPT reftest] css/css-masking/clip-path/clip-path-inline-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0159] [WPT reftest] css/css-masking/clip-path/clip-path-inline-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012940328982520418, diffPixels=1085
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0160] [WPT reftest] css/css-masking/clip-path/clip-path-inline-005.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012940328982520418, diffPixels=1085
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0161] [WPT reftest] css/css-masking/clip-path/clip-path-inline-006.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012940328982520418, diffPixels=1085
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0162] [WPT reftest] css/css-masking/clip-path/clip-path-inline-007.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012940328982520418, diffPixels=1085
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0163] [WPT reftest] css/css-masking/clip-path/clip-path-inline-008.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012940328982520418, diffPixels=1085
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0164] [WPT reftest] css/css-masking/clip-path/clip-path-inline-009.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012940328982520418, diffPixels=1085
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0165] [WPT reftest] css/css-masking/clip-path/clip-path-inline-010.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0012940328982520418, diffPixels=1085
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-inline-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0168] [WPT reftest] css/css-masking/clip-path/clip-path-localRef-1.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0014311884588962675, diffPixels=1200
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-localRef-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-localRef-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0173] [WPT reftest] css/css-masking/clip-path/clip-path-mix-blend-mode-1.html
+- [0174] [WPT reftest] css/css-masking/clip-path/clip-path-mix-blend-mode-1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/clip-path-mix-blend-mode-1-ref.html (==)
@@ -1254,7 +868,7 @@
   stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-mix-blend-mode-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0174] [WPT reftest] css/css-masking/clip-path/clip-path-nested-clippath-zoom.html
+- [0175] [WPT reftest] css/css-masking/clip-path/clip-path-nested-clippath-zoom.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-100x100.html (==)
@@ -1267,9 +881,9 @@
   stable page 1: diffRatio=0.03768796275093504, diffPixels=31600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0175] [WPT reftest] css/css-masking/clip-path/clip-path-on-fixed-position-scroll.html
+- [0176] [WPT reftest] css/css-masking/clip-path/clip-path-on-fixed-position-scroll.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/clip-path-on-fixed-position-scroll-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-on-fixed-position-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1280,7 +894,7 @@
   stable page 1: diffRatio=0.0002635772078467293, diffPixels=221
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-on-fixed-position-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0179] [WPT reftest] css/css-masking/clip-path/clip-path-paddingBox-1d.html
+- [0180] [WPT reftest] css/css-masking/clip-path/clip-path-paddingBox-1d.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-100x100.html (==)
@@ -1293,7 +907,7 @@
   stable page 1: diffRatio=0.0036638424547744447, diffPixels=3072
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0180] [WPT reftest] css/css-masking/clip-path/clip-path-paddingBox-1e.html
+- [0181] [WPT reftest] css/css-masking/clip-path/clip-path-paddingBox-1e.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-circle-100x100.html (==)
@@ -1306,9 +920,9 @@
   stable page 1: diffRatio=0.0022684337073505837, diffPixels=1902
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0181] [WPT reftest] css/css-masking/clip-path/clip-path-path-001.html
+- [0182] [WPT reftest] css/css-masking/clip-path/clip-path-path-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-path-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-path-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1319,9 +933,9 @@
   stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0182] [WPT reftest] css/css-masking/clip-path/clip-path-path-002.html
+- [0183] [WPT reftest] css/css-masking/clip-path/clip-path-path-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-path-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-path-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1332,139 +946,7 @@
   stable page 1: diffRatio=0.00727520799938936, diffPixels=6100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0185] [WPT reftest] css/css-masking/clip-path/clip-path-path-with-zoom-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-masking/clip-path/reference/clip-path-path-with-zoom-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-path-with-zoom-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02385314098160446, diffPixels=20000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-with-zoom-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-path-with-zoom-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-with-zoom-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0186] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015277936798717656, diffPixels=1281
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0187] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015277936798717656, diffPixels=1281
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0188] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015277936798717656, diffPixels=1281
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0189] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0030257709335165255, diffPixels=2537
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0190] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-005.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0030257709335165255, diffPixels=2537
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0191] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-006.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015504541638042897, diffPixels=1300
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0192] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-007.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004410445767498664, diffPixels=3698
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0193] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-008.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003933382947866575, diffPixels=3298
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0194] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-009.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013119227539882452, diffPixels=1100
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0195] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-010.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004410445767498664, diffPixels=3698
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0196] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-011.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004410445767498664, diffPixels=3698
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0197] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-012.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.004410445767498664, diffPixels=3698
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0198] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-013.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.03236751965498817, diffPixels=27139
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0199] [WPT reftest] css/css-masking/clip-path/clip-path-polygon-014.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0017889855736203343, diffPixels=1500
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-polygon-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0200] [WPT reftest] css/css-masking/clip-path/clip-path-rect-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015277936798717656, diffPixels=1281
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-rect-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-rect-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0201] [WPT reftest] css/css-masking/clip-path/clip-path-rect-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015277936798717656, diffPixels=1281
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-rect-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-rect-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0202] [WPT reftest] css/css-masking/clip-path/clip-path-rect-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001579077932982215, diffPixels=1324
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-rect-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-rect-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0208] [WPT reftest] css/css-masking/clip-path/clip-path-reference-restore.html
+- [0209] [WPT reftest] css/css-masking/clip-path/clip-path-reference-restore.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-reference-restore-ref.html (==)
@@ -1477,16 +959,9 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-reference-restore-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0211] [WPT reftest] css/css-masking/clip-path/clip-path-scaled-video.html
+- [0213] [WPT reftest] css/css-masking/clip-path/clip-path-scroll.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0005009159606136936, diffPixels=420
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-scaled-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-scaled-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0212] [WPT reftest] css/css-masking/clip-path/clip-path-scroll.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-scroll-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1497,9 +972,9 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0213] [WPT reftest] css/css-masking/clip-path/clip-path-shape-001.html
+- [0214] [WPT reftest] css/css-masking/clip-path/clip-path-shape-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-path-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-shape-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1510,9 +985,9 @@
   stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0214] [WPT reftest] css/css-masking/clip-path/clip-path-shape-002-units.html
+- [0215] [WPT reftest] css/css-masking/clip-path/clip-path-shape-002-units.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-path-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-shape-002-units.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1520,12 +995,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-shape-002-units.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0072155751469353486, diffPixels=6050
+  stable page 1: diffRatio=0.00727520799938936, diffPixels=6100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0215] [WPT reftest] css/css-masking/clip-path/clip-path-shape-002.html
+- [0216] [WPT reftest] css/css-masking/clip-path/clip-path-shape-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-path-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-shape-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1536,9 +1011,9 @@
   stable page 1: diffRatio=0.00727520799938936, diffPixels=6100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0218] [WPT reftest] css/css-masking/clip-path/clip-path-shape-005.html
+- [0219] [WPT reftest] css/css-masking/clip-path/clip-path-shape-005.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-path-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-shape-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1549,9 +1024,9 @@
   stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0219] [WPT reftest] css/css-masking/clip-path/clip-path-shape-006.html
+- [0220] [WPT reftest] css/css-masking/clip-path/clip-path-shape-006.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-path-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-shape-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1562,7 +1037,7 @@
   stable page 1: diffRatio=0.004293565376688803, diffPixels=3600
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0220] [WPT reftest] css/css-masking/clip-path/clip-path-shape-007.html
+- [0221] [WPT reftest] css/css-masking/clip-path/clip-path-shape-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html (==)
@@ -1575,7 +1050,7 @@
   stable page 1: diffRatio=0.025921208304709564, diffPixels=21734
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0221] [WPT reftest] css/css-masking/clip-path/clip-path-shape-008.html
+- [0222] [WPT reftest] css/css-masking/clip-path/clip-path-shape-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html (==)
@@ -1588,7 +1063,7 @@
   stable page 1: diffRatio=0.025921208304709564, diffPixels=21734
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0222] [WPT reftest] css/css-masking/clip-path/clip-path-shape-009.html
+- [0223] [WPT reftest] css/css-masking/clip-path/clip-path-shape-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html (==)
@@ -1601,7 +1076,7 @@
   stable page 1: diffRatio=0.025921208304709564, diffPixels=21734
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0223] [WPT reftest] css/css-masking/clip-path/clip-path-shape-010.html
+- [0224] [WPT reftest] css/css-masking/clip-path/clip-path-shape-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html (==)
@@ -1614,9 +1089,9 @@
   stable page 1: diffRatio=0.025921208304709564, diffPixels=21734
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-shape-control-points-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0232] [WPT reftest] css/css-masking/clip-path/clip-path-shape-winding.html
+- [0233] [WPT reftest] css/css-masking/clip-path/clip-path-shape-winding.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-path-winding-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-shape-winding.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1627,14 +1102,7 @@
   stable page 1: diffRatio=0.00727520799938936, diffPixels=6100
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-path-winding-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0233] [WPT reftest] css/css-masking/clip-path/clip-path-stacking-context-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0020358655827799406, diffPixels=1707
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-stacking-context-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-stacking-context-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0238] [WPT reftest] css/css-masking/clip-path/clip-path-svg-text-backdrop-filter.html
+- [0239] [WPT reftest] css/css-masking/clip-path/clip-path-svg-text-backdrop-filter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/clip-path-svg-text-backdrop-filter-ref.html (==)
@@ -1647,7 +1115,7 @@
   stable page 1: diffRatio=0.13047429585527823, diffPixels=109398
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-svg-text-backdrop-filter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0240] [WPT reftest] css/css-masking/clip-path/clip-path-svg-text-font-loading.html
+- [0241] [WPT reftest] css/css-masking/clip-path/clip-path-svg-text-font-loading.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-100x100.html (==)
@@ -1660,9 +1128,9 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0243] [WPT reftest] css/css-masking/clip-path/clip-path-union-trailing-moveto.html
+- [0244] [WPT reftest] css/css-masking/clip-path/clip-path-union-trailing-moveto.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/clip-path-union-trailing-moveto-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-union-trailing-moveto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1673,7 +1141,7 @@
   stable page 1: diffRatio=0.02981642622700557, diffPixels=25000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-union-trailing-moveto-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0247] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-empty-while-loading.tentative.html
+- [0248] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-empty-while-loading.tentative.html
   triage: pending
   outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-100x100.html (==)
@@ -1682,7 +1150,7 @@
   canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0248] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-external-svg-element.html
+- [0249] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-external-svg-element.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-circle-100x100.html (==)
@@ -1695,7 +1163,7 @@
   stable page 1: diffRatio=0.009122633768414625, diffPixels=7649
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-circle-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0250] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-svg-foreignobject-zoomed.html
+- [0251] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-svg-foreignobject-zoomed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/green-100x100.html (==)
@@ -1708,9 +1176,9 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0251] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-text-clip-no-inherit-after-remove.html
+- [0252] [WPT reftest] css/css-masking/clip-path/clip-path-url-reference-text-clip-no-inherit-after-remove.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/clip-path-url-reference-text-clip-no-inherit-after-remove-ref.html?force-repaint (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-url-reference-text-clip-no-inherit-after-remove.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1721,7 +1189,7 @@
   stable page 1: diffRatio=0.01598876039996947, diffPixels=13406
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-url-reference-text-clip-no-inherit-after-remove-ref.html?force-repaint&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0256] [WPT reftest] css/css-masking/clip-path/clip-path-with-transform-and-zoom.html
+- [0257] [WPT reftest] css/css-masking/clip-path/clip-path-with-transform-and-zoom.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/clip-path-with-transform-and-zoom-ref.html (==)
@@ -1734,28 +1202,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/clip-path-with-transform-and-zoom-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0257] [WPT reftest] css/css-masking/clip-path/clip-path-xywh-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015277936798717656, diffPixels=1281
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-xywh-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-xywh-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0258] [WPT reftest] css/css-masking/clip-path/clip-path-xywh-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015277936798717656, diffPixels=1281
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-xywh-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-xywh-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0259] [WPT reftest] css/css-masking/clip-path/clip-path-xywh-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001579077932982215, diffPixels=1324
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-xywh-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-xywh-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0260] [WPT reftest] css/css-masking/clip-path/reference-local-url-with-base-001.html
+- [0261] [WPT reftest] css/css-masking/clip-path/reference-local-url-with-base-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path/reference/reference-local-url-with-base-001-ref.html (==)
@@ -1768,7 +1215,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/reference/reference-local-url-with-base-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0266] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-nested-twice.svg
+- [0267] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-nested-twice.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -1781,7 +1228,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0267] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-001.svg
+- [0268] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-hole-001-ref.svg (==)
@@ -1794,7 +1241,7 @@
   stable page 1: diffRatio=0.025343962292954738, diffPixels=21250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-hole-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0268] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-002.svg
+- [0269] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg (==)
@@ -1807,7 +1254,7 @@
   stable page 1: diffRatio=0.013417391802152507, diffPixels=11250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0269] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-003.svg
+- [0270] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-hole-001-ref.svg (==)
@@ -1820,7 +1267,7 @@
   stable page 1: diffRatio=0.025343962292954738, diffPixels=21250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-hole-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0270] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-004.svg
+- [0271] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg (==)
@@ -1833,7 +1280,7 @@
   stable page 1: diffRatio=0.013417391802152507, diffPixels=11250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0271] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-005.svg
+- [0272] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-005.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-001-ref.svg (==)
@@ -1846,7 +1293,7 @@
   stable page 1: diffRatio=0.008199517212426533, diffPixels=6875
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0272] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-006.svg
+- [0273] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-006.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-002-ref.svg (==)
@@ -1859,7 +1306,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0273] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-007.svg
+- [0274] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-007.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-003-ref.svg (==)
@@ -1872,7 +1319,7 @@
   stable page 1: diffRatio=0.0052178745897259755, diffPixels=4375
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0274] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-008.svg
+- [0275] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-008.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-004-ref.svg (==)
@@ -1885,7 +1332,7 @@
   stable page 1: diffRatio=0.013417391802152507, diffPixels=11250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-004-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0275] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-009.svg
+- [0276] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-009.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg (==)
@@ -1898,7 +1345,7 @@
   stable page 1: diffRatio=0.013417391802152507, diffPixels=11250
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0276] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-010.svg
+- [0277] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip-rule-010.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-001-ref.svg (==)
@@ -1911,7 +1358,7 @@
   stable page 1: diffRatio=0.008199517212426533, diffPixels=6875
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-clip-rule-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0277] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip.svg
+- [0278] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-clip.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -1924,7 +1371,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0278] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-clip-001.svg
+- [0279] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-clip-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -1937,7 +1384,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0279] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-clip-002.svg
+- [0280] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-clip-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -1950,7 +1397,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0280] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-clip-003.svg
+- [0281] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-clip-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -1963,7 +1410,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0281] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-clip-004.svg
+- [0282] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-clip-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-content-clip-004-ref.svg (==)
@@ -1976,7 +1423,7 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-content-clip-004-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0282] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-invisible.svg
+- [0283] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-invisible.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg (==)
@@ -1989,7 +1436,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0283] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-syling.svg
+- [0284] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-syling.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2002,7 +1449,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0284] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-001.svg
+- [0285] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2015,7 +1462,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0285] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-002.svg
+- [0286] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2028,7 +1475,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0286] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-003.svg
+- [0287] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2041,7 +1488,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0287] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-004.svg
+- [0288] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2054,7 +1501,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0288] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-005.svg
+- [0289] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-005.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2067,7 +1514,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0289] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-006.svg
+- [0290] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-006.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2080,7 +1527,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0290] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-007.svg
+- [0291] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-content-use-007.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg (==)
@@ -2093,7 +1540,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0291] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-css-transform-001.svg
+- [0292] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-css-transform-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2106,7 +1553,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0292] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-css-transform-002.svg
+- [0293] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-css-transform-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2119,7 +1566,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0293] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-css-transform-003.svg
+- [0294] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-css-transform-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg (==)
@@ -2132,7 +1579,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0294] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-css-transform-004.svg
+- [0295] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-css-transform-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg (==)
@@ -2145,7 +1592,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0295] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-dom-child-changes.svg
+- [0296] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-dom-child-changes.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg (==)
@@ -2158,7 +1605,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0296] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-dom-clippathunits.svg
+- [0297] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-dom-clippathunits.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg (==)
@@ -2171,7 +1618,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0298] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-dom-id.svg
+- [0299] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-dom-id.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg (==)
@@ -2184,7 +1631,7 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0302] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-invalid.svg
+- [0303] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-invalid.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg (==)
@@ -2197,7 +1644,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0303] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-negative-scale.svg
+- [0304] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-negative-scale.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-negative-scale-ref.svg (==)
@@ -2210,7 +1657,7 @@
   stable page 1: diffRatio=0.027908174948477214, diffPixels=23400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-negative-scale-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0304] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-no-content-001.svg
+- [0305] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-no-content-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg (==)
@@ -2223,7 +1670,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0305] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-no-content-002.svg
+- [0306] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-no-content-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg (==)
@@ -2236,7 +1683,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0306] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-no-content-003.svg
+- [0307] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-no-content-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg (==)
@@ -2249,7 +1696,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0307] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-no-content-004.svg
+- [0308] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-no-content-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg (==)
@@ -2262,7 +1709,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0309] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-001.svg
+- [0310] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2275,7 +1722,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0310] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-002.svg
+- [0311] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2288,7 +1735,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0312] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-004.svg
+- [0313] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-objectboundingbox-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2301,7 +1748,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0313] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-001.svg
+- [0314] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2314,7 +1761,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0314] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg
+- [0315] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-002.svg
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2327,7 +1774,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0315] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-003.svg
+- [0316] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2340,7 +1787,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0316] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-004.svg
+- [0317] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2353,7 +1800,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0317] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-005.svg
+- [0318] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-g-005.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2366,7 +1813,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0318] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-marker-001.svg
+- [0319] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-marker-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-001-ref.svg (==)
@@ -2379,7 +1826,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0319] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-marker-002.svg
+- [0320] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-marker-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-002-ref.svg (==)
@@ -2392,7 +1839,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0320] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-marker-003.svg
+- [0321] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-marker-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-001-ref.svg (==)
@@ -2405,7 +1852,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-on-marker-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0321] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-001.svg
+- [0322] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2418,7 +1865,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0322] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-002.svg
+- [0323] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2431,7 +1878,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0323] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-003.svg
+- [0324] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2444,7 +1891,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0324] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-004.svg
+- [0325] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2457,7 +1904,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0325] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-005.svg
+- [0326] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-svg-005.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2470,7 +1917,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0326] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-use-001.svg
+- [0327] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-use-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2483,7 +1930,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0327] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-use-002.svg
+- [0328] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-on-use-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2496,7 +1943,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0328] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-precision-001.svg
+- [0329] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-precision-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-precision-001-ref.svg (==)
@@ -2509,7 +1956,7 @@
   stable page 1: diffRatio=0.0013739409205404168, diffPixels=1152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-precision-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0329] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-recursion-001.svg
+- [0330] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-recursion-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg (==)
@@ -2522,7 +1969,7 @@
   stable page 1: diffRatio=0.053669567208610026, diffPixels=45000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-invisible-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0330] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-recursion-002.svg
+- [0331] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-recursion-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-recursion-002-ref.svg (==)
@@ -2535,7 +1982,7 @@
   stable page 1: diffRatio=0.008944927868101672, diffPixels=7500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-recursion-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0331] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-001.svg
+- [0332] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg (==)
@@ -2548,7 +1995,7 @@
   stable page 1: diffRatio=0.026221757881077782, diffPixels=21986
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0332] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-002.svg
+- [0333] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg (==)
@@ -2561,7 +2008,7 @@
   stable page 1: diffRatio=0.026221757881077782, diffPixels=21986
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0333] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-003.svg
+- [0334] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg (==)
@@ -2574,7 +2021,7 @@
   stable page 1: diffRatio=0.026221757881077782, diffPixels=21986
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0334] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-004.svg
+- [0335] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg (==)
@@ -2587,7 +2034,7 @@
   stable page 1: diffRatio=0.026221757881077782, diffPixels=21986
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0335] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-005.svg
+- [0336] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-circle-005.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg (==)
@@ -2600,7 +2047,7 @@
   stable page 1: diffRatio=0.026221757881077782, diffPixels=21986
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-circle-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0336] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-ellipse-001.svg
+- [0337] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-ellipse-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-ellipse-001-ref.svg (==)
@@ -2613,7 +2060,7 @@
   stable page 1: diffRatio=0.007380161819708419, diffPixels=6188
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-ellipse-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0337] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-ellipse-002.svg
+- [0338] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-ellipse-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-ellipse-001-ref.svg (==)
@@ -2626,7 +2073,7 @@
   stable page 1: diffRatio=0.007380161819708419, diffPixels=6188
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-ellipse-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0338] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-inset-001.svg
+- [0339] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-inset-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-shape-inset-001-ref.svg (==)
@@ -2639,7 +2086,7 @@
   stable page 1: diffRatio=0.011139416838409282, diffPixels=9340
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-shape-inset-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0339] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-inset-002.svg
+- [0340] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-shape-inset-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-shape-inset-001-ref.svg (==)
@@ -2652,7 +2099,7 @@
   stable page 1: diffRatio=0.011139416838409282, diffPixels=9340
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-shape-inset-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0343] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-001.svg
+- [0344] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg (==)
@@ -2665,7 +2112,7 @@
   stable page 1: diffRatio=0.029403766888023816, diffPixels=24654
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0344] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-002.svg
+- [0345] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg (==)
@@ -2678,7 +2125,7 @@
   stable page 1: diffRatio=0.029403766888023816, diffPixels=24654
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0345] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-003.svg
+- [0346] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-text-002-ref.svg (==)
@@ -2691,7 +2138,7 @@
   stable page 1: diffRatio=0.007036676589573315, diffPixels=5900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0346] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-004.svg
+- [0347] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg (==)
@@ -2704,7 +2151,7 @@
   stable page 1: diffRatio=0.029403766888023816, diffPixels=24654
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0347] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-005.svg
+- [0348] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-text-005.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-text-003-ref.svg (==)
@@ -2717,7 +2164,7 @@
   stable page 1: diffRatio=0.029403766888023816, diffPixels=24654
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-text-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0348] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-userspaceonuse-001.svg
+- [0349] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-userspaceonuse-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2730,7 +2177,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0349] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-with-opacity.svg
+- [0350] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-with-opacity.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2743,7 +2190,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0350] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-with-transform.svg
+- [0351] [WPT reftest] css/css-masking/clip-path-svg-content/clip-path-with-transform.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg (==)
@@ -2756,7 +2203,7 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/clip-path-square-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0351] [WPT reftest] css/css-masking/clip-path-svg-content/mask-and-nested-clip-path.svg
+- [0352] [WPT reftest] css/css-masking/clip-path-svg-content/mask-and-nested-clip-path.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-and-nested-clip-path-ref.svg (==)
@@ -2769,7 +2216,7 @@
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-and-nested-clip-path-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0352] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-001.svg
+- [0353] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg (==)
@@ -2782,7 +2229,7 @@
   stable page 1: diffRatio=0.012880696130066408, diffPixels=10800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0353] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-002.svg
+- [0354] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg (==)
@@ -2795,7 +2242,7 @@
   stable page 1: diffRatio=0.012880696130066408, diffPixels=10800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0354] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-003.svg
+- [0355] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg (==)
@@ -2808,7 +2255,7 @@
   stable page 1: diffRatio=0.012880696130066408, diffPixels=10800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0355] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-004.svg
+- [0356] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-004.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg (==)
@@ -2821,7 +2268,7 @@
   stable page 1: diffRatio=0.012880696130066408, diffPixels=10800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0356] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-005.svg
+- [0357] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-005.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg (==)
@@ -2834,7 +2281,7 @@
   stable page 1: diffRatio=0.02289901534234028, diffPixels=19200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0357] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-006.svg
+- [0358] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-006.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg (==)
@@ -2847,7 +2294,7 @@
   stable page 1: diffRatio=0.02289901534234028, diffPixels=19200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0358] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-007.svg
+- [0359] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-007.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg (==)
@@ -2860,7 +2307,7 @@
   stable page 1: diffRatio=0.012880696130066408, diffPixels=10800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0359] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-008.svg
+- [0360] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-008.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg (==)
@@ -2873,7 +2320,7 @@
   stable page 1: diffRatio=0.012880696130066408, diffPixels=10800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0360] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-009.svg
+- [0361] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-009.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg (==)
@@ -2886,7 +2333,7 @@
   stable page 1: diffRatio=0.02289901534234028, diffPixels=19200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-002-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0361] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-010.svg
+- [0362] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-010.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-003-ref.svg (==)
@@ -2899,7 +2346,7 @@
   stable page 1: diffRatio=0.32893481413632547, diffPixels=275800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-003-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0362] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-panning-001.svg
+- [0363] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-panning-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg (==)
@@ -2912,7 +2359,7 @@
   stable page 1: diffRatio=0.012880696130066408, diffPixels=10800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0363] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-panning-002.svg
+- [0364] [WPT reftest] css/css-masking/clip-path-svg-content/mask-nested-clip-path-panning-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg (==)
@@ -2925,9 +2372,9 @@
   stable page 1: diffRatio=0.012880696130066408, diffPixels=10800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path-svg-content/reference/mask-nested-clip-path-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0368] [WPT reftest] css/css-masking/clip-rule/clip-rule-001.html
+- [0369] [WPT reftest] css/css-masking/clip-rule/clip-rule-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-rule/clip-rule-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2938,9 +2385,9 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0369] [WPT reftest] css/css-masking/clip-rule/clip-rule-002.html
+- [0370] [WPT reftest] css/css-masking/clip-rule/clip-rule-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-rule/clip-rule-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2951,14 +2398,16 @@
   stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-rule/reference/clip-rule-rectangle-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0371] [WPT reftest] css/css-masking/mask-image/backdrop-filter-good-and-bad-mask-image.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.002204030226700252, diffPixels=1848
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/backdrop-filter-good-and-bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/backdrop-filter-good-and-bad-mask-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+- [0373] [WPT reftest] css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-after-load.tentative.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-after-load-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-after-load.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008587130753377605, diffPixels=7200
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-after-load-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0373] [WPT reftest] css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-while-loading.tentative.html
+- [0374] [WPT reftest] css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-while-loading.tentative.html
   triage: pending
   outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-hidden-ref.html (==)
@@ -2967,21 +2416,7 @@
   canary page 1: diffRatio=0.008587130753377605, diffPixels=7200
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/backdrop-filter-mask-image-multi-layer-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0375] [WPT reftest] css/css-masking/mask-image/bad-mask-image-svg-2.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0021467826883444013, diffPixels=1800
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image-svg-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image-svg-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0376] [WPT reftest] css/css-masking/mask-image/bad-mask-image-svg-3.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0021467826883444013, diffPixels=1800
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image-svg-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/bad-mask-image-svg-3.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0383] [WPT reftest] css/css-masking/mask-image/mask-clip-5.html
+- [0384] [WPT reftest] css/css-masking/mask-image/mask-clip-5.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-clip-2-ref.html (==)
@@ -2994,9 +2429,9 @@
   stable page 1: diffRatio=0.018366918555835433, diffPixels=15400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0384] [WPT reftest] css/css-masking/mask-image/mask-clip-6.html
+- [0385] [WPT reftest] css/css-masking/mask-image/mask-clip-6.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-6.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3007,14 +2442,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0385] [WPT reftest] css/css-masking/mask-image/mask-clip-7.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00024807266620868637, diffPixels=208
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-7.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-clip-7.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0389] [WPT reftest] css/css-masking/mask-image/mask-composite-1c.html
+- [0390] [WPT reftest] css/css-masking/mask-image/mask-composite-1c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-composite-1-ref.html (==)
@@ -3027,7 +2455,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-composite-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0393] [WPT reftest] css/css-masking/mask-image/mask-composite-2c.html
+- [0394] [WPT reftest] css/css-masking/mask-image/mask-composite-2c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-composite-2-ref.html (==)
@@ -3040,7 +2468,7 @@
   stable page 1: diffRatio=0.02981642622700557, diffPixels=25000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-composite-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0397] [WPT reftest] css/css-masking/mask-image/mask-image-1c.html
+- [0398] [WPT reftest] css/css-masking/mask-image/mask-image-1c.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-1-ref.html (==)
@@ -3053,7 +2481,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0400] [WPT reftest] css/css-masking/mask-image/mask-image-3a.html
+- [0401] [WPT reftest] css/css-masking/mask-image/mask-image-3a.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
@@ -3066,9 +2494,9 @@
   stable page 1: diffRatio=0.004637050606823906, diffPixels=3888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0401] [WPT reftest] css/css-masking/mask-image/mask-image-3b.html
+- [0402] [WPT reftest] css/css-masking/mask-image/mask-image-3b.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3b.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3079,9 +2507,9 @@
   stable page 1: diffRatio=0.0016554079841233495, diffPixels=1388
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0402] [WPT reftest] css/css-masking/mask-image/mask-image-3c.html
+- [0403] [WPT reftest] css/css-masking/mask-image/mask-image-3c.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3c.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3092,9 +2520,9 @@
   stable page 1: diffRatio=0.0016554079841233495, diffPixels=1388
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0403] [WPT reftest] css/css-masking/mask-image/mask-image-3d.html
+- [0404] [WPT reftest] css/css-masking/mask-image/mask-image-3d.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3102,12 +2530,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.004637050606823906, diffPixels=3888
+  stable page 1: diffRatio=0.0016554079841233495, diffPixels=1388
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0404] [WPT reftest] css/css-masking/mask-image/mask-image-3e.html
+- [0405] [WPT reftest] css/css-masking/mask-image/mask-image-3e.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3e.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3118,7 +2546,7 @@
   stable page 1: diffRatio=0.0016554079841233495, diffPixels=1388
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0405] [WPT reftest] css/css-masking/mask-image/mask-image-3f.html
+- [0406] [WPT reftest] css/css-masking/mask-image/mask-image-3f.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
@@ -3131,7 +2559,7 @@
   stable page 1: diffRatio=0.004637050606823906, diffPixels=3888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0406] [WPT reftest] css/css-masking/mask-image/mask-image-3g.html
+- [0407] [WPT reftest] css/css-masking/mask-image/mask-image-3g.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
@@ -3144,7 +2572,7 @@
   stable page 1: diffRatio=0.004637050606823906, diffPixels=3888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0407] [WPT reftest] css/css-masking/mask-image/mask-image-3h.html
+- [0408] [WPT reftest] css/css-masking/mask-image/mask-image-3h.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
@@ -3157,9 +2585,9 @@
   stable page 1: diffRatio=0.004637050606823906, diffPixels=3888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0408] [WPT reftest] css/css-masking/mask-image/mask-image-3i.html
+- [0409] [WPT reftest] css/css-masking/mask-image/mask-image-3i.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3i.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3170,14 +2598,7 @@
   stable page 1: diffRatio=0.0016554079841233495, diffPixels=1388
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0414] [WPT reftest] css/css-masking/mask-image/mask-image-backdrop-filter-with-border-radius.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.005160627051370124, diffPixels=4327
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-backdrop-filter-with-border-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-backdrop-filter-with-border-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0416] [WPT reftest] css/css-masking/mask-image/mask-image-cors-001.sub.html
+- [0417] [WPT reftest] css/css-masking/mask-image/mask-image-cors-001.sub.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-cors-001-ref.html (==)
@@ -3190,21 +2611,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-cors-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0418] [WPT reftest] css/css-masking/mask-image/mask-image-data-url-image.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.006538145943057782, diffPixels=5482
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-data-url-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-data-url-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0421] [WPT reftest] css/css-masking/mask-image/mask-image-inline-sliced-1.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011998129913747043, diffPixels=1006
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-inline-sliced-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-inline-sliced-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0422] [WPT reftest] css/css-masking/mask-image/mask-image-multi-layer-while-loading.tentative.html
+- [0423] [WPT reftest] css/css-masking/mask-image/mask-image-multi-layer-while-loading.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-multi-layer-while-loading-ref.html (==)
@@ -3217,49 +2624,7 @@
   stable page 1: diffRatio=0.008587130753377605, diffPixels=7200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-multi-layer-while-loading-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0423] [WPT reftest] css/css-masking/mask-image/mask-image-svg-child-will-change.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001669719868712312, diffPixels=1400
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-child-will-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-child-will-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0424] [WPT reftest] css/css-masking/mask-image/mask-image-svg-foreignobject-zoomed.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001385867491031219, diffPixels=1162
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-foreignobject-zoomed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-foreignobject-zoomed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0425] [WPT reftest] css/css-masking/mask-image/mask-image-svg-gradient-zoomed.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001385867491031219, diffPixels=1162
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-gradient-zoomed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-gradient-zoomed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0426] [WPT reftest] css/css-masking/mask-image/mask-image-svg-loading-error.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0021467826883444013, diffPixels=1800
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-loading-error.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-svg-loading-error.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0428] [WPT reftest] css/css-masking/mask-image/mask-image-url-image-hash.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0021467826883444013, diffPixels=1800
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-url-image-hash.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-url-image-hash.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0429] [WPT reftest] css/css-masking/mask-image/mask-image-url-image.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0021467826883444013, diffPixels=1800
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-url-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-url-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0430] [WPT reftest] css/css-masking/mask-image/mask-image-url-local-mask-mutated.html
+- [0431] [WPT reftest] css/css-masking/mask-image/mask-image-url-local-mask-mutated.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/reference/mask-image-url-local-mask-mutated-ref.html (==)
@@ -3272,9 +2637,9 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/reference/mask-image-url-local-mask-mutated-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0431] [WPT reftest] css/css-masking/mask-image/mask-image-url-local-mask.html
+- [0432] [WPT reftest] css/css-masking/mask-image/mask-image-url-local-mask.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/reference/mask-image-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-url-local-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3285,9 +2650,9 @@
   stable page 1: diffRatio=0.007633005114113426, diffPixels=6400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/reference/mask-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0432] [WPT reftest] css/css-masking/mask-image/mask-image-url-remote-mask.html
+- [0433] [WPT reftest] css/css-masking/mask-image/mask-image-url-remote-mask.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/reference/mask-image-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-url-remote-mask.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -3298,7 +2663,7 @@
   stable page 1: diffRatio=0.007633005114113426, diffPixels=6400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/reference/mask-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0439] [WPT reftest] css/css-masking/mask-image/mask-mode-to-mask-type-svg.html
+- [0440] [WPT reftest] css/css-masking/mask-image/mask-mode-to-mask-type-svg.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-mode-to-mask-type-ref.html (==)
@@ -3311,7 +2676,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-mode-to-mask-type-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0440] [WPT reftest] css/css-masking/mask-image/mask-mode-to-mask-type.html
+- [0441] [WPT reftest] css/css-masking/mask-image/mask-mode-to-mask-type.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-mode-to-mask-type-ref.html (==)
@@ -3324,7 +2689,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-mode-to-mask-type-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0444] [WPT reftest] css/css-masking/mask-image/mask-opacity-1d.html
+- [0445] [WPT reftest] css/css-masking/mask-image/mask-opacity-1d.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-opacity-1-ref.html (==)
@@ -3337,7 +2702,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-opacity-1-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0459] [WPT reftest] css/css-masking/mask-image/mask-position-4d.html
+- [0460] [WPT reftest] css/css-masking/mask-image/mask-position-4d.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-image/mask-position-4-ref.html (==)
@@ -3350,14 +2715,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-position-4-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0488] [WPT reftest] css/css-masking/mask-image/mask-under-border-radius.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001385867491031219, diffPixels=1162
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-under-border-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-under-border-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0489] [WPT reftest] css/css-masking/mask-svg-content/mask-empty-container-with-filter.svg
+- [0490] [WPT reftest] css/css-masking/mask-svg-content/mask-empty-container-with-filter.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg (==)
@@ -3370,7 +2728,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0491] [WPT reftest] css/css-masking/mask-svg-content/mask-negative-scale.svg
+- [0492] [WPT reftest] css/css-masking/mask-svg-content/mask-negative-scale.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/reference/mask-negative-scale-001-ref.svg (==)
@@ -3383,7 +2741,7 @@
   stable page 1: diffRatio=0.027908174948477214, diffPixels=23400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-negative-scale-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0492] [WPT reftest] css/css-masking/mask-svg-content/mask-on-thin-stroked-path-default.svg
+- [0493] [WPT reftest] css/css-masking/mask-svg-content/mask-on-thin-stroked-path-default.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/mask-on-thin-stroked-path-default-ref.svg (==)
@@ -3396,7 +2754,7 @@
   stable page 1: diffRatio=0.0021467826883444013, diffPixels=1800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/mask-on-thin-stroked-path-default-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0494] [WPT reftest] css/css-masking/mask-svg-content/mask-text-001.svg
+- [0495] [WPT reftest] css/css-masking/mask-svg-content/mask-text-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/reference/mask-text-001-ref.svg (==)
@@ -3409,7 +2767,7 @@
   stable page 1: diffRatio=0.01113583886726204, diffPixels=9337
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-text-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0495] [WPT reftest] css/css-masking/mask-svg-content/mask-type-001.svg
+- [0496] [WPT reftest] css/css-masking/mask-svg-content/mask-type-001.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg (==)
@@ -3422,7 +2780,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0496] [WPT reftest] css/css-masking/mask-svg-content/mask-type-002.svg
+- [0497] [WPT reftest] css/css-masking/mask-svg-content/mask-type-002.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg (==)
@@ -3435,7 +2793,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0497] [WPT reftest] css/css-masking/mask-svg-content/mask-type-003.svg
+- [0498] [WPT reftest] css/css-masking/mask-svg-content/mask-type-003.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg (==)
@@ -3448,7 +2806,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0498] [WPT reftest] css/css-masking/mask-svg-content/mask-with-filter-clipped-to-region.svg
+- [0499] [WPT reftest] css/css-masking/mask-svg-content/mask-with-filter-clipped-to-region.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg (==)
@@ -3461,7 +2819,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0499] [WPT reftest] css/css-masking/mask-svg-content/mask-with-filter.svg
+- [0500] [WPT reftest] css/css-masking/mask-svg-content/mask-with-filter.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg (==)
@@ -3474,7 +2832,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0500] [WPT reftest] css/css-masking/mask-svg-content/mask-with-rotation.svg
+- [0501] [WPT reftest] css/css-masking/mask-svg-content/mask-with-rotation.svg
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg (==)
@@ -3489,7 +2847,7 @@
 
 ## Errors
 
-- [0417] [WPT reftest] css/css-masking/mask-image/mask-image-cross-site-iframe-offset.sub.html
+- [0418] [WPT reftest] css/css-masking/mask-image/mask-image-cross-site-iframe-offset.sub.html
   triage: pending
   side: canary, stable
   canary timeout: true

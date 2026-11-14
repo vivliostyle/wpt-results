@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 199
-- Entries with differences: 128 (improvement: 3, pending: 125, triaged: 0)
+- Compared entries: 204
+- Entries with differences: 102 (pending: 102, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 42
-- Outcome summary: {"pass":71,"known-fail":86,"expected-change":24,"changed-fail":15,"improvement":3}
+- Screenshot mismatches: 2
+- Outcome summary: {"pass":102,"known-fail":100,"changed-fail":1,"expected-change":1}
 
 ## Differences
 
@@ -142,11 +142,11 @@
 
 - [0014] [WPT reftest] css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/baseline-shift/baseline-shift-length-percentage-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009541256392641783, diffPixels=800
+  canary page 1: diffRatio=0.005247691015952981, diffPixels=4400
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-length-percentage-svg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -192,13 +192,6 @@
   stable page 1: diffRatio=0.003816502557056713, diffPixels=3200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/baseline-shift/baseline-shift-top-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0018] [WPT reftest] css/css-inline/baseline-source/baseline-source-inline-box.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015552247920006107, diffPixels=1304
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/baseline-source/baseline-source-inline-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/baseline-source/baseline-source-inline-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0020] [WPT reftest] css/css-inline/br-line-height-inherited-quirks.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -212,16 +205,48 @@
   stable page 1: diffRatio=0.0037687962750935044, diffPixels=3160
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/br-line-height-inherited-quirks-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0026] [WPT reftest] css/css-inline/empty-span-height.html
+- [0021] [WPT reftest] css/css-inline/br-line-height-shrink-quirks.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.000406696053736356, diffPixels=341
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/empty-span-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/empty-span-height.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-inline/br-line-height-shrink-quirks-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/br-line-height-shrink-quirks.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0006917410884665293, diffPixels=580
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/br-line-height-shrink-quirks-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/br-line-height-shrink-quirks.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0006917410884665293, diffPixels=580
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/br-line-height-shrink-quirks-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0028] [WPT reftest] css/css-inline/empty-span-size-001.html
+- [0023] [WPT reftest] css/css-inline/br-line-height-stretch-quirks.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-inline/br-line-height-stretch-quirks-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/br-line-height-stretch-quirks.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0009541256392641783, diffPixels=800
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/br-line-height-stretch-quirks-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/br-line-height-stretch-quirks.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0009541256392641783, diffPixels=800
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/br-line-height-stretch-quirks-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0024] [WPT reftest] css/css-inline/br-line-height-zero-quirks.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-inline/br-line-height-zero-quirks-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/br-line-height-zero-quirks.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0009302724982825738, diffPixels=780
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/br-line-height-zero-quirks-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/br-line-height-zero-quirks.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0009302724982825738, diffPixels=780
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/br-line-height-zero-quirks-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0033] [WPT reftest] css/css-inline/empty-span-size-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/empty-span-size-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/empty-span-size-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -232,28 +257,7 @@
   stable page 1: diffRatio=0.07375152660102283, diffPixels=61838
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/empty-span-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0029] [WPT reftest] css/css-inline/empty-span-size-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0030412754751545684, diffPixels=2550
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/empty-span-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/empty-span-size-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0030] [WPT reftest] css/css-inline/empty-text-node-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.008820891534997329, diffPixels=7396
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/empty-text-node-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/empty-text-node-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0031] [WPT reftest] css/css-inline/firefox-bug-2073465.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0011425654530188535, diffPixels=958
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/firefox-bug-2073465.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/firefox-bug-2073465.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0032] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking-rtl.html
+- [0037] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/Initial-letter-breaking-rtl-ref.html (==)
@@ -266,7 +270,7 @@
   stable page 1: diffRatio=0.05947661438058163, diffPixels=49869
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0033] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking-vlr.html
+- [0038] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking-vlr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html (==)
@@ -279,7 +283,7 @@
   stable page 1: diffRatio=0.05606084459201588, diffPixels=47005
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0034] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking-vrl.html
+- [0039] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking-vrl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/Initial-letter-breaking-vrl-ref.html (==)
@@ -292,7 +296,7 @@
   stable page 1: diffRatio=0.051395170216014044, diffPixels=43093
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0035] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking.html
+- [0040] [WPT reftest] css/css-inline/initial-letter/Initial-letter-breaking.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/Initial-letter-breaking-ref.html (==)
@@ -305,7 +309,7 @@
   stable page 1: diffRatio=0.06271587092588352, diffPixels=52585
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/Initial-letter-breaking-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0036] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall.html
+- [0041] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall-ref.html (==)
@@ -318,7 +322,7 @@
   stable page 1: diffRatio=0.010692170445004198, diffPixels=8965
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0037] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
+- [0042] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html (==)
@@ -331,7 +335,7 @@
   stable page 1: diffRatio=0.01209354247767346, diffPixels=10140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-over-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0038] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall.html
+- [0043] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall-ref.html (==)
@@ -344,7 +348,7 @@
   stable page 1: diffRatio=0.01492968094038623, diffPixels=12518
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0039] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby.html
+- [0044] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-ref.html (==)
@@ -357,85 +361,85 @@
   stable page 1: diffRatio=0.01097244485153805, diffPixels=9200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-drop-under-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0040] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vlr.html
+- [0045] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vlr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vlr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.020036638424547743, diffPixels=16800
+  canary page 1: diffRatio=0.031295320967865047, diffPixels=26240
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.05767331692237234, diffPixels=48357
+  stable page 1: diffRatio=0.031295320967865047, diffPixels=26240
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0041] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vrl.html
+- [0046] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vrl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vrl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.013419777116250668, diffPixels=11252
+  canary page 1: diffRatio=0.011581892603618044, diffPixels=9711
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013419777116250668, diffPixels=11252
+  stable page 1: diffRatio=0.011581892603618044, diffPixels=9711
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0042] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-drop.html
+- [0047] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-drop.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02863211777726891, diffPixels=24007
+  canary page 1: diffRatio=0.02943000534310358, diffPixels=24676
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02863211777726891, diffPixels=24007
+  stable page 1: diffRatio=0.02943000534310358, diffPixels=24676
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-drop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0043] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vlr.html
+- [0048] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vlr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vlr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.019705079764903443, diffPixels=16522
+  canary page 1: diffRatio=0.021709936264407297, diffPixels=18203
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04174538203190596, diffPixels=35002
+  stable page 1: diffRatio=0.021709936264407297, diffPixels=18203
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0044] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vrl.html
+- [0049] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vrl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vrl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.012335651858636745, diffPixels=10343
+  canary page 1: diffRatio=0.009249055415617128, diffPixels=7755
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.012335651858636745, diffPixels=10343
+  stable page 1: diffRatio=0.009249055415617128, diffPixels=7755
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0045] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-size.html
+- [0050] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-fractional-size.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-fractional-size-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.028337531486146095, diffPixels=23760
+  canary page 1: diffRatio=0.01748793031066331, diffPixels=14663
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.028337531486146095, diffPixels=23760
+  stable page 1: diffRatio=0.01748793031066331, diffPixels=14663
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-fractional-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0046] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-rtl.html
+- [0051] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-margins-rtl-ref.html (==)
@@ -448,9 +452,9 @@
   stable page 1: diffRatio=0.012173450499961835, diffPixels=10207
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0047] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-slr.html
+- [0052] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-slr.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-margins-slr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-slr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -458,12 +462,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-slr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.030048994351576215, diffPixels=25195
+  stable page 1: diffRatio=0.012970145408747424, diffPixels=10875
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0048] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-srl.html
+- [0053] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-srl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-margins-srl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-srl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -471,10 +475,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-srl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022237090680100755, diffPixels=18645
+  stable page 1: diffRatio=0.017778938630638882, diffPixels=14907
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0049] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-vlr.html
+- [0054] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-vlr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-margins-vlr-ref.html (==)
@@ -484,10 +488,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.029933306617815434, diffPixels=25098
+  stable page 1: diffRatio=0.01118831577742157, diffPixels=9381
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0050] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-vrl.html
+- [0055] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins-vrl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-margins-vrl-ref.html (==)
@@ -500,7 +504,7 @@
   stable page 1: diffRatio=0.017998387527669645, diffPixels=15091
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0051] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins.html
+- [0056] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-margins.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-margins-ref.html (==)
@@ -513,46 +517,46 @@
   stable page 1: diffRatio=0.013175282421189222, diffPixels=11047
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-margins-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0052] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vlr.html
+- [0057] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vlr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vlr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.019328200137394093, diffPixels=16206
+  canary page 1: diffRatio=0.015401973131821999, diffPixels=12914
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.038832913518052056, diffPixels=32560
+  stable page 1: diffRatio=0.015401973131821999, diffPixels=12914
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0053] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vrl.html
+- [0058] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vrl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vrl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009645017555911763, diffPixels=8087
+  canary page 1: diffRatio=0.01594224677505534, diffPixels=13367
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009645017555911763, diffPixels=8087
+  stable page 1: diffRatio=0.01594224677505534, diffPixels=13367
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0054] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-over-sunk.html
+- [0059] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-over-sunk.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-over-sunk-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04442528242118922, diffPixels=37249
+  canary page 1: diffRatio=0.040959421036562096, diffPixels=34343
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04442528242118922, diffPixels=37249
+  stable page 1: diffRatio=0.040959421036562096, diffPixels=34343
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-over-sunk-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0055] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-tall.html
+- [0060] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-tall.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-tall-ref.html (==)
@@ -565,7 +569,7 @@
   stable page 1: diffRatio=0.011785836959010762, diffPixels=9882
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0056] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby.html
+- [0061] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-ref.html (==)
@@ -578,7 +582,7 @@
   stable page 1: diffRatio=0.010842445233188306, diffPixels=9091
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-raise-over-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0057] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-tall.html
+- [0062] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-tall.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-tall-ref.html (==)
@@ -591,7 +595,7 @@
   stable page 1: diffRatio=0.01492968094038623, diffPixels=12518
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-tall-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0058] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby.html
+- [0063] [WPT reftest] css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-ref.html (==)
@@ -604,7 +608,7 @@
   stable page 1: diffRatio=0.010255657965040837, diffPixels=8599
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-block-position-raise-under-ruby-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0059] [WPT reftest] css/css-inline/initial-letter/initial-letter-breaking-slr.html
+- [0064] [WPT reftest] css/css-inline/initial-letter/initial-letter-breaking-slr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-breaking-slr-ref.html (==)
@@ -617,7 +621,7 @@
   stable page 1: diffRatio=0.06065615220212198, diffPixels=50858
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-breaking-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0060] [WPT reftest] css/css-inline/initial-letter/initial-letter-breaking-srl.html
+- [0065] [WPT reftest] css/css-inline/initial-letter/initial-letter-breaking-srl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-breaking-srl-ref.html (==)
@@ -630,7 +634,7 @@
   stable page 1: diffRatio=0.0630247691015953, diffPixels=52844
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-breaking-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0061] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-rtl.html
+- [0066] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-drop-initial-rtl-ref.html (==)
@@ -643,7 +647,7 @@
   stable page 1: diffRatio=0.007423097473475308, diffPixels=6224
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0062] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-slr.html
+- [0067] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-slr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-drop-initial-slr-ref.html (==)
@@ -653,10 +657,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-slr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.025284329440500724, diffPixels=21200
+  stable page 1: diffRatio=0.00695676856728494, diffPixels=5833
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0063] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-srl.html
+- [0068] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-srl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-drop-initial-srl-ref.html (==)
@@ -666,10 +670,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-srl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.019113521868559653, diffPixels=16026
+  stable page 1: diffRatio=0.01102611441874666, diffPixels=9245
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0064] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-vlr.html
+- [0069] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-vlr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-drop-initial-vlr-ref.html (==)
@@ -679,10 +683,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02134259789329059, diffPixels=17895
+  stable page 1: diffRatio=0.008540617128463476, diffPixels=7161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0065] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-vrl.html
+- [0070] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial-vrl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-drop-initial-vrl-ref.html (==)
@@ -695,7 +699,7 @@
   stable page 1: diffRatio=0.009053459659567971, diffPixels=7591
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0066] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial.html
+- [0071] [WPT reftest] css/css-inline/initial-letter/initial-letter-drop-initial.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-drop-initial-ref.html (==)
@@ -708,7 +712,7 @@
   stable page 1: diffRatio=0.007429060758720708, diffPixels=6229
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-drop-initial-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0067] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-rtl.html
+- [0072] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-001-rtl-ref.html (==)
@@ -721,9 +725,9 @@
   stable page 1: diffRatio=0.013976747958171132, diffPixels=11719
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0068] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-slr.html
+- [0073] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-slr.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-001-slr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-slr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -731,12 +735,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-slr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02081305816349897, diffPixels=17451
+  stable page 1: diffRatio=0.013758491718189452, diffPixels=11536
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0069] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-srl.html
+- [0074] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-srl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-001-srl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-srl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -744,12 +748,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-srl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.013391153347072743, diffPixels=11228
+  stable page 1: diffRatio=0.013758491718189452, diffPixels=11536
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0070] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-vlr.html
+- [0075] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-vlr.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-001-vlr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -757,10 +761,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-vlr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.019616823143271504, diffPixels=16448
+  stable page 1: diffRatio=0.013764455003434851, diffPixels=11541
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0071] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-vrl.html
+- [0076] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001-vrl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-001-vrl-ref.html (==)
@@ -773,7 +777,7 @@
   stable page 1: diffRatio=0.014116288832913519, diffPixels=11836
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0072] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001.html
+- [0077] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-001-ref.html (==)
@@ -786,7 +790,7 @@
   stable page 1: diffRatio=0.013976747958171132, diffPixels=11719
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0073] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-002.html
+- [0078] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-002-ref.html (==)
@@ -799,7 +803,7 @@
   stable page 1: diffRatio=0.013355373635600336, diffPixels=11198
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0074] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-003.html
+- [0079] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-003-ref.html (==)
@@ -812,7 +816,7 @@
   stable page 1: diffRatio=0.014907020456453706, diffPixels=12499
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0075] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-004.html
+- [0080] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-004-ref.html (==)
@@ -825,7 +829,7 @@
   stable page 1: diffRatio=0.016625639264178305, diffPixels=13940
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0076] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-005.html
+- [0081] [WPT reftest] css/css-inline/initial-letter/initial-letter-float-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-float-005-ref.html (==)
@@ -838,7 +842,7 @@
   stable page 1: diffRatio=0.014245095794214182, diffPixels=11944
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-float-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0077] [WPT reftest] css/css-inline/initial-letter/initial-letter-indentation-rtl.html
+- [0082] [WPT reftest] css/css-inline/initial-letter/initial-letter-indentation-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-indentation-rtl-ref.html (==)
@@ -851,7 +855,7 @@
   stable page 1: diffRatio=0.00733007022364705, diffPixels=6146
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-indentation-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0078] [WPT reftest] css/css-inline/initial-letter/initial-letter-indentation.html
+- [0083] [WPT reftest] css/css-inline/initial-letter/initial-letter-indentation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-indentation-ref.html (==)
@@ -864,7 +868,7 @@
   stable page 1: diffRatio=0.007336033508892451, diffPixels=6151
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-indentation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0079] [WPT reftest] css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline.html
+- [0084] [WPT reftest] css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html (==)
@@ -877,14 +881,7 @@
   stable page 1: diffRatio=0.0012856842989084803, diffPixels=1078
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-layout-text-decoration-underline-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0080] [WPT reftest] css/css-inline/initial-letter/initial-letter-popover.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001385867491031219, diffPixels=1162
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-popover.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-popover.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0081] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial-slr.html
+- [0086] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial-slr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-raise-initial-slr-ref.html (==)
@@ -897,7 +894,7 @@
   stable page 1: diffRatio=0.006781447981070147, diffPixels=5686
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0082] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial-srl.html
+- [0087] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial-srl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-raise-initial-srl-ref.html (==)
@@ -910,7 +907,7 @@
   stable page 1: diffRatio=0.00974043011983818, diffPixels=8167
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0083] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial-vlr.html
+- [0088] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial-vlr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-raise-initial-vlr-ref.html (==)
@@ -923,7 +920,7 @@
   stable page 1: diffRatio=0.00856447026944508, diffPixels=7181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0084] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial-vrl.html
+- [0089] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial-vrl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-raise-initial-vrl-ref.html (==)
@@ -936,7 +933,7 @@
   stable page 1: diffRatio=0.009110707197923822, diffPixels=7639
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0085] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial.html
+- [0090] [WPT reftest] css/css-inline/initial-letter/initial-letter-raise-initial.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-raise-initial-ref.html?class= (==)
@@ -949,9 +946,9 @@
   stable page 1: diffRatio=0.0072787859705366, diffPixels=6103
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raise-initial-ref.html?class=&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0086] [WPT reftest] css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise.html
+- [0091] [WPT reftest] css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -962,9 +959,9 @@
   stable page 1: diffRatio=0.0072787859705366, diffPixels=6103
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raised-sunken-caps-raise-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0087] [WPT reftest] css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken.html
+- [0092] [WPT reftest] css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -975,7 +972,7 @@
   stable page 1: diffRatio=0.007432638729867949, diffPixels=6232
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-raised-sunken-caps-sunken-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0088] [WPT reftest] css/css-inline/initial-letter/initial-letter-short-para-initial-letter-clears.html
+- [0093] [WPT reftest] css/css-inline/initial-letter/initial-letter-short-para-initial-letter-clears.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-short-para-initial-letter-clears-ref.html (==)
@@ -988,9 +985,9 @@
   stable page 1: diffRatio=0.010518042515838485, diffPixels=8819
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-short-para-initial-letter-clears-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0089] [WPT reftest] css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps.html
+- [0094] [WPT reftest] css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -998,12 +995,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0033346691092283032, diffPixels=2796
+  stable page 1: diffRatio=0.0033668708495534693, diffPixels=2823
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-short-para-initial-letter-wraps-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0090] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial-slr.html
+- [0095] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial-slr.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-sunk-initial-slr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-slr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1011,12 +1008,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-slr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.010960518281047249, diffPixels=9190
+  stable page 1: diffRatio=0.0069591538813831, diffPixels=5835
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-slr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0091] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial-srl.html
+- [0096] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial-srl.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-sunk-initial-srl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-srl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1024,10 +1021,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-srl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.007052181131211358, diffPixels=5913
+  stable page 1: diffRatio=0.011027307075795741, diffPixels=9246
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-srl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0092] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial-vlr.html
+- [0097] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial-vlr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-sunk-initial-vlr-ref.html (==)
@@ -1040,7 +1037,7 @@
   stable page 1: diffRatio=0.008563277612396, diffPixels=7180
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0093] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial-vrl.html
+- [0098] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial-vrl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-sunk-initial-vrl-ref.html (==)
@@ -1053,7 +1050,7 @@
   stable page 1: diffRatio=0.009110707197923822, diffPixels=7639
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0094] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial.html
+- [0099] [WPT reftest] css/css-inline/initial-letter/initial-letter-sunk-initial.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-sunk-initial-ref.html?class= (==)
@@ -1066,9 +1063,9 @@
   stable page 1: diffRatio=0.007432638729867949, diffPixels=6232
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-sunk-initial-ref.html?class=&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0095] [WPT reftest] css/css-inline/initial-letter/initial-letter-with-first-line.html
+- [0100] [WPT reftest] css/css-inline/initial-letter/initial-letter-with-first-line.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-with-first-line-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1076,10 +1073,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.014229591252576139, diffPixels=11931
+  stable page 1: diffRatio=0.014186655598809252, diffPixels=11895
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-first-line-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0096] [WPT reftest] css/css-inline/initial-letter/initial-letter-with-tab-rtl.html
+- [0101] [WPT reftest] css/css-inline/initial-letter/initial-letter-with-tab-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-with-tab-rtl-ref.html (==)
@@ -1092,7 +1089,7 @@
   stable page 1: diffRatio=0.07744041485382795, diffPixels=64931
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-tab-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0097] [WPT reftest] css/css-inline/initial-letter/initial-letter-with-tab.html
+- [0102] [WPT reftest] css/css-inline/initial-letter/initial-letter-with-tab.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/initial-letter/initial-letter-with-tab-ref.html (==)
@@ -1105,121 +1102,7 @@
   stable page 1: diffRatio=0.07765867109380964, diffPixels=65114
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/initial-letter/initial-letter-with-tab-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0098] [WPT reftest] css/css-inline/inline-block-baseline-with-block-in-inline.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0028802667735287383, diffPixels=2415
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/inline-block-baseline-with-block-in-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/inline-block-baseline-with-block-in-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0099] [WPT reftest] css/css-inline/inline-block-last-baseline-skips-non-contributing-block-in-inline.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.003557695977406305, diffPixels=2983
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/inline-block-last-baseline-skips-non-contributing-block-in-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/inline-block-last-baseline-skips-non-contributing-block-in-inline.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0100] [WPT reftest] css/css-inline/model/phantom-line-boxes-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0020358655827799406, diffPixels=1707
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0101] [WPT reftest] css/css-inline/model/phantom-line-boxes-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0020358655827799406, diffPixels=1707
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0102] [WPT reftest] css/css-inline/model/phantom-line-boxes-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0020358655827799406, diffPixels=1707
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0103] [WPT reftest] css/css-inline/model/phantom-line-boxes-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0020358655827799406, diffPixels=1707
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0104] [WPT reftest] css/css-inline/model/phantom-line-boxes-005.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0020358655827799406, diffPixels=1707
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0105] [WPT reftest] css/css-inline/model/phantom-line-boxes-006.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0020358655827799406, diffPixels=1707
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/model/phantom-line-boxes-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0106] [WPT reftest] css/css-inline/text-box-trim/border-padding-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/border-padding-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/border-padding-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0107] [WPT reftest] css/css-inline/text-box-trim/border-padding-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/border-padding-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/border-padding-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0108] [WPT reftest] css/css-inline/text-box-trim/border-padding-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/border-padding-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/border-padding-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0109] [WPT reftest] css/css-inline/text-box-trim/border-padding-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/border-padding-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/border-padding-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0110] [WPT reftest] css/css-inline/text-box-trim/new-fc-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001439537058239829, diffPixels=1207
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/new-fc-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/new-fc-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0111] [WPT reftest] css/css-inline/text-box-trim/out-of-flow-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.001439537058239829, diffPixels=1207
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/out-of-flow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/out-of-flow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0112] [WPT reftest] css/css-inline/text-box-trim/out-of-flow-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0014621975421723532, diffPixels=1226
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/out-of-flow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/out-of-flow-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0125] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-both-with-bottom-aligned-box.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-inline/text-box-trim/text-box-trim-both-with-bottom-aligned-box-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-both-with-bottom-aligned-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0010495382031905961, diffPixels=880
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-both-with-bottom-aligned-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0126] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-dynamic-001.html
+- [0131] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-dynamic-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html (==)
@@ -1232,7 +1115,7 @@
   stable page 1: diffRatio=0.19117576902526526, diffPixels=160294
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0127] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-dynamic-002.html
+- [0132] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-dynamic-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html (==)
@@ -1245,7 +1128,7 @@
   stable page 1: diffRatio=0.13956472788336768, diffPixels=117020
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0128] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-end-001.html
+- [0133] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-end-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-end-001-ref.html?class=alphabetic (==)
@@ -1258,7 +1141,7 @@
   stable page 1: diffRatio=0.07573372261659415, diffPixels=63500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-end-001-ref.html?class=alphabetic&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0129] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-end-002.html
+- [0134] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-end-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-end-002-ref.html (==)
@@ -1271,9 +1154,9 @@
   stable page 1: diffRatio=0.006362825356842989, diffPixels=5335
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-end-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0132] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-fieldset-001.html
+- [0137] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-fieldset-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-fieldset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1284,9 +1167,9 @@
   stable page 1: diffRatio=0.005605488130677048, diffPixels=4700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0133] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001.html
+- [0138] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1294,41 +1177,10 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04822508777955881, diffPixels=40435
+  stable page 1: diffRatio=0.0016339401572399053, diffPixels=1370
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0134] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.027645790397679566, diffPixels=23180
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.11102325204182886, diffPixels=93089
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0135] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.15249551560949545, diffPixels=127862
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0136] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-004.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
-  reference: css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-004-ref.html (==)
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.06237477100984658, diffPixels=52299
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-first-line-pseudo-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0139] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-float-clear-br-002.html
+- [0144] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-float-clear-br-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-float-clear-br-002-ref.html (==)
@@ -1341,7 +1193,7 @@
   stable page 1: diffRatio=0.024890752614304252, diffPixels=20870
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-float-clear-br-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0140] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-float-clear-br-003.html
+- [0145] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-float-clear-br-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-float-clear-br-003-ref.html (==)
@@ -1354,33 +1206,14 @@
   stable page 1: diffRatio=0.012141248759636668, diffPixels=10180
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-float-clear-br-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0156] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-inline-box-003.html
+- [0146] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-float-start-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-inline/text-box-trim/text-box-trim-inline-box-003-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.050499484772154796, diffPixels=42342
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.050499484772154796, diffPixels=42342
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.014848580261048775, diffPixels=12450
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-float-start-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-float-start-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-inline-box-006.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-inline/text-box-trim/text-box-trim-inline-box-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.10182428822227312, diffPixels=85376
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.10182428822227312, diffPixels=85376
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-inline-box-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0164] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001.html
+- [0169] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html (==)
@@ -1393,7 +1226,7 @@
   stable page 1: diffRatio=0.021050396916265934, diffPixels=17650
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0165] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002.html
+- [0170] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002-ref.html (==)
@@ -1406,7 +1239,7 @@
   stable page 1: diffRatio=0.02403203953896649, diffPixels=20150
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0166] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-001.html
+- [0171] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html (==)
@@ -1419,7 +1252,7 @@
   stable page 1: diffRatio=0.021050396916265934, diffPixels=17650
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0167] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-002.html
+- [0172] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-block-in-inline-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html (==)
@@ -1432,7 +1265,7 @@
   stable page 1: diffRatio=0.02403203953896649, diffPixels=20150
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-line-clamp-auto-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0181] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-multicol-014.html
+- [0186] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-multicol-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-multicol-014-ref.html (==)
@@ -1445,28 +1278,7 @@
   stable page 1: diffRatio=0.12743302038012366, diffPixels=106848
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-multicol-014-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0189] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-scroll-container-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-scroll-container-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-scroll-container-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0190] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-scroll-container-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-scroll-container-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-scroll-container-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0191] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-scroll-container-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0015588027631478513, diffPixels=1307
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-scroll-container-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-scroll-container-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0193] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-start-001.html
+- [0198] [WPT reftest] css/css-inline/text-box-trim/text-box-trim-start-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/text-box-trim-start-001-ref.html?class=auto (==)
@@ -1479,7 +1291,7 @@
   stable page 1: diffRatio=0.1288117319288604, diffPixels=108004
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/text-box-trim-start-001-ref.html?class=auto&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0197] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-001-print.html
+- [0202] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-001-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/not-at-page-edges-001-print-ref.html (==)
@@ -1494,7 +1306,7 @@
   stable page 3: diffRatio=0.057, diffPixels=9120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-001-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0198] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-002-print.html
+- [0203] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-002-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/not-at-page-edges-002-print-ref.html (==)
@@ -1507,7 +1319,7 @@
   stable page 3: diffRatio=0.064625, diffPixels=10340
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-inline/text-box-trim/not-at-page-edges-002-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0199] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-003-print.html
+- [0204] [WPT print-reftest] css/css-inline/text-box-trim/not-at-page-edges-003-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-inline/text-box-trim/not-at-page-edges-003-print-ref.html (==)

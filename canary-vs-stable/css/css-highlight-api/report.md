@@ -1,18 +1,18 @@
 # canary vs stable comparison report
 
 - Compared entries: 111
-- Entries with differences: 106 (pending: 106, triaged: 0)
+- Entries with differences: 90 (pending: 90, triaged: 0)
 - Entries with errors: 2 (pending: 2, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 96
-- Outcome summary: {"changed-fail":80,"known-fail":10,"expected-change":15,"error":2,"regression":1,"pass":3}
+- Screenshot mismatches: 0
+- Outcome summary: {"known-fail":90,"pass":19,"error":2}
 
 ## Differences
 
 - [0001] [WPT reftest] css/css-highlight-api/custom-highlight-escaped-star-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/custom-highlight-universal-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/custom-highlight-escaped-star-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -25,7 +25,7 @@
 
 - [0002] [WPT reftest] css/css-highlight-api/custom-highlight-universal-deep-chain-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/custom-highlight-universal-deep-chain-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/custom-highlight-universal-deep-chain-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -38,7 +38,7 @@
 
 - [0003] [WPT reftest] css/css-highlight-api/custom-highlight-universal-inheritance-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/custom-highlight-universal-inheritance-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/custom-highlight-universal-inheritance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -51,7 +51,7 @@
 
 - [0004] [WPT reftest] css/css-highlight-api/custom-highlight-universal-no-named-rule-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/custom-highlight-universal-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/custom-highlight-universal-no-named-rule-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -64,7 +64,7 @@
 
 - [0005] [WPT reftest] css/css-highlight-api/custom-highlight-universal-no-named-rule-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/custom-highlight-universal-no-named-rule-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/custom-highlight-universal-no-named-rule-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -77,7 +77,7 @@
 
 - [0006] [WPT reftest] css/css-highlight-api/custom-highlight-universal-painting-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/custom-highlight-universal-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/custom-highlight-universal-painting-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -90,7 +90,7 @@
 
 - [0007] [WPT reftest] css/css-highlight-api/custom-highlight-universal-painting-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/custom-highlight-universal-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/custom-highlight-universal-painting-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -103,7 +103,7 @@
 
 - [0008] [WPT reftest] css/css-highlight-api/custom-highlight-universal-painting-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/custom-highlight-universal-painting-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/custom-highlight-universal-painting-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -116,7 +116,7 @@
 
 - [0009] [WPT reftest] css/css-highlight-api/highlight-fallback-not-tinted.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/highlight-fallback-not-tinted-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-fallback-not-tinted.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -166,16 +166,9 @@
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/highlight-image-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0013] [WPT reftest] css/css-highlight-api/highlight-priority-painting.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0006201816655217159, diffPixels=520
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-priority-painting.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/highlight-priority-painting.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0014] [WPT reftest] css/css-highlight-api/highlight-text-across-elements.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/highlight-text-across-elements-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text-across-elements.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -188,7 +181,7 @@
 
 - [0015] [WPT reftest] css/css-highlight-api/highlight-text-cascade.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/highlight-text-cascade-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text-cascade.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -201,7 +194,7 @@
 
 - [0016] [WPT reftest] css/css-highlight-api/highlight-text-decorations.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/highlight-text-decorations-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text-decorations.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -214,7 +207,7 @@
 
 - [0017] [WPT reftest] css/css-highlight-api/highlight-text-dynamic.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/highlight-text-dynamic-notref.html (!=)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -227,7 +220,7 @@
 
 - [0018] [WPT reftest] css/css-highlight-api/highlight-text-replace.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/highlight-text-replace-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text-replace.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -240,7 +233,7 @@
 
 - [0019] [WPT reftest] css/css-highlight-api/highlight-text.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/highlight-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/highlight-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -253,7 +246,7 @@
 
 - [0020] [WPT reftest] css/css-highlight-api/painting/css-highlight-painting-underline-offset-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/css-highlight-painting-underline-offset-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/css-highlight-painting-underline-offset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -266,7 +259,7 @@
 
 - [0022] [WPT reftest] css/css-highlight-api/painting/custom-highlight-container-metrics-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-container-metrics-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-container-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -279,7 +272,7 @@
 
 - [0023] [WPT reftest] css/css-highlight-api/painting/custom-highlight-container-metrics-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-container-metrics-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -292,7 +285,7 @@
 
 - [0024] [WPT reftest] css/css-highlight-api/painting/custom-highlight-container-metrics-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-container-metrics-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -305,7 +298,7 @@
 
 - [0025] [WPT reftest] css/css-highlight-api/painting/custom-highlight-container-metrics-004.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-container-metrics-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-container-metrics-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -318,7 +311,7 @@
 
 - [0026] [WPT reftest] css/css-highlight-api/painting/custom-highlight-container-metrics-005.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-container-metrics-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -331,7 +324,7 @@
 
 - [0027] [WPT reftest] css/css-highlight-api/painting/custom-highlight-container-metrics-006.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-container-metrics-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -357,7 +350,7 @@
 
 - [0029] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-container-metrics-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -370,7 +363,7 @@
 
 - [0030] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -383,7 +376,7 @@
 
 - [0031] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-004.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-container-metrics-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -396,7 +389,7 @@
 
 - [0032] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-container-metrics-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -409,7 +402,7 @@
 
 - [0033] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-font-metrics-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-font-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -417,7 +410,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-font-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0038069613006640715, diffPixels=3192
+  stable page 1: diffRatio=0.0037819155026333866, diffPixels=3171
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0034] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-logical-metrics-001.html
@@ -435,15 +428,15 @@
 
 - [0035] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0013035741546446836, diffPixels=1093
+  canary page 1: diffRatio=0.0015576101060987711, diffPixels=1306
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007084382871536523, diffPixels=594
+  stable page 1: diffRatio=0.0015576101060987711, diffPixels=1306
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0036] [WPT reftest] css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html
@@ -452,16 +445,16 @@
   reference: css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0007084382871536523, diffPixels=594
+  canary page 1: diffRatio=0.0011437581100679336, diffPixels=959
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0007084382871536523, diffPixels=594
+  stable page 1: diffRatio=0.0011437581100679336, diffPixels=959
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-dynamic-viewport-metrics-first-line-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0037] [WPT reftest] css/css-highlight-api/painting/custom-highlight-font-metrics-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -469,12 +462,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.003766410960995344, diffPixels=3158
+  stable page 1: diffRatio=0.003741365162964659, diffPixels=3137
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0038] [WPT reftest] css/css-highlight-api/painting/custom-highlight-font-metrics-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-font-metrics-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -485,16 +478,9 @@
   stable page 1: diffRatio=0.002251736508663461, diffPixels=1888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0039] [WPT reftest] css/css-highlight-api/painting/custom-highlight-font-metrics-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0014681608274177544, diffPixels=1231
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0040] [WPT reftest] css/css-highlight-api/painting/custom-highlight-font-metrics-004.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-font-metrics-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -507,7 +493,7 @@
 
 - [0041] [WPT reftest] css/css-highlight-api/painting/custom-highlight-font-metrics-005.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-font-metrics-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-font-metrics-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -546,7 +532,7 @@
 
 - [0044] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -559,7 +545,7 @@
 
 - [0045] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -572,7 +558,7 @@
 
 - [0046] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -585,7 +571,7 @@
 
 - [0047] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-004-2.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-004-2-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-004-2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -596,16 +582,9 @@
   stable page 1: diffRatio=0.0008098141363254714, diffPixels=679
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-004-2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0048] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-004.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.000197981070147317, diffPixels=166
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0049] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-005.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -618,7 +597,7 @@
 
 - [0050] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-006.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -631,7 +610,7 @@
 
 - [0051] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-007.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -644,7 +623,7 @@
 
 - [0052] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-008.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -657,7 +636,7 @@
 
 - [0053] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-009.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -670,7 +649,7 @@
 
 - [0054] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-010.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -683,7 +662,7 @@
 
 - [0055] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-011.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -696,7 +675,7 @@
 
 - [0056] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-012.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -709,7 +688,7 @@
 
 - [0057] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-013.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -722,7 +701,7 @@
 
 - [0058] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-014.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -735,7 +714,7 @@
 
 - [0059] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-015.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -748,7 +727,7 @@
 
 - [0060] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-016.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -761,7 +740,7 @@
 
 - [0061] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-017.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/pass_if_pass_below.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -774,7 +753,7 @@
 
 - [0062] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-018.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -787,7 +766,7 @@
 
 - [0063] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-019.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-019-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-019.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -798,16 +777,9 @@
   stable page 1: diffRatio=0.0011532993664605756, diffPixels=967
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0064] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-020.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.007481537668880238, diffPixels=6273
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0065] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-021.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-021-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -831,16 +803,9 @@
   stable page 1: diffRatio=0.005438516143805816, diffPixels=4560
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-anonymous-block-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0067] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-below-grammar.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00047229219143576825, diffPixels=396
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-below-grammar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-below-grammar.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0068] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-below-selection-transparency.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -853,7 +818,7 @@
 
 - [0069] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-below-selection.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-below-selection-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-below-selection.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -866,7 +831,7 @@
 
 - [0070] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-below-target-text.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-below-target-text-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-below-target-text.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -879,7 +844,7 @@
 
 - [0071] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-display-types.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-display-types-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-display-types.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -890,18 +855,9 @@
   stable page 1: diffRatio=0.009962264330967101, diffPixels=8353
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-display-types-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0072] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-iframe-001.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-highlight-api/painting/custom-highlight-painting-iframe-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00036733837111670864, diffPixels=308
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0074] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-iframe-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-iframe-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -914,7 +870,7 @@
 
 - [0075] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-iframe-004.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-iframe-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -925,23 +881,9 @@
   stable page 1: diffRatio=0.00035779711472406687, diffPixels=300
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0076] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-iframe-005.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00010853179146630028, diffPixels=91
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0077] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-iframe-006.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00010853179146630028, diffPixels=91
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-iframe-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0078] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-inheritance-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-inheritance-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -954,7 +896,7 @@
 
 - [0079] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-inheritance-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-inheritance-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -965,16 +907,9 @@
   stable page 1: diffRatio=0.0007728417678039845, diffPixels=648
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-inheritance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0080] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-inheritance-003.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00010733913441722005, diffPixels=90
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-inheritance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-inheritance-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0081] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-insert-node-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-insert-node-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-insert-node-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1000,7 +935,7 @@
 
 - [0083] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-invalidation-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-invalidation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1011,16 +946,9 @@
   stable page 1: diffRatio=0.0010149511487672696, diffPixels=851
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0084] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-invalidation-002.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00025761392260132814, diffPixels=216
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-invalidation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-invalidation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0085] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-invalidation-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-invalidation-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1033,7 +961,7 @@
 
 - [0086] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-invalidation-004.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-invalidation-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1046,7 +974,7 @@
 
 - [0087] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-invalidation-005.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-invalidation-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1059,7 +987,7 @@
 
 - [0088] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-invalidation-006.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-invalidation-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1072,7 +1000,7 @@
 
 - [0089] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-invalidation-007.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-invalidation-007-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-invalidation-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1083,16 +1011,9 @@
   stable page 1: diffRatio=0.0005283470727425387, diffPixels=443
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-invalidation-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0091] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.015178946263643996, diffPixels=12727
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0092] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-overlapping-highlights-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1105,7 +1026,7 @@
 
 - [0093] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-prioritization-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-prioritization-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1118,7 +1039,7 @@
 
 - [0094] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-prioritization-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-prioritization-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1131,7 +1052,7 @@
 
 - [0095] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-prioritization-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-prioritization-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-prioritization-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1144,7 +1065,7 @@
 
 - [0096] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-priority-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1157,7 +1078,7 @@
 
 - [0097] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1168,16 +1089,9 @@
   stable page 1: diffRatio=0.005077141057934509, diffPixels=4257
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-selection-text-decoration-currentcolor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0098] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-staticrange-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00025761392260132814, diffPixels=216
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-staticrange-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-staticrange-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0099] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-staticrange-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-staticrange-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1190,7 +1104,7 @@
 
 - [0101] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-staticrange-004.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-staticrange-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-staticrange-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1203,7 +1117,7 @@
 
 - [0102] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-staticrange-005.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-staticrange-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1214,23 +1128,9 @@
   stable page 1: diffRatio=0.0010173364628654302, diffPixels=853
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0103] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-text-decoration-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0009767861231967025, diffPixels=819
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-text-decoration-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0104] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-text-decoration-dynamic-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0013047668116937638, diffPixels=1094
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-text-decoration-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-text-decoration-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0105] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-text-shadow-invalidation.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-text-shadow-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1243,7 +1143,7 @@
 
 - [0106] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-text-shadow.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-text-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1254,16 +1154,9 @@
   stable page 1: diffRatio=0.001053116174337837, diffPixels=883
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-text-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0107] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-two-highlights-same-range-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0009386210976261354, diffPixels=787
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-two-highlights-same-range-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-two-highlights-same-range-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0108] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-two-highlights-same-range-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/custom-highlight-painting-two-highlights-same-range-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-two-highlights-same-range-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1274,16 +1167,9 @@
   stable page 1: diffRatio=0.0006213743225707961, diffPixels=521
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-two-highlights-same-range-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0109] [WPT reftest] css/css-highlight-api/painting/custom-highlight-painting-user-select-none.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0003482558583314251, diffPixels=292
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-user-select-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-user-select-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0111] [WPT reftest] css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/invalidation/css-highlight-invalidation-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1311,13 +1197,13 @@
   side: canary, stable
   canary timeout: false
   canary error: Error: page.evaluate: Error: Could not detect total pages (no spread container found).
-    at eval (eval at evaluate (:311:30), <anonymous>:10:11)
-    at UtilityScript.evaluate (<anonymous>:313:16)
+    at eval (eval at evaluate (:370:30), <anonymous>:10:11)
+    at UtilityScript.evaluate (<anonymous>:372:16)
     at UtilityScript.<anonymous> (<anonymous>:1:44)
   stable timeout: false
   stable error: Error: page.evaluate: Error: Could not detect total pages (no spread container found).
-    at eval (eval at evaluate (:311:30), <anonymous>:10:11)
-    at UtilityScript.evaluate (<anonymous>:313:16)
+    at eval (eval at evaluate (:370:30), <anonymous>:10:11)
+    at UtilityScript.evaluate (<anonymous>:372:16)
     at UtilityScript.<anonymous> (<anonymous>:1:44)
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-staticrange-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-highlight-api/painting/custom-highlight-painting-staticrange-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

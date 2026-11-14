@@ -1,16 +1,16 @@
 # canary vs stable comparison report
 
-- Compared entries: 115
-- Entries with differences: 33 (improvement: 1, pending: 32, triaged: 0)
+- Compared entries: 264
+- Entries with differences: 44 (pending: 44, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 6
-- Outcome summary: {"known-fail":26,"pass":82,"expected-change":4,"improvement":1,"changed-fail":2}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":219,"error":1,"known-fail":43,"changed-fail":1}
 
 ## Differences
 
-- [0001] [WPT reftest] css/css-borders/border-image-color-scheme.html
+- [0030] [WPT reftest] css/css-borders/border-image-color-scheme.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-image-color-scheme-ref.html (==)
@@ -23,14 +23,176 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-image-color-scheme-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0004] [WPT reftest] css/css-borders/border-shape/border-shape-background-origin-border-box.html
+- [0044] [WPT reftest] css/css-borders/border-image-repeat-round-003.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0028456797191054118, diffPixels=2386
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-background-origin-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-image-repeat-round-003-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-image-repeat-round-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.12991136172811235, diffPixels=108926
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-image-repeat-round-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-image-repeat-round-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.12991136172811235, diffPixels=108926
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-image-repeat-round-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0005] [WPT reftest] css/css-borders/border-shape/border-shape-circle-extent-keywords.html
+- [0047] [WPT reftest] css/css-borders/border-image-repeat-round-stretch-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-image-repeat-round-stretch-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-image-repeat-round-stretch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.08935148080299214, diffPixels=74918
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-image-repeat-round-stretch-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-image-repeat-round-stretch-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.08935148080299214, diffPixels=74918
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-image-repeat-round-stretch-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0062] [WPT reftest] css/css-borders/border-image-repeat-stretch-round-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-image-repeat-stretch-round-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-image-repeat-stretch-round-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.09504999618349744, diffPixels=79696
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-image-repeat-stretch-round-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-image-repeat-stretch-round-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.09504999618349744, diffPixels=79696
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-image-repeat-stretch-round-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0066] [WPT reftest] css/css-borders/border-image-shorthand-003.htm
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-image-shorthand-003-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-image-shorthand-003.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011688039080986184, diffPixels=9800
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-image-shorthand-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-image-shorthand-003.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.011688039080986184, diffPixels=9800
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-image-shorthand-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0084] [WPT reftest] css/css-borders/border-image-width-009.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-image-width-009-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-image-width-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.010495382031905962, diffPixels=8800
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-image-width-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-image-width-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.010495382031905962, diffPixels=8800
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-image-width-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0086] [WPT reftest] css/css-borders/border-left-width-medium.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-right-width-3px-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-left-width-medium.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-right-width-3px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-left-width-medium.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-right-width-3px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0087] [WPT reftest] css/css-borders/border-left-width-thick.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-right-width-5px-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-left-width-thick.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-right-width-5px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-left-width-thick.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-right-width-5px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0088] [WPT reftest] css/css-borders/border-left-width-thin.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-right-width-1px-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-left-width-thin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-right-width-1px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-left-width-thin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-right-width-1px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0104] [WPT reftest] css/css-borders/border-radius-clipping-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-nothing-below.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-radius-clipping-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary selected pages: test=[1, 2], reference=[1]
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-nothing-below.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-radius-clipping-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable selected pages: test=[1, 2], reference=[1]
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-nothing-below.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0107] [WPT reftest] css/css-borders/border-radius-dynamic-from-no-radius.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/border-radius-dynamic-from-no-radius-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-radius-dynamic-from-no-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.009120248454316464, diffPixels=7647
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-radius-dynamic-from-no-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-radius-dynamic-from-no-radius.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.009120248454316464, diffPixels=7647
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-radius-dynamic-from-no-radius-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0111] [WPT reftest] css/css-borders/border-right-width-medium.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-right-width-3px-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-right-width-medium.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-right-width-3px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-right-width-medium.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-right-width-3px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0112] [WPT reftest] css/css-borders/border-right-width-thick.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-right-width-5px-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-right-width-thick.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-right-width-5px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-right-width-thick.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-right-width-5px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0113] [WPT reftest] css/css-borders/border-right-width-thin.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/reference/border-right-width-1px-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-right-width-thin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-right-width-1px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-right-width-thin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-right-width-1px-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0115] [WPT reftest] css/css-borders/border-shape/border-shape-circle-extent-keywords.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-circle-extent-keywords-ref.html (==)
@@ -43,14 +205,7 @@
   stable page 3: diffRatio=0.11274544882070071, diffPixels=94533
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-circle-extent-keywords-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0007] [WPT reftest] css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00047706281963208914, diffPixels=400
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-collapsed-shape-clips-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0010] [WPT reftest] css/css-borders/border-shape/border-shape-dynamic-color.html
+- [0120] [WPT reftest] css/css-borders/border-shape/border-shape-dynamic-color.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-dynamic-color-ref.html (==)
@@ -63,7 +218,7 @@
   stable page 1: diffRatio=0.009851347225402641, diffPixels=8260
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-dynamic-color-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0011] [WPT reftest] css/css-borders/border-shape/border-shape-ellipse-corner-keywords.tentative.html
+- [0121] [WPT reftest] css/css-borders/border-shape/border-shape-ellipse-corner-keywords.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-ellipse-corner-keywords-ref.html (==)
@@ -76,26 +231,7 @@
   stable page 1: diffRatio=0.11274544882070071, diffPixels=94533
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-ellipse-corner-keywords-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0013] [WPT reftest] css/css-borders/border-shape/border-shape-geometry-box.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0006201816655217159, diffPixels=520
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-geometry-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0036] [WPT reftest] css/css-borders/border-shape/border-shape-overflow-replaced-self.html
-  triage: not-needed
-  outcome: improvement (baseline=ERROR, actual=PASS)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-replaced-self.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0037] [WPT reftest] css/css-borders/border-shape/border-shape-overflow-solid-background.html
-  triage: pending
-  outcome: known-fail (baseline=ERROR, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0049] [WPT reftest] css/css-borders/border-shape/border-shape-stroke-from-border.html
+- [0159] [WPT reftest] css/css-borders/border-shape/border-shape-stroke-from-border.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-stroke-from-border-ref.html (==)
@@ -108,7 +244,7 @@
   stable page 1: diffRatio=0.03935291199145104, diffPixels=32996
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-stroke-from-border-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0051] [WPT reftest] css/css-borders/border-shape/border-shape-two-shapes-shadow.html
+- [0161] [WPT reftest] css/css-borders/border-shape/border-shape-two-shapes-shadow.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html (==)
@@ -121,7 +257,33 @@
   stable page 1: diffRatio=0.0016196282726509427, diffPixels=1358
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-shape/border-shape-two-shapes-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0054] [WPT reftest] css/css-borders/corner-shape/corner-shape-ancestor-clip-dynamic.html
+- [0186] [WPT reftest] css/css-borders/color-mix-currentcolor-border-repaint-parent.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/color-mix-currentcolor-border-repaint-parent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/color-mix-currentcolor-border-repaint-parent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0187] [WPT reftest] css/css-borders/color-mix-currentcolor-border-repaint.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/color-mix-currentcolor-border-repaint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/color-mix-currentcolor-border-repaint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0188] [WPT reftest] css/css-borders/corner-shape/corner-shape-ancestor-clip-dynamic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-ancestor-clip-dynamic-ref.html (==)
@@ -134,72 +296,59 @@
   stable page 1: diffRatio=0.09395990764063812, diffPixels=78782
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-ancestor-clip-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0062] [WPT reftest] css/css-borders/corner-shape/corner-shape-box-shadow-spread-bevel.html
+- [0190] [WPT reftest] css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04051933058545149, diffPixels=33974
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04051933058545149, diffPixels=33974
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-backdrop-filter-video-overflow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0196] [WPT reftest] css/css-borders/corner-shape/corner-shape-border-side-colors.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/corner-shape/corner-shape-border-side-colors-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-border-side-colors.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.00017889855736203343, diffPixels=150
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-border-side-colors-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-border-side-colors.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.00017889855736203343, diffPixels=150
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-border-side-colors-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0197] [WPT reftest] css/css-borders/corner-shape/corner-shape-box-shadow-spread-bevel.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-box-shadow-spread-bevel-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-bevel.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02320910617510114, diffPixels=19460
+  canary page 1: diffRatio=0.023182867720021372, diffPixels=19438
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-bevel-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-bevel.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02320910617510114, diffPixels=19460
+  stable page 1: diffRatio=0.023182867720021372, diffPixels=19438
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-bevel-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0063] [WPT reftest] css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical.html
+- [0198] [WPT reftest] css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.023812590641935732, diffPixels=19966
+  canary page 1: diffRatio=0.023204335546904816, diffPixels=19456
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.023812590641935732, diffPixels=19966
+  stable page 1: diffRatio=0.023204335546904816, diffPixels=19456
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-box-shadow-spread-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0064] [WPT reftest] css/css-borders/corner-shape/corner-shape-clip-path-border-box.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-borders/corner-shape/corner-shape-clip-path-border-box-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-clip-path-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.01836214792763911, diffPixels=15396
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-clip-path-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-clip-path-border-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.01836214792763911, diffPixels=15396
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-clip-path-border-box-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0074] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0066037420807571945, diffPixels=5537
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0066037420807571945, diffPixels=5537
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0075] [WPT reftest] css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.011617672315090451, diffPixels=9741
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.011617672315090451, diffPixels=9741
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-offset-path-coord-box-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0077] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-elliptical.html
+- [0212] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-elliptical.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-elliptical-ref.html (==)
@@ -212,7 +361,7 @@
   stable page 1: diffRatio=0.00679814517975727, diffPixels=5700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0078] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-mixed.html
+- [0213] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-mixed.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-mixed-ref.html (==)
@@ -225,7 +374,7 @@
   stable page 1: diffRatio=0.004573839783222655, diffPixels=3835
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-mixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0079] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-notch.html
+- [0214] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-notch.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-notch-ref.html (==)
@@ -238,7 +387,7 @@
   stable page 1: diffRatio=0.001695958323792077, diffPixels=1422
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-notch-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0080] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-scoop.html
+- [0215] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-scoop.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-scoop-ref.html (==)
@@ -251,7 +400,7 @@
   stable page 1: diffRatio=0.006552457827646745, diffPixels=5494
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-scoop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0081] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-superellipse.html
+- [0216] [WPT reftest] css/css-borders/corner-shape/corner-shape-opposite-scale-superellipse.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-opposite-scale-superellipse-ref.html (==)
@@ -264,7 +413,7 @@
   stable page 1: diffRatio=0.01065162010533547, diffPixels=8931
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-opposite-scale-superellipse-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0085] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-bevel.html
+- [0220] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-bevel.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-bevel-ref.html (==)
@@ -277,7 +426,7 @@
   stable page 1: diffRatio=0.033042563544767575, diffPixels=27705
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-bevel-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0086] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch001.html
+- [0221] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch001-ref.html (==)
@@ -290,7 +439,7 @@
   stable page 1: diffRatio=0.020513701244179835, diffPixels=17200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0087] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch002.html
+- [0222] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch002-ref.html (==)
@@ -303,7 +452,7 @@
   stable page 1: diffRatio=0.01717426150675521, diffPixels=14400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0088] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch003.html
+- [0223] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch003-ref.html (==)
@@ -316,7 +465,7 @@
   stable page 1: diffRatio=0.04333757919242806, diffPixels=36337
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-notch003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0089] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-square.html
+- [0224] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-negative-offset-square.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-negative-offset-square-ref.html (==)
@@ -329,55 +478,87 @@
   stable page 1: diffRatio=0.03244027173498206, diffPixels=27200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-negative-offset-square-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0090] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html
+- [0225] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-offset-bevel-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.02761239600030532, diffPixels=23152
+  canary page 1: diffRatio=0.027367901305243875, diffPixels=22947
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-bevel-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-bevel.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.02761239600030532, diffPixels=23152
+  stable page 1: diffRatio=0.027367901305243875, diffPixels=22947
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-bevel-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0091] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html
+- [0226] [WPT reftest] css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shape-outline-offset-elliptical-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.027420378215403406, diffPixels=22991
+  canary page 1: diffRatio=0.027477625753759255, diffPixels=23039
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-elliptical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.027420378215403406, diffPixels=22991
+  stable page 1: diffRatio=0.027477625753759255, diffPixels=23039
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-outline-offset-elliptical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0109] [WPT reftest] css/css-borders/corner-shape/corner-shorthand-rendering.html
+- [0228] [WPT reftest] css/css-borders/corner-shape/corner-shape-scoop.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/corner-shape/corner-shape-scoop-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-scoop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-scoop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-scoop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-scoop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0240] [WPT reftest] css/css-borders/corner-shape/corner-shape-superellipse-scoop.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-borders/corner-shape/corner-shape-superellipse-scoop-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-superellipse-scoop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-superellipse-scoop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-superellipse-scoop.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shape-superellipse-scoop-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0244] [WPT reftest] css/css-borders/corner-shape/corner-shorthand-rendering.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/corner-shape/corner-shorthand-rendering-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0025272402870009925, diffPixels=2119
+  canary page 1: diffRatio=0.00251531371651019, diffPixels=2109
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0025272402870009925, diffPixels=2119
+  stable page 1: diffRatio=0.00251531371651019, diffPixels=2109
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/corner-shape/corner-shorthand-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0111] [WPT reftest] css/css-borders/subpixel-border-width.tentative.html
+- [0257] [WPT reftest] css/css-borders/currentcolor-border-repaint-parent.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.012128129532096786, diffPixels=10169
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/subpixel-border-width.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/subpixel-border-width.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/currentcolor-border-repaint-parent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/currentcolor-border-repaint-parent.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0114] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
+- [0262] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -385,12 +566,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
+  stable page 1: diffRatio=0.005889340508358141, diffPixels=4938
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0115] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
+- [0263] [WPT reftest] css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-borders/reference/border-radius-side-shorthands-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -398,22 +579,18 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/tentative/border-radius-side-shorthands/border-radius-side-shorthands-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0058762212808182585, diffPixels=4927
+  stable page 1: diffRatio=0.005889340508358141, diffPixels=4938
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/reference/border-radius-side-shorthands-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
 
-- [0037] [WPT reftest] css/css-borders/border-shape/border-shape-overflow-solid-background.html
+- [0021] [WPT reftest] css/css-borders/border-image-011.html
   triage: pending
-  side: canary-reference, stable, stable-reference
-  canary-reference reference: css/css-borders/border-shape/border-shape-overflow-solid-background-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   stable timeout: true
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/css-borders/border-shape/border-shape-overflow-solid-background-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-shape/border-shape-overflow-solid-background-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-borders/border-image-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-borders/border-image-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

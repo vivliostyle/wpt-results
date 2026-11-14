@@ -1,21 +1,14 @@
 # canary vs stable comparison report
 
-- Compared entries: 65
+- Compared entries: 66
 - Entries with differences: 50 (pending: 50, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 18
-- Outcome summary: {"expected-change":1,"known-fail":22,"pass":15,"changed-fail":17,"regression":10}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":16,"known-fail":50}
 
 ## Differences
-
-- [0001] [WPT reftest] css/css-content/attr-case-sensitivity-001.html
-  triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.00023018281047248302, diffPixels=193
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/attr-case-sensitivity-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0002] [WPT reftest] css/css-content/attr-case-sensitivity-002.html
   triage: pending
@@ -32,7 +25,7 @@
 
 - [0004] [WPT reftest] css/css-content/attr-case-sensitivity-004.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-case-sensitivity-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -45,7 +38,7 @@
 
 - [0005] [WPT reftest] css/css-content/attr-chained-pseudo-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/attr-chained-pseudo-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/attr-chained-pseudo-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -58,7 +51,7 @@
 
 - [0007] [WPT reftest] css/css-content/element-replacement-alt.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/element-replacement-alt-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/element-replacement-alt.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -71,7 +64,7 @@
 
 - [0010] [WPT reftest] css/css-content/element-replacement-dynamic.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/element-replacement-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/element-replacement-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -136,7 +129,7 @@
 
 - [0016] [WPT reftest] css/css-content/element-replacement-root-canvas-bg-from-body.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/element-replacement-root-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/element-replacement-root-canvas-bg-from-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -149,7 +142,7 @@
 
 - [0017] [WPT reftest] css/css-content/element-replacement-root-canvas-bg.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/element-replacement-root-canvas-bg-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/element-replacement-root-canvas-bg.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -162,7 +155,7 @@
 
 - [0018] [WPT reftest] css/css-content/element-replacement-root.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/element-replacement-root-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/element-replacement-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -175,7 +168,7 @@
 
 - [0019] [WPT reftest] css/css-content/element-replacement.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/element-replacement-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/element-replacement.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -214,7 +207,7 @@
 
 - [0022] [WPT reftest] css/css-content/pseudo-element-inline-box.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/pseudo-element-inline-box-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/pseudo-element-inline-box.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -227,12 +220,16 @@
 
 - [0023] [WPT reftest] css/css-content/quotes-001.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0000011926570490802229, diffPixels=1
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0024] [WPT reftest] css/css-content/quotes-002.html
   triage: pending
@@ -270,7 +267,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0012701797572704373, diffPixels=1065
+  stable page 1: diffRatio=0.0012666017861231967, diffPixels=1062
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0027] [WPT reftest] css/css-content/quotes-005.html
@@ -288,12 +285,16 @@
 
 - [0028] [WPT reftest] css/css-content/quotes-006.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0000011926570490802229, diffPixels=1
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000011926570490802229, diffPixels=1
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0030] [WPT reftest] css/css-content/quotes-008.html
   triage: pending
@@ -305,7 +306,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013202713533318068, diffPixels=1107
+  stable page 1: diffRatio=0.0013190786962827266, diffPixels=1106
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0031] [WPT reftest] css/css-content/quotes-009.html
@@ -318,7 +319,7 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0004734848484848485, diffPixels=397
+  stable page 1: diffRatio=0.0004591729638958858, diffPixels=385
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0032] [WPT reftest] css/css-content/quotes-010.html
@@ -344,17 +345,21 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001102015113350126, diffPixels=924
+  stable page 1: diffRatio=0.0010984371422028852, diffPixels=921
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0034] [WPT reftest] css/css-content/quotes-012.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-012-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0000035779711472406687, diffPixels=3
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000035779711472406687, diffPixels=3
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0035] [WPT reftest] css/css-content/quotes-013.html
   triage: pending
@@ -379,12 +384,12 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001492013968399359, diffPixels=1251
+  stable page 1: diffRatio=0.001488435997252118, diffPixels=1248
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0038] [WPT reftest] css/css-content/quotes-016.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-016-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -392,35 +397,47 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0006464201206014808, diffPixels=542
+  stable page 1: diffRatio=0.000658346691092283, diffPixels=552
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0039] [WPT reftest] css/css-content/quotes-017.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-017-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0000047706281963208916, diffPixels=4
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000047706281963208916, diffPixels=4
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-017-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0040] [WPT reftest] css/css-content/quotes-018.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-018-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.000010733913441722006, diffPixels=9
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000010733913441722006, diffPixels=9
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0042] [WPT reftest] css/css-content/quotes-020.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-020-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0000047706281963208916, diffPixels=4
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000047706281963208916, diffPixels=4
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0043] [WPT reftest] css/css-content/quotes-021.html
   triage: pending
@@ -432,26 +449,34 @@
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-021.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0013274272956262882, diffPixels=1113
+  stable page 1: diffRatio=0.0013345832379207693, diffPixels=1119
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0045] [WPT reftest] css/css-content/quotes-023.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-023-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.000015504541638042898, diffPixels=13
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000015504541638042898, diffPixels=13
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/css-content/quotes-024.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-024-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.000005963285245401114, diffPixels=5
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000005963285245401114, diffPixels=5
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0048] [WPT reftest] css/css-content/quotes-026.html
   triage: pending
@@ -468,21 +493,29 @@
 
 - [0050] [WPT reftest] css/css-content/quotes-028.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-028-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.0000047706281963208916, diffPixels=4
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-028.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0000047706281963208916, diffPixels=4
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0051] [WPT reftest] css/css-content/quotes-029.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-029-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.000005963285245401114, diffPixels=5
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-029.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.000005963285245401114, diffPixels=5
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0052] [WPT reftest] css/css-content/quotes-030.html
   triage: pending
@@ -525,7 +558,7 @@
 
 - [0058] [WPT reftest] css/css-content/quotes-first-letter-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-first-letter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -538,7 +571,7 @@
 
 - [0059] [WPT reftest] css/css-content/quotes-first-letter-002.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-first-letter-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -551,7 +584,7 @@
 
 - [0060] [WPT reftest] css/css-content/quotes-first-letter-003.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-first-letter-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -564,7 +597,7 @@
 
 - [0061] [WPT reftest] css/css-content/quotes-first-letter-004.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-first-letter-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -577,7 +610,7 @@
 
 - [0062] [WPT reftest] css/css-content/quotes-first-letter-005.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-first-letter-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-first-letter-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -590,7 +623,7 @@
 
 - [0064] [WPT reftest] css/css-content/quotes-lang-dynamic-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/reference/quotes-lang-dynamic-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-lang-dynamic-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -601,9 +634,22 @@
   stable page 1: diffRatio=0.00030651286161361725, diffPixels=257
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-lang-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0065] [WPT reftest] css/css-content/quotes-slot-scoping.html
+- [0065] [WPT reftest] css/css-content/quotes-match-parent-001.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-content/reference/quotes-match-parent-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-match-parent-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0015468761926570491, diffPixels=1297
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/reference/quotes-match-parent-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/quotes-match-parent-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0015468761926570491, diffPixels=1297
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-content/reference/quotes-match-parent-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0066] [WPT reftest] css/css-content/quotes-slot-scoping.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-content/quotes-slot-scoping-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-content/quotes-slot-scoping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
