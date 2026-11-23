@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 39
-- Entries with differences: 7 (improvement: 1, pending: 6, triaged: 0)
+- Entries with differences: 8 (improvement: 1, pending: 7, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":32,"known-fail":6,"improvement":1}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":31,"known-fail":6,"improvement":1,"expected-change":1}
 
 ## Differences
 
@@ -80,6 +80,13 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/pseudo-animations-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0010101805205709488, diffPixels=847
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/pseudo-animations-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0030] [WPT print-reftest] css/printing/table-in-flex-overflow-print.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.024182314327150598, diffPixels=20276
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/printing/table-in-flex-overflow-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/printing/table-in-flex-overflow-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0031] [WPT print-reftest] css/printing/table-overflow-quirks-frameset-crash-print.html
   triage: pending

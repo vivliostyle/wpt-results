@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 98
+- Compared entries: 101
 - Entries with differences: 19 (pending: 19, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":19,"pass":79}
+- Outcome summary: {"known-fail":19,"pass":82}
 
 ## Differences
 
@@ -62,7 +62,7 @@
   stable page 1: diffRatio=0.13238493244790475, diffPixels=111000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/animation/reftests/offset-path-path-interpolation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0021] [WPT reftest] css/motion/offset-path-coord-box-004.html
+- [0022] [WPT reftest] css/motion/offset-path-coord-box-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-coord-box-004-ref.html (==)
@@ -75,7 +75,7 @@
   stable page 1: diffRatio=0.09303917639874819, diffPixels=78010
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-coord-box-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0023] [WPT reftest] css/motion/offset-path-ray-002.html
+- [0024] [WPT reftest] css/motion/offset-path-ray-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-ray-001-ref.html (==)
@@ -88,7 +88,7 @@
   stable page 1: diffRatio=0.00936712846347607, diffPixels=7854
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-ray-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0082] [WPT reftest] css/motion/offset-path-url-001.html
+- [0085] [WPT reftest] css/motion/offset-path-url-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-001-ref.html (==)
@@ -101,7 +101,7 @@
   stable page 1: diffRatio=0.0051868655064498895, diffPixels=4349
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0083] [WPT reftest] css/motion/offset-path-url-002.html
+- [0086] [WPT reftest] css/motion/offset-path-url-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-002-ref.html (==)
@@ -114,7 +114,7 @@
   stable page 1: diffRatio=0.0051868655064498895, diffPixels=4349
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0084] [WPT reftest] css/motion/offset-path-url-003.html
+- [0087] [WPT reftest] css/motion/offset-path-url-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-003-ref.html (==)
@@ -127,7 +127,7 @@
   stable page 1: diffRatio=0.005188058163498969, diffPixels=4350
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0085] [WPT reftest] css/motion/offset-path-url-004.html
+- [0088] [WPT reftest] css/motion/offset-path-url-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-004-ref.html (==)
@@ -140,7 +140,7 @@
   stable page 1: diffRatio=0.005185672849400809, diffPixels=4348
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0086] [WPT reftest] css/motion/offset-path-url-005.html
+- [0089] [WPT reftest] css/motion/offset-path-url-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-001-ref.html (==)
@@ -153,7 +153,7 @@
   stable page 1: diffRatio=0.0051868655064498895, diffPixels=4349
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0087] [WPT reftest] css/motion/offset-path-url-006.html
+- [0090] [WPT reftest] css/motion/offset-path-url-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-001-ref.html (==)
@@ -166,7 +166,7 @@
   stable page 1: diffRatio=0.0051868655064498895, diffPixels=4349
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0088] [WPT reftest] css/motion/offset-path-url-007.html
+- [0091] [WPT reftest] css/motion/offset-path-url-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-002-ref.html (==)
@@ -179,7 +179,7 @@
   stable page 1: diffRatio=0.0051868655064498895, diffPixels=4349
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0089] [WPT reftest] css/motion/offset-path-url-008.html
+- [0092] [WPT reftest] css/motion/offset-path-url-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-008-ref.html (==)
@@ -192,7 +192,7 @@
   stable page 1: diffRatio=0.005184480192351729, diffPixels=4347
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0090] [WPT reftest] css/motion/offset-path-url-009.html
+- [0093] [WPT reftest] css/motion/offset-path-url-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-008-ref.html (==)
@@ -205,7 +205,7 @@
   stable page 1: diffRatio=0.005184480192351729, diffPixels=4347
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0091] [WPT reftest] css/motion/offset-path-url-010.html
+- [0094] [WPT reftest] css/motion/offset-path-url-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-path-url-008-ref.html (==)
@@ -218,7 +218,7 @@
   stable page 1: diffRatio=0.005184480192351729, diffPixels=4347
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-path-url-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0093] [WPT reftest] css/motion/offset-path-url-012.html
+- [0096] [WPT reftest] css/motion/offset-path-url-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -231,7 +231,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0097] [WPT reftest] css/motion/offset-rotate-004.html
+- [0100] [WPT reftest] css/motion/offset-rotate-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-rotate-ref.html (==)
@@ -244,7 +244,7 @@
   stable page 1: diffRatio=0.06663374933211205, diffPixels=55870
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/motion/offset-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0098] [WPT reftest] css/motion/offset-rotate-005.html
+- [0101] [WPT reftest] css/motion/offset-rotate-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/motion/offset-rotate-ref.html (==)

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 215
-- Entries with differences: 72 (pending: 72, triaged: 0)
+- Entries with differences: 75 (pending: 75, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":142,"known-fail":71,"changed-fail":1,"unchanged":1}
+- Screenshot mismatches: 20
+- Outcome summary: {"pass":139,"known-fail":55,"expected-change":3,"changed-fail":17,"unchanged":1}
 
 ## Differences
 
@@ -127,6 +127,14 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0037] [WPT reftest] css/css-values/calc-height-table-1.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.009125019082512785, diffPixels=7651
+  page 2: diffRatio=0.008869790474009617, diffPixels=7437
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-height-table-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-height-table-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0038] [WPT reftest] css/css-values/calc-in-calc.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -230,6 +238,20 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-rem-lang.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0005522002137241432, diffPixels=463
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-rem-lang-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0095] [WPT reftest] css/css-values/calc-width-table-auto-1.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.014652984504999618, diffPixels=12286
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-width-table-auto-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-width-table-auto-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0096] [WPT reftest] css/css-values/calc-width-table-fixed-1.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.02194250438897794, diffPixels=18398
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-width-table-fixed-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-width-table-fixed-1.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0119] [WPT reftest] css/css-values/ic-unit-002.html
   triage: pending
@@ -506,7 +528,7 @@
 
 - [0170] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-cross-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -532,7 +554,7 @@
 
 - [0172] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-same-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/no-referrer/url-image-referrer-policy-same-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -571,7 +593,7 @@
 
 - [0175] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-cross-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -584,7 +606,7 @@
 
 - [0176] [WPT reftest] css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-same-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/no-referrer-when-downgrade/url-image-referrer-policy-same-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -597,7 +619,7 @@
 
 - [0177] [WPT reftest] css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-cross-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -623,7 +645,7 @@
 
 - [0179] [WPT reftest] css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-same-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/origin/url-image-referrer-policy-same-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -636,7 +658,7 @@
 
 - [0180] [WPT reftest] css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -649,7 +671,7 @@
 
 - [0181] [WPT reftest] css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-same-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/origin-when-cross-origin/url-image-referrer-policy-same-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -662,7 +684,7 @@
 
 - [0182] [WPT reftest] css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-cross-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -675,7 +697,7 @@
 
 - [0183] [WPT reftest] css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-same-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/same-origin/url-image-referrer-policy-same-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -688,7 +710,7 @@
 
 - [0184] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-cross-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -701,7 +723,7 @@
 
 - [0185] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-same-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/strict-origin/url-image-referrer-policy-same-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -714,7 +736,7 @@
 
 - [0186] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-cross-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -727,7 +749,7 @@
 
 - [0187] [WPT reftest] css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-same-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/strict-origin-when-cross-origin/url-image-referrer-policy-same-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -740,7 +762,7 @@
 
 - [0188] [WPT reftest] css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-cross-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-cross-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -766,7 +788,7 @@
 
 - [0190] [WPT reftest] css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-same-origin.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/urls/referrer-policy/unsafe-url/url-image-referrer-policy-same-origin.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -926,7 +948,7 @@
   reference: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008587130753377604, diffPixels=720
+  canary page 1: diffRatio=0.0002862376917792535, diffPixels=240
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

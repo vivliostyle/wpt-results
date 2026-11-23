@@ -1,22 +1,23 @@
 # canary vs stable comparison report
 
 - Compared entries: 47
-- Entries with differences: 5 (pending: 5, triaged: 0)
+- Entries with differences: 5 (improvement: 1, pending: 4, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":42,"known-fail":5}
+- Screenshot mismatches: 3
+- Outcome summary: {"pass":42,"changed-fail":2,"known-fail":2,"improvement":1}
 
 ## Differences
 
 - [0007] [WPT reftest] css/css-will-change/will-change-fixedpos-cb-003.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-will-change/will-change-fixedpos-cb-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03577971147240669, diffPixels=30000
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 2: diffRatio=0.02385314098160446, diffPixels=20000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -25,11 +26,12 @@
 
 - [0010] [WPT reftest] css/css-will-change/will-change-fixedpos-cb-006.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-will-change/will-change-fixedpos-cb-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03577971147240669, diffPixels=30000
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary page 2: diffRatio=0.02385314098160446, diffPixels=20000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-will-change/will-change-fixedpos-cb-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -63,13 +65,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-will-change/green-square-100-by-100-offset-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0042] [WPT reftest] css/css-will-change/will-change-transform-add-content.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-will-change/will-change-transform-add-content-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00046036562094496603, diffPixels=386
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-will-change/will-change-transform-add-content.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00046036562094496603, diffPixels=386

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 350
-- Entries with differences: 192 (pending: 192, triaged: 0)
+- Entries with differences: 193 (pending: 193, triaged: 0)
 - Entries with errors: 1 (pending: 1, triaged: 0)
 - Timeout entries: 1
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":151,"known-fail":192,"error":1,"unchanged":6}
+- Screenshot mismatches: 1
+- Outcome summary: {"pass":150,"known-fail":192,"error":1,"expected-change":1,"unchanged":6}
 
 ## Differences
 
@@ -802,6 +802,14 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-in-shadow-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00046752156323944736, diffPixels=392
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-in-shadow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0099] [WPT reftest] css/selectors/invalidation/nth-child-of-attr-largedom.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.01915526486527746, diffPixels=16061
+  page 2: diffRatio=0.003387146019387833, diffPixels=2840
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-attr-largedom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/selectors/invalidation/nth-child-of-attr-largedom.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0100] [WPT reftest] css/selectors/invalidation/nth-child-of-attr.html
   triage: pending

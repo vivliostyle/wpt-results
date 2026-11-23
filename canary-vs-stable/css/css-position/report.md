@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 253
-- Entries with differences: 95 (pending: 95, triaged: 0)
+- Compared entries: 255
+- Entries with differences: 101 (improvement: 2, pending: 99, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
 - Timeout entries: 3
-- Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":95,"pass":155,"error":3}
+- Page count changed: 1
+- Screenshot mismatches: 10
+- Outcome summary: {"known-fail":90,"pass":151,"changed-fail":5,"improvement":2,"error":3,"expected-change":3,"regression":1}
 
 ## Differences
 
@@ -38,7 +38,7 @@
 
 - [0006] [WPT reftest] css/css-position/containing-block-change-scrollframe.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/containing-block-change-scrollframe-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/containing-block-change-scrollframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -50,13 +50,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/containing-block-change-scrollframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0007] [WPT reftest] css/css-position/fixed-z-index-blend.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-position/fixed-z-index-blend-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/fixed-z-index-blend.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary selected pages: test=[1, 2], reference=[1]
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/fixed-z-index-blend-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/fixed-z-index-blend.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2], reference=[1]
@@ -400,6 +396,36 @@
   stable page 1: diffRatio=0.003816502557056713, diffPixels=3200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0093] [WPT reftest] css/css-position/position-absolute-semi-replaced-stretch-button.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0016363254713380657, diffPixels=1372
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-semi-replaced-stretch-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-semi-replaced-stretch-button.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0094] [WPT reftest] css/css-position/position-absolute-semi-replaced-stretch-input.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.01674729028318449, diffPixels=14042
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-semi-replaced-stretch-input.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-semi-replaced-stretch-input.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0095] [WPT reftest] css/css-position/position-absolute-semi-replaced-stretch-other.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.05228012174643157, diffPixels=43835
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-semi-replaced-stretch-other.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-semi-replaced-stretch-other.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0096] [WPT reftest] css/css-position/position-absolute-under-non-containing-stacking-context.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-position/position-absolute-under-non-containing-stacking-context-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-under-non-containing-stacking-context.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-under-non-containing-stacking-context-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0098] [WPT reftest] css/css-position/position-fixed-dynamic-transformed-sibling.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -414,13 +440,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-fixed-dynamic-transformed-sibling-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0101] [WPT reftest] css/css-position/position-fixed-scroll-nested-fixed.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-position/position-fixed-scroll-nested-fixed-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-fixed-scroll-nested-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04770628196320892, diffPixels=40000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-fixed-scroll-nested-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-fixed-scroll-nested-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04770628196320892, diffPixels=40000
@@ -465,7 +487,20 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0138] [WPT reftest] css/css-position/replaced-object-backdrop.html
+- [0118] [WPT reftest] css/css-position/position-relative-root-percentage-top.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-position/position-relative-root-percentage-top-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-relative-root-percentage-top.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-relative-root-percentage-top-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-relative-root-percentage-top.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-relative-root-percentage-top-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0139] [WPT reftest] css/css-position/replaced-object-backdrop.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/green.html (==)
@@ -478,7 +513,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/green.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0139] [WPT reftest] css/css-position/static-position/htb-ltr-ltr.html
+- [0140] [WPT reftest] css/css-position/static-position/htb-ltr-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/htb-ref.html (==)
@@ -491,7 +526,7 @@
   stable page 1: diffRatio=0.018319212273872225, diffPixels=15360
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/htb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0140] [WPT reftest] css/css-position/static-position/htb-ltr-rtl.tentative.html
+- [0141] [WPT reftest] css/css-position/static-position/htb-ltr-rtl.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/htb-ref.html (==)
@@ -504,7 +539,7 @@
   stable page 1: diffRatio=0.018319212273872225, diffPixels=15360
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/htb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0141] [WPT reftest] css/css-position/static-position/htb-rtl-ltr.tentative.html
+- [0142] [WPT reftest] css/css-position/static-position/htb-rtl-ltr.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/htb-ref.html (==)
@@ -517,7 +552,7 @@
   stable page 1: diffRatio=0.018319212273872225, diffPixels=15360
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/htb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0142] [WPT reftest] css/css-position/static-position/htb-rtl-rtl.html
+- [0143] [WPT reftest] css/css-position/static-position/htb-rtl-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/htb-ref.html (==)
@@ -530,7 +565,7 @@
   stable page 1: diffRatio=0.018319212273872225, diffPixels=15360
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/htb-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0143] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-001.html
+- [0144] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -543,7 +578,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0144] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-002.html
+- [0145] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -556,7 +591,7 @@
   stable page 1: diffRatio=0.004472463934050836, diffPixels=3750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0145] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-003.html
+- [0146] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -569,7 +604,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0147] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-005.html
+- [0148] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -582,7 +617,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0148] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-006.html
+- [0149] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -595,7 +630,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0150] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-008.html
+- [0151] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -608,7 +643,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0151] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-009.html
+- [0152] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -621,7 +656,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0152] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-010.html
+- [0153] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -634,7 +669,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0153] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-011.html
+- [0154] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -647,7 +682,7 @@
   stable page 1: diffRatio=0.004472463934050836, diffPixels=3750
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0154] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-012.html
+- [0155] [WPT reftest] css/css-position/static-position/inline-level-absolute-in-block-level-context-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -660,7 +695,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0157] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-htb-ltr.html
+- [0158] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-htb-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-top-left-ref.html (==)
@@ -673,7 +708,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-top-left-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0158] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-htb-rtl.html
+- [0159] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-htb-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-top-right-ref.html (==)
@@ -686,7 +721,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-top-right-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-slr-ltr.html
+- [0160] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-slr-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-bottom-left-ref.html (==)
@@ -699,7 +734,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-bottom-left-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0160] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-slr-rtl.html
+- [0161] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-slr-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-top-left-ref.html (==)
@@ -712,7 +747,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-top-left-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0161] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-srl-ltr.html
+- [0162] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-srl-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-top-right-ref.html (==)
@@ -725,7 +760,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-top-right-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0162] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-srl-rtl.html
+- [0163] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-srl-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-bottom-right-ref.html (==)
@@ -738,7 +773,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-bottom-right-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0163] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-vlr-ltr.html
+- [0164] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-vlr-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-top-left-ref.html (==)
@@ -751,7 +786,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-top-left-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0164] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-vlr-rtl.html
+- [0165] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-vlr-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-bottom-left-ref.html (==)
@@ -764,7 +799,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-bottom-left-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0165] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-vrl-ltr.html
+- [0166] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-vrl-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-top-right-ref.html (==)
@@ -777,7 +812,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-top-right-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0166] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-vrl-rtl.html
+- [0167] [WPT reftest] css/css-position/static-position/top-layer-box-uses-icb-vrl-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/top-layer-box-uses-icb-bottom-right-ref.html (==)
@@ -790,7 +825,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/top-layer-box-uses-icb-bottom-right-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0167] [WPT reftest] css/css-position/static-position/vlr-ltr-ltr.html
+- [0168] [WPT reftest] css/css-position/static-position/vlr-ltr-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/vlr-ref.html (==)
@@ -803,7 +838,7 @@
   stable page 1: diffRatio=0.01732930692313564, diffPixels=14530
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0168] [WPT reftest] css/css-position/static-position/vlr-ltr-rtl.tentative.html
+- [0169] [WPT reftest] css/css-position/static-position/vlr-ltr-rtl.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/vlr-ref.html (==)
@@ -816,7 +851,7 @@
   stable page 1: diffRatio=0.01732930692313564, diffPixels=14530
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0169] [WPT reftest] css/css-position/static-position/vlr-rtl-ltr.tentative.html
+- [0170] [WPT reftest] css/css-position/static-position/vlr-rtl-ltr.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/vlr-ref.html (==)
@@ -829,7 +864,7 @@
   stable page 1: diffRatio=0.017365086634608045, diffPixels=14560
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0170] [WPT reftest] css/css-position/static-position/vlr-rtl-rtl.html
+- [0171] [WPT reftest] css/css-position/static-position/vlr-rtl-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/vlr-ref.html (==)
@@ -842,7 +877,7 @@
   stable page 1: diffRatio=0.017365086634608045, diffPixels=14560
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vlr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0171] [WPT reftest] css/css-position/static-position/vrl-ltr-ltr.html
+- [0172] [WPT reftest] css/css-position/static-position/vrl-ltr-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/vrl-ref.html (==)
@@ -855,7 +890,7 @@
   stable page 1: diffRatio=0.017510590794595833, diffPixels=14682
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0172] [WPT reftest] css/css-position/static-position/vrl-ltr-rtl.tentative.html
+- [0173] [WPT reftest] css/css-position/static-position/vrl-ltr-rtl.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/vrl-ref.html (==)
@@ -868,7 +903,7 @@
   stable page 1: diffRatio=0.017510590794595833, diffPixels=14682
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0173] [WPT reftest] css/css-position/static-position/vrl-rtl-ltr.tentative.html
+- [0174] [WPT reftest] css/css-position/static-position/vrl-rtl-ltr.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/vrl-ref.html (==)
@@ -881,7 +916,7 @@
   stable page 1: diffRatio=0.01749985688115411, diffPixels=14673
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0174] [WPT reftest] css/css-position/static-position/vrl-rtl-rtl.html
+- [0175] [WPT reftest] css/css-position/static-position/vrl-rtl-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/static-position/vrl-ref.html (==)
@@ -894,7 +929,7 @@
   stable page 1: diffRatio=0.01749985688115411, diffPixels=14673
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/static-position/vrl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0175] [WPT reftest] css/css-position/sticky/position-sticky-bottom-002.html
+- [0176] [WPT reftest] css/css-position/sticky/position-sticky-bottom-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-bottom-002-ref.html (==)
@@ -907,7 +942,7 @@
   stable page 1: diffRatio=0.050687924585909476, diffPixels=42500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-bottom-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0176] [WPT reftest] css/css-position/sticky/position-sticky-bottom-003.html
+- [0177] [WPT reftest] css/css-position/sticky/position-sticky-bottom-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-bottom-002-ref.html (==)
@@ -920,7 +955,7 @@
   stable page 1: diffRatio=0.050687924585909476, diffPixels=42500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-bottom-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0181] [WPT reftest] css/css-position/sticky/position-sticky-change-top.html
+- [0182] [WPT reftest] css/css-position/sticky/position-sticky-change-top.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-change-top-ref.html (==)
@@ -933,12 +968,13 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-change-top-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0184] [WPT reftest] css/css-position/sticky/position-sticky-contained-by-display-table.html
+- [0185] [WPT reftest] css/css-position/sticky/position-sticky-contained-by-display-table.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-contained-by-display-table-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-contained-by-display-table.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   canary page 3: diffRatio=0.017889855736203344, diffPixels=15000
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-contained-by-display-table-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
@@ -946,9 +982,9 @@
   stable page 3: diffRatio=0.017889855736203344, diffPixels=15000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-contained-by-display-table-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0185] [WPT reftest] css/css-position/sticky/position-sticky-escape-scroller-001.html
+- [0186] [WPT reftest] css/css-position/sticky/position-sticky-escape-scroller-001.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-escape-scroller-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-escape-scroller-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -959,7 +995,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-escape-scroller-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0186] [WPT reftest] css/css-position/sticky/position-sticky-escape-scroller-002.html
+- [0187] [WPT reftest] css/css-position/sticky/position-sticky-escape-scroller-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-escape-scroller-002-ref.html (==)
@@ -972,9 +1008,9 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-escape-scroller-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0187] [WPT reftest] css/css-position/sticky/position-sticky-escape-scroller-003.html
+- [0188] [WPT reftest] css/css-position/sticky/position-sticky-escape-scroller-003.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-escape-scroller-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-escape-scroller-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -985,7 +1021,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-escape-scroller-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0188] [WPT reftest] css/css-position/sticky/position-sticky-escape-scroller-004.html
+- [0189] [WPT reftest] css/css-position/sticky/position-sticky-escape-scroller-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-escape-scroller-004-ref.html (==)
@@ -998,7 +1034,7 @@
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-escape-scroller-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0189] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor-002.html
+- [0190] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html (==)
@@ -1011,7 +1047,7 @@
   stable page 1: diffRatio=0.23103675291962444, diffPixels=193716
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0190] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor-003.html
+- [0191] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html (==)
@@ -1024,20 +1060,20 @@
   stable page 1: diffRatio=0.16229438592473858, diffPixels=136078
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-fixed-ancestor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0192] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor.html
+- [0193] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-fixed-ancestor-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.662374293947027, diffPixels=555377
+  canary page 2: diffRatio=0.662374293947027, diffPixels=555377
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.662374293947027, diffPixels=555377
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fixed-ancestor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0193] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-001.html
+- [0194] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1050,7 +1086,7 @@
   stable page 1: diffRatio=0.009541256392641783, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0194] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-002.html
+- [0195] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1063,7 +1099,7 @@
   stable page 1: diffRatio=0.009541256392641783, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0195] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-003.html
+- [0196] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1076,7 +1112,7 @@
   stable page 1: diffRatio=0.009541256392641783, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0196] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-004.html
+- [0197] [WPT reftest] css/css-position/sticky/position-sticky-flex-item-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -1089,7 +1125,20 @@
   stable page 1: diffRatio=0.009541256392641783, diffPixels=8000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0205] [WPT reftest] css/css-position/sticky/position-sticky-left-002.html
+- [0199] [WPT reftest] css/css-position/sticky/position-sticky-fractional-offset-snapping.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/sticky/position-sticky-fractional-offset-snapping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0005963285245401115, diffPixels=500
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-fractional-offset-snapping.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.0005963285245401115, diffPixels=500
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0207] [WPT reftest] css/css-position/sticky/position-sticky-left-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-left-002-ref.html (==)
@@ -1102,7 +1151,7 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-left-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0206] [WPT reftest] css/css-position/sticky/position-sticky-left-003.html
+- [0208] [WPT reftest] css/css-position/sticky/position-sticky-left-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-left-002-ref.html (==)
@@ -1115,7 +1164,7 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-left-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0215] [WPT reftest] css/css-position/sticky/position-sticky-on-minimum-scale.html
+- [0217] [WPT reftest] css/css-position/sticky/position-sticky-on-minimum-scale.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-on-minimum-scale-ref.html (==)
@@ -1128,7 +1177,7 @@
   stable page 1: diffRatio=0.03792649416075109, diffPixels=31800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-on-minimum-scale-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0220] [WPT reftest] css/css-position/sticky/position-sticky-right-002.html
+- [0222] [WPT reftest] css/css-position/sticky/position-sticky-right-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-right-002-ref.html (==)
@@ -1141,7 +1190,7 @@
   stable page 1: diffRatio=0.050687924585909476, diffPixels=42500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-right-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0221] [WPT reftest] css/css-position/sticky/position-sticky-right-003.html
+- [0223] [WPT reftest] css/css-position/sticky/position-sticky-right-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-right-002-ref.html (==)
@@ -1154,7 +1203,7 @@
   stable page 1: diffRatio=0.050687924585909476, diffPixels=42500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-right-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0224] [WPT reftest] css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos.html
+- [0226] [WPT reftest] css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos-ref.html (==)
@@ -1167,7 +1216,7 @@
   stable page 1: diffRatio=0.00224815853751622, diffPixels=1885
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-scroll-with-clip-and-abspos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0229] [WPT reftest] css/css-position/sticky/position-sticky-table-pixel-rounding.html
+- [0231] [WPT reftest] css/css-position/sticky/position-sticky-table-pixel-rounding.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/position-sticky-table-pixel-rounding-ref.html (==)
@@ -1180,7 +1229,7 @@
   stable page 1: diffRatio=0.000023853140981604456, diffPixels=20
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/position-sticky-table-pixel-rounding-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0243] [WPT reftest] css/css-position/sticky/position-sticky-top-002.html
+- [0245] [WPT reftest] css/css-position/sticky/position-sticky-top-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-top-002-ref.html (==)
@@ -1193,7 +1242,7 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-top-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0244] [WPT reftest] css/css-position/sticky/position-sticky-top-003.html
+- [0246] [WPT reftest] css/css-position/sticky/position-sticky-top-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-top-002-ref.html (==)
@@ -1206,7 +1255,7 @@
   stable page 1: diffRatio=0.041742996717807804, diffPixels=35000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-top-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0248] [WPT reftest] css/css-position/sticky/position-sticky-top-and-bottom-003.html
+- [0250] [WPT reftest] css/css-position/sticky/position-sticky-top-and-bottom-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/sticky/reference/position-sticky-top-and-bottom-003-ref.html (==)
@@ -1219,7 +1268,7 @@
   stable page 1: diffRatio=0.053669567208610026, diffPixels=45000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/sticky/reference/position-sticky-top-and-bottom-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0250] [WPT reftest] css/css-position/z-index-blend-will-change-overlapping-layers.html
+- [0252] [WPT reftest] css/css-position/z-index-blend-will-change-overlapping-layers.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/z-index-blend-will-change-overlapping-layers-ref.html (==)
@@ -1232,7 +1281,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/z-index-blend-will-change-overlapping-layers-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0251] [WPT print-reftest] css/css-position/position-fixed-overflow-print.html
+- [0253] [WPT print-reftest] css/css-position/position-fixed-overflow-print.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-position/position-fixed-overflow-print-ref.html (==)
@@ -1267,7 +1316,7 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-position/position-absolute-iframe-print-002.sub.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0191] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html
+- [0192] [WPT reftest] css/css-position/sticky/position-sticky-fixed-ancestor-iframe.html
   triage: pending
   side: canary, stable
   canary timeout: true

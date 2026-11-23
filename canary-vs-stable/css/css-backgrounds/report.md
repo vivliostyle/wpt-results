@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 581
-- Entries with differences: 195 (pending: 195, triaged: 0)
+- Entries with differences: 193 (pending: 193, triaged: 0)
 - Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 2
+- Timeout entries: 3
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"known-fail":194,"pass":382,"error":2,"changed-fail":1,"unchanged":2}
+- Screenshot mismatches: 2
+- Outcome summary: {"known-fail":191,"pass":383,"error":3,"changed-fail":2,"unchanged":2}
 
 ## Differences
 
@@ -126,12 +126,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-in-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-in-body-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0012] [WPT reftest] css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0013] [WPT reftest] css/css-backgrounds/animations/background-color-animation-offset-position-not-stuck.html
   triage: pending
@@ -850,11 +844,11 @@
 
 - [0178] [WPT reftest] css/css-backgrounds/background-image-gradient-currentcolor-self-repaint.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-backgrounds/background-image-gradient-currentcolor-self-repaint-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-image-gradient-currentcolor-self-repaint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.017534443935577435, diffPixels=14702
+  canary page 1: diffRatio=0.018527927257461264, diffPixels=15535
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-image-gradient-currentcolor-self-repaint-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-image-gradient-currentcolor-self-repaint.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -2395,19 +2389,6 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0561] [WPT reftest] css/css-backgrounds/document-canvas-remove-body.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-backgrounds/document-canvas-remove-body-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/document-canvas-remove-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.6401992214334784, diffPixels=536784
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/document-canvas-remove-body-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/document-canvas-remove-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/document-canvas-remove-body-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0563] [WPT reftest] css/css-backgrounds/first-letter-space-not-selected.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2540,18 +2521,6 @@
 
 ## Errors
 
-- [0012] [WPT reftest] css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero-ref.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero-ref.html (501)
-  stable-reference reference: css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero-ref.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero-ref.html (501)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0150] [WPT reftest] css/css-backgrounds/background-color-body-propagation-006.html
   triage: pending
   side: canary, stable
@@ -2600,11 +2569,19 @@ Call log:
       - element is not visible
     - retrying fill action
       - waiting 100ms
-    14 × waiting for element to be visible, enabled and editable
+    17 × waiting for element to be visible, enabled and editable
        - element is not visible
      - retrying fill action
        - waiting 500ms
 
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/background-color-root-propagation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0561] [WPT reftest] css/css-backgrounds/document-canvas-remove-body.html
+  triage: pending
+  side: canary
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-backgrounds/document-canvas-remove-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-backgrounds/document-canvas-remove-body.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

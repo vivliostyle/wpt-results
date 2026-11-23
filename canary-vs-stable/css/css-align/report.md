@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 64
-- Entries with differences: 12 (pending: 12, triaged: 0)
+- Compared entries: 66
+- Entries with differences: 13 (improvement: 1, pending: 12, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":52,"known-fail":11,"changed-fail":1}
+- Screenshot mismatches: 2
+- Outcome summary: {"pass":53,"known-fail":11,"changed-fail":1,"improvement":1}
 
 ## Differences
 
@@ -23,7 +23,20 @@
   stable page 1: diffRatio=0.004770628196320892, diffPixels=4000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/abspos/align-self-static-position-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0025] [WPT reftest] css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export.tentative.html
+- [0019] [WPT reftest] css/css-align/abspos/justify-self-static-position-top-layer.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-align/abspos/justify-self-static-position-top-layer-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/abspos/justify-self-static-position-top-layer.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.017889855736203344, diffPixels=15000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/abspos/justify-self-static-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/abspos/justify-self-static-position-top-layer.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.017889855736203344, diffPixels=15000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/abspos/justify-self-static-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0027] [WPT reftest] css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export-ref.tentative.html (==)
@@ -36,7 +49,7 @@
   stable page 1: diffRatio=0.006463008548965728, diffPixels=5419
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-export-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0026] [WPT reftest] css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis.tentative.html
+- [0028] [WPT reftest] css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis-ref.tentative.html (==)
@@ -49,20 +62,20 @@
   stable page 1: diffRatio=0.006752824211892222, diffPixels=5662
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/baseline-rules/inline-table-inline-block-baseline-vert-rl-synthesis-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0030] [WPT reftest] css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html
+- [0032] [WPT reftest] css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.046372891382337224, diffPixels=38882
+  canary page 1: diffRatio=0.027520561407526144, diffPixels=23075
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.046372891382337224, diffPixels=38882
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/baseline-rules/synthesized-baseline-table-cell-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0031] [WPT reftest] css/css-align/blocks/align-content-block-001.html
+- [0033] [WPT reftest] css/css-align/blocks/align-content-block-001.html
   triage: pending
   outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-align/blocks/align-content-block-001-ref.html (==)
@@ -75,7 +88,7 @@
   stable page 1: diffRatio=0.2532965040836577, diffPixels=212380
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/align-content-block-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0032] [WPT reftest] css/css-align/blocks/align-content-block-012.html
+- [0034] [WPT reftest] css/css-align/blocks/align-content-block-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-align/blocks/align-content-block-012-ref.html (==)
@@ -88,7 +101,7 @@
   stable page 1: diffRatio=0.002926780398442867, diffPixels=2454
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/align-content-block-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0040] [WPT reftest] css/css-align/blocks/align-content-table-cell-002.html
+- [0042] [WPT reftest] css/css-align/blocks/align-content-table-cell-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-300px-square.html (==)
@@ -101,7 +114,7 @@
   stable page 1: diffRatio=0.010318868788642088, diffPixels=8652
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0041] [WPT reftest] css/css-align/blocks/align-content-table-cell-003.html
+- [0043] [WPT reftest] css/css-align/blocks/align-content-table-cell-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-300px-square.html (==)
@@ -114,7 +127,7 @@
   stable page 1: diffRatio=0.010318868788642088, diffPixels=8652
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0042] [WPT reftest] css/css-align/blocks/align-content-table-cell-004.html
+- [0044] [WPT reftest] css/css-align/blocks/align-content-table-cell-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-300px-square.html (==)
@@ -127,7 +140,7 @@
   stable page 1: diffRatio=0.010199603083734066, diffPixels=8552
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0043] [WPT reftest] css/css-align/blocks/align-content-table-cell-005.html
+- [0045] [WPT reftest] css/css-align/blocks/align-content-table-cell-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-300px-square.html (==)
@@ -140,20 +153,16 @@
   stable page 1: diffRatio=0.010318868788642088, diffPixels=8652
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-300px-square.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0050] [WPT reftest] css/css-align/blocks/justify-self-widgets.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+- [0052] [WPT reftest] css/css-align/blocks/justify-self-widgets.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-align/blocks/justify-self-widgets-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.03872438172658576, diffPixels=32469
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.03872438172658576, diffPixels=32469
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-align/blocks/justify-self-widgets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0056] [WPT reftest] css/css-align/self-alignment/block-justify-self.html
+- [0058] [WPT reftest] css/css-align/self-alignment/block-justify-self.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-align/self-alignment/block-justify-self-ref.html (==)

@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 61
-- Entries with differences: 4 (pending: 4, triaged: 0)
+- Entries with differences: 5 (pending: 5, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":4,"pass":2,"unchanged":55}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":4,"pass":2,"unchanged":54,"changed":1}
 
 ## Differences
 
@@ -61,4 +61,11 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transitions/root-color-transition.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0015218303946263644, diffPixels=1276
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transitions/root-color-transition-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0025] [WPT manual] css/css-transitions/transition-property-015-manual.html
+  triage: pending
+  outcome: changed (baseline=MANUAL, actual=MANUAL)
+  page 1: diffRatio=0.0019177925349209983, diffPixels=1608
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transitions/transition-property-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transitions/transition-property-015-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

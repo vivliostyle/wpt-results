@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 260
+- Compared entries: 261
 - Entries with differences: 56 (pending: 56, triaged: 0)
 - Entries with errors: 2 (pending: 2, triaged: 0)
 - Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"pass":203,"known-fail":56,"unchanged":1}
+- Outcome summary: {"pass":204,"known-fail":56,"unchanged":1}
 
 ## Differences
 
@@ -198,7 +198,7 @@
   stable page 1: diffRatio=0.0004627509350431265, diffPixels=388
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-common-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0065] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-extends-invalid.html
+- [0066] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-extends-invalid.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/counter-style-at-rule/system-extends-invalid-ref.html (==)
@@ -211,7 +211,7 @@
   stable page 1: diffRatio=0.000017889855736203345, diffPixels=15
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-extends-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0067] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-fixed-invalid.html
+- [0068] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-fixed-invalid.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/counter-style-at-rule/system-common-invalid2-ref.html (==)
@@ -224,7 +224,7 @@
   stable page 1: diffRatio=0.000925501870086253, diffPixels=776
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-common-invalid2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0069] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-numeric-invalid.html
+- [0070] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-numeric-invalid.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/counter-style-at-rule/system-common-invalid2-ref.html (==)
@@ -237,7 +237,7 @@
   stable page 1: diffRatio=0.000925501870086253, diffPixels=776
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-common-invalid2-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0071] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-symbolic-invalid.html
+- [0072] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-symbolic-invalid.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/counter-style-at-rule/system-common-invalid-ref.html (==)
@@ -250,13 +250,13 @@
   stable page 1: diffRatio=0.0004627509350431265, diffPixels=388
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-common-invalid-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0072] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-symbolic.html
+- [0073] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-symbolic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-symbolic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-symbolic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0075] [WPT reftest] css/css-counter-styles/cssom/cssom-additive-symbols-setter.html
+- [0076] [WPT reftest] css/css-counter-styles/cssom/cssom-additive-symbols-setter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-additive-symbols-setter-ref.html (==)
@@ -269,7 +269,7 @@
   stable page 1: diffRatio=0.00011210976261354095, diffPixels=94
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-additive-symbols-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0077] [WPT reftest] css/css-counter-styles/cssom/cssom-fallback-setter.html
+- [0078] [WPT reftest] css/css-counter-styles/cssom/cssom-fallback-setter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-fallback-setter-ref.html (==)
@@ -282,7 +282,7 @@
   stable page 1: diffRatio=0.00005605488130677048, diffPixels=47
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-fallback-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0079] [WPT reftest] css/css-counter-styles/cssom/cssom-name-setter.html
+- [0080] [WPT reftest] css/css-counter-styles/cssom/cssom-name-setter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-name-setter-ref.html (==)
@@ -295,7 +295,7 @@
   stable page 1: diffRatio=0.0002599992366994886, diffPixels=218
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-name-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0081] [WPT reftest] css/css-counter-styles/cssom/cssom-negative-setter.html
+- [0082] [WPT reftest] css/css-counter-styles/cssom/cssom-negative-setter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-negative-setter-ref.html (==)
@@ -308,7 +308,7 @@
   stable page 1: diffRatio=0.00006440348065033204, diffPixels=54
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-negative-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0083] [WPT reftest] css/css-counter-styles/cssom/cssom-pad-setter.html
+- [0084] [WPT reftest] css/css-counter-styles/cssom/cssom-pad-setter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-pad-setter-ref.html (==)
@@ -321,7 +321,7 @@
   stable page 1: diffRatio=0.00021944889703076102, diffPixels=184
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-pad-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0085] [WPT reftest] css/css-counter-styles/cssom/cssom-prefix-suffix-setter.html
+- [0086] [WPT reftest] css/css-counter-styles/cssom/cssom-prefix-suffix-setter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-prefix-suffix-setter-ref.html (==)
@@ -334,7 +334,7 @@
   stable page 1: diffRatio=0.00020394435539271811, diffPixels=171
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-prefix-suffix-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0087] [WPT reftest] css/css-counter-styles/cssom/cssom-range-setter.html
+- [0088] [WPT reftest] css/css-counter-styles/cssom/cssom-range-setter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-range-setter-ref.html (==)
@@ -347,7 +347,7 @@
   stable page 1: diffRatio=0.00004770628196320891, diffPixels=40
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-range-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0089] [WPT reftest] css/css-counter-styles/cssom/cssom-symbols-setter.html
+- [0090] [WPT reftest] css/css-counter-styles/cssom/cssom-symbols-setter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-symbols-setter-ref.html (==)
@@ -360,7 +360,7 @@
   stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-symbols-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0090] [WPT reftest] css/css-counter-styles/cssom/cssom-system-setter-1.html
+- [0091] [WPT reftest] css/css-counter-styles/cssom/cssom-system-setter-1.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-system-setter-ref.html (==)
@@ -373,7 +373,7 @@
   stable page 1: diffRatio=0.00013357758949698496, diffPixels=112
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-system-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0091] [WPT reftest] css/css-counter-styles/cssom/cssom-system-setter-2.html
+- [0092] [WPT reftest] css/css-counter-styles/cssom/cssom-system-setter-2.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/cssom/cssom-system-setter-ref.html (==)
@@ -386,7 +386,7 @@
   stable page 1: diffRatio=0.00014073353179146631, diffPixels=118
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/cssom/cssom-system-setter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0107] [WPT reftest] css/css-counter-styles/hebrew/counter-hebrew-nested.html
+- [0108] [WPT reftest] css/css-counter-styles/hebrew/counter-hebrew-nested.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/hebrew/counter-hebrew-nested-ref.html (==)
@@ -399,7 +399,7 @@
   stable page 1: diffRatio=0.0024318277230745743, diffPixels=2039
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/hebrew/counter-hebrew-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0118] [WPT reftest] css/css-counter-styles/japanese-formal/counter-japanese-formal-extended-range.optional.html
+- [0119] [WPT reftest] css/css-counter-styles/japanese-formal/counter-japanese-formal-extended-range.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/japanese-formal/counter-japanese-formal-extended-range-ref.html (==)
@@ -412,7 +412,7 @@
   stable page 1: diffRatio=0.01011134646210213, diffPixels=8478
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-formal/counter-japanese-formal-extended-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0119] [WPT reftest] css/css-counter-styles/japanese-formal/counter-japanese-formal-extended.html
+- [0120] [WPT reftest] css/css-counter-styles/japanese-formal/counter-japanese-formal-extended.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/japanese-formal/counter-japanese-formal-extended-ref.html (==)
@@ -427,7 +427,7 @@
   stable page 2: diffRatio=0.012884274101213648, diffPixels=10803
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-formal/counter-japanese-formal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0126] [WPT reftest] css/css-counter-styles/japanese-informal/counter-japanese-informal-extended-range.optional.html
+- [0127] [WPT reftest] css/css-counter-styles/japanese-informal/counter-japanese-informal-extended-range.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/japanese-informal/counter-japanese-informal-extended-range-ref.html (==)
@@ -440,7 +440,7 @@
   stable page 1: diffRatio=0.0058726433096710174, diffPixels=4924
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/counter-japanese-informal-extended-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0127] [WPT reftest] css/css-counter-styles/japanese-informal/counter-japanese-informal-extended.html
+- [0128] [WPT reftest] css/css-counter-styles/japanese-informal/counter-japanese-informal-extended.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/japanese-informal/counter-japanese-informal-extended-ref.html (==)
@@ -455,7 +455,7 @@
   stable page 2: diffRatio=0.0089974047782612, diffPixels=7544
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/japanese-informal/counter-japanese-informal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0146] [WPT reftest] css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended-range.optional.html
+- [0147] [WPT reftest] css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended-range.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended-range-ref.html (==)
@@ -468,7 +468,7 @@
   stable page 1: diffRatio=0.008552543698954279, diffPixels=7171
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0147] [WPT reftest] css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended.html
+- [0148] [WPT reftest] css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended-ref.html (==)
@@ -483,7 +483,7 @@
   stable page 2: diffRatio=0.008105297305549194, diffPixels=6796
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/counter-korean-hangul-formal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0151] [WPT reftest] css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054.html
+- [0152] [WPT reftest] css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-ref.html (==)
@@ -501,7 +501,7 @@
   stable page 1 (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html): diffRatio=0.0018378845126326235, diffPixels=1541
   stable reference render (css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hangul-formal/css3-counter-styles-054-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0154] [WPT reftest] css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended-range.optional.html
+- [0155] [WPT reftest] css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended-range.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended-range-ref.html (==)
@@ -514,7 +514,7 @@
   stable page 1: diffRatio=0.011003453934814136, diffPixels=9226
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0155] [WPT reftest] css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended.html
+- [0156] [WPT reftest] css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended-ref.html (==)
@@ -529,7 +529,7 @@
   stable page 2: diffRatio=0.013763262346385773, diffPixels=11540
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/counter-korean-hanja-formal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064.html
+- [0160] [WPT reftest] css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-ref.html (==)
@@ -547,7 +547,7 @@
   stable page 1 (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html): diffRatio=0.002638157392565453, diffPixels=2212
   stable reference render (css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-formal/css3-counter-styles-064-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0162] [WPT reftest] css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended-range.optional.html
+- [0163] [WPT reftest] css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended-range.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended-range-ref.html (==)
@@ -560,7 +560,7 @@
   stable page 1: diffRatio=0.0072310796885733915, diffPixels=6063
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0163] [WPT reftest] css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended.html
+- [0164] [WPT reftest] css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended-ref.html (==)
@@ -575,7 +575,7 @@
   stable page 2: diffRatio=0.009810796885733913, diffPixels=8226
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/counter-korean-hanja-informal-extended-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0167] [WPT reftest] css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059.html
+- [0168] [WPT reftest] css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-ref.html (==)
@@ -593,7 +593,7 @@
   stable page 1 (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): diffRatio=0.0019571502175406456, diffPixels=1641
   stable reference render (css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html): https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/korean-hanja-informal/css3-counter-styles-059-alt-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0199] [WPT reftest] css/css-counter-styles/persian/css3-counter-styles-105.html
+- [0200] [WPT reftest] css/css-counter-styles/persian/css3-counter-styles-105.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/persian/css3-counter-styles-105-ref.html (==)
@@ -606,7 +606,7 @@
   stable page 1: diffRatio=0.00018128387146019388, diffPixels=152
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/persian/css3-counter-styles-105-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0201] [WPT reftest] css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-extended-range.optional.html
+- [0202] [WPT reftest] css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-extended-range.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-extended-range-ref.html (==)
@@ -619,7 +619,7 @@
   stable page 1: diffRatio=0.012153175330127471, diffPixels=10190
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-extended-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0202] [WPT reftest] css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal.html
+- [0203] [WPT reftest] css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-ref.html (==)
@@ -636,7 +636,7 @@
   stable page 3: diffRatio=0.002209993511945653, diffPixels=1853
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-formal/counter-simp-chinese-formal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0208] [WPT reftest] css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal-extended-range.optional.html
+- [0209] [WPT reftest] css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal-extended-range.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal-extended-range-ref.html (==)
@@ -649,7 +649,7 @@
   stable page 1: diffRatio=0.006008606213266163, diffPixels=5038
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal-extended-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0209] [WPT reftest] css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal.html
+- [0210] [WPT reftest] css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal-ref.html (==)
@@ -666,7 +666,7 @@
   stable page 3: diffRatio=0.0008420158766506374, diffPixels=706
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/simp-chinese-informal/counter-simp-chinese-informal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0215] [WPT reftest] css/css-counter-styles/symbols-function/dynamic.html
+- [0216] [WPT reftest] css/css-counter-styles/symbols-function/dynamic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/symbols-function/dynamic-ref.html (==)
@@ -679,7 +679,7 @@
   stable page 1: diffRatio=0.00047109953438668805, diffPixels=395
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0223] [WPT reftest] css/css-counter-styles/symbols-function/used-in-counter.html
+- [0224] [WPT reftest] css/css-counter-styles/symbols-function/used-in-counter.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/symbols-function/used-in-counter-ref.html (==)
@@ -692,7 +692,7 @@
   stable page 1: diffRatio=0.0002910083199755744, diffPixels=244
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counter-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0224] [WPT reftest] css/css-counter-styles/symbols-function/used-in-counters.html
+- [0225] [WPT reftest] css/css-counter-styles/symbols-function/used-in-counters.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/symbols-function/used-in-counters-ref.html (==)
@@ -705,7 +705,7 @@
   stable page 1: diffRatio=0.0006702732615830853, diffPixels=562
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/symbols-function/used-in-counters-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0237] [WPT reftest] css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal-extended-range.optional.html
+- [0238] [WPT reftest] css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal-extended-range.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal-extended-range-ref.html (==)
@@ -718,7 +718,7 @@
   stable page 1: diffRatio=0.01338280474772918, diffPixels=11221
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal-extended-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0238] [WPT reftest] css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal.html
+- [0239] [WPT reftest] css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal-ref.html (==)
@@ -735,7 +735,7 @@
   stable page 3: diffRatio=0.001985773986718571, diffPixels=1665
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-formal/counter-trad-chinese-formal-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0244] [WPT reftest] css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal-extended-range.optional.html
+- [0245] [WPT reftest] css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal-extended-range.optional.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal-extended-range-ref.html (==)
@@ -748,7 +748,7 @@
   stable page 1: diffRatio=0.006867319288603923, diffPixels=5758
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal-extended-range-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0245] [WPT reftest] css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal.html
+- [0246] [WPT reftest] css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-counter-styles/trad-chinese-informal/counter-trad-chinese-informal-ref.html (==)
@@ -779,7 +779,7 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-additive.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-counter-styles/counter-style-at-rule/system-additive-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0072] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-symbolic.html
+- [0073] [WPT reftest] css/css-counter-styles/counter-style-at-rule/system-symbolic.html
   triage: pending
   side: canary-reference, stable-reference
   canary-reference reference: css/css-counter-styles/counter-style-at-rule/system-symbolic-ref.html

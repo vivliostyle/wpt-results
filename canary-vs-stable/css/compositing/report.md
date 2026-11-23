@@ -5,7 +5,7 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
+- Screenshot mismatches: 1
 - Outcome summary: {"pass":51,"improvement":1,"known-fail":8}
 
 ## Differences

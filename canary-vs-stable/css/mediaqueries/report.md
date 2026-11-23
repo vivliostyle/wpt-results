@@ -2,11 +2,11 @@
 
 - Compared entries: 58
 - Entries with differences: 43 (pending: 43, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 0
-- Outcome summary: {"known-fail":43,"pass":15}
+- Outcome summary: {"known-fail":42,"pass":14,"error":1,"regression":1}
 
 ## Differences
 
@@ -112,19 +112,6 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/device-aspect-ratio-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0013] [WPT reftest] css/mediaqueries/min-width-tables-001.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/reference/ref-filled-green-100px-square.xht (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/min-width-tables-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.019559575604915655, diffPixels=16400
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/min-width-tables-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.019559575604915655, diffPixels=16400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0014] [WPT reftest] css/mediaqueries/mq-calc-001.html
@@ -491,6 +478,12 @@
   stable page 1: diffRatio=0.0024425616365162965, diffPixels=2048
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/prefers-color-scheme-svg-image-normal-with-meta-dark-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0051] [WPT reftest] css/mediaqueries/prefers-color-scheme-svg-image.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/prefers-color-scheme-svg-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/prefers-color-scheme-svg-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0052] [WPT reftest] css/mediaqueries/relative-units-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -568,4 +561,25 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00026119189374856883, diffPixels=219
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/viewport-script-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0013] [WPT reftest] css/mediaqueries/min-width-tables-001.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/min-width-tables-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/mediaqueries/min-width-tables-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0051] [WPT reftest] css/mediaqueries/prefers-color-scheme-svg-image.html
+  triage: pending
+  side: canary-reference
+  reference: css/mediaqueries/prefers-color-scheme-svg-image-ref.html
+  timeout: true
+  error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/prefers-color-scheme-svg-image.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/mediaqueries/prefers-color-scheme-svg-image-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

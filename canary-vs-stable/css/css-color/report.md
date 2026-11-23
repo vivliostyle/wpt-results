@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 311
-- Entries with differences: 21 (pending: 21, triaged: 0)
+- Compared entries: 321
+- Entries with differences: 27 (improvement: 2, pending: 25, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"pass":290,"known-fail":21}
+- Screenshot mismatches: 2
+- Outcome summary: {"pass":294,"known-fail":25,"improvement":2}
 
 ## Differences
 
@@ -89,13 +89,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/border-color-currentcolor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0022] [WPT reftest] css/css-color/canvas-change-opacity.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-color/greensquare-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/canvas-change-opacity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04396610945729334, diffPixels=36864
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/greensquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/canvas-change-opacity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
@@ -154,13 +150,9 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/currentcolor-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0082] [WPT reftest] css/css-color/filters-under-will-change-opacity.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-color/composited-filters-under-opacity-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/filters-under-will-change-opacity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.026834783604305013, diffPixels=22500
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/composited-filters-under-opacity-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/filters-under-will-change-opacity.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.026834783604305013, diffPixels=22500
@@ -257,7 +249,85 @@
   stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/blacksquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0228] [WPT reftest] css/css-color/system-color-hightlights-vs-getSelection-001.html
+- [0179] [WPT reftest] css/css-color/predefined-011.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-color/greensquare-090-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/predefined-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02198305472864667, diffPixels=18432
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/greensquare-090-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/predefined-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02198305472864667, diffPixels=18432
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/greensquare-090-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0180] [WPT reftest] css/css-color/predefined-012.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-color/greensquare-090-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/predefined-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02198305472864667, diffPixels=18432
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/greensquare-090-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/predefined-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02198305472864667, diffPixels=18432
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/greensquare-090-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0187] [WPT reftest] css/css-color/rec2020-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-color/greensquare-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/rec2020-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04396610945729334, diffPixels=36864
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/greensquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/rec2020-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/greensquare-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0192] [WPT reftest] css/css-color/rec2020-gamma-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-color/rec2020-gamma-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/rec2020-gamma-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04396610945729334, diffPixels=36864
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/rec2020-gamma-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/rec2020-gamma-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/rec2020-gamma-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0193] [WPT reftest] css/css-color/rec2020-gamma-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-color/rec2020-gamma-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/rec2020-gamma-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.04396610945729334, diffPixels=36864
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/rec2020-gamma-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/rec2020-gamma-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.04396610945729334, diffPixels=36864
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/rec2020-gamma-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0213] [WPT reftest] css/css-color/relative-currentcolor-rec2020-02.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-color/relative-rec2020-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/relative-currentcolor-rec2020-02.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-color/relative-rec2020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/relative-currentcolor-rec2020-02.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/relative-rec2020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0238] [WPT reftest] css/css-color/system-color-hightlights-vs-getSelection-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/reference/system-color-hightlights-vs-getSelection-001-ref.html (==)
@@ -270,7 +340,7 @@
   stable page 1: diffRatio=0.010448868406991833, diffPixels=8761
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-color/reference/system-color-hightlights-vs-getSelection-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0229] [WPT reftest] css/css-color/system-color-hightlights-vs-getSelection-002.html
+- [0239] [WPT reftest] css/css-color/system-color-hightlights-vs-getSelection-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-color/reference/system-color-hightlights-vs-getSelection-002-ref.html (==)

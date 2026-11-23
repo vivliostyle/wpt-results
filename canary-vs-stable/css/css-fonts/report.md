@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 388
-- Entries with differences: 97 (pending: 97, triaged: 0)
+- Entries with differences: 102 (pending: 102, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 2
-- Outcome summary: {"known-fail":95,"pass":291,"changed-fail":1,"regression":1}
+- Screenshot mismatches: 7
+- Outcome summary: {"known-fail":95,"pass":286,"changed-fail":1,"regression":6}
 
 ## Differences
 
@@ -29,7 +29,7 @@
   reference: css/css-fonts/downloadable-font-scoped-to-document-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0034372376154492026, diffPixels=2882
+  canary page 1: diffRatio=0.0033692561636516297, diffPixels=2825
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/downloadable-font-scoped-to-document.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -829,6 +829,42 @@
   stable page 1: diffRatio=0.00034587054423326465, diffPixels=290
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-alternates-layers-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0226] [WPT reftest] css/css-fonts/font-variant-caps.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-fonts/font-variant-caps-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-caps.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0012844916418594, diffPixels=1077
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-caps-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0237] [WPT reftest] css/css-fonts/font-variant-east-asian.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-fonts/font-variant-east-asian-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-east-asian.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002923202427295626, diffPixels=2451
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-east-asian-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0254] [WPT reftest] css/css-fonts/font-variant-ligatures.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-fonts/font-variant-ligatures-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-ligatures.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.005393195175940768, diffPixels=4522
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-ligatures-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0264] [WPT reftest] css/css-fonts/font-variant-numeric.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-fonts/font-variant-numeric-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-numeric.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.004294758033737882, diffPixels=3601
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-numeric-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0268] [WPT reftest] css/css-fonts/font-variant-position-04.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -854,6 +890,15 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-position-05.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-fonts/font-variant-position-05-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0270] [WPT reftest] css/css-fonts/font-variant-position.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-fonts/font-variant-position-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0005438516143805816, diffPixels=456
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-fonts/font-variant-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0275] [WPT reftest] css/css-fonts/font-weight-bolder-001.xht
   triage: pending

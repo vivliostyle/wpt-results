@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
-- Compared entries: 725
-- Entries with differences: 438 (improvement: 1, pending: 437, triaged: 0)
-- Entries with errors: 5 (pending: 5, triaged: 0)
+- Compared entries: 738
+- Entries with differences: 455 (improvement: 2, pending: 453, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
 - Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":281,"known-fail":436,"error":4,"regression":1,"improvement":1,"unchanged":2}
+- Screenshot mismatches: 15
+- Outcome summary: {"pass":277,"known-fail":440,"regression":2,"expected-change":6,"error":4,"improvement":2,"changed-fail":5,"unchanged":2}
 
 ## Differences
 
@@ -87,6 +87,24 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/document-element-overflow-hidden-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/document-element-overflow-hidden-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0031] [WPT reftest] css/css-overflow/incremental-scroll-002.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-overflow/incremental-scroll-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/incremental-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.0018450404549271047, diffPixels=1547
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/incremental-scroll-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0032] [WPT reftest] css/css-overflow/incremental-scroll.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-overflow/incremental-scroll-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/incremental-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.005069985115640028, diffPixels=4251
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/incremental-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0035] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-001.html
   triage: pending
@@ -1307,7 +1325,72 @@
   stable page 1: diffRatio=0.007155942294481337, diffPixels=6000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0138] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-001.html
+- [0138] [WPT reftest] css/css-overflow/line-clamp/line-clamp-044.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-044.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02423836920845737, diffPixels=20323
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-044.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02423836920845737, diffPixels=20323
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0139] [WPT reftest] css/css-overflow/line-clamp/line-clamp-045.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-045.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.09980273452408213, diffPixels=83681
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-045.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.09980273452408213, diffPixels=83681
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0140] [WPT reftest] css/css-overflow/line-clamp/line-clamp-046.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-046.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.02423836920845737, diffPixels=20323
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-046.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.02423836920845737, diffPixels=20323
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0141] [WPT reftest] css/css-overflow/line-clamp/line-clamp-047.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-047.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.09980273452408213, diffPixels=83681
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-047.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.09980273452408213, diffPixels=83681
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0144] [WPT reftest] css/css-overflow/line-clamp/line-clamp-050.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/line-clamp-050-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.06366284062285321, diffPixels=53379
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-050-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-050.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.06366284062285321, diffPixels=53379
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-050-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0145] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -1320,7 +1403,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0139] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-002.tentative.html
+- [0146] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-002.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html (==)
@@ -1333,7 +1416,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0140] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-003.tentative.html
+- [0147] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-003.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html (==)
@@ -1346,7 +1429,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0141] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-004.html
+- [0148] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -1359,7 +1442,7 @@
   stable page 1: diffRatio=0.012185377070452637, diffPixels=10217
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0142] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-005.html
+- [0149] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-005-ref.html (==)
@@ -1372,7 +1455,7 @@
   stable page 1: diffRatio=0.00018605449965651476, diffPixels=156
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0146] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-009.html
+- [0153] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html (==)
@@ -1385,7 +1468,7 @@
   stable page 1: diffRatio=0.00192614113426456, diffPixels=1615
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0148] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-011.html
+- [0155] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html (==)
@@ -1398,7 +1481,7 @@
   stable page 1: diffRatio=0.00035183382947866573, diffPixels=295
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0150] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-013.html
+- [0157] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -1411,7 +1494,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0151] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-014.html
+- [0158] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -1424,7 +1507,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0152] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-015.html
+- [0159] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -1437,7 +1520,7 @@
   stable page 1: diffRatio=0.024262222349438974, diffPixels=20343
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0153] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-016.html
+- [0160] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-016-ref.html (==)
@@ -1450,7 +1533,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0154] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-017.html
+- [0161] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -1463,7 +1546,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0155] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-018.html
+- [0162] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-018-ref.html (==)
@@ -1476,7 +1559,7 @@
   stable page 1: diffRatio=0.021300854896572782, diffPixels=17860
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0156] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-019.html
+- [0163] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-019.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-019-ref.html (==)
@@ -1489,7 +1572,7 @@
   stable page 1: diffRatio=0.003430081673154721, diffPixels=2876
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0157] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-020.html
+- [0164] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-020-ref.html (==)
@@ -1502,7 +1585,7 @@
   stable page 1: diffRatio=0.025807905885046944, diffPixels=21639
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-020-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0158] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-021.html
+- [0165] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html (==)
@@ -1515,7 +1598,7 @@
   stable page 1: diffRatio=0.007316950996107167, diffPixels=6135
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0159] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-022.html
+- [0166] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-022.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html (==)
@@ -1528,7 +1611,7 @@
   stable page 1: diffRatio=0.019096824669872527, diffPixels=16012
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0160] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-023.html
+- [0167] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-023.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html (==)
@@ -1541,7 +1624,7 @@
   stable page 1: diffRatio=0.003820080528203954, diffPixels=3203
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0161] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-024.html
+- [0168] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-024.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html (==)
@@ -1554,7 +1637,7 @@
   stable page 1: diffRatio=0.014356012899778644, diffPixels=12037
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0162] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-025.html
+- [0169] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-025.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-025-ref.html (==)
@@ -1567,7 +1650,7 @@
   stable page 1: diffRatio=0.0000035779711472406687, diffPixels=3
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-025-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0163] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-027.html
+- [0170] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-027.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-027-ref.html (==)
@@ -1580,7 +1663,7 @@
   stable page 1: diffRatio=0.0482560968628349, diffPixels=40461
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0164] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-028.html
+- [0171] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-028.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-028-ref.html (==)
@@ -1593,7 +1676,7 @@
   stable page 1: diffRatio=0.024274148919929777, diffPixels=20353
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0165] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-029.html
+- [0172] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-029.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html (==)
@@ -1606,7 +1689,7 @@
   stable page 1: diffRatio=0.018473065033203572, diffPixels=15489
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0166] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-030.html
+- [0173] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-030.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html (==)
@@ -1619,7 +1702,7 @@
   stable page 1: diffRatio=0.0007871536523929471, diffPixels=660
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-029-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0167] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-031.html
+- [0174] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-031.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-031-ref.html (==)
@@ -1632,7 +1715,7 @@
   stable page 1: diffRatio=0.10289648690939623, diffPixels=86275
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-031-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0168] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-032.html
+- [0175] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-032.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-032-ref.html (==)
@@ -1645,7 +1728,7 @@
   stable page 1: diffRatio=0.08720946874284406, diffPixels=73122
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-032-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0169] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-033.html
+- [0176] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-033.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -1658,7 +1741,7 @@
   stable page 1: diffRatio=0.07198281619723686, diffPixels=60355
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0170] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-034.html
+- [0177] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-034.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-034-ref.html (==)
@@ -1671,7 +1754,7 @@
   stable page 1: diffRatio=0.04761325471338066, diffPixels=39922
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-034-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0171] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-035.html
+- [0178] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-035.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -1684,7 +1767,7 @@
   stable page 1: diffRatio=0.07213189832837189, diffPixels=60480
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0172] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-036.html
+- [0179] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-036.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-036-ref.html (==)
@@ -1697,7 +1780,7 @@
   stable page 1: diffRatio=0.0715463037172735, diffPixels=59989
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0173] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-037.html
+- [0180] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-037.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html (==)
@@ -1710,7 +1793,7 @@
   stable page 1: diffRatio=0.013814546599496222, diffPixels=11583
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0174] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-038.html
+- [0181] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-038.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-038-ref.html (==)
@@ -1723,7 +1806,7 @@
   stable page 1: diffRatio=0.00018486184260743454, diffPixels=155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-038-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0175] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-039.html
+- [0182] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-039.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-039-ref.html (==)
@@ -1736,7 +1819,7 @@
   stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-039-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0176] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-040.html
+- [0183] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-040.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-040-ref.html (==)
@@ -1749,20 +1832,20 @@
   stable page 1: diffRatio=0.00004412831081596825, diffPixels=37
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0177] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-041.html
+- [0184] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-041.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-041-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005761726204106557, diffPixels=4831
+  canary page 1: diffRatio=0.15514559957255172, diffPixels=130084
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-041.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.005761726204106557, diffPixels=4831
+  stable page 1: diffRatio=0.15514559957255172, diffPixels=130084
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-041-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0178] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-042.html
+- [0185] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-042.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -1775,7 +1858,7 @@
   stable page 1: diffRatio=0.0957333886726204, diffPixels=80269
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0179] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-043.html
+- [0186] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-043.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-043-ref.html (==)
@@ -1788,7 +1871,7 @@
   stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-043-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0180] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-044.html
+- [0187] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-044.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-044-ref.html (==)
@@ -1801,7 +1884,7 @@
   stable page 1: diffRatio=0.006793374551560949, diffPixels=5696
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-044-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0181] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-045.html
+- [0188] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-045.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-045-ref.html (==)
@@ -1814,7 +1897,7 @@
   stable page 1: diffRatio=0.002862376917792535, diffPixels=2400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-045-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0182] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-046.html
+- [0189] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-046.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-046-ref.html (==)
@@ -1827,7 +1910,7 @@
   stable page 1: diffRatio=0.00009541256392641782, diffPixels=80
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-046-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0183] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-047.html
+- [0190] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-047.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-047-ref.html (==)
@@ -1840,7 +1923,7 @@
   stable page 1: diffRatio=0.0053681493779100834, diffPixels=4501
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-047-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0184] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-048.html
+- [0191] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-048.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-048-ref.html (==)
@@ -1853,7 +1936,7 @@
   stable page 1: diffRatio=0.07288685024043966, diffPixels=61113
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-048-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0187] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-051.html
+- [0194] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-051.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-051-ref.html (==)
@@ -1866,7 +1949,7 @@
   stable page 1: diffRatio=0.0016494446988779483, diffPixels=1383
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0188] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-052.html
+- [0195] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-052.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-052-ref.html (==)
@@ -1879,7 +1962,7 @@
   stable page 1: diffRatio=0.007178602778413861, diffPixels=6019
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-052-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0189] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-053.html
+- [0196] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-053.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-053-ref.html (==)
@@ -1892,7 +1975,7 @@
   stable page 1: diffRatio=0.007178602778413861, diffPixels=6019
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-053-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0190] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-054.html
+- [0197] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-054.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-054-ref.html (==)
@@ -1905,7 +1988,7 @@
   stable page 1: diffRatio=0.0017543985191970078, diffPixels=1471
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-054-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0191] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-055.html
+- [0198] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-055.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-055-ref.html (==)
@@ -1918,7 +2001,7 @@
   stable page 1: diffRatio=0.002744303869933593, diffPixels=2301
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-055-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0192] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-056.html
+- [0199] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-056.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-056-ref.html (==)
@@ -1931,7 +2014,7 @@
   stable page 1: diffRatio=0.006105211434241661, diffPixels=5119
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-056-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0193] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-057.html
+- [0200] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-057.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-057-ref.html (==)
@@ -1944,7 +2027,7 @@
   stable page 1: diffRatio=0.000850364475994199, diffPixels=713
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-057-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0194] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-058.html
+- [0201] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-058.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
@@ -1957,7 +2040,7 @@
   stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0195] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-059.html
+- [0202] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-059.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
@@ -1970,7 +2053,7 @@
   stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0196] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-060.html
+- [0203] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-060.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
@@ -1983,7 +2066,7 @@
   stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0197] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-061.html
+- [0204] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-061.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
@@ -1996,7 +2079,7 @@
   stable page 1: diffRatio=0.0001920177849019159, diffPixels=161
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0198] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-062.html
+- [0205] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-062.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html (==)
@@ -2009,7 +2092,7 @@
   stable page 1: diffRatio=0.024256259064193573, diffPixels=20338
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-058-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0199] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-063.html
+- [0206] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-063.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-063-ref.html (==)
@@ -2022,7 +2105,7 @@
   stable page 1: diffRatio=0.045722893290588505, diffPixels=38337
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-063-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0200] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-064.html
+- [0207] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-064.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-065-ref.html (==)
@@ -2035,7 +2118,7 @@
   stable page 1: diffRatio=0.0002671551789939699, diffPixels=224
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-065-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0201] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-065.html
+- [0208] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-065.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-065-ref.html (==)
@@ -2048,7 +2131,7 @@
   stable page 1: diffRatio=0.0002671551789939699, diffPixels=224
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-065-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0202] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-066.html
+- [0209] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-066.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-066-ref.html (==)
@@ -2061,7 +2144,7 @@
   stable page 1: diffRatio=0.07278905236241508, diffPixels=61031
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-066-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0203] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-067.html
+- [0210] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-067.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-067-ref.html (==)
@@ -2074,7 +2157,7 @@
   stable page 1: diffRatio=0.028750190825127853, diffPixels=24106
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-067-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0204] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-068.html
+- [0211] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-068.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-068-ref.html (==)
@@ -2087,7 +2170,7 @@
   stable page 1: diffRatio=0.048554261125104956, diffPixels=40711
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-068-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0205] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-069.html
+- [0212] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-069.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-069-ref.html (==)
@@ -2100,7 +2183,7 @@
   stable page 1: diffRatio=0.00358393443248607, diffPixels=3005
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-069-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0206] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-001.html
+- [0213] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-001-ref.html (==)
@@ -2113,7 +2196,7 @@
   stable page 1: diffRatio=0.012087579192428059, diffPixels=10135
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0207] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-002.html
+- [0214] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -2126,7 +2209,7 @@
   stable page 1: diffRatio=0.00047109953438668805, diffPixels=395
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0208] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-003.html
+- [0215] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-003-ref.html (==)
@@ -2139,7 +2222,7 @@
   stable page 1: diffRatio=0.005982367758186398, diffPixels=5016
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0209] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-004.html
+- [0216] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -2152,7 +2235,7 @@
   stable page 1: diffRatio=0.025067265857568126, diffPixels=21018
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0210] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-005.tentative.html
+- [0217] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-with-ruby-005.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-005-ref.html (==)
@@ -2165,7 +2248,46 @@
   stable page 1: diffRatio=0.00010018319212273872, diffPixels=84
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-auto-with-ruby-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0211] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-001.html
+- [0218] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-wm-vlr-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/line-clamp-wm-vlr-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-wm-vlr-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008050435081291505, diffPixels=6750
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vlr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-wm-vlr-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008050435081291505, diffPixels=6750
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vlr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0219] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-wm-vrl-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-wm-vrl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008050435081291505, diffPixels=6750
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-wm-vrl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008050435081291505, diffPixels=6750
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0220] [WPT reftest] css/css-overflow/line-clamp/line-clamp-auto-wm-vrl-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-wm-vrl-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.008050435081291505, diffPixels=6750
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-auto-wm-vrl-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.008050435081291505, diffPixels=6750
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0221] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-001-ref.html (==)
@@ -2178,7 +2300,7 @@
   stable page 1: diffRatio=0.0002552286085031677, diffPixels=214
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0212] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-002.html
+- [0222] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-002-ref.html (==)
@@ -2191,7 +2313,7 @@
   stable page 1: diffRatio=0.0002802744065338524, diffPixels=235
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0213] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-003.html
+- [0223] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-003-ref.html (==)
@@ -2204,7 +2326,7 @@
   stable page 1: diffRatio=0.0005307323868406991, diffPixels=445
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0214] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-004.html
+- [0224] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html (==)
@@ -2217,7 +2339,7 @@
   stable page 1: diffRatio=0.0004985306465155331, diffPixels=418
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0215] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-005.html
+- [0225] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html (==)
@@ -2230,7 +2352,7 @@
   stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0216] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-006.html
+- [0226] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-006-ref.html (==)
@@ -2243,7 +2365,7 @@
   stable page 1: diffRatio=0.0005307323868406991, diffPixels=445
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0217] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-007.html
+- [0227] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html (==)
@@ -2256,7 +2378,7 @@
   stable page 1: diffRatio=0.0004985306465155331, diffPixels=418
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0218] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-008.html
+- [0228] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html (==)
@@ -2269,7 +2391,7 @@
   stable page 1: diffRatio=0.00016697198687123122, diffPixels=140
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0219] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-009.html
+- [0229] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-009-ref.html (==)
@@ -2282,7 +2404,7 @@
   stable page 1: diffRatio=0.001043574917945195, diffPixels=875
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0220] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-010.html
+- [0230] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-010-ref.html (==)
@@ -2295,7 +2417,7 @@
   stable page 1: diffRatio=0.00048064079077932983, diffPixels=403
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0221] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-011.html
+- [0231] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-010-ref.html (==)
@@ -2308,7 +2430,7 @@
   stable page 1: diffRatio=0.00045559499274864515, diffPixels=382
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0222] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-012.html
+- [0232] [WPT reftest] css/css-overflow/line-clamp/line-clamp-balance-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-balance-012-ref.html (==)
@@ -2321,7 +2443,7 @@
   stable page 1: diffRatio=0.00008587130753377605, diffPixels=72
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-balance-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0223] [WPT reftest] css/css-overflow/line-clamp/line-clamp-baseline-001.html
+- [0233] [WPT reftest] css/css-overflow/line-clamp/line-clamp-baseline-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-baseline-001-ref.html (==)
@@ -2334,7 +2456,7 @@
   stable page 1: diffRatio=0.003488521868559652, diffPixels=2925
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-baseline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0224] [WPT reftest] css/css-overflow/line-clamp/line-clamp-bfc.html
+- [0234] [WPT reftest] css/css-overflow/line-clamp/line-clamp-bfc.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/line-clamp-bfc-ref.html (==)
@@ -2347,7 +2469,7 @@
   stable page 1: diffRatio=0.0016649492405159912, diffPixels=1396
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-bfc-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0226] [WPT reftest] css/css-overflow/line-clamp/line-clamp-dynamic-change-after-clean-content.html
+- [0236] [WPT reftest] css/css-overflow/line-clamp/line-clamp-dynamic-change-after-clean-content.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-dynamic-change-after-clean-content-ref.html (==)
@@ -2360,7 +2482,7 @@
   stable page 1: diffRatio=0.00030889817571177775, diffPixels=259
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-dynamic-change-after-clean-content-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0228] [WPT reftest] css/css-overflow/line-clamp/line-clamp-dynamic-width-change.html
+- [0238] [WPT reftest] css/css-overflow/line-clamp/line-clamp-dynamic-width-change.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-dynamic-width-change-ref.html (==)
@@ -2373,7 +2495,7 @@
   stable page 1: diffRatio=0.007458877184947714, diffPixels=6254
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-dynamic-width-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0229] [WPT reftest] css/css-overflow/line-clamp/line-clamp-empty-line-001.tentative.html
+- [0239] [WPT reftest] css/css-overflow/line-clamp/line-clamp-empty-line-001.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-empty-line-001-ref.html (==)
@@ -2386,7 +2508,7 @@
   stable page 1: diffRatio=0.0006225669796198764, diffPixels=522
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-empty-line-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0230] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-button-001.tentative.html
+- [0240] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-button-001.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-button-001-ref.html (==)
@@ -2399,7 +2521,7 @@
   stable page 1: diffRatio=0.02473332188382566, diffPixels=20738
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-button-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0231] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-button-002.tentative.html
+- [0241] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-button-002.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-button-002-ref.html (==)
@@ -2412,7 +2534,7 @@
   stable page 1: diffRatio=0.014967845965956798, diffPixels=12550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-button-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0232] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-button-003.tentative.html
+- [0242] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-button-003.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-button-003-ref.html (==)
@@ -2425,7 +2547,7 @@
   stable page 1: diffRatio=0.022123788260438135, diffPixels=18550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-button-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0233] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-button-004.tentative.html
+- [0243] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-button-004.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-button-004-ref.html (==)
@@ -2438,7 +2560,7 @@
   stable page 1: diffRatio=0.050710585069841996, diffPixels=42519
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-button-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0235] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-fieldset-002.tentative.html
+- [0245] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-fieldset-002.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-fieldset-002-ref.html (==)
@@ -2451,7 +2573,7 @@
   stable page 1: diffRatio=0.014967845965956798, diffPixels=12550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-fieldset-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0236] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-fieldset-003.tentative.html
+- [0246] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-fieldset-003.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-fieldset-003-ref.html (==)
@@ -2464,7 +2586,7 @@
   stable page 1: diffRatio=0.022115439661094572, diffPixels=18543
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-fieldset-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0237] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-fieldset-004.tentative.html
+- [0247] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-fieldset-004.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-fieldset-004-ref.html (==)
@@ -2477,7 +2599,7 @@
   stable page 1: diffRatio=0.07125887336844516, diffPixels=59748
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-fieldset-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0239] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-input-002.tentative.html
+- [0249] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-input-002.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-input-002-ref.html (==)
@@ -2490,7 +2612,7 @@
   stable page 1: diffRatio=0.014967845965956798, diffPixels=12550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-input-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0240] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-input-003.tentative.html
+- [0250] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-input-003.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-input-003-ref.html (==)
@@ -2503,7 +2625,7 @@
   stable page 1: diffRatio=0.022123788260438135, diffPixels=18550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-input-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0241] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-input-004.tentative.html
+- [0251] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-input-004.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-input-004-ref.html (==)
@@ -2516,7 +2638,7 @@
   stable page 1: diffRatio=0.03382613922601328, diffPixels=28362
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-input-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0243] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-output-002.tentative.html
+- [0253] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-output-002.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-output-002-ref.html (==)
@@ -2529,7 +2651,7 @@
   stable page 1: diffRatio=0.02922009770246546, diffPixels=24500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-output-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0244] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-output-003.tentative.html
+- [0254] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-output-003.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-output-003-ref.html (==)
@@ -2542,7 +2664,7 @@
   stable page 1: diffRatio=0.036346223570719795, diffPixels=30475
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-output-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0245] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-output-004.tentative.html
+- [0255] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-output-004.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-output-004-ref.html (==)
@@ -2555,7 +2677,7 @@
   stable page 1: diffRatio=0.050598475307228455, diffPixels=42425
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-output-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0246] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-output-005.tentative.html
+- [0256] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-output-005.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-output-005-ref.html (==)
@@ -2568,7 +2690,7 @@
   stable page 1: diffRatio=0.014967845965956798, diffPixels=12550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-output-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0247] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-select-001.tentative.html
+- [0257] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-select-001.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-select-001-ref.html (==)
@@ -2581,7 +2703,7 @@
   stable page 1: diffRatio=0.004412831081596825, diffPixels=3700
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-select-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0248] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-select-002.tentative.html
+- [0258] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-select-002.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-select-002-ref.html (==)
@@ -2594,7 +2716,7 @@
   stable page 1: diffRatio=0.014967845965956798, diffPixels=12550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-select-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0249] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-select-003.tentative.html
+- [0259] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-select-003.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-select-003-ref.html (==)
@@ -2607,7 +2729,7 @@
   stable page 1: diffRatio=0.022123788260438135, diffPixels=18550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-select-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0250] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-select-004.tentative.html
+- [0260] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-select-004.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-select-004-ref.html (==)
@@ -2620,7 +2742,14 @@
   stable page 1: diffRatio=0.054816903289825206, diffPixels=45962
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-select-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0252] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-textarea-002.tentative.html
+- [0261] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-textarea-001.tentative.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.003377604762995191, diffPixels=2832
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-form-textarea-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-form-textarea-001.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0262] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-textarea-002.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-textarea-002-ref.html (==)
@@ -2633,7 +2762,7 @@
   stable page 1: diffRatio=0.014967845965956798, diffPixels=12550
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-textarea-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0253] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-textarea-003.tentative.html
+- [0263] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-textarea-003.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-textarea-003-ref.html (==)
@@ -2646,7 +2775,7 @@
   stable page 1: diffRatio=0.0219448897030761, diffPixels=18400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-textarea-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0254] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-textarea-004.tentative.html
+- [0264] [WPT reftest] css/css-overflow/line-clamp/line-clamp-form-textarea-004.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-form-textarea-004-ref.html (==)
@@ -2659,7 +2788,7 @@
   stable page 1: diffRatio=0.0375639264178307, diffPixels=31496
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-form-textarea-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0255] [WPT reftest] css/css-overflow/line-clamp/line-clamp-fragmentation-001.html
+- [0265] [WPT reftest] css/css-overflow/line-clamp/line-clamp-fragmentation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-fragmentation-001-ref.html (==)
@@ -2672,7 +2801,7 @@
   stable page 1: diffRatio=0.00020632966949087856, diffPixels=173
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-fragmentation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0256] [WPT reftest] css/css-overflow/line-clamp/line-clamp-intrinsic-size-001.html
+- [0266] [WPT reftest] css/css-overflow/line-clamp/line-clamp-intrinsic-size-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-text-intrinsic-size-001-ref.html (==)
@@ -2685,7 +2814,7 @@
   stable page 1: diffRatio=0.0022064155407984123, diffPixels=1850
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-text-intrinsic-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0257] [WPT reftest] css/css-overflow/line-clamp/line-clamp-intrinsic-size-002.html
+- [0267] [WPT reftest] css/css-overflow/line-clamp/line-clamp-intrinsic-size-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-text-intrinsic-size-002-ref.html (==)
@@ -2698,7 +2827,7 @@
   stable page 1: diffRatio=0.00230182810472483, diffPixels=1930
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-text-intrinsic-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0258] [WPT reftest] css/css-overflow/line-clamp/line-clamp-intrinsic-size-003.html
+- [0268] [WPT reftest] css/css-overflow/line-clamp/line-clamp-intrinsic-size-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-text-intrinsic-size-001-ref.html (==)
@@ -2711,7 +2840,7 @@
   stable page 1: diffRatio=0.001562380734295092, diffPixels=1310
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-text-intrinsic-size-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0259] [WPT reftest] css/css-overflow/line-clamp/line-clamp-intrinsic-size-004.html
+- [0269] [WPT reftest] css/css-overflow/line-clamp/line-clamp-intrinsic-size-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-text-intrinsic-size-002-ref.html (==)
@@ -2724,7 +2853,7 @@
   stable page 1: diffRatio=0.0016577932982215098, diffPixels=1390
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-text-intrinsic-size-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0260] [WPT reftest] css/css-overflow/line-clamp/line-clamp-invalidation-001.html
+- [0270] [WPT reftest] css/css-overflow/line-clamp/line-clamp-invalidation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/line-clamp-invalidation-001-ref.html (==)
@@ -2737,7 +2866,7 @@
   stable page 1: diffRatio=0.002454488207007099, diffPixels=2058
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-invalidation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0261] [WPT reftest] css/css-overflow/line-clamp/line-clamp-invalidation-002.html
+- [0271] [WPT reftest] css/css-overflow/line-clamp/line-clamp-invalidation-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/line-clamp-invalidation-002-ref.html (==)
@@ -2750,7 +2879,7 @@
   stable page 1: diffRatio=0.004664481718952751, diffPixels=3911
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-invalidation-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0263] [WPT reftest] css/css-overflow/line-clamp/line-clamp-text-overflow-001.html
+- [0273] [WPT reftest] css/css-overflow/line-clamp/line-clamp-text-overflow-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-text-overflow-001-ref.html (==)
@@ -2763,7 +2892,7 @@
   stable page 1: diffRatio=0.0027967807800931225, diffPixels=2345
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-text-overflow-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0264] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-001.html
+- [0274] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
@@ -2776,7 +2905,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0265] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-002.html
+- [0275] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
@@ -2789,7 +2918,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0266] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-003.html
+- [0276] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
@@ -2802,7 +2931,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0267] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-004.html
+- [0277] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
@@ -2815,7 +2944,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0268] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-005.html
+- [0278] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -2828,7 +2957,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0269] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-006.html
+- [0279] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -2841,7 +2970,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0270] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-007.html
+- [0280] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -2854,7 +2983,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0271] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-008.html
+- [0281] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -2867,7 +2996,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0272] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-009.html
+- [0282] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-009-ref.html (==)
@@ -2880,7 +3009,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0273] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-010.html
+- [0283] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-009-ref.html (==)
@@ -2893,7 +3022,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0274] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-011.html
+- [0284] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -2906,7 +3035,7 @@
   stable page 1: diffRatio=0.04818573009693917, diffPixels=40402
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0275] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-012.html
+- [0285] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -2919,7 +3048,7 @@
   stable page 1: diffRatio=0.04818573009693917, diffPixels=40402
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0276] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-013.html
+- [0286] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-013-ref.html (==)
@@ -2932,7 +3061,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0277] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-014.html
+- [0287] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-013-ref.html (==)
@@ -2945,7 +3074,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0278] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-015.html
+- [0288] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -2958,7 +3087,7 @@
   stable page 1: diffRatio=0.024153690557972674, diffPixels=20252
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0279] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-016.html
+- [0289] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-016-ref.html (==)
@@ -2971,7 +3100,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-016-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0280] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-017.html
+- [0290] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-030-ref.html (==)
@@ -2984,7 +3113,7 @@
   stable page 1: diffRatio=0.024314699259598505, diffPixels=20387
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-030-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0281] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-018.html
+- [0291] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-018-ref.html (==)
@@ -2997,7 +3126,7 @@
   stable page 1: diffRatio=0.022566264025646897, diffPixels=18921
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-018-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0282] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-019.html
+- [0292] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-019.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-019-ref.html (==)
@@ -3010,7 +3139,7 @@
   stable page 1: diffRatio=0.025912859705366, diffPixels=21727
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-019-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0283] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-020.html
+- [0293] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3023,7 +3152,7 @@
   stable page 1: diffRatio=0.012111432333409663, diffPixels=10155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0284] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-021.html
+- [0294] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3036,7 +3165,7 @@
   stable page 1: diffRatio=0.012111432333409663, diffPixels=10155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0285] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-022.html
+- [0295] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-022.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3049,7 +3178,7 @@
   stable page 1: diffRatio=0.03131917410884665, diffPixels=26260
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0286] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-023.html
+- [0296] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-023.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-023-ref.html (==)
@@ -3062,7 +3191,7 @@
   stable page 1: diffRatio=0.00009183459277917716, diffPixels=77
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0287] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-024.html
+- [0297] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-024.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-024-ref.html (==)
@@ -3075,7 +3204,7 @@
   stable page 1: diffRatio=0.024065433936340738, diffPixels=20178
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-024-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0288] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-025.html
+- [0298] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-025.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -3088,7 +3217,7 @@
   stable page 1: diffRatio=0.02556818181818182, diffPixels=21438
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0289] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-026.html
+- [0299] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-abspos-026.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -3101,7 +3230,7 @@
   stable page 1: diffRatio=0.024070204564537057, diffPixels=20182
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0290] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-block-in-inline-001.html
+- [0300] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-block-in-inline-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-009-ref.html (==)
@@ -3114,7 +3243,7 @@
   stable page 1: diffRatio=0.03607549042057858, diffPixels=30248
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0291] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-001.html
+- [0301] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
@@ -3127,7 +3256,7 @@
   stable page 1: diffRatio=0.024958734066101825, diffPixels=20927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0292] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-002.html
+- [0302] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
@@ -3140,7 +3269,7 @@
   stable page 1: diffRatio=0.024958734066101825, diffPixels=20927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0293] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-003.html
+- [0303] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
@@ -3153,7 +3282,7 @@
   stable page 1: diffRatio=0.024958734066101825, diffPixels=20927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0294] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-004.html
+- [0304] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html (==)
@@ -3166,7 +3295,7 @@
   stable page 1: diffRatio=0.024958734066101825, diffPixels=20927
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0295] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-005.html
+- [0305] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -3179,7 +3308,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0296] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-006.html
+- [0306] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -3192,7 +3321,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0297] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-007.html
+- [0307] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -3205,7 +3334,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0298] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-008.html
+- [0308] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html (==)
@@ -3218,7 +3347,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0299] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-009.html
+- [0309] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-009-ref.html (==)
@@ -3231,7 +3360,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0300] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-010.html
+- [0310] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-009-ref.html (==)
@@ -3244,7 +3373,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0301] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-011.html
+- [0311] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3257,7 +3386,7 @@
   stable page 1: diffRatio=0.04818573009693917, diffPixels=40402
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0302] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-012.html
+- [0312] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3270,7 +3399,7 @@
   stable page 1: diffRatio=0.04818573009693917, diffPixels=40402
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0303] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-013.html
+- [0313] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-013-ref.html (==)
@@ -3283,7 +3412,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0304] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-014.html
+- [0314] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-abspos-013-ref.html (==)
@@ -3296,7 +3425,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-abspos-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0305] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-015.html
+- [0315] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3309,7 +3438,7 @@
   stable page 1: diffRatio=0.012111432333409663, diffPixels=10155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0306] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-016.html
+- [0316] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3322,7 +3451,7 @@
   stable page 1: diffRatio=0.012111432333409663, diffPixels=10155
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0307] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-017.html
+- [0317] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-fixed-pos-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3335,7 +3464,7 @@
   stable page 1: diffRatio=0.03124284405770552, diffPixels=26196
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0308] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-001.html
+- [0318] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-001-ref.html (==)
@@ -3348,7 +3477,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0309] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-002.html
+- [0319] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-001-ref.html (==)
@@ -3361,7 +3490,7 @@
   stable page 1: diffRatio=0.02406901190748798, diffPixels=20181
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0310] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-003.html
+- [0320] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3374,7 +3503,7 @@
   stable page 1: diffRatio=0.025380934661476222, diffPixels=21281
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0311] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-004.html
+- [0321] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html (==)
@@ -3387,7 +3516,7 @@
   stable page 1: diffRatio=0.025380934661476222, diffPixels=21281
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0312] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-005.html
+- [0322] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-005-ref.html (==)
@@ -3400,7 +3529,7 @@
   stable page 1: diffRatio=0.022995620563315777, diffPixels=19281
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0313] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-006.html
+- [0323] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-005-ref.html (==)
@@ -3413,7 +3542,7 @@
   stable page 1: diffRatio=0.0236515819403099, diffPixels=19831
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0314] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-007.html
+- [0324] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-007-ref.html (==)
@@ -3426,7 +3555,7 @@
   stable page 1: diffRatio=0.023199564918708497, diffPixels=19452
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0315] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-008.html
+- [0325] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -3439,7 +3568,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0316] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-009.html
+- [0326] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-009-ref.html (==)
@@ -3452,7 +3581,7 @@
   stable page 1: diffRatio=0.028155054957636823, diffPixels=23607
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0317] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-010.html
+- [0327] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-010-ref.html (==)
@@ -3465,7 +3594,7 @@
   stable page 1: diffRatio=0.01937232844821006, diffPixels=16243
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0318] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-011.html
+- [0328] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -3478,7 +3607,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0319] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-012.html
+- [0329] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -3491,7 +3620,7 @@
   stable page 1: diffRatio=0.0043365010304556905, diffPixels=3636
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0320] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-013.html
+- [0330] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-005-ref.html (==)
@@ -3504,7 +3633,7 @@
   stable page 1: diffRatio=0.022995620563315777, diffPixels=19281
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0321] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-014.html
+- [0331] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-floats-005-ref.html (==)
@@ -3517,7 +3646,7 @@
   stable page 1: diffRatio=0.022995620563315777, diffPixels=19281
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-floats-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0322] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-015.html
+- [0332] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -3530,7 +3659,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0324] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-017.html
+- [0334] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-floats-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -3543,7 +3672,7 @@
   stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0325] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-popover-001.html
+- [0335] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-popover-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-popover-001-ref.html (==)
@@ -3556,7 +3685,7 @@
   stable page 1: diffRatio=0.5661435672849401, diffPixels=474691
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-popover-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0326] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-bidi-001.html
+- [0336] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-bidi-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-bidi-001-ref.html (==)
@@ -3569,7 +3698,7 @@
   stable page 1: diffRatio=0.006960346538432181, diffPixels=5836
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-bidi-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0327] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-first-character-001.html
+- [0337] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-first-character-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-first-character-001-ref.html (==)
@@ -3582,7 +3711,7 @@
   stable page 1: diffRatio=0.0015468761926570491, diffPixels=1297
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-first-character-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0328] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-first-line-001.html
+- [0338] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-first-line-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-first-line-001-ref.html (==)
@@ -3595,7 +3724,7 @@
   stable page 1: diffRatio=0.001707884894282879, diffPixels=1432
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-first-line-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0329] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-grapheme-001.html
+- [0339] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-grapheme-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-grapheme-001-ref.html (==)
@@ -3608,7 +3737,7 @@
   stable page 1: diffRatio=0.0010316483474543928, diffPixels=865
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-grapheme-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0330] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-hanging-punctuation-001.html
+- [0340] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-hanging-punctuation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-hanging-punctuation-001-ref.html (==)
@@ -3621,7 +3750,7 @@
   stable page 1: diffRatio=0.0018068754293565376, diffPixels=1515
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-hanging-punctuation-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0337] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-007.html
+- [0347] [WPT reftest] css/css-overflow/line-clamp/line-clamp-with-text-overflow-string-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-007-ref.html (==)
@@ -3634,7 +3763,53 @@
   stable page 1: diffRatio=0.0015850412182276162, diffPixels=1329
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-with-text-overflow-string-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0373] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-035.html
+- [0350] [WPT reftest] css/css-overflow/line-clamp/line-clamp-wm-vlr-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/line-clamp-wm-vlr-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-wm-vlr-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.012433449736661323, diffPixels=10425
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vlr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-wm-vlr-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.012433449736661323, diffPixels=10425
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vlr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0351] [WPT reftest] css/css-overflow/line-clamp/line-clamp-wm-vrl-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-wm-vrl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.012463266162888328, diffPixels=10450
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-wm-vrl-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.012463266162888328, diffPixels=10450
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0352] [WPT reftest] css/css-overflow/line-clamp/line-clamp-wm-vrl-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-wm-vrl-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.012463266162888328, diffPixels=10450
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/line-clamp-wm-vrl-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.012463266162888328, diffPixels=10450
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/line-clamp-wm-vrl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0365] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-013.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.006033652011296848, diffPixels=5059
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/webkit-line-clamp-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0386] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-035.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-035-ref.html (==)
@@ -3647,7 +3822,7 @@
   stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-035-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0374] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-036.html
+- [0387] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-036.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html (==)
@@ -3660,7 +3835,7 @@
   stable page 1: diffRatio=0.00023376078161972368, diffPixels=196
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-036-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0378] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-040.html
+- [0391] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-040.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-040-ref.html (==)
@@ -3673,7 +3848,7 @@
   stable page 1: diffRatio=0.00027431112128845124, diffPixels=230
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-040-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0384] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-050.html
+- [0397] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-050.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-050-ref.html (==)
@@ -3686,7 +3861,7 @@
   stable page 1: diffRatio=0.00014311884588962676, diffPixels=120
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-050-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0385] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-051.html
+- [0398] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-051.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-051-ref.html (==)
@@ -3699,7 +3874,7 @@
   stable page 1: diffRatio=0.000176513243263873, diffPixels=148
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-051-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0386] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-052.html
+- [0399] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-052.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-052-ref.html (==)
@@ -3712,7 +3887,7 @@
   stable page 1: diffRatio=0.000197981070147317, diffPixels=166
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-052-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0387] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-053.html
+- [0400] [WPT reftest] css/css-overflow/line-clamp/webkit-line-clamp-053.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/line-clamp/reference/webkit-line-clamp-053-ref.html (==)
@@ -3725,7 +3900,7 @@
   stable page 1: diffRatio=0.00007155942294481338, diffPixels=60
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/line-clamp/reference/webkit-line-clamp-053-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0393] [WPT reftest] css/css-overflow/margin-block-end-scroll-area-001.html
+- [0406] [WPT reftest] css/css-overflow/margin-block-end-scroll-area-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/ref-if-there-is-no-red.xht (==)
@@ -3738,7 +3913,7 @@
   stable page 1: diffRatio=0.1514674452331883, diffPixels=127000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/ref-if-there-is-no-red.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0413] [WPT reftest] css/css-overflow/overflow-body-propagation-007.html
+- [0426] [WPT reftest] css/css-overflow/overflow-body-propagation-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-body-propagation-007-ref.html (==)
@@ -3751,7 +3926,7 @@
   stable page 1: diffRatio=0.08461901763224182, diffPixels=70950
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-body-propagation-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0414] [WPT reftest] css/css-overflow/overflow-body-propagation-008.html
+- [0427] [WPT reftest] css/css-overflow/overflow-body-propagation-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-body-propagation-008-ref.html (==)
@@ -3764,7 +3939,7 @@
   stable page 1: diffRatio=0.01150914052362415, diffPixels=9650
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-body-propagation-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0415] [WPT reftest] css/css-overflow/overflow-body-propagation-009.html
+- [0428] [WPT reftest] css/css-overflow/overflow-body-propagation-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-body-propagation-009-ref.html (==)
@@ -3777,7 +3952,14 @@
   stable page 1: diffRatio=0.037449431341119, diffPixels=31400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-body-propagation-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0432] [WPT reftest] css/css-overflow/overflow-clip-margin-007.html
+- [0436] [WPT reftest] css/css-overflow/overflow-canvas.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-canvas.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-canvas.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0445] [WPT reftest] css/css-overflow/overflow-clip-margin-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-clip-margin-007-ref.html (==)
@@ -3790,7 +3972,7 @@
   stable page 1: diffRatio=0.010733913441722006, diffPixels=9000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-clip-margin-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0437] [WPT reftest] css/css-overflow/overflow-clip-margin-012.html
+- [0450] [WPT reftest] css/css-overflow/overflow-clip-margin-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-clip-margin-007-ref.html (==)
@@ -3803,7 +3985,7 @@
   stable page 1: diffRatio=0.010733913441722006, diffPixels=9000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-clip-margin-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0443] [WPT reftest] css/css-overflow/overflow-clip-margin-018.html
+- [0456] [WPT reftest] css/css-overflow/overflow-clip-margin-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -3816,7 +3998,7 @@
   stable page 1: diffRatio=0.005247691015952981, diffPixels=4400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0444] [WPT reftest] css/css-overflow/overflow-clip-margin-019.html
+- [0457] [WPT reftest] css/css-overflow/overflow-clip-margin-019.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -3829,7 +4011,7 @@
   stable page 1: diffRatio=0.005247691015952981, diffPixels=4400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0445] [WPT reftest] css/css-overflow/overflow-clip-margin-020.html
+- [0458] [WPT reftest] css/css-overflow/overflow-clip-margin-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
@@ -3842,20 +4024,16 @@
   stable page 1: diffRatio=0.005247691015952981, diffPixels=4400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0450] [WPT reftest] css/css-overflow/overflow-clip-margin-content-box-dynamic.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+- [0463] [WPT reftest] css/css-overflow/overflow-clip-margin-content-box-dynamic.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-clip-margin-content-box-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005963285245401115, diffPixels=5000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-clip-margin-content-box-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0451] [WPT reftest] css/css-overflow/overflow-clip-margin-invalidation.html
+- [0464] [WPT reftest] css/css-overflow/overflow-clip-margin-invalidation.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-clip-margin-invalidation-ref.html (==)
@@ -3868,7 +4046,7 @@
   stable page 1: diffRatio=0.010495382031905962, diffPixels=8800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-clip-margin-invalidation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0465] [WPT reftest] css/css-overflow/overflow-ellipsis-dynamic-001.html
+- [0478] [WPT reftest] css/css-overflow/overflow-ellipsis-dynamic-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/overflow-ellipsis-dynamic-001-ref.html (==)
@@ -3881,20 +4059,16 @@
   stable page 1: diffRatio=0.0008110067933745516, diffPixels=680
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/overflow-ellipsis-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0466] [WPT reftest] css/css-overflow/overflow-hidden-resize-with-stacking-context-child.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+- [0479] [WPT reftest] css/css-overflow/overflow-hidden-resize-with-stacking-context-child.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/reference/ref-filled-green-100px-square-only.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-hidden-resize-with-stacking-context-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009965842302114343, diffPixels=8356
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-hidden-resize-with-stacking-context-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.009965842302114343, diffPixels=8356
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0470] [WPT reftest] css/css-overflow/overflow-img-scroll-non-replaced.html
+- [0483] [WPT reftest] css/css-overflow/overflow-img-scroll-non-replaced.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/overflow-img-scroll-non-replaced-ref.html (==)
@@ -3907,31 +4081,20 @@
   stable page 1: diffRatio=0.0000023853140981604458, diffPixels=2
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-img-scroll-non-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0477] [WPT reftest] css/css-overflow/overflow-no-frameset-propagation.html
+- [0497] [WPT reftest] css/css-overflow/overflow-video-hidden.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-no-frameset-propagation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-no-frameset-propagation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0480] [WPT reftest] css/css-overflow/overflow-replaced-element-002.html
-  triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 2: diffRatio=0.1422959125257614, diffPixels=119310
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0484] [WPT reftest] css/css-overflow/overflow-video-hidden.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
   reference: css/css-overflow/overflow-video-ref.html (!=)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-video-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary unexpected equality: comparison matched but relation is !=
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-video-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0489] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-001.html
+- [0502] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/column-scroll-marker-001-ref.html (==)
@@ -3944,7 +4107,7 @@
   stable page 1: diffRatio=0.06813530455690406, diffPixels=57129
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0490] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-002.html
+- [0503] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/column-scroll-marker-002-ref.html (==)
@@ -3957,7 +4120,7 @@
   stable page 1: diffRatio=0.06812814861460957, diffPixels=57123
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0491] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-004.html
+- [0504] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -3970,7 +4133,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0492] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-006.html
+- [0505] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/column-scroll-marker-006-ref.html (==)
@@ -3983,7 +4146,7 @@
   stable page 1: diffRatio=0.06813530455690406, diffPixels=57129
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0493] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-007.html
+- [0506] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/column-scroll-marker-007-ref.html (==)
@@ -3996,7 +4159,7 @@
   stable page 1: diffRatio=0.06810668078772612, diffPixels=57105
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0494] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-008.html
+- [0507] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-011-ref.html (==)
@@ -4009,7 +4172,7 @@
   stable page 1: diffRatio=0.00008110067933745515, diffPixels=68
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0495] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-011.html
+- [0508] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4022,7 +4185,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0496] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-012.html
+- [0509] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4035,7 +4198,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0497] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-013.html
+- [0510] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4048,7 +4211,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0498] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-014.html
+- [0511] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-014.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4061,7 +4224,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0499] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-activation-target-current.html
+- [0512] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-activation-target-current.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/column-scroll-marker-activation-target-current-ref.html (==)
@@ -4074,7 +4237,7 @@
   stable page 1: diffRatio=0.03577971147240669, diffPixels=30000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-activation-target-current-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0500] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-counters.html
+- [0513] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-counters.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/column-scroll-marker-counters-ref.html (==)
@@ -4087,7 +4250,7 @@
   stable page 1: diffRatio=0.03034000267155179, diffPixels=25439
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-counters-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0501] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-dynamic-style-update.html
+- [0514] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-dynamic-style-update.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4100,7 +4263,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0503] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current.html
+- [0516] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current-ref.html (==)
@@ -4113,7 +4276,7 @@
   stable page 1: diffRatio=0.00017532058621479277, diffPixels=147
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/column-scroll-marker-reattach-target-current-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0505] [WPT reftest] css/css-overflow/scroll-markers/root-scroll-button.html
+- [0518] [WPT reftest] css/css-overflow/scroll-markers/root-scroll-button.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/root-scroll-button-ref.html (==)
@@ -4126,7 +4289,7 @@
   stable page 1: diffRatio=0.0009720154950003816, diffPixels=815
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/root-scroll-button-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0506] [WPT reftest] css/css-overflow/scroll-markers/root-scroll-marker.html
+- [0519] [WPT reftest] css/css-overflow/scroll-markers/root-scroll-marker.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/root-scroll-marker-ref.html (==)
@@ -4139,7 +4302,7 @@
   stable page 1: diffRatio=0.0008014655369819098, diffPixels=672
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/root-scroll-marker-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0508] [WPT reftest] css/css-overflow/scroll-markers/scroll-button-reattachment-position.html
+- [0521] [WPT reftest] css/css-overflow/scroll-markers/scroll-button-reattachment-position.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-button-reattachment-position-ref.html (==)
@@ -4152,7 +4315,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-button-reattachment-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0509] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-001.html
+- [0522] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-001-ref.html (==)
@@ -4165,7 +4328,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0510] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-002.html
+- [0523] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-001-ref.html (==)
@@ -4178,7 +4341,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0511] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-003.html
+- [0524] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-001-ref.html (==)
@@ -4191,7 +4354,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0512] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-004.html
+- [0525] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-001-ref.html (==)
@@ -4204,7 +4367,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0513] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-appearance.html
+- [0526] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-appearance.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-appearance-ref.html (==)
@@ -4217,7 +4380,7 @@
   stable page 1: diffRatio=0.0013155007251354858, diffPixels=1103
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-appearance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0514] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-contents-appearance.html
+- [0527] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-contents-appearance.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-contents-appearance-ref.html (==)
@@ -4230,7 +4393,7 @@
   stable page 1: diffRatio=0.020871498358903902, diffPixels=17500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-contents-appearance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0515] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-counter-appearance.html
+- [0528] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-counter-appearance.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-counter-appearance-ref.html (==)
@@ -4243,20 +4406,20 @@
   stable page 1: diffRatio=0.001257060529730555, diffPixels=1054
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-counter-appearance-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0516] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl.html
+- [0529] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011938497061293031, diffPixels=1001
+  canary page 1: diffRatio=0.0011962350202274635, diffPixels=1003
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0011938497061293031, diffPixels=1001
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0517] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping.html
+- [0530] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping-ref.html (==)
@@ -4269,46 +4432,46 @@
   stable page 1: diffRatio=0.013194364933974505, diffPixels=11063
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-snapping-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0518] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr.html
+- [0531] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011902717349820625, diffPixels=998
+  canary page 1: diffRatio=0.0011914643920311427, diffPixels=999
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0011902717349820625, diffPixels=998
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-vertical-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0519] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled.html
+- [0532] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-disabled.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-disabled-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011902717349820625, diffPixels=998
+  canary page 1: diffRatio=0.0011914643920311427, diffPixels=999
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0011902717349820625, diffPixels=998
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-disabled-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0521] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl.html
+- [0534] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0011962350202274635, diffPixels=1003
+  canary page 1: diffRatio=0.0011914643920311427, diffPixels=999
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0011962350202274635, diffPixels=1003
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0522] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-enabled-vertical-ltr.html
+- [0535] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-enabled-vertical-ltr.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-enabled-vertical-ltr-ref.html (==)
@@ -4321,20 +4484,20 @@
   stable page 1: diffRatio=0.0011855011067857415, diffPixels=994
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-vertical-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0523] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-enabled.html
+- [0536] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-enabled.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-buttons-enabled-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001192657049080223, diffPixels=1000
+  canary page 1: diffRatio=0.0011902717349820625, diffPixels=998
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.001192657049080223, diffPixels=1000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-buttons-enabled-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0524] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-layout-parent.html
+- [0537] [WPT reftest] css/css-overflow/scroll-markers/scroll-buttons-layout-parent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4347,7 +4510,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0525] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-001.html
+- [0538] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-001-ref.html (==)
@@ -4360,7 +4523,7 @@
   stable page 1: diffRatio=0.004892279215327074, diffPixels=4102
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0526] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-002.html
+- [0539] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-002-ref.html (==)
@@ -4373,7 +4536,7 @@
   stable page 1: diffRatio=0.03745181665521716, diffPixels=31402
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0527] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-003.html
+- [0540] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-003-ref.html (==)
@@ -4386,7 +4549,7 @@
   stable page 1: diffRatio=0.08012270055720937, diffPixels=67180
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0528] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-004.html
+- [0541] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-004-ref.html (==)
@@ -4399,7 +4562,7 @@
   stable page 1: diffRatio=0.0057223685214869095, diffPixels=4798
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0529] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-005.html
+- [0542] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4412,7 +4575,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0530] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-006.html
+- [0543] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4425,7 +4588,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0531] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-007.html
+- [0544] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4438,7 +4601,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0532] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-008.html
+- [0545] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4451,7 +4614,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0533] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-009.html
+- [0546] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4464,7 +4627,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0534] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-010.html
+- [0547] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-010-ref.html (==)
@@ -4477,7 +4640,7 @@
   stable page 1: diffRatio=0.006558421112892145, diffPixels=5499
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0535] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-011.html
+- [0548] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-011-ref.html (==)
@@ -4490,7 +4653,7 @@
   stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0536] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-012.html
+- [0549] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-011-ref.html (==)
@@ -4503,7 +4666,7 @@
   stable page 1: diffRatio=0.00017293527211663232, diffPixels=145
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0537] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-counters.html
+- [0550] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-counters.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-counters-ref.html (==)
@@ -4516,7 +4679,7 @@
   stable page 1: diffRatio=0.03034000267155179, diffPixels=25439
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-counters-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0538] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-dynamic.html
+- [0551] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-dynamic.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-dynamic-ref.html (==)
@@ -4529,7 +4692,7 @@
   stable page 1: diffRatio=0.2195037592550187, diffPixels=184046
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0539] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-001.html
+- [0552] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-001-ref.html (==)
@@ -4542,7 +4705,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0540] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-002.html
+- [0553] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-001-ref.html (==)
@@ -4555,7 +4718,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0541] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-005.html
+- [0554] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-005-ref.html (==)
@@ -4568,7 +4731,7 @@
   stable page 1: diffRatio=0.0007609151973131822, diffPixels=638
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0543] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-007.html
+- [0556] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-007-ref.html (==)
@@ -4581,7 +4744,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-007-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0544] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-008.html
+- [0557] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-008-ref.html (==)
@@ -4594,7 +4757,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0545] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-009.html
+- [0558] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-009-ref.html (==)
@@ -4607,7 +4770,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0547] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-011.html
+- [0560] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-011-ref.html (==)
@@ -4620,7 +4783,7 @@
   stable page 1: diffRatio=0.15136249141286925, diffPixels=126912
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-011-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0548] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-013.html
+- [0561] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-013-ref.html (==)
@@ -4633,7 +4796,7 @@
   stable page 1: diffRatio=0.15468284863750859, diffPixels=129696
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0549] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-015.html
+- [0562] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-015.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4646,7 +4809,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0550] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-016.html
+- [0563] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-016.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4659,7 +4822,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0551] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-017.html
+- [0564] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-017.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4672,7 +4835,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0552] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-018.html
+- [0565] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-018.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4685,7 +4848,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0553] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-019.html
+- [0566] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-019.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4698,7 +4861,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0554] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-020.html
+- [0567] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-020.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4711,7 +4874,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0555] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-001.html
+- [0568] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-001-ref.html (==)
@@ -4724,7 +4887,7 @@
   stable page 1: diffRatio=0.00014431150293870698, diffPixels=121
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0556] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-002.html
+- [0569] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4737,7 +4900,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0557] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-003.html
+- [0570] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4750,7 +4913,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0558] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-004.html
+- [0571] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-add-dynamic-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4763,7 +4926,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0559] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-001.html
+- [0572] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html (==)
@@ -4776,7 +4939,7 @@
   stable page 1: diffRatio=0.01279482482253263, diffPixels=10728
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0560] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-002.html
+- [0573] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html (==)
@@ -4789,7 +4952,7 @@
   stable page 1: diffRatio=0.01279482482253263, diffPixels=10728
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0561] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-003.html
+- [0574] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html (==)
@@ -4802,7 +4965,7 @@
   stable page 1: diffRatio=0.01279482482253263, diffPixels=10728
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0562] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-004.html
+- [0575] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html (==)
@@ -4815,7 +4978,7 @@
   stable page 1: diffRatio=0.01279482482253263, diffPixels=10728
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0564] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-006.html
+- [0577] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html (==)
@@ -4828,20 +4991,20 @@
   stable page 1: diffRatio=0.01279482482253263, diffPixels=10728
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0565] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view.html
+- [0578] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.006985392336462865, diffPixels=5857
+  canary page 1: diffRatio=0.006269798107014731, diffPixels=5257
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.006985392336462865, diffPixels=5857
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-keeps-active-in-view-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0566] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-layout-parent.html
+- [0579] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-layout-parent.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4854,7 +5017,7 @@
   stable page 1: diffRatio=0.02134856117853599, diffPixels=17900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0567] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-position-change-001.html
+- [0580] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-position-change-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-position-change-001-ref.html (==)
@@ -4867,7 +5030,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-position-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0568] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-position-change-002.html
+- [0581] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-position-change-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-position-change-002-ref.html (==)
@@ -4880,7 +5043,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-position-change-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0569] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-position-change-003.html
+- [0582] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-position-change-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-position-change-001-ref.html (==)
@@ -4893,7 +5056,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-position-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0570] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-scroll-container-change-001.html
+- [0583] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-scroll-container-change-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-position-change-001-ref.html (==)
@@ -4906,7 +5069,7 @@
   stable page 1: diffRatio=0.0029816426227005574, diffPixels=2500
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-position-change-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0572] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-scroll-container-change-003.html
+- [0585] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-scroll-container-change-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4919,7 +5082,7 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0573] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-scroll-container-change-004.html
+- [0586] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-scroll-container-change-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/reference/ref-filled-green-100px-square.xht (==)
@@ -4932,20 +5095,20 @@
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0574] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active.tentative.html
+- [0587] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active.tentative.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005522002137241432, diffPixels=4630
+  canary page 1: diffRatio=0.003462283413479887, diffPixels=2903
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.005522002137241432, diffPixels=4630
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-group-snap-aligns-to-active-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0576] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-selection-in-2d.html
+- [0589] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-selection-in-2d.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-marker-selection-in-2d-ref.html (==)
@@ -4958,7 +5121,28 @@
   stable page 1: diffRatio=0.023342683764598124, diffPixels=19572
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-marker-selection-in-2d-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0580] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-001.html
+- [0590] [WPT reftest] css/css-overflow/scroll-markers/scroll-markers-added-after-content-visibility-auto.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.2146782688344401, diffPixels=180000
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-markers-added-after-content-visibility-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-markers-added-after-content-visibility-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0591] [WPT reftest] css/css-overflow/scroll-markers/scroll-markers-added-before-content-visibility-auto.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.2146782688344401, diffPixels=180000
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-markers-added-before-content-visibility-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-markers-added-before-content-visibility-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0592] [WPT reftest] css/css-overflow/scroll-markers/scroll-markers-under-content-visibility-auto.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.2146782688344401, diffPixels=180000
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-markers-under-content-visibility-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-markers-under-content-visibility-auto.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0593] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html (==)
@@ -4971,7 +5155,7 @@
   stable page 1: diffRatio=0.00003816502557056713, diffPixels=32
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0581] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-002.html
+- [0594] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-002-ref.html (==)
@@ -4984,7 +5168,7 @@
   stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0582] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-003.html
+- [0595] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-003-ref.html (==)
@@ -4997,7 +5181,7 @@
   stable page 1: diffRatio=0.003035312189909167, diffPixels=2545
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0583] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-004.html
+- [0596] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html (==)
@@ -5010,7 +5194,7 @@
   stable page 1: diffRatio=0.00003816502557056713, diffPixels=32
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0584] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-005.html
+- [0597] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html (==)
@@ -5023,7 +5207,7 @@
   stable page 1: diffRatio=0.00003816502557056713, diffPixels=32
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0585] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-006.html
+- [0598] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-006.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html (==)
@@ -5036,7 +5220,7 @@
   stable page 1: diffRatio=0.00003816502557056713, diffPixels=32
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0586] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-007.html
+- [0599] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-007.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-001-ref.html (==)
@@ -5049,7 +5233,7 @@
   stable page 1: diffRatio=0.00003816502557056713, diffPixels=32
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0588] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-009.html
+- [0601] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-009-ref.html (==)
@@ -5062,7 +5246,7 @@
   stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0589] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-010.html
+- [0602] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-009-ref.html (==)
@@ -5075,7 +5259,7 @@
   stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0590] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-011.html
+- [0603] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-011.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-009-ref.html (==)
@@ -5088,7 +5272,7 @@
   stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0591] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-012.html
+- [0604] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-012-ref.html (==)
@@ -5101,7 +5285,7 @@
   stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0592] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-inline-targets.html
+- [0605] [WPT reftest] css/css-overflow/scroll-markers/scroll-target-group-inline-targets.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/scroll-target-group-inline-targets-ref.html (==)
@@ -5114,7 +5298,7 @@
   stable page 1: diffRatio=0.000027431112128845128, diffPixels=23
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/scroll-target-group-inline-targets-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0593] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html
+- [0606] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html (==)
@@ -5127,46 +5311,46 @@
   stable page 1: diffRatio=0.003938153576062896, diffPixels=3302
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0594] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html
+- [0607] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003940538890161056, diffPixels=3304
+  canary page 1: diffRatio=0.002348341729638959, diffPixels=1969
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.003940538890161056, diffPixels=3304
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0595] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html
+- [0608] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002134856117853599, diffPixels=179
+  canary page 1: diffRatio=0.002397240668651248, diffPixels=2010
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0002134856117853599, diffPixels=179
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0596] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html
+- [0609] [WPT reftest] css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.003975125944584383, diffPixels=3333
+  canary page 1: diffRatio=0.0033680635066025495, diffPixels=2824
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.003975125944584383, diffPixels=3333
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scroll-markers/targeted-column-scroll-marker-selection-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0603] [WPT reftest] css/css-overflow/scrollbar-gutter-002.html
+- [0616] [WPT reftest] css/css-overflow/scrollbar-gutter-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-002-ref.html (==)
@@ -5179,7 +5363,7 @@
   stable page 1: diffRatio=0.01717426150675521, diffPixels=14400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0604] [WPT reftest] css/css-overflow/scrollbar-gutter-003.html
+- [0617] [WPT reftest] css/css-overflow/scrollbar-gutter-003.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-002-ref.html (==)
@@ -5192,7 +5376,7 @@
   stable page 1: diffRatio=0.01718141744904969, diffPixels=14406
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0610] [WPT reftest] css/css-overflow/scrollbar-gutter-fixedpos-001.html
+- [0623] [WPT reftest] css/css-overflow/scrollbar-gutter-fixedpos-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-fixedpos-001-ref.html (==)
@@ -5205,7 +5389,7 @@
   stable page 1: diffRatio=0.03792649416075109, diffPixels=31800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-fixedpos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0611] [WPT reftest] css/css-overflow/scrollbar-gutter-fixedpos-002.html
+- [0624] [WPT reftest] css/css-overflow/scrollbar-gutter-fixedpos-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-fixedpos-002-ref.html (==)
@@ -5218,7 +5402,7 @@
   stable page 1: diffRatio=0.03792649416075109, diffPixels=31800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-fixedpos-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0614] [WPT reftest] css/css-overflow/scrollbar-gutter-fixedpos-005.html
+- [0627] [WPT reftest] css/css-overflow/scrollbar-gutter-fixedpos-005.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-fixedpos-005-ref.html (==)
@@ -5231,7 +5415,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-fixedpos-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0615] [WPT reftest] css/css-overflow/scrollbar-gutter-fullscreen-001.html
+- [0628] [WPT reftest] css/css-overflow/scrollbar-gutter-fullscreen-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-fullscreen-001-ref.html (==)
@@ -5244,7 +5428,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-fullscreen-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0616] [WPT reftest] css/css-overflow/scrollbar-gutter-fullscreen-002.html
+- [0629] [WPT reftest] css/css-overflow/scrollbar-gutter-fullscreen-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-fullscreen-001-ref.html (==)
@@ -5257,7 +5441,7 @@
   stable page 1: diffRatio=0.6401992214334784, diffPixels=536784
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-fullscreen-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0618] [WPT reftest] css/css-overflow/scrollbar-gutter-fullscreen-004.html
+- [0631] [WPT reftest] css/css-overflow/scrollbar-gutter-fullscreen-004.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-fullscreen-004-ref.html (==)
@@ -5270,7 +5454,7 @@
   stable page 1: diffRatio=0.6399499561102205, diffPixels=536575
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-fullscreen-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0619] [WPT reftest] css/css-overflow/scrollbar-gutter-root-both-edges.html
+- [0632] [WPT reftest] css/css-overflow/scrollbar-gutter-root-both-edges.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-root-both-edges-ref.html (==)
@@ -5283,7 +5467,7 @@
   stable page 1: diffRatio=0.005963285245401115, diffPixels=5000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-root-both-edges-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0620] [WPT reftest] css/css-overflow/scrollbar-gutter-root.html
+- [0633] [WPT reftest] css/css-overflow/scrollbar-gutter-root.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-root-ref.html (==)
@@ -5296,7 +5480,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0621] [WPT reftest] css/css-overflow/scrollbar-gutter-rtl-002.html
+- [0634] [WPT reftest] css/css-overflow/scrollbar-gutter-rtl-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-rtl-002-ref.html (==)
@@ -5309,7 +5493,7 @@
   stable page 1: diffRatio=0.01717426150675521, diffPixels=14400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-rtl-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0622] [WPT reftest] css/css-overflow/scrollbar-gutter-scroll-into-view.html
+- [0635] [WPT reftest] css/css-overflow/scrollbar-gutter-scroll-into-view.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-scroll-into-view-ref.html (==)
@@ -5322,7 +5506,7 @@
   stable page 2: diffRatio=0.01391115182047172, diffPixels=11664
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-scroll-into-view-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0623] [WPT reftest] css/css-overflow/scrollbar-gutter-vertical-lr-002.html
+- [0636] [WPT reftest] css/css-overflow/scrollbar-gutter-vertical-lr-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-vertical-lr-002-ref.html (==)
@@ -5335,7 +5519,7 @@
   stable page 1: diffRatio=0.016458667277307076, diffPixels=13800
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-vertical-lr-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0624] [WPT reftest] css/css-overflow/scrollbar-gutter-vertical-rl-002.html
+- [0637] [WPT reftest] css/css-overflow/scrollbar-gutter-vertical-rl-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbar-gutter-vertical-rl-002-ref.html (==)
@@ -5348,7 +5532,7 @@
   stable page 1: diffRatio=0.01643004350812915, diffPixels=13776
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbar-gutter-vertical-rl-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0627] [WPT reftest] css/css-overflow/scrollbars-chrome-bug-001.html
+- [0640] [WPT reftest] css/css-overflow/scrollbars-chrome-bug-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/scrollbars-chrome-bug-001-ref.html (==)
@@ -5361,7 +5545,7 @@
   stable page 1: diffRatio=0.02385314098160446, diffPixels=20000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/scrollbars-chrome-bug-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0630] [WPT reftest] css/css-overflow/single-axis-overflow-scroll-to-clip.html
+- [0643] [WPT reftest] css/css-overflow/single-axis-overflow-scroll-to-clip.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/single-axis-overflow-scroll-to-clip-ref.html (==)
@@ -5374,7 +5558,7 @@
   stable page 1: diffRatio=0.002385314098160446, diffPixels=2000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/single-axis-overflow-scroll-to-clip-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0649] [WPT reftest] css/css-overflow/text-overflow-021.html
+- [0662] [WPT reftest] css/css-overflow/text-overflow-021.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-021-ref.html (==)
@@ -5387,7 +5571,7 @@
   stable page 1: diffRatio=0.00000834859934356156, diffPixels=7
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-021-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0653] [WPT reftest] css/css-overflow/text-overflow-026.html
+- [0666] [WPT reftest] css/css-overflow/text-overflow-026.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/text-overflow-026-ref.html (==)
@@ -5400,7 +5584,7 @@
   stable page 1: diffRatio=0.002862376917792535, diffPixels=2400
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0654] [WPT reftest] css/css-overflow/text-overflow-027.html
+- [0667] [WPT reftest] css/css-overflow/text-overflow-027.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-027-ref.html (==)
@@ -5413,7 +5597,7 @@
   stable page 1: diffRatio=0.0000023853140981604458, diffPixels=2
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0655] [WPT reftest] css/css-overflow/text-overflow-028.html
+- [0668] [WPT reftest] css/css-overflow/text-overflow-028.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-028-ref.html (==)
@@ -5426,7 +5610,7 @@
   stable page 1: diffRatio=0.000019082512785283566, diffPixels=16
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-028-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0664] [WPT reftest] css/css-overflow/text-overflow-ellipsis-editable-div-with-caret.html
+- [0677] [WPT reftest] css/css-overflow/text-overflow-ellipsis-editable-div-with-caret.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-ellipsis-editable-div-with-caret-ref.html (==)
@@ -5439,7 +5623,7 @@
   stable page 1: diffRatio=0.00005366956720861003, diffPixels=45
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-ellipsis-editable-div-with-caret-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0665] [WPT reftest] css/css-overflow/text-overflow-ellipsis-editing-input.html
+- [0678] [WPT reftest] css/css-overflow/text-overflow-ellipsis-editing-input.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/text-overflow-ellipsis-editing-input-ref.html (==)
@@ -5452,7 +5636,7 @@
   stable page 1: diffRatio=0.00004532096786504847, diffPixels=38
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-ellipsis-editing-input-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0668] [WPT reftest] css/css-overflow/text-overflow-ellipsis-multiline-001.html
+- [0681] [WPT reftest] css/css-overflow/text-overflow-ellipsis-multiline-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-ellipsis-multiline-001-ref.html (==)
@@ -5465,7 +5649,7 @@
   stable page 1: diffRatio=0.0000035779711472406687, diffPixels=3
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-ellipsis-multiline-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0670] [WPT reftest] css/css-overflow/text-overflow-ellipsis-textarea-with-caret.html
+- [0683] [WPT reftest] css/css-overflow/text-overflow-ellipsis-textarea-with-caret.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-ellipsis-textarea-with-caret-ref.html (==)
@@ -5478,7 +5662,7 @@
   stable page 1: diffRatio=0.00005009159606136936, diffPixels=42
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-ellipsis-textarea-with-caret-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0674] [WPT reftest] css/css-overflow/text-overflow-in-readonly-textarea-focused.html
+- [0687] [WPT reftest] css/css-overflow/text-overflow-in-readonly-textarea-focused.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/text-overflow-in-readonly-textarea-focused-ref.html (==)
@@ -5491,7 +5675,7 @@
   stable page 1: diffRatio=0.000026238455079764903, diffPixels=22
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-in-readonly-textarea-focused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0677] [WPT reftest] css/css-overflow/text-overflow-scroll-001.html
+- [0690] [WPT reftest] css/css-overflow/text-overflow-scroll-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-scroll-001-ref.html (==)
@@ -5504,7 +5688,7 @@
   stable page 1: diffRatio=0.04274482863903519, diffPixels=35840
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0678] [WPT reftest] css/css-overflow/text-overflow-scroll-rtl-001.html
+- [0691] [WPT reftest] css/css-overflow/text-overflow-scroll-rtl-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-scroll-rtl-001-ref.html (==)
@@ -5517,7 +5701,7 @@
   stable page 1: diffRatio=0.0405491470116785, diffPixels=33999
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-rtl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0679] [WPT reftest] css/css-overflow/text-overflow-scroll-vertical-lr-001.html
+- [0692] [WPT reftest] css/css-overflow/text-overflow-scroll-vertical-lr-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-scroll-vertical-lr-001-ref.html (==)
@@ -5530,7 +5714,7 @@
   stable page 1: diffRatio=0.04279134226394932, diffPixels=35879
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-vertical-lr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0680] [WPT reftest] css/css-overflow/text-overflow-scroll-vertical-lr-rtl-001.html
+- [0693] [WPT reftest] css/css-overflow/text-overflow-scroll-vertical-lr-rtl-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-scroll-vertical-lr-rtl-001-ref.html (==)
@@ -5543,7 +5727,7 @@
   stable page 1: diffRatio=0.040573000152660105, diffPixels=34019
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-vertical-lr-rtl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0681] [WPT reftest] css/css-overflow/text-overflow-scroll-vertical-rl-001.html
+- [0694] [WPT reftest] css/css-overflow/text-overflow-scroll-vertical-rl-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-scroll-vertical-lr-001-ref.html (==)
@@ -5556,7 +5740,7 @@
   stable page 1: diffRatio=0.04279134226394932, diffPixels=35879
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-vertical-lr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0682] [WPT reftest] css/css-overflow/text-overflow-scroll-vertical-rl-rtl-001.html
+- [0695] [WPT reftest] css/css-overflow/text-overflow-scroll-vertical-rl-rtl-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-scroll-vertical-lr-rtl-001-ref.html (==)
@@ -5569,7 +5753,7 @@
   stable page 1: diffRatio=0.040573000152660105, diffPixels=34019
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-scroll-vertical-lr-rtl-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0691] [WPT reftest] css/css-overflow/text-overflow-string-009.html
+- [0704] [WPT reftest] css/css-overflow/text-overflow-string-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-string-009-ref.html (==)
@@ -5582,7 +5766,7 @@
   stable page 1: diffRatio=0.0002242195252270819, diffPixels=188
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0692] [WPT reftest] css/css-overflow/text-overflow-string-010.html
+- [0705] [WPT reftest] css/css-overflow/text-overflow-string-010.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-string-010-ref.html (==)
@@ -5595,7 +5779,7 @@
   stable page 1: diffRatio=0.00023614609571788412, diffPixels=198
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0694] [WPT reftest] css/css-overflow/text-overflow-string-012.html
+- [0707] [WPT reftest] css/css-overflow/text-overflow-string-012.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-string-012-ref.html (==)
@@ -5608,7 +5792,7 @@
   stable page 1: diffRatio=0.00017054995801847188, diffPixels=143
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0695] [WPT reftest] css/css-overflow/text-overflow-string-013.html
+- [0708] [WPT reftest] css/css-overflow/text-overflow-string-013.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-string-013-ref.html (==)
@@ -5621,7 +5805,7 @@
   stable page 1: diffRatio=0.00013715556064422562, diffPixels=115
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-013-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0706] [WPT reftest] css/css-overflow/text-overflow-string-024.tentative.html
+- [0719] [WPT reftest] css/css-overflow/text-overflow-string-024.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-string-024-ref.tentative.html (==)
@@ -5634,7 +5818,7 @@
   stable page 1: diffRatio=0.0010877032287611632, diffPixels=912
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-024-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0707] [WPT reftest] css/css-overflow/text-overflow-string-025.tentative.html
+- [0720] [WPT reftest] css/css-overflow/text-overflow-string-025.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-string-025-ref.tentative.html (==)
@@ -5647,7 +5831,7 @@
   stable page 1: diffRatio=0.0011807304785894208, diffPixels=990
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-025-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0708] [WPT reftest] css/css-overflow/text-overflow-string-026.tentative.html
+- [0721] [WPT reftest] css/css-overflow/text-overflow-string-026.tentative.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/reference/text-overflow-string-026-ref.tentative.html (==)
@@ -5660,7 +5844,7 @@
   stable page 1: diffRatio=0.0010399969467979543, diffPixels=872
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/reference/text-overflow-string-026-ref.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0716] [WPT reftest] css/css-overflow/text-overflow-string-in-textarea-focused.html
+- [0729] [WPT reftest] css/css-overflow/text-overflow-string-in-textarea-focused.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/text-overflow-string-in-textarea-focused-ref.html (==)
@@ -5673,7 +5857,7 @@
   stable page 1: diffRatio=0.00015504541638042897, diffPixels=130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-in-textarea-focused-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0720] [WPT reftest] css/css-overflow/text-overflow-string-in-textarea-scrolled.html
+- [0733] [WPT reftest] css/css-overflow/text-overflow-string-in-textarea-scrolled.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/text-overflow-string-in-textarea-scrolled-ref.html (==)
@@ -5686,7 +5870,7 @@
   stable page 1: diffRatio=0.00015504541638042897, diffPixels=130
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/text-overflow-string-in-textarea-scrolled-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0721] [WPT reftest] css/css-overflow/text-overflow-with-selection-first-line.html
+- [0734] [WPT reftest] css/css-overflow/text-overflow-with-selection-first-line.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-overflow/text-overflow-with-selection-first-line-ref.html (==)
@@ -5701,7 +5885,7 @@
 
 ## Errors
 
-- [0420] [WPT reftest] css/css-overflow/overflow-body-propagation-014.html
+- [0433] [WPT reftest] css/css-overflow/overflow-body-propagation-014.html
   triage: pending
   side: canary, stable
   canary timeout: false
@@ -5723,7 +5907,7 @@ Call log:
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-body-propagation-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-body-propagation-014.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0421] [WPT reftest] css/css-overflow/overflow-body-propagation-015.html
+- [0434] [WPT reftest] css/css-overflow/overflow-body-propagation-015.html
   triage: pending
   side: canary, stable
   canary timeout: true
@@ -5733,7 +5917,7 @@ Call log:
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-body-propagation-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-body-propagation-015.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0422] [WPT reftest] css/css-overflow/overflow-body-propagation-016.html
+- [0435] [WPT reftest] css/css-overflow/overflow-body-propagation-016.html
   triage: pending
   side: canary, stable
   canary timeout: false
@@ -5755,19 +5939,7 @@ Call log:
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-body-propagation-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-body-propagation-016.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0477] [WPT reftest] css/css-overflow/overflow-no-frameset-propagation.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: common/blank.html
-  canary-reference timeout: false
-  canary-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/common/blank.html (501)
-  stable-reference reference: common/blank.html
-  stable-reference timeout: false
-  stable-reference error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/common/blank.html (501)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/overflow-no-frameset-propagation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/common/blank.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0563] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-005.html
+- [0576] [WPT reftest] css/css-overflow/scroll-markers/scroll-marker-group-body-overflow-propagation-005.html
   triage: pending
   side: canary, stable
   canary timeout: true

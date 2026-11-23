@@ -2,11 +2,11 @@
 
 - Compared entries: 286
 - Entries with differences: 136 (pending: 136, triaged: 0)
-- Entries with errors: 24 (pending: 24, triaged: 0)
-- Timeout entries: 24
+- Entries with errors: 23 (pending: 23, triaged: 0)
+- Timeout entries: 23
 - Page count changed: 0
-- Screenshot mismatches: 0
-- Outcome summary: {"known-fail":136,"pass":120,"error":23,"unchanged":7}
+- Screenshot mismatches: 1
+- Outcome summary: {"known-fail":135,"pass":120,"error":23,"changed-fail":1,"unchanged":7}
 
 ## Differences
 
@@ -1432,8 +1432,15 @@
 - [0223] [WPT reftest] css/css-pseudo/selection-background-color-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/selection-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0226] [WPT reftest] css/css-pseudo/selection-background-color-transparent.html
   triage: pending
@@ -1598,7 +1605,7 @@
 
 - [0243] [WPT reftest] css/css-pseudo/selection-textarea-011.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-pseudo/reference/selection-textarea-011-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-textarea-011.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1838,18 +1845,6 @@
   stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/highlight-painting-shadows-vertical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-pseudo/highlight-painting-shadows-vertical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0223] [WPT reftest] css/css-pseudo/selection-background-color-001.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/reference/ref-filled-green-100px-square.xht
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/reference/ref-filled-green-100px-square.xht
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-pseudo/selection-background-color-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0260] [WPT reftest] css/css-pseudo/target-text-001.html
   triage: pending
