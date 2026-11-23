@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 612
-- Entries with differences: 103 (pending: 103, triaged: 0)
-- Entries with errors: 3 (pending: 3, triaged: 0)
-- Timeout entries: 3
+- Entries with differences: 105 (pending: 105, triaged: 0)
+- Entries with errors: 6 (pending: 6, triaged: 0)
+- Timeout entries: 6
 - Page count changed: 0
 - Screenshot mismatches: 4
-- Outcome summary: {"pass":506,"known-fail":99,"changed-fail":2,"expected-change":2,"error":3}
+- Outcome summary: {"pass":503,"known-fail":101,"changed-fail":2,"expected-change":2,"error":4}
 
 ## Differences
 
@@ -75,6 +75,12 @@
   page 1: diffRatio=0.0029554041676207923, diffPixels=2478
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/aspect-ratio/select-element-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/aspect-ratio/select-element-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0316] [WPT reftest] css/css-sizing/clone-nowrap-intrinsic-size.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/clone-nowrap-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/clone-nowrap-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0328] [WPT reftest] css/css-sizing/contain-intrinsic-size/contain-intrinsic-size-013.html
   triage: pending
@@ -491,6 +497,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-height-abspos-stretch-percentage-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.050330127471185405, diffPixels=42200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-height-abspos-stretch-percentage-child-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0433] [WPT reftest] css/css-sizing/intrinsic-percent-non-replaced-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0438] [WPT reftest] css/css-sizing/intrinsic-percent-replaced-002.html
   triage: pending
@@ -1338,6 +1350,40 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0316] [WPT reftest] css/css-sizing/clone-nowrap-intrinsic-size.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-sizing/clone-nowrap-intrinsic-size-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-sizing/clone-nowrap-intrinsic-size-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/clone-nowrap-intrinsic-size.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/clone-nowrap-intrinsic-size-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0355] [WPT reftest] css/css-sizing/div-max-content-auto-margin.tentative.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/div-max-content-auto-margin.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-sizing/div-max-content-auto-margin.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0433] [WPT reftest] css/css-sizing/intrinsic-percent-non-replaced-004.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-sizing/intrinsic-percent-non-replaced-004-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-sizing/intrinsic-percent-non-replaced-004-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-sizing/intrinsic-percent-non-replaced-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0516] [WPT reftest] css/css-sizing/responsive-iframe/responsive-iframe-cross-origin-no-match-element.sub.html
   triage: pending

@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 21
-- Screenshot mismatches: 44
-- Outcome summary: {"changed-fail":35,"pass":109,"known-fail":87,"regression":1,"improvement":7,"expected-change":2}
+- Screenshot mismatches: 45
+- Outcome summary: {"changed-fail":36,"pass":109,"known-fail":86,"regression":3,"improvement":7}
 
 ## Differences
 
@@ -1557,12 +1557,12 @@
 
 - [0218] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-000.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.004643013892069308, diffPixels=3893
-  canary page 2: diffRatio=0.007244198916113274, diffPixels=6074
+  canary page 1: diffRatio=0.004918517670406839, diffPixels=4124
+  canary page 2: diffRatio=0.006406953667658958, diffPixels=5372
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1572,19 +1572,23 @@
 
 - [0219] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-001.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0006547687199450424, diffPixels=549
-  page 2: diffRatio=0.014546838027631478, diffPixels=12197
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-anchor-position/scroll-to-anchored-fixed-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002120544233264636, diffPixels=1778
+  canary page 2: diffRatio=0.007935940004579803, diffPixels=6654
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0220] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-002.html
   triage: pending
-  outcome: expected-change (baseline=PASS, actual=PASS)
-  page 1: diffRatio=0.0006547687199450424, diffPixels=549
-  page 2: diffRatio=0.014546838027631478, diffPixels=12197
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-anchor-position/scroll-to-anchored-fixed-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.002120544233264636, diffPixels=1778
+  canary page 2: diffRatio=0.007935940004579803, diffPixels=6654
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0221] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-003.html
   triage: pending
@@ -1592,7 +1596,8 @@
   reference: css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 2: diffRatio=0.007889426379665674, diffPixels=6615
+  canary page 1: diffRatio=0.006597778795511793, diffPixels=5532
+  canary page 2: diffRatio=0.0110177658194031, diffPixels=9238
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1605,7 +1610,8 @@
   reference: css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 2: diffRatio=0.007889426379665674, diffPixels=6615
+  canary page 1: diffRatio=0.006597778795511793, diffPixels=5532
+  canary page 2: diffRatio=0.0110177658194031, diffPixels=9238
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1618,8 +1624,8 @@
   reference: css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002916046485001145, diffPixels=2445
-  canary page 2: diffRatio=0.012278404320280895, diffPixels=10295
+  canary page 1: diffRatio=0.003365678192504389, diffPixels=2822
+  canary page 2: diffRatio=0.012885466758262729, diffPixels=10804
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
@@ -1633,8 +1639,8 @@
   reference: css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.002916046485001145, diffPixels=2445
-  canary page 2: diffRatio=0.012278404320280895, diffPixels=10295
+  canary page 1: diffRatio=0.003365678192504389, diffPixels=2822
+  canary page 2: diffRatio=0.012885466758262729, diffPixels=10804
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

@@ -2,11 +2,11 @@
 
 - Compared entries: 505
 - Entries with differences: 222 (improvement: 3, pending: 219, triaged: 0)
-- Entries with errors: 1 (pending: 1, triaged: 0)
-- Timeout entries: 1
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 8
-- Outcome summary: {"known-fail":214,"pass":282,"changed-fail":3,"regression":2,"improvement":3,"error":1}
+- Screenshot mismatches: 9
+- Outcome summary: {"known-fail":213,"pass":281,"changed-fail":3,"error":2,"regression":3,"improvement":3}
 
 ## Differences
 
@@ -2518,11 +2518,11 @@
   reference: css/css-masking/mask-image/mask-image-3-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0016554079841233495, diffPixels=1388
+  canary page 1: diffRatio=0.004637050606823906, diffPixels=3888
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3d.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0016554079841233495, diffPixels=1388
+  stable page 1: diffRatio=0.004637050606823906, diffPixels=3888
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-3-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0406] [WPT reftest] css/css-masking/mask-image/mask-image-3e.html
@@ -2605,16 +2605,12 @@
 
 - [0424] [WPT reftest] css/css-masking/mask-image/mask-image-multi-layer-while-loading.tentative.html
   triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  outcome: regression (baseline=PASS, actual=FAIL)
   reference: css/css-masking/mask-image/mask-image-multi-layer-while-loading-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-multi-layer-while-loading.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   canary page 1: diffRatio=0.008587130753377605, diffPixels=7200
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/mask-image/mask-image-multi-layer-while-loading-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-multi-layer-while-loading.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008587130753377605, diffPixels=7200
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-image/mask-image-multi-layer-while-loading-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0432] [WPT reftest] css/css-masking/mask-image/mask-image-url-local-mask-mutated.html
   triage: pending
@@ -2877,6 +2873,16 @@
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/mask-svg-content/reference/mask-green-square-001-ref.svg&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 ## Errors
+
+- [0233] [WPT reftest] css/css-masking/clip-path/clip-path-shape-svg-view-box-scaled-shape.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-masking/clip-path/clip-path-shape-svg-view-box-scaled-shape.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-masking/clip-path/clip-path-shape-svg-view-box-scaled-shape.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0419] [WPT reftest] css/css-masking/mask-image/mask-image-cross-site-iframe-offset.sub.html
   triage: pending

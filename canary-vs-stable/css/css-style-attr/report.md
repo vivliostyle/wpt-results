@@ -2,11 +2,11 @@
 
 - Compared entries: 16
 - Entries with differences: 3 (improvement: 1, pending: 2, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"known-fail":2,"pass":13,"improvement":1}
+- Outcome summary: {"known-fail":2,"error":1,"pass":12,"improvement":1}
 
 ## Differences
 
@@ -44,4 +44,16 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-style-attr/style-attr-urls-002.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0117715250744218, diffPixels=9870
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-style-attr/reference/ref-green-on-green.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0002] [WPT reftest] css/css-style-attr/style-attr-braces-002-quirks.htm
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-style-attr/style-attr-braces-002-quirks.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-style-attr/style-attr-braces-002-quirks.htm&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

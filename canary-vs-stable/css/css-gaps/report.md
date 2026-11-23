@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 553
-- Entries with differences: 211 (pending: 211, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 209 (pending: 209, triaged: 0)
+- Entries with errors: 7 (pending: 7, triaged: 0)
+- Timeout entries: 7
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"pass":342,"known-fail":210,"changed-fail":1}
+- Outcome summary: {"pass":340,"known-fail":208,"changed-fail":1,"error":4}
 
 ## Differences
 
@@ -191,6 +191,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-047.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.003816502557056713, diffPixels=3200
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0209] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-056.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-056.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-056.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0231] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-081.html
   triage: pending
@@ -517,19 +523,6 @@
   stable page 1: diffRatio=0.003864208839019922, diffPixels=3240
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-022-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0321] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-023.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-gaps/grid-lanes/column-gap-decorations-023-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0031378806961300664, diffPixels=2631
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0031378806961300664, diffPixels=2631
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0322] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-024.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -568,19 +561,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0018080680864056178, diffPixels=1516
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0325] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-027.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-gaps/grid-lanes/column-gap-decorations-027-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018044901152583772, diffPixels=1513
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0018044901152583772, diffPixels=1513
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-027-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0326] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-028.html
   triage: pending
@@ -949,15 +929,8 @@
 - [0357] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0014407297152889092, diffPixels=1208
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0014407297152889092, diffPixels=1208
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0358] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-list-dense-order.html
   triage: pending
@@ -2002,15 +1975,8 @@
 - [0443] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-023.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-gaps/grid-lanes/row-gap-decorations-023-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.009064193573009693, diffPixels=7600
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.009064193573009693, diffPixels=7600
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0444] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-024.html
   triage: pending
@@ -2310,19 +2276,6 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0467] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0008587130753377604, diffPixels=720
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0008587130753377604, diffPixels=720
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0468] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-003.html
   triage: pending
@@ -2752,4 +2705,82 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-026.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000706052973055492, diffPixels=592
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/multicol/multicol-gap-decorations-026-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0141] [WPT reftest] css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-023.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid/fragmentation/grid-gap-decorations-fragmentation-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0209] [WPT reftest] css/css-gaps/grid/grid-gap-decorations-056.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-gaps/grid/grid-gap-decorations-056-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-gaps/grid/grid-gap-decorations-056-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-056.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid/grid-gap-decorations-056-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0321] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-023.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0325] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-027.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0357] [WPT reftest] css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/column-gap-decorations-inset-with-break-none-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0443] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-023.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-gaps/grid-lanes/row-gap-decorations-023-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-gaps/grid-lanes/row-gap-decorations-023-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-023.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-023-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0467] [WPT reftest] css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-gaps/grid-lanes/row-gap-decorations-rule-visibility-items-around-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

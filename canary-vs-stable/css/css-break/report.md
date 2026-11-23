@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1213
-- Entries with differences: 234 (pending: 234, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 235 (pending: 235, triaged: 0)
+- Entries with errors: 8 (pending: 8, triaged: 0)
+- Timeout entries: 8
 - Page count changed: 9
 - Screenshot mismatches: 6
-- Outcome summary: {"pass":979,"known-fail":221,"changed-fail":9,"regression":4}
+- Outcome summary: {"pass":971,"known-fail":222,"error":7,"changed-fail":9,"regression":4}
 
 ## Differences
 
@@ -35,6 +35,12 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-attachment-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable selected pages: test=[1, 2], reference=[1]
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/background-attachment-fixed-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0044] [WPT reftest] css/css-break/borders-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/borders-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/borders-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0085] [WPT reftest] css/css-break/box-decoration-break-clone-inline-001.html
   triage: pending
@@ -3051,4 +3057,88 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00008467865048469583, diffPixels=71
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/underflow-from-next-page-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0044] [WPT reftest] css/css-break/borders-002.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-break/borders-002-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-break/borders-002-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/borders-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/borders-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0048] [WPT reftest] css/css-break/borders-006.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/borders-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/borders-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0077] [WPT reftest] css/css-break/box-decoration-break-clone-027.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/box-decoration-break-clone-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/box-decoration-break-clone-027.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0094] [WPT reftest] css/css-break/break-at-end-container-edge-001.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/break-at-end-container-edge-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/break-at-end-container-edge-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0138] [WPT reftest] css/css-break/contain-strict-with-opacity-and-oof.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/contain-strict-with-opacity-and-oof.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/contain-strict-with-opacity-and-oof.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0150] [WPT reftest] css/css-break/flexbox/flex-container-fragmentation-002.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/flexbox/flex-container-fragmentation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/flexbox/flex-container-fragmentation-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0947] [WPT reftest] css/css-break/soft-break-before-margin-001.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/soft-break-before-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/soft-break-before-margin-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1036] [WPT reftest] css/css-break/table/table-border-005.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-break/table/table-border-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-break/table/table-border-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

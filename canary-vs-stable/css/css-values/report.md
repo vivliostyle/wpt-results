@@ -2,11 +2,11 @@
 
 - Compared entries: 215
 - Entries with differences: 75 (pending: 75, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 20
-- Outcome summary: {"pass":139,"known-fail":55,"expected-change":3,"changed-fail":17,"unchanged":1}
+- Outcome summary: {"pass":138,"known-fail":55,"expected-change":3,"error":1,"changed-fail":17,"unchanged":1}
 
 ## Differences
 
@@ -151,15 +151,8 @@
 - [0039] [WPT reftest] css/css-values/calc-in-counter-001.xhtml
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-values/calc-in-counter-001-ref.xhtml (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-in-counter-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00004651362491412869, diffPixels=39
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-in-counter-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-in-counter-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00004651362491412869, diffPixels=39
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-in-counter-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-in-counter-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-in-counter-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0040] [WPT reftest] css/css-values/calc-in-max.html
   triage: pending
@@ -948,11 +941,11 @@
   reference: css/css-values/reference/vh-update-and-transition-in-subframe-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0002862376917792535, diffPixels=240
+  canary page 1: diffRatio=0.0008587130753377604, diffPixels=720
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/vh-update-and-transition-in-subframe.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.000572475383558507, diffPixels=480
+  stable page 1: diffRatio=0.001144950767117014, diffPixels=960
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/reference/vh-update-and-transition-in-subframe-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0205] [WPT reftest] css/css-values/viewport-units-scrollbars-auto-vhw-001.html
@@ -967,4 +960,28 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/viewport-units-scrollbars-auto-vhw-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.007041447217769636, diffPixels=5904
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/viewport-units-scrollbars-auto-ltr-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0039] [WPT reftest] css/css-values/calc-in-counter-001.xhtml
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-values/calc-in-counter-001-ref.xhtml
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-values/calc-in-counter-001-ref.xhtml
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-in-counter-001.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-in-counter-001-ref.xhtml&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0068] [WPT reftest] css/css-values/calc-size/calc-size-aspect-ratio-002.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-values/calc-size/calc-size-aspect-ratio-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-values/calc-size/calc-size-aspect-ratio-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

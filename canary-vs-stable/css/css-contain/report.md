@@ -5,8 +5,8 @@
 - Entries with errors: 8 (pending: 8, triaged: 0)
 - Timeout entries: 8
 - Page count changed: 0
-- Screenshot mismatches: 11
-- Outcome summary: {"pass":293,"known-fail":127,"expected-change":5,"improvement":1,"error":8,"changed-fail":5}
+- Screenshot mismatches: 10
+- Outcome summary: {"pass":293,"known-fail":128,"expected-change":5,"improvement":1,"error":8,"changed-fail":4}
 
 ## Differences
 
@@ -1427,15 +1427,15 @@
 
 - [0398] [WPT reftest] css/css-contain/content-visibility/content-visibility-video.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-contain/content-visibility/content-visibility-video-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.04098565949164186, diffPixels=34365
+  canary page 1: diffRatio=0.041250429356537666, diffPixels=34587
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.04124685138539043, diffPixels=34584
+  stable page 1: diffRatio=0.041250429356537666, diffPixels=34587
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-contain/content-visibility/content-visibility-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0402] [WPT reftest] css/css-contain/content-visibility/content-visibility-with-popover-top-layer-001.html

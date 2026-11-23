@@ -5,8 +5,8 @@
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 73
-- Outcome summary: {"improvement":92,"known-fail":8,"changed-fail":9,"pass":4,"regression":2}
+- Screenshot mismatches: 72
+- Outcome summary: {"improvement":92,"known-fail":9,"changed-fail":8,"pass":4,"regression":2}
 
 ## Differences
 
@@ -622,7 +622,7 @@
 
 - [0065] [WPT reftest] css/css-paint-api/parse-input-arguments-018.https.html
   triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/css-paint-api/parse-input-arguments-018-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-paint-api/parse-input-arguments-018.https.html&pixelRatio=0&bookMode=false&zoom=1&spread=false

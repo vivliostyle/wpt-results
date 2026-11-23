@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 375
-- Entries with differences: 173 (improvement: 19, pending: 154, triaged: 0)
-- Entries with errors: 2 (pending: 2, triaged: 0)
-- Timeout entries: 2
+- Entries with differences: 174 (improvement: 19, pending: 155, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
 - Page count changed: 1
-- Screenshot mismatches: 19
-- Outcome summary: {"known-fail":150,"pass":201,"improvement":19,"regression":2,"expected-change":1,"changed-fail":1,"error":1}
+- Screenshot mismatches: 20
+- Outcome summary: {"known-fail":150,"pass":201,"improvement":19,"regression":2,"expected-change":2,"changed-fail":1}
 
 ## Differences
 
@@ -659,11 +659,11 @@
   reference: css/filter-effects/reference/effect-reference-feimage-004-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/effect-reference-feimage-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.016935730096939165, diffPixels=14200
+  canary page 1: diffRatio=0.00015743073047858942, diffPixels=132
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/effect-reference-feimage-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/effect-reference-feimage-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.016935730096939165, diffPixels=14200
+  stable page 1: diffRatio=0.00015743073047858942, diffPixels=132
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/effect-reference-feimage-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0138] [WPT reftest] css/filter-effects/effect-reference-lighting-no-light.tentative.html
@@ -1464,13 +1464,10 @@
 
 - [0258] [WPT reftest] css/filter-effects/filtered-inline-is-container.html
   triage: pending
-  outcome: regression (baseline=PASS, actual=FAIL)
-  reference: css/filter-effects/filtered-inline-is-container-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.14049500038165025, diffPixels=117800
-  canary page 2: diffRatio=0.02385314098160446, diffPixels=20000
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.0021467826883444013, diffPixels=1800
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/filtered-inline-is-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0270] [WPT reftest] css/filter-effects/fixed-pos-filter-clip-002.html
   triage: pending
@@ -1839,8 +1836,24 @@
 - [0318] [WPT reftest] css/filter-effects/svg-relative-urls-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  reference: css/filter-effects/reference/svg-relative-urls-001-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.027433497442943287, diffPixels=23002
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.027433497442943287, diffPixels=23002
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0319] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/filter-effects/reference/svg-relative-urls-002-ref.html (==)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary page 1: diffRatio=0.011688039080986184, diffPixels=9800
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0322] [WPT reftest] css/filter-effects/svg-sourcegraphic-currentcolor-dynamic-001.html
   triage: pending
@@ -2162,31 +2175,4 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/visibility-hidden-element-with-filter-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.01192657049080223, diffPixels=10000
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/reference/green-100x100.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-## Errors
-
-- [0318] [WPT reftest] css/filter-effects/svg-relative-urls-001.html
-  triage: pending
-  side: canary-reference, stable-reference
-  canary-reference reference: css/filter-effects/reference/svg-relative-urls-001-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable-reference reference: css/filter-effects/reference/svg-relative-urls-001-ref.html
-  stable-reference timeout: true
-  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/reference/svg-relative-urls-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0319] [WPT reftest] css/filter-effects/svg-relative-urls-002.html
-  triage: pending
-  side: canary, canary-reference, stable
-  canary timeout: true
-  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary-reference reference: css/filter-effects/reference/svg-relative-urls-002-ref.html
-  canary-reference timeout: true
-  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  stable timeout: true
-  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/filter-effects/svg-relative-urls-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

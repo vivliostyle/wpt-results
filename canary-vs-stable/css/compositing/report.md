@@ -1,19 +1,23 @@
 # canary vs stable comparison report
 
 - Compared entries: 60
-- Entries with differences: 9 (improvement: 1, pending: 8, triaged: 0)
+- Entries with differences: 9 (pending: 9, triaged: 0)
 - Entries with errors: 0 (pending: 0, triaged: 0)
 - Timeout entries: 0
 - Page count changed: 0
-- Screenshot mismatches: 1
-- Outcome summary: {"pass":51,"improvement":1,"known-fail":8}
+- Screenshot mismatches: 0
+- Outcome summary: {"pass":51,"known-fail":9}
 
 ## Differences
 
 - [0047] [WPT reftest] css/compositing/mix-blend-mode/mix-blend-mode-video.html
-  triage: not-needed
-  outcome: improvement (baseline=FAIL, actual=PASS)
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
   reference: css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html (!=)
+  canary result: FAIL
+  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary unexpected equality: comparison matched but relation is !=
+  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/compositing/mix-blend-mode/reference/mix-blend-mode-video-notref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/compositing/mix-blend-mode/mix-blend-mode-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=

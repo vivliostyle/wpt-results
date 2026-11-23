@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 738
-- Entries with differences: 455 (improvement: 2, pending: 453, triaged: 0)
+- Entries with differences: 457 (improvement: 4, pending: 453, triaged: 0)
 - Entries with errors: 4 (pending: 4, triaged: 0)
 - Timeout entries: 2
 - Page count changed: 0
 - Screenshot mismatches: 15
-- Outcome summary: {"pass":277,"known-fail":440,"regression":2,"expected-change":6,"error":4,"improvement":2,"changed-fail":5,"unchanged":2}
+- Outcome summary: {"pass":275,"known-fail":440,"regression":2,"expected-change":6,"error":4,"improvement":4,"changed-fail":5,"unchanged":2}
 
 ## Differences
 
@@ -94,7 +94,7 @@
   reference: css/css-overflow/incremental-scroll-002-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/incremental-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0018450404549271047, diffPixels=1547
+  canary page 1: diffRatio=0.002579717197160522, diffPixels=2163
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/incremental-scroll-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0032] [WPT reftest] css/css-overflow/incremental-scroll.html
@@ -103,7 +103,7 @@
   reference: css/css-overflow/incremental-scroll-ref.html (==)
   canary result: FAIL
   canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/incremental-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.005069985115640028, diffPixels=4251
+  canary page 1: diffRatio=0.005035398061216701, diffPixels=4222
   canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-overflow/incremental-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0035] [WPT reftest] css/css-overflow/line-clamp/block-ellipsis-001.html
@@ -4081,6 +4081,15 @@
   stable page 1: diffRatio=0.0000023853140981604458, diffPixels=2
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-img-scroll-non-replaced-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0493] [WPT reftest] css/css-overflow/overflow-replaced-element-002.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-overflow/overflow-replaced-element-002-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 2: diffRatio=0.1422959125257614, diffPixels=119310
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-replaced-element-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0497] [WPT reftest] css/css-overflow/overflow-video-hidden.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -4092,6 +4101,15 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-video-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable unexpected equality: comparison matched but relation is !=
+  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0498] [WPT reftest] css/css-overflow/overflow-video.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-overflow/overflow-video-ref.html (==)
+  stable result: FAIL
+  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-video.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable page 1: diffRatio=0.09121441111365544, diffPixels=76480
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-overflow/overflow-video-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0502] [WPT reftest] css/css-overflow/scroll-markers/column-scroll-marker-001.html

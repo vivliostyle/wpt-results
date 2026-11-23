@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1582
-- Entries with differences: 415 (pending: 415, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 418 (improvement: 1, pending: 417, triaged: 0)
+- Entries with errors: 10 (pending: 10, triaged: 0)
+- Timeout entries: 10
 - Page count changed: 0
 - Screenshot mismatches: 1
-- Outcome summary: {"pass":1165,"known-fail":414,"regression":1,"unchanged":2}
+- Outcome summary: {"pass":1158,"known-fail":416,"error":4,"improvement":1,"regression":1,"unchanged":2}
 
 ## Differences
 
@@ -192,18 +192,17 @@
   stable page 1: diffRatio=0.0003589897717731471, diffPixels=301
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hanging-punctuation/reference/hanging-scrollable-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0042] [WPT reftest] css/css-text/hyphens/hyphenate-character-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphenate-character-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphenate-character-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0043] [WPT reftest] css/css-text/hyphens/hyphenate-character-002.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-text/hyphens/reference/hyphenate-character-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphenate-character-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.001299996183497443, diffPixels=1090
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/reference/hyphenate-character-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphenate-character-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.001299996183497443, diffPixels=1090
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/reference/hyphenate-character-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphenate-character-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/hyphenate-character-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0046] [WPT reftest] css/css-text/hyphens/hyphenate-character-005.html
   triage: pending
@@ -365,19 +364,6 @@
   stable page 1: diffRatio=0.002105039691626593, diffPixels=1765
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/i18n/reference/hyphens-i18n-auto-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [0092] [WPT reftest] css/css-text/hyphens/i18n/hyphens-i18n-auto-006.html
-  triage: pending
-  outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-text/hyphens/i18n/reference/hyphens-i18n-auto-006-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/i18n/hyphens-i18n-auto-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.008170893443248606, diffPixels=6851
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/i18n/reference/hyphens-i18n-auto-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/i18n/hyphens-i18n-auto-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.008170893443248606, diffPixels=6851
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/i18n/reference/hyphens-i18n-auto-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
 - [0093] [WPT reftest] css/css-text/hyphens/i18n/hyphens-i18n-manual-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -473,6 +459,12 @@
   stable page 1: diffRatio=0.00037807228455843066, diffPixels=317
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/i18n/reference/hyphens-i18n-auto-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0227] [WPT reftest] css/css-text/i18n/css3-text-line-break-opclns-166.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/i18n/css3-text-line-break-opclns-166.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/i18n/css3-text-line-break-opclns-166.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0258] [WPT reftest] css/css-text/letter-spacing/letter-spacing-200.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -567,15 +559,8 @@
 - [0269] [WPT reftest] css/css-text/letter-spacing/letter-spacing-bengali-yaphala-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-text/letter-spacing/reference/letter-spacing-bengali-yaphala-001-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-bengali-yaphala-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.00017889855736203343, diffPixels=150
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/reference/letter-spacing-bengali-yaphala-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-bengali-yaphala-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.00017889855736203343, diffPixels=150
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/letter-spacing/reference/letter-spacing-bengali-yaphala-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-bengali-yaphala-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-bengali-yaphala-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0270] [WPT reftest] css/css-text/letter-spacing/letter-spacing-bidi-001.html
   triage: pending
@@ -1632,6 +1617,12 @@
   stable page 1: diffRatio=0.000417429967178078, diffPixels=350
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/reference/overflow-wrap-normal-keep-all-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0559] [WPT reftest] css/css-text/shaping/monospace-contextual-forms-incremental.html
+  triage: not-needed
+  outcome: improvement (baseline=ERROR, actual=PASS)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/shaping/monospace-contextual-forms-incremental.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/shaping/monospace-contextual-forms-incremental.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0586] [WPT reftest] css/css-text/shaping/shaping-009.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2226,6 +2217,12 @@
   stable page 1: diffRatio=0.0013799042057858178, diffPixels=1157
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-feature-001-ref.html?class=htb&feature=halt&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
+- [0835] [WPT reftest] css/css-text/text-spacing-trim/text-spacing-trim-narrow-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-narrow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-narrow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
 - [0843] [WPT reftest] css/css-text/text-spacing-trim/text-spacing-trim-trim-all-001.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
@@ -2411,15 +2408,8 @@
 - [0882] [WPT reftest] css/css-text/text-transform/text-transform-fullwidth-008.html
   triage: pending
   outcome: known-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-text/text-transform/reference/text-transform-fullwidth-008-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-fullwidth-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0009064193573009694, diffPixels=760
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-fullwidth-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-fullwidth-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.0009064193573009694, diffPixels=760
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-fullwidth-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-fullwidth-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-transform/text-transform-fullwidth-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0883] [WPT reftest] css/css-text/text-transform/text-transform-fullwidth-009.html
   triage: pending
@@ -5472,4 +5462,118 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/writing-system-text-transform-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.000019082512785283566, diffPixels=16
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/writing-system/reference/writing-system-text-transform-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0042] [WPT reftest] css/css-text/hyphens/hyphenate-character-001.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-text/hyphens/reference/hyphenate-character-001-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-text/hyphens/reference/hyphenate-character-001-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphenate-character-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/reference/hyphenate-character-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0043] [WPT reftest] css/css-text/hyphens/hyphenate-character-002.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-text/hyphens/reference/hyphenate-character-001-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-text/hyphens/reference/hyphenate-character-001-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/hyphenate-character-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/reference/hyphenate-character-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0092] [WPT reftest] css/css-text/hyphens/i18n/hyphens-i18n-auto-006.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/hyphens/i18n/hyphens-i18n-auto-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/hyphens/i18n/hyphens-i18n-auto-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0227] [WPT reftest] css/css-text/i18n/css3-text-line-break-opclns-166.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-text/i18n/reference/css3-text-line-break-opclns-166-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-text/i18n/reference/css3-text-line-break-opclns-166-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/i18n/css3-text-line-break-opclns-166.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/i18n/reference/css3-text-line-break-opclns-166-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0269] [WPT reftest] css/css-text/letter-spacing/letter-spacing-bengali-yaphala-001.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-text/letter-spacing/reference/letter-spacing-bengali-yaphala-001-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-text/letter-spacing/reference/letter-spacing-bengali-yaphala-001-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/letter-spacing-bengali-yaphala-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/letter-spacing/reference/letter-spacing-bengali-yaphala-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0446] [WPT reftest] css/css-text/line-breaking/line-breaking-replaced-006.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-replaced-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/line-breaking/line-breaking-replaced-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0521] [WPT reftest] css/css-text/overflow-wrap/overflow-wrap-anywhere-009.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-anywhere-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/overflow-wrap/overflow-wrap-anywhere-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0788] [WPT reftest] css/css-text/text-indent/below-float2.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-indent/below-float2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-text/text-indent/below-float2.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0835] [WPT reftest] css/css-text/text-spacing-trim/text-spacing-trim-narrow-001.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-text/text-spacing-trim/text-spacing-trim-narrow-001-ref.html?class=chws,htb
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-text/text-spacing-trim/text-spacing-trim-narrow-001-ref.html?class=chws,htb
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-narrow-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-spacing-trim/text-spacing-trim-narrow-001-ref.html?class=chws,htb&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0882] [WPT reftest] css/css-text/text-transform/text-transform-fullwidth-008.html
+  triage: pending
+  side: canary-reference, stable-reference
+  canary-reference reference: css/css-text/text-transform/reference/text-transform-fullwidth-008-ref.html
+  canary-reference timeout: true
+  canary-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable-reference reference: css/css-text/text-transform/reference/text-transform-fullwidth-008-ref.html
+  stable-reference timeout: true
+  stable-reference error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/text-transform-fullwidth-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-text/text-transform/reference/text-transform-fullwidth-008-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

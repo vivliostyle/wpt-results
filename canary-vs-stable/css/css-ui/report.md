@@ -1,12 +1,12 @@
 # canary vs stable comparison report
 
 - Compared entries: 1196
-- Entries with differences: 601 (improvement: 456, pending: 145, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with differences: 599 (improvement: 456, pending: 143, triaged: 0)
+- Entries with errors: 4 (pending: 4, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 0
-- Screenshot mismatches: 477
-- Outcome summary: {"pass":377,"known-fail":124,"changed-fail":7,"improvement":456,"expected-change":1,"unchanged":218,"changed":13}
+- Screenshot mismatches: 475
+- Outcome summary: {"pass":376,"known-fail":124,"error":4,"changed-fail":6,"improvement":456,"expected-change":1,"unchanged":217,"changed":12}
 
 ## Differences
 
@@ -343,19 +343,6 @@
   stable result: FAIL
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-block-start-width-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.0036256774292038776, diffPixels=3040
-  stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-
-- [0088] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html
-  triage: pending
-  outcome: changed-fail (baseline=FAIL, actual=FAIL)
-  reference: css/css-ui/compute-kind-widget-fallback-all-elements-ref.html (==)
-  canary result: FAIL
-  canary test: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  canary page 1: diffRatio=0.0036256774292038776, diffPixels=3040
-  canary reference render: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable result: FAIL
-  stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable page 1: diffRatio=0.022285989619113045, diffPixels=18686
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-fallback-all-elements-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
 - [0089] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-top-color-001.html
@@ -5918,10 +5905,45 @@
   canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-color-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-color-017.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
-- [1184] [WPT manual] css/css-ui/resize-010.html
+## Errors
+
+- [0069] [WPT reftest] css/css-ui/caret-shape-block-001-vrl.html
   triage: pending
-  outcome: changed (baseline=MANUAL, actual=MANUAL)
-  page 1: diffRatio=0.01192657049080223, diffPixels=10000
-  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
-  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  side: canary, stable
+  canary timeout: false
+  canary error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/caret-shape-block-001-vrl.html (429)
+  stable timeout: false
+  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/caret-shape-block-001-vrl.html (429)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/caret-shape-block-001-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/caret-shape-block-001-vrl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0088] [WPT reftest] css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html
+  triage: pending
+  side: canary, stable
+  canary timeout: false
+  canary error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html (429)
+  stable timeout: false
+  stable error: Error: Viewer error: Error: Failed to fetch a source document from https://raw.githack.com/web-platform-tests/wpt/master/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html (429)
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/compute-kind-widget-generated/grouped-kind-of-widget-fallback-border-image-source-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1060] [WPT manual] css/css-ui/cursor-image-png-025-manual.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/cursor-image-png-025-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/cursor-image-png-025-manual.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [1180] [WPT manual] css/css-ui/resize-006.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-ui/resize-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-ui/resize-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

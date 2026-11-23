@@ -2,11 +2,11 @@
 
 - Compared entries: 798
 - Entries with differences: 258 (improvement: 8, pending: 250, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 1 (pending: 1, triaged: 0)
+- Timeout entries: 1
 - Page count changed: 1
 - Screenshot mismatches: 9
-- Outcome summary: {"pass":539,"known-fail":249,"improvement":8,"changed-fail":1,"unchanged":1}
+- Outcome summary: {"pass":538,"known-fail":249,"improvement":8,"changed-fail":1,"error":1,"unchanged":1}
 
 ## Differences
 
@@ -3331,4 +3331,16 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/ttwf-reftest-rotate.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.00942199068773376, diffPixels=7900
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/reference/ttwf-reftest-rotate-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0734] [WPT reftest] css/css-transforms/transform3d-preserve3d-013.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-transforms/transform3d-preserve3d-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-transforms/transform3d-preserve3d-013.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
 

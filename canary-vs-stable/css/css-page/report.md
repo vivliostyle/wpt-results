@@ -2,11 +2,11 @@
 
 - Compared entries: 249
 - Entries with differences: 120 (improvement: 3, pending: 117, triaged: 0)
-- Entries with errors: 0 (pending: 0, triaged: 0)
-- Timeout entries: 0
+- Entries with errors: 2 (pending: 2, triaged: 0)
+- Timeout entries: 2
 - Page count changed: 2
 - Screenshot mismatches: 7
-- Outcome summary: {"pass":109,"known-fail":110,"expected-change":2,"regression":2,"improvement":3,"changed-fail":3,"unchanged":20}
+- Outcome summary: {"pass":108,"known-fail":110,"expected-change":2,"regression":2,"improvement":3,"changed-fail":3,"error":2,"unchanged":19}
 
 ## Differences
 
@@ -1596,4 +1596,26 @@
   stable test: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/tentative/safe-printable-inset-003-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
   stable page 1: diffRatio=0.3566, diffPixels=35660
   stable reference render: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/tentative/safe-printable-inset-003-print-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+## Errors
+
+- [0182] [WPT print-reftest] css/css-page/page-name-propagated-008-print.html
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-propagated-008-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-propagated-008-print.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0235] [WPT manual] css/css-page/page-name-000.xht
+  triage: pending
+  side: canary, stable
+  canary timeout: true
+  canary error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  stable timeout: true
+  stable error: TimeoutError: Timeout (10000ms): waiting for viewer ready
+  canary: https://vivliostyle.vercel.app/#src=https://wpt.live/css/css-page/page-name-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  stable: https://vivliostyle.org/viewer/#src=https://wpt.live/css/css-page/page-name-000.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
 
