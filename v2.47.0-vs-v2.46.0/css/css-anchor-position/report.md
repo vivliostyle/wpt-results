@@ -1,0 +1,1725 @@
+# v2.47.0 vs v2.46.0 comparison report
+
+- Compared entries: 242
+- Entries with differences: 133 (improvement: 7, pending: 126, triaged: 0)
+- Entries with errors: 0 (pending: 0, triaged: 0)
+- Timeout entries: 0
+- Page count changed: 21
+- Screenshot mismatches: 45
+- Outcome summary: {"changed-fail":36,"pass":109,"known-fail":87,"expected-change":1,"improvement":7,"regression":2}
+
+## Differences
+
+- [0001] [WPT reftest] css/css-anchor-position/anchor-abspos-to-fixedpos-001.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-abspos-to-fixedpos-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-abspos-to-fixedpos-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005951358674910312, diffPixels=4990
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-abspos-to-fixedpos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-abspos-to-fixedpos-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.005951358674910312, diffPixels=4990
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-abspos-to-fixedpos-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0002] [WPT reftest] css/css-anchor-position/anchor-abspos-to-fixedpos-002.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-abspos-to-fixedpos-002-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-abspos-to-fixedpos-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005951358674910312, diffPixels=4990
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-abspos-to-fixedpos-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-abspos-to-fixedpos-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.005951358674910312, diffPixels=4990
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-abspos-to-fixedpos-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0003] [WPT reftest] css/css-anchor-position/anchor-abspos-to-fixedpos-003.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-abspos-to-fixedpos-003-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-abspos-to-fixedpos-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005951358674910312, diffPixels=4990
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-abspos-to-fixedpos-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-abspos-to-fixedpos-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.005951358674910312, diffPixels=4990
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-abspos-to-fixedpos-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0012] [WPT reftest] css/css-anchor-position/anchor-center-safe-rtl.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-center-safe-rtl-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-safe-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0013882528051293794, diffPixels=1164
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-safe-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-safe-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0013882528051293794, diffPixels=1164
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-safe-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0014] [WPT reftest] css/css-anchor-position/anchor-center-scroll-001.html
+  triage: pending
+  outcome: expected-change (baseline=PASS, actual=PASS)
+  page 1: diffRatio=0.09541256392641784, diffPixels=80000
+  v2.47.0: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0015] [WPT reftest] css/css-anchor-position/anchor-center-scroll-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0016] [WPT reftest] css/css-anchor-position/anchor-center-scroll-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0017] [WPT reftest] css/css-anchor-position/anchor-center-scroll-horizontal-wm-001.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-center-scroll-horizontal-wm-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-horizontal-wm-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-horizontal-wm-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-horizontal-wm-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-horizontal-wm-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0018] [WPT reftest] css/css-anchor-position/anchor-center-scroll-vertical-wm-001.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-center-scroll-vertical-wm-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-vertical-wm-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  v2.47.0 page 2: diffRatio=0.0029816426227005574, diffPixels=2500
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-vertical-wm-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-vertical-wm-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0029816426227005574, diffPixels=2500
+  v2.46.0 page 2: diffRatio=0.0029816426227005574, diffPixels=2500
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-scroll-vertical-wm-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0019] [WPT reftest] css/css-anchor-position/anchor-center-visibility-change.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-center-visibility-change-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-visibility-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-visibility-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-visibility-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-center-visibility-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0021] [WPT reftest] css/css-anchor-position/anchor-fieldset-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-fieldset-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-fieldset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.00023853140981604457, diffPixels=200
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-fieldset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-fieldset-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.00023853140981604457, diffPixels=200
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-fieldset-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0023] [WPT reftest] css/css-anchor-position/anchor-fixedpos-nested-scroll-001.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-fixedpos-nested-scroll-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-fixedpos-nested-scroll-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 2: diffRatio=0.03577971147240669, diffPixels=30000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-fixedpos-nested-scroll-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-fixedpos-nested-scroll-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.03577971147240669, diffPixels=30000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-fixedpos-nested-scroll-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0029] [WPT reftest] css/css-anchor-position/anchor-name-dynamic-reflow-root.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-name-dynamic-reflow-root-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-name-dynamic-reflow-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-name-dynamic-reflow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-name-dynamic-reflow-root.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-name-dynamic-reflow-root-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0032] [WPT reftest] css/css-anchor-position/anchor-position-005.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0033] [WPT reftest] css/css-anchor-position/anchor-position-area-block-center-scroll.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-area-block-center-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-area-block-center-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0036] [WPT reftest] css/css-anchor-position/anchor-position-dynamic-006.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-dynamic-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.017889855736203344, diffPixels=15000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-dynamic-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.017889855736203344, diffPixels=15000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0047] [WPT reftest] css/css-anchor-position/anchor-position-multicol-007.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-multicol-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.00942199068773376, diffPixels=7900
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-multicol-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.00942199068773376, diffPixels=7900
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0059] [WPT reftest] css/css-anchor-position/anchor-position-non-anchored-fallback.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-non-anchored-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-non-anchored-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0060] [WPT reftest] css/css-anchor-position/anchor-position-top-layer-001.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-position-top-layer-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 page 2: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0061] [WPT reftest] css/css-anchor-position/anchor-position-top-layer-002.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-position-top-layer-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0062] [WPT reftest] css/css-anchor-position/anchor-position-top-layer-003.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-position-top-layer-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 page 2: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0063] [WPT reftest] css/css-anchor-position/anchor-position-top-layer-004.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-position-top-layer-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0064] [WPT reftest] css/css-anchor-position/anchor-position-top-layer-005.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-position-top-layer-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0065] [WPT reftest] css/css-anchor-position/anchor-position-top-layer-006.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-position-top-layer-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-position-top-layer-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0066] [WPT reftest] css/css-anchor-position/anchor-scope-scroll.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-scope-scroll-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scope-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scope-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scope-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scope-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0067] [WPT reftest] css/css-anchor-position/anchor-scroll-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1], reference=[1, 2]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1], reference=[1, 2]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0068] [WPT reftest] css/css-anchor-position/anchor-scroll-008.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-008.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0069] [WPT reftest] css/css-anchor-position/anchor-scroll-009.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0070] [WPT reftest] css/css-anchor-position/anchor-scroll-chained-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-chained-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0071] [WPT reftest] css/css-anchor-position/anchor-scroll-chained-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-chained-002-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0072] [WPT reftest] css/css-anchor-position/anchor-scroll-chained-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-chained-003-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0073] [WPT reftest] css/css-anchor-position/anchor-scroll-chained-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-chained-004-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.017889855736203344, diffPixels=15000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.017889855736203344, diffPixels=15000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0074] [WPT reftest] css/css-anchor-position/anchor-scroll-chained-fallback.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-chained-fallback-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-chained-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-chained-fallback-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0076] [WPT reftest] css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.008944927868101672, diffPixels=7500
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.008944927868101672, diffPixels=7500
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-composited-scrolling-paint-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0077] [WPT reftest] css/css-anchor-position/anchor-scroll-fixedpos-002.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 page 2: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0080] [WPT reftest] css/css-anchor-position/anchor-scroll-fixedpos-nested-001.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-fixedpos-nested-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos-nested-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.017889855736203344, diffPixels=15000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-nested-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos-nested-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.008944927868101672, diffPixels=7500
+  v2.46.0 page 2: diffRatio=0.0028504503473017325, diffPixels=2390
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-nested-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0081] [WPT reftest] css/css-anchor-position/anchor-scroll-fixedpos-nested-002.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-fixedpos-nested-002-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos-nested-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 2: diffRatio=0.008944927868101672, diffPixels=7500
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-nested-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos-nested-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.003935768261964736, diffPixels=3300
+  v2.46.0 page 2: diffRatio=0.006445118693229525, diffPixels=5404
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-nested-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0082] [WPT reftest] css/css-anchor-position/anchor-scroll-fixedpos.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-fixedpos-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 2: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-fixedpos.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-fixedpos-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0083] [WPT reftest] css/css-anchor-position/anchor-scroll-implicit-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-implicit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-implicit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0085] [WPT reftest] css/css-anchor-position/anchor-scroll-nested.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-nested-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.016036466681932676, diffPixels=13446
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-nested.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.016036466681932676, diffPixels=13446
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-nested-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0086] [WPT reftest] css/css-anchor-position/anchor-scroll-overflow-hidden.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.016172429585527823, diffPixels=13560
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.016172429585527823, diffPixels=13560
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-overflow-hidden-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0087] [WPT reftest] css/css-anchor-position/anchor-scroll-position-try-012.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-scroll-position-try-012-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.03577971147240669, diffPixels=30000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-012.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.03577971147240669, diffPixels=30000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-012-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0088] [WPT reftest] css/css-anchor-position/anchor-scroll-position-try-015.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-scroll-position-try-015-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-015.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-015.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-position-try-015-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0089] [WPT reftest] css/css-anchor-position/anchor-scroll-scrollable-anchor.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-scrollable-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 page 2: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-scrollable-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 page 2: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-scrollable-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0090] [WPT reftest] css/css-anchor-position/anchor-scroll-to-sticky-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0091] [WPT reftest] css/css-anchor-position/anchor-scroll-to-sticky-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-to-sticky-002-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0092] [WPT reftest] css/css-anchor-position/anchor-scroll-to-sticky-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-to-sticky-003-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0093] [WPT reftest] css/css-anchor-position/anchor-scroll-to-sticky-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-to-sticky-004-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0094] [WPT reftest] css/css-anchor-position/anchor-scroll-to-sticky-005.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0095] [WPT reftest] css/css-anchor-position/anchor-scroll-to-sticky-006.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0096] [WPT reftest] css/css-anchor-position/anchor-scroll-to-sticky-multiple.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-multiple.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-to-sticky-multiple.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-to-sticky-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0097] [WPT reftest] css/css-anchor-position/anchor-scroll-update-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1], reference=[1, 2]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1], reference=[1, 2]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0098] [WPT reftest] css/css-anchor-position/anchor-scroll-update-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1], reference=[1, 2]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1], reference=[1, 2]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0099] [WPT reftest] css/css-anchor-position/anchor-scroll-update-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1], reference=[1, 2]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1], reference=[1, 2]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0100] [WPT reftest] css/css-anchor-position/anchor-scroll-update-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1], reference=[1, 2]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1], reference=[1, 2]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0101] [WPT reftest] css/css-anchor-position/anchor-scroll-update-005.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-update-005-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0102] [WPT reftest] css/css-anchor-position/anchor-scroll-update-006.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-update-006-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0103] [WPT reftest] css/css-anchor-position/anchor-scroll-update-007.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1], reference=[1, 2]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-007.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1], reference=[1, 2]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0105] [WPT reftest] css/css-anchor-position/anchor-scroll-update-009.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-update-009-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0005366956720861003, diffPixels=450
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-009.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0005366956720861003, diffPixels=450
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-009-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0106] [WPT reftest] css/css-anchor-position/anchor-scroll-update-010.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/anchor-scroll-update-010-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.00047706281963208914, diffPixels=400
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/anchor-scroll-update-010.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.00047706281963208914, diffPixels=400
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/anchor-scroll-update-010-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0115] [WPT reftest] css/css-anchor-position/container-queries/anchored-fallback-color-change.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-color-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-color-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0116] [WPT reftest] css/css-anchor-position/container-queries/anchored-fallback-style-containment.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/container-queries/anchored-fallback-style-containment-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-style-containment.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.00003220174032516602, diffPixels=27
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-style-containment-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-style-containment.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.00003220174032516602, diffPixels=27
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/container-queries/anchored-fallback-style-containment-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0117] [WPT reftest] css/css-anchor-position/grid-lanes-position-area-basic.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/grid-lanes-position-area-basic-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/grid-lanes-position-area-basic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0017782516601786123, diffPixels=1491
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/grid-lanes-position-area-basic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/grid-lanes-position-area-basic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0017782516601786123, diffPixels=1491
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/grid-lanes-position-area-basic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0119] [WPT reftest] css/css-anchor-position/inherit-height-from-fallback.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/inherit-height-from-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/inherit-height-from-fallback.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0121] [WPT reftest] css/css-anchor-position/position-anchor-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-anchor-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02338323410426685, diffPixels=19606
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02338323410426685, diffPixels=19606
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0122] [WPT reftest] css/css-anchor-position/position-anchor-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-anchor-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02338323410426685, diffPixels=19606
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02338323410426685, diffPixels=19606
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0123] [WPT reftest] css/css-anchor-position/position-anchor-004.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-anchor-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.04914462636439967, diffPixels=41206
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.04914462636439967, diffPixels=41206
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0125] [WPT reftest] css/css-anchor-position/position-anchor-auto-pseudo-element-implicit-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-auto-pseudo-element-implicit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-auto-pseudo-element-implicit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0126] [WPT reftest] css/css-anchor-position/position-anchor-auto-pseudo-element-implicit-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-auto-pseudo-element-implicit-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-auto-pseudo-element-implicit-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0129] [WPT reftest] css/css-anchor-position/position-anchor-match-parent-dynamic.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-anchor-match-parent-dynamic-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0014311884588962675, diffPixels=1200
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-dynamic-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0130] [WPT reftest] css/css-anchor-position/position-anchor-match-parent-rendering.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-anchor-match-parent-rendering-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.007155942294481337, diffPixels=6000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-rendering.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.007155942294481337, diffPixels=6000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-rendering-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0131] [WPT reftest] css/css-anchor-position/position-anchor-match-parent-shadow.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-anchor-match-parent-shadow-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-shadow.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.002385314098160446, diffPixels=2000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-match-parent-shadow-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0135] [WPT reftest] css/css-anchor-position/position-anchor-normal-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.00834859934356156, diffPixels=7000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.00834859934356156, diffPixels=7000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0136] [WPT reftest] css/css-anchor-position/position-anchor-normal-pseudo-element-implicit-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-pseudo-element-implicit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-pseudo-element-implicit-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0138] [WPT reftest] css/css-anchor-position/position-anchor-normal-pseudo-element-implicit-003.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-pseudo-element-implicit-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-normal-pseudo-element-implicit-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0139] [WPT reftest] css/css-anchor-position/position-anchor-target-with-children.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-anchor-target-with-children-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-target-with-children.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.05741451034272193, diffPixels=48140
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-target-with-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-target-with-children.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.05741451034272193, diffPixels=48140
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-anchor-target-with-children-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0140] [WPT reftest] css/css-anchor-position/position-area-abs-inline-container.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-inline-container-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-abs-inline-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0951728398595527, diffPixels=79799
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-inline-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-abs-inline-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0951728398595527, diffPixels=79799
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-inline-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0143] [WPT reftest] css/css-anchor-position/position-area-anchor-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-anchor-002-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.004293565376688803, diffPixels=3600
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.004293565376688803, diffPixels=3600
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-anchor-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0150] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-001.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.002740725898786352, diffPixels=2298
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.002740725898786352, diffPixels=2298
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0151] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-002.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-002-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.002740725898786352, diffPixels=2298
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0027836615525532404, diffPixels=2334
+  v2.46.0 page 2: diffRatio=0.0056531944126402564, diffPixels=4740
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0152] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-003-ltr.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-003-ltr-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0153] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-003-rtl.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-003-rtl-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-003-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0154] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-004-ltr.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-004-ltr-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0028015514082894437, diffPixels=2349
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.002633386764369132, diffPixels=2208
+  v2.46.0 page 2: diffRatio=0.005395580490038928, diffPixels=4524
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0155] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-004-rtl.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-004-rtl-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.002772927639111518, diffPixels=2325
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0016530226700251888, diffPixels=1386
+  v2.46.0 page 2: diffRatio=0.0056531944126402564, diffPixels=4740
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-004-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0156] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-005-ltr.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-005-ltr-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-005-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-005-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-005-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-005-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0157] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-005-rtl.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-005-rtl-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-005-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-005-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-005-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-005-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0158] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-006-ltr.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-006-ltr-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-006-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-006-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-006-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.004007327684909549, diffPixels=3360
+  v2.46.0 page 2: diffRatio=0.0056531944126402564, diffPixels=4740
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-006-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0159] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-006-rtl.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-006-rtl-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-006-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005108150141210595, diffPixels=4283
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-006-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-006-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.004007327684909549, diffPixels=3360
+  v2.46.0 page 2: diffRatio=0.0056531944126402564, diffPixels=4740
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-006-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0160] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-007-ltr.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-007-ltr-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-007-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0004973379894664529, diffPixels=417
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-007-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-007-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0004973379894664529, diffPixels=417
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-007-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0161] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-007-rtl.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-007-rtl-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-007-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0004973379894664529, diffPixels=417
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-007-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-007-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0004973379894664529, diffPixels=417
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-007-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0162] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-008-ltr.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-008-ltr-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-008-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0004973379894664529, diffPixels=417
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-008-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-008-ltr.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.00024330203801236548, diffPixels=204
+  v2.46.0 page 2: diffRatio=0.005395580490038928, diffPixels=4524
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-008-ltr-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0163] [WPT reftest] css/css-anchor-position/position-area-overflow-icb-008-rtl.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-overflow-icb-008-rtl-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-008-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.0004973379894664529, diffPixels=417
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-008-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-008-rtl.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.00024330203801236548, diffPixels=204
+  v2.46.0 page 2: diffRatio=0.005395580490038928, diffPixels=4524
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-overflow-icb-008-rtl-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0165] [WPT reftest] css/css-anchor-position/position-area-pseudo-element-implicit-anchor-dynamic.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-dynamic.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.04770628196320892, diffPixels=40000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0166] [WPT reftest] css/css-anchor-position/position-area-pseudo-element-implicit-anchor.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.03577971147240669, diffPixels=30000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.03577971147240669, diffPixels=30000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-pseudo-element-implicit-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0168] [WPT reftest] css/css-anchor-position/position-area-scrolling-004.tentative.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-scrolling-004.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-scrolling-004.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0169] [WPT reftest] css/css-anchor-position/position-area-visibility-change.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/reference/position-area-visibility-change-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-area-visibility-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/reference/position-area-visibility-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-area-visibility-change.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/reference/position-area-visibility-change-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0173] [WPT reftest] css/css-anchor-position/position-try-fallbacks-004.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-try-fallbacks-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-try-fallbacks-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0176] [WPT reftest] css/css-anchor-position/position-try-order-include-base.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-try-order-include-base.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.012130514846194948, diffPixels=10171
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-try-order-include-base.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.012130514846194948, diffPixels=10171
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0177] [WPT reftest] css/css-anchor-position/position-try-order-logical.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-try-order-logical-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-try-order-logical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.007513739409205404, diffPixels=6300
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-try-order-logical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-try-order-logical.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.007513739409205404, diffPixels=6300
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-try-order-logical-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0178] [WPT reftest] css/css-anchor-position/position-try-switch-from-fixed-anchor.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-anchor-position/position-try-switch-from-fixed-anchor-ref.html (==)
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-try-switch-from-fixed-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-try-switch-from-fixed-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0179] [WPT reftest] css/css-anchor-position/position-try-switch-to-fixed-anchor.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.005963285245401115, diffPixels=5000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-try-switch-to-fixed-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0187] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out-ref.html (==)
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.023473876039996948, diffPixels=19682
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0189] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-chained-001.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out-ref.html (==)
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-chained-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.023201950232806655, diffPixels=19454
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0190] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-chained-002.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out-ref.html (==)
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-chained-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.023442866956720862, diffPixels=19656
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0191] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-chained-003.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out-ref.html (==)
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-chained-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.034634760705289674, diffPixels=29040
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-after-scroll-out-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0193] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-change-anchor.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-change-anchor-ref.html (==)
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-change-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.035305033966872755, diffPixels=29602
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-change-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0194] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-change-css-visibility.html
+  triage: not-needed
+  outcome: improvement (baseline=FAIL, actual=PASS)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-change-css-visibility-ref.html (==)
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-change-css-visibility.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.023473876039996948, diffPixels=19682
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-change-css-visibility-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0200] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-non-intervening-container.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-non-intervening-container-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-non-intervening-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02350369246622395, diffPixels=19707
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-non-intervening-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-non-intervening-container.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02350369246622395, diffPixels=19707
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-non-intervening-container-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0201] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-position-fixed.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-position-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.023473876039996948, diffPixels=19682
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-position-fixed.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.023473876039996948, diffPixels=19682
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0202] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-stacked-child.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-stacked-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02869175062972292, diffPixels=24057
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-stacked-child.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02869175062972292, diffPixels=24057
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0203] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-stacked-child.tentative.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-stacked-child.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02869175062972292, diffPixels=24057
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-stacked-child.tentative.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02869175062972292, diffPixels=24057
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0204] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-transform.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-transform.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-transform.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0205] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible-with-position.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-with-position-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-with-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.011727396763605832, diffPixels=9833
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-with-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-with-position.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.011727396763605832, diffPixels=9833
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-with-position-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0206] [WPT reftest] css/css-anchor-position/position-visibility-anchor-visible.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-anchor-visible-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.023473876039996948, diffPixels=19682
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.023473876039996948, diffPixels=19682
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0207] [WPT reftest] css/css-anchor-position/position-visibility-initial.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-initial-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.023473876039996948, diffPixels=19682
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.023473876039996948, diffPixels=19682
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-initial-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0209] [WPT reftest] css/css-anchor-position/position-visibility-no-overflow-scroll-002.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.017704993893595908, diffPixels=14845
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.017704993893595908, diffPixels=14845
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0210] [WPT reftest] css/css-anchor-position/position-visibility-no-overflow-scroll.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.011865744981299137, diffPixels=9949
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.011865744981299137, diffPixels=9949
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-no-overflow-scroll-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0214] [WPT reftest] css/css-anchor-position/position-visibility-remove-anchor-visible.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/position-visibility-remove-anchor-visible-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchor-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02481800053431036, diffPixels=20809
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchor-visible.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02481800053431036, diffPixels=20809
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/position-visibility-remove-anchor-visible-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0216] [WPT reftest] css/css-anchor-position/pseudo-element-implicit-anchor-center.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/pseudo-element-implicit-anchor-center.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/pseudo-element-implicit-anchor-center.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.01192657049080223, diffPixels=10000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0217] [WPT reftest] css/css-anchor-position/pseudo-element-implicit-anchor.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/pseudo-element-implicit-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/pseudo-element-implicit-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.02385314098160446, diffPixels=20000
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0218] [WPT reftest] css/css-anchor-position/pseudo-element-with-slotted-anchor.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.013958858102434928, diffPixels=11704
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.013958858102434928, diffPixels=11704
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/pseudo-element-with-slotted-anchor-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0219] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-000.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.004918517670406839, diffPixels=4124
+  v2.47.0 page 2: diffRatio=0.006406953667658958, diffPixels=5372
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.004643013892069308, diffPixels=3893
+  v2.46.0 page 2: diffRatio=0.007244198916113274, diffPixels=6074
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-000-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0220] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-001.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-anchor-position/scroll-to-anchored-fixed-001-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-001.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.002120544233264636, diffPixels=1778
+  v2.47.0 page 2: diffRatio=0.007935940004579803, diffPixels=6654
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-001-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0221] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-002.html
+  triage: pending
+  outcome: regression (baseline=PASS, actual=FAIL)
+  reference: css/css-anchor-position/scroll-to-anchored-fixed-002-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-002.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.002120544233264636, diffPixels=1778
+  v2.47.0 page 2: diffRatio=0.007935940004579803, diffPixels=6654
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-002-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0222] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-003.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.006597778795511793, diffPixels=5532
+  v2.47.0 page 2: diffRatio=0.0110177658194031, diffPixels=9238
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.014168765743073047, diffPixels=11880
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-003-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0223] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-004.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.006597778795511793, diffPixels=5532
+  v2.47.0 page 2: diffRatio=0.0110177658194031, diffPixels=9238
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 2: diffRatio=0.014168765743073047, diffPixels=11880
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-004-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0224] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-005.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.003365678192504389, diffPixels=2822
+  v2.47.0 page 2: diffRatio=0.012885466758262729, diffPixels=10804
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0022612777650561026, diffPixels=1896
+  v2.46.0 page 2: diffRatio=0.01274354056942218, diffPixels=10685
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-005-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0225] [WPT reftest] css/css-anchor-position/scroll-to-anchored-fixed-006.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.003365678192504389, diffPixels=2822
+  v2.47.0 page 2: diffRatio=0.012885466758262729, diffPixels=10804
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.0022612777650561026, diffPixels=1896
+  v2.46.0 page 2: diffRatio=0.01274354056942218, diffPixels=10685
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/scroll-to-anchored-fixed-006-ref.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0236] [WPT reftest] css/css-anchor-position/transform-018.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/transform-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/transform-018.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0237] [WPT reftest] css/css-anchor-position/transform-020.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/transform-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/transform-020.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0238] [WPT reftest] css/css-anchor-position/transform-022.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/transform-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/transform-022.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0239] [WPT reftest] css/css-anchor-position/transform-024.html
+  triage: pending
+  outcome: changed-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square.xht (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/transform-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 selected pages: test=[1, 2], reference=[1]
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/transform-024.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 selected pages: test=[1, 2], reference=[1]
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square.xht&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
+- [0240] [WPT reftest] css/css-anchor-position/under-invalidation.html
+  triage: pending
+  outcome: known-fail (baseline=FAIL, actual=FAIL)
+  reference: css/reference/ref-filled-green-100px-square-only.html (==)
+  v2.47.0 result: FAIL
+  v2.47.0 test: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/css-anchor-position/under-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.47.0 page 1: diffRatio=0.006763558125333944, diffPixels=5671
+  v2.47.0 reference render: https://vivliostyle.github.io/viewer/v2.47.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 result: FAIL
+  v2.46.0 test: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/css-anchor-position/under-invalidation.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+  v2.46.0 page 1: diffRatio=0.006763558125333944, diffPixels=5671
+  v2.46.0 reference render: https://vivliostyle.github.io/viewer/v2.46.0/#src=https://wpt.live/css/reference/ref-filled-green-100px-square-only.html&pixelRatio=0&bookMode=false&zoom=1&spread=false
+
